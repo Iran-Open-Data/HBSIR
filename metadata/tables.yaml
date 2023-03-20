@@ -10,7 +10,7 @@
 #                                                                             #
 #               Expenditures:                                                 #
 #                   - food                                                    #
-#                   - cigaret                                                 #
+#                   - tobacco                                                 #
 #                   - cloth                                                   #
 #                   - home                                                    #
 #                   - furniture                                               #
@@ -41,31 +41,31 @@
 
 
 tables:
-    household_information: 1388
-    members_properties: 1363
-    house_specifications: 1363
+    household_information:      1388
+    members_properties:         1363
+    house_specifications:       1363
 
-    food: 1363
-    cigaret: 1383
-    cloth: 1363
-    home: 1363
-    furniture: 1363
-    medical: 1363
-    transportation: 1363
-    communication: 1363
-    entertainment: 1363
-    education: 1363
-    hotel: 1363
-    other: 1363
-    durable: 1363
-    investment: 1363
+    food:                       1363
+    tobacco:                    1383
+    cloth:                      1363
+    home:                       1363
+    furniture:                  1363
+    medical:                    1363
+    transportation:             1363
+    communication:              1363
+    entertainment:              1363
+    education:                  1363
+    hotel:                      1363
+    other:                      1363
+    durable:                    1363
+    investment:                 1363
 
-    employment_income: 1363
-    self_employed_income: 1363
-    other_income: 1363
-    subsidy: 1363
-    public_employment_income: 1363
-    private_employment_income: 1363
+    employment_income:          1363
+    self_employed_income:       1363
+    other_income:               1363
+    subsidy:                    1363
+    public_employment_income:   1363
+    private_employment_income:  1363
 
 
 ###############################################################################
@@ -489,7 +489,7 @@ food:
         DYCOL07: "drop"
 
 
-cigaret:
+tobacco:
     1363: null
     1383:
         file_code: "P3S02"

@@ -1,29 +1,32 @@
 
 
 food:
+
   columns:
+
     Price_System:
       1363:
-        type: 'categorical'
+        type: categorical
         categories:
-          Free_Price: "Provision_Method=='Purchase_Free_Price'"
-          Subsidised_Price: "Provision_Method=='Purchase_Subsidised_Price'"
+          Free_Price:       {Provision_Method: Purchase_Free_Price}
+          Subsidised_Price: {Provision_Method: Purchase_Subsidised_Price}
       1369: null
+
     Provision_Method:
       1363:
-        type: 'categorical'
+        type: categorical
         categories:
-          Purchase_Free_Price: Purchase
-          Purchase_Subsidised_Price: Purchase
+          Purchase: [Purchase_Free_Price, Purchase_Subsidised_Price]
       1369: null
+
     Amount:
       1363:
-        type: 'numerical'
-        calculation: "1 Kilos"
+        type: numerical
+        expression: "Kilos"
       1383:
-        type: 'numerical'
-        calculation: "0.001 Grams + 1 Kilos"
-        
+        type: numerical
+        expression: "0.001 * Grams + Kilos"
+
   order:
     - Year
     - ID
