@@ -534,3 +534,23 @@ def _get_code_range(code_range_info):
             code_range.extend(_get_code_range(element))
 
     return code_range
+
+
+@pd.api.extensions.register_dataframe_accessor("hbs")
+class HBSFrame:
+    """Household Budget Survay pandas API"""
+
+    def __init__(self, data_table):
+        self.table = data_table
+
+    def add_attribute(self):
+        """
+        Add Household attributes to the DataFrame
+        """
+        return add_attribute(self.table)
+
+    def add_classification(self):
+        """
+        Add Commodities Classification to the DataFrame
+        """
+        return add_classification(self.table)
