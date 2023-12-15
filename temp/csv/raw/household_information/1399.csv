@@ -1,0 +1,18 @@
+Column,Missing_Count,Availability_Ratio,Data_Type,Unique_Values,Frequent_Values
+Address,0,100.0,integer,37557,20002385813: 1; 11308170523: 1; 11302160123: 1
+MahMorajeh,0,100.0,integer,12,"3: 3,273; 10: 3,255; 11: 3,236"
+Fasl,0,100.0,integer,4,"3: 9,506; 4: 9,395; 2: 9,362"
+weight,0,100.0,floating,1875,48.53333333333331: 378; 763.5478467201459: 222; 382.9498904882191: 198
+NoeKhn,0,100.0,integer,2,"1: 37,533; 2: 24"
+Takmil,0,100.0,integer,2,"1: 28,211; 2: 9,346"
+TakmilDescA,37557,-0.0,integer,1,
+TakmilDescB,29185,22.291450328833506,integer,8,"1: 5,010; 7: 2,215; 2: 707"
+TakmilDescC,35340,5.903027398354499,string,75,"88: 1,304; هشتادو هشت: 344; هشتاد و هشت: 319"
+Jaygozin,29185,22.291450328833506,integer,2,"1: 8,372"
+JaygozinDescA,37557,-0.0,integer,1,
+JaygozinDescB,37557,-0.0,integer,1,
+JaygozinDescC,37557,-0.0,integer,1,
+BlkAbdJaygozin,29185,22.291450328833506,integer,1418,"1: 1,139; 2: 832; 3: 619"
+RadifJaygozin,29185,22.291450328833506,integer,17,"25: 1,070; 27: 1,070; 30: 1,029"
+IsTel,7730,79.4179513805682,integer,3,"1: 15,868; 2: 13,959"
+FVam,4322,88.49215858561654,integer,3,"1: 24,916; 2: 8,319"

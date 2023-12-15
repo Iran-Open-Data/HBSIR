@@ -1,0 +1,3 @@
+Column,Missing_Count,Availability_Ratio,Data_Type,Unique_Values,Frequent_Values
+address,0,100.0,integer,39305,2000194001: 1; 1102742004: 1; 1102706001: 1
+MahMorajeh,0,100.0,integer,12,"7: 3,533; 3: 3,461; 4: 3,396"

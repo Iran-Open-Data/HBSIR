@@ -1,0 +1,14 @@
+1363:
+  column_code: COL02
+  type: UInt32
+  replace:
+    X01: null
+    X02: null
+    X03: null
+    X04: null
+    x01: null
+    x02: null
+    x03: null
+    x04: null
+    x0000: 0
+    x000: 0

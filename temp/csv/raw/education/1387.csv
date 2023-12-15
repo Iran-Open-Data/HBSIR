@@ -1,0 +1,5 @@
+Column,Missing_Count,Availability_Ratio,Data_Type,Unique_Values,Frequent_Values
+Address,0,,floating,0,
+DYCOL01,0,,floating,0,
+DYCOL02,0,,floating,0,
+DYCOL03,0,,floating,0,

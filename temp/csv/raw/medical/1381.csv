@@ -1,0 +1,5 @@
+Column,Missing_Count,Availability_Ratio,Data_Type,Unique_Values,Frequent_Values
+ADDRESS,0,100.0,integer,26098,115012003: 22; 22052062: 15; 106014002: 15
+COL1,0,100.0,integer,42,"51114: 20,923; 51318: 12,174; 51329: 8,335"
+COL3,0,100.0,integer,8,"1: 79,437; 3: 2,223; 4: 2,195"
+COL4,0,100.0,integer,6392,"10000: 4,600; 20000: 4,576; 15000: 3,194"

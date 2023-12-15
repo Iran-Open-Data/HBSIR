@@ -1,0 +1,16 @@
+Column,Missing_Count,Availability_Ratio,Data_Type,Unique_Values,Frequent_Values
+Address,0,100.0,integer,38328,20011395420: 1; 11204152412: 1; 11206155015: 1
+MahMorajeh,0,100.0,integer,12,"3: 3,377; 9: 3,315; 10: 3,309"
+Fasl,0,100.0,integer,4,"3: 9,878; 1: 9,746; 2: 9,721"
+weight,0,100.0,floating,1701,47.95641025641025: 390; 731.0154771000609: 216; 629.2635937207816: 204
+NoeKhn,0,100.0,integer,2,"1: 38,302; 2: 26"
+Takmil,0,100.0,integer,2,"1: 28,756; 2: 9,572"
+TakmilDescA,38328,-0.0,integer,1,
+TakmilDescB,30124,21.404717178042166,integer,8,"1: 6,388; 2: 926; 3: 681"
+TakmilDescC,38270,0.15132540179503273,string,46,هشتادو هشت: 6; هشتادوهشت: 6; خانوار اصلي با خانوار جايگزين ادغام شده: 3
+Jaygozin,30124,21.404717178042166,integer,2,"1: 8,204"
+JaygozinDescA,38328,-0.0,integer,1,
+JaygozinDescB,38328,-0.0,integer,1,
+JaygozinDescC,38328,-0.0,integer,1,
+BlkAbdJaygozin,30124,21.404717178042166,integer,1342,"1: 1,606; 2: 971; 3: 715"
+RadifJaygozin,30124,21.404717178042166,integer,17,"21: 1,035; 22: 958; 19: 916"

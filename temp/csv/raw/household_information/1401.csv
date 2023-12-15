@@ -1,0 +1,14 @@
+Column,Missing_Count,Availability_Ratio,Data_Type,Unique_Values,Frequent_Values
+Address,0,100.0,integer,37951,20916495838: 1; 12001231241: 1; 12001231629: 1
+Fasl,0,100.0,integer,4,"3: 9,612; 1: 9,501; 4: 9,432"
+weight,0,100.0,floating,1768,49.59300978339786: 342; 817.1812943463569: 240; 1105.1315617276832: 192
+NoeKhn,0,100.0,integer,2,"1: 37,942; 2: 9"
+Takmil,0,100.0,integer,2,"1: 27,785; 2: 10,166"
+TakmilDescA,36476,3.886590603673157,integer,2,"1: 1,475"
+TakmilDescB,37951,-0.0,integer,1,
+TakmilDescC,29264,22.890042423124555,integer,8,"1: 6,432; 7: 838; 2: 763"
+Jaygozin,29260,22.900582329846387,integer,2,"1: 8,691"
+JaygozinDescA,37950,0.0026349766804600883,integer,2,2: 1
+JaygozinDescB,37941,0.026349766804567576,integer,6,1: 5; 2: 2; 3: 1
+BlkAbdJaygozin,29260,22.900582329846387,integer,1525,1: 666; 2: 586; 3: 536
+RadifJaygozin,29260,22.900582329846387,integer,17,"40: 1,127; 39: 1,127; 37: 1,120"
