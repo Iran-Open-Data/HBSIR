@@ -1,0 +1,1183 @@
+
+ANCHORS:
+
+  common_expenditure_order: &common_expenditure_order
+    1363:
+      - Year
+      - ID
+      - Table_Name
+      - Code
+      - Provision_Method
+      - Duration: int
+      - Expenditure
+    1369:
+      - Year
+      - ID
+      - Table_Name
+      - Code
+      - Provision_Method
+      - Price_System
+      - Amount
+      - Duration: int
+      - Expenditure
+    1370:
+      - Year
+      - ID
+      - Table_Name
+      - Code
+      - Provision_Method
+      - Price_System
+      - Duration: int
+      - Expenditure
+    1374:
+      - Year
+      - ID
+      - Table_Name
+      - Code
+      - Provision_Method
+      - Duration: int
+      - Expenditure
+
+
+household_information:
+
+  instructions:
+
+    - add_year
+
+    - apply_function:
+        1387: hbsir.schema_functions.standard_tables.create_season
+        1396: null
+
+    - apply_function:
+        1387: hbsir.api.add_weight
+        1396: null
+
+    - apply_order:
+        1387:
+          - Year
+          - ID
+          - Season
+          - Month
+          - Weight
+          - Household_Type
+          - Main_Household
+          - Alternative_Household
+        1400:
+          - Year
+          - ID
+          - Season
+          - Weight
+          - Household_Type
+          - Main_Household
+          - Alternative_Household
+
+
+census_month:
+
+  instructions:
+
+    - add_year
+
+
+house_specifications:
+
+  instructions:
+
+    - add_year
+
+
+members_properties:
+
+  instructions:
+
+    - add_year
+
+
+Number_of_Members:
+
+  table_list:
+    members_properties
+
+  instructions:
+
+    - apply_function: hbsir.schema_functions.standard_tables.number_of_members
+
+    - apply_order:
+      - Year
+      - ID
+      - Members
+      - Adults
+      - Childs
+
+
+Equivalence_Scale:
+
+  table_list:
+    Number_of_Members
+
+  instructions:
+
+    - apply_function: hbsir.schema_functions.standard_tables.equivalence_scale
+
+    - apply_order:
+      - Year
+      - ID
+      - Household
+      - Per_Capita
+      - OECD
+      - OECD_Modified
+      - Square_Root
+
+
+food:
+
+  instructions:
+
+    - add_year
+
+    - add_table_name
+
+    - create_column:
+        1363:
+          name: Price_System
+          type: categorical
+          categories:
+            Free_Price:       {Provision_Method: Purchase_Free_Price}
+            Subsidised_Price: {Provision_Method: Purchase_Subsidised_Price}
+        1369: null
+
+    - create_column:
+        1363:
+          name: Provision_Method
+          type: categorical
+          categories:
+            Purchase: [Purchase_Free_Price, Purchase_Subsidised_Price]
+        1369: null
+
+    - create_column:
+        name: Amount
+        type: numerical
+        versions:
+          1363:
+            expression: "Kilos"
+          1383:
+            expression: "Kilos + 0.001 * Grams"
+
+    - create_column:
+        1363: null
+        1369:
+          name: Duration
+          type: numerical
+          expression: 30
+
+    - create_column:
+        1363:
+          name: Price
+          type: numerical
+          expression: "Expenditure / Amount"
+        1369: null
+        1370:
+          name: Price
+          type: numerical
+          expression: "Expenditure / Amount"
+        1372: null
+
+    - add_classification:
+        1363: {name: Duration}
+        1369: null
+
+    - apply_filter:
+        1363: null
+        1364: "Code not in [18888, 19993]"
+        1365: "Code not in [18888]"
+        1366: "Code not in [18888, 19993, 91112, 91124, 91142, 91171, 91197]"
+        1367: null
+
+    - apply_order:
+        1363:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Price_System
+          - Amount
+          - Duration: int
+          - Price
+          - Expenditure
+        1374:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Amount
+          - Duration: int
+          - Price
+          - Expenditure
+
+
+tobacco:
+
+  instructions:
+
+    - add_year
+
+    - add_table_name
+
+    - create_column:
+        name: Duration
+        type: numerical
+        expression: 30
+
+    - apply_order:
+      - Year
+      - ID
+      - Table_Name
+      - Code
+      - Provision_Method
+      - Amount
+      - Duration: int
+      - Price
+      - Expenditure
+
+
+cloth:
+
+  instructions:
+
+    - add_year
+
+    - add_table_name
+
+    - create_column:
+        name: Duration
+        type: numerical
+        expression: 30
+
+    - apply_order: *common_expenditure_order
+
+
+home:
+
+  instructions:
+
+    - add_year
+
+    - add_table_name
+
+    - create_column:
+        name: Duration
+        type: numerical
+        expression: 30
+
+    - apply_order:
+        1363:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Duration: int
+          - Expenditure
+        1369:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Price_System
+          - Amount
+          - Duration: int
+          - Expenditure
+        1370:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Price_System
+          - Duration: int
+          - Expenditure
+        1374:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Duration: int
+          - Expenditure
+        1384:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Duration: int
+          - Expenditure
+          - Security_Deposit
+
+
+furniture:
+
+  instructions:
+
+    - add_year
+
+    - add_table_name
+
+    - create_column:
+        name: Duration
+        type: numerical
+        expression: 30
+
+    - apply_order: *common_expenditure_order
+
+
+medical:
+
+  instructions:
+
+    - add_year
+
+    - add_table_name
+
+    - create_column:
+        name: Duration
+        type: numerical
+        expression: 30
+
+    - apply_order: *common_expenditure_order
+
+
+transportation:
+
+  instructions:
+
+    - add_year
+
+    - add_table_name
+
+    - create_column:
+        name: Duration
+        type: numerical
+        expression: 30
+
+    - apply_order: *common_expenditure_order
+
+
+communication:
+
+  instructions:
+
+    - add_year
+
+    - add_table_name
+
+    - create_column:
+        name: Duration
+        type: numerical
+        expression: 30
+
+    - apply_order: *common_expenditure_order
+
+
+entertainment:
+
+  instructions:
+
+    - add_year
+
+    - add_table_name
+
+    - create_column:
+        name: Duration
+        type: numerical
+        expression: 30
+
+    - apply_order: *common_expenditure_order
+
+
+education:
+
+  instructions:
+
+    - add_year
+
+    - add_table_name
+
+    - create_column:
+        name: Duration
+        type: numerical
+        expression: 30
+
+    - apply_order: *common_expenditure_order
+
+
+hotel:
+
+  instructions:
+
+    - add_year
+
+    - add_table_name
+
+    - create_column:
+        name: Duration
+        type: numerical
+        expression: 30
+
+    - apply_order: *common_expenditure_order
+
+
+miscellaneous:
+
+  instructions:
+
+    - add_year
+
+    - add_table_name
+
+    - create_column:
+        name: Duration
+        type: numerical
+        expression: 30
+
+    - apply_order: *common_expenditure_order
+
+
+durable:
+
+  instructions:
+
+    - add_year
+
+    - add_table_name
+
+    - create_column:
+        name: Duration
+        type: numerical
+        expression: 360
+
+    - apply_order:
+        1363:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Duration: int
+          - Expenditure
+          - Secondhand_Sale
+        1369:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Price_System
+          - Duration: int
+          - Expenditure
+          - Secondhand_Sale
+        1370:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Price_System
+          - Duration: int
+          - Expenditure
+          - Secondhand_Sale
+        1374:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Duration: int
+          - Expenditure
+          - Secondhand_Sale
+
+
+investment:
+
+  instructions:
+
+    - add_year
+
+    - add_table_name
+
+    - create_column:
+        name: Duration
+        type: numerical
+        expression: 360
+
+    - apply_order:
+        1366:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Duration: int
+          - Expenditure
+        1367:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Duration: int
+          - Expenditure
+          - Secondhand_Sale
+        1369:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Price_System
+          - Duration: int
+          - Expenditure
+          - Secondhand_Sale
+        1370:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Price_System
+          - Duration: int
+          - Expenditure
+          - Secondhand_Sale
+        1374:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Duration: int
+          - Expenditure
+          - Secondhand_Sale
+        1375: null
+        1378:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Duration: int
+          - Expenditure
+          - Secondhand_Sale
+
+
+Weight:
+
+  table_list:
+    1376:
+      - external.hbsir_weights
+    1396:
+      - household_information
+
+  instructions:
+
+    - filter_year
+
+    - apply_order:
+      - Year
+      - ID
+      - Weight
+
+
+Original_Expenditures:
+
+  table_list:
+    1363:
+      - food
+      - cloth
+      - home
+      - furniture
+      - medical
+      - transportation
+      - entertainment
+      - miscellaneous
+      - durable
+
+    1383:
+      - food
+      - tobacco
+      - cloth
+      - home
+      - furniture
+      - medical
+      - transportation
+      - communication
+      - entertainment
+      - education
+      - hotel
+      - miscellaneous
+      - durable
+
+  instructions:
+    - create_column:
+        name: Gross_Expenditure
+        type: numerical
+        expression: "Expenditure"
+
+    - create_column:
+        name: Net_Expenditure
+        type: numerical
+        expression: "Expenditure - Secondhand_Sale"
+
+    - apply_order:
+        1363:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Price_System
+          - Amount
+          - Duration: int
+          - Price
+          - Gross_Expenditure
+          - Net_Expenditure
+        1374:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Amount
+          - Duration: int
+          - Price
+          - Gross_Expenditure
+          - Net_Expenditure
+
+
+Expenditures:
+
+  table_list:
+    - Original_Expenditures
+
+  instructions:
+    - create_column:
+        name: Gross_Expenditure
+        type: numerical
+        expression: "Gross_Expenditure / Duration * 360"
+
+    - create_column:
+        name: Net_Expenditure
+        type: numerical
+        expression: "Net_Expenditure / Duration * 360"
+        
+    - apply_order:
+        1363:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Price_System
+          - Amount
+          - Price
+          - Gross_Expenditure
+          - Net_Expenditure
+        1374:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Amount
+          - Price
+          - Gross_Expenditure
+          - Net_Expenditure
+
+
+Total_Expenditure:
+
+  table_list:
+    - Expenditures
+
+  instructions:
+
+    - apply_pandas_function: >
+        .groupby(["Year", "ID"], as_index=False)
+        [["Gross_Expenditure", "Net_Expenditure"]].sum()
+
+    - apply_order:
+      - Year
+      - ID
+      - Gross_Expenditure
+      - Net_Expenditure
+
+  cache_result: true
+
+
+Expenditure_Breakdown:
+
+  table_list:
+    - Expenditures
+
+
+# Expenditures and Investments
+Original_Outlays:
+
+  table_list:
+    1363:
+      - food
+      - cloth
+      - home
+      - furniture
+      - medical
+      - transportation
+      - entertainment
+      - miscellaneous
+      - durable
+
+    1366:
+      - food
+      - cloth
+      - home
+      - furniture
+      - medical
+      - transportation
+      - entertainment
+      - miscellaneous
+      - durable
+      - investment
+    
+    1375:
+      - food
+      - cloth
+      - home
+      - furniture
+      - medical
+      - transportation
+      - entertainment
+      - miscellaneous
+      - durable
+
+    1378:
+      - food
+      - cloth
+      - home
+      - furniture
+      - medical
+      - transportation
+      - entertainment
+      - miscellaneous
+      - durable
+      - investment
+
+    1383:
+      - food
+      - tobacco
+      - cloth
+      - home
+      - furniture
+      - medical
+      - transportation
+      - communication
+      - entertainment
+      - education
+      - hotel
+      - miscellaneous
+      - durable
+      - investment
+
+  instructions:
+    - create_column:
+        name: Gross_Expenditure
+        type: numerical
+        expression: "Expenditure"
+
+    - create_column:
+        name: Net_Expenditure
+        type: numerical
+        expression: "Expenditure - Secondhand_Sale"
+
+    - apply_order:
+        1363:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Price_System
+          - Amount
+          - Duration: int
+          - Price
+          - Gross_Expenditure
+          - Net_Expenditure
+        1374:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Amount
+          - Duration: int
+          - Price
+          - Gross_Expenditure
+          - Net_Expenditure
+
+
+Outlays:
+
+  table_list:
+    - Original_Outlays
+
+  instructions:
+    - create_column:
+        name: Gross_Expenditure
+        type: numerical
+        expression: "Gross_Expenditure / Duration * 360"
+
+    - create_column:
+        name: Net_Expenditure
+        type: numerical
+        expression: "Net_Expenditure / Duration * 360"
+        
+    - apply_order:
+        1363:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Price_System
+          - Amount
+          - Price
+          - Gross_Expenditure
+          - Net_Expenditure
+        1374:
+          - Year
+          - ID
+          - Table_Name
+          - Code
+          - Provision_Method
+          - Amount
+          - Price
+          - Gross_Expenditure
+          - Net_Expenditure
+
+
+Total_Outlay:
+
+  table_list:
+    - Outlays
+
+  instructions:
+
+    - apply_pandas_function: >
+        .groupby(["Year", "ID"], as_index=False)
+        [["Gross_Expenditure", "Net_Expenditure"]].sum()
+
+    - apply_order:
+      - Year
+      - ID
+      - Gross_Expenditure
+      - Net_Expenditure
+
+  cache_result: true
+
+
+employment_income:
+
+  instructions:
+
+    - add_year
+
+    - add_table_name
+
+
+self_employed_income:
+
+  instructions:
+
+    - add_year
+
+    - add_table_name
+
+
+other_income:
+
+  instructions:
+
+    - add_year
+
+    - add_table_name
+
+
+_long_other_income:
+  table_list:
+    - other_income
+
+  instructions:
+
+    - apply_pandas_function: >
+        .drop(columns=['Table_Name'])
+        .set_index(['Year', 'ID', 'Member_Number'])
+        .stack()
+        .to_frame()
+        .reset_index()
+        .set_axis(['Year', 'ID', 'Member_Number', 'Type', 'Value'], axis='columns')
+
+    - create_column:
+        name: Other_Incomes
+        type: numerical
+        expression: Value
+
+    - create_column:
+        name: Other_Income_Type
+        type: categorical
+        categories:
+          Retirement:        {Type: Retirement}
+          Rent:              {Type: Rent}
+          Interest:          {Type: Interest}
+          Aid:               {Type: Aid}
+          Home_Production:   {Type: Home_Production}
+          Transfer:          {Type: Transfer}
+
+    - apply_filter: "Other_Incomes > 0"
+
+    - apply_order:
+      - Year
+      - ID
+      - Member_Number
+      - Other_Incomes
+      - Other_Income_Type
+
+
+subsidy:
+
+  instructions:
+
+    - add_year
+
+    - add_table_name
+
+
+public_employment_income:
+
+  instructions:
+
+    - add_year
+
+    - add_table_name
+
+
+private_employment_income:
+
+  instructions:
+
+    - add_year
+
+    - add_table_name
+
+
+Imputed_Rent:
+
+  table_list:
+    - home
+
+  instructions:
+
+    - add_classification:
+        name: Imputed_Rent
+
+    - apply_filter: "Imputed_Rent.notnull() & (Provision_Method.isnull() or Provision_Method == 'Purchase')"
+
+    - create_column:
+        name: Income
+        type: numerical
+        expression: "Expenditure * 12"
+
+    - create_column:
+        name: Income_Type
+        type: categorical
+        categories:
+          NonCash_ImputedRent_Ownership: {Imputed_Rent: Ownership}
+          NonCash_ImputedRent_Mortgage: {Imputed_Rent: Mortgage}
+
+    - apply_order:
+      - Year
+      - ID
+      - Income_Type
+      - Income
+
+
+NonCash_Incomes_Excluding_Imputed_Rent:
+
+  table_list:
+    - Expenditures
+
+  instructions:
+
+    - create_column:
+        name: Income
+        type: numerical
+        expression: "Net_Expenditure"
+
+    - create_column:
+        name: Income_Type
+        type: categorical
+        categories:
+          NonCash_Private:          {Provision_Method: Instead_of_Private_Service}
+          NonCash_Public:           {Provision_Method: Instead_of_Public_Service}
+          NonCash_Cooperative:      {Provision_Method: Instead_of_Cooperative_Service}
+          NonCash_Agricultural:     {Provision_Method: Agricultural_Work}
+          NonCash_NonAgricultural:  {Provision_Method: Non_Agricultural_Work}
+          NonCash_Donation:         {Provision_Method: Donation}   
+          NonCash_HomeProduction:   {Provision_Method: Home_Production}   
+
+    - apply_filter: "(Provision_Method != 'Purchase') & Provision_Method.notnull()"
+
+    - apply_order:
+      - Year
+      - ID
+      - Income_Type
+      - Income
+
+
+NonCash_Incomes:
+
+  table_list:
+    - Imputed_Rent
+    - NonCash_Incomes_Excluding_Imputed_Rent
+
+  instructions:
+
+    - apply_order:
+      - Year
+      - ID
+      - Income_Type
+      - Income
+
+
+Cash_Incomes:
+
+  table_list:
+    1369:
+      - employment_income
+      - self_employed_income
+      - _long_other_income
+    1390:
+      - employment_income
+      - self_employed_income
+      - _long_other_income
+      - subsidy
+
+  instructions:
+
+    - create_column:
+        name: Income
+        type: numerical
+        expression:
+          1363: "Yearly_Net_Income + Profit + Other_Incomes"
+          1390: "Yearly_Net_Income + Profit + Other_Incomes + Subsidy"
+
+    - create_column:
+        name: Income_Type
+        type: categorical
+        categories:
+          Cash_Public:              {Table_Name: employment_income, Sector: Public}
+          Cash_Private:             {Table_Name: employment_income, Sector: Private}
+          Cash_Cooperative:         {Table_Name: employment_income, Sector: Cooperative}
+          Cash_Agricultural:        {Table_Name: self_employed_income, Is_Agricultural: true}
+          Cash_NonAgricultural:     {Table_Name: self_employed_income, Is_Agricultural: false}
+          Cash_Retirement:          {Other_Income_Type: Retirement}
+          Cash_Rent:                {Other_Income_Type: Rent}
+          Cash_Interest:            {Other_Income_Type: Interest}
+          Cash_Aid:                 {Other_Income_Type: Aid}
+          Cash_Home_Production:     {Other_Income_Type: Home_Production}
+          Cash_Transfer:            {Other_Income_Type: Transfer}
+          Cash_Subsidy:             {Table_Name: subsidy}
+
+    - apply_order:
+      - Year
+      - ID
+      - Member_Number
+      - Income_Type
+      - Income
+
+
+Income_Breakdown:
+  table_list:
+    - NonCash_Incomes
+    - Cash_Incomes
+
+  instructions:
+
+    - apply_pandas_function: >
+        .groupby(["Year", "ID", "Income_Type"], as_index=False).sum()
+
+    - apply_order:
+      - Year
+      - ID
+      - Income_Type
+      - Income
+
+  cache_result: true
+
+
+Total_Income:
+  table_list:
+    - Income_Breakdown
+
+  instructions:
+
+    - apply_pandas_function: >
+        .groupby(["Year", "ID"], as_index=False).sum(numeric_only=True)
+
+    - apply_order:
+      - Year
+      - ID
+      - Income
+
+  cache_result: true
+
+
+Members_Income_Breakdown:
+
+  table_list:
+    - Cash_Incomes
+
+  instructions:
+
+    - apply_pandas_function: >
+        .groupby(
+          ["Year", "ID", "Member_Number", "Income_Type"],
+          as_index=False,
+          observed=True
+        )
+        .sum()
+
+    - apply_order:
+      - Year
+      - ID
+      - Member_Number
+      - Income_Type
+      - Income
+
+
+Members_Total_Income:
+
+  table_list:
+    - Members_Income_Breakdown
+
+  instructions:
+
+    - apply_pandas_function: >
+        .groupby(["Year", "ID", "Member_Number"], as_index=False).sum(numeric_only=True)
+
+    - apply_order:
+      - Year
+      - ID
+      - Member_Number
+      - Income
+
+  cache_result: true

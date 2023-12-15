@@ -1,0 +1,2298 @@
+
+
+###############################################################################
+##                         - - -    Tables   - - -                           ##
+###############################################################################
+#                                                                             #
+#           Tables:                                                           #
+#                                                                             #
+#               General:                                                      #
+#                   - household_information                                   #
+#                   - members_properties                                      #
+#                   - house_specifications                                    #
+#                                                                             #
+#               Expenditures:                                                 #
+#                   - food                                                    #
+#                   - tobacco                                                 #
+#                   - cloth                                                   #
+#                   - home                                                    #
+#                   - furniture                                               #
+#                   - medical                                                 #
+#                   - transportation                                          #
+#                   - communication                                           #
+#                   - entertainment                                           #
+#                   - education                                               #
+#                   - hotel                                                   #
+#                   - miscellaneous                                           #
+#                   - durable                                                 #
+#                   - investment                                              #
+#                                                                             #
+#               Incomes:                                                      #
+#                   - employment_income                                       #
+#                   - self_employed_income                                    #
+#                   - other_income                                            #
+#                   - subsidy                                                 #
+#                                                                             #
+#_____________________________________________________________________________#
+
+
+###############################################################################
+##                   - - -    Global Specifications   - - -                  ##
+###############################################################################
+
+# The range of years during which the table is available
+table_availability:
+  household_information:                                          {start: 1387}
+  members_properties:                                             {start: 1363}
+  house_specifications:                                           {start: 1369}
+  old_rural_house_specifications:                      {start: 1363, end: 1369}
+  old_urban_house_specifications:                      {start: 1363, end: 1369}
+  census_month:                                              [1387, 1390, 1391]
+
+  food:                                                           {start: 1363}
+  tobacco:                                                        {start: 1383}
+  cloth:                                                          {start: 1363}
+  home:                                                           {start: 1363}
+  furniture:                                                      {start: 1363}
+  medical:                                                        {start: 1363}
+  transportation:                                                 {start: 1363}
+  communication:                                                  {start: 1383}
+  entertainment:                                                  {start: 1363}
+  education:                                                      {start: 1383}
+  hotel:                                                          {start: 1383}
+  miscellaneous:                                                  {start: 1363}
+  durable:                                                        {start: 1363}
+  investment:                         [{start: 1366, end: 1375}, {start: 1378}]
+
+  employment_income:                                              {start: 1369}
+  self_employed_income:                                           {start: 1369}
+  other_income:                                                   {start: 1369}
+  subsidy:                                                        {start: 1390}
+
+  old_rural_public_employment_income:                  {start: 1363, end: 1369}
+  old_urban_public_employment_income:                  {start: 1363, end: 1369}
+  old_rural_private_employment_income:                 {start: 1363, end: 1369}
+  old_urban_private_employment_income:                 {start: 1363, end: 1369}
+  old_agricultural_self_employed_income:               {start: 1363, end: 1369}
+  old_non_agricultural_self_employed_income:           {start: 1363, end: 1369}
+  old_other_income:                                    {start: 1363, end: 1369}
+
+
+default_settings:
+  # error, drop, keep
+  missings: error
+
+
+GLOBAL_ITEMS:
+
+  global_address: &global_address
+    new_name: ID
+    type: UInt64
+
+  global_member_number: &global_member_number
+    new_name: Member_Number
+    type: UInt8
+
+
+
+###############################################################################
+##                      - - -    General Tables   - - -                      ##
+###############################################################################
+
+
+household_information:
+
+  settings:
+    missings: drop
+
+  file_code:
+    1363: null
+    1387: "*Data*"
+
+  columns:
+    ADDRESS: *global_address
+    FASL:
+      new_name: Season
+      type: category
+      categories: 
+        1: Spring
+        2: Summer
+        3: Autumn
+        4: Winter
+    MAHMORAJEH:
+      new_name: Month
+      type: unsigned
+    WEIGHT:
+      new_name: Weight
+      type: unsigned
+    NOEKHN:
+      new_name: Household_Type
+      type: category
+      categories: 
+        1: Normal
+        2: Group
+    TAKMIL:
+      new_name: Main_Household
+      type: boolean
+      true_condition: 1
+    JAYGOZIN:
+      new_name: Alternative_Household
+      type: boolean
+      true_condition: 1
+
+
+MEMBERS_ITEMS:
+
+  members_member_relationship: &members_member_relationship
+    new_name: Relationship
+    type: category
+    categories:
+      1: Head
+      2: Spouse
+      3: Child
+      4: Child_in_Law
+      5: Grand_Child
+      6: Parent
+      7: Sibling
+      8: Other_Family
+      9: Non_Family
+    replace:
+      1369: {0: null}
+      1370: null
+      1371: {0: null}
+      1372: null
+
+  members_sex: &members_sex
+    new_name: Sex
+    type: category
+    categories:
+      1: Male
+      2: Female
+    replace:
+      1369: {0: null, 3: null, 4: null, 5: null, 6: null, 8: null}
+      1370: null
+
+  members_age: &members_age
+    new_name: Age
+    type: UInt8
+
+  members_is_literate: &members_is_literate
+    new_name: Is_Literate
+    type: boolean
+    true_condition: 1
+
+  members_is_student: &members_is_student
+    new_name: Is_Student
+    type: boolean
+    true_condition: 1
+
+  members_marrital_state: &members_marrital_state
+    new_name: Marrital_State
+    type: category
+    categories: 
+      1: Married
+      2: Widowed
+      3: Divorced
+      4: Bachelor
+    replace:
+      1369: {0: null, 5: null, 7: null, 8: null, 9: null}
+      1370: null
+
+  members_activity_state: &members_activity_state
+    new_name: Activity_State
+    type:
+      1363: UInt16
+      1369: category
+    categories: 
+      1: Employed
+      2: Unemployed
+      3: Income_without_Work
+      4: Student
+      5: Housekeeper
+      6: Other
+    replace:
+      1364: {"ٌق": null}
+      1365: null
+      1369: {0: null, 9: null}
+      1370: {7: null}
+      1371: {9: null}
+      1372: null
+
+  members_education_level: &members_education_level
+    new_name: Education_Level
+    type:
+      1363: string
+      1393: category
+    categories:
+      1393:
+        11: Primary
+        21: Secondary
+        31: Tertiary
+        41: Pre_University
+        51: College
+        52: Bachelors
+        53: Masters
+        61: PhD
+        71: Unofficial
+      1397:
+        1: Primar
+        2: Secondary
+        3: Tertiary
+        4: Pre_University
+        5: College
+        6: Bachelors
+        7: Masters
+        8: PhD
+        9: Unofficial
+    replace:
+      1394: {"1": null}
+      1395: null
+
+  memders_member_weeks: &memders_member_weeks
+    new_name: Weeks_in_Household
+    type: UInt16
+
+  members_nationality: &members_nationality
+    new_name: Nationality
+    type: UInt8
+
+  members_literacy_status: &members_literacy_status
+    new_name: "Literacy_Status"
+    type: UInt8
+
+  members_job_code: &members_job_code
+    new_name: Job_Code
+    type: string
+
+  members_work_place: &members_work_place
+    new_name: Work_Place
+    type: UInt32
+
+  members_work_type: &members_work_type
+    new_name: Work_Type
+    type: UInt32
+
+  members_employed_weeks: &members_employed_weeks
+    new_name: Weeks_in_Employment
+    type: UInt32
+
+
+members_properties:
+
+  file_code: "*P1*"
+
+  columns:
+    ADDRESS: *global_address
+
+    COL01: *global_member_number
+    COL03: *members_member_relationship
+    COL04: *members_sex
+    COL05: *members_age
+    COL06:
+      1363: *memders_member_weeks
+      1364: *members_marrital_state
+      1366: *memders_member_weeks
+      1369: *members_is_literate
+    COL07:
+      1363: *members_marrital_state
+      1364: *members_nationality
+      1366: *members_literacy_status
+      1369: *members_is_student
+    COL08: 
+      1363: *members_nationality
+      1364: *memders_member_weeks
+      1366: *members_education_level
+    COL09:
+      1363: *members_literacy_status
+      1366: *members_activity_state
+    COL10:
+      1363: *members_education_level
+      1366: *members_job_code
+      1369: *members_marrital_state
+    COL11:
+      1363: *members_activity_state
+      1366: *members_work_place
+      1369: null
+    COL12:
+      1363: *members_job_code
+      1366: *members_work_type
+      1369: null
+    COL13:
+      1363: *members_work_place
+      1366: *members_employed_weeks
+      1369: null
+    COL14:
+      1363: *members_work_type
+      1366: null
+    COL15:
+      1363: *members_employed_weeks
+      1366: null
+
+    DYCOL01: *global_member_number
+    DYCOL03: *members_member_relationship
+    DYCOL04: *members_sex
+    DYCOL05: *members_age
+    DYCOL06: *members_is_literate
+    DYCOL07: *members_is_student
+    DYCOL08: *members_education_level
+    DYCOL09: *members_activity_state
+    DYCOL10: *members_marrital_state
+
+
+HOUSE_ITEMS:
+
+  house_lives_in_house: &house_lives_in_house
+    new_name: Lives_in_House
+    type: boolean
+    true_condition: 1
+
+  house_num_households: &house_num_households
+    new_name: Number_of_Households_in_House
+    type: UInt8
+
+  house_dwelling: &house_dwelling
+    new_name: Dwelling_Type
+    type: category
+    categories:
+      1: Apartment_Unit
+      2: Non_Apartment_Unit
+      3: Other
+
+  house_is_apartment: &house_is_apartment
+    new_name: Is_Apartment
+    type: boolean
+    true_condition: 1
+
+  house_has_second_dwelling: &house_has_second_dwelling
+    new_name: Has_Second_Dwelling
+    type: boolean
+    true_condition: 1
+
+  house_other_dwelling: &house_other_dwelling
+    new_name: Other_Dwelling_Types
+    type: string
+
+  house_tenure: &house_tenure
+    new_name: Tenure
+    type: category
+    categories:
+      1: Owned_Estate_Land
+      2: Owned_Estate
+      3: Rent
+      4: Mortgage
+      5: Service
+      6: Free
+      7: Other
+
+  house_other_tenure: &house_other_tenure
+    new_name: Other_tenure
+    type: string
+
+  house_rooms: &house_rooms
+    new_name: Number_of_Rooms
+    type: UInt8
+
+  house_area: &house_area
+    new_name: House_Area
+    type: UInt16
+
+  house_structure: &house_structure
+    new_name: Structure_Type 
+    type: category
+    categories:
+      1: Metal
+      2: Reinforced_Concrete
+      3: Other
+
+  house_rural_materials: &house_rural_materials
+    new_name: Structure_Main_Materials
+    type: category
+    categories:
+      1363:
+        1: Cement_Block
+        2: Brick_Stone_Iron
+        3: Brick_Stone_Wood
+        4: Adobe_Clay_Wood
+        5: Tent
+        6: Other
+      1366:
+        1: Metal_and_Reinforced_Concrete
+        2: Brick_Stone_Block_Joist
+        3: Brick_Stone_Wood
+        4: Cement_Block
+        5: Brick_Stone
+        6: Wood
+        7: Adobe_Wood
+        8: Adobe_Clay
+        9: Other
+
+  house_urban_materials: &house_urban_materials
+    new_name: Structure_Main_Materials
+    type: category
+    categories:
+      1363:
+        1: Metal_and_Reinforced_Concrete
+        2: Cement_Block_and_Block_Joist
+        3: Brick_Stone_Block_Joist
+        4: Brick_Stone_Wood
+        5: Adobe_Clay_Wood
+        6: Other
+      1366:
+        1: Metal_and_Reinforced_Concrete
+        2: Brick_Stone_Block_Joist
+        3: Brick_Stone_Wood
+        4: Cement_Block
+        5: Brick_Stone
+        6: Wood
+        7: Adobe_Wood
+        8: Adobe_Clay
+        9: Other
+
+  house_materials: &house_materials
+    new_name: Structure_Main_Materials
+    type: category
+    categories:
+      1369:
+        1: Brick
+        2: Ceramic_Block
+        3: Cement_Block
+        4: Concrete
+        5: Iron_Beam
+        6: Stone
+        7: Wood
+        8: Adobe
+        9: Clay
+        10: Other
+      1377:
+        1: Brick_and_Iron_or_Stone_and_Iron  
+        2: Brick_and_Wood_or_Stone_and_Wood
+        3: Cement_Block    
+        4: All_Brick_or_Stone_and_Brick
+        5: All_Wood
+        6: Adobe_and_Wood
+        7: Adobe_and_Clay
+        8: Other
+    replace:
+      1363: {0: null, 15: null, 70: null}
+      1383: {'00': null, '11': null, '31': null, '61': null}
+      1389: null
+
+  house_car: &house_car
+    new_name: Car
+    type: boolean
+    true_condition: 1
+
+  house_motorcycle: &house_motorcycle
+    new_name: Motorcycle
+    type: boolean
+    true_condition: 1
+
+  house_bicycle: &house_bicycle
+    new_name: Bicycle
+    type: boolean
+    true_condition: 1
+
+  house_radio: &house_radio
+    new_name: Radio
+    type: boolean
+    true_condition: 1
+
+  house_cassette: &house_cassette
+    new_name: Cassette
+    type: boolean
+    true_condition: 1
+
+  house_tv: &house_tv
+    new_name: TV
+    type: boolean
+    true_condition: 1
+
+  house_bwtv: &house_bwtv
+    new_name: Black_and_White_TV
+    type: boolean
+    true_condition: 1
+
+  house_crtv: &house_crtv
+    new_name: Color_TV
+    type: boolean
+    true_condition: 1
+
+  house_vcr: &house_vcr
+    new_name: VCR
+    type: boolean
+    true_condition: 1
+
+  house_pc: &house_pc
+    new_name: PC
+    type: boolean
+    true_condition: 1
+
+  house_cellphone: &house_cellphone
+    new_name: Cellphone
+    type: boolean
+    true_condition: 1
+
+  house_freezer: &house_freezer
+      new_name: Freezer
+      type: boolean
+      true_condition: 1
+
+  house_refrigerator: &house_refrigerator
+      new_name: Refrigerator
+      type: boolean
+      true_condition: 1
+
+  house_freezer_refrigrator: &house_freezer_refrigrator
+      new_name: Freezer_Refrigrator
+      type: boolean
+      true_condition: 1
+
+  house_oven: &house_oven
+      new_name: Oven
+      type: boolean
+      true_condition: 1
+
+  house_vacuum_cleaner: &house_vacuum_cleaner
+      new_name: Vacuum_Cleaner
+      type: boolean
+      true_condition: 1
+
+  house_washing_machine: &house_washing_machine
+      new_name: Washing_Machine
+      type: boolean
+      true_condition: 1
+
+  house_sewing_machine: &house_sewing_machine
+      new_name: Sewing_Machine
+      type: boolean
+      true_condition: 1
+
+  house_fan: &house_fan
+      new_name: Fan
+      type: boolean
+      true_condition: 1
+
+  house_portable_evaporative_ac: &house_portable_evaporative_ac
+      new_name: Portable_Evaporative_AC
+      type: boolean
+      true_condition: 1
+
+  house_portable_split_ac: &house_portable_split_ac
+      new_name: Portable_AC
+      type: boolean
+      true_condition: 1
+
+  house_portable_ac: &house_portable_ac
+      new_name: Portable_AC
+      type: boolean
+      true_condition: 1
+
+  house_dishwasher: &house_dishwasher
+      new_name: Dishwasher
+      type: boolean
+      true_condition: 1
+
+  house_microwave_oven: &house_microwave_oven
+      new_name: Microwave_Oven
+      type: boolean
+      true_condition: 1
+
+  house_no_appliances: &house_no_appliances
+      new_name: No_Appliances
+      type: boolean
+      true_condition: 1
+
+  house_pipe_water: &house_pipe_water
+    new_name: Pipe_Water
+    type: boolean
+    true_condition: 1
+
+  house_electricity: &house_electricity
+    new_name: Electricity
+    type: boolean
+    true_condition: 1
+
+  house_natural_gas: &house_natural_gas
+    new_name: Natural_Gas
+    type: boolean
+    true_condition: 1
+
+  house_phone: &house_phone
+    new_name: Phone
+    type: boolean
+    true_condition: 1
+
+  house_internet: &house_internet
+    new_name: Internet
+    type: boolean
+    true_condition: 1
+
+  house_bathroom: &house_bathroom
+    new_name: Bathroom
+    type: boolean
+    true_condition: 1
+
+  house_kitchen: &house_kitchen
+    new_name: Kitchen
+    type: boolean
+    true_condition: 1
+
+  house_evaporative_ac: &house_evaporative_ac
+    new_name: Evaporative_Air_Conditioner
+    type: boolean
+    true_condition: 1
+
+  house_central_ac: &house_central_ac
+    new_name: Central_Air_Conditioner
+    type: boolean
+    true_condition: 1
+
+  house_split_ac: &house_split_ac
+    new_name: Split_Air_Conditioner
+    type: boolean
+    true_condition: 1
+
+  house_ac: &house_ac
+    new_name: Air_Conditioner
+    type: boolean
+    true_condition: 1
+
+  house_hvac: &house_hvac
+    new_name: HVAC
+    type: boolean
+    true_condition: 1
+
+  house_central_heating: &house_central_heating
+    new_name: Central_Heating
+    type: boolean
+    true_condition: 1
+
+  house_water_heater: &house_water_heater
+    new_name: Water_Heater
+    type: boolean
+    true_condition: 1
+
+  house_sewerage: &house_sewerage
+    new_name: Sewerage
+    type: boolean
+    true_condition: 1
+
+  house_elevator: &house_elevator
+    new_name: Elevator
+    type: boolean
+    true_condition: 1
+
+  house_swimming_pool: &house_swimming_pool
+    new_name: Swimming_Pool
+    type: boolean
+    true_condition: 1
+
+  party_month: &party_month
+    new_name: Party_Month
+    type: boolean
+    true_condition: 1
+
+  party_year: &party_year
+    new_name: Party_Year
+    type: boolean
+    true_condition: 2
+
+  ceremony_month: &ceremony_month
+    new_name: Ceremony_Month
+    type: boolean
+    true_condition: 1
+
+  ceremony_year: &ceremony_year
+    new_name: Ceremony_Year
+    type: boolean
+    true_condition: 2
+
+  homerepair_month: &homerepair_month
+    new_name: Homerepair_Month
+    type: boolean
+    true_condition: 1
+
+  homerepair_year: &homerepair_year
+    new_name: Homerepair_Year
+    type: boolean
+    true_condition: 2
+
+  ziarati_trip_month: &ziarati_trip_month
+    new_name: Ziarati_Trip_Month
+    type: boolean
+    true_condition: 1
+  ziarati_trip_year: &ziarati_trip_year
+    new_name: Ziarati_Trip_Year
+    type: boolean
+    true_condition: 2
+
+  foreign_trip_month: &foreign_trip_month
+    new_name: Foreign_Trip_Month
+    type: boolean
+    true_condition: 1
+
+  foreign_trip_year: &foreign_trip_year
+    new_name: Foreign_Trip_Year
+    type: boolean
+    true_condition: 2
+
+  surgery_month: &surgery_month
+    new_name: Surgery_Month
+    type: boolean
+    true_condition: 1
+
+  surgery_year: &surgery_year
+    new_name: Surgery_Year
+    type: boolean
+    true_condition: 2
+
+  other_event_month: &other_event_month
+    new_name: Other_Event_mMnth
+    type: boolean
+    true_condition: 1
+
+  other_event_year: &other_event_year
+    new_name: Other_Event_Year
+    type: boolean
+    true_condition: 2
+
+  other_event_name: &other_event_name
+    new_name: Other_Event_Name
+    type: string
+
+  no_event_month: &no_event_month
+    new_name: No_Event_Month
+    type: boolean
+    true_condition: 1
+
+  no_event_year: &no_event_year
+    new_name: No_Event_Year
+    type: boolean
+    true_condition: 2
+
+  house_cooking_fuel: &house_cooking_fuel
+    new_name: Cooking_Fuel
+    type: category
+    categories:
+      1369:
+        1: Karosine
+        2: Gasoline
+        3: Gas
+        4: Electricity
+        5: Wood_and_Charcoal
+        6: Animal_Fuel
+        7: Other_Fuel
+      1385:
+        1: Karosine
+        2: Gasoline
+        3: Gas
+        4: Electricity
+        5: Wood_and_Charcoal
+        6: Animal_Fuel
+        7: Charcoal
+        8: Other_Fuel
+      1386:
+        1: Karosine
+        2: Gasoline
+        3: Liquid_Gas
+        4: Piped_Gas
+        5: Electricity
+        6: Wood_and_Charcoal
+        7: Animal_Fuel
+        8: Coal
+        9: Other_Fuel
+        10: None
+    replace:
+      1383: {30: null}
+
+  house_heatfuel: &house_heatfuel
+    new_name: Heating_Fuel
+    type: category
+    categories:
+      1369:
+        8: Karosine
+        9: Gasoline
+        10: Gas
+        11: Electricity
+        12: Wood_and_Charcoal
+        13: Animal_Fuel
+        14: Other_Fuel
+      1385:
+        9: Karosine
+        10: Gasoline
+        11: Gas
+        12: Electricity
+        13: Wood_and_Charcoal
+        14: Animal_Fuel
+        15: Charcoal
+        16: Other_Fuel
+      1386:
+        11: Karosine
+        12: Gasoline
+        13: Liquid_Gas
+        14: Piped_Gas
+        15: Electricity
+        16: Wood_and_Charcoal
+        17: Animal_Fuel
+        18: Coal
+        19: Other_Fuel
+        20: None
+    replace:
+      1383: {1: null, 2: null, 83: null, 88: null}
+
+  house_hotwaterfuel: &house_hotwaterfuel
+    new_name: Hotwater_Fuel
+    type: category
+    categories:
+      1368:
+        21: Karosine
+        22: Gasoline
+        23: Liquid_Gas
+        24: Piped_Gas
+        25: Electricity
+        26: Wood_and_Charcoal
+        27: Animal_Fuel
+        28: Coal
+        29: Other_Fuel
+        30: None
+
+  cooperative_members: &cooperative_members
+    new_name: Cooperative_Members
+    type: UInt8
+
+  consumption_cooperatives: &consumption_cooperatives
+    new_name: Consumption_Cooperative
+    type: UInt8
+
+  house_cooperatives: &house_cooperatives
+    new_name: House_Cooperative
+    type: UInt8
+
+  other_cooperatives: &other_cooperatives
+    new_name: Other_Cooperative
+    type: UInt8
+
+
+house_specifications:
+
+  file_code: "*P2*"
+
+  columns:
+
+    ADDRESS: *global_address
+
+    Q1: *house_tenure
+    Q2: *house_rooms
+    Q3: *house_area
+    Q4A:
+      <<: *house_materials
+      new_name: Main_Materials_1
+    Q4B:
+      <<: *house_materials
+      new_name: Main_Materials_2
+    Q4: *house_structure
+    Q4_1: *house_materials
+
+    Q5_01: *house_car
+    Q5_02: *house_motorcycle
+    Q5_03: *house_bicycle
+    Q5_04: *house_sewing_machine
+    Q5_05: *house_radio
+    Q5_06: *house_cassette
+    Q5_07: *house_bwtv
+    Q5_08: *house_crtv
+    Q5_09: *house_freezer
+    Q5_10: *house_refrigerator
+    Q5_11: *house_oven
+    Q5_12: *house_vacuum_cleaner
+    Q5_13: *house_washing_machine
+    Q5_14: *house_vcr
+    Q5_15: *house_pc
+    Q5_16: *house_cellphone
+    Q5_17: *house_fan
+    Q5_18: *house_portable_evaporative_ac
+
+    Q6_1: *house_pipe_water
+    Q6_2: *house_electricity
+    Q6_3: *house_natural_gas
+    Q6_4: *house_bathroom
+    Q6_5: *house_ac
+    Q6_6: *house_phone
+    Q6_7: *house_central_heating
+    Q6_8: *house_kitchen
+    Q6_9: {1377: *house_cellphone, 1378: null}
+
+    Q6_01: *house_pipe_water
+    Q6_02: *house_electricity
+    Q6_03: *house_natural_gas
+    Q6_04: *house_bathroom
+    Q6_05: *house_ac
+    Q6_06: *house_phone
+    Q6_07: *house_central_heating
+    Q6_08: *house_kitchen
+    Q6_09: *house_central_ac
+    Q6_10: *house_internet
+
+    Q7A: *house_cooking_fuel
+    Q7B: *house_heatfuel
+
+    Q8_1: {1378: *cooperative_members}
+    Q8_2_1: {1378: *consumption_cooperatives}
+    Q8_2_2: {1378: *house_cooperatives}
+    Q8_2_3: {1378: *other_cooperatives}
+
+    DYCOL001: *house_dwelling
+    DYCOL002: *house_other_dwelling
+    DYCOL01: *house_tenure
+    DYCOL02:
+      1383: *house_rooms
+      1387: *house_other_tenure
+    DYCOL03: 
+      1383: *house_area
+      1387: *house_rooms
+    DYCOL04:
+      1383: *house_structure
+      1387: *house_area
+    DYCOL05:
+      1383: *house_materials
+      1387: *house_structure
+    DYCOL06:
+      1383: *house_car
+      1387: *house_materials
+    DYCOL07:
+      1383: *house_motorcycle
+      1387: *house_car
+    DYCOL08:
+      1383: *house_bicycle
+      1387: *house_motorcycle
+    DYCOL09:
+      1383: *house_radio
+      1387: *house_bicycle
+    DYCOL10:
+      1383: *house_cassette
+      1387: *house_radio
+    DYCOL11:
+      1383: *house_bwtv
+      1387: *house_cassette
+    DYCOL12:
+      1383: *house_crtv
+      1387: *house_bwtv
+    DYCOL13:
+      1383: *house_vcr
+      1387: *house_crtv
+    DYCOL14:
+      1383: *house_pc
+      1387: *house_vcr
+    DYCOL15:
+      1383: *house_cellphone
+      1387: *house_pc
+    DYCOL16:
+      1383: *house_freezer
+      1387: *house_cellphone
+    DYCOL17:
+      1383: *house_refrigerator
+      1387: *house_freezer
+    DYCOL18:
+      1383: *house_oven
+      1384: *house_freezer_refrigrator
+      1387: *house_refrigerator
+    DYCOL19:
+      1383: *house_vacuum_cleaner
+      1384: *house_oven
+      1387: *house_freezer_refrigrator
+    DYCOL20:
+      1383: *house_washing_machine
+      1384: *house_vacuum_cleaner
+      1387: *house_oven
+    DYCOL21:
+      1383: *house_sewing_machine
+      1384: *house_washing_machine
+      1387: *house_vacuum_cleaner
+    DYCOL22:
+      1383: *house_fan
+      1384: *house_sewing_machine
+      1387: *house_washing_machine
+    DYCOL23:
+      1383: *house_portable_evaporative_ac
+      1384: *house_fan
+      1387: *house_sewing_machine
+    DYCOL24:
+      1383: *house_no_appliances
+      1384: *house_portable_evaporative_ac
+      1387: *house_fan
+    DYCOL25:
+      1383: *house_pipe_water
+      1384: *house_no_appliances
+      1385: *house_portable_split_ac
+      1387: *house_portable_evaporative_ac
+    DYCOL26:
+      1383: *house_electricity
+      1384: *house_pipe_water
+      1385: *house_dishwasher
+      1387: *house_portable_split_ac
+    DYCOL27:
+      1383: *house_natural_gas
+      1384: *house_electricity
+      1385: *house_no_appliances
+      1387: *house_dishwasher
+    DYCOL28:
+      1383: *house_phone
+      1384: *house_natural_gas
+      1385: *house_pipe_water
+      1387: *house_no_appliances
+      1391: *house_microwave_oven
+    DYCOL29:
+      1383: *house_internet
+      1384: *house_phone
+      1385: *house_electricity
+      1387: *house_pipe_water
+      1391: *house_no_appliances
+    DYCOL30:
+      1383: *house_bathroom
+      1384: *house_internet
+      1385: *house_natural_gas
+      1387: *house_electricity
+      1391: *house_pipe_water
+    DYCOL31:
+      1383: *house_kitchen
+      1384: *house_bathroom
+      1385: *house_phone
+      1387: *house_natural_gas
+      1391: *house_electricity
+    DYCOL32:
+      1383: *house_ac
+      1384: *house_kitchen
+      1385: *house_internet
+      1387: *house_phone
+      1391: *house_natural_gas
+    DYCOL33:
+      1383: *house_central_ac
+      1384: *house_ac
+      1385: *house_bathroom
+      1387: *house_internet
+      1391: *house_phone
+    DYCOL34:
+      1383: *house_central_heating
+      1384: *house_central_ac
+      1385: *house_kitchen
+      1387: *house_bathroom
+      1391: *house_internet
+    DYCOL35:
+      1383: *house_cooking_fuel
+      1384: *house_central_heating
+      1385: *house_ac
+      1387: *house_kitchen
+      1391: *house_bathroom
+    DYCOL36:
+      1383: *house_heatfuel
+      1384: *house_cooking_fuel
+      1385: *house_central_ac
+      1387: *house_ac
+      1391: *house_kitchen
+    DYCOL37:
+      1384: *house_heatfuel
+      1385: *house_central_heating
+      1387: *house_central_ac
+      1391: *house_ac
+    DYCOL38:
+      1384: *party_month
+      1385: *house_water_heater
+      1387: *house_central_heating
+      1391: *house_central_ac
+    DYCOL39:
+      1384: *party_year
+      1385: *house_split_ac
+      1387: *house_water_heater
+      1391: *house_central_heating
+    DYCOL40:
+      1384: *ceremony_month
+      1385: *house_cooking_fuel
+      1386: *house_sewerage
+      1387: *house_split_ac
+      1391: *house_water_heater
+    DYCOL41:
+      1384: *ceremony_year
+      1385: *house_heatfuel
+      1386: *house_cooking_fuel
+      1387: *house_sewerage
+      1391: *house_split_ac
+    DYCOL42:
+      1384: *homerepair_month
+      1385: *party_month
+      1386: *house_heatfuel
+      1387: *house_cooking_fuel
+      1391: *house_sewerage
+    DYCOL42_14: *house_elevator
+    DYCOL43:
+      1384: *homerepair_year
+      1385: *party_year
+      1386: *house_hotwaterfuel
+      1387: *house_heatfuel
+      1391: *house_cooking_fuel
+    DYCOL44:
+      1384: *ziarati_trip_month
+      1385: *ceremony_month
+      1386: *party_month
+      1387: *house_hotwaterfuel
+      1391: *house_heatfuel
+    DYCOL45:
+      1384: *ziarati_trip_year
+      1385: *ceremony_year
+      1386: *party_year
+      1387: *party_month
+      1391: *house_hotwaterfuel
+    DYCOL46:
+      1384: *foreign_trip_month
+      1385: *homerepair_month
+      1386: *ceremony_month
+      1387: *party_year
+      1391: *party_month
+    DYCOL47:
+      1384: *foreign_trip_year
+      1385: *homerepair_year
+      1386: *ceremony_year
+      1387: *ceremony_month
+      1391: *party_year
+    DYCOL48:
+      1384: *surgery_month
+      1385: *ziarati_trip_month
+      1386: *homerepair_month
+      1387: *ceremony_year
+      1391: *ceremony_month
+    DYCOL49:
+      1384: *other_event_month
+      1385: *ziarati_trip_year
+      1386: *homerepair_year
+      1387: *homerepair_month
+      1391: *ceremony_year
+    DYCOL50:
+      1384: *other_event_year
+      1385: *foreign_trip_month
+      1386: *ziarati_trip_month
+      1387: *homerepair_year
+      1391: *homerepair_month
+    DYCOL51:
+      1384: *no_event_month
+      1385: *foreign_trip_year
+      1386: *ziarati_trip_year
+      1387: *ziarati_trip_month
+      1391: *homerepair_year
+    DYCOL52:
+      1384: *no_event_year
+      1385: *surgery_month
+      1386: *foreign_trip_month
+      1387: *ziarati_trip_year
+      1391: *ziarati_trip_month
+    DYCOL53:
+      1385: *other_event_month
+      1386: *foreign_trip_year
+      1387: *foreign_trip_month
+      1391: *ziarati_trip_year
+    DYCOL54:
+      1385: *other_event_year
+      1386: *surgery_month
+      1387: *foreign_trip_year
+      1391: *foreign_trip_month
+    DYCOL55:
+      1385: *no_event_year
+      1386: *other_event_month
+      1387: *surgery_month
+      1391: *foreign_trip_year
+    DYCOL56:
+      1386: *other_event_year
+      1387: *other_event_month
+      1391: *surgery_month
+    DYCOL57:
+      1386: *no_event_year
+      1387: *other_event_year
+      1391: *surgery_year
+    DYCOL58:
+      1387: *no_event_year
+      1391: *other_event_month
+    DYCOL59:
+      1389: *other_event_name
+      1391: *other_event_year
+    DYCOL60: 
+      1391: *other_event_name
+    DYCOL61:
+      1391: *no_event_year
+
+
+old_rural_house_specifications:
+
+  file_code: "R*P2*"
+
+  columns:
+
+    ADDRESS: *global_address
+
+    Q1: 
+      1363: *house_tenure
+      1364: *house_lives_in_house
+      1366: *house_tenure
+    Q2:
+      1363: *house_rural_materials
+      1364: *house_num_households
+      1366: *house_rural_materials
+    Q3:
+      1363: *house_rooms
+      1364: *house_tenure
+      1366: *house_rooms
+    Q4:
+      1363: null
+      1364: *house_rural_materials
+      1366: null
+    Q5:
+      1363: null
+      1364: *house_rooms
+      1366: null
+
+    Q4_1: *house_car
+    Q4_2: *house_motorcycle
+    Q4_3: *house_bicycle
+    Q4_4: *house_sewing_machine
+    Q4_5: *house_radio
+    Q4_6: *house_cassette
+    Q4_7: *house_tv
+    Q4_8: *house_refrigerator
+    Q4_9: *house_oven
+
+    Q4_01: *house_car
+    Q4_02: *house_motorcycle
+    Q4_03: *house_bicycle
+    Q4_04: *house_sewing_machine
+    Q4_05: *house_radio
+    Q4_06: *house_cassette
+    Q4_07: *house_tv
+    Q4_08: *house_refrigerator
+    Q4_09: *house_oven
+
+    Q6_01: *house_car
+    Q6_02: *house_motorcycle
+    Q6_03: *house_bicycle
+    Q6_04: *house_sewing_machine
+    Q6_05: *house_radio
+    Q6_06: *house_cassette
+    Q6_07: *house_tv
+    Q6_08: *house_refrigerator
+    Q6_09: *house_oven
+
+    Q5_1: *house_pipe_water
+    Q5_2: *house_electricity
+    Q5_3: *house_natural_gas
+    Q5_4: *house_bathroom
+    Q5_5: *house_ac
+
+    Q7_1: *house_pipe_water
+    Q7_2: *house_electricity
+    Q7_3: *house_natural_gas
+    Q7_4: *house_bathroom
+    Q7_5: *house_ac
+
+
+old_urban_house_specifications:
+
+  file_code: "U*P2*"
+
+  columns:
+
+    ADDRESS: *global_address
+
+    Q1: 
+      1363: *house_tenure
+      1364: *house_lives_in_house
+      1366: *house_tenure
+    Q2:
+      1363: *house_urban_materials
+      1364: *house_num_households
+      1366: *house_urban_materials
+    Q3:
+      1363: *house_rooms
+      1364: *house_tenure
+      1366: *house_rooms
+    Q4:
+      1363: *house_is_apartment
+      1364: *house_urban_materials
+      1366: *house_is_apartment
+    Q5:
+      1363: *house_has_second_dwelling
+      1364: *house_rooms
+      1366: *house_has_second_dwelling
+    Q6:
+      1363: *house_area
+      1364: *house_is_apartment
+      1366: *house_area
+    Q7:
+      1363: null
+      1364: *house_has_second_dwelling
+      1366: null
+    Q8:
+      1363: null
+      1364: *house_area
+      1366: null
+
+    Q7_01: *house_car
+    Q7_02: *house_motorcycle
+    Q7_03: *house_bicycle
+    Q7_04: *house_sewing_machine
+    Q7_05: *house_radio
+    Q7_06: *house_cassette
+    Q7_07: *house_bwtv
+    Q7_08: *house_crtv
+    Q7_09: *house_vcr
+    Q7_10: *house_freezer
+    Q7_11: *house_refrigerator
+    Q7_12: *house_oven
+    Q7_13: *house_vacuum_cleaner
+    Q7_14: *house_washing_machine
+    Q7_15: *house_dishwasher
+
+    Q9_01: *house_car
+    Q9_02: *house_motorcycle
+    Q9_03: *house_bicycle
+    Q9_04: *house_sewing_machine
+    Q9_05: *house_radio
+    Q9_06: *house_cassette
+    Q9_07: *house_bwtv
+    Q9_08: *house_crtv
+    Q9_09: *house_vcr
+    Q9_10: *house_freezer
+    Q9_11: *house_refrigerator
+    Q9_12: *house_oven
+    Q9_13: *house_vacuum_cleaner
+    Q9_14: *house_washing_machine
+    Q9_15: *house_dishwasher
+
+    Q8_1: *house_pipe_water
+    Q8_2: *house_electricity
+    Q8_3: *house_natural_gas
+    Q8_4: *house_bathroom
+    Q8_5: *house_ac
+    Q8_6: *house_phone
+    Q8_7: *house_central_heating
+    Q8_8: *house_hvac
+    Q8_9: *house_swimming_pool
+
+    Q10_1: *house_pipe_water
+    Q10_2: *house_electricity
+    Q10_3: *house_natural_gas
+    Q10_4: *house_bathroom
+    Q10_5: *house_ac
+    Q10_6: *house_phone
+    Q10_7: *house_central_heating
+    Q10_8: *house_hvac
+    Q10_9: *house_swimming_pool
+
+
+census_month:
+
+  file_code:
+    1363: null
+    1387: [R87, U87]
+    1388: [R88, U88]
+    1389: null
+    1390: [R90, U90]
+    1391: [R91, U91]
+    1392: null
+
+  columns:
+
+    ADDRESS: *global_address
+
+    MAHMORAJEH:
+      new_name: Month
+      type: UInt8
+
+
+
+######################################################################
+##                - - -    Expenditure Tables   - - -               ##
+######################################################################
+
+
+EXPENDITURE_ITEMS:
+
+  expenditure_code: &expenditure_code
+    new_name: Code
+    type: UInt32
+
+  expenditure_provision_method: &expenditure_provision_method
+    new_name: Provision_Method
+    type: category
+    categories:
+      1363:
+        1: Purchase_Subsidised_Price
+        2: Purchase_Free_Price
+        3: Home_Production
+        4: Instead_of_Public_Service
+        5: Instead_of_Private_Service
+        6: Agricultural_Work
+        7: Non_Agricultural_Work
+        8: Donation
+      1369:
+        2: Purchase
+        3: Home_Production
+        4: Instead_of_Public_Service
+        5: Instead_of_Private_Service
+        6: Agricultural_Work
+        7: Non_Agricultural_Work
+        8: Donation
+      1374:
+        1: Purchase
+        2: Home_Production
+        3: Instead_of_Public_Service
+        4: Instead_of_Private_Service
+        5: Agricultural_Work
+        6: Non_Agricultural_Work
+        7: Donation
+      1379:
+        1: Purchase
+        2: Home_Production
+        3: Instead_of_Public_Service
+        4: Instead_of_Private_Service
+        5: Agricultural_Work
+        6: Non_Agricultural_Work
+        7: Donation
+        8: Instead_of_Cooperative_Service
+      1383:
+        1: Purchase
+        2: Home_Production
+        3: Instead_of_Public_Service
+        4: Instead_of_Cooperative_Service
+        5: Instead_of_Private_Service
+        6: Agricultural_Work
+        7: Non_Agricultural_Work
+        8: Donation
+      1401:
+        0: Secondhand_Sale
+        1: Purchase
+        2: Home_Production
+        3: Instead_of_Public_Service
+        4: Instead_of_Cooperative_Service
+        5: Instead_of_Private_Service
+        6: Agricultural_Work
+        7: Non_Agricultural_Work
+        8: Donation
+
+  expenditure_price_system: &expenditure_price_system
+    new_name: Price_System
+    type: category
+    categories: 
+      0: Free_Price
+      1: Subsidised_Price
+
+  expenditure_grams: &expenditure_grams
+    new_name: Grams
+    type: float
+
+  expenditure_kilos: &expenditure_kilos
+    new_name: Kilos
+    type: float
+
+  expenditure_amount: &expenditure_amount
+    new_name: Amount
+    type: float
+
+  expenditure_price: &expenditure_price
+    new_name: Price
+    type: float
+
+  expenditure_value: &expenditure_value
+    new_name: Expenditure
+    type: float
+
+  expenditure_security_deposit: &expenditure_security_deposit
+    new_name: Security_Deposit
+    type: float
+
+  expenditure_insurance_and_loan_info: &expenditure_insurance_and_loan_info
+    new_name: Insurance_and_Loan_Information
+    type: float
+
+  expenditure_lender: &expenditure_lender
+    new_name: Lender
+    type: string
+
+  expenditure_secondhand_sale: &expenditure_secondhand_sale
+    new_name: Secondhand_Sale
+    type: float
+
+
+EXPENDITURE_STRUCTURES:
+
+  expenditure_structure_common: &expenditure_structure_common
+    1363:
+      ADDRESS: *global_address
+      COL1: *expenditure_code
+      COL3: *expenditure_provision_method
+      COL4: *expenditure_value
+    1369:
+      ADDRESS: *global_address
+      COL1: *expenditure_code
+      COL3: *expenditure_provision_method
+      COL4: *expenditure_price_system
+      COL5: *expenditure_amount
+      COL6: *expenditure_value
+    1370:
+      ADDRESS: *global_address
+      COL1: *expenditure_code
+      COL3: *expenditure_provision_method
+      COL4: *expenditure_price_system
+      COL5: *expenditure_value
+    1374:
+      ADDRESS: *global_address
+      COL1: *expenditure_code
+      COL3: *expenditure_provision_method
+      COL4: *expenditure_value
+
+      DYCOL01: *expenditure_code
+      DYCOL02: *expenditure_provision_method
+      DYCOL03: *expenditure_value
+
+
+food:
+
+  file_code: "*P3S01*"
+
+  columns:
+
+    ADDRESS: *global_address
+
+    COL1: *expenditure_code
+    COL3: *expenditure_provision_method
+    COL4:
+      1363: null
+      1369: *expenditure_price_system
+      1374: null
+      1383: *expenditure_grams
+    COL4_5:
+      1363: *expenditure_kilos
+      1369: null
+      1374: *expenditure_kilos
+      1383: null
+    COL5_6:
+      1363: null
+      1369: *expenditure_kilos
+      1374: null
+    COL5:
+      1383: *expenditure_kilos
+    COL6:
+      1363: *expenditure_value
+      1369: null
+      1374: *expenditure_price
+    COL7:
+      1363: null
+      1369: *expenditure_price
+      1370: null
+      1372: *expenditure_price
+      1374: *expenditure_value
+    COL8:
+      1363: null
+      1369: *expenditure_value
+      1374: null
+
+    DYCOL01: *expenditure_code
+    DYCOL02: *expenditure_provision_method
+    DYCOL03: *expenditure_grams
+    DYCOL04: *expenditure_kilos
+    DYCOL05: *expenditure_price
+    DYCOL06: *expenditure_value
+    DYCOL07: drop
+
+
+tobacco:
+
+  file_code: "*P3S02*"
+
+  columns:
+
+    ADDRESS: *global_address
+
+    COL1: *expenditure_code
+    COL3: *expenditure_provision_method
+    COL4: drop
+    COL5: *expenditure_amount
+    COL6: *expenditure_price
+    COL7: *expenditure_value
+
+    DYCOL01: *expenditure_code
+    DYCOL02: *expenditure_provision_method
+    DYCOL03: drop
+    DYCOL04: *expenditure_amount
+    DYCOL05: *expenditure_price
+    DYCOL06: *expenditure_value
+    DYCOL07: drop
+
+
+cloth:
+
+  file_code:
+    1363: "*P3S02*"
+    1383: "*P3S03*"
+
+  columns: *expenditure_structure_common
+
+
+home:
+
+  file_code:
+    1363: "*P3S03*"
+    1383: "*P3S04*"
+
+  columns:
+    1363: *expenditure_structure_common
+    1384:
+      ADDRESS: *global_address
+      DYCOL01: *expenditure_code
+      DYCOL02: *expenditure_security_deposit
+      DYCOL03: *expenditure_provision_method
+      DYCOL04: *expenditure_value
+
+
+furniture:
+
+  file_code:
+    1363: "*P3S04*"
+    1383: "*P3S05*"
+
+  columns: *expenditure_structure_common
+
+
+medical:
+
+  file_code:
+    1363: "*P3S05*"
+    1383: "*P3S06*"
+
+  columns: *expenditure_structure_common
+
+
+transportation:
+
+  file_code:
+    1363: "*P3S06*"
+    1383: "*P3S07*"
+
+  columns: *expenditure_structure_common
+
+
+communication:
+
+  file_code:
+    1363: null
+    1383: "*P3S08*"
+
+  columns: *expenditure_structure_common
+
+
+entertainment:
+
+  file_code:
+    1363: "*P3S07*"
+    1383: "*P3S09*"
+
+  columns: *expenditure_structure_common
+
+
+education:
+
+  file_code:
+    1363: null
+    1383: "*P3S10*"
+
+  columns: *expenditure_structure_common
+
+
+hotel:
+
+  file_code:
+    1363: null
+    1383: "*P3S11*"
+
+  columns: *expenditure_structure_common
+
+
+miscellaneous:
+
+  file_code:
+    1363: "*P3S08*"
+    1383: "*P3S12*"
+
+  columns: *expenditure_structure_common
+
+
+durable:
+
+  file_code:
+    1363: "*P3S09*"
+    1383: "*P3S13*"
+
+  columns:
+
+    1363:
+      ADDRESS: *global_address
+      COL1: *expenditure_code
+      COL3: *expenditure_provision_method
+      COL4: *expenditure_value
+      COL5: *expenditure_secondhand_sale
+
+    1369:
+      ADDRESS: *global_address
+      COL1: *expenditure_code
+      COL3: *expenditure_provision_method
+      COL4: *expenditure_price_system
+      COL5: *expenditure_value
+      COL6: *expenditure_secondhand_sale
+
+    1374:
+      ADDRESS: *global_address
+      COL1: *expenditure_code
+      COL3: *expenditure_provision_method
+      COL4: *expenditure_value
+      COL5: *expenditure_secondhand_sale
+
+    1384:
+      ADDRESS: *global_address
+      DYCOL01: *expenditure_code
+      DYCOL02: *expenditure_insurance_and_loan_info
+      DYCOL03: *expenditure_provision_method
+      DYCOL04: *expenditure_value
+      DYCOL05: *expenditure_secondhand_sale
+
+    1388:
+      ADDRESS: *global_address
+      DYCOL01:
+        <<: *expenditure_code
+        replace:
+          1401: {09511A: null, 01232A: null}
+          1402: null
+      DYCOL02: *expenditure_insurance_and_loan_info
+      DYCOL03: *expenditure_lender
+      DYCOL04: *expenditure_provision_method
+      DYCOL05: *expenditure_value
+      DYCOL06: *expenditure_secondhand_sale
+
+
+investment:
+    
+  file_code:
+    1363: null
+    1366: "*P3S10*"
+    1378: "*P3S10*"
+    1383: "*P3S14*"
+
+  columns:
+    1366:
+      ADDRESS: *global_address
+      COL1: *expenditure_code
+      COL3: *expenditure_value
+
+    1367:
+      ADDRESS: *global_address
+      COL1: *expenditure_code
+      COL3: *expenditure_provision_method
+      COL4: *expenditure_value
+      COL5: *expenditure_secondhand_sale
+
+    1369:
+      ADDRESS: *global_address
+      COL1: *expenditure_code
+      COL3: *expenditure_provision_method
+      COL4: *expenditure_price_system
+      COL5: *expenditure_value
+      COL6: *expenditure_secondhand_sale
+
+    1374:
+      ADDRESS: *global_address
+      COL1: *expenditure_code
+      COL3: *expenditure_provision_method
+      COL4: *expenditure_value
+      COL5: *expenditure_secondhand_sale
+
+    1384:
+      ADDRESS: *global_address
+      DYCOL01: *expenditure_code
+      DYCOL02: *expenditure_provision_method
+      DYCOL03: *expenditure_value
+      DYCOL04: *expenditure_secondhand_sale
+
+
+
+######################################################################
+##                   - - -   Incomes Tables  - - -                  ##
+######################################################################
+
+
+INCOME_ITEMS:
+
+  income_address: &income_address
+    <<: *global_address
+    replace:
+      1374: {
+        "00\x04": null, "01\x04": null, "02\x04": null,
+        "10\x04": null, "11\x04": null,  "12\x04": null
+      }
+      1375: null
+
+  income_occupation_code: &income_occupation_code
+    new_name: Occupation_Code
+    type: UInt32
+    replace:
+      "X01": null
+      "X02": null
+      "X03": null
+      "X04": null
+      "x01": null
+      "x02": null
+      "x03": null
+      "x04": null
+      "x0000": 0
+      "x000": 0
+
+  income_employment_status: &income_employment_status
+    new_name: Employment_Status
+    type: category
+    categories:
+      1: Employed
+      2: Unemployed
+    replace:
+      "X01": null
+      "X02": null
+      "X03": null
+      "X04": null
+      "3": null
+      "9": null
+      3: null
+      4: null
+      5: null
+      6: null
+      7: null
+      9: null
+
+  income_employment_type: &income_employment_type
+    new_name: Employment_Type
+    type: category
+    categories:
+      1369:
+        4: Employer
+        5: Independent_Worker
+        6: Family_Worker
+      1398:
+        1: Employer
+        2: Independent_Worker
+        3: Family_Worker
+    replace:
+      1396: null
+      1397: {1: null}
+      1398: null
+
+  income_industry_code: &income_industry_code
+    new_name: Industry_Code
+    type: UInt32
+    replace: {"x0000": 0, "x000": 0}
+
+  income_sector: &income_sector
+    new_name: "Sector"
+    type: category
+    categories:
+      1363:
+        1: "Public"
+        2: "Private"
+      1377:
+        1: "Public"
+        2: "Cooperative"
+        3: "Private"
+    replace:
+      1374: {0.0: null}
+      1375: {3: null}
+      1376: null
+
+  income_is_agricultural: &income_is_agricultural
+    new_name: Is_Agricultural
+    type: boolean
+    true_condition: 1
+
+  income_currently_in_this_job: &income_currently_in_this_job
+    new_name: "Currently_in_This_Job"
+    type: boolean
+    true_condition: 1
+
+  income_working_hours_per_day: &income_working_hours_per_day
+    new_name: Working_Hours_per_Day
+    type: UInt8
+
+  income_working_day_per_week: &income_working_day_per_week
+    new_name: Working_Day_per_Week
+    type: UInt8
+
+  income_monthly_gross: &income_monthly_gross
+    new_name: Monthly_Gross_Income
+    type: float
+
+  income_annual_gross: &income_annual_gross
+    new_name: Annual_Gross_Income
+    type: float
+
+  income_monthly_continuous: &income_monthly_continuous
+    new_name: Monthly_Continuous_Income
+    type: float
+
+  income_annual_continuous: &income_annual_continuous
+    new_name: Annual_Continuous_Income
+    type: float
+
+  income_monthly_temporary: &income_monthly_temporary
+    new_name: Monthly_Temporary_Income
+    type: float
+
+  income_annual_temporary: &income_annual_temporary
+    new_name: Annual_Temporary_Income
+    type: float
+
+  income_monthly_net: &income_monthly_net
+    new_name: Monthly_Net_Income
+    type: float
+
+  income_annual_net: &income_annual_net
+    new_name: Annual_Net_Income
+    type: float
+
+  income_wage_cost: &income_wage_cost
+    new_name: Wage_Cost
+    type: float
+
+  income_cost_of_sales: &income_cost_of_sales
+    new_name: Cost_of_Sales
+    type: float
+
+  income_other_operating_costs: &income_other_operating_costs
+    new_name: Other_Operating_Costs
+    type: float
+
+  income_other_costs: &income_other_costs
+    new_name: Other_Costs
+    type: float
+
+  income_business_tax: &income_business_tax
+    new_name: Business_Tax
+    type: float
+
+  income_sales: &income_sales
+    new_name: Sales
+    type: float
+
+  income_profit: &income_profit
+    new_name: Profit
+    type: float
+
+
+employment_income:
+
+  file_code:
+    1369: "*P4S1*"
+    1384: "*P4S01*"
+
+  columns:
+
+    ADDRESS: *income_address
+
+    COL01: *global_member_number
+    COL02:
+      1369: *income_occupation_code
+      1374: *income_employment_status
+    COL03:
+      1369: *income_industry_code
+      1374: *income_occupation_code
+    COL04:
+      1369: *income_sector
+      1374: *income_industry_code
+    COL05:
+      1370: *income_monthly_gross
+      1374: *income_sector
+    COL06:
+      1369: *income_annual_gross
+      1374: *income_monthly_gross
+    COL07:
+      1369: *income_monthly_continuous
+      1374: *income_annual_gross
+    COL08:
+      1369: *income_annual_continuous
+      1374: *income_monthly_continuous
+    COL09:
+      1369: *income_monthly_temporary
+      1374: *income_annual_continuous
+    COL10:
+      1369: *income_annual_temporary
+      1374: *income_monthly_temporary
+    COL11:
+      1369: *income_monthly_net
+      1374: *income_annual_temporary
+    COL12:
+      1369: *income_annual_net
+      1374: *income_monthly_net
+    COL13:
+      1374: *income_annual_net
+
+    DYCOL01: *global_member_number
+    DYCOL02: *income_employment_status
+    DYCOL03: *income_occupation_code
+    DYCOL04: *income_industry_code
+    DYCOL05: *income_sector
+    DYCOL06: *income_working_hours_per_day
+    DYCOL07: *income_working_day_per_week
+    DYCOL08: *income_monthly_gross
+    DYCOL09: *income_annual_gross
+    DYCOL10: *income_monthly_continuous
+    DYCOL11: *income_annual_continuous
+    DYCOL12: *income_monthly_temporary
+    DYCOL13: *income_annual_temporary
+    DYCOL14: *income_monthly_net
+    DYCOL15: *income_annual_net
+
+
+self_employed_income:
+
+  file_code:
+    1369: "*P4S2*"
+    1384: "*P4S02*"
+
+  columns:
+
+    ADDRESS: *income_address
+
+    COL01: *global_member_number
+    COL02:
+      1369: *income_occupation_code
+      1374: *income_employment_status
+    COL03:
+      1369: *income_industry_code
+      1374: *income_occupation_code
+    COL04:
+      1369: *income_employment_type
+      1374: *income_industry_code
+    COL05:
+      1369: *income_is_agricultural
+      1374: *income_employment_type
+    COL06:
+      1369: *income_wage_cost
+      1374: *income_is_agricultural
+    COL07:
+      1369: *income_cost_of_sales
+      1374: *income_wage_cost
+    COL08:
+      1369: *income_other_operating_costs
+      1374: *income_cost_of_sales
+    COL09:
+      1369: *income_other_costs
+      1374: *income_other_operating_costs
+    COL10:
+      1369: *income_business_tax
+      1374: *income_other_costs
+    COL11:
+      1369: *income_sales
+      1374: *income_business_tax
+    COL12:
+      1369: *income_profit
+      1374: *income_sales
+    COL13:
+      1374: *income_profit
+
+    DYCOL01: *global_member_number
+    DYCOL02: *income_employment_status
+    DYCOL03: *income_occupation_code
+    DYCOL04: *income_industry_code
+    DYCOL05: *income_employment_type
+    DYCOL06: *income_is_agricultural
+    DYCOL07: *income_working_hours_per_day
+    DYCOL08: *income_working_day_per_week
+    DYCOL09: *income_wage_cost
+    DYCOL10: *income_cost_of_sales
+    DYCOL11: *income_other_operating_costs
+    DYCOL12: *income_other_costs
+    DYCOL13: *income_business_tax
+    DYCOL14: *income_sales
+    DYCOL15: *income_profit
+
+
+OTHER_INCOME_ITEMS:
+  income_retirement: &income_retirement
+    new_name: Retirement
+    type: float
+  income_rent: &income_rent
+    new_name: Rent
+    type: float
+  income_interest: &income_interest
+    new_name: Interest
+    type: float
+  income_aid: &income_aid
+    new_name: Aid
+    type: float
+  income_home_production: &income_home_production
+    new_name: Home_Production
+    type: float
+  income_transfer: &income_transfer
+    new_name: Transfer
+    type: float
+
+
+other_income:
+
+  file_code:
+    1369: "*P4S3*"
+    1384: "*P4S03*"
+
+  columns:
+
+    ADDRESS: *income_address
+
+    COL01: *global_member_number
+    COL03: *income_retirement
+    COL04: *income_rent
+    COL05: *income_interest
+    COL06: *income_aid
+    COL07: *income_home_production
+    COL08: *income_transfer
+    TAX: drop
+
+    DYCOL01: *global_member_number
+    DYCOL03: *income_retirement
+    DYCOL04: *income_rent
+    DYCOL05: *income_interest
+    DYCOL06: *income_aid
+    DYCOL07: *income_home_production
+    DYCOL08: *income_transfer
+
+
+subsidy:
+
+  file_code: "*P4S04*"
+
+  columns:
+
+    ADDRESS: *income_address
+    DYCOL01:
+      <<: *global_member_number
+      replace:
+        1392: {323: 1}
+    DYCOL03:
+      new_name: Number_of_Individuals
+      type: UInt8
+    DYCOL04:
+      new_name: Number_of_Payments
+      type: UInt8
+    DYCOL05: &income_total_subsidy
+      new_name: "Subsidy"
+      type: "float"
+
+
+old_rural_public_employment_income:
+
+  file_code: "R*P4S1*"
+
+  columns:
+
+    ADDRESS: *income_address
+    COL01: *global_member_number
+    COL02: *income_occupation_code
+    COL03: *income_currently_in_this_job
+    COL05: *income_annual_continuous
+    COL07: *income_annual_temporary
+    COL09: *income_annual_net
+
+
+old_urban_public_employment_income:
+
+  file_code: "U*P4S1*"
+
+  columns:
+
+    ADDRESS: *income_address
+    COL01: *global_member_number
+    COL02: *income_occupation_code
+    COL03: *income_currently_in_this_job
+    COL05: *income_annual_gross
+    COL07: *income_annual_continuous
+    COL09: *income_annual_temporary
+    COL11: *income_annual_net
+
+
+old_rural_private_employment_income:
+
+  file_code: "R*P4S2*"
+
+  columns:
+
+    ADDRESS: *income_address
+    COL01: *global_member_number
+    COL02: *income_occupation_code
+    COL03: *income_currently_in_this_job
+    COL05: *income_annual_continuous
+    COL07: *income_annual_temporary
+    COL09: *income_annual_net
+
+
+old_urban_private_employment_income:
+
+  file_code: "U*P4S2*"
+
+  columns:
+
+    ADDRESS: *income_address
+    COL01: *global_member_number
+    COL02: *income_occupation_code
+    COL03: *income_currently_in_this_job
+    COL05: *income_annual_gross
+    COL07: *income_annual_continuous
+    COL09: *income_annual_temporary
+    COL11: *income_annual_net
+
+
+old_agricultural_self_employed_income:
+
+  file_code: "*P4S3*"
+
+  columns:
+
+    ADDRESS: *income_address
+    COL01: *global_member_number
+    COL02: *income_occupation_code
+    COL03: *income_currently_in_this_job
+    COL04: *income_wage_cost
+    COL05: *income_cost_of_sales
+    COL06: *income_other_operating_costs
+    COL07: *income_business_tax
+    COL08: *income_sales
+    COL09: *income_profit
+
+old_non_agricultural_self_employed_income:
+
+  file_code: "*P4S4*"
+
+  columns:
+
+    ADDRESS: *income_address
+    COL01: *global_member_number
+    COL02: *income_occupation_code
+    COL03: *income_currently_in_this_job
+    COL04: *income_wage_cost
+    COL05: *income_cost_of_sales
+    COL06: *income_other_operating_costs
+    COL07: *income_other_costs
+    COL08: *income_business_tax
+    COL09: *income_sales
+    COL10: *income_profit
+
+
+old_other_income:
+
+  file_code: "*P4S5*"
+
+  columns:
+
+    ADDRESS: *income_address
+    COL01:
+      new_name: Income_Code
+      type: UInt16
+    COL04:
+      new_name: Income
+      type: float

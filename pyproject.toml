@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "hbsir"
+version = "0.1.1"
+description = ""
+authors = ["mohammad amin alavian <m.amin.alavian@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+bssir = {git = "https://github.com/Iran-Open-Data/BSSIR.git"}
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "*"
+black = "*"
+tabulate = "*"
+mkdocs = "*"
+mkdocs-material = "*"
+mkdocs-literate-nav = "*"
+mkdocs-autorefs = "*"
+mkdocstrings-python = "*"
+mkdocs-jupyter = "*"
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

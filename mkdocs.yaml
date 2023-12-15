@@ -1,0 +1,152 @@
+site_name: HBSIR
+site_url: https://iran-open-data.github.io/HBSIR/
+repo_url: https://github.com/Iran-Open-Data/HBSIR
+
+theme:
+  name: material
+  features:
+    # - navigation.tracking
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.sections
+    # - navigation.expand
+    - navigation.indexes
+    # - header.autohide
+    - toc.follow
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+    - content.tooltips
+
+nav:
+  - Home: README.md
+
+  # - Usage: usage.md
+
+  - API Reference:
+    - api/README.md
+    - Setup Functions:
+      - hbsir.setup: api/setup.md
+      - hbsir.setup_config: api/setup_config.md
+    - Data Loading Functions:
+      - hbsir.load_table: api/load_table.md
+      - hbsir.load_knowledge: api/load_knowledge.md
+    - Data Addition Functions:
+      - hbsir.add_attribute: api/add_attribute.md
+      - hbsir.add_classification: api/add_classification.md
+      - hbsir.add_weight: api/add_weight.md
+
+  - Data Reference:
+    - data/README.md
+    - Tables:
+      - tables/README.md
+      - Raw Tables:
+        # - tables/raw/README.md
+        - General Tables:
+          - Household Information: tables/raw/household_information.md
+          - Members Properties: tables/raw/members_properties.md
+          - House Specifications: tables/raw/house_specifications.md
+          - House Specifications (Old, Rural): tables/raw/old_rural_house_specifications.md
+          - House Specifications (Old, Urban): tables/raw/old_urban_house_specifications.md
+        - Expenditure Tables:
+          - Food: tables/raw/food.md
+          - Tobacco: tables/raw/tobacco.md
+          - Cloth: tables/raw/cloth.md
+          - Home: tables/raw/home.md
+          - Furniture: tables/raw/furniture.md
+          - Medical: tables/raw/medical.md
+          - Transportation: tables/raw/transportation.md
+          - Communication: tables/raw/communication.md
+          - Entertainment: tables/raw/entertainment.md
+          - Education: tables/raw/education.md
+          - Hotel: tables/raw/hotel.md
+          - Miscellaneous: tables/raw/miscellaneous.md
+          - Durable: tables/raw/durable.md
+          - Investment: tables/raw/investment.md
+        - Income Tables:
+          - Employment Income: tables/raw/employment_income.md
+          - Self Employed Income: tables/raw/self_employed_income.md
+          - Other Incomes: tables/raw/other_income.md
+          - Subsidy: tables/raw/subsidy.md
+          - Employment Income (Old, Rural, Public): tables/raw/old_rural_public_employment_income.md
+          - Employment Income (Old, Urban, Public): tables/raw/old_urban_public_employment_income.md
+          - Employment Income (Old, Rural, Private): tables/raw/old_rural_private_employment_income.md
+          - Employment Income (Old, Urban, Private): tables/raw/old_urban_private_employment_income.md
+          - Self Employed Income (Old, Agricultural): tables/raw/old_agricultural_self_employed_income.md
+          - Self Employed Income (Old, Non-Agricultural): tables/raw/old_non_agricultural_self_employed_income.md
+          - Other Income (Old): tables/raw/old_other_income.md
+      - Cleaned Tables:
+        # - tables/cleaned/README.md
+        - General Tables:
+          - Household Information: tables/cleaned/household_information.md
+          - Members Properties: tables/cleaned/members_properties.md
+          - House Specifications: tables/cleaned/house_specifications.md
+          - House Specifications (Old, Rural): tables/cleaned/old_rural_house_specifications.md
+          - House Specifications (Old, Urban): tables/cleaned/old_urban_house_specifications.md
+        - Expenditure Tables:
+          - Food: tables/cleaned/food.md
+          - Tobacco: tables/cleaned/tobacco.md
+          - Cloth: tables/cleaned/cloth.md
+          - Home: tables/cleaned/home.md
+          - Furniture: tables/cleaned/furniture.md
+          - Medical: tables/cleaned/medical.md
+          - Transportation: tables/cleaned/transportation.md
+          - Communication: tables/cleaned/communication.md
+          - Entertainment: tables/cleaned/entertainment.md
+          - Education: tables/cleaned/education.md
+          - Hotel: tables/cleaned/hotel.md
+          - Miscellaneous: tables/cleaned/miscellaneous.md
+          - Durable: tables/cleaned/durable.md
+          - Investment: tables/cleaned/investment.md
+        - Income Tables:
+          - Employment Income: tables/cleaned/employment_income.md
+          - Self Employed Income: tables/cleaned/self_employed_income.md
+          - Other Incomes: tables/cleaned/other_income.md
+          - Subsidy: tables/cleaned/subsidy.md
+          - Employment Income (Old, Rural, Public): tables/cleaned/old_rural_public_employment_income.md
+          - Employment Income (Old, Urban, Public): tables/cleaned/old_urban_public_employment_income.md
+          - Employment Income (Old, Rural, Private): tables/cleaned/old_rural_private_employment_income.md
+          - Employment Income (Old, Urban, Private): tables/cleaned/old_urban_private_employment_income.md
+          - Self Employed Income (Old, Agricultural): tables/cleaned/old_agricultural_self_employed_income.md
+          - Self Employed Income (Old, Non-Agricultural): tables/cleaned/old_non_agricultural_self_employed_income.md
+          - Other Income (Old): tables/cleaned/old_other_income.md
+
+  - Knowledge Base:
+    - knowledge/README.md
+    - Statistical Center of Iran:
+      - knowledge/sci_results.py
+
+plugins:
+  - search
+  - autorefs
+  - mkdocs-jupyter:
+      execute: true
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          paths: [hbsir]
+          options:
+            docstring_style: numpy
+            show_source: false
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - md_in_html
+  - pymdownx.inlinehilite
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true

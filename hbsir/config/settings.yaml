@@ -1,0 +1,8 @@
+# Package Name
+package_name: HBSIR
+
+# Years (list of years or range in for of: "first_year - last_year")
+years: "1363-1401"
+
+# Local Settings
+local_settings: config/hbsir_settings.yaml
