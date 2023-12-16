@@ -177,7 +177,7 @@ tabulate = "*"
 type = "git"
 url = "https://github.com/Iran-Open-Data/BSSIR.git"
 reference = "HEAD"
-resolved_reference = "529b801e2e9120b98484fdf90530dc7689b78ca4"
+resolved_reference = "ef8367bed89026a39897d8e6e50ef055331bc02a"
 
 [[package]]
 name = "certifi"

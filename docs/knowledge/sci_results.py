@@ -31,9 +31,13 @@ hbsir.load_knowledge("sci_results.T103", years=YEAR, urban_rural=URABN_RURAL)
 #
 # Percentage of households by employment status of household head in each annual expenditure group
 
+hbsir.load_knowledge("sci_results.T104", years=YEAR, urban_rural=URABN_RURAL)
+
 # ## Table 105: Households by head's occupation and expenditure
 #
 # Percentage of households by occupational group of household head in each annual expenditure group
+
+hbsir.load_knowledge("sci_results.T105", years=YEAR, urban_rural=URABN_RURAL)
 
 # ## Table 106: Households by head's workplace and expenditure
 #
