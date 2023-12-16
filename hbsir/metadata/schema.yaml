@@ -1077,8 +1077,8 @@ Cash_Incomes:
         name: Income
         type: numerical
         expression:
-          1363: "Yearly_Net_Income + Profit + Other_Incomes"
-          1390: "Yearly_Net_Income + Profit + Other_Incomes + Subsidy"
+          1363: "Annual_Net_Income + Profit + Other_Incomes"
+          1390: "Annual_Net_Income + Profit + Other_Incomes + Subsidy"
 
     - create_column:
         name: Income_Type
