@@ -5,7 +5,7 @@
 ??? Availability
     - [x] T101 (urban-rural) (1401)
     - [x] T102 (urban-rural) (1401)
-    - [ ] T103
+    - [x] T103 (urban-rural) (1401)
     - [ ] T104
     - [ ] T105
     - [ ] T106

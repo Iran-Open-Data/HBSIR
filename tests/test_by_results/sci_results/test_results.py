@@ -52,3 +52,18 @@ def test_T102():
                 f"sci_results.{table}", year, urban_rural=urban_rural
             )
             _eq_tables(original, created)
+
+
+def test_T103():
+    table = "T103"
+    years = [1401]
+    for year in years:
+        for urban_rural in ["urban", "rural"]:
+            abr = "U" if urban_rural == "urban" else "R"
+            original = pd.read_csv(
+                CSV_DIR.joinpath(f"{year}{abr}_{table}.csv"), index_col=0
+            )
+            created = hbsir.load_knowledge(
+                f"sci_results.{table}", year, urban_rural=urban_rural
+            )
+            _eq_tables(original, created)
