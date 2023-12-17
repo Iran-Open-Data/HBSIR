@@ -87,6 +87,8 @@ hbsir.load_knowledge("sci_results.T105", years=YEAR, urban_rural=URABN_RURAL)
 #
 # Percentage of households by household size in each annual expenditure decile
 
+hbsir.load_knowledge("sci_results.T116", years=YEAR, urban_rural=URABN_RURAL)
+
 # ## Table 117: Households by literacy and expenditure decile
 #
 # Percentage of households by number of literate individuals in each annual expenditure decile

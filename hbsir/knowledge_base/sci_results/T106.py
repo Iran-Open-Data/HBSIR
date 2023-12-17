@@ -6,19 +6,31 @@ from ...api import api
 
 from .common import create_expenditure_tiers, filter_urban_rural
 
-
 INDEX = [
     "Total",
-    "Managers",
-    "Professionals",
-    "Technicians and Associate Professionals",
-    "Clerical Support Workers",
-    "Service and Sales Workers",
-    "Skilled Agricultural, Forestry and Fishery Workers",
-    "Craft and Related Trades Workers",
-    "Plant and Machine Operators, and Assemblers",
-    "Elementary Occupations",
-    "Unknown or Other",
+    "Agriculture, forestry and fishing",  #
+    "Mining and quarrying",
+    "Manufacturing",
+    "Electricity, gas, steam and air conditioning supply",
+    "Construction",
+    "Wholesale and retail trade; repair of motor vehicles and motorcycles",
+    "Accommodation and food service activities",
+    "Transportation and storage",
+    "Information and communication",
+    "Financial and insurance activities",
+    "Real estate activities",
+    "Public administration and defence; compulsory social security",
+    "Education",
+    "Human health and social work activities",
+    "Other service activities",
+    "Administrative and support service activities",
+    "Arts, entertainment and recreation",
+    "Professional, scientific and technical activities",
+    "Water supply; sewerage, waste management and remediation activities",
+    (
+        "Activities of households as employers; undifferentiated goods- "
+        "and services-producing activities of households for own use"
+    ),
     "Unemployed",
 ]
 
@@ -39,27 +51,24 @@ def create_table_for_a_year(
         ],
         ignore_index=True,
     )
-    occupations = (
+    industry = (
         income_table.drop_duplicates(["ID", "Member_Number"], keep="first")
-        .pipe(api.add_classification, target="Occupation_Code", aspects="title")
+        .pipe(api.add_classification, target="Industry_Code", aspects="title")
         .set_index(["Year", "ID", "Member_Number"])
-        .loc[:, ["Occupation"]]
+        .loc[:, ["Industry"]]
     )
 
-    occupations = activity_state.join(occupations, how="left").droplevel(-1)
-    filt = occupations["Activity_State"] != "Employed"
-    occupations.loc[filt, "Occupation"] = "Unemployed"
-    filt = occupations["Occupation"].isna() & (
-        occupations["Activity_State"] == "Employed"
-    )
-    occupations.loc[filt, "Occupation"] = "Unknown or Other"
+    industry = activity_state.join(industry, how="left").droplevel(-1)
+    filt = industry["Activity_State"] != "Employed"
+    industry.loc[filt, "Industry"] = "Unemployed"
+    filt = industry["Industry"].isna() & (industry["Activity_State"] == "Employed")
+    industry.loc[filt, "Industry"] = "Unknown or Other"
 
-    occupations = occupations["Occupation"]
-    occupations = occupations.replace({"Armed Forces Occupations": "Unknown or Other"})
+    industry = industry["Industry"]
 
     table = pd.concat(
         [
-            occupations,
+            industry,
             create_expenditure_tiers(urban_rural=urban_rural, year=year),
             api.load_table("Weight", years=year).set_index(["Year", "ID"])["Weight"],
         ],
@@ -69,7 +78,7 @@ def create_table_for_a_year(
     table = filter_urban_rural(table, urban_rural)
 
     weight_table = (
-        table.groupby(["Occupation", "Expenditure_Tier"], observed=True)["Weight"]
+        table.groupby(["Industry", "Expenditure_Tier"], observed=True)["Weight"]
         .sum()
         .unstack()
     )

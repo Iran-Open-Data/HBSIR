@@ -9,9 +9,13 @@ from typing import Iterable
 
 import pandas as pd
 
+from bssir.calculator import Calculator
 from bssir.calculator.quantile import _EquivalenceScale, _QuantileBase
 
 from .api import api
+
+
+calculate = Calculator(api)
 
 
 def __get_optional_params(local_variables: dict) -> dict:
@@ -40,7 +44,7 @@ def weighted_average(
         The weighted average of the given columns.
     """
     parameters = __get_optional_params(locals())
-    return api.calculate.weighted_average(**parameters)
+    return calculate.weighted_average(**parameters)
 
 
 def average_table(
@@ -68,7 +72,7 @@ def average_table(
         The weighted average of the given columns for each group.
     """
     parameters = __get_optional_params(locals())
-    return api.calculate.average_table(**parameters)
+    return calculate.average_table(**parameters)
 
 
 def quantile(
@@ -86,8 +90,105 @@ def quantile(
     groupby: str | Iterable[str] | None = None,
     years: list[int] | None = None,
 ) -> pd.Series:
+    """Calculates weighted quantiles for the given column.
+
+    Parameters
+    ----------
+    table : pd.DataFrame | pd.Series, optional
+        Table containing column to calculate quantiles for.
+    on_variable : _QuantileBase, optional
+        Variable to calculate quantiles on.
+    on_column : str, optional
+        Column name to calculate quantiles on.
+    bins : int, optional
+        Number of quantile bins to create.
+
+    Other parameters
+    ----------------
+    quantile_column_name : str, optional
+        Name for added quantile column.
+    weight_column : str, optional
+        Column name to use for weighting rows.
+    weighted : bool, optional
+        Whether to calculate weighted quantiles.
+    adjust_weight_for_household_size : bool, optional
+        Adjust weights for household size.
+    equivalence_scale : _EquivalenceScale, optional
+        Household equivalence scale to use.
+    for_all : bool, optional
+        Calculate quantiles across all rows.
+    annual : bool, optional
+        Annualize quantiles.
+    groupby : str | list[str], optional
+        Column(s) to group by.
+    years : list[int], optional
+        Years to include.
+
+    Returns
+    -------
+    pd.Series
+        Series with quantiles for each row.
+    """
     parameters = __get_optional_params(locals())
-    return api.calculate.quantile(**parameters)
+    return calculate.quantile(**parameters)
+
+
+def add_quantile(
+    table: pd.DataFrame | pd.Series | None = None,
+    quantile_column_name: str = "Quantile",
+    bins: int = -1,
+    weight_column: str | None = None,
+    on_variable: _QuantileBase | None = None,
+    on_column: str | None = None,
+    weighted: bool = True,
+    adjust_weight_for_household_size: bool = False,
+    equivalence_scale: _EquivalenceScale = "Household",
+    for_all: bool = True,
+    annual: bool = True,
+    groupby: str | Iterable[str] | None = None,
+    years: list[int] | None = None,
+) -> pd.DataFrame:
+    """Adds quantiles as a column to the input table.
+
+    Parameters
+    ----------
+    table : DataFrame | Series, optional
+        Table to add quantiles to.
+    bins : int, optional
+        Number of quantile bins to create.
+    on_variable : _QuantileBase, optional
+        Variable to calculate quantiles on.
+    on_column : str, optional
+        Column to calculate quantiles on.
+
+    Other parameters
+    ----------------
+    quantile_column_name : str, optional
+        Name for added quantile column.
+    weight_column : str, optional
+        Column name to use for weighting rows.
+    weighted : bool, optional
+        Whether to calculate weighted quantiles.
+    adjust_weight_for_household_size : bool, optional
+        Adjust weights for household size.
+    equivalence_scale : _EquivalenceScale, optional
+        Household equivalence scale to use.
+    for_all : bool, optional
+        Calculate quantiles across all rows.
+    annual : bool, optional
+        Annualize quantiles.
+    groupby : str | list[str], optional
+        Column(s) to group by.
+    years : list[int], optional
+        Years to include.
+
+    Returns
+    -------
+    DataFrame
+        Input table with added quantile column.
+    """
+    parameters = __get_optional_params(locals())
+    return calculate.add_quantile(**parameters)
 
 
 def add_decile(
@@ -103,6 +204,102 @@ def add_decile(
     annual: bool = True,
     groupby: str | Iterable[str] | None = None,
     years: list[int] | None = None,
-) -> pd.Series:
+) -> pd.DataFrame:
+    """Adds deciles as a column to the input table.
+
+    Parameters
+    ----------
+    table : DataFrame | Series, optional
+        Table to add quantiles to.
+    bins : int, optional
+        Number of quantile bins to create.
+    on_variable : _QuantileBase, optional
+        Variable to calculate quantiles on.
+    on_column : str, optional
+        Column to calculate quantiles on.
+
+    Other parameters
+    ----------------
+    quantile_column_name : str, optional
+        Name for added quantile column.
+    weight_column : str, optional
+        Column name to use for weighting rows.
+    weighted : bool, optional
+        Whether to calculate weighted quantiles.
+    adjust_weight_for_household_size : bool, optional
+        Adjust weights for household size.
+    equivalence_scale : _EquivalenceScale, optional
+        Household equivalence scale to use.
+    for_all : bool, optional
+        Calculate quantiles across all rows.
+    annual : bool, optional
+        Annualize quantiles.
+    groupby : str | list[str], optional
+        Column(s) to group by.
+    years : list[int], optional
+        Years to include.
+
+    Returns
+    -------
+    DataFrame
+        Input table with added decile column.
+    """
     parameters = __get_optional_params(locals())
-    return api.calculate.add_decile(**parameters)
+    return calculate.add_decile(**parameters)
+
+
+def add_percentile(
+    table: pd.DataFrame | pd.Series | None = None,
+    quantile_column_name: str = "Quantile",
+    weight_column: str | None = None,
+    on_variable: _QuantileBase | None = None,
+    on_column: str | None = None,
+    weighted: bool = True,
+    adjust_weight_for_household_size: bool = False,
+    equivalence_scale: _EquivalenceScale = "Household",
+    for_all: bool = True,
+    annual: bool = True,
+    groupby: str | Iterable[str] | None = None,
+    years: list[int] | None = None,
+) -> pd.DataFrame:
+    """Adds percentiles as a column to the input table.
+
+    Parameters
+    ----------
+    table : DataFrame | Series, optional
+        Table to add quantiles to.
+    bins : int, optional
+        Number of quantile bins to create.
+    on_variable : _QuantileBase, optional
+        Variable to calculate quantiles on.
+    on_column : str, optional
+        Column to calculate quantiles on.
+
+    Other parameters
+    ----------------
+    quantile_column_name : str, optional
+        Name for added quantile column.
+    weight_column : str, optional
+        Column name to use for weighting rows.
+    weighted : bool, optional
+        Whether to calculate weighted quantiles.
+    adjust_weight_for_household_size : bool, optional
+        Adjust weights for household size.
+    equivalence_scale : _EquivalenceScale, optional
+        Household equivalence scale to use.
+    for_all : bool, optional
+        Calculate quantiles across all rows.
+    annual : bool, optional
+        Annualize quantiles.
+    groupby : str | list[str], optional
+        Column(s) to group by.
+    years : list[int], optional
+        Years to include.
+
+    Returns
+    -------
+    DataFrame
+        Input table with added percentile column.
+    """
+    parameters = __get_optional_params(locals())
+    return calculate.add_percentile(**parameters)

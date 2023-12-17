@@ -3,6 +3,7 @@ from typing import Literal
 import pandas as pd
 
 from ...api import api
+
 from .common import create_expenditure_tiers, filter_urban_rural
 
 

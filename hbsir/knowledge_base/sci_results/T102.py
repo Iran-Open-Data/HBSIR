@@ -3,6 +3,8 @@ from typing import Literal
 import pandas as pd
 
 from ...api import api
+from ...calculate import calculate
+
 from .common import create_expenditure_tiers, filter_urban_rural
 
 
@@ -26,11 +28,11 @@ def create_table_for_a_year(
     )
     table = filter_urban_rural(table, urban_rural)
 
-    total = api.calculate.weighted_average(table, columns=["Value"]).iloc[0]
+    total = calculate.weighted_average(table, columns=["Value"]).iloc[0]
 
     average_number_of_members = (
         table.groupby("Expenditure_Tier", observed=True)
-        .apply(api.calculate.weighted_average, columns=["Value"])
+        .apply(calculate.weighted_average, columns=["Value"])
         .rename(columns={"Value": "Average"})
     )
     average_number_of_members.loc["Total"] = total

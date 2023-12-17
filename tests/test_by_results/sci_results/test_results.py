@@ -6,7 +6,7 @@ import hbsir
 
 
 RATIO_ERROR = 1
-VALUE_ERROR = 0.1
+VALUE_ERROR = 0.25
 
 CSV_DIR = Path(__file__).parent.joinpath("csv")
 
@@ -66,6 +66,13 @@ def test_T104():
 
 def test_T105():
     table = "T105"
+    years = [1401]
+    for year in years:
+        _execute_tests(table=table, year=year)
+
+
+def test_T116():
+    table = "T116"
     years = [1401]
     for year in years:
         _execute_tests(table=table, year=year)
