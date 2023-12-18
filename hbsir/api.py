@@ -59,7 +59,6 @@ _Table = Literal[
     "Outlays",
     "Total_Outlay",
     "Imputed_Rent",
-    "Incomes",
     "Income_Breakdown",
     "Members_Income_Breakdown",
     "Total_Income",
@@ -337,7 +336,7 @@ def add_weight(table: pd.DataFrame) -> pd.DataFrame:
 def setup(
     years: _Years,
     *,
-    table_names: str | list[str] = "all",
+    table_names: str | list[str] | None = None,
     replace: bool = False,
     method: Literal["create_from_raw", "download_cleaned"] = "download_cleaned",
     download_source: Literal["original", "mirror"] = "mirror",

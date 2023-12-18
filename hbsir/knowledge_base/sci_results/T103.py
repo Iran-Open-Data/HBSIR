@@ -89,7 +89,7 @@ def create_table_for_a_year(
     return main_table
 
 
-def main(years: list[int], urban_rural: Literal["urban", "rural", "both"] = "both"):
+def main(years: list[int], urban_rural: Literal["urban", "rural"]):
     if len(years) == 1:
         return create_table_for_a_year(years[0], urban_rural)
     raise ValueError

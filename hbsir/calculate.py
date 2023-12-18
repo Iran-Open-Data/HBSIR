@@ -77,7 +77,7 @@ def average_table(
 
 def quantile(
     table: pd.DataFrame | pd.Series | None = None,
-    quantile_column_name: str = "Quantile",
+    quantile_column_name: str | None = None,
     bins: int = -1,
     weight_column: str | None = None,
     on_variable: _QuantileBase | None = None,
@@ -135,7 +135,7 @@ def quantile(
 
 def add_quantile(
     table: pd.DataFrame | pd.Series | None = None,
-    quantile_column_name: str = "Quantile",
+    quantile_column_name: str | None = None,
     bins: int = -1,
     weight_column: str | None = None,
     on_variable: _QuantileBase | None = None,
@@ -193,7 +193,7 @@ def add_quantile(
 
 def add_decile(
     table: pd.DataFrame | pd.Series | None = None,
-    quantile_column_name: str = "Quantile",
+    quantile_column_name: str | None = None,
     weight_column: str | None = None,
     on_variable: _QuantileBase | None = None,
     on_column: str | None = None,
@@ -250,7 +250,7 @@ def add_decile(
 
 def add_percentile(
     table: pd.DataFrame | pd.Series | None = None,
-    quantile_column_name: str = "Quantile",
+    quantile_column_name: str | None = None,
     weight_column: str | None = None,
     on_variable: _QuantileBase | None = None,
     on_column: str | None = None,

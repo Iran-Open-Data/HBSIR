@@ -25,7 +25,7 @@ def _eq_tables(
 
 
 def _execute_tests(table: str, year: int) -> None:
-    for urban_rural in ["urban", "rural"]:
+    for urban_rural in ("urban", "rural"):
         abr = "U" if urban_rural == "urban" else "R"
         original = pd.read_csv(
             CSV_DIR.joinpath(f"{year}{abr}_{table}.csv"), index_col=0

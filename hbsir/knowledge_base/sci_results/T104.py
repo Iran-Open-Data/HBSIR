@@ -13,7 +13,7 @@ def create_table_for_a_year(
     head_state = (
         api.load_table("members_properties", years=1401)
         .set_index(["Year", "ID"])
-        .loc[lambda df: df["Relationship"] == "Head", "Activity_State"]
+        .loc[lambda df: df["Relationship"] == "Head", ["Activity_State"]]
     )
 
     table = pd.concat(
@@ -48,7 +48,7 @@ def create_table_for_a_year(
     return main_table
 
 
-def main(years: list[int], urban_rural: Literal["urban", "rural"] = "urban"):
+def main(years: list[int], urban_rural: Literal["urban", "rural"]):
     if len(years) == 1:
         return create_table_for_a_year(years[0], urban_rural)
     raise ValueError

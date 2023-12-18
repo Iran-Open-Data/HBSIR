@@ -23,7 +23,7 @@ def create_table_for_a_year(
             members,
             calculate.quantile(
                 years=[year],
-                on="Net_Expenditure",
+                on_variable="Net_Expenditure",
                 groupby=["Urban_Rural"],
                 bins=10,
                 quantile_column_name="Decile",
@@ -70,7 +70,7 @@ def create_table_for_a_year(
     return main_table
 
 
-def main(years: list[int], urban_rural: Literal["urban", "rural", "both"] = "both"):
+def main(years: list[int], urban_rural: Literal["urban", "rural"]):
     if len(years) == 1:
         return create_table_for_a_year(years[0], urban_rural)
     raise ValueError
