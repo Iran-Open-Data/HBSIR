@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "hbsir"
-version = "0.1.1"
+version = "0.4.0"
 description = ""
 authors = ["mohammad amin alavian <m.amin.alavian@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.10"
-bssir = {git = "https://github.com/Iran-Open-Data/BSSIR.git"}
+bssir = "0.3.0"
 
 
 [tool.poetry.group.dev.dependencies]

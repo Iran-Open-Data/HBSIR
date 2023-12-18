@@ -156,12 +156,14 @@ css = ["tinycss2 (>=1.1.0,<1.3)"]
 
 [[package]]
 name = "bssir"
-version = "0.2.3"
+version = "0.3.0"
 description = ""
 optional = false
 python-versions = ">=3.10"
-files = []
-develop = false
+files = [
+    {file = "bssir-0.3.0-py3-none-any.whl", hash = "sha256:1f250cd96f88f31fb50c30da6eb612b71b1af8cb63593e250992b61e75aba1f1"},
+    {file = "bssir-0.3.0.tar.gz", hash = "sha256:abd3deff5e3dd46cb9f9299d1c7aaf6c9e71e536bd9cb095d113da93acb3f83e"},
+]
 
 [package.dependencies]
 dbfread = "*"
@@ -172,12 +174,6 @@ pyodbc = "*"
 PyYAML = "*"
 requests = "*"
 tabulate = "*"
-
-[package.source]
-type = "git"
-url = "https://github.com/Iran-Open-Data/BSSIR.git"
-reference = "HEAD"
-resolved_reference = "acf36b2baeaaf783896b503e88a808af21269c1b"
 
 [[package]]
 name = "certifi"
@@ -2458,4 +2454,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10"
-content-hash = "604493a8bd8951a6263ee032bdd88df4c7f0a939fda80c663cc5b629b1a0a4f3"
+content-hash = "9b966b8e6de3b27225ca342cb168b5dca34be0f5c8b2883d2fd2478b1346e1f8"
