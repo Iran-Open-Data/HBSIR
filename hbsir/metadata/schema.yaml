@@ -6,7 +6,7 @@ ANCHORS:
       - Year
       - ID
       - Table_Name
-      - Code
+      - Commodity_Code
       - Provision_Method
       - Duration: int
       - Expenditure
@@ -14,7 +14,7 @@ ANCHORS:
       - Year
       - ID
       - Table_Name
-      - Code
+      - Commodity_Code
       - Provision_Method
       - Price_System
       - Amount
@@ -24,7 +24,7 @@ ANCHORS:
       - Year
       - ID
       - Table_Name
-      - Code
+      - Commodity_Code
       - Provision_Method
       - Price_System
       - Duration: int
@@ -33,7 +33,7 @@ ANCHORS:
       - Year
       - ID
       - Table_Name
-      - Code
+      - Commodity_Code
       - Provision_Method
       - Duration: int
       - Expenditure
@@ -184,14 +184,14 @@ food:
         1372: null
 
     - add_classification:
-        1363: {name: Duration}
+        1363: {target: Commodity_Code, name: Duration}
         1369: null
 
     - apply_filter:
         1363: null
-        1364: "Code not in [18888, 19993]"
-        1365: "Code not in [18888]"
-        1366: "Code not in [18888, 19993, 91112, 91124, 91142, 91171, 91197]"
+        1364: "Commodity_Code not in [18888, 19993]"
+        1365: "Commodity_Code not in [18888]"
+        1366: "Commodity_Code not in [18888, 19993, 91112, 91124, 91142, 91171, 91197]"
         1367: null
 
     - apply_order:
@@ -199,7 +199,7 @@ food:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Price_System
           - Amount
@@ -210,7 +210,7 @@ food:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Amount
           - Duration: int
@@ -235,7 +235,7 @@ tobacco:
       - Year
       - ID
       - Table_Name
-      - Code
+      - Commodity_Code
       - Provision_Method
       - Amount
       - Duration: int
@@ -277,7 +277,7 @@ home:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Duration: int
           - Expenditure
@@ -285,7 +285,7 @@ home:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Price_System
           - Amount
@@ -295,7 +295,7 @@ home:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Price_System
           - Duration: int
@@ -304,7 +304,7 @@ home:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Duration: int
           - Expenditure
@@ -312,7 +312,7 @@ home:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Duration: int
           - Expenditure
@@ -465,7 +465,7 @@ durable:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Duration: int
           - Expenditure
@@ -474,7 +474,7 @@ durable:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Price_System
           - Duration: int
@@ -484,7 +484,7 @@ durable:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Price_System
           - Duration: int
@@ -494,7 +494,7 @@ durable:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Duration: int
           - Expenditure
@@ -519,14 +519,14 @@ investment:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Duration: int
           - Expenditure
         1367:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Duration: int
           - Expenditure
@@ -535,7 +535,7 @@ investment:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Price_System
           - Duration: int
@@ -545,7 +545,7 @@ investment:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Price_System
           - Duration: int
@@ -555,7 +555,7 @@ investment:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Duration: int
           - Expenditure
@@ -565,7 +565,7 @@ investment:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Duration: int
           - Expenditure
@@ -635,7 +635,7 @@ Original_Expenditures:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Price_System
           - Amount
@@ -647,7 +647,7 @@ Original_Expenditures:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Amount
           - Duration: int
@@ -677,7 +677,7 @@ Expenditures:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Price_System
           - Amount
@@ -688,7 +688,7 @@ Expenditures:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Amount
           - Price
@@ -804,7 +804,7 @@ Original_Outlays:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Price_System
           - Amount
@@ -816,7 +816,7 @@ Original_Outlays:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Amount
           - Duration: int
@@ -846,7 +846,7 @@ Outlays:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Price_System
           - Amount
@@ -857,7 +857,7 @@ Outlays:
           - Year
           - ID
           - Table_Name
-          - Code
+          - Commodity_Code
           - Provision_Method
           - Amount
           - Price
@@ -987,6 +987,7 @@ Imputed_Rent:
   instructions:
 
     - add_classification:
+        target: Commodity_Code
         name: Imputed_Rent
 
     - apply_filter: "Imputed_Rent.notnull() & (Provision_Method.isnull() or Provision_Method == 'Purchase')"

@@ -260,8 +260,8 @@ MEMBERS_ITEMS:
     new_name: "Literacy_Status"
     type: UInt8
 
-  members_job_code: &members_job_code
-    new_name: Job_Code
+  members_occupation_code: &members_occupation_code
+    new_name: Occupation_Code
     type: string
 
   members_work_place: &members_work_place
@@ -307,14 +307,14 @@ members_properties:
       1366: *members_activity_state
     COL10:
       1363: *members_education_level
-      1366: *members_job_code
+      1366: *members_occupation_code
       1369: *members_marrital_state
     COL11:
       1363: *members_activity_state
       1366: *members_work_place
       1369: null
     COL12:
-      1363: *members_job_code
+      1363: *members_occupation_code
       1366: *members_work_type
       1369: null
     COL13:
@@ -1413,7 +1413,7 @@ census_month:
 EXPENDITURE_ITEMS:
 
   expenditure_code: &expenditure_code
-    new_name: Code
+    new_name: Commodity_Code
     type: UInt32
 
   expenditure_provision_method: &expenditure_provision_method
