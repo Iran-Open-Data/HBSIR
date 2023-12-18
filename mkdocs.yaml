@@ -40,7 +40,9 @@ theme:
 nav:
   - Home: README.md
 
-  # - Usage: usage.md
+  - Usage:
+    - Tutorials:
+      - Rental Expences in Tehran: tutorials/tehran_rents.py
 
   - API Reference:
     - api/README.md
