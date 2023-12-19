@@ -6,8 +6,8 @@
     - [x] T101 (urban-rural) (1401)
     - [x] T102 (urban-rural) (1401)
     - [x] T103 (urban-rural) (1401)
-    - [ ] T104
-    - [ ] T105
+    - [x] T104 (urban-rural) (1401)
+    - [x] T105 (urban-rural) (1401)
     - [ ] T106
     - [ ] T107
     - [ ] T108
@@ -18,7 +18,7 @@
     - [ ] T113
     - [ ] T114
     - [ ] T115
-    - [x] T116
+    - [x] T116 (urban-rural) (1401)
     - [ ] T117
     - [ ] T118
     - [ ] T119
