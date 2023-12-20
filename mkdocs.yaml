@@ -56,6 +56,13 @@ nav:
       - hbsir.add_attribute: api/add_attribute.md
       - hbsir.add_classification: api/add_classification.md
       - hbsir.add_weight: api/add_weight.md
+      - hbsir.calculate.add_quantile: api/calculate_add_quantile.md
+      - hbsir.calculate.add_decile: api/calculate_add_decile.md
+      - hbsir.calculate.add_percentile: api/calculate_add_percentile.md
+    - Analitical Functions:
+      - hbsir.calculate.weighted_average: api/calculate_weighted_average.md
+      - hbsir.calculate.average_table: api/calculate_average_table.md
+      - hbsir.calculate.quantile: api/calculate_quantile.md
 
   - Data Reference:
     - data/README.md
@@ -171,3 +178,13 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/katex.js 
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css

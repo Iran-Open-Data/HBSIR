@@ -9,9 +9,19 @@
     - [x] [load_knowledge](./load_knowledge.md)
     - [ ] [create_table_with_schema]()
     - [ ] [load_external_table]()
-- [x] Data Addition Function
+- [ ] Data Addition Function
     - [x] [add_attribute](./add_attribute.md)
     - [x] [add_classification](./add_classification.md)
     - [x] [add_weight](./add_weight.md)
+    - [ ] [add_cpi](./add_cpi.md)
+    - [x] [calculate.add_quantile](./calculate_add_quantile.md)
+    - [x] [calculate.add_decile](./calculate_add_decile.md)
+    - [x] [calculate.add_percentile](./calculate_add_percentile.md)
 - [ ] Analitical Functions
-    - [ ] [calculate_weighted_average]()
+    - [x] [calculate.weighted_average](calculate_weighted_average.md)
+    - [x] [calculate.average_table](calculate_average_table.md)
+    - [x] [calculate.quantile](calculate_quantile.md)
+    - [ ] ?
+- [ ] Geographical Functions
+    - [ ] [map.add_geoshape]()
+    - [ ] ?
