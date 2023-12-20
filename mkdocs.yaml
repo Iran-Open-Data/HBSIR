@@ -37,10 +37,13 @@ theme:
     - content.code.annotate
     - content.tooltips
 
+    - content.tabs.link
+
 nav:
   - Home: README.md
 
   - Usage:
+    - Installation Guide: usage/installation.md
     - Tutorials:
       - Rental Expences in Tehran: tutorials/tehran_rents.py
 
@@ -180,6 +183,8 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.tabbed:
+      alternate_style: true
 
 extra_javascript:
   - javascripts/katex.js 
