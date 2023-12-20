@@ -11,7 +11,7 @@
         <link rel="canonical" href="https://iran-open-data.github.io/HBSIR/data/">
       
       
-        <link rel="prev" href="../api/add_weight/">
+        <link rel="prev" href="../api/calculate_quantile/">
       
       
         <link rel="next" href="../tables/">
@@ -49,6 +49,8 @@
     
     
       <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -528,6 +530,8 @@
       
         
       
+        
+      
     
     
     
@@ -778,6 +782,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -865,6 +875,188 @@
   
   <span class="md-ellipsis">
     hbsir.add_weight
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/calculate_add_quantile/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    hbsir.calculate.add_quantile
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/calculate_add_decile/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    hbsir.calculate.add_decile
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/calculate_add_percentile/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    hbsir.calculate.add_percentile
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Analitical Functions
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            Analitical Functions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/calculate_weighted_average/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    hbsir.calculate.weighted_average
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/calculate_average_table/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    hbsir.calculate.average_table
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/calculate_quantile/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    hbsir.calculate.quantile
   </span>
   
 
@@ -3021,9 +3213,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#sampling-frame" class="md-nav__link">
+  <a href="#sampling-framework" class="md-nav__link">
     <span class="md-ellipsis">
-      Sampling Frame
+      Sampling Framework
     </span>
   </a>
   
@@ -3108,8 +3300,52 @@ relevant year until the end of March of the following year.</p>
 <h3 id="data-gathering-method">Data Gathering Method</h3>
 <p>The required information is collected through face-to-face interviews
 with sample households and completion of questionnaires.</p>
-<h3 id="sampling-frame">Sampling Frame</h3>
+<h3 id="sampling-framework">Sampling Framework</h3>
+<p>The first stage sampling framework in this plan is the fourth baseline sample 
+of household surveys that includes the first stage sampling units (clusters). 
+Each cluster includes one block, part of a large block, or in some cases a set 
+of several small blocks that are constructed based on information from the 
+general population and housing census so that it includes at least 350 households.</p>
+<p>The second stage sampling framework is a list of names and addresses of 
+resident ordinary households and some groups in selected sample clusters from 
+the baseline sample.</p>
 <h3 id="sampling-method">Sampling Method</h3>
+<p>The samples in this plan are selected in three stages using probabilistic 
+sampling methods. In the first stage, the sampling clusters of each stratum of 
+the baseline sample are randomly selected using simple random sampling. In the 
+second stage, in each sample cluster, six-household rotation groups are 
+constructed and three rotation groups are determined for the survey in each 
+year based on the rotation pattern. In the third stage, inside each of the 
+rotation groups, two households are randomly selected as the main sample 
+households and the remaining four households in the rotation group are 
+considered as substitute households.</p>
+<p>In addition to estimating parameter levels (estimating parameters at a 
+specific point in time) in this plan, estimating changes is also of interest. 
+To obtain both types of level and change estimates for parameters with 
+acceptable accuracy, rotational sampling is used. Rotational sampling, by 
+keeping part of the sample units fixed between two survey periods and changing 
+the rest, provides the possibility to estimate both levels and changes of 
+parameters. Optimal implementation of rotational sampling requires the use of 
+a baseline sample.</p>
+<p>The rotational pattern selected for this plan is the three in then out pattern, 
+according to which during three years from each rotation group, which is 
+equivalent to 2 sample households, at most 3 surveys are conducted. This means 
+that a household, depending on the rotation group it belongs to, is included 
+in the sample for a maximum of 3 years and after that it is permanently excluded 
+from the sample. Every year, inside each cluster, surveys are conducted from 
+three rotation groups (equivalent to 6 households) as follows:</p>
+<ol>
+<li>The group that has entered the sample for the first time</li>
+<li>The group that has been placed in the sample for the second time</li>
+<li>The group that has been placed in the sample for the third time</li>
+</ol>
+<p>Thus, the overlap between two years <span class="arithmatex">\(t\)</span> and <span class="arithmatex">\(t+i\)</span> is:</p>
+<div class="arithmatex">\[
+O_{t,t+1} = 2/3    O_{t,t+2} = 2/3
+\]</div>
+<p>Every year, surveys are conducted from three rotation groups inside each 
+cluster. The rotation pattern used in this plan is presented in the tables 
+below:</p>
 <table>
 <thead>
 <tr>
@@ -3122,14 +3358,14 @@ with sample households and completion of questionnaires.</p>
 <tbody>
 <tr>
 <td>A</td>
-<td>A3</td>
+<td>A1</td>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
 <td>B</td>
+<td>B1</td>
 <td>B2</td>
-<td>B3</td>
 <td>-</td>
 </tr>
 <tr>
@@ -3166,7 +3402,7 @@ with sample households and completion of questionnaires.</p>
 <tbody>
 <tr>
 <td>A</td>
-<td>A3</td>
+<td>A1</td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -3174,8 +3410,8 @@ with sample households and completion of questionnaires.</p>
 </tr>
 <tr>
 <td>B</td>
-<td>B2</td>
-<td>B3</td>
+<td>B1</td>
+<td>B1</td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -3241,7 +3477,7 @@ with sample households and completion of questionnaires.</p>
 <tbody>
 <tr>
 <td>A</td>
-<td>A3</td>
+<td>A1</td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -3254,8 +3490,8 @@ with sample households and completion of questionnaires.</p>
 </tr>
 <tr>
 <td>B</td>
+<td>B1</td>
 <td>B2</td>
-<td>B3</td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -3455,6 +3691,12 @@ with sample households and completion of questionnaires.</p>
     
     
       <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+        <script src="../javascripts/katex.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js"></script>
       
     
   </body>
