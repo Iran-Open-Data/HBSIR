@@ -96,7 +96,8 @@ to get involved!
 
 ## Related Packages
 
-HBSIR is built on top of the BSSIR (Basic Survey Structure of Iran) library 
+HBSIR is built on top of the [BSSIR](https://github.com/Iran-Open-Data/BSSIR) 
+(Basic Survey Structure of Iran) library 
 which provides shared data loading and transformation functionality across 
 multiple socioeconomic surveys from Iran.
 
@@ -115,10 +116,22 @@ The modular design centered around BSSIR also allows the HBSIR data access
 API to be reused easily. Two other survey-specific libraries that inherit 
 directly from HBSIR are:
 
-- LFSIR: For the Iran Labor Force Survey
+- [LFSIR](https://github.com/Iran-Open-Data/LFSIR): For the Iran Labor Force Survey
 - CNSIR: For the Iran Census and Sample Survey
 
 So in summary, BSSIR provides base survey data infrastructure, while HBSIR, 
 LFSIR and CNSIR build on top of it with added provisions for analyzing their 
 respective datasets. This hierarchy of packages allows collaborative 
 development and maintenance.
+
+``` mermaid
+flowchart TD
+    BSSIR --> HBSIR
+    BSSIR --> LFSIR
+    BSSIR --> CNSIR
+
+    click BSSIR "https://github.com/Iran-Open-Data/BSSIR"
+    click HBSIR "https://github.com/Iran-Open-Data/HBSIR"
+    click LFSIR "https://github.com/Iran-Open-Data/LFSIR"
+    click CNSIR "https://github.com/Iran-Open-Data/CNSIR"
+```
