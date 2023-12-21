@@ -158,7 +158,7 @@ expenditure_table.head()
 average_expenditure = hbsir.calculate.average_table(
     expenditure_table,
     groupby=["Decile"],
-    columns=["Total_Expenditure", "Rental_Expenditure"]
+    columns=["Total_Expenditure", "Rental_Expenditure"],
 )
 average_expenditure
 
