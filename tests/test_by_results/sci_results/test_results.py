@@ -25,7 +25,10 @@ def _eq_tables(
 
 
 def _execute_tests(table: str, year: int) -> None:
-    for urban_rural in ("urban", "rural"):
+    for urban_rural in (
+        "urban",
+        "rural",
+    ):
         abr = "U" if urban_rural == "urban" else "R"
         original = pd.read_csv(
             CSV_DIR.joinpath(f"{year}{abr}_{table}.csv"), index_col=0
@@ -38,7 +41,7 @@ def _execute_tests(table: str, year: int) -> None:
 
 def test_T101():
     table = "T101"
-    years = [1401]
+    years = [1389, 1401]
     for year in years:
         _execute_tests(table=table, year=year)
 

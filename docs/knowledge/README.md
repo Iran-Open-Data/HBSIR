@@ -3,7 +3,7 @@
 ## SCI Results
 
 ??? Availability
-    - [x] T101 (urban-rural) (1401)
+    - [x] T101 (urban-rural) (1389, 1401)
     - [x] T102 (urban-rural) (1401)
     - [x] T103 (urban-rural) (1401)
     - [x] T104 (urban-rural) (1401)
