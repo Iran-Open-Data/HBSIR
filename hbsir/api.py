@@ -23,7 +23,6 @@ api = API(defaults=defaults, metadata=metadata)
 
 _Table = Literal[
     "household_information",
-    "census_month",
     "members_properties",
     "house_specifications",
     "old_rural_house_specifications",

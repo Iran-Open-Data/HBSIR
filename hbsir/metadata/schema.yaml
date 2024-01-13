@@ -93,6 +93,50 @@ members_properties:
 
     - add_year
 
+    - apply_order:
+        1363:
+          - Year: Int16
+          - ID: UInt64
+          - Member_Number: Int8
+          - Relationship
+          - Sex
+          - Age: Int16
+          - Nationality
+          - Literacy_Status
+          - Education_Level
+          - Marrital_State
+          - Activity_State
+          - Occupation_Code
+          - Work_Place
+          - Work_Type
+          - Weeks_in_Employment
+        1366:
+          - Year: Int16
+          - ID: UInt64
+          - Member_Number: Int8
+          - Relationship
+          - Sex
+          - Age: Int16
+          - Literacy_Status
+          - Activity_State
+          - Education_Level
+          - Occupation_Code
+          - Work_Place
+          - Work_Type
+          - Weeks_in_Employment
+        1369:
+          - Year: Int16
+          - ID: UInt64
+          - Member_Number: Int8
+          - Relationship
+          - Sex
+          - Age: Int16
+          - Is_Literate
+          - Is_Student
+          - Education_Level
+          - Marrital_State
+          - Activity_State
+
 
 Number_of_Members:
 
@@ -892,6 +936,10 @@ employment_income:
     - add_year
 
     - add_table_name
+
+    - apply_filter:
+        1389: ID != 1130032060
+        1390: null
 
 
 self_employed_income:
