@@ -257,7 +257,7 @@ MEMBERS_ITEMS:
     type: UInt8
 
   members_literacy_status: &members_literacy_status
-    new_name: "Literacy_Status"
+    new_name: Literacy_Status
     type: UInt8
 
   members_occupation_code: &members_occupation_code
