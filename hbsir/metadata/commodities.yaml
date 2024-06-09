@@ -61,7 +61,7 @@ sci_coicop_1363: &sci_coicop_1363
     '12':
       level: 5
       label: meat_and_sea_foods
-      farsi_name: "گوشت و غذاهای دریایی"
+      farsi_name: گوشت و غذاهای دریایی
       code: {start: 12_000, end: 13_000}
 
     #                            #### LEVEL 4 ####                            #
@@ -90,14 +90,14 @@ sci_coicop_1363: &sci_coicop_1363
     '13':
       level: 3
       label: milk_other_dairy_product_and_eggs
-      farsi_name: "شیر و فرآورده‌های آن و تخم پرندگان"
+      farsi_name: شیر و فرآورده‌های آن و تخم پرندگان
       code: {start: 13_000, end: 14_000}
 
     #                            #### LEVEL 4 ####                            #
     '131':
       level: 4
       label: milk
-      farsi_name: "شیر"
+      farsi_name: شیر
       code: {start: 13_100, end: 13_200}
       duration: 2
 
@@ -105,7 +105,7 @@ sci_coicop_1363: &sci_coicop_1363
     '132-133':
       level: 4
       label: other_dairy_products
-      farsi_name: "فراورده‌های شیری"
+      farsi_name: فراورده‌های شیری
       code: {start: 13_200, end: 13_400}
       duration: 2
 
@@ -113,7 +113,7 @@ sci_coicop_1363: &sci_coicop_1363
     '134':
       level: 4
       label: eggs
-      farsi_name: "تخم پرندگان"
+      farsi_name: تخم پرندگان
       code: {start: 13_400, end: 13_500}
       duration: 2
 
@@ -121,7 +121,7 @@ sci_coicop_1363: &sci_coicop_1363
     '14':
       level: 3
       label: oils_and_fats
-      farsi_name: "روغن‌ها و چربی‌ها"
+      farsi_name: روغن‌ها و چربی‌ها
       code: {start: 14_000, end: 15_000}
 
     #                            #### LEVEL 4 ####                            #
@@ -135,7 +135,7 @@ sci_coicop_1363: &sci_coicop_1363
     '142':
       level: 4
       label: vegetable_oils
-      farsi_name: "روغن نباتی"
+      farsi_name: روغن نباتی
       code: {start: 14_200, end: 14_300}
       duration: 30
 
@@ -143,7 +143,7 @@ sci_coicop_1363: &sci_coicop_1363
     '15':
       level: 3
       label: fruits_and_vegetables
-      farsi_name: "میوه‌ها و سبزیجات"
+      farsi_name: میوه‌ها و سبزیجات
       code: {start: 15_000, end: 16_000}
 
     #                            #### LEVEL 4 ####                            #
@@ -200,14 +200,14 @@ sci_coicop_1363: &sci_coicop_1363
     '16':
       level: 3
       label: nuts_and_pulses
-      farsi_name: "خشکبار، آجیل و حبوبات"
+      farsi_name: خشکبار، آجیل و حبوبات
       code: {start: 16_000, end: 17_000}
 
     #                            #### LEVEL 4 ####                            #
     '161-162':
       level: 4
       label: nuts
-      farsi_name: "خشکبار"
+      farsi_name: خشکبار
       code: {start: 16_100, end: 16_300}
       duration: 2
 
@@ -229,7 +229,7 @@ sci_coicop_1363: &sci_coicop_1363
     '171':
       level: 4
       label: sugar
-      farsi_name: "قند و شکر"
+      farsi_name: قند و شکر
       code: {start: 17_100, end: 17_200}
       duration: 30
 
@@ -244,7 +244,7 @@ sci_coicop_1363: &sci_coicop_1363
     '174':
       level: 4
       label: tea_coffee_and_cocoa_drinks
-      farsi_name: "چای، قهوه و کاکائو"
+      farsi_name: چای، قهوه و کاکائو
       code: {start: 17_400, end: 17_500}
       duration: 30
 
@@ -252,7 +252,7 @@ sci_coicop_1363: &sci_coicop_1363
     '18':
       level: 3
       label: spices_condiments_and_other_food_products
-      farsi_name: "ادویه‌ها، چاشنی‌ها و سایر ترکیبات خوراکی"
+      farsi_name: ادویه‌ها، چاشنی‌ها و سایر ترکیبات خوراکی
       code: {start: 18_000, end: 19_000}
 
     #                            #### LEVEL 4 ####                            #
@@ -282,14 +282,14 @@ sci_coicop_1363: &sci_coicop_1363
     '19':
       level: 3
       label: soft_drinks_prepared_foods_and_tobacco
-      farsi_name: "نوشابه‌ها، غذاهای آماده و دخانیات"
+      farsi_name: نوشابه‌ها، غذاهای آماده و دخانیات
       code: {start: 19_000, end: 20_000}
 
     #                            #### LEVEL 4 ####                            #
     '191':
       level: 4
       label: soft_drinks_home
-      farsi_name: "نوشابه‌ها (برای مصرف در خانه)"
+      farsi_name: نوشابه‌ها (برای مصرف در خانه)
       code: {start: 19_100, end: 19_200}
       duration: 2
 
@@ -297,7 +297,7 @@ sci_coicop_1363: &sci_coicop_1363
     '192-193':
       level: 4
       label: prepared_foods_home
-      farsi_name: "غذا‌های آماده (برای مصرف در خانه)"
+      farsi_name: غذا‌های آماده (برای مصرف در خانه)
       code: {start: 19_200, end: 19_400}
       duration: 2
 
@@ -305,7 +305,7 @@ sci_coicop_1363: &sci_coicop_1363
     '194':
       level: 4
       label: soft_drinks_outdoor
-      farsi_name: "نوشابه‌ها (برای مصرف خارج خانه)"
+      farsi_name: نوشابه‌ها (برای مصرف خارج خانه)
       code: {start: 19_400, end: 19_500}
       duration: 2
 
@@ -313,7 +313,7 @@ sci_coicop_1363: &sci_coicop_1363
     '195':
       level: 4
       label: prepared_foods_outdoor
-      farsi_name: "غذا‌های آماده (برای مصرف خارج خانه)"
+      farsi_name: غذا‌های آماده (برای مصرف خارج خانه)
       code: {start: 19_500, end: 19_600}
       duration: 2
 
@@ -321,7 +321,7 @@ sci_coicop_1363: &sci_coicop_1363
     '196':
       level: 4
       label: tanagholat_outdoor
-      farsi_name: "تنقلات (برای مصرف خارج خانه)"
+      farsi_name: تنقلات (برای مصرف خارج خانه)
       code: {start: 19_600, end: 19_700}
       duration: 2
 
@@ -329,7 +329,7 @@ sci_coicop_1363: &sci_coicop_1363
     '197':
       level: 4
       label: tobacco
-      farsi_name: "دخانیات"
+      farsi_name: دخانیات
       code: {start: 19_700, end: 19_800}
       duration: 2
 
@@ -338,7 +338,7 @@ sci_coicop_1363: &sci_coicop_1363
     '2':
       level: 1
       label: clothing_and_footwear
-      farsi_name: "پوشاک و کفش"
+      farsi_name: پوشاک و کفش
       code: {start: 20_000, end: 30_000}
 
 
@@ -346,7 +346,7 @@ sci_coicop_1363: &sci_coicop_1363
     '3':
       level: 1
       label: housing_water_electricity_gas_and_other_fuels
-      farsi_name: "هزینه‌های جاری مسکن، آب و فاضلاب، سوخت و روشنایی"
+      farsi_name: هزینه‌های جاری مسکن، آب و فاضلاب، سوخت و روشنایی
       code: {start: 30_000, end: 33_000}
 
 
@@ -354,14 +354,14 @@ sci_coicop_1363: &sci_coicop_1363
     '31':
       level: 2
       label: housing
-      farsi_name: "هزینه‌های مسکن"
+      farsi_name: هزینه‌های مسکن
       code: {start: 31_000, end: 32_000}
 
     #                        ######## LEVEL 3 ########                        #
     '311':
       level: 3
       label: rentals_for_housing
-      farsi_name: "اجاره بهای مسکن"
+      farsi_name: اجاره بهای مسکن
       code: {start: 31_100, end: 31_200}
 
     #                ################ LEVEL 2 ################                #
@@ -376,7 +376,7 @@ sci_coicop_1363: &sci_coicop_1363
     '4':
       level: 1
       label: furnishings_household_equipment_and_routine_household_maintenance
-      farsi_name: ""
+      farsi_name: 
       code: {start: 40_000, end: 50_000}
 
 
@@ -384,7 +384,7 @@ sci_coicop_1363: &sci_coicop_1363
     '5':
       level: 1
       label: health
-      farsi_name: ""
+      farsi_name: 
       code: {start: 50_000, end: 60_000}
 
 
@@ -392,7 +392,7 @@ sci_coicop_1363: &sci_coicop_1363
     '6':
       level: 1
       label: transport_information_and_communication
-      farsi_name: ""
+      farsi_name: 
       code: {start: 60_000, end: 70_000}
 
 
@@ -400,7 +400,7 @@ sci_coicop_1363: &sci_coicop_1363
     '7':
       level: 1
       label: recreation_sport_and_culture
-      farsi_name: ""
+      farsi_name: 
       code: {start: 70_000, end: 80_000}
 
 
@@ -408,7 +408,7 @@ sci_coicop_1363: &sci_coicop_1363
     '8':
       level: 1
       label: other_commodities
-      farsi_name: ""
+      farsi_name: 
       code: {start: 80_000, end: 90_000}
 
 
@@ -2775,7 +2775,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '043':
       level: 2
-      label: 
+      label: maintenance_repair_and_security_of_the_dwelling
+      title: Maintenance, repair and security of the dwelling
       farsi_name: نگهداری و تعمیر واحد مسکونی
       code: {start: 43_000, end: 44_000}
 
@@ -2799,7 +2800,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '044':
       level: 2
-      label: 
+      label: water_supply_and_miscellaneous_services_relating_to_the_dwelling
+      title: Water supply and miscellaneous services relating to the dwelling
       farsi_name: سایر خدمات مربوط به واحد مسکونی
       code: {start: 44_000, end: 45_000}
 
@@ -2831,7 +2833,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '045':
       level: 2
-      label: ''
+      label: electricity_gas_and_other_fuels
+      title: Electricity, gas and other fuels
       farsi_name: روشنایی و سوخت
       code: {start: 45_000, end: 46_000}
 
@@ -2879,7 +2882,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '051':
       level: 2
-      label:
+      label: furniture_furnishings_and_loose_carpets
+      title: Furniture, furnishings, and loose carpets
       farsi_name: مبلمان و اثاث، فرش و سایر کفپوش‌ها
       code: {start: 51_000, end: 52_000}
 
@@ -2911,7 +2915,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '052':
       level: 2
-      label: 
+      label: household_textiles
+      title: Household textiles
       farsi_name: لوازم پارچه‌ای خانگی
       code: {start: 52_000, end: 53_000}
 
@@ -2927,7 +2932,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '053':
       level: 2
-      label: 
+      label: household_appliances
+      title: Household appliances
       farsi_name: وسایل خانگی
       code: {start: 53_000, end: 54_000}
 
@@ -2959,7 +2965,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '054':
       level: 2
-      label: 
+      label: glassware_tableware_and_household_utensils
+      title: Glassware, tableware and household utensils
       farsi_name: انواع ظروف غذاخوری و سایر لوازم خانگی
       code: {start: 54_000, end: 55_000}
 
@@ -2975,7 +2982,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '055':
       level: 2
-      label: ''
+      label: tools_and_equipment_for_house_and_garden
+      title: Tools and equipment for house and garden
       farsi_name: ابزار و تجهیزات منزل و باغ
       code: {start: 55_000, end: 56_000}
 
@@ -2999,7 +3007,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '056':
       level: 2
-      label: 
+      label: goods_and_services_for_routine_household_maintenance
+      title: Goods and services for routine household maintenance
       farsi_name: کالا و خدمات برای منزل
       code: {start: 56_000, end: 57_000}
 
@@ -3031,7 +3040,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '061':
       level: 2
-      label: 
+      label: medicines_and_health_products
+      title: Medicines and health products
       farsi_name: محصولات، وسایل و لوازم کمک پزشکی
       code: {start: 61_000, end: 62_000}
 
@@ -3063,7 +3073,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '062':
       level: 2
-      label: 
+      label: outpatient_care_services
+      title: Outpatient care services
       farsi_name: خدمات طبی سرپایی
       code: {start: 62_000, end: 63_000}
 
@@ -3095,7 +3106,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '063':
       level: 2
-      label: 
+      label: inpatient_care_services
+      title: Inpatient care services
       farsi_name: خدمات بیمارستانی
       code: {start: 63_000, end: 64_000}
 
@@ -3111,7 +3123,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '064':
       level: 2
-      label: ''
+      label: other_health_services
+      title: Other health services
       farsi_name: هزینه‌ی ترک اعتیاد
       code: {start: 64_000, end: 65_000}
 
@@ -3135,7 +3148,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '071':
       level: 2
-      label: 
+      label: purchase_of_vehicles
+      title: Purchase of vehicles
       farsi_name: خرید وسایل نقلیه
       code: {start: 71_000, end: 72_000}
 
@@ -3167,7 +3181,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '072':
       level: 2
-      label: 
+      label: operation_of_personal_transport_equipment
+      title: Operation of personal transport equipment
       farsi_name: تجهیزات حمل و نقل شخصی
       code: {start: 72_000, end: 73_000}
 
@@ -3207,7 +3222,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '073':
       level: 2
-      label: 
+      label: passenger_transport_services
+      title: Passenger transport services
       farsi_name: خدمات حمل و نقل
       code: {start: 73_000, end: 74_000}
 
@@ -3271,7 +3287,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '081':
       level: 2
-      label: 
+      label: postal_services
+      label: Postal services
       farsi_name: خدمات پستی
       code: {start: 81_000, end: 82_000}
 
@@ -3286,7 +3303,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '082':
       level: 2
-      label: 
+      label: information_and_communication_equipment
+      title: Information and communication equipment
       farsi_name: تجهیزات تلفن و تلفکس
       code: {start: 82_000, end: 83_000}
 
@@ -3302,7 +3320,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '083':
       level: 2
-      label: 
+      label: information_and_communication_services
+      title: Information and communication services
       farsi_name: خدمات تلفن و فکس
       code: {start: 83_000, end: 84_000}
 
@@ -3326,7 +3345,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '091':
       level: 2
-      label: 
+      label: recreational_durables
+      title: Recreational durables
       farsi_name: تجهیزات سمعی - بصری، عکاسی، داده‌پردازی و لوازم آن‌ها
       code: {start: 91_000, end: 92_000}
 
@@ -3374,7 +3394,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '092':
       level: 2
-      label: ''
+      label: other_recreational_goods
+      title: Other recreational goods
       farsi_name: سایر وسایل عمده بادوام برای تفریح و فرهنگ
       code: {start: 92_000, end: 93_000}
 
@@ -3398,7 +3419,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '093':
       level: 2
-      label: ''
+      label: garden_products_and_pets
+      title: Garden products and pets
       farsi_name: سایر اقلام و وسایل تفریحی، باغ‌ها و حیوان‌های خانگی
       code: {start: 93_000, end: 94_000}
 
@@ -3446,7 +3468,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '094':
       level: 2
-      label: ''
+      label: cultural_and_recreational_services
+      title: Cultural and recreational services
       farsi_name: خدمات فرهنگی و تفریحی
       code: {start: 94_000, end: 95_000}
 
@@ -3478,7 +3501,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '095':
       level: 2
-      label: ''
+      label: newspapers_books_and_stationery
+      title: Newspapers, books and stationery
       farsi_name: روزنامه، کتاب و لوازم‌التحریر
       code: {start: 95_000, end: 96_000}
 
@@ -3518,7 +3542,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '096':
       level: 2
-      label: ''
+      label: package_holidays
+      title: Package holidays
       farsi_name: هزینه مسافرت‌های دستجمعی (همراه تور)
       code: {start: 96_000, end: 97_000}
 
@@ -3542,7 +3567,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '101':
       level: 2
-      label: 
+      label: early_childhood_and_primary_education
+      title: Early childhood and primary education
       farsi_name: هزینه‌ی آموزش ابتدایی و پیش‌دبستانی
       code: {start: 101_000, end: 102_000}
 
@@ -3558,7 +3584,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '102':
       level: 2
-      label: ''
+      label: secondary_education
+      title: Secondary education
       farsi_name: هزینه‌ی آموزش راهنمایی و دبیرستان / متوسطه ۱ و ۲
       code: {start: 102_000, end: 103_000}
 
@@ -3574,7 +3601,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '103':
       level: 2
-      label: ''
+      label: post_secondary_non_tertiary_education
+      title: Post-secondary non-tertiary education
       farsi_name: هزینه‌ی آموزش پیش‌دانشگاهی و تقویتی
       code: {start: 103_000, end: 104_000}
 
@@ -3590,7 +3618,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '104':
       level: 2
-      label: ''
+      label: tertiary_education
+      title: Tertiary education
       farsi_name: هزینه‌ی آموزش تحصیلات عالی
       code: {start: 104_000, end: 105_000}
 
@@ -3606,7 +3635,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '105':
       level: 2
-      label: 
+      label: education_not_defined_by_level
+      title: Education not defined by level
       farsi_name: هزینه‌ی آموزش‌های سطح‌بندی نشده
       code: {start: 105_000, end: 106_000}
 
@@ -3631,6 +3661,7 @@ sci_coicop_1383: &sci_coicop_1383
     '111':
       level: 2
       label: food_and_beverage_serving_services
+      title: Food and beverage serving services
       farsi_name: خدمات تهیه‌ی و ارائه‌ی غذا
       code: {start: 111_000, end: 112_000}
 
@@ -3671,6 +3702,7 @@ sci_coicop_1383: &sci_coicop_1383
     '112':
       level: 2
       label: accommodation_services
+      title: Accommodation services
       farsi_name: خدمات تامین جا
       code: {start: 112_000, end: 113_000}
 
@@ -3702,7 +3734,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '121':
       level: 2
-      label: 
+      label: personal_care
+      title: Personal care
       farsi_name: خدمات شخصی
       code: {start: 121_000, end: 122_000}
 
@@ -3733,7 +3766,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '123':
       level: 2
-      label: 
+      label: other_personal_effects
+      title: Other personal effects
       farsi_name: لوازم شخصی طبقه‌بندی نشده در جای دیگر
       code: {start: 123_000, end: 124_000}
 
@@ -3757,7 +3791,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '124':
       level: 2
-      label: ''
+      label: social_protection
+      title: Social protection
       farsi_name: حمایت اجتماعی و خدمات مشاوره‌ای
       code: {start: 124_000, end: 125_000}
 
@@ -3773,7 +3808,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '125':
       level: 2
-      label: 
+      label: insurance
+      title: Insurance
       farsi_name: بیمه
       code: {start: 125_000, end: 126_000}
 
@@ -3821,7 +3857,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '126':
       level: 2
-      label: ''
+      label: other_financial_services
+      label: Other financial services
       farsi_name: خدمات مالی طبقه‌بندی نشده در جای دیگر
       code: {start: 126_000, end: 127_000}
 
@@ -3845,7 +3882,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '127':
       level: 2
-      label: ''
+      label: other_services
+      title: Other services
       farsi_name: سایر خدمات طبقه‌بندی نشده در جای دیگر
       code: {start: 127_000, end: 128_000}
 
@@ -3949,7 +3987,7 @@ sci_coicop_1383: &sci_coicop_1383
 
 sci_coicop: &sci_coicop
   defaults:
-    aspects: ["label"]
+    aspects: [label]
     levels: [2, 3]
 
   items:
@@ -3974,30 +4012,30 @@ original: *sci_coicop
 Food_NonFood:
   defaults:
     levels: [1]
-    column_names: ["Food_NonFood"]
+    column_names: [Food_NonFood]
     missing_value_replacements: {Food_NonFood: NonFood}
 
   items:
     1363:
       Food:
         level: 1
-        farsi_name: "مخارج خوراکی"
+        farsi_name: مخارج خوراکی
         code:
           - {{original_1363.1}}
       NonFood:
         level: 1
-        farsi_name: "مخارج غیر خوراکی"
+        farsi_name: مخارج غیر خوراکی
     1383:
       Food:
         level: 1
-        farsi_name: "مخارج خوراکی"
+        farsi_name: مخارج خوراکی
         code:
           - {{original_1383.01}}
           - {{original_1383.02}}
           - {{original_1383.111}}
       NonFood:
         level: 1
-        farsi_name: "مخارج غیر خوراکی"
+        farsi_name: مخارج غیر خوراکی
 
 
 ###############################################################################
@@ -4008,8 +4046,8 @@ Food_NonFood:
 Duration:
   defaults:
     levels: [4]
-    aspects: ["duration"]
-    column_names: ["Duration"]
+    aspects: [duration]
+    column_names: [Duration]
   items:
     1363: {{original_1363}}
 
@@ -4022,12 +4060,12 @@ Duration:
 Durability:
   defaults:
     levels: [1]
-    column_names: ["Durability"]
+    column_names: [Durability]
   items:
     1383:
       NonDurable:
         level: 1
-        farsi_name: "بی دوام"
+        farsi_name: بی دوام
         code:
           - {start: 10_000, end: 20_000}
 
@@ -4053,7 +4091,7 @@ Durability:
 
       SemiDurable:
         level: 1
-        farsi_name: "کم دوام"
+        farsi_name: کم دوام
         code:
           - {start: 31_100, end: 31_200}
           - {start: 31_200, end: 31_300}
@@ -4078,7 +4116,7 @@ Durability:
 
       Durable:
         level: 1
-        farsi_name: "با دوام"
+        farsi_name: با دوام
         code:
           - {start: 51_100, end: 51_200}
           - {start: 51_200, end: 51_300}
@@ -4101,7 +4139,7 @@ Durability:
 
       Service:
         level: 1
-        farsi_name: "خدمات"
+        farsi_name: خدمات
         code:
           - {start: 31_400, end: 31_500}
           - {start: 32_200, end: 32_300}
@@ -4146,7 +4184,7 @@ Durability:
 
       Investment:
         level: 1
-        farsi_name: "سرمایه‌گذاری"
+        farsi_name: سرمایه‌گذاری
         code:
           - {start: 33_000, end: 34_000}
           - {start: 34_000, end: 35_000}
@@ -4160,7 +4198,7 @@ Durability:
 Imputed_Rent:
   defaults:
     levels: [2]
-    column_names: ["Imputed_Rent"]
+    column_names: [Imputed_Rent]
 
   items:
     Imputed_Rent:
@@ -4204,7 +4242,7 @@ Imputed_Rent:
 Insurance_Benefits:
   defaults:
     levels: [1]
-    column_names: ["Insurance_Benefits"]
+    column_names: [Insurance_Benefits]
 
   items:
     Insurance_Benefits:
@@ -4226,13 +4264,13 @@ Insurance_Benefits:
 sci_main_categories:
   defaults:
     levels: [1]
-    column_names: ["Main_Category"]
+    column_names: [Main_Category]
 
   items:
     1383:
       Food_Beverage_and_Tobacco:
         level: 0
-        farsi_name: "مخارج خوراکی، آشامیدنی و دخانی"
+        farsi_name: مخارج خوراکی، آشامیدنی و دخانی
         code:
           - {{original_1383.01}}
           - {{original_1383.02}}
@@ -4240,19 +4278,19 @@ sci_main_categories:
 
       Food_and_Beverages:
         level: 1
-        farsi_name: "خوراکی‌ها و آشامیدنی‌ها"
+        farsi_name: خوراکی‌ها و آشامیدنی‌ها
         code:
           - {{original_1383.01}}
 
       Tobacco:
         level: 1
-        farsi_name: "دخانیات"
+        farsi_name: دخانیات
         code:
           - {{original_1383.02}}
       
       Non_Food_Goods_and_Services:
         level: 0
-        farsi_name: "مخارج غیر خوراکی و خدمات"
+        farsi_name: مخارج غیر خوراکی و خدمات
 
 
 ###############################################################################
@@ -4270,7 +4308,7 @@ sci_food_categories:
 
     cereals_and_cereal_products:
       level: 1
-      farsi_name: "آرد، رشته، غلات و فراورده‌های آن"
+      farsi_name: آرد، رشته، غلات و فراورده‌های آن
       code:
         - {{original_1383.0111_6}}
         - {{original_1383.0111_1-0111_2}}
@@ -4279,35 +4317,35 @@ sci_food_categories:
 
     flour_and_noodle:
       level: 2
-      farsi_name: "آرد و رشته"
+      farsi_name: آرد و رشته
       code: {{original_1383.0111_6}}
 
     cereals:
       level: 2
-      farsi_name: "غلات"
+      farsi_name: غلات
       code: {{original_1383.0111_1-0111_2}}
 
     bread:
       level: 2
-      farsi_name: "انواع نان"
+      farsi_name: انواع نان
       code: {{original_1383.0111_4-0111_5}}
 
     biscuit:
       level: 2
-      farsi_name: "بیسکویت و ویفر"
+      farsi_name: بیسکویت و ویفر
       code:
         - 11_171
         - 11_172
 
     meat:
       level: 1
-      farsi_name: "گوشت"
+      farsi_name: گوشت
       code:
         - {{original_1383.0112-0113}}
 
     red_meat:
       level: 2
-      farsi_name: "گوشت دام"
+      farsi_name: گوشت دام
       code:
         - {{original_1383.0112_1-0112_2}}
         - {start: 11_241, end: 11_244}
@@ -4315,64 +4353,64 @@ sci_food_categories:
 
     poultry:
       level: 2
-      farsi_name: "گوشت پرندگان"
+      farsi_name: گوشت پرندگان
       code:
         - {{original_1383.01123}}
         - {start: 11_244, end: 11_247}
 
     fish_and_other_sea_foods:
       level: 2
-      farsi_name: "گوشت حیوانات دریایی"
+      farsi_name: گوشت حیوانات دریایی
       code: {{original_1383.0113_1-0113_2}}
 
     milk_other_dairy_product_and_eggs:
       level: 1
-      farsi_name: "شیر و فرآورده‌های آن و تخم پرندگان"
+      farsi_name: شیر و فرآورده‌های آن و تخم پرندگان
       code:
         - {{original_1383.0114}}
         - {{original_1383.0115_2}}
 
     milk:
       level: 2
-      farsi_name: "انواع شیر"
+      farsi_name: انواع شیر
       code:
         - {{original_1383.0114_1}}
 
     other_dairy_product:
       level: 2
-      farsi_name: "فراورده‌های شیر"
+      farsi_name: فراورده‌های شیر
       code:
         - {{original_1383.0114_2-0114_3}}
         - {{original_1383.0115_2}}
 
     eggs:
       level: 2
-      farsi_name: "تخم پرندگان"
+      farsi_name: تخم پرندگان
       code:
         - {{original_1383.0114_4}}
 
     oils_and_fats:
       level: 1
-      farsi_name: "روغن‌هاو چربی‌ها"
+      farsi_name: روغن‌هاو چربی‌ها
       code:
         - {{original_1383.0115_1}}
         - {{original_1383.0115_3}}
 
     animal_oils_and_fats:
       level: 2
-      farsi_name: "روغن‌هاو چربی‌های حیوانی"
+      farsi_name: روغن‌هاو چربی‌های حیوانی
       code:
         - {{original_1383.0115_1}}
 
     vegetable_oils:
       level: 2
-      farsi_name: "روغن‌های نباتی"
+      farsi_name: روغن‌های نباتی
       code:
         - {{original_1383.0115_3}}
 
     fruits_and_vegetables:
       level: 1
-      farsi_name: "میوه‌ها و سبزی‌ها"
+      farsi_name: میوه‌ها و سبزی‌ها
       code:
         - {{original_1383.0116_1-0116_2-0116_3}}
         - {{original_1383.0116_4}}
@@ -4384,14 +4422,14 @@ sci_food_categories:
 
     fruits:
       level: 2
-      farsi_name: "میوه‌ها"
+      farsi_name: میوه‌ها
       code:
         - {{original_1383.0116_1-0116_2-0116_3}}
         - {{original_1383.0116_4}}
 
     vegetables:
       level: 2
-      farsi_name: "سبزیجات"
+      farsi_name: سبزیجات
       code:
         - {{original_1383.0117_1}}
         - {{original_1383.0117_2}}
@@ -4400,32 +4438,32 @@ sci_food_categories:
 
     prepared_fruits_and_vegetables:
       level: 2
-      farsi_name: "میوه و سبزیجات آماده"
+      farsi_name: میوه و سبزیجات آماده
       code:
         - {{original_1383.0117_5}}
 
     nuts_and_pulses:
       level: 1
-      farsi_name: "خشکبار و حبوب"
+      farsi_name: خشکبار و حبوب
       code:
         - {{original_1383.0116_5-0116_6}}
         - {{original_1383.0117_6}}
 
     nuts:
       level: 2
-      farsi_name: "خشکبار"
+      farsi_name: خشکبار
       code:
         - {{original_1383.0116_5-0116_6}}
 
     pulses:
       level: 2
-      farsi_name: "حبوب"
+      farsi_name: حبوب
       code:
         - {{original_1383.0117_6}}
 
     sugar_confectionery_tea_coffee_and_cocoa_drinks:
       level: 1
-      farsi_name: "قند و شکر، شیرینی‌ها، چای، قهوه و کاکائو"
+      farsi_name: قند و شکر، شیرینی‌ها، چای، قهوه و کاکائو
       code:
         - {{original_1383.0118}}
         - {{original_1383.0121}}
@@ -4433,40 +4471,40 @@ sci_food_categories:
 
     sugar:
       level: 2
-      farsi_name: "قند و شکر"
+      farsi_name: قند و شکر
       code: {{original_1383.0118_1}}
 
     confectionery_and_desserts:
       level: 2
-      farsi_name: "انواع مربا و شیرینی"
+      farsi_name: انواع مربا و شیرینی
       code:
         - {{original_1383.0118_2}}
         - {start: 11_173, end: 11_180}
 
     tea_coffee_and_cocoa_drinks:
       level: 2
-      farsi_name: "چای، قهوه و کاکائو"
+      farsi_name: چای، قهوه و کاکائو
       code: {{original_1383.0121}}
 
     spices_condiments_and_other_food_products:
       level: 1
-      farsi_name: "ادویه‌ها، چاشنی‌ها و سایر ترکیبات خوراکی"
+      farsi_name: ادویه‌ها، چاشنی‌ها و سایر ترکیبات خوراکی
       code:
         - {{original_1383.0119}}
 
     spices:
       level: 2
-      farsi_name: "ادویه‌ها"
+      farsi_name: ادویه‌ها
       code: {{original_1383.0119_1}}
 
     condiments_and_other_food_products:
       level: 2
-      farsi_name: "چاشنی‌ها و سایر ترکیبات خوراکی"
+      farsi_name: چاشنی‌ها و سایر ترکیبات خوراکی
       code: {{original_1383.0119_2-0119_3-0119_4}}
 
     drinks_prepared_foods_tobacco_and_norcotics:
       level: 1
-      farsi_name: "نوشابه‌ها، غذاهای آمده و دخانی‌ها"
+      farsi_name: نوشابه‌ها، غذاهای آمده و دخانی‌ها
       code:
         - {{original_1383.0122}}
         - {{original_1383.02}}
@@ -4474,21 +4512,21 @@ sci_food_categories:
 
     drinks:
       level: 2
-      farsi_name: "انواع نوشابه‌ها"
+      farsi_name: انواع نوشابه‌ها
       code: 
         - {{original_1383.0122}}
         - {start: 111_133, end: 111_136}
 
     prepared_foods:
       level: 2
-      farsi_name: "غذاهای آمده و تنقلات"
+      farsi_name: غذاهای آمده و تنقلات
       code:
         - {start: 111_000, end: 111_133}
         - {start: 111_136, end: 112_000}
 
     tobacco_and_norcotics:
       level: 2
-      farsi_name: "دخانی‌ها"
+      farsi_name: دخانی‌ها
       code:
         - {{original_1383.02}}
 
@@ -4519,475 +4557,475 @@ coicop_2018:
   items:
     '01':
       level: 1
-      description: "Food and non-alcoholic beverages"
+      description: Food and non-alcoholic beverages
       code:
         1383: {{original_1383.01}}
 
     '01.1':
       level: 2
-      description: "Food"
+      description: Food
       code:
         1383: {{original_1383.011}}
 
     '01.1.1':
       level: 3
-      description: "Cereals and cereal products (ND)"
+      description: Cereals and cereal products (ND)
       code:
 
     '01.1.1.1':
       level: 4
-      description: "Cereals (ND)"
+      description: Cereals (ND)
       code:
 
     '01.1.1.1.1':
       level: 5
-      description: "Wheat"
+      description: Wheat
       code: 11_121
 
     '01.1.1.1.2':
       level: 5
-      description: "Rice"
+      description: Rice
       code: {start: 11_110, end: 11_120}
 
     '01.1.1.1.3':
       level: 5
-      description: "Sorghum"
+      description: Sorghum
       code:
 
     '01.1.1.1.4':
       level: 5
-      description: "Barley"
+      description: Barley
       code: 11_124
 
     '01.1.1.1.5':
       level: 5
-      description: "Millet"
+      description: Millet
       code:
 
     '01.1.1.1.6':
       level: 5
-      description: "Maize (corn)"
+      description: Maize (corn)
       code: 11_123
 
     '01.1.1.1.7':
       level: 5
-      description: "Quinoa"
+      description: Quinoa
       code:
 
     '01.1.1.1.8':
       level: 5
-      description: "Teff"
+      description: Teff
       code: 
 
     '01.1.1.1.9':
       level: 5
-      description: "Other cereals"
+      description: Other cereals
       code: [11_122, 11_125]
       
     '01.1.1.2':
       level: 4
-      description: "Flour of cereals (ND)"
+      description: Flour of cereals (ND)
       code:
 
     '01.1.1.3':
       level: 4
-      description: "Bread and bakery products (ND)"
+      description: Bread and bakery products (ND)
       code:
 
     '01.1.1.4':
       level: 4
-      description: "Breakfast cereals (ND)"
+      description: Breakfast cereals (ND)
       code:
 
     '01.1.1.5':
       level: 4
-      description: "Macaroni, noodles, couscous and similar pasta products (ND)"
+      description: Macaroni, noodles, couscous and similar pasta products (ND)
       code:
 
     '01.1.1.9':
       level: 4
-      description: "Other cereal and grain mill products (ND)"
+      description: Other cereal and grain mill products (ND)
       code:
       
     '01.2':
       level: 2
-      description: "Non-alcoholic beverages"
+      description: Non-alcoholic beverages
       code:
         1383: {{original_1383.012}}
 
     '01.3':
       level: 2
-      description: "Services for processing primary goods for food and non-alcoholic beverages"
+      description: Services for processing primary goods for food and non-alcoholic beverages
       code:
 
     '02':
       level: 1
-      description: "Alcoholic beverages, tobacco and narcotics"
+      description: Alcoholic beverages, tobacco and narcotics
       code:
 
     '02.1':
       level: 2
-      description: "Alcoholic beverages"
+      description: Alcoholic beverages
       code:
 
     '02.2':
       level: 2
-      description: "Alcohol production services"
+      description: Alcohol production services
       code:
 
     '02.3':
       level: 2
-      description: "Tobacco"
+      description: Tobacco
       code:
 
     '02.4':
       level: 2
-      description: "Narcotics"
+      description: Narcotics
       code:
 
     '03':
       level: 1
-      description: "Clothing and footwear"
+      description: Clothing and footwear
       code:
 
     '03.1':
       level: 2
-      description: "Clothing"
+      description: Clothing
       code:
 
     '03.2':
       level: 2
-      description: "Footwear"
+      description: Footwear
       code:
 
     '04':
       level: 1
-      description: "Housing, water, electricity, gas and other fuels"
+      description: Housing, water, electricity, gas and other fuels
       code:
 
     '04.1':
       level: 2
-      description: "Actual rentals for housing"
+      description: Actual rentals for housing
       code:
 
     '04.2':
       level: 2
-      description: "Imputed rentals for housing"
+      description: Imputed rentals for housing
       code:
 
     '04.3':
       level: 2
-      description: "Maintenance, repair and security of the dwelling"
+      description: Maintenance, repair and security of the dwelling
       code:
 
     '04.4':
       level: 2
-      description: "Water supply and miscellaneous services relating to the dwelling"
+      description: Water supply and miscellaneous services relating to the dwelling
       code:
 
     '04.5':
       level: 2
-      description: "Electricity, gas and other fuels"
+      description: Electricity, gas and other fuels
       code:
 
     '05':
       level: 1
-      description: "Furnishings, household equipment and routine household maintenance"
+      description: Furnishings, household equipment and routine household maintenance
       code:
 
     '05.1':
       level: 2
-      description: "Furniture, furnishings, and loose carpets"
+      description: Furniture, furnishings, and loose carpets
       code:
 
     '05.2':
       level: 2
-      description: "Household textiles"
+      description: Household textiles
       code:
 
     '05.3':
       level: 2
-      description: "Household appliances"
+      description: Household appliances
       code:
 
     '05.4':
       level: 2
-      description: "Glassware, tableware and household utensils"
+      description: Glassware, tableware and household utensils
       code:
 
     '05.5':
       level: 2
-      description: "Tools and equipment for house and garden"
+      description: Tools and equipment for house and garden
       code:
 
     '05.6':
       level: 2
-      description: "Goods and services for routine household maintenance"
+      description: Goods and services for routine household maintenance
       code:
 
     '06':
       level: 1
-      description: "Health"
+      description: Health
       code:
 
     '06.1':
       level: 2
-      description: "Medicines and health products"
+      description: Medicines and health products
       code:
 
     '06.2':
       level: 2
-      description: "Outpatient care services"
+      description: Outpatient care services
       code:
 
     '06.3':
       level: 2
-      description: "Inpatient care services"
+      description: Inpatient care services
       code:
 
     '06.4':
       level: 2
-      description: "Other health services"
+      description: Other health services
       code:
 
     '07':
       level: 1
-      description: "Transport"
+      description: Transport
       code:
 
     '07.1':
       level: 2
-      description: "Purchase of vehicles"
+      description: Purchase of vehicles
       code:
 
     '07.2':
       level: 2
-      description: "Operation of personal transport equipment"
+      description: Operation of personal transport equipment
       code:
 
     '07.3':
       level: 2
-      description: "Passenger transport services"
+      description: Passenger transport services
       code:
 
     '07.4':
       level: 2
-      description: "Transport services of goods"
+      description: Transport services of goods
       code:
 
     '08':
       level: 1
-      description: "Information and communication"
+      description: Information and communication
       code:
 
     '08.1':
       level: 2
-      description: "Information and communication equipment"
+      description: Information and communication equipment
       code:
 
     '08.2':
       level: 2
-      description: "Software excluding games"
+      description: Software excluding games
       code:
 
     '08.3':
       level: 2
-      description: "Information and communication services"
+      description: Information and communication services
       code:
 
     '09':
       level: 1
-      description: "Recreation, sport and culture"
+      description: Recreation, sport and culture
       code:
 
     '09.1':
       level: 2
-      description: "Recreational durables"
+      description: Recreational durables
       code:
 
     '09.2':
       level: 2
-      description: "Other recreational goods"
+      description: Other recreational goods
       code:
 
     '09.3':
       level: 2
-      description: "Garden products and pets"
+      description: Garden products and pets
       code:
 
     '09.4':
       level: 2
-      description: "Recreational services"
+      description: Recreational services
       code:
 
     '09.5':
       level: 2
-      description: "Cultural goods"
+      description: Cultural goods
       code:
 
     '09.6':
       level: 2
-      description: "Cultural services"
+      description: Cultural services
       code:
 
     '09.7':
       level: 2
-      description: "Newspapers, books and stationery"
+      description: Newspapers, books and stationery
       code:
 
     '09.8':
       level: 2
-      description: "Package holidays "
+      description: Package holidays
       code:
 
     '10':
       level: 1
-      description: "Education services"
+      description: Education services
       code:
 
     '10.1':
       level: 2
-      description: "Early childhood and primary education"
+      description: Early childhood and primary education
       code:
 
     '10.2':
       level: 2
-      description: "Secondary education"
+      description: Secondary education
       code:
 
     '10.3':
       level: 2
-      description: "Post-secondary non-tertiary education"
+      description: Post-secondary non-tertiary education
       code:
 
     '10.4':
       level: 2
-      description: "Tertiary education"
+      description: Tertiary education
       code:
 
     '10.5':
       level: 2
-      description: "Education not defined by level"
+      description: Education not defined by level
       code:
 
     '11':
       level: 1
-      description: "Restaurants and accommodation services"
+      description: Restaurants and accommodation services
       code:
 
     '11.1':
       level: 2
-      description: "Food and beverage serving services"
+      description: Food and beverage serving services
       code:
 
     '11.2':
       level: 2
-      description: "Accommodation services"
+      description: Accommodation services
       code:
 
     '12':
       level: 1
-      description: "Insurance and financial services"
+      description: Insurance and financial services
       code:
 
     '12.1':
       level: 2
-      description: "Insurance"
+      description: Insurance
       code:
 
     '12.2':
       level: 2
-      description: "Financial services"
+      description: Financial services
       code:
 
     '13':
       level: 1
-      description: "Personal care, social protection and miscellaneous goods and services"
+      description: Personal care, social protection and miscellaneous goods and services
       code:
 
     '13.1':
       level: 2
-      description: "Personal care"
+      description: Personal care
       code:
 
     '13.2':
       level: 2
-      description: "Other personal effects"
+      description: Other personal effects
       code:
 
     '13.3':
       level: 2
-      description: "Social protection"
+      description: Social protection
       code:
 
     '13.9':
       level: 2
-      description: "Other services"
+      description: Other services
       code:
 
     '14':
       level: 1
-      description: "Individual consumption expenditure of non-profit institutions serving households (NPISHS)"
+      description: Individual consumption expenditure of non-profit institutions serving households (NPISHS)
       code:
 
     '14.1':
       level: 2
-      description: "Housing"
+      description: Housing
       code:
 
     '14.2':
       level: 2
-      description: "Health"
+      description: Health
       code:
 
     '14.3':
       level: 2
-      description: "Recreation and culture"
+      description: Recreation and culture
       code:
 
     '14.4':
       level: 2
-      description: "Education"
+      description: Education
       code:
 
     '14.5':
       level: 2
-      description: "Social protection"
+      description: Social protection
       code:
 
     '14.6':
       level: 2
-      description: "Other services"
+      description: Other services
       code:
 
     '15':
       level: 1
-      description: "Individual consumption expenditure of general government"
+      description: Individual consumption expenditure of general government
       code:
 
     '15.1':
       level: 2
-      description: "Housing"
+      description: Housing
       code:
 
     '15.2':
       level: 2
-      description: "Health"
+      description: Health
       code:
 
     '15.3':
       level: 2
-      description: "Recreation and culture"
+      description: Recreation and culture
       code:
 
     '15.4':
       level: 2
-      description: "Education"
+      description: Education
       code:
 
     '15.5':
       level: 2
-      description: "Social protection"
+      description: Social protection
       code:
 
 
@@ -4997,1144 +5035,1144 @@ coicop_1999:
 
     '01':
       level: 1
-      description: "Food and non-alcoholic beverages"
+      description: Food and non-alcoholic beverages
       code:
 
     '01.1':
       level: 2
-      description: "Food"
+      description: Food
       code:
 
     '01.1.1':
       level: 3
-      description: "Bread and cereals (ND)"
+      description: Bread and cereals (ND)
       code:
 
     '01.1.2':
       level: 3
-      description: "Meat (ND)"
+      description: Meat (ND)
       code:
 
     '01.1.3':
       level: 3
-      description: "Fish and seafood (ND)"
+      description: Fish and seafood (ND)
       code:
 
     '01.1.4':
       level: 3
-      description: "Milk, cheese and eggs (ND)"
+      description: Milk, cheese and eggs (ND)
       code:
 
     '01.1.5':
       level: 3
-      description: "Oils and fats (ND)"
+      description: Oils and fats (ND)
       code:
 
     '01.1.6':
       level: 3
-      description: "Fruit (ND)"
+      description: Fruit (ND)
       code:
 
     '01.1.7':
       level: 3
-      description: "Vegetables (ND)"
+      description: Vegetables (ND)
       code:
 
     '01.1.8':
       level: 3
-      description: "Sugar, jam, honey, chocolate and confectionery (ND)"
+      description: Sugar, jam, honey, chocolate and confectionery (ND)
       code:
 
     '01.1.9':
       level: 3
-      description: "Food products n.e.c. (ND)"
+      description: Food products n.e.c. (ND)
       code:
 
     '01.2':
       level: 2
-      description: "Non-alcoholic beverages"
+      description: Non-alcoholic beverages
       code:
 
     '01.2.1':
       level: 3
-      description: "Coffee, tea and cocoa (ND)"
+      description: Coffee, tea and cocoa (ND)
       code:
 
     '01.2.2':
       level: 3
-      description: "Mineral waters, soft drinks, fruit and vegetable juices (ND)"
+      description: Mineral waters, soft drinks, fruit and vegetable juices (ND)
       code:
 
     '02':
       level: 1
-      description: "Alcoholic beverages, tobacco and narcotics"
+      description: Alcoholic beverages, tobacco and narcotics
       code:
 
     '02.1':
       level: 2
-      description: "Alcoholic beverages"
+      description: Alcoholic beverages
       code:
 
     '02.1.1':
       level: 3
-      description: "Spirits (ND)"
+      description: Spirits (ND)
       code:
 
     '02.1.2':
       level: 3
-      description: "Wine (ND)"
+      description: Wine (ND)
       code:
     '02.1.3':
       level: 3
-      description: "Beer (ND)"
+      description: Beer (ND)
       code:
 
     '02.2':
       level: 2
-      description: "Tobacco"
+      description: Tobacco
       code:
 
     '02.2.0':
       level: 3
-      description: "Tobacco (ND)"
+      description: Tobacco (ND)
       code:
 
     '02.3':
       level: 2
-      description: "Narcotics"
+      description: Narcotics
       code:
 
     '02.3.0':
       level: 3
-      description: "Narcotics (ND)"
+      description: Narcotics (ND)
       code:
 
     '03':
       level: 1
-      description: "Clothing and footwear"
+      description: Clothing and footwear
       code:
 
     '03.1':
       level: 2
-      description: "Clothing"
+      description: Clothing
       code:
 
     '03.1.1':
       level: 3
-      description: "Clothing materials (SD)"
+      description: Clothing materials (SD)
       code:
 
     '03.1.2':
       level: 3
-      description: "Garments (SD)"
+      description: Garments (SD)
       code:
 
     '03.1.3':
       level: 3
-      description: "Other articles of clothing and clothing accessories (SD)"
+      description: Other articles of clothing and clothing accessories (SD)
       code:
 
     '03.1.4':
       level: 3
-      description: "Cleaning, repair and hire of clothing (S)"
+      description: Cleaning, repair and hire of clothing (S)
       code:
 
     '03.2':
       level: 2
-      description: "Footwear"
+      description: Footwear
       code:
 
     '03.2.1':
       level: 3
-      description: "Shoes and other footwear (SD)"
+      description: Shoes and other footwear (SD)
       code:
 
     '03.2.2':
       level: 3
-      description: "Repair and hire of footwear (S)"
+      description: Repair and hire of footwear (S)
       code:
 
     '04':
       level: 1
-      description: "Housing, water, electricity, gas and other fuels"
+      description: Housing, water, electricity, gas and other fuels
       code:
 
     '04.1':
       level: 2
-      description: "Actual rentals for housing"
+      description: Actual rentals for housing
       code:
 
     '04.1.1':
       level: 3
-      description: "Actual rentals paid by tenants (S)"
+      description: Actual rentals paid by tenants (S)
       code:
 
     '04.1.2':
       level: 3
-      description: "Other actual rentals (S)"
+      description: Other actual rentals (S)
       code:
 
     '04.2':
       level: 2
-      description: "Imputed rentals for housing"
+      description: Imputed rentals for housing
       code:
 
     '04.2.1':
       level: 3
-      description: "Imputed rentals of owner-occupiers (S)"
+      description: Imputed rentals of owner-occupiers (S)
       code:
 
     '04.2.2':
       level: 3
-      description: "Other imputed rentals (S)"
+      description: Other imputed rentals (S)
       code:
 
     '04.3':
       level: 2
-      description: "Maintenance and repair of the dwelling"
+      description: Maintenance and repair of the dwelling
       code:
 
     '04.3.1':
       level: 3
-      description: "Materials for the maintenance and repair of the dwelling (ND)"
+      description: Materials for the maintenance and repair of the dwelling (ND)
       code:
 
     '04.3.2':
       level: 3
-      description: "Services for the maintenance and repair of the dwelling (S)"
+      description: Services for the maintenance and repair of the dwelling (S)
       code:
 
     '04.4':
       level: 2
-      description: "Water supply and miscellaneous services relating to the dwelling"
+      description: Water supply and miscellaneous services relating to the dwelling
       code:
 
     '04.4.1':
       level: 3
-      description: "Water supply (ND)"
+      description: Water supply (ND)
       code:
 
     '04.4.2':
       level: 3
-      description: "Refuse collection (S)"
+      description: Refuse collection (S)
       code:
 
     '04.4.3':
       level: 3
-      description: "Sewage collection (S)"
+      description: Sewage collection (S)
       code:
 
     '04.4.4':
       level: 3
-      description: "Other services relating to the dwelling n.e.c. (S)"
+      description: Other services relating to the dwelling n.e.c. (S)
       code:
 
     '04.5':
       level: 2
-      description: "Electricity, gas and other fuels"
+      description: Electricity, gas and other fuels
       code:
 
     '04.5.1':
       level: 3
-      description: "Electricity (ND)"
+      description: Electricity (ND)
       code:
 
     '04.5.2':
       level: 3
-      description: "Gas (ND)"
+      description: Gas (ND)
       code:
 
     '04.5.3':
       level: 3
-      description: "Liquid fuels (ND)"
+      description: Liquid fuels (ND)
       code:
 
     '04.5.4':
       level: 3
-      description: "Solid fuels (ND)"
+      description: Solid fuels (ND)
       code:
 
     '04.5.5':
       level: 3
-      description: "Heat energy (ND)"
+      description: Heat energy (ND)
       code:
 
     '05':
       level: 1
-      description: "Furnishings, household equipment and routine household maintenance"
+      description: Furnishings, household equipment and routine household maintenance
       code:
 
     '05.1':
       level: 2
-      description: "Furniture and furnishings, carpets and other floor coverings"
+      description: Furniture and furnishings, carpets and other floor coverings
       code:
 
     '05.1.1':
       level: 3
-      description: "Furniture and furnishings (D)"
+      description: Furniture and furnishings (D)
       code:
 
     '05.1.2':
       level: 3
-      description: "Carpets and other floor coverings (D)"
+      description: Carpets and other floor coverings (D)
       code:
 
     '05.1.3':
       level: 3
-      description: "Repair of furniture, furnishings and floor coverings (S)"
+      description: Repair of furniture, furnishings and floor coverings (S)
       code:
 
     '05.2':
       level: 2
-      description: "Household textiles"
+      description: Household textiles
       code:
 
     '05.2.0':
       level: 3
-      description: "Household textiles (SD)"
+      description: Household textiles (SD)
       code:
 
     '05.3':
       level: 2
-      description: "Household appliances"
+      description: Household appliances
       code:
 
     '05.3.1':
       level: 3
-      description: "Major household appliances whether electric or not (D)"
+      description: Major household appliances whether electric or not (D)
       code:
 
     '05.3.2':
       level: 3
-      description: "Small electric household appliances (SD)"
+      description: Small electric household appliances (SD)
       code:
 
     '05.3.3':
       level: 3
-      description: "Repair of household appliances (S)"
+      description: Repair of household appliances (S)
       code:
 
     '05.4':
       level: 2
-      description: "Glassware, tableware and household utensils"
+      description: Glassware, tableware and household utensils
       code:
 
     '05.4.0':
       level: 3
-      description: "Glassware, tableware and household utensils (SD)"
+      description: Glassware, tableware and household utensils (SD)
       code:
 
     '05.5':
       level: 2
-      description: "Tools and equipment for house and garden"
+      description: Tools and equipment for house and garden
       code:
 
     '05.5.1':
       level: 3
-      description: "Major tools and equipment (D)"
+      description: Major tools and equipment (D)
       code:
 
     '05.5.2':
       level: 3
-      description: "Small tools and miscellaneous accessories (SD)"
+      description: Small tools and miscellaneous accessories (SD)
       code:
 
     '05.6':
       level: 2
-      description: "Goods and services for routine household maintenance"
+      description: Goods and services for routine household maintenance
       code:
 
     '05.6.1':
       level: 3
-      description: "Non-durable household goods (ND)"
+      description: Non-durable household goods (ND)
       code:
 
     '05.6.2':
       level: 3
-      description: "Domestic services and household services (S)"
+      description: Domestic services and household services (S)
       code:
 
     '06':
       level: 1
-      description: "Health"
+      description: Health
       code:
 
     '06.1':
       level: 2
-      description: "Medical products, appliances and equipment"
+      description: Medical products, appliances and equipment
       code:
 
     '06.1.1':
       level: 3
-      description: "Pharmaceutical products (ND)"
+      description: Pharmaceutical products (ND)
       code:
 
     '06.1.2':
       level: 3
-      description: "Other medical products (ND)"
+      description: Other medical products (ND)
       code:
 
     '06.1.3':
       level: 3
-      description: "Therapeutic appliances and equipment (D)"
+      description: Therapeutic appliances and equipment (D)
       code:
 
     '06.2':
       level: 2
-      description: "Outpatient services"
+      description: Outpatient services
       code:
 
     '06.2.1':
       level: 3
-      description: "Medical services (S)"
+      description: Medical services (S)
       code:
 
     '06.2.2':
       level: 3
-      description: "Dental services (S)"
+      description: Dental services (S)
       code:
 
     '06.2.3':
       level: 3
-      description: "Paramedical services (S)"
+      description: Paramedical services (S)
       code:
 
     '06.3':
       level: 2
-      description: "Hospital services"
+      description: Hospital services
       code:
 
     '06.3.0':
       level: 3
-      description: "Hospital services (S)"
+      description: Hospital services (S)
       code:
 
     '07':
       level: 1
-      description: "Transport"
+      description: Transport
       code:
 
     '07.1':
       level: 2
-      description: "Purchase of vehicles"
+      description: Purchase of vehicles
       code:
 
     '07.1.1':
       level: 3
-      description: "Motor cars (D)"
+      description: Motor cars (D)
       code:
 
     '07.1.2':
       level: 3
-      description: "Motor cycles (D)"
+      description: Motor cycles (D)
       code:
 
     '07.1.3':
       level: 3
-      description: "Bicycles (D)"
+      description: Bicycles (D)
       code:
 
     '07.1.4':
       level: 3
-      description: "Animal drawn vehicles (D)"
+      description: Animal drawn vehicles (D)
       code:
 
     '07.2':
       level: 2
-      description: "Operation of personal transport equipment"
+      description: Operation of personal transport equipment
       code:
 
     '07.2.1':
       level: 3
-      description: "Spare parts and accessories for personal transport equipment (SD)"
+      description: Spare parts and accessories for personal transport equipment (SD)
       code:
 
     '07.2.2':
       level: 3
-      description: "Fuels and lubricants for personal transport equipment (ND)"
+      description: Fuels and lubricants for personal transport equipment (ND)
       code:
 
     '07.2.3':
       level: 3
-      description: "Maintenance and repair of personal transport equipment (S)"
+      description: Maintenance and repair of personal transport equipment (S)
       code:
 
     '07.2.4':
       level: 3
-      description: "Other services in respect of personal transport equipment (S)"
+      description: Other services in respect of personal transport equipment (S)
       code:
 
     '07.3':
       level: 2
-      description: "Transport services"
+      description: Transport services
       code:
 
     '07.3.1':
       level: 3
-      description: "Passenger transport by railway (S)"
+      description: Passenger transport by railway (S)
       code:
 
     '07.3.2':
       level: 3
-      description: "Passenger transport by road (S)"
+      description: Passenger transport by road (S)
       code:
 
     '07.3.3':
       level: 3
-      description: "Passenger transport by air (S)"
+      description: Passenger transport by air (S)
       code:
 
     '07.3.4':
       level: 3
-      description: "Passenger transport by sea and inland waterway (S)"
+      description: Passenger transport by sea and inland waterway (S)
       code:
 
     '07.3.5':
       level: 3
-      description: "Combined passenger transport (S)"
+      description: Combined passenger transport (S)
       code:
 
     '07.3.6':
       level: 3
-      description: "Other purchased transport services (S)"
+      description: Other purchased transport services (S)
       code:
 
     '08':
       level: 1
-      description: "Communication"
+      description: Communication
       code:
 
     '08.1':
       level: 2
-      description: "Postal services"
+      description: Postal services
       code:
 
     '08.1.0':
       level: 3
-      description: "Postal services (S)"
+      description: Postal services (S)
       code:
 
     '08.2':
       level: 2
-      description: "Telephone and telefax equipment"
+      description: Telephone and telefax equipment
       code:
 
     '08.2.0':
       level: 3
-      description: "Telephone and telefax equipment (D)"
+      description: Telephone and telefax equipment (D)
       code:
 
     '08.3':
       level: 2
-      description: "Telephone and telefax services"
+      description: Telephone and telefax services
       code:
 
     '08.3.0':
       level: 3
-      description: "Telephone and telefax services (S)"
+      description: Telephone and telefax services (S)
       code:
 
     '09':
       level: 1
-      description: "Recreation and culture"
+      description: Recreation and culture
       code:
 
     '09.1':
       level: 2
-      description: "Audio-visual, photographic and information processing equipment"
+      description: Audio-visual, photographic and information processing equipment
       code:
 
     '09.1.1':
       level: 3
-      description: "Equipment for the reception, recording and reproduction of sound and pictures (D)"
+      description: Equipment for the reception, recording and reproduction of sound and pictures (D)
       code:
 
     '09.1.2':
       level: 3
-      description: "Photographic and cinematographic equipment and optical instruments (D)"
+      description: Photographic and cinematographic equipment and optical instruments (D)
       code:
 
     '09.1.3':
       level: 3
-      description: "Information processing equipment (D)"
+      description: Information processing equipment (D)
       code:
 
     '09.1.4':
       level: 3
-      description: "Recording media (SD)"
+      description: Recording media (SD)
       code:
 
     '09.1.5':
       level: 3
-      description: "Repair of audio-visual, photographic and information processing equipment (S)"
+      description: Repair of audio-visual, photographic and information processing equipment (S)
       code:
 
     '09.2':
       level: 2
-      description: "Other major durables for recreation and culture"
+      description: Other major durables for recreation and culture
       code:
 
     '09.2.1':
       level: 3
-      description: "Major durables for outdoor recreation (D)"
+      description: Major durables for outdoor recreation (D)
       code:
 
     '09.2.2':
       level: 3
-      description: "Musical instruments and major durables for indoor recreation (D)"
+      description: Musical instruments and major durables for indoor recreation (D)
       code:
 
     '09.2.3':
       level: 3
-      description: "Maintenance and repair of other major durables for recreation and culture (S)"
+      description: Maintenance and repair of other major durables for recreation and culture (S)
       code:
 
     '09.3':
       level: 2
-      description: "Other recreational items and equipment, gardens and pets"
+      description: Other recreational items and equipment, gardens and pets
       code:
 
     '09.3.1':
       level: 3
-      description: "Games, toys and hobbies (SD)"
+      description: Games, toys and hobbies (SD)
       code:
 
     '09.3.2':
       level: 3
-      description: "Equipment for sport, camping and open-air recreation (SD)"
+      description: Equipment for sport, camping and open-air recreation (SD)
       code:
 
     '09.3.3':
       level: 3
-      description: "Gardens, plants and flowers (ND)"
+      description: Gardens, plants and flowers (ND)
       code:
 
     '09.3.4':
       level: 3
-      description: "Pets and related products (ND)"
+      description: Pets and related products (ND)
       code:
 
     '09.3.5':
       level: 3
-      description: "Veterinary and other services for pets (S)"
+      description: Veterinary and other services for pets (S)
       code:
 
     '09.4':
       level: 2
-      description: "Recreational and cultural services"
+      description: Recreational and cultural services
       code:
 
     '09.4.1':
       level: 3
-      description: "Recreational and sporting services (S)"
+      description: Recreational and sporting services (S)
       code:
 
     '09.4.2':
       level: 3
-      description: "Cultural services (S)"
+      description: Cultural services (S)
       code:
 
     '09.4.3':
       level: 3
-      description: "Games of chance (S)"
+      description: Games of chance (S)
       code:
 
     '09.5':
       level: 2
-      description: "Newspapers, books and stationery"
+      description: Newspapers, books and stationery
       code:
 
     '09.5.1':
       level: 3
-      description: "Books (SD)"
+      description: Books (SD)
       code:
 
     '09.5.2':
       level: 3
-      description: "Newspapers and periodicals (ND)"
+      description: Newspapers and periodicals (ND)
       code:
 
     '09.5.3':
       level: 3
-      description: "Miscellaneous printed matter (ND)"
+      description: Miscellaneous printed matter (ND)
       code:
 
     '09.5.4':
       level: 3
-      description: "Stationery and drawing materials (ND)"
+      description: Stationery and drawing materials (ND)
       code:
 
     '09.6':
       level: 2
-      description: "Package holidays"
+      description: Package holidays
       code:
 
     '09.6.0':
       level: 3
-      description: "Package holidays (S)"
+      description: Package holidays (S)
       code:
 
     '10':
       level: 1
-      description: "Education"
+      description: Education
       code:
 
     '10.1':
       level: 2
-      description: "Pre-primary and primary education"
+      description: Pre-primary and primary education
       code:
 
     '10.1.0':
       level: 3
-      description: "Pre-primary and primary education (S)"
+      description: Pre-primary and primary education (S)
       code:
 
     '10.2':
       level: 2
-      description: "Secondary education"
+      description: Secondary education
       code:
 
     '10.2.0':
       level: 3
-      description: "Secondary education (S)"
+      description: Secondary education (S)
       code:
 
     '10.3':
       level: 2
-      description: "Post-secondary non-tertiary education"
+      description: Post-secondary non-tertiary education
       code:
 
     '10.3.0':
       level: 3
-      description: "Post-secondary non-tertiary education (S)"
+      description: Post-secondary non-tertiary education (S)
       code:
 
     '10.4':
       level: 2
-      description: "Tertiary education"
+      description: Tertiary education
       code:
 
     '10.4.0':
       level: 3
-      description: "Tertiary education (S)"
+      description: Tertiary education (S)
       code:
 
     '10.5':
       level: 2
-      description: "Education not definable by level"
+      description: Education not definable by level
       code:
 
     '10.5.0':
       level: 3
-      description: "Education not definable by level (S)"
+      description: Education not definable by level (S)
       code:
 
     '11':
       level: 1
-      description: "Restaurants and hotels"
+      description: Restaurants and hotels
       code:
 
     '11.1':
       level: 2
-      description: "Catering services"
+      description: Catering services
       code:
 
     '11.1.1':
       level: 3
-      description: "Restaurants, cafés and the like (S)"
+      description: Restaurants, cafés and the like (S)
       code:
 
     '11.1.2':
       level: 3
-      description: "Canteens (S)"
+      description: Canteens (S)
       code:
 
     '11.2':
       level: 2
-      description: "Accommodation services"
+      description: Accommodation services
       code:
 
     '11.2.0':
       level: 3
-      description: "Accommodation services (S)"
+      description: Accommodation services (S)
       code:
 
     '12':
       level: 1
-      description: "Miscellaneous goods and services"
+      description: Miscellaneous goods and services
       code:
 
     '12.1':
       level: 2
-      description: "Personal care"
+      description: Personal care
       code:
 
     '12.1.1':
       level: 3
-      description: "Hairdressing salons and personal grooming establishments (S)"
+      description: Hairdressing salons and personal grooming establishments (S)
       code:
 
     '12.1.2':
       level: 3
-      description: "Electric appliances for personal care (SD)"
+      description: Electric appliances for personal care (SD)
       code:
 
     '12.1.3':
       level: 3
-      description: "Other appliances, articles and products for personal care (ND)"
+      description: Other appliances, articles and products for personal care (ND)
       code:
 
     '12.2':
       level: 2
-      description: "Prostitution"
+      description: Prostitution
       code:
 
     '12.2.0':
       level: 3
-      description: "Prostitution (S)"
+      description: Prostitution (S)
       code:
 
     '12.3':
       level: 2
-      description: "Personal effects n.e.c."
+      description: Personal effects n.e.c.
       code:
 
     '12.3.1':
       level: 3
-      description: "Jewellery, clocks and watches (D)"
+      description: Jewellery, clocks and watches (D)
       code:
 
     '12.3.2':
       level: 3
-      description: "Other personal effects  (SD)"
+      description: Other personal effects  (SD)
       code:
 
     '12.4':
       level: 2
-      description: "Social protection"
+      description: Social protection
       code:
 
     '12.4.0':
       level: 3
-      description: "Social protection (S)"
+      description: Social protection (S)
       code:
 
     '12.5':
       level: 2
-      description: "Insurance"
+      description: Insurance
       code:
 
     '12.5.1':
       level: 3
-      description: "Life insurance (S)"
+      description: Life insurance (S)
       code:
 
     '12.5.2':
       level: 3
-      description: "Insurance connected with the dwelling (S)"
+      description: Insurance connected with the dwelling (S)
       code:
 
     '12.5.3':
       level: 3
-      description: "Insurance connected with health (S)"
+      description: Insurance connected with health (S)
       code:
 
     '12.5.4':
       level: 3
-      description: "Insurance connected with transport (S)"
+      description: Insurance connected with transport (S)
       code:
 
     '12.5.5':
       level: 3
-      description: "Other insurance (S)"
+      description: Other insurance (S)
       code:
 
     '12.6':
       level: 2
-      description: "Financial services n.e.c."
+      description: Financial services n.e.c.
       code:
 
     '12.6.1':
       level: 3
-      description: "FISIM (S)"
+      description: FISIM (S)
       code:
 
     '12.6.2':
       level: 3
-      description: "Other financial services n.e.c. (S)"
+      description: Other financial services n.e.c. (S)
       code:
 
     '12.7':
       level: 2
-      description: "Other services n.e.c."
+      description: Other services n.e.c.
       code:
 
     '12.7.0':
       level: 3
-      description: "Other services n.e.c. (S)"
+      description: Other services n.e.c. (S)
       code:
 
     '13':
       level: 1
-      description: "Individual consumption expenditure of non-profit institutions serving households (NPISHs)"
+      description: Individual consumption expenditure of non-profit institutions serving households (NPISHs)
       code:
 
     '13.1':
       level: 2
-      description: "Housing"
+      description: Housing
       code:
 
     '13.1.0':
       level: 3
-      description: "Housing (S)"
+      description: Housing (S)
       code:
 
     '13.2':
       level: 2
-      description: "Health"
+      description: Health
       code:
 
     '13.2.1':
       level: 3
-      description: "Pharmaceutical products (ND)"
+      description: Pharmaceutical products (ND)
       code:
 
     '13.2.2':
       level: 3
-      description: "Other medical products (ND)"
+      description: Other medical products (ND)
       code:
 
     '13.2.3':
       level: 3
-      description: "Therapeutic appliances and equipment (D)"
+      description: Therapeutic appliances and equipment (D)
       code:
 
     '13.2.4':
       level: 3
-      description: "Outpatient medical services (S)"
+      description: Outpatient medical services (S)
       code:
 
     '13.2.5':
       level: 3
-      description: "Outpatient dental services (S)"
+      description: Outpatient dental services (S)
       code:
 
     '13.2.6':
       level: 3
-      description: "Outpatient paramedical services (S)"
+      description: Outpatient paramedical services (S)
       code:
 
     '13.2.7':
       level: 3
-      description: "Hospital services (S)"
+      description: Hospital services (S)
       code:
 
     '13.2.8':
       level: 3
-      description: "Other health services (S)"
+      description: Other health services (S)
       code:
 
     '13.3':
       level: 2
-      description: "Recreation and culture"
+      description: Recreation and culture
       code:
 
     '13.3.1':
       level: 3
-      description: "Recreational and sporting services (S)"
+      description: Recreational and sporting services (S)
       code:
 
     '13.3.2':
       level: 3
-      description: "Cultural services (S)"
+      description: Cultural services (S)
       code:
 
     '13.4':
       level: 2
-      description: "Education"
+      description: Education
       code:
 
     '13.4.1':
       level: 3
-      description: "Pre-primary and primary education (S)"
+      description: Pre-primary and primary education (S)
       code:
 
     '13.4.2':
       level: 3
-      description: "Secondary education (S)"
+      description: Secondary education (S)
       code:
 
     '13.4.3':
       level: 3
-      description: "Post-secondary non-tertiary education (S)"
+      description: Post-secondary non-tertiary education (S)
       code:
 
     '13.4.4':
       level: 3
-      description: "Tertiary education (S)"
+      description: Tertiary education (S)
       code:
 
     '13.4.5':
       level: 2
-      description: "Education not definable by level (S)"
+      description: Education not definable by level (S)
       code:
 
     '13.4.6':
       level: 3
-      description: "Other educational services (S)"
+      description: Other educational services (S)
       code:
 
     '13.5':
       level: 2
-      description: "Social protection"
+      description: Social protection
       code:
 
     '13.5.0':
       level: 3
-      description: "Social protection (S)"
+      description: Social protection (S)
       code:
 
     '13.6':
       level: 2
-      description: "Other services"
+      description: Other services
       code:
 
     '13.6.1':
       level: 3
-      description: "Religion (S)"
+      description: Religion (S)
       code:
 
     '13.6.2':
       level: 3
-      description: "Political parties, labour and professional organizations (S)"
+      description: Political parties, labour and professional organizations (S)
       code:
 
     '13.6.3':
       level: 3
-      description: "Environmental protection (S)"
+      description: Environmental protection (S)
       code:
 
     '13.6.4':
       level: 3
-      description: "Services n.e.c. (S)"
+      description: Services n.e.c. (S)
       code:
 
     '14':
       level: 1
-      description: "Individual consumption expenditure of general government"
+      description: Individual consumption expenditure of general government
       code:
 
     '14.1':
       level: 2
-      description: "Housing"
+      description: Housing
       code:
 
     '14.1.0':
       level: 3
-      description: "Housing (S)"
+      description: Housing (S)
       code:
 
     '14.2':
       level: 2
-      description: "Health"
+      description: Health
       code:
 
     '14.2.1':
       level: 3
-      description: "Pharmaceutical products (ND)"
+      description: Pharmaceutical products (ND)
       code:
 
     '14.2.2':
       level: 3
-      description: "Other medical products (ND)"
+      description: Other medical products (ND)
       code:
 
     '14.2.3':
       level: 3
-      description: "Therapeutic appliances and equipment (D)"
+      description: Therapeutic appliances and equipment (D)
       code:
 
     '14.2.4':
       level: 3
-      description: "Outpatient medical services (S)"
+      description: Outpatient medical services (S)
       code:
 
     '14.2.5':
       level: 3
-      description: "Outpatient dental services (S)"
+      description: Outpatient dental services (S)
       code:
 
     '14.2.6':
       level: 3
-      description: "Outpatient paramedical services (S)"
+      description: Outpatient paramedical services (S)
       code:
 
     '14.2.7':
       level: 3
-      description: "Hospital services (S)"
+      description: Hospital services (S)
       code:
 
     '14.2.8':
       level: 3
-      description: "Public health services (S)"
+      description: Public health services (S)
       code:
 
     '14.3':
       level: 2
-      description: "Recreation and culture"
+      description: Recreation and culture
       code:
 
     '14.3.1':
       level: 3
-      description: "Recreational and sporting services (S)"
+      description: Recreational and sporting services (S)
       code:
 
     '14.3.2':
       level: 3
-      description: "Cultural services (S)"
+      description: Cultural services (S)
       code:
 
     '14.4':
       level: 2
-      description: "Education"
+      description: Education
       code:
 
     '14.4.1':
       level: 3
-      description: "Pre-primary and primary education (S)"
+      description: Pre-primary and primary education (S)
       code:
 
     '14.4.2':
       level: 3
-      description: "Secondary education (S)"
+      description: Secondary education (S)
       code:
 
     '14.4.3':
       level: 3
-      description: "Post-secondary non-tertiary education (S)"
+      description: Post-secondary non-tertiary education (S)
       code:
 
     '14.4.4':
       level: 3
-      description: "Tertiary education (S)"
+      description: Tertiary education (S)
       code:
 
     '14.4.5':
       level: 3
-      description: "Education not definable by level (S)"
+      description: Education not definable by level (S)
       code:
 
     '14.4.6':
       level: 3
-      description: "Subsidiary services to education (S)"
+      description: Subsidiary services to education (S)
       code:
 
     '14.5':
       level: 2
-      description: "Social protection"
+      description: Social protection
       code:
 
     '14.5.0':
       level: 3
-      description: "Social protection (S)"
+      description: Social protection (S)
       code:
