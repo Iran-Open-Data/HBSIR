@@ -2719,7 +2719,7 @@ sci_coicop_1383: &sci_coicop_1383
     ################################# LEVEL 1 #################################
     '04':
       level: 1
-      lable: housing_water_electricity_gas_and_other_fuels
+      label: housing_water_electricity_gas_and_other_fuels
       farsi_name: مسکن، آب، فاضلاب، سوخت و روشنایی
       code: {start: 40_000, end: 50_000}
 
