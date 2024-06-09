@@ -707,6 +707,14 @@ Expenditures:
 
   instructions:
     - create_column:
+        name: Amount
+        type: numerical
+        expression: "Amount / Duration * 360"
+
+    - apply_pandas_function: >
+        .assign(Amount=self.table["Amount"].replace(0, None))
+
+    - create_column:
         name: Gross_Expenditure
         type: numerical
         expression: "Gross_Expenditure / Duration * 360"
