@@ -2720,6 +2720,7 @@ sci_coicop_1383: &sci_coicop_1383
     '04':
       level: 1
       label: housing_water_electricity_gas_and_other_fuels
+      title: Housing, water, electricity, gas and other fuels
       farsi_name: مسکن، آب، فاضلاب، سوخت و روشنایی
       code: {start: 40_000, end: 50_000}
 
@@ -2728,6 +2729,7 @@ sci_coicop_1383: &sci_coicop_1383
     '041':
       level: 2
       label: actual_rentals_for_housing
+      title: Actual rentals for housing
       farsi_name: اجاره‌بهای واقعی مسکن
       code: {start: 41_000, end: 42_000}
 
@@ -2735,23 +2737,89 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0411':
       level: 3
-      label: 
+      label: actual_rentals_paid_by_tenants_for_main_residence
+      title: Actual rentals paid by tenants for main residence
       farsi_name: اجاره‌بهای محل سکونت (اقامتگاه اصلی)
       code: {start: 41_100, end: 41_200}
 
+    #                            #### LEVEL 4 ####                            #
+    '0411_1':
+      level: 4
+      label: actual_rentals_paid_by_tenants_for_main_residence
+      title: Actual rentals paid by tenants for main residence
+      farsi_name: اجاره‌بهای محل سکونت (اقامتگاه اصلی)
+      code: {start: 41_110, end: 41_120}
+
+    #                              ## LEVEL 5 ##                              #
+    '0411_11':
+      level: 5
+      label: actual_rentals_paid_by_tenants_for_main_residence_unfurnished
+      title: Actual rentals paid by tenants for main residence unfurnished
+      farsi_name: اجاره بهای محل سکونت (غیر مبله)
+      code: 41_111
+
+    #                              ## LEVEL 5 ##                              #
+    '0411_12':
+      level: 5
+      label: actual_rentals_paid_by_tenants_for_main_residence_furnished
+      title: Actual rentals paid by tenants for main residence furnished
+      farsi_name: اجاره بهای محل سکونت (مبله)
+      code: 41_112
+
+    #                              ## LEVEL 5 ##                              #
+    '0411_13':
+      level: 5
+      label: 
+      title: 
+      farsi_name: اجاره‌بهای یک اتاق در هتل یا پانسیون شبانه‌روزی
+      code: 41_113
 
     #                        ######## LEVEL 3 ########                        #
     '0412':
       level: 3
-      label: 
+      label: actual_rentals_paid_by_tenants_for_secondary_residences
+      title: Actual rentals paid by tenants for secondary residences
       farsi_name: اجاره‌بهای محل سکونت (اقامتگاه‌های بعدی)
       code: {start: 41_200, end: 41_300}
+
+    #                            #### LEVEL 4 ####                            #
+    '0412_1':
+      level: 4
+      label: actual_rentals_paid_by_tenants_for_secondary_residences
+      title: Actual rentals paid by tenants for secondary residences
+      farsi_name: اجاره‌بهای محل سکونت (اقامتگاه‌های بعدی)
+      code: {start: 41_210, end: 41_220}
+
+    #                              ## LEVEL 5 ##                              #
+    '0412_11':
+      level: 5
+      label: 
+      title: 
+      farsi_name: اجاره‌بهای محل سکونت (غیر مبله)
+      code: 41_211
+
+    #                              ## LEVEL 5 ##                              #
+    '0412_12':
+      level: 5
+      label: 
+      title: 
+      farsi_name: اجاره‌بهای محل سکونت (مبله)
+      code: 41_212
+
+    #                              ## LEVEL 5 ##                              #
+    '0412_13':
+      level: 5
+      label: 
+      title: 
+      farsi_name: اجاره‌بهای یک اتاق در هتل یا پانسیون شبانه‌روزی
+      code: 41_213
 
 
     #                ################ LEVEL 2 ################                #
     '042':
       level: 2
       label: imputed_rentals_for_housing
+      title: Imputed rentals for housing
       farsi_name: اجاره‌بهای احتسابی مسکن
       code: {start: 42_000, end: 43_000}
 
@@ -2759,17 +2827,83 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0421':
       level: 3
-      label: 
+      label: imputed_rentals_of_owner_occupiers_for_main_residence
+      title: Imputed rentals of owner-occupiers for main residence
       farsi_name: برآورد اجاره‌بهای مسکن شخصی برای اقامتگاه اصلی
       code: {start: 42_100, end: 42_200}
+
+    #                            #### LEVEL 4 ####                            #
+    '0421_1':
+      level: 4
+      label: imputed_rentals_of_owner_occupiers_for_main_residence
+      title: Imputed rentals of owner-occupiers for main residence
+      farsi_name: برآورد اجاره‌بهای مسکن شخصی برای اقامتگاه اصلی
+      code: {start: 42_110, end: 42_120}
+
+    #                              ## LEVEL 5 ##                              #
+    '0421_11':
+      level: 5
+      label: imputed_rentals_of_owner_occupiers_for_main_residence
+      title: Imputed rentals of owner-occupiers for main residence
+      farsi_name: برآورد اجاره‌بهای مسکن شخصی برای اقامتگاه اصلی
+      code: 42_111
 
 
     #                        ######## LEVEL 3 ########                        #
     '0422':
       level: 3
-      label: 
+      label: other_imputed_rentals
+      title: Other imputed rentals
       farsi_name: سایر اجاره‌های احتسابی
       code: {start: 42_200, end: 42_300}
+
+    #                            #### LEVEL 4 ####                            #
+    '0422_1':
+      level: 4
+      label: other_imputed_rentals
+      title: Other imputed rentals
+      farsi_name: سایر اجاره‌های احتسابی
+      code: {start: 42_210, end: 42_220}
+
+    #                              ## LEVEL 5 ##                              #
+    '0422_11':
+      level: 5
+      label: imputed_rentals_of_owner_occupiers_for_other_residence
+      title: Imputed rentals of owner-occupiers for other residence
+      farsi_name: برآورد اجاره‌بهای مسکن شخصی اقامتگاه‌های بعدی
+      code: 42_211
+
+    #                              ## LEVEL 5 ##                              #
+    '0422_12':
+      level: 5
+      label: imputed_rental_equivalence_of_the_mortgage
+      title: Imputed rental equivalence of the mortgage
+      farsi_name: برآورد ارزش اجاری محل سکونت (رهنی)
+      code: 42_212
+
+    #                              ## LEVEL 5 ##                              #
+    '0422_13':
+      level: 5
+      label: 
+      title: 
+      farsi_name: برآورد اجاره‌بهای مسکن در برابر خدمت
+      code: 42_213
+
+    #                              ## LEVEL 5 ##                              #
+    '0422_14':
+      level: 5
+      label: 
+      title: 
+      farsi_name: برآورد اجاره‌بهای مسکن رایگان
+      code: 42_214
+
+    #                              ## LEVEL 5 ##                              #
+    '0422_15':
+      level: 5
+      label: 
+      title: 
+      farsi_name: برآورد سایر اجاره‌بهای احتسابی
+      code: 42_215
 
 
     #                ################ LEVEL 2 ################                #
@@ -2784,17 +2918,35 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0431':
       level: 3
-      label: 
+      label: materials_for_the_maintenance_and_repair_of_the_dwelling
+      title: Materials for the maintenance and repair of the dwelling
       farsi_name: مواد و مصالح برای نگهداری و تعمیر واحد مسکونی
       code: {start: 43_100, end: 43_200}
+
+     #                            #### LEVEL 4 ####                            #
+    '0431_1-0431_2-0431_3':
+      level: 4
+      label: materials_for_the_maintenance_and_repair_of_the_dwelling
+      title: Materials for the maintenance and repair of the dwelling
+      farsi_name: مواد و مصالح برای نگهداری و تعمیر واحد مسکونی
+      code: {start: 43_110, end: 43_140}
 
 
     #                        ######## LEVEL 3 ########                        #
     '0432':
       level: 3
-      label: 
+      label: services_for_the_maintenance_and_repair_of_the_dwelling
+      title: Services for the maintenance and repair of the dwelling
       farsi_name: خدمات نگهداری و تعمیر واحد مسکونی
       code: {start: 43_200, end: 43_300}
+
+     #                            #### LEVEL 4 ####                            #
+    '0432_1-0432_2':
+      level: 4
+      label: services_for_the_maintenance_and_repair_of_the_dwelling
+      title: Services for the maintenance and repair of the dwelling
+      farsi_name: خدمات نگهداری و تعمیر واحد مسکونی
+      code: {start: 43_210, end: 43_230}
 
 
     #                ################ LEVEL 2 ################                #
@@ -2809,7 +2961,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0441':
       level: 3
-      label: 
+      label: water_supply
+      title: Water supply
       farsi_name: هزینه‌ی آب
       code: {start: 44_100, end: 44_200}
 
@@ -2817,7 +2970,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0443':
       level: 3
-      label: 
+      label: sewage_collection
+      title: Sewage collection
       farsi_name: هزینه‌های جمع‌آوری فاضلاب
       code: {start: 44_300, end: 44_400}
 
@@ -2825,7 +2979,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0444':
       level: 3
-      label: 
+      label: other_services_relating_to_the_dwelling
+      title: Other services relating to the dwelling
       farsi_name: سایر خدمات مربوط به واحد مسکونی
       code: {start: 44_400, end: 44_500}
 
@@ -2842,7 +2997,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0451':
       level: 3
-      label: 
+      label: electricity
+      title: Electricity
       farsi_name: برق
       code: {start: 45_100, end: 45_200}
 
@@ -2850,7 +3006,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0452':
       level: 3
-      label: 
+      label: gas
+      title: Gas
       farsi_name: گاز
       code: {start: 45_200, end: 45_300}
 
@@ -2858,7 +3015,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0453':
       level: 3
-      label: 
+      label: liquid_fuels
+      title: Liquid fuels
       farsi_name: سوخت مایع
       code: {start: 45_300, end: 45_400}
 
@@ -2866,7 +3024,7 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0454':
       level: 3
-      label: 
+      label: solid_fuels
       farsi_name: سوخت‌های جامد
       code: {start: 45_400, end: 45_500}
 
@@ -2891,7 +3049,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0511':
       level: 3
-      label: 
+      label: furniture_and_furnishings
+      label: Furniture and furnishings
       farsi_name: مبلمان و اثاث
       code: {start: 51_100, end: 51_200}
 
@@ -2899,7 +3058,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0512':
       level: 3
-      label: 
+      label: carpets_and_other_floor_coverings
+      title: Carpets and other floor coverings
       farsi_name: فرش و سایر کفپوش‌ها
       code: {start: 51_200, end: 51_300}
 
@@ -2907,7 +3067,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0513':
       level: 3
-      label: 
+      label: repair_of_furniture_furnishings_and_floor_coverings
+      title: Repair of furniture, furnishings and floor coverings
       farsi_name: تعمیر مبلمان، اثاث و کفپوش‌ها
       code: {start: 51_300, end: 51_400}
 
@@ -2924,7 +3085,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0521':
       level: 3
-      label: 
+      label: household_textiles
+      title: Household textiles
       farsi_name: لوازم پارچه‌ای خانگی
       code: {start: 52_100, end: 52_200}
 
@@ -2941,7 +3103,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0531':
       level: 3
-      label: 
+      label: major_household_appliances_whether_electric_or_not
+      title: Major household appliances whether electric or not
       farsi_name: وسایل اصلی برقی و غیر برقی
       code: {start: 53_100, end: 53_200}
 
@@ -2949,7 +3112,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0532':
       level: 3
-      label: 
+      label: small_electric_household_appliances
+      title: Small electric household appliances
       farsi_name: وسایل کوچک برقی
       code: {start: 53_200, end: 53_300}
 
@@ -2957,7 +3121,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0533':
       level: 3
-      label: 
+      label: repair_of_household_appliances
+      title: Repair of household appliances
       farsi_name: هزینه تعمیر، نصب و اجاره وسایل اصلی برقی و غیر برقی
       code: {start: 53_300, end: 53_400}
 
@@ -2974,7 +3139,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0540':
       level: 3
-      label: 
+      label: glassware_tableware_and_household_utensils
+      title: Glassware, tableware and household utensils
       farsi_name: انواع ظروف غذاخوری و سایر لوازم خانگی
       code: {start: 54_000, end: 54_100}
 
@@ -2991,16 +3157,18 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0551':
       level: 3
-      label: 
-      farsi_name: ابزار و تجهیزات بادوام منزل و باغ
+      label: major_tools_and_equipment
+      title: Major tools and equipment
+      farsi_name: ابزار و تجهیزات بادوام
       code: {start: 55_100, end: 55_200}
 
 
     #                        ######## LEVEL 3 ########                        #
     '0552':
       level: 3
-      label: 
-      farsi_name: ابزار و تجهیزات کم دوام منزل و باغ
+      label: small_tools_and_miscellaneous_accessories
+      title: Small tools and miscellaneous accessories
+      farsi_name: ابزار و تجهیزات کم دوام
       code: {start: 55_200, end: 55_300}
 
 
@@ -3016,7 +3184,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0561':
       level: 3
-      label: 
+      label: non_durable_household_goods
+      title: Non-durable household goods
       farsi_name: کالاهای بی‌دوام خانگی
       code: {start: 56_100, end: 56_200}
 
@@ -3024,7 +3193,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0562':
       level: 3
-      label: 
+      label: domestic_services_and_household_services
+      title: Domestic services and household services
       farsi_name: خدمات خانگی و مراقبت از منزل
       code: {start: 56_200, end: 56_300}
 
@@ -3033,6 +3203,7 @@ sci_coicop_1383: &sci_coicop_1383
     '06':
       level: 1
       label: health
+      title: health
       farsi_name: بهداشت و درمان
       code: {start: 60_000, end: 70_000}
 
@@ -3049,7 +3220,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0611':
       level: 3
-      label: 
+      label: pharmaceutical_products
+      title: Pharmaceutical products
       farsi_name: محصولات دارویی و درمانی
       code: {start: 61_100, end: 61_200}
 
@@ -3057,7 +3229,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0612':
       level: 3
-      label: 
+      label: other_medical_products
+      title: Other medical products
       farsi_name: محصولات پزشکی
       code: {start: 61_200, end: 61_300}
 
@@ -3065,7 +3238,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0613':
       level: 3
-      label: 
+      label: therapeutic_appliances_and_equipment
+      title: Therapeutic appliances and equipment
       farsi_name: وسایل و تجهیزات درمانی
       code: {start: 61_300, end: 61_400}
 
@@ -3082,7 +3256,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0621':
       level: 3
-      label: 
+      label: medical_services
+      title: Medical services
       farsi_name: خدمات پزشکی
       code: {start: 62_100, end: 62_200}
 
@@ -3090,7 +3265,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0622':
       level: 3
-      label: 
+      label: dental_services
+      title: Dental services
       farsi_name: خدمات دندان‌پزشکی
       code: {start: 62_200, end: 62_300}
 
@@ -3098,7 +3274,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0623':
       level: 3
-      label: 
+      label: paramedical_services
+      title: Paramedical services
       farsi_name: خدمات پیراپزشکی
       code: {start: 62_300, end: 62_400}
 
@@ -3115,7 +3292,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0631':
       level: 3
-      label: 
+      label: inpatient_care_services
+      title: Inpatient care services
       farsi_name: خدمات بیمارستانی
       code: {start: 63_100, end: 63_200}
 
@@ -3132,7 +3310,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0641':
       level: 3
-      label: 
+      label: other_health_services
+      title: Other health services
       farsi_name: هزینه‌ی ترک اعتیاد
       code: {start: 64_100, end: 64_200}
 
@@ -3157,7 +3336,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0711':
       level: 3
-      label: 
+      label: motor_cars
+      title: Motor cars
       farsi_name: خرید انواع خودرو
       code: {start: 71_100, end: 71_200}
 
@@ -3165,7 +3345,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0712':
       level: 3
-      label: 
+      label: motor_cycles
+      title: Motor cycles
       farsi_name: خرید انواع موتور
       code: {start: 71_200, end: 71_300}
 
@@ -3173,7 +3354,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0713':
       level: 3
-      label: 
+      label: bicycles
+      title: Bicycles
       farsi_name: خرید انواع دوچرخه
       code: {start: 71_300, end: 71_400}
 
@@ -3190,7 +3372,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0721':
       level: 3
-      label: 
+      label: spare_parts_and_accessories_for_personal_transport_equipment
+      title: Spare parts and accessories for personal transport equipment
       farsi_name: لوازم و قطعات یدکی
       code: {start: 72_100, end: 72_200}
 
@@ -3198,7 +3381,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0722':
       level: 3
-      label: 
+      label: fuels_and_lubricants_for_personal_transport_equipment
+      title: Fuels and lubricants for personal transport equipment
       farsi_name: انواع سوخت و روان‌ساز برای وسایل حمل و نقل شخصی
       code: {start: 72_200, end: 72_300}
 
@@ -3206,7 +3390,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0723':
       level: 3
-      label: 
+      label: maintenance_and_repair_of_personal_transport_equipment
+      title: Maintenance and repair of personal transport equipment
       farsi_name: نگهداری و تعمیر وسایل نقلیه‌ی شخصی
       code: {start: 72_300, end: 72_400}
 
@@ -3214,7 +3399,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0724':
       level: 3
-      label: 
+      label: other_services_in_respect_of_personal_transport_equipment
+      title: Other services in respect of personal transport equipment
       farsi_name: سایر خدمات مربوط به تجهیزات حمل و نقل شخصی
       code: {start: 72_400, end: 72_500}
 
@@ -3231,7 +3417,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0731':
       level: 3
-      label: 
+      label: passenger_transport_by_railway
+      title: Passenger transport by railway
       farsi_name: هزینه‌ی خدمات حمل و نقل ریلی
       code: {start: 73_100, end: 73_200}
 
@@ -3239,7 +3426,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0732':
       level: 3
-      label: 
+      label: passenger_transport_by_road
+      title: Passenger transport by road
       farsi_name: هزینه‌ی خدمات حمل و نقل جاده‌ای
       code: {start: 73_200, end: 73_300}
 
@@ -3247,7 +3435,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0733':
       level: 3
-      label: 
+      label: passenger_transport_by_air
+      title: Passenger transport by air
       farsi_name: هزینه خدمات حمل و نقل هوایی
       code: {start: 73_300, end: 73_400}
 
@@ -3255,7 +3444,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0734':
       level: 3
-      label: 
+      label: passenger_transport_by_sea_and_inland_waterway
+      title: Passenger transport by sea and inland waterway
       farsi_name: هزینه‌ی خدمات حمل و نقل دریایی و راه آبی داخلی
       code: {start: 73_400, end: 73_500}
 
@@ -3263,7 +3453,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0735':
       level: 3
-      label: 
+      label: combined_passenger_transport
+      title: Combined passenger transport
       farsi_name: هزینه‌ی حمل و نقل مختلط
       code: {start: 73_500, end: 73_600}
 
@@ -3271,7 +3462,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0736':
       level: 3
-      label: 
+      label: other_purchased_transport_services
+      title: Other purchased transport services
       farsi_name: سایر خدمات خریداری شده حمل و نقل
       code: {start: 73_600, end: 73_700}
 
@@ -3288,7 +3480,7 @@ sci_coicop_1383: &sci_coicop_1383
     '081':
       level: 2
       label: postal_services
-      label: Postal services
+      title: Postal services
       farsi_name: خدمات پستی
       code: {start: 81_000, end: 82_000}
 
@@ -3296,15 +3488,16 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0811':
       level: 3
-      label: 
+      label: postal_services
+      title: Postal services
       farsi_name: خدمات پستی
       code: {start: 81_100, end: 81_200}
 
     #                ################ LEVEL 2 ################                #
     '082':
       level: 2
-      label: information_and_communication_equipment
-      title: Information and communication equipment
+      label: telephone_and_telefax_equipment
+      title: Telephone and telefax equipment
       farsi_name: تجهیزات تلفن و تلفکس
       code: {start: 82_000, end: 83_000}
 
@@ -3312,7 +3505,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0821':
       level: 3
-      label: 
+      label: telephone_and_telefax_equipment
+      title: Telephone and telefax equipment
       farsi_name: تجهیزات تلفن و تلفکس
       code: {start: 82_100, end: 82_200}
 
@@ -3320,8 +3514,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '083':
       level: 2
-      label: information_and_communication_services
-      title: Information and communication services
+      label: telephone_and_telefax_services
+      title: Telephone and telefax services
       farsi_name: خدمات تلفن و فکس
       code: {start: 83_000, end: 84_000}
 
@@ -3329,7 +3523,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0831':
       level: 3
-      label: 
+      label: telephone_and_telefax_services
+      title: Telephone and telefax services
       farsi_name: خدمات تلفن و فکس
       code: {start: 83_100, end: 83_200}
 
@@ -3337,7 +3532,8 @@ sci_coicop_1383: &sci_coicop_1383
     ################################# LEVEL 1 #################################
     '09':
       level: 1
-      label: recreation_sport_and_culture
+      label: recreation_and_culture
+      title: Recreation and culture
       farsi_name: خدمات فرهنگی و تفریحات
       code: {start: 90_000, end: 100_000}
 
@@ -3345,8 +3541,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '091':
       level: 2
-      label: recreational_durables
-      title: Recreational durables
+      label: audio_visual_photographic_and_information_processing_equipment
+      title: Audio-visual, photographic and information processing equipment
       farsi_name: تجهیزات سمعی - بصری، عکاسی، داده‌پردازی و لوازم آن‌ها
       code: {start: 91_000, end: 92_000}
 
@@ -3354,16 +3550,20 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0911':
       level: 3
-      label: 
-      farsi_name: 
+      label: equipment_for_the_reception_recording_and_reproduction_of_sound_
+        and_pictures
+      title: Equipment for the reception, recording and reproduction of sound
+        and pictures
+      farsi_name: تجهیزات ویژه دریافت، ضبط و تکثیر صدا و تصویر
       code: {start: 91_100, end: 91_200}
 
 
     #                        ######## LEVEL 3 ########                        #
     '0912':
       level: 3
-      label: 
-      farsi_name: 
+      label: photographic_and_cinematographic_equipment_and_optical_instruments
+      title: Photographic and cinematographic equipment and optical instruments
+      farsi_name: وسایل عکاسی، فیلم‌برداری و تجهیزات نور
       code: {start: 91_200, end: 91_300}
 
 
@@ -3858,7 +4058,7 @@ sci_coicop_1383: &sci_coicop_1383
     '126':
       level: 2
       label: other_financial_services
-      label: Other financial services
+      title: Other financial services
       farsi_name: خدمات مالی طبقه‌بندی نشده در جای دیگر
       code: {start: 126_000, end: 127_000}
 
@@ -4708,25 +4908,184 @@ coicop_2018:
       description: Actual rentals for housing
       code:
 
+    '04.1.1':
+      level: 3
+      title: Actual rentals paid by tenants for main residence (S)
+
+    '04.1.1.0':
+      level: 4
+      title: Actual rentals paid by tenants for main residence (S)
+
+    '04.1.2':
+      level: 3
+      title: Other actual rentals (S)
+
+    '04.1.2.1':
+      level: 4
+      title: Actual rentals paid by tenants for secondary residences (S)
+
+    '04.1.2.2':
+      level: 4
+      title: Garage rentals and other rentals paid by tenants (S)
+
     '04.2':
       level: 2
       description: Imputed rentals for housing
       code:
+
+    '04.2.1':
+      level: 3
+      description: Imputed rentals of owner-occupiers for main residence (S)
+
+    '04.2.1.0':
+      level: 4
+      description: Imputed rentals of owner-occupiers for main residence (S)
+
+    '04.2.2':
+      level: 3
+      description: Other imputed rentals (S)
+
+    '04.2.2.0':
+      level: 4
+      description: Other imputed rentals (S)
 
     '04.3':
       level: 2
       description: Maintenance, repair and security of the dwelling
       code:
 
+    '04.3.1':
+      level:
+      description: Security equipment and materials for the maintenance and repair of the dwelling (ND)
+
+    '04.3.1.1':
+      level:
+      description: Materials for the maintenance and repair of the dwelling (ND)
+
+    '04.3.1.2':
+      level:
+      description: Security equipment (SD)
+
+    '04.3.2':
+      level:
+      description: Services for the maintenance, repair and security of the dwelling (S)
+
+    '04.3.2.0':
+      level:
+      description: Services for the maintenance, repair and security of the dwelling (S)
+
+
     '04.4':
       level: 2
       description: Water supply and miscellaneous services relating to the dwelling
       code:
 
+    '04.4.1':
+      level:
+      description: Water supply (ND)
+
+    '04.4.1.1':
+      level:
+      description: Water supply through network systems (ND)
+
+    '04.4.1.2':
+      level:
+      description: Water supply through other systems (ND)
+
+    '04.4.2':
+      level:
+      description: Refuse collection (S)
+
+    '04.4.2.0':
+      level:
+      description: Refuse collection (S)
+
+    '04.4.3':
+      level:
+      description: Sewage collection (S)
+
+    '04.4.3.1':
+      level:
+      description: Sewage collection through sewer systems (S)
+
+    '04.4.3.2':
+      level:
+      description: Sewage collection through onsite sanitation systems (S)
+
+    '04.4.4':
+      level:
+      description: Other services relating to the dwelling n.e.c. (S)
+
+    '04.4.4.1':
+      level:
+      description: Maintenance charges in multi-occupied buildings (S)
+
+    '04.4.4.9':
+      level:
+      description: Other services related to dwelling (S)
+
+
     '04.5':
       level: 2
       description: Electricity, gas and other fuels
       code:
+
+    '04.5.1':
+      level:
+      description: Electricity (ND) 
+
+    '04.5.1.0':
+      level:
+      description: Electricity (ND) 
+
+    '04.5.2':
+      level:
+      description: Gas (ND) 
+
+    '04.5.2.1':
+      level:
+      description: Natural gas through networks (ND) 
+
+    '04.5.2.2':
+      level:
+      description: Liquefied hydrocarbons (ND) 
+
+    '04.5.3':
+      level:
+      description: Liquid fuels (ND) 
+
+    '04.5.3.0':
+      level:
+      description: Liquid fuels (ND) 
+
+    '04.5.4':
+      level:
+      description: Solid fuels (ND) 
+
+    '04.5.4.1':
+      level:
+      description: Coal, coal briquettes and peat (ND) 
+
+    '04.5.4.2':
+      level:
+      description: Wood fuel, including pellets and briquettes (ND) 
+
+    '04.5.4.3':
+      level:
+      description: Charcoal (ND) 
+
+    '04.5.4.9':
+      level:
+      description: Other solid fuels (ND) 
+
+    '04.5.5':
+      level:
+      description: Other energy for heating and cooling (ND) 
+
+    '04.5.5.0':
+      level:
+      description: Other energy for heating and cooling (ND)
+
 
     '05':
       level: 1
