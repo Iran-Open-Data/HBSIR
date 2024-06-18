@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.10"
-bssir = "0.3.2"
+bssir = "0.3.3"
 
 
 [tool.poetry.group.dev.dependencies]
