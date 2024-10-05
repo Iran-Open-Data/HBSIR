@@ -192,3 +192,8 @@
   compressed_files:
     - name: data.rar
       address: https://ssis.sci.org.ir/download/sample/7606
+
+1402:
+  compressed_files:
+    - name: data.rar
+      address: https://amar.org.ir/Portals/0/Statistics/rawdata_hazinedaramad_1402-14030714125607.zip

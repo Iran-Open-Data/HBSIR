@@ -3571,7 +3571,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0913':
       level: 3
       label: 
-      farsi_name: 
+      farsi_name: تجهیزات رایانه
       code: {start: 91_300, end: 91_400}
 
 
@@ -3579,7 +3579,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0914':
       level: 3
       label: 
-      farsi_name: 
+      farsi_name: وسایل ضبط تصویر و صدا
       code: {start: 91_400, end: 91_500}
 
 
@@ -3587,7 +3587,8 @@ sci_coicop_1383: &sci_coicop_1383
     '0915':
       level: 3
       label: 
-      farsi_name: 
+      farsi_name: اجرت تعمیر تجهیزات صوتی و تصویری، عکاسی، رایانه‌ای و
+        لوازم آن
       code: {start: 91_500, end: 91_600}
 
 
@@ -3629,7 +3630,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0931':
       level: 3
       label: 
-      farsi_name: 
+      farsi_name: لوازم بازی، انواع اسباب بازی و وسایل سرگرمی
       code: {start: 93_100, end: 93_200}
 
 
@@ -3637,7 +3638,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0932':
       level: 3
       label: 
-      farsi_name: 
+      farsi_name: لوازم ورزشی و تفریحی در اردوگاه‌ها و فضاهای باز
       code: {start: 93_200, end: 93_300}
 
 
@@ -3645,7 +3646,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0933':
       level: 3
       label: 
-      farsi_name: 
+      farsi_name: باغ گیاهان و گل‌ها
       code: {start: 93_300, end: 93_400}
 
 
@@ -3653,7 +3654,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0934':
       level: 3
       label: 
-      farsi_name: 
+      farsi_name: حیوان‌های خانگی و لوازم مربوط
       code: {start: 93_400, end: 93_500}
 
 
@@ -3661,7 +3662,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0935':
       level: 3
       label: 
-      farsi_name: 
+      farsi_name: دامپزشکی و سایر خدمات برای حیوان‌های خانگی
       code: {start: 93_500, end: 93_600}
 
 
@@ -3678,7 +3679,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0941':
       level: 3
       label: 
-      farsi_name: 
+      farsi_name: خدمات تفریحی
       code: {start: 94_100, end: 94_200}
 
 
@@ -3686,7 +3687,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0942':
       level: 3
       label: 
-      farsi_name: 
+      farsi_name: خدمات فرهنگی
       code: {start: 94_200, end: 94_300}
 
 
@@ -3694,7 +3695,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0943':
       level: 3
       label: 
-      farsi_name: 
+      farsi_name: کلیه‌ی بازی‌های شانسی
       code: {start: 94_300, end: 94_400}
 
 
@@ -3711,7 +3712,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0951':
       level: 3
       label: 
-      farsi_name: 
+      farsi_name: کتاب
       code: {start: 95_100, end: 95_200}
 
 
@@ -3719,7 +3720,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0952':
       level: 3
       label: 
-      farsi_name: 
+      farsi_name: روزنامه‌ها، مجلات و سایر نشریات ادواری
       code: {start: 95_200, end: 95_300}
 
 
@@ -3727,7 +3728,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0953':
       level: 3
       label: 
-      farsi_name: 
+      farsi_name: موضوعات چاپ شده‌ی متفرقه
       code: {start: 95_300, end: 95_400}
 
 
@@ -3735,7 +3736,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0954':
       level: 3
       label: 
-      farsi_name: 
+      farsi_name: لوازم التحریر، لوازم رسم، نقاشی و لوازم هنری
       code: {start: 95_400, end: 95_500}
 
 
@@ -3752,7 +3753,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0961':
       level: 3
       label: 
-      farsi_name: 
+      farsi_name: هزینه‌ی مسافرت‌های دستجمعی (همراه تور)
       code: {start: 96_100, end: 96_200}
 
 

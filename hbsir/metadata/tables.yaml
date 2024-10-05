@@ -376,13 +376,21 @@ HOUSE_ITEMS:
     new_name: Tenure
     type: category
     categories:
-      1: Owned_Estate_Land
-      2: Owned_Estate
-      3: Rent
-      4: Mortgage
-      5: Service
-      6: Free
-      7: Other
+      1363:
+        1: Owned_Estate_Land
+        2: Owned_Estate
+        3: Rent
+        4: Service
+        5: Free
+        6: Other
+      1383:
+        1: Owned_Estate_Land
+        2: Owned_Estate
+        3: Rent
+        4: Mortgage
+        5: Service
+        6: Free
+        7: Other
 
   house_other_tenure: &house_other_tenure
     new_name: Other_tenure
@@ -1765,7 +1773,7 @@ durable:
         <<: *expenditure_code
         replace:
           1401: {09511A: null, 01232A: null}
-          1402: null
+          1402: {09511A: null}
       DYCOL02: *expenditure_insurance_and_loan_info
       DYCOL03: *expenditure_lender
       DYCOL04: *expenditure_provision_method
