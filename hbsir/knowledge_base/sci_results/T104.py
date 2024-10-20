@@ -13,7 +13,7 @@ def create_table_for_a_year(
     head_state = (
         api.load_table("members_properties", years=1401)
         .set_index(["Year", "ID"])
-        .loc[lambda df: df["Relationship"] == "Head", ["Activity_State"]]
+        .loc[lambda df: df["Relationship"] == "Head", ["Activity_Status"]]
     )
 
     table = pd.concat(
@@ -27,7 +27,7 @@ def create_table_for_a_year(
     table = filter_urban_rural(table, urban_rural)
 
     weight_table = (
-        table.groupby(["Activity_State", "Expenditure_Tier"], observed=True)["Weight"]
+        table.groupby(["Activity_Status", "Expenditure_Tier"], observed=True)["Weight"]
         .sum()
         .unstack()
     )

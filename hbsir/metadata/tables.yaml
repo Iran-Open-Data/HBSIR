@@ -186,8 +186,8 @@ MEMBERS_ITEMS:
     type: boolean
     true_condition: 1
 
-  members_marrital_state: &members_marrital_state
-    new_name: Marrital_State
+  members_marital_status: &members_marital_status
+    new_name: Marital_Status
     type: category
     categories: 
       1: Married
@@ -198,8 +198,8 @@ MEMBERS_ITEMS:
       1369: {0: null, 5: null, 7: null, 8: null, 9: null}
       1370: null
 
-  members_activity_state: &members_activity_state
-    new_name: Activity_State
+  members_activity_status: &members_activity_status
+    new_name: Activity_Status
     type:
       1363: UInt16
       1369: category
@@ -226,23 +226,23 @@ MEMBERS_ITEMS:
     categories:
       1393:
         11: Primary
-        21: Secondary
-        31: Tertiary
+        21: Lower_Secondary
+        31: Higher_Secondary
         41: Pre_University
-        51: College
+        51: Short_Cycle_Tertiary
         52: Bachelors
         53: Masters
-        61: PhD
+        61: Doctoral
         71: Unofficial
       1397:
         1: Primary
-        2: Secondary
-        3: Tertiary
+        2: Lower_Secondary
+        3: Higher_Secondary
         4: Pre_University
-        5: College
+        5: Short_Cycle_Tertiary
         6: Bachelors
         7: Masters
-        8: PhD
+        8: Doctoral
         9: Unofficial
     replace:
       1394: {"1": null}
@@ -290,11 +290,11 @@ members_properties:
     COL05: *members_age
     COL06:
       1363: *memders_member_weeks
-      1364: *members_marrital_state
+      1364: *members_marital_status
       1366: *memders_member_weeks
       1369: *members_is_literate
     COL07:
-      1363: *members_marrital_state
+      1363: *members_marital_status
       1364: *members_nationality
       1366: *members_literacy_status
       1369: *members_is_student
@@ -304,13 +304,13 @@ members_properties:
       1366: *members_education_level
     COL09:
       1363: *members_literacy_status
-      1366: *members_activity_state
+      1366: *members_activity_status
     COL10:
       1363: *members_education_level
       1366: *members_occupation_code
-      1369: *members_marrital_state
+      1369: *members_marital_status
     COL11:
-      1363: *members_activity_state
+      1363: *members_activity_status
       1366: *members_work_place
       1369: null
     COL12:
@@ -335,8 +335,8 @@ members_properties:
     DYCOL06: *members_is_literate
     DYCOL07: *members_is_student
     DYCOL08: *members_education_level
-    DYCOL09: *members_activity_state
-    DYCOL10: *members_marrital_state
+    DYCOL09: *members_activity_status
+    DYCOL10: *members_marital_status
 
 
 HOUSE_ITEMS:

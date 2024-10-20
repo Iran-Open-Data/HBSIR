@@ -104,8 +104,8 @@ members_properties:
           - Nationality
           - Literacy_Status
           - Education_Level
-          - Marrital_State
-          - Activity_State
+          - Marital_Status
+          - Activity_Status
           - Occupation_Code
           - Work_Place
           - Work_Type
@@ -118,7 +118,7 @@ members_properties:
           - Sex
           - Age: Int16
           - Literacy_Status
-          - Activity_State
+          - Activity_Status
           - Education_Level
           - Occupation_Code
           - Work_Place
@@ -134,8 +134,8 @@ members_properties:
           - Is_Literate
           - Is_Student
           - Education_Level
-          - Marrital_State
-          - Activity_State
+          - Marital_Status
+          - Activity_Status
 
 
 Number_of_Members:

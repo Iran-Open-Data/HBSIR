@@ -26,10 +26,10 @@ INDEX = [
 def create_table_for_a_year(
     year: int, urban_rural: Literal["urban", "rural"]
 ) -> pd.DataFrame:
-    activity_state = (
+    activity_status = (
         api.load_table("members_properties", years=1401)
         .set_index(["Year", "ID", "Member_Number"])
-        .loc[lambda df: df["Relationship"] == "Head", ["Activity_State"]]
+        .loc[lambda df: df["Relationship"] == "Head", ["Activity_Status"]]
     )
 
     income_table = pd.concat(
@@ -46,11 +46,11 @@ def create_table_for_a_year(
         .loc[:, ["Occupation"]]
     )
 
-    occupations = activity_state.join(occupations, how="left").droplevel(-1)
-    filt = occupations["Activity_State"] != "Employed"
+    occupations = activity_status.join(occupations, how="left").droplevel(-1)
+    filt = occupations["Activity_Status"] != "Employed"
     occupations.loc[filt, "Occupation"] = "Unemployed"
     filt = occupations["Occupation"].isna() & (
-        occupations["Activity_State"] == "Employed"
+        occupations["Activity_Status"] == "Employed"
     )
     occupations.loc[filt, "Occupation"] = "Unknown or Other"
 

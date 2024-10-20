@@ -13,7 +13,7 @@ def create_table_for_a_year(
 ) -> pd.DataFrame:
     literate_members = (
         api.load_table("members_properties", years=year)
-        .assign(Employed=lambda df: df["Activity_State"] == "Employed")
+        .assign(Employed=lambda df: df["Activity_Status"] == "Employed")
         .groupby(["Year", "ID"])["Employed"]
         .sum()
         .rename("Value")
