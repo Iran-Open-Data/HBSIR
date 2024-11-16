@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "hbsir"
-version = "0.4.4"
+version = "0.4.5"
 description = "An intuitive platform designed to simplify the analysis of Iran household budget survey data."
 authors = ["mohammad amin alavian <m.amin.alavian@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.10"
-bssir = "0.3.4"
+bssir = "0.3.6"
 
 
 [tool.poetry.group.dev.dependencies]
