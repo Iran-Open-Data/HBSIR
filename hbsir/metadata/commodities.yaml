@@ -436,6 +436,7 @@ sci_coicop_1383: &sci_coicop_1383
     '01': 
       level: 1
       label: food_and_non_alcoholic_beverages
+      name: Food and Non-Alcoholic Beverages
       farsi_name: مواد خوراکی و نوشیدنی‌های غیر الکلی
       code: {start: 10_000, end: 20_000}
 
@@ -444,6 +445,7 @@ sci_coicop_1383: &sci_coicop_1383
     '011':
       level: 2
       label: food
+      name: Food
       farsi_name: مواد خوراکی
       code: {start: 11_000, end: 12_000}
 
@@ -755,15 +757,17 @@ sci_coicop_1383: &sci_coicop_1383
 
     #                        ######## LEVEL 3 ########                        #
     '0112-0113':
-      label: meat
       level: 3
+      label: meat
+      name: Meat
       farsi_name: گوشت
       code: {start: 11_200, end: 11_400}
 
     #                            #### LEVEL 4 ####                            #
     '0112_1-0112_2':
-      label: red_meat
       level: 4
+      label: red_meat
+      name: Red Meat
       farsi_name: گوشت دام
       code: {start: 11_210, end: 11_230}
 
@@ -771,6 +775,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0112_11':
       level: 5
       label: sheep_and_goat_meat
+      name: Sheep and Goat Meat
       farsi_name: گوشت گوسفند و بز
       code: 11_211
 
@@ -778,13 +783,15 @@ sci_coicop_1383: &sci_coicop_1383
     '0112_12':
       level: 5
       label: beef
+      name: Beef
       farsi_name: گوشت گاو
       code: 11_212
 
     #                              ## LEVEL 5 ##                              #
     '0112_13':
       level: 5
-      label: camel_meet
+      label: camel_meat
+      name: Camel Meat
       farsi_name: گوشت شتر
       code: 11_213
 
