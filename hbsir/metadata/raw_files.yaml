@@ -236,4 +236,6 @@
   compressed_files:
     - name: data.rar
       original: https://amar.org.ir/Portals/0/Statistics/rawdata_hazinedaramad_1402-14030714125607.zip
-      google_drive: https://drive.google.com/uc?export=download&id=107xC1LO8S_iscs5C5cxFVZskLzZp_40p
+      google_drive: https://drive.usercontent.google.com/download?id=107xC1LO8S_iscs5C5cxFVZskLzZp_40p&
+        export=download&authuser=0&confirm=t&uuid=1e20f6ac-6501-40ea-be0b-dd694a488ab0&
+        at=AENtkXaqRYu7kJD8cMULrtFMkOW0%3A1731759943219
