@@ -341,8 +341,8 @@ def setup(
     *,
     table_names: str | list[str] | None = None,
     replace: bool = False,
-    method: Literal["create_from_raw", "download_cleaned"] = "download_cleaned",
-    download_source: Literal["original", "mirror"] = "mirror",
+    method: Literal["create_from_raw", "download_cleaned"] = "create_from_raw",
+    download_source: Literal["original", "google_drive", "mirror"] = "original",
 ) -> None:
     """Set up package data for the given years.
 
@@ -362,9 +362,9 @@ def setup(
     ----------------
     replace : bool, default False
         Whether to re-download or re-generate data if it already exists.
-    method : {"create_from_raw", "download_cleaned"}, default "download_cleaned"
+    method : {"create_from_raw", "download_cleaned"}, default "create_from_raw"
         The method to use for setting up data.
-    download_source : {"original", "mirror"}, default "mirror"
+    download_source : {"original", "google_drive", "mirror"}, default "original"
         Where to download data from.
 
     Returns
