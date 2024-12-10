@@ -199,14 +199,9 @@ food:
             Purchase: [Purchase_Free_Price, Purchase_Subsidised_Price]
         1369: null
 
-    - create_column:
-        name: Amount
-        type: numerical
-        versions:
-          1363:
-            expression: "Kilos"
-          1383:
-            expression: "Kilos + 0.001 * Grams"
+    - apply_function: 
+        1363: hbsir.schema_functions.standard_tables.calculate_amount_before_1382
+        1383: hbsir.schema_functions.standard_tables.calculate_amount_after_1383
 
     - create_column:
         1363: null

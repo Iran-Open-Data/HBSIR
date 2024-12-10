@@ -40,3 +40,23 @@ def create_season(table: pd.DataFrame) -> pd.DataFrame:
         index=table.index,
     )
     return table
+
+
+def calculate_amount_before_1382(table: pd.DataFrame) -> pd.DataFrame:
+    table["Amount"] = (
+        table["Kilos"]
+        .mask(
+            table["Kilos"].isna() & table["Price"].notna(),
+            table["Expenditure"] / table["Price"],
+        )
+    )
+    return table
+
+
+def calculate_amount_after_1383(table: pd.DataFrame) -> pd.DataFrame:
+    table["Amount"] = table["Kilos"].fillna(0) + table["Grams"].fillna(0).div(1_000)
+    filt = table[["Grams", "Kilos"]].notna().max(axis="columns").eq(False)
+    table.loc[filt, "Amount"] = None
+    filt = table["Amount"].isna() & table["Price"].gt(0)
+    table.loc[filt, "Amount"] = table.loc[filt, "Expenditure"] / table.loc[filt, "Price"]
+    return table
