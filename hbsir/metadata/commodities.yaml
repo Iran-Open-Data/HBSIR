@@ -454,6 +454,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0111':
       level: 3
       label: cereals_and_cereal_products
+      name: Cereals and Cereal Products
       farsi_name: غلات، نان، آرد، رشته و فرآورده‌های آن
       code: {start: 11_100, end: 11_200}
 
@@ -461,13 +462,15 @@ sci_coicop_1383: &sci_coicop_1383
     '0111_1-0111_2':
       level: 4
       label: cereals
+      name: Cereals
       farsi_name: غلات
       code: {start: 11_110, end: 11_130}
 
     #                              ## LEVEL 5 ##                              #
     '0111_11':
       level: 5
-      label: sadri_rice
+      label: sadri_domsiah_and_ostokhani_rice
+      name: Sadri, Domsiah and Ostokhani Rice
       farsi_name: برنج صدری، دمسیاه و استخوانی
       code: 11_111
       fdc_id: 2512381
@@ -476,6 +479,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0111_12':
       level: 5
       label: tarom_rice
+      name: Tarom Rice
       farsi_name: برنج طارم
       code: 11_112
       fdc_id: 2512381
@@ -484,6 +488,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0111_13':
       level: 5
       label: unknown_rice
+      name: Unknown Rice
       farsi_name: برنج بی‌نام
       code: 11_113
       fdc_id: 2512381
@@ -491,15 +496,24 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0111_14':
       level: 5
-      label:  Ashi_rice
-      farsi_name: برنج آشی
+      versions: 
+        1383:
+          label: champa_and_ashi_rice
+          name: Champa and Ashi Rice
+          farsi_name: برنج چمپا و آشی
+        1387:
+          label: ashi_rice
+          name: Ashi Rice
+          farsi_name: برنج آشی
       code: 11_114
       fdc_id: 2512381
+          
 
     #                              ## LEVEL 5 ##                              #
     '0111_15':
       level: 5
       label: other_rices
+      name: Other Rices
       farsi_name: >
         برنج‌های محلی غیر شمالی (شامل کامفیروزی، چمپای خوزستان،
         لنجان اصفهان و ...)
@@ -509,7 +523,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0111_16':
       level: 5
-      label: khordeh_rice
+      label: khordeh_and_gerdeh_rice
+      name: Khordeh and Gerdeh Rice
       farsi_name: برنج گرده، خرده
       code: 11_116
       fdc_id: 2512381
@@ -518,6 +533,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0111_17':
       level: 5
       label: first_rate_foreign_rice
+      name: First Rate Foreign Rice
       farsi_name: برنج خارجی درجه یک
       code: 11_117
       fdc_id: 2512381
@@ -526,6 +542,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0111_18':
       level: 5
       label: second_rate_foreign_rice
+      name: Second Rate Foreign Rice
       farsi_name: برنج خارجی درجه دو
       code: 11_118
       fdc_id: 2512381
@@ -534,6 +551,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0111_21':
       level: 5
       label: wheat
+      name: Wheat
       farsi_name: گندم
       code: 11_121
       fdc_id: 169719
@@ -541,15 +559,27 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0111_22':
       level: 5
-      label: bulgur_tarhana_and_cereal_germ
-      farsi_name: بلغور، ترخینه و جوانه انواع غلات
+      versions:
+        1383: 
+          label: bulgur_and_tarkhina
+          name: Bulgur and Tarkhina
+          farsi_name: بلغور و ترخینه
+        1384:
+          label: bulgur_tarkhina_and_wheat_germ
+          name: Bulgur, Tarkhina and Weat Germ
+          farsi_name: بلغور، ترخینه و جوانه گندم
+        1389: 
+          label: bulgur_tarkhina_and_cereal_germ
+          name: Bulgur, Tarkhina and Cereal Germ
+          farsi_name: بلغور، ترخینه و جوانه انواع غلات (گندم و ...)
       code: 11_122
       fdc_id: 168892
 
     #                              ## LEVEL 5 ##                              #
     '0111_23':
       level: 5
-      label: Maize
+      label: maize
+      name: Maize
       farsi_name: ذرت
       code: 11_123
       fdc_id: 2345303
@@ -558,6 +588,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0111_24':
       level: 5
       label: barley
+      name: Barley
       farsi_name: جو
       code: 11_124
       fdc_id: 170284
@@ -565,8 +596,15 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0111_25':
       level: 5
-      label: other_cereals
-      farsi_name: سایر غلات آسیاب نشده
+      versions: 
+        1383:
+          label: millet_and_other_cereals
+          name: Millet and Other Cereals
+          farsi_name: ارزن و سایر غلات آسیاب نشده
+        1384:
+          label: other_cereals
+          name: Other Cereals
+          farsi_name: سایر غلات آسیاب نشده
       code: 11_125
       fdc_id: 169719  # Wheat
 
