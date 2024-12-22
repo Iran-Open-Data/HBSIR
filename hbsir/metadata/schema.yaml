@@ -197,10 +197,24 @@ food:
           type: categorical
           categories:
             Purchase: [Purchase_Free_Price, Purchase_Subsidised_Price]
+            Agricultural_Work: Agricultural_Work
+            Donation: Donation
+            Instead_of_Public_Service: Instead_of_Public_Service
+            Home_Production: Home_Production
+            Non_Agricultural_Work: Non_Agricultural_Work
+            Instead_of_Private_Service: Instead_of_Private_Service
         1369: null
 
+    - rename:
+        1363: {Kilos: Amount}
+        1369: null
+        1370: {Kilos: Amount}
+        1371: null
+
     - apply_function: 
-        1363: hbsir.schema_functions.standard_tables.calculate_amount_before_1382
+        1369: hbsir.schema_functions.standard_tables.calculate_amount_before_1382
+        1370: null
+        1371: hbsir.schema_functions.standard_tables.calculate_amount_before_1382
         1383: hbsir.schema_functions.standard_tables.calculate_amount_after_1383
 
     - create_column:
