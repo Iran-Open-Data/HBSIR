@@ -729,3 +729,27 @@ County:
     3005: Eshtehard                         # اشتهارد
     3006: Fardis                            # فردیس
 
+
+Season:
+  code:
+    position:
+      1363:
+        start: 3
+        end: 4
+      1377:
+        start: 5
+        end: 6
+      1387: null
+
+  name:
+    1: Spring
+    2: Summer
+    3: Autumn
+    4: Winter
+
+  season_number:
+    1: 1
+    2: 2
+    3: 3
+    4: 4
+

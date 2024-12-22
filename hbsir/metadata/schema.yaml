@@ -73,6 +73,41 @@ household_information:
           - Alternative_Household
 
 
+Season:
+
+  table_list:
+    1363:
+      - old_rural_house_specifications
+      - old_urban_house_specifications
+    1369:
+      - house_specifications
+    1387:
+      - household_information
+
+  instructions:
+
+    - add_attribute:
+        1363:
+          name: Season
+        1387: null
+
+    - create_column:
+        1363:
+          name: Season
+          type: categorical
+          categories:
+            Spring: Spring
+            Summer: Summer
+            Autumn: Autumn
+            Winter: Winter
+        1387: null
+
+    - apply_order:
+      - Year
+      - ID
+      - Season
+
+
 census_month:
 
   instructions:
@@ -81,6 +116,20 @@ census_month:
 
 
 house_specifications:
+
+  instructions:
+
+    - add_year
+
+
+old_rural_house_specifications:
+
+  instructions:
+
+    - add_year
+
+
+old_urban_house_specifications:
 
   instructions:
 
