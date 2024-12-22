@@ -47,7 +47,7 @@ table_availability:
   house_specifications:                                           {start: 1369}
   old_rural_house_specifications:                      {start: 1363, end: 1369}
   old_urban_house_specifications:                      {start: 1363, end: 1369}
-  census_month:                                              [1387, 1390, 1391]
+  census_month:                                        [1387, 1388, 1390, 1391]
 
   food:                                                           {start: 1363}
   tobacco:                                                        {start: 1383}
