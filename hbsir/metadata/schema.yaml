@@ -45,6 +45,8 @@ household_information:
 
     - add_year
 
+    - drop_missings: ID
+
     - apply_function:
         1387: hbsir.schema_functions.standard_tables.create_season
         1396: null
@@ -114,12 +116,16 @@ census_month:
 
     - add_year
 
+    - drop_missings: ID
+
 
 house_specifications:
 
   instructions:
 
     - add_year
+
+    - drop_missings: ID
 
 
 old_rural_house_specifications:
@@ -128,6 +134,8 @@ old_rural_house_specifications:
 
     - add_year
 
+    - drop_missings: ID
+
 
 old_urban_house_specifications:
 
@@ -135,12 +143,16 @@ old_urban_house_specifications:
 
     - add_year
 
+    - drop_missings: ID
+
 
 members_properties:
 
   instructions:
 
     - add_year
+
+    - drop_missings: ID
 
     - apply_order:
         1363:
@@ -228,6 +240,8 @@ food:
   instructions:
 
     - add_year
+
+    - drop_missings: ID
 
     - add_table_name
 
@@ -326,6 +340,8 @@ tobacco:
 
     - add_year
 
+    - drop_missings: ID
+
     - add_table_name
 
     - create_column:
@@ -351,6 +367,8 @@ cloth:
 
     - add_year
 
+    - drop_missings: ID
+
     - add_table_name
 
     - create_column:
@@ -366,6 +384,8 @@ home:
   instructions:
 
     - add_year
+
+    - drop_missings: ID
 
     - add_table_name
 
@@ -427,6 +447,8 @@ furniture:
 
     - add_year
 
+    - drop_missings: ID
+
     - add_table_name
 
     - create_column:
@@ -442,6 +464,8 @@ medical:
   instructions:
 
     - add_year
+
+    - drop_missings: ID
 
     - add_table_name
 
@@ -459,6 +483,8 @@ transportation:
 
     - add_year
 
+    - drop_missings: ID
+
     - add_table_name
 
     - create_column:
@@ -474,6 +500,8 @@ communication:
   instructions:
 
     - add_year
+
+    - drop_missings: ID
 
     - add_table_name
 
@@ -491,6 +519,8 @@ entertainment:
 
     - add_year
 
+    - drop_missings: ID
+
     - add_table_name
 
     - create_column:
@@ -506,6 +536,8 @@ education:
   instructions:
 
     - add_year
+
+    - drop_missings: ID
 
     - add_table_name
 
@@ -523,6 +555,8 @@ hotel:
 
     - add_year
 
+    - drop_missings: ID
+
     - add_table_name
 
     - create_column:
@@ -539,6 +573,8 @@ miscellaneous:
 
     - add_year
 
+    - drop_missings: ID
+
     - add_table_name
 
     - create_column:
@@ -554,6 +590,8 @@ durable:
   instructions:
 
     - add_year
+
+    - drop_missings: ID
 
     - add_table_name
 
@@ -608,6 +646,8 @@ investment:
   instructions:
 
     - add_year
+
+    - drop_missings: ID
 
     - add_table_name
 
@@ -1014,6 +1054,8 @@ self_employed_income:
 
     - add_year
 
+    - drop_missings: ID
+
     - add_table_name
 
 
@@ -1022,6 +1064,8 @@ other_income:
   instructions:
 
     - add_year
+
+    - drop_missings: ID
 
     - add_table_name
 
@@ -1072,6 +1116,8 @@ subsidy:
 
     - add_year
 
+    - drop_missings: ID
+
     - add_table_name
 
 
@@ -1081,6 +1127,8 @@ public_employment_income:
 
     - add_year
 
+    - drop_missings: ID
+
     - add_table_name
 
 
@@ -1089,6 +1137,8 @@ private_employment_income:
   instructions:
 
     - add_year
+
+    - drop_missings: ID
 
     - add_table_name
 
