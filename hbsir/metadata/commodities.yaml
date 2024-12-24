@@ -610,15 +610,17 @@ sci_coicop_1383: &sci_coicop_1383
 
     #                            #### LEVEL 4 ####                            #
     '0111_4-0111_5':
-      label: bread_and_bakery_products
       level: 4
+      label: bread_and_bakery_products
+      name: Bread and Bakery Products
       farsi_name: انواع نان
       code: {start: 11_140, end: 11_160}
 
     #                              ## LEVEL 5 ##                              #
     '0111_41':
-      label: taftoon
       level: 5
+      label: taftoon
+      name: Taftoon
       farsi_name: نان تافتون
       code: 11_141
       fdc_id: 325871
@@ -627,6 +629,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0111_42':
       level: 5
       label: lavash
+      name: Lavash
       farsi_name: نان لواش
       code: 11_142
       fdc_id: 325871
@@ -635,6 +638,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0111_43':
       level: 5
       label: sangak
+      name: Sangak
       farsi_name: نان سنگک
       code: 11_143
       fdc_id: 325871
@@ -643,6 +647,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0111_44':
       level: 5
       label: barbari
+      name: Barbari
       farsi_name: نان بربری
       code: 11_144
       fdc_id: 325871
@@ -650,7 +655,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0111_51':
       level: 5
-      label: naan_mashini
+      label: mashini
+      name: Mashini
       farsi_name: >
         نان ماشینی (لواش، تافتون، سنگک، بربری 
         و سایر انواع نان ماشینی)
@@ -660,7 +666,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0111_52':
       level: 5
-      label: baguette
+      label: fancy_baguette_and_similar
+      name: Fancy, Baguette and Similar
       farsi_name: نان فانتزی، باگت و نظایر آن
       code: 11_152
       fdc_id: 325871
@@ -669,6 +676,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0111_53':
       level: 5
       label: other_breads
+      name: Other Breads
       farsi_name: نان خشک، روغنی، شیرمال، رژیمی، جو و سایر انواع نان
       code: 11_153
       fdc_id: 325871
@@ -676,8 +684,15 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0111_54':
       level: 5
-      label: cookie_and_pirozhki
-      farsi_name: کلوچه و پیراشکی
+      versions:
+        1383:
+          label: cookie
+          name: Cookie
+          farsi_name: کلوچه
+        1384:
+          label: cookie_and_pirozhki
+          name: Cookie and Prizhki
+          farsi_name: کلوچه و پیراشکی
       code: 11_154
       fdc_id: 333008
 
@@ -685,6 +700,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0111_55':
       level: 5
       label: payments_for_grinding_cereals
+      name: Payments for Grinding Cereals
       farsi_name: اجرت آسیاب کردن گندم و سایر غلات
       code: 11_155
 
@@ -692,6 +708,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0111_56':
       level: 5
       label: payments_for_cooking_cereals
+      name: Payments for Cooking Cereals
       farsi_name: اجرت پخت نان در منزل
       code: 11_156
 
@@ -699,13 +716,15 @@ sci_coicop_1383: &sci_coicop_1383
     '0111_6':
       level: 4
       label: flour_noodle_and_similar_pasta_products
+      name: Flour, Noodle and Similar Pasta Products
       farsi_name: آرد رشته و فرآورده‌های آن
       code: {start: 11_160, end: 11_170}
 
     #                              ## LEVEL 5 ##                              #
     '0111_61':
-      label: wheat_flour
       level: 5
+      label: wheat_flour
+      name: Wheat Flour
       farsi_name: آرد گندم
       code: 11_161
 
@@ -713,83 +732,118 @@ sci_coicop_1383: &sci_coicop_1383
     '0111_62':
       level: 5
       label: other_flour
+      name: Other Flour
       farsi_name: سایر انواع آرد
       code: 11_162
 
     #                              ## LEVEL 5 ##                              #
     '0111_63':
       level: 5
-      label:
+      label: strach
+      name: Strach
       farsi_name: نشاسته
       code: 11_163
 
     #                              ## LEVEL 5 ##                              #
     '0111_64':
       level: 5
-      label: pasta
-      farsi_name: ماکارونی، ورمیشل، لازانیا و خمیر پیتزا
+      versions:
+        1383:
+          label: pasta_and_vermicelli_(noodles)
+          name: Pasta and Vermicelli (Noodles)
+          farsi_name: ماکارونی و ورمیشل (رشته فرنگی)
+        1384:
+          label: pasta_vermicelli_(noodles)_lasagna_and_pizza_dough
+          name: Pasta, Vermicelli (Noodles), Lasagna and Pizza Dough
+          farsi_name: ماکارونی، ورمیشل (رشته فرنگی)، لازانیا و خمیر پیتزا
       code: 11_164
 
     #                              ## LEVEL 5 ##                              #
     '0111_65':
       level: 5
-      label: reshte
+      label: ashi_and_rice_noodles
+      name: Ashi and Rice Noddles
       farsi_name: رشته‌ی آشی و پلویی
       code: 11_165
 
     #                              ## LEVEL 5 ##                              #
     '0111_66':
       level: 5
-      label: 
-      farsi_name: خمیر نان
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1389:
+          label: bread_dough
+          name: Bread Dough
+          farsi_name: خمیر نان
       code: 11_166
 
     #                            #### LEVEL 4 ####                            #
     '0111_7':
       level: 4
       label: cake_and_biscuit
-      farsi_name: بیسکویت و کیک
+      name: Cake and Biscuit
+      farsi_name: بیسکوییت و کیک
       code: {start: 11_170, end: 11_180}
 
     #                              ## LEVEL 5 ##                              #
     '0111_71':
       level: 5
-      label: biscuit
+      label: types_of_biscuit_and_wafer
+      name: Types of Biscuit and Wafer
       farsi_name: انواع بیسکوییت و ویفر
       code: 11_171
 
     #                              ## LEVEL 5 ##                              #
     '0111_72':
       level: 5
-      label: cake
+      label: types_of_cake
+      name: Types of Cake
       farsi_name: انواع کیک ساده
       code: 11_172
 
     #                              ## LEVEL 5 ##                              #
     '0111_73':
       level: 5
-      label: 
-      farsi_name:
-        1383: null
-        1386: انواع شیرینی تر و کیک
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1386:
+          label: types_of_sweeter_and_dry_sweets
+          name: Types of Sweeter and Dry Sweets
+          farsi_name: انواع شیرینی تر و خشک
       code: 11_173
 
     #                              ## LEVEL 5 ##                              #
     '0111_74':
       level: 5
-      label: 
-      farsi_name:
-        1383: null
-        1386: انواع شیرینی خشک
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1386:
+          label: types_of_dry_sweets
+          name: Types of Dry Sweets
+          farsi_name: انواع شیرینی خشک
       code: 11_174
 
     #                              ## LEVEL 5 ##                              #
     '0111_75':
       level: 5
-      label: 
-      farsi_name:
-        1383: null
-        1386: انواع پودر کیک و شیرینی
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1386:
+          label: types_of_baking_powder
+          name: Types of Baking Powder
+          farsi_name: انواع پودر کیک و شیرینی
       code: 11_175
 
 
@@ -812,17 +866,17 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0112_11':
       level: 5
-      label: sheep_and_goat_meat
-      name: Sheep and Goat Meat
-      farsi_name: گوشت گوسفند و بز
+      label: sheep_lamb_and_goat_meat
+      name: Sheep, Lamb and Goat Meat
+      farsi_name: گوشت گوسفند، بره، بز و بزغاله
       code: 11_211
 
     #                              ## LEVEL 5 ##                              #
     '0112_12':
       level: 5
-      label: beef
-      name: Beef
-      farsi_name: گوشت گاو
+      label: beef_and_veal_meat
+      name: Beef and Veal Meat
+      farsi_name: گوشت گاو و گوساله
       code: 11_212
 
     #                              ## LEVEL 5 ##                              #
@@ -836,42 +890,60 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0112_14':
       level: 5
-      label: 
+      label: liver_heart_and_kidney
+      name: Liver, Heart and Kidney
       farsi_name: جگر، دل و قلوه
       code: 11_214
 
     #                              ## LEVEL 5 ##                              #
     '0112_15':
       level: 5
-      label: 
-      farsi_name: سیرابی، شیردان، کله‌پاچه، زبان، مغز و ...
+      versions:
+        1383:
+          label: tripe_abomasum_head_and_trotters_tongue_brain_and_similars
+          name: Tripe, Abomasum, Head and Trotters, Tongue, Brain and Similars
+          farsi_name: سیرابی، شیردان، کله پاچه، زبان، مغز و نظایر آن
+        1386:
+          label: tripe_abomasum_head_and_trotters_tongue_and_brain
+          name: Tripe, Abomasum, Head and Trotters, Tongue and Brain
+          farsi_name: سیرابی، شیردان، کله پاچه، زبان، مغز و ...
       code: 11_215
 
     #                              ## LEVEL 5 ##                              #
     '0112_16':
       level: 5
-      label: 
+      label: sheep_lamb_and_goat_(alive)
+      name: Sheep, Lamb and Goat (Alive)
       farsi_name: گوسفند، بره، بز، بزغاله (به صورت زنده)
       code: 11_216
 
     #                              ## LEVEL 5 ##                              #
     '0112_17':
       level: 5
-      label: 
-      farsi_name: گاو و گوساله، شتر (به صورت زنده)
+      versions:
+        1383:
+          label: cow_and_veal_(alive)
+          name: Cow and Veal (Alive)
+          farsi_name: گاو و گوساله (به صورت زنده)
+        1389:
+          label: cow_and_veal_camel_(alive)
+          name: Cow and Veal, Camel (Alive)
+          farsi_name: گاو و گوساله، شتر (به صورت زنده)
       code: 11_217
 
     #                              ## LEVEL 5 ##                              #
     '0112_18':
       level: 5
-      label: 
+      label: ostokhane_qalam
+      name: Ostokhane Qalam
       farsi_name: استخوان قلم (گاو و گوسفند)
       code: 11_218
 
     #                              ## LEVEL 5 ##                              #
     '0112_19':
       level: 5
-      label: 
+      label: game_meat
+      name: Game Meat
       farsi_name: گوشت شکار
       code:
         1383: 11_219
@@ -880,16 +952,40 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0112_21':
       level: 5
-      label: other_red_meat
-      farsi_name:
-        1386: گوشت قرمه، نمک‌سود، و سایر انواع گوشت دام
-        1386: گوشت قرمه، شکار، نمک‌سود، و سایر انواع گوشت دام
+      versions:
+        1383:
+          label:
+          name:
+          farsi_name: >
+          گوشت قورمه، نمک سود و نظایر آن و سایر انواع گوشت دام که 
+          در بالا اشاره نشده است
+        1384:
+          label:
+          name:
+          farsi_name: >
+          گوشت قورمه، نمک سود و نظایر آن و سایر انواع گوشت دام که 
+          اشاره نشده است
+        1386:
+          label:
+          name:
+          farsi_name: >
+          گوشت قورمه، شکار، نمک سود و ... و سایر انواع گوشت دام که 
+          در بالا اشاره نشده است
+         1387:
+          label:
+          name:
+          farsi_name: >
+          گوشت قورمه، شکار، نمک سود و سایر انواع گوشت دام که 
+          در بالا اشاره نشده است
+
+
       code: 11_221
 
     #                              ## LEVEL 5 ##                              #
     '0112_22':
       level: 5
       label: lunch_meat
+      name: Lunch Meat
       farsi_name: کالباس
       code: 11_222
 
@@ -897,20 +993,38 @@ sci_coicop_1383: &sci_coicop_1383
     '0112_23':
       level: 5
       label: sausage
+      name: Sausage
       farsi_name: سوسیس
       code: 11_223
 
     #                              ## LEVEL 5 ##                              #
     '0112_24':
       level: 5
-      label: canned_red_meat
-      farsi_name: کنسرو زبان، کله‌پاچه، و سایر گوشت‌های قرمز کنسرو شده
+      versions:
+        1383:
+          label:
+          name:
+          farsi_name: کنسرو زبان و سایر گوشتهای کنسرو شده
+        1384:
+          label:
+          name:
+          farsi_name: کنسرو زبان و سایر گوشتهای قرمز کنسرو شده
+        1385:
+          label:
+          name:
+          farsi_name: >
+          کنسرو زبان، کله پاچه و ... و سایر گوشت های قرمز کنسرو شده
+        1387:
+          label:
+          name:
+          farsi_name: کنسرو زبان، کله پاچه و سایر گوشت های قرمز کنسرو شده
       code: 11_224
 
     #                            #### LEVEL 4 ####                            #
     '01123':
       level: 4
       label: poultry
+      name: Poultry
       farsi_name: گوشت پرندگان
       code: {start: 11_230, end: 11_240}
 
@@ -918,237 +1032,334 @@ sci_coicop_1383: &sci_coicop_1383
     '0112_31':
       level: 5
       label: factory_chicken_meat
-      farsi_name: گوشت مرغ، خروس و جوجه ماشینی
+      name: Factory Chicken Meat
+      farsi_name: گوشت مرغ، خروس و جوجه (ماشینی)
       code: 11_231
 
     #                              ## LEVEL 5 ##                              #
     '0112_32':
       level: 5
       label: non_factory_chicken_meat
-      farsi_name: گوشت مرغ، خروس و جوجه غیر ماشینی
+      name: Non Factory Chicken Meat
+      farsi_name: گوشت مرغ، خروس و جوجه (غیر ماشینی)
       code: 11_232
 
     #                              ## LEVEL 5 ##                              #
     '0112_33':
       level: 5
-      label: turkey_goose_duck_quail_and_qstriches
+      label: turkey_goose_duck_quail_and_ostrich
+      name: Turkey, Goose, Duck, Quail and Ostrich
       farsi_name: گوشت بوقلمون، غاز، اردک، بلدرچین و شترمرغ
       code: 11_233
 
     #                              ## LEVEL 5 ##                              #
     '0112_34':
       level: 5
-      label: poultry_live
-      farsi_name: پرندگان به صورت زنده
+      label: chicken_duck_quail_and_goose_(alive)
+      name: Chicken, Duck, Quail and Goose (Alive)
+      farsi_name: مرغ و خروس، جوجه، اردک، بوقلمون و غاز (به صورت زنده)
       code: 11_234
 
     #                              ## LEVEL 5 ##                              #
     '0112_35':
       level: 5
-      label: 
-      farsi_name: گوشت پرندگان شکاری (کبک، اردک، کبوتر و ...)
+      versions:
+        1383:
+          label:
+          name: 
+          farsi_name: گوشت پرندگان شکاری (کبک، اردک، کبوتر و نظایر آن)
+        1386:
+          label:
+          name: 
+          farsi_name: گوشت پرندگان شکاری (کبک، اردک، کبوتر و ...)
       code: 11_235
 
     #                              ## LEVEL 5 ##                              #
     '0112_36':
       level: 5
-      label: 
+      label: chicken_heart_liver_and_gizzard
+      name: Chicken Heart, Liver and Gizzrd
       farsi_name: دل، جگر و سنگدان
       code: 11_236
 
     #                              ## LEVEL 5 ##                              #
     '0112_37':
       level: 5
-      label: 
+      label: chicken_wing_neck_and_others
+      name: Chicken Wing, Neck and Others
       farsi_name: بال و گردن و سایر قسمت‌های پرندگان
       code: 11_237
 
     #                              ## LEVEL 5 ##                              #
     '0112_38':
       level: 5
-      label: 
-      farsi_name: کنسرو مرغ و ...
+      versions:
+        1383:
+          label: canned_chicken_and_similars
+          name: Canned Chicken and Similars
+          farsi_name: کنسرو مرغ و نظایر آن
+        1386:
+          label: canned_chicken_and_...
+          name: Canned Chicken and ...
+          farsi_name: کنسرو مرغ و ...
       code: 11_238
 
     #                              ## LEVEL 5 ##                              #
     '0112_39':
       level: 5
-      label: 
+      label: other_poultry
+      name: Other Poultry
       farsi_name: سایر انواع گوشت پرندگان که در بالا اشاره نشده
       code: 11_239
 
     #                            #### LEVEL 4 ####                            #
     '0112_4':
       level: 4
-      label: ready_to_cook_meat
-      farsi_name: گوشت آماده برای طبخ
+      label: ready_to_cook_meats
+      name: Ready to Cook Meats
+      farsi_name: گوشت های آماده برای طبخ
       code: {start: 11_240, end: 11_250}
 
     #                              ## LEVEL 5 ##                              #
     '0112_41':
       level: 5
-      label: 
-      farsi_name:
-        1383: همبرگر آماده برای طبخ
-        1389: همبرگر، کباب لقمه، کتلت و استیک آماده برای طبخ
+      versions:
+        1383:
+          label: hamburger
+          name: Hamburger
+          farsi_name: همبرگر آماده برای طبخ
+        1384:
+          label: hamburger_and_grilled_bite
+          name: Hamburger and Grilled Bite
+          farsi_name: همبرگر و کباب لقمه آماده برای طبخ
+        1389:
+          label: hamburger_grilled_bite_cutlet_and_steak
+          name: Hamburger, Grilled Bite, Cutlet and Steak
+          farsi_name: همبرگر، کباب لقمه، کتلت و استیک آماده برای طبخ
       code: 11_241
 
     #                              ## LEVEL 5 ##                              #
     '0112_42':
       level: 5
-      label: 
-      farsi_name:
-        1383: کتلت آماده برای طبخ
-        1389: null
+      versions:
+        1383:
+          label: cutlet
+          name: Cutlet
+          farsi_name: کتلت آماده برای طبخ
+        1389:
+          label: null
+          name: null
+          farsi_name: null
       code: 11_242
 
     #                              ## LEVEL 5 ##                              #
     '0112_43':
       level: 5
-      label: 
-      farsi_name:
-        1383: استیک آماده برای طبخ
-        1389: null
+      versions:
+        1383:
+          label: steak
+          name: Steak
+          farsi_name: استیک آماده برای طبخ
+        1389:
+          label: null
+          name: null
+          farsi_name: null
       code: 11_243
 
     #                              ## LEVEL 5 ##                              #
     '0112_44':
       level: 5
-      label: 
-      farsi_name:
-        1383: جوجه کباب آماده برای طبخ
-        1389: جوجه کباب و شنیسل آماده برای طبخ
+      versions:
+        1383:
+          label: roasted_chicken
+          name: Roasted Chicken
+          farsi_name: جوجه کباب آماده برای طبخ
+        1389:
+          label: roasted_chicken_and_schnitzel
+          name: Roasted Chicken and Schnitzel
+          farsi_name: جوجه کباب و شنیتسل آماده برای طبخ
       code: 11_244
 
     #                              ## LEVEL 5 ##                              #
     '0112_45':
       level: 5
-      label: 
-      farsi_name:
-        1383: شنیسل آماده برای طبخ
-        1389: null
+      versions:
+        1383:
+          label: chicken_schnitzel
+          name: Chicken Schnitzel
+          farsi_name: شنیتسل مرغ
+        1387:
+          label: chicken_schnitzel_ready_to_cook
+          name: Chicken Schnitzel Ready to Cook
+          farsi_name: شنیتسل مرغ آماده برای طبخ
+        1389:
+          label: null
+          name: null
+          farsi_name: null
       code: 11_245
 
     #                              ## LEVEL 5 ##                              #
     '0112_46':
       level: 5
-      label: 
-      farsi_name:
-        1383: پروتئین مرغ و گوشت گوساله (نظیر گالینا بلانکا و ...)
-        1386: null
+      versions:
+        1383:
+          label: chicken_and_veal_stock_cube
+          name: Chicken and Veal Stock Cube
+          farsi_name: پروتئین مرغ و گوشت گوساله (نظیر گالینا بلانکا و ...)
+        1386:
+          label: null
+          name: null
+          farsi_name: null
       code: 11_246
 
     #                              ## LEVEL 5 ##                              #
     '0112_47':
       level: 5
-      label: 
-      farsi_name:
-        1383: سوپ آماده
-        1384: سایر گوشت‌های آماده برای طبخ
+      versions:
+        1383:
+          label: soup
+          name: Soup
+          farsi_name: سوپ آماده
+        1384:
+          label: other_ready_to_cook_meats
+          name: Other Ready to Cook Meats
+          farsi_name: سایر گوشت های آماده برای طبخ
       code: 11_247
 
     #                            #### LEVEL 4 ####                            #
     '0113_1-0113_2':
       level: 4
-      label: fish_and_other_sea_foods
+      label: fish_shrimp_and_their_products
+      name: Fish, Shrimp and Their Products
       farsi_name: ماهی، میگو و فرآورده‌های آن‌ها
       code: {start: 11_310, end: 11_330}
 
     #                              ## LEVEL 5 ##                              #
     '0113_11':
       level: 5
-      label: 
+      label: fresh_north_fishes
+      name: Fresh North Fishes
       farsi_name: انواع ماهی تازه شمال (دریایی، پرورشی و رودخانه‌ای)
       code: 11_311
 
     #                              ## LEVEL 5 ##                              #
     '0113_12':
       level: 5
-      label: 
+      label: frozen_north_fishes
+      name: Frozen North Fishes
       farsi_name: انواع ماهی یخ‌زده شمال (دریایی، پرورشی و رودخانه‌ای)
       code: 11_312
 
     #                              ## LEVEL 5 ##                              #
     '0113_13':
       level: 5
-      label: 
+      label: fresh_south_fishes
+      name: Fresh South Fishes
       farsi_name: انواع ماهی تازه جنوب (دریایی، پرورشی و رودخانه‌ای)
       code: 11_313
 
     #                              ## LEVEL 5 ##                              #
     '0113_14':
       level: 5
-      label: 
+      label: frozen_south_fishes
+      name: Frozen South Fishes
       farsi_name: انواع ماهی یخ‌زده جنوب (دریایی، پرورشی و رودخانه‌ای)
       code: 11_314
 
     #                              ## LEVEL 5 ##                              #
     '0113_15':
       level: 5
-      label: 
+      label: kipper_and_pickled_fishes
+      name: Kipper and Pickled Fishes
       farsi_name: انواع ماهی دودی و شور
       code: 11_315
 
     #                              ## LEVEL 5 ##                              #
     '0113_16':
       level: 5
-      label: 
+      label: canned_fish
+      name: Canned Fish
       farsi_name: انواع کنسرو ماهی
       code: 11_316
 
     #                              ## LEVEL 5 ##                              #
     '0113_17':
       level: 5
-      label: 
+      label: shrimp_(fresh)
+      name: Shrimp (Fresh)
       farsi_name: میگو (تازه)
       code: 11_317
 
     #                              ## LEVEL 5 ##                              #
     '0113_18':
       level: 5
-      label: 
+      label: shrimp_(frozen)
+      name: Shrimp (Frozen)
       farsi_name: میگو (یخ‌زده و نمک سود)
       code: 11_318
 
     #                              ## LEVEL 5 ##                              #
     '0113_19':
       level: 5
-      label: 
-      farsi_name:
-        1383: انواع صدف
-        1389: انواع صدف، خاویار (از ماهیان خاویاری) و اشپیل (تخم ماهی)
+      versions:
+        1383:
+          label: oysters
+          name: Oysters
+          farsi_name: انواع صدف
+        1389:
+          label: oysters_caviar_and_espel
+          name: Oysters, Caviar and Espel
+          farsi_name: انواع صدف، خاویار (از ماهیان خاویاری) و اشپیل (تخم ماهی)
       code: 11_319
 
     #                              ## LEVEL 5 ##                              #
     '0113_21':
       level: 5
-      label: 
-      farsi_name: سایر انواع ماهی و انواع ماهی آماده برای طبخ
+      versions:
+        1383:
+          label: ready_to_cook_fishes
+          name: Ready to Cook Fishes
+          farsi_name: انواع ماهی آماده برای طبخ
+        1395:
+          label: others_fishes_and_ready_to_cook_fishes
+          name: Other Fishes and Ready to Cook Fishes
+          farsi_name: سایر انواع ماهی و انواع ماهی آماده برای طبخ
       code: 11_321
 
     #                              ## LEVEL 5 ##                              #
     '0113_22':
       level: 5
-      label: 
-      farsi_name:
-        1383: خاویار (از ماهیان خاویاری)
-        1389: null
+      versions:
+        1383:
+          label: caviar
+          name: Caviar
+          farsi_name: خاویار (از ماهیان خاویاری)
+        1389:
+          label: null
+          name: null
+          farsi_name: null
       code: 11_322
 
     #                              ## LEVEL 5 ##                              #
     '0113_23':
       level: 5
-      label: 
-      farsi_name:
-        1383: اشپیل (تخم ماهی)
-        1389: null
+      versions:
+        1383:
+          label: espel
+          name: Espel
+          farsi_name: اشپیل (تخم ماهی)
+        1389:
+          label: null
+          name: null
+          farsi_name: null
       code: 11_323
 
 
     #                        ######## LEVEL 3 ########                        #
     '0114':
       level: 3
-      label: milk_other_dairy_product_excluding_butter_and_eggs
+      label: eggs_milk_and_its_dairy_products_excluding_butter
+      name: Eggs, Milk and Its Dairy Products Excluding Butter
       farsi_name: شیر و فرآورده‌های آن (به جز کره) و تخم پرندگان
       code: {start: 11_400, end: 11_500}
 
@@ -1156,6 +1367,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0114_1':
       level: 4
       label: milk
+      name: Milk
       farsi_name: شیر
       code: {start: 11_410, end: 11_420}
 
@@ -1164,28 +1376,42 @@ sci_coicop_1383: &sci_coicop_1383
     '0114_11':
       level: 5
       label: pasteurized_milk
+      name: Pasteurized Milk
       farsi_name: شیر پاستوریزه
       code: 11_411
 
     #                              ## LEVEL 5 ##                              #
     '0114_12':
       level: 5
-      label: unpasteurized_milk
-      farsi_name: شیر غیر پاستوریزه
+      label: normal_milk_unpasteurized_and_foremlik
+      name: Normal Milk (Unpasteurized) and Foremilk
+      farsi_name: شیر معمولی (غیر پاستوریزه) و آغوز
       code: 11_412
 
     #                              ## LEVEL 5 ##                              #
     '0114_13':
       level: 5
       label: dried_milk
-      farsi_name: شیر خشک
+      name: Dried Milk
+      farsi_name: انواع شیر خشک
       code: 11_413
 
     #                              ## LEVEL 5 ##                              #
     '0114_14':
       level: 5
-      label: 
-      farsi_name: شیر مخلوط و سایر انواع شیر
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: other_milks
+          name: Other Milks
+          farsi_name: سایر انواع شیر
+        1389:
+          label: mixed_milk_and_other_milks
+          name: Mixed Milk and Other Milks
+          farsi_name: شیر مخلوط و سایر انواع شیر
       code: 11_414
 
     #                            #### LEVEL 4 ####                            #
