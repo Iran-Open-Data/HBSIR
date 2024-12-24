@@ -1,0 +1,6809 @@
+
+
+###############################################################################
+##                - - -    Original Classifications   - - -                  ##
+###############################################################################
+
+
+###############################################################################
+##                  - Original Classification Before 1383 -                  ##
+###############################################################################
+
+
+sci_coicop_1363: &sci_coicop_1363
+  items:
+
+    ################################# LEVEL 1 #################################
+    '1':
+      level: 1
+      label: food_beverages_and_tobacco
+      farsi_name: مواد خوراکی، نوشیدنی‌ها و دخانیات
+      code: {start: 10_000, end: 20_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '11':
+      level: 3
+      label: cereals_and_cereal_products
+      farsi_name: غلات و فرآورده‌های آن
+      code: {start: 11_000, end: 12_000}
+
+    #                            #### LEVEL 4 ####                            #
+    '111':
+      level: 4
+      label: flour_noodle_and_similar_pasta_products
+      code: {start: 11_100, end: 11_200}
+      duration: 2
+
+    #                            #### LEVEL 4 ####                            #
+    '112':
+      level: 4
+      label: cereals
+      code: {start: 11_200, end: 11_300}
+      duration: 30
+
+    #                            #### LEVEL 4 ####                            #
+    '113':
+      level: 4
+      label: bread_and_bakery_products
+      code: {start: 11_300, end: 11_400}
+      duration: 2
+
+    #                            #### LEVEL 4 ####                            #
+    '114':
+      level: 4
+      label: cake_and_biscuit
+      code: {start: 11_400, end: 11_500}
+      duration: 2
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '12':
+      level: 5
+      label: meat_and_sea_foods
+      farsi_name: گوشت و غذاهای دریایی
+      code: {start: 12_000, end: 13_000}
+
+    #                            #### LEVEL 4 ####                            #
+    '121-122':
+      level: 4
+      label: red_meat
+      code: {start: 12_100, end: 12_300}
+      duration: 2
+
+    #                            #### LEVEL 4 ####                            #
+    '123':
+      level: 4
+      label: poultry
+      code: {start: 12_300, end: 12_400}
+      duration: 2
+
+    #                            #### LEVEL 4 ####                            #
+    '124':
+      level: 4
+      label: fish_and_other_sea_foods
+      code: {start: 12_400, end: 12_500}
+      duration: 2
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '13':
+      level: 3
+      label: milk_other_dairy_product_and_eggs
+      farsi_name: شیر و فرآورده‌های آن و تخم پرندگان
+      code: {start: 13_000, end: 14_000}
+
+    #                            #### LEVEL 4 ####                            #
+    '131':
+      level: 4
+      label: milk
+      farsi_name: شیر
+      code: {start: 13_100, end: 13_200}
+      duration: 2
+
+    #                            #### LEVEL 4 ####                            #
+    '132-133':
+      level: 4
+      label: other_dairy_products
+      farsi_name: فراورده‌های شیری
+      code: {start: 13_200, end: 13_400}
+      duration: 2
+
+    #                            #### LEVEL 4 ####                            #
+    '134':
+      level: 4
+      label: eggs
+      farsi_name: تخم پرندگان
+      code: {start: 13_400, end: 13_500}
+      duration: 2
+
+    #                        ######## LEVEL 3 ########                        #
+    '14':
+      level: 3
+      label: oils_and_fats
+      farsi_name: روغن‌ها و چربی‌ها
+      code: {start: 14_000, end: 15_000}
+
+    #                            #### LEVEL 4 ####                            #
+    '141':
+      level: 4
+      label: animal_oils_and_fats_excluding_butter
+      code: {start: 14_100, end: 14_200}
+      duration: 30
+
+    #                            #### LEVEL 4 ####                            #
+    '142':
+      level: 4
+      label: vegetable_oils
+      farsi_name: روغن نباتی
+      code: {start: 14_200, end: 14_300}
+      duration: 30
+
+    #                        ######## LEVEL 3 ########                        #
+    '15':
+      level: 3
+      label: fruits_and_vegetables
+      farsi_name: میوه‌ها و سبزیجات
+      code: {start: 15_000, end: 16_000}
+
+    #                            #### LEVEL 4 ####                            #
+    '151':
+      level: 4
+      label: tree_fruits_excluding_citrus
+      code: {start: 15_100, end: 15_200}
+      duration: 2
+
+    #                            #### LEVEL 4 ####                            #
+    '152':
+      level: 4
+      label: citrus
+      code: {start: 15_200, end: 15_300}
+      duration: 2
+
+    #                            #### LEVEL 4 ####                            #
+    '153':
+      level: 4
+      label: cucurbit_fruits
+      code: {start: 15_300, end: 15_400}
+      duration: 2
+
+    #                            #### LEVEL 4 ####                            #
+    '154':
+      level: 4
+      label: leafy_or_stem_vegetables
+      code: {start: 15_400, end: 15_500}
+      duration: 2
+
+    #                            #### LEVEL 4 ####                            #
+    '155':
+      level: 4
+      label: fruit_bearing_vegetables
+      code: {start: 15_500, end: 15_600}
+      duration: 2
+
+    #                            #### LEVEL 4 ####                            #
+    '156':
+      level: 4
+      label: root_vegetables
+      code: {start: 15_600, end: 15_700}
+      duration: 2
+
+    #                            #### LEVEL 4 ####                            #
+    '157':
+      level: 4
+      label: prepared_fruits_vegetables
+      code: {start: 15_700, end: 15_800}
+      duration: 2
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '16':
+      level: 3
+      label: nuts_and_pulses
+      farsi_name: خشکبار، آجیل و حبوبات
+      code: {start: 16_000, end: 17_000}
+
+    #                            #### LEVEL 4 ####                            #
+    '161-162':
+      level: 4
+      label: nuts
+      farsi_name: خشکبار
+      code: {start: 16_100, end: 16_300}
+      duration: 2
+
+    #                            #### LEVEL 4 ####                            #
+    '163':
+      level: 4
+      label: pulses
+      code: {start: 16_300, end: 16_400}
+      duration: 30
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '17':
+      level: 3
+      label: sugar_confectionery_and_desserts_tea_coffee_and_cocoa_drinks
+      code: {start: 17_000, end: 18_000}
+
+    #                            #### LEVEL 4 ####                            #
+    '171':
+      level: 4
+      label: sugar
+      farsi_name: قند و شکر
+      code: {start: 17_100, end: 17_200}
+      duration: 30
+
+    #                            #### LEVEL 4 ####                            #
+    '172-173':
+      level: 4
+      label: confectionery_and_desserts
+      code: {start: 17_200, end: 17_400}
+      duration: 2
+
+    #                            #### LEVEL 4 ####                            #
+    '174':
+      level: 4
+      label: tea_coffee_and_cocoa_drinks
+      farsi_name: چای، قهوه و کاکائو
+      code: {start: 17_400, end: 17_500}
+      duration: 30
+
+    #                        ######## LEVEL 3 ########                        #
+    '18':
+      level: 3
+      label: spices_condiments_and_other_food_products
+      farsi_name: ادویه‌ها، چاشنی‌ها و سایر ترکیبات خوراکی
+      code: {start: 18_000, end: 19_000}
+
+    #                            #### LEVEL 4 ####                            #
+    '181':
+      level: 4
+      label: spices
+      code: {start: 18_100, end: 18_200}
+      versions:
+        1363: 
+          duration: 2
+        1364: 
+          duration: 30
+
+    #                            #### LEVEL 4 ####                            #
+    '182':
+      level: 4
+      label: condiments_and_other_food_products
+      code: {start: 18_200, end: 18_300}
+      versions:
+        1363: 
+          duration: 2
+        1364: 
+          duration: 30
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '19':
+      level: 3
+      label: soft_drinks_prepared_foods_and_tobacco
+      farsi_name: نوشابه‌ها، غذاهای آماده و دخانیات
+      code: {start: 19_000, end: 20_000}
+
+    #                            #### LEVEL 4 ####                            #
+    '191':
+      level: 4
+      label: soft_drinks_home
+      farsi_name: نوشابه‌ها (برای مصرف در خانه)
+      code: {start: 19_100, end: 19_200}
+      duration: 2
+
+    #                            #### LEVEL 4 ####                            #
+    '192-193':
+      level: 4
+      label: prepared_foods_home
+      farsi_name: غذا‌های آماده (برای مصرف در خانه)
+      code: {start: 19_200, end: 19_400}
+      duration: 2
+
+    #                            #### LEVEL 4 ####                            #
+    '194':
+      level: 4
+      label: soft_drinks_outdoor
+      farsi_name: نوشابه‌ها (برای مصرف خارج خانه)
+      code: {start: 19_400, end: 19_500}
+      duration: 2
+
+    #                            #### LEVEL 4 ####                            #
+    '195':
+      level: 4
+      label: prepared_foods_outdoor
+      farsi_name: غذا‌های آماده (برای مصرف خارج خانه)
+      code: {start: 19_500, end: 19_600}
+      duration: 2
+
+    #                            #### LEVEL 4 ####                            #
+    '196':
+      level: 4
+      label: tanagholat_outdoor
+      farsi_name: تنقلات (برای مصرف خارج خانه)
+      code: {start: 19_600, end: 19_700}
+      duration: 2
+
+    #                            #### LEVEL 4 ####                            #
+    '197':
+      level: 4
+      label: tobacco
+      farsi_name: دخانیات
+      code: {start: 19_700, end: 19_800}
+      duration: 2
+
+
+    ################################# LEVEL 1 #################################
+    '2':
+      level: 1
+      label: clothing_and_footwear
+      farsi_name: پوشاک و کفش
+      code: {start: 20_000, end: 30_000}
+
+
+    ################################# LEVEL 1 #################################
+    '3':
+      level: 1
+      label: housing_water_electricity_gas_and_other_fuels
+      farsi_name: هزینه‌های جاری مسکن، آب و فاضلاب، سوخت و روشنایی
+      code: {start: 30_000, end: 33_000}
+
+
+    #                ################ LEVEL 2 ################                #
+    '31':
+      level: 2
+      label: housing
+      farsi_name: هزینه‌های مسکن
+      code: {start: 31_000, end: 32_000}
+
+    #                        ######## LEVEL 3 ########                        #
+    '311':
+      level: 3
+      label: rentals_for_housing
+      farsi_name: اجاره بهای مسکن
+      code: {start: 31_100, end: 31_200}
+
+    #                ################ LEVEL 2 ################                #
+    '32':
+      level: 2
+      label: 
+      farsi_name: هزینه آب، سوخت و روشنایی
+      code: {start: 31_000, end: 32_000}
+
+
+    ################################# LEVEL 1 #################################
+    '4':
+      level: 1
+      label: furnishings_household_equipment_and_routine_household_maintenance
+      farsi_name: 
+      code: {start: 40_000, end: 50_000}
+
+
+    ################################# LEVEL 1 #################################
+    '5':
+      level: 1
+      label: health
+      farsi_name: 
+      code: {start: 50_000, end: 60_000}
+
+
+    ################################# LEVEL 1 #################################
+    '6':
+      level: 1
+      label: transport_information_and_communication
+      farsi_name: 
+      code: {start: 60_000, end: 70_000}
+
+
+    ################################# LEVEL 1 #################################
+    '7':
+      level: 1
+      label: recreation_sport_and_culture
+      farsi_name: 
+      code: {start: 70_000, end: 80_000}
+
+
+    ################################# LEVEL 1 #################################
+    '8':
+      level: 1
+      label: other_commodities
+      farsi_name: 
+      code: {start: 80_000, end: 90_000}
+
+
+    ################################# LEVEL 1 #################################
+    '9':
+      level: 1
+      label: investments
+      farsi_name: سرمایه‌گذاری‌ها
+      code: {start: 33_000, end: 35_000}
+
+
+###############################################################################
+##                   - Original Classification After 1383 -                  ##
+###############################################################################
+
+
+sci_coicop_1383: &sci_coicop_1383
+  defaults:
+    levels: [1, 2]
+
+  items:
+
+
+    ################################# LEVEL 1 #################################
+    '01': 
+      level: 1
+      label: food_and_non_alcoholic_beverages
+      name: Food and Non-Alcoholic Beverages
+      farsi_name: مواد خوراکی و نوشیدنی‌های غیر الکلی
+      code: {start: 10_000, end: 20_000}
+
+
+    #                ################ LEVEL 2 ################                #
+    '011':
+      level: 2
+      label: food
+      name: Food
+      farsi_name: مواد خوراکی
+      code: {start: 11_000, end: 12_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0111':
+      level: 3
+      label: cereals_and_cereal_products
+      name: Cereals and Cereal Products
+      farsi_name: غلات، نان، آرد، رشته و فرآورده‌های آن
+      code: {start: 11_100, end: 11_200}
+
+    #                            #### LEVEL 4 ####                            #
+    '0111_1-0111_2':
+      level: 4
+      label: cereals
+      name: Cereals
+      farsi_name: غلات
+      code: {start: 11_110, end: 11_130}
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_11':
+      level: 5
+      label: sadri_domsiah_and_ostokhani_rice
+      name: Sadri, Domsiah and Ostokhani Rice
+      farsi_name: برنج صدری، دمسیاه و استخوانی
+      code: 11_111
+      fdc_id: 2512381
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_12':
+      level: 5
+      label: tarom_rice
+      name: Tarom Rice
+      farsi_name: برنج طارم
+      code: 11_112
+      fdc_id: 2512381
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_13':
+      level: 5
+      label: unknown_rice
+      name: Unknown Rice
+      farsi_name: برنج بی‌نام
+      code: 11_113
+      fdc_id: 2512381
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_14':
+      level: 5
+      versions: 
+        1383:
+          label: champa_and_ashi_rice
+          name: Champa and Ashi Rice
+          farsi_name: برنج چمپا و آشی
+        1387:
+          label: ashi_rice
+          name: Ashi Rice
+          farsi_name: برنج آشی
+      code: 11_114
+      fdc_id: 2512381
+          
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_15':
+      level: 5
+      label: other_rices
+      name: Other Rices
+      farsi_name: >
+        برنج‌های محلی غیر شمالی (شامل کامفیروزی، چمپای خوزستان،
+        لنجان اصفهان و ...)
+      code: 11_115
+      fdc_id: 2512381
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_16':
+      level: 5
+      label: khordeh_and_gerdeh_rice
+      name: Khordeh and Gerdeh Rice
+      farsi_name: برنج گرده، خرده
+      code: 11_116
+      fdc_id: 2512381
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_17':
+      level: 5
+      label: first_rate_foreign_rice
+      name: First Rate Foreign Rice
+      farsi_name: برنج خارجی درجه یک
+      code: 11_117
+      fdc_id: 2512381
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_18':
+      level: 5
+      label: second_rate_foreign_rice
+      name: Second Rate Foreign Rice
+      farsi_name: برنج خارجی درجه دو
+      code: 11_118
+      fdc_id: 2512381
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_21':
+      level: 5
+      label: wheat
+      name: Wheat
+      farsi_name: گندم
+      code: 11_121
+      fdc_id: 169719
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_22':
+      level: 5
+      versions:
+        1383: 
+          label: bulgur_and_tarkhina
+          name: Bulgur and Tarkhina
+          farsi_name: بلغور و ترخینه
+        1384:
+          label: bulgur_tarkhina_and_wheat_germ
+          name: Bulgur, Tarkhina and Weat Germ
+          farsi_name: بلغور، ترخینه و جوانه گندم
+        1389: 
+          label: bulgur_tarkhina_and_cereal_germ
+          name: Bulgur, Tarkhina and Cereal Germ
+          farsi_name: بلغور، ترخینه و جوانه انواع غلات (گندم و ...)
+      code: 11_122
+      fdc_id: 168892
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_23':
+      level: 5
+      label: maize
+      name: Maize
+      farsi_name: ذرت
+      code: 11_123
+      fdc_id: 2345303
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_24':
+      level: 5
+      label: barley
+      name: Barley
+      farsi_name: جو
+      code: 11_124
+      fdc_id: 170284
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_25':
+      level: 5
+      versions: 
+        1383:
+          label: millet_and_other_cereals
+          name: Millet and Other Cereals
+          farsi_name: ارزن و سایر غلات آسیاب نشده
+        1384:
+          label: other_cereals
+          name: Other Cereals
+          farsi_name: سایر غلات آسیاب نشده
+      code: 11_125
+      fdc_id: 169719  # Wheat
+
+    #                            #### LEVEL 4 ####                            #
+    '0111_4-0111_5':
+      level: 4
+      label: bread_and_bakery_products
+      name: Bread and Bakery Products
+      farsi_name: انواع نان
+      code: {start: 11_140, end: 11_160}
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_41':
+      level: 5
+      label: taftoon
+      name: Taftoon
+      farsi_name: نان تافتون
+      code: 11_141
+      fdc_id: 325871
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_42':
+      level: 5
+      label: lavash
+      name: Lavash
+      farsi_name: نان لواش
+      code: 11_142
+      fdc_id: 325871
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_43':
+      level: 5
+      label: sangak
+      name: Sangak
+      farsi_name: نان سنگک
+      code: 11_143
+      fdc_id: 325871
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_44':
+      level: 5
+      label: barbari
+      name: Barbari
+      farsi_name: نان بربری
+      code: 11_144
+      fdc_id: 325871
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_51':
+      level: 5
+      label: mashini
+      name: Mashini
+      farsi_name: >
+        نان ماشینی (لواش، تافتون، سنگک، بربری 
+        و سایر انواع نان ماشینی)
+      code: 11_151
+      fdc_id: 325871
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_52':
+      level: 5
+      label: fancy_baguette_and_similar
+      name: Fancy, Baguette and Similar
+      farsi_name: نان فانتزی، باگت و نظایر آن
+      code: 11_152
+      fdc_id: 325871
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_53':
+      level: 5
+      label: other_breads
+      name: Other Breads
+      farsi_name: نان خشک، روغنی، شیرمال، رژیمی، جو و سایر انواع نان
+      code: 11_153
+      fdc_id: 325871
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_54':
+      level: 5
+      versions:
+        1383:
+          label: cookie
+          name: Cookie
+          farsi_name: کلوچه
+        1384:
+          label: cookie_and_pirozhki
+          name: Cookie and Prizhki
+          farsi_name: کلوچه و پیراشکی
+      code: 11_154
+      fdc_id: 333008
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_55':
+      level: 5
+      label: payments_for_grinding_cereals
+      name: Payments for Grinding Cereals
+      farsi_name: اجرت آسیاب کردن گندم و سایر غلات
+      code: 11_155
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_56':
+      level: 5
+      label: payments_for_cooking_cereals
+      name: Payments for Cooking Cereals
+      farsi_name: اجرت پخت نان در منزل
+      code: 11_156
+
+    #                            #### LEVEL 4 ####                            #
+    '0111_6':
+      level: 4
+      label: flour_noodle_and_similar_pasta_products
+      name: Flour, Noodle and Similar Pasta Products
+      farsi_name: آرد رشته و فرآورده‌های آن
+      code: {start: 11_160, end: 11_170}
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_61':
+      level: 5
+      label: wheat_flour
+      name: Wheat Flour
+      farsi_name: آرد گندم
+      code: 11_161
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_62':
+      level: 5
+      label: other_flour
+      name: Other Flour
+      farsi_name: سایر انواع آرد
+      code: 11_162
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_63':
+      level: 5
+      label: strach
+      name: Strach
+      farsi_name: نشاسته
+      code: 11_163
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_64':
+      level: 5
+      versions:
+        1383:
+          label: pasta_and_vermicelli_(noodles)
+          name: Pasta and Vermicelli (Noodles)
+          farsi_name: ماکارونی و ورمیشل (رشته فرنگی)
+        1384:
+          label: pasta_vermicelli_(noodles)_lasagna_and_pizza_dough
+          name: Pasta, Vermicelli (Noodles), Lasagna and Pizza Dough
+          farsi_name: ماکارونی، ورمیشل (رشته فرنگی)، لازانیا و خمیر پیتزا
+      code: 11_164
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_65':
+      level: 5
+      label: ashi_and_rice_noodles
+      name: Ashi and Rice Noddles
+      farsi_name: رشته‌ی آشی و پلویی
+      code: 11_165
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_66':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1389:
+          label: bread_dough
+          name: Bread Dough
+          farsi_name: خمیر نان
+      code: 11_166
+
+    #                            #### LEVEL 4 ####                            #
+    '0111_7':
+      level: 4
+      label: cake_and_biscuit
+      name: Cake and Biscuit
+      farsi_name: بیسکوییت و کیک
+      code: {start: 11_170, end: 11_180}
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_71':
+      level: 5
+      label: types_of_biscuit_and_wafer
+      name: Types of Biscuit and Wafer
+      farsi_name: انواع بیسکوییت و ویفر
+      code: 11_171
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_72':
+      level: 5
+      label: types_of_cake
+      name: Types of Cake
+      farsi_name: انواع کیک ساده
+      code: 11_172
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_73':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1386:
+          label: types_of_sweeter_and_dry_sweets
+          name: Types of Sweeter and Dry Sweets
+          farsi_name: انواع شیرینی تر و خشک
+      code: 11_173
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_74':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1386:
+          label: types_of_dry_sweets
+          name: Types of Dry Sweets
+          farsi_name: انواع شیرینی خشک
+      code: 11_174
+
+    #                              ## LEVEL 5 ##                              #
+    '0111_75':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1386:
+          label: types_of_baking_powder
+          name: Types of Baking Powder
+          farsi_name: انواع پودر کیک و شیرینی
+      code: 11_175
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0112-0113':
+      level: 3
+      label: meat
+      name: Meat
+      farsi_name: گوشت
+      code: {start: 11_200, end: 11_400}
+
+    #                            #### LEVEL 4 ####                            #
+    '0112_1-0112_2':
+      level: 4
+      label: red_meat
+      name: Red Meat
+      farsi_name: گوشت دام
+      code: {start: 11_210, end: 11_230}
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_11':
+      level: 5
+      label: sheep_lamb_and_goat_meat
+      name: Sheep, Lamb and Goat Meat
+      farsi_name: گوشت گوسفند، بره، بز و بزغاله
+      code: 11_211
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_12':
+      level: 5
+      label: beef_and_veal_meat
+      name: Beef and Veal Meat
+      farsi_name: گوشت گاو و گوساله
+      code: 11_212
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_13':
+      level: 5
+      label: camel_meat
+      name: Camel Meat
+      farsi_name: گوشت شتر
+      code: 11_213
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_14':
+      level: 5
+      label: liver_heart_and_kidney
+      name: Liver, Heart and Kidney
+      farsi_name: جگر، دل و قلوه
+      code: 11_214
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_15':
+      level: 5
+      versions:
+        1383:
+          label: tripe_abomasum_head_and_trotters_tongue_brain_and_similars
+          name: Tripe, Abomasum, Head and Trotters, Tongue, Brain and Similars
+          farsi_name: سیرابی، شیردان، کله پاچه، زبان، مغز و نظایر آن
+        1386:
+          label: tripe_abomasum_head_and_trotters_tongue_and_brain
+          name: Tripe, Abomasum, Head and Trotters, Tongue and Brain
+          farsi_name: سیرابی، شیردان، کله پاچه، زبان، مغز و ...
+      code: 11_215
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_16':
+      level: 5
+      label: sheep_lamb_and_goat_(alive)
+      name: Sheep, Lamb and Goat (Alive)
+      farsi_name: گوسفند، بره، بز، بزغاله (به صورت زنده)
+      code: 11_216
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_17':
+      level: 5
+      versions:
+        1383:
+          label: cow_and_veal_(alive)
+          name: Cow and Veal (Alive)
+          farsi_name: گاو و گوساله (به صورت زنده)
+        1389:
+          label: cow_and_veal_camel_(alive)
+          name: Cow and Veal, Camel (Alive)
+          farsi_name: گاو و گوساله، شتر (به صورت زنده)
+      code: 11_217
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_18':
+      level: 5
+      label: ostokhane_qalam
+      name: Ostokhane Qalam
+      farsi_name: استخوان قلم (گاو و گوسفند)
+      code: 11_218
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_19':
+      level: 5
+      label: game_meat
+      name: Game Meat
+      farsi_name: گوشت شکار
+      code:
+        1383: 11_219
+        1386: null
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_21':
+      level: 5
+      versions:
+        1383:
+          label:
+          name:
+          farsi_name: >
+          گوشت قورمه، نمک سود و نظایر آن و سایر انواع گوشت دام که 
+          در بالا اشاره نشده است
+        1384:
+          label:
+          name:
+          farsi_name: >
+          گوشت قورمه، نمک سود و نظایر آن و سایر انواع گوشت دام که 
+          اشاره نشده است
+        1386:
+          label:
+          name:
+          farsi_name: >
+          گوشت قورمه، شکار، نمک سود و ... و سایر انواع گوشت دام که 
+          در بالا اشاره نشده است
+         1387:
+          label:
+          name:
+          farsi_name: >
+          گوشت قورمه، شکار، نمک سود و سایر انواع گوشت دام که 
+          در بالا اشاره نشده است
+
+
+      code: 11_221
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_22':
+      level: 5
+      label: lunch_meat
+      name: Lunch Meat
+      farsi_name: کالباس
+      code: 11_222
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_23':
+      level: 5
+      label: sausage
+      name: Sausage
+      farsi_name: سوسیس
+      code: 11_223
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_24':
+      level: 5
+      versions:
+        1383:
+          label:
+          name:
+          farsi_name: کنسرو زبان و سایر گوشتهای کنسرو شده
+        1384:
+          label:
+          name:
+          farsi_name: کنسرو زبان و سایر گوشتهای قرمز کنسرو شده
+        1385:
+          label:
+          name:
+          farsi_name: >
+          کنسرو زبان، کله پاچه و ... و سایر گوشت های قرمز کنسرو شده
+        1387:
+          label:
+          name:
+          farsi_name: کنسرو زبان، کله پاچه و سایر گوشت های قرمز کنسرو شده
+      code: 11_224
+
+    #                            #### LEVEL 4 ####                            #
+    '01123':
+      level: 4
+      label: poultry
+      name: Poultry
+      farsi_name: گوشت پرندگان
+      code: {start: 11_230, end: 11_240}
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_31':
+      level: 5
+      label: factory_chicken_meat
+      name: Factory Chicken Meat
+      farsi_name: گوشت مرغ، خروس و جوجه (ماشینی)
+      code: 11_231
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_32':
+      level: 5
+      label: non_factory_chicken_meat
+      name: Non Factory Chicken Meat
+      farsi_name: گوشت مرغ، خروس و جوجه (غیر ماشینی)
+      code: 11_232
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_33':
+      level: 5
+      label: turkey_goose_duck_quail_and_ostrich
+      name: Turkey, Goose, Duck, Quail and Ostrich
+      farsi_name: گوشت بوقلمون، غاز، اردک، بلدرچین و شترمرغ
+      code: 11_233
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_34':
+      level: 5
+      label: chicken_duck_quail_and_goose_(alive)
+      name: Chicken, Duck, Quail and Goose (Alive)
+      farsi_name: مرغ و خروس، جوجه، اردک، بوقلمون و غاز (به صورت زنده)
+      code: 11_234
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_35':
+      level: 5
+      versions:
+        1383:
+          label:
+          name: 
+          farsi_name: گوشت پرندگان شکاری (کبک، اردک، کبوتر و نظایر آن)
+        1386:
+          label:
+          name: 
+          farsi_name: گوشت پرندگان شکاری (کبک، اردک، کبوتر و ...)
+      code: 11_235
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_36':
+      level: 5
+      label: chicken_heart_liver_and_gizzard
+      name: Chicken Heart, Liver and Gizzrd
+      farsi_name: دل، جگر و سنگدان
+      code: 11_236
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_37':
+      level: 5
+      label: chicken_wing_neck_and_others
+      name: Chicken Wing, Neck and Others
+      farsi_name: بال و گردن و سایر قسمت‌های پرندگان
+      code: 11_237
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_38':
+      level: 5
+      versions:
+        1383:
+          label: canned_chicken_and_similars
+          name: Canned Chicken and Similars
+          farsi_name: کنسرو مرغ و نظایر آن
+        1386:
+          label: canned_chicken_and_...
+          name: Canned Chicken and ...
+          farsi_name: کنسرو مرغ و ...
+      code: 11_238
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_39':
+      level: 5
+      label: other_poultry
+      name: Other Poultry
+      farsi_name: سایر انواع گوشت پرندگان که در بالا اشاره نشده
+      code: 11_239
+
+    #                            #### LEVEL 4 ####                            #
+    '0112_4':
+      level: 4
+      label: ready_to_cook_meats
+      name: Ready to Cook Meats
+      farsi_name: گوشت های آماده برای طبخ
+      code: {start: 11_240, end: 11_250}
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_41':
+      level: 5
+      versions:
+        1383:
+          label: hamburger
+          name: Hamburger
+          farsi_name: همبرگر آماده برای طبخ
+        1384:
+          label: hamburger_and_grilled_bite
+          name: Hamburger and Grilled Bite
+          farsi_name: همبرگر و کباب لقمه آماده برای طبخ
+        1389:
+          label: hamburger_grilled_bite_cutlet_and_steak
+          name: Hamburger, Grilled Bite, Cutlet and Steak
+          farsi_name: همبرگر، کباب لقمه، کتلت و استیک آماده برای طبخ
+      code: 11_241
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_42':
+      level: 5
+      versions:
+        1383:
+          label: cutlet
+          name: Cutlet
+          farsi_name: کتلت آماده برای طبخ
+        1389:
+          label: null
+          name: null
+          farsi_name: null
+      code: 11_242
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_43':
+      level: 5
+      versions:
+        1383:
+          label: steak
+          name: Steak
+          farsi_name: استیک آماده برای طبخ
+        1389:
+          label: null
+          name: null
+          farsi_name: null
+      code: 11_243
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_44':
+      level: 5
+      versions:
+        1383:
+          label: roasted_chicken
+          name: Roasted Chicken
+          farsi_name: جوجه کباب آماده برای طبخ
+        1389:
+          label: roasted_chicken_and_schnitzel
+          name: Roasted Chicken and Schnitzel
+          farsi_name: جوجه کباب و شنیتسل آماده برای طبخ
+      code: 11_244
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_45':
+      level: 5
+      versions:
+        1383:
+          label: chicken_schnitzel
+          name: Chicken Schnitzel
+          farsi_name: شنیتسل مرغ
+        1387:
+          label: chicken_schnitzel_ready_to_cook
+          name: Chicken Schnitzel Ready to Cook
+          farsi_name: شنیتسل مرغ آماده برای طبخ
+        1389:
+          label: null
+          name: null
+          farsi_name: null
+      code: 11_245
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_46':
+      level: 5
+      versions:
+        1383:
+          label: chicken_and_veal_stock_cube
+          name: Chicken and Veal Stock Cube
+          farsi_name: پروتئین مرغ و گوشت گوساله (نظیر گالینا بلانکا و ...)
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 11_246
+
+    #                              ## LEVEL 5 ##                              #
+    '0112_47':
+      level: 5
+      versions:
+        1383:
+          label: soup
+          name: Soup
+          farsi_name: سوپ آماده
+        1384:
+          label: other_ready_to_cook_meats
+          name: Other Ready to Cook Meats
+          farsi_name: سایر گوشت های آماده برای طبخ
+      code: 11_247
+
+    #                            #### LEVEL 4 ####                            #
+    '0113_1-0113_2':
+      level: 4
+      label: fish_shrimp_and_their_products
+      name: Fish, Shrimp and Their Products
+      farsi_name: ماهی، میگو و فرآورده‌های آن‌ها
+      code: {start: 11_310, end: 11_330}
+
+    #                              ## LEVEL 5 ##                              #
+    '0113_11':
+      level: 5
+      label: fresh_north_fishes
+      name: Fresh North Fishes
+      farsi_name: انواع ماهی تازه شمال (دریایی، پرورشی و رودخانه‌ای)
+      code: 11_311
+
+    #                              ## LEVEL 5 ##                              #
+    '0113_12':
+      level: 5
+      label: frozen_north_fishes
+      name: Frozen North Fishes
+      farsi_name: انواع ماهی یخ‌زده شمال (دریایی، پرورشی و رودخانه‌ای)
+      code: 11_312
+
+    #                              ## LEVEL 5 ##                              #
+    '0113_13':
+      level: 5
+      label: fresh_south_fishes
+      name: Fresh South Fishes
+      farsi_name: انواع ماهی تازه جنوب (دریایی، پرورشی و رودخانه‌ای)
+      code: 11_313
+
+    #                              ## LEVEL 5 ##                              #
+    '0113_14':
+      level: 5
+      label: frozen_south_fishes
+      name: Frozen South Fishes
+      farsi_name: انواع ماهی یخ‌زده جنوب (دریایی، پرورشی و رودخانه‌ای)
+      code: 11_314
+
+    #                              ## LEVEL 5 ##                              #
+    '0113_15':
+      level: 5
+      label: kipper_and_pickled_fishes
+      name: Kipper and Pickled Fishes
+      farsi_name: انواع ماهی دودی و شور
+      code: 11_315
+
+    #                              ## LEVEL 5 ##                              #
+    '0113_16':
+      level: 5
+      label: canned_fish
+      name: Canned Fish
+      farsi_name: انواع کنسرو ماهی
+      code: 11_316
+
+    #                              ## LEVEL 5 ##                              #
+    '0113_17':
+      level: 5
+      label: shrimp_(fresh)
+      name: Shrimp (Fresh)
+      farsi_name: میگو (تازه)
+      code: 11_317
+
+    #                              ## LEVEL 5 ##                              #
+    '0113_18':
+      level: 5
+      label: shrimp_(frozen)
+      name: Shrimp (Frozen)
+      farsi_name: میگو (یخ‌زده و نمک سود)
+      code: 11_318
+
+    #                              ## LEVEL 5 ##                              #
+    '0113_19':
+      level: 5
+      versions:
+        1383:
+          label: oysters
+          name: Oysters
+          farsi_name: انواع صدف
+        1389:
+          label: oysters_caviar_and_espel
+          name: Oysters, Caviar and Espel
+          farsi_name: انواع صدف، خاویار (از ماهیان خاویاری) و اشپیل (تخم ماهی)
+      code: 11_319
+
+    #                              ## LEVEL 5 ##                              #
+    '0113_21':
+      level: 5
+      versions:
+        1383:
+          label: ready_to_cook_fishes
+          name: Ready to Cook Fishes
+          farsi_name: انواع ماهی آماده برای طبخ
+        1395:
+          label: others_fishes_and_ready_to_cook_fishes
+          name: Other Fishes and Ready to Cook Fishes
+          farsi_name: سایر انواع ماهی و انواع ماهی آماده برای طبخ
+      code: 11_321
+
+    #                              ## LEVEL 5 ##                              #
+    '0113_22':
+      level: 5
+      versions:
+        1383:
+          label: caviar
+          name: Caviar
+          farsi_name: خاویار (از ماهیان خاویاری)
+        1389:
+          label: null
+          name: null
+          farsi_name: null
+      code: 11_322
+
+    #                              ## LEVEL 5 ##                              #
+    '0113_23':
+      level: 5
+      versions:
+        1383:
+          label: espel
+          name: Espel
+          farsi_name: اشپیل (تخم ماهی)
+        1389:
+          label: null
+          name: null
+          farsi_name: null
+      code: 11_323
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0114':
+      level: 3
+      label: eggs_milk_and_its_dairy_products_excluding_butter
+      name: Eggs, Milk and Its Dairy Products Excluding Butter
+      farsi_name: شیر و فرآورده‌های آن (به جز کره) و تخم پرندگان
+      code: {start: 11_400, end: 11_500}
+
+    #                            #### LEVEL 4 ####                            #
+    '0114_1':
+      level: 4
+      label: milk
+      name: Milk
+      farsi_name: شیر
+      code: {start: 11_410, end: 11_420}
+
+
+    #                              ## LEVEL 5 ##                              #
+    '0114_11':
+      level: 5
+      label: pasteurized_milk
+      name: Pasteurized Milk
+      farsi_name: شیر پاستوریزه
+      code: 11_411
+
+    #                              ## LEVEL 5 ##                              #
+    '0114_12':
+      level: 5
+      label: normal_milk_unpasteurized_and_foremlik
+      name: Normal Milk (Unpasteurized) and Foremilk
+      farsi_name: شیر معمولی (غیر پاستوریزه) و آغوز
+      code: 11_412
+
+    #                              ## LEVEL 5 ##                              #
+    '0114_13':
+      level: 5
+      label: dried_milk
+      name: Dried Milk
+      farsi_name: انواع شیر خشک
+      code: 11_413
+
+    #                              ## LEVEL 5 ##                              #
+    '0114_14':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: other_milks
+          name: Other Milks
+          farsi_name: سایر انواع شیر
+        1389:
+          label: mixed_milk_and_other_milks
+          name: Mixed Milk and Other Milks
+          farsi_name: شیر مخلوط و سایر انواع شیر
+      code: 11_414
+
+    #                            #### LEVEL 4 ####                            #
+    '0114_2-0114_3':
+      level: 4
+      label: other_dairy_product_excluding_butter
+      farsi_name: فراورده‌های شیری (به جز کره)
+      code: {start: 11_420, end: 11_440}
+
+    #                              ## LEVEL 5 ##                              #
+    '0114_21':
+      level: 5
+      label: unpasteurized_cream
+      farsi_name: خامه معمولی و سرشیر
+      code: 11_421
+
+    #                              ## LEVEL 5 ##                              #
+    '0114_22':
+      level: 5
+      label: pasteurized_cream
+      farsi_name: خامه پاستوریزه
+      code: 11_422
+
+    #                              ## LEVEL 5 ##                              #
+    '0114_23':
+      level: 5
+      label: ice_cream
+      farsi_name: انواع بستنی شیری و میوه‌ای
+      code: 11_423
+
+    #                              ## LEVEL 5 ##                              #
+    '0114_24':
+      level: 5
+      label: pasteurized_yogurt
+      farsi_name: ماست پاستوریزه
+      code: 11_424
+
+    #                              ## LEVEL 5 ##                              #
+    '0114_25':
+      level: 5
+      label: unpasteurized_yogurt
+      farsi_name: ماست غیر پاستوریزه
+      code: 11_425
+
+    #                              ## LEVEL 5 ##                              #
+    '0114_26':
+      level: 5
+      label: flavored_yogurt
+      farsi_name: ماست طعم‌دار (موسیر، میوه‌ای و ...)
+      code: 11_426
+
+    #                              ## LEVEL 5 ##                              #
+    '0114_27':
+      level: 5
+      label: ordinary_doogh   # 12_212 is also doogh. (?)
+      farsi_name: دوغ معمولی
+      code: 11_427
+
+    #                              ## LEVEL 5 ##                              #
+    '0114_28':
+      level: 5
+      label: pasteurized_cheese
+      farsi_name: پنیر پاستوریزه
+      code: 11_428
+
+    #                              ## LEVEL 5 ##                              #
+    '0114_29':
+      level: 5
+      label: unpasteurized_cheese
+      farsi_name: پنیر غیر پاستوریزه
+      code: 11_429
+
+    #                              ## LEVEL 5 ##                              #
+    '0114_31':
+      level: 5
+      label: flavored_cheese
+      farsi_name: پنیر طعم‌دار (سبزیجات، گردو و ...)
+      code: 11_431
+
+    #                              ## LEVEL 5 ##                              #
+    '0114_32':
+      level: 5
+      label: pizza_cheese
+      farsi_name: پنیر پیتزا
+      code: 11_432
+
+    #                              ## LEVEL 5 ##                              #
+    '0114_33':
+      level: 5
+      label: kashk
+      farsi_name: کشک
+      code: 11_433
+
+    #                              ## LEVEL 5 ##                              #
+    '0114_34':
+      level: 5
+      label: other_dairy_products
+      farsi_name: قره‌قروت و سایر انواع لبنیات
+      code: 11_434
+
+    #                            #### LEVEL 4 ####                            #
+    '0114_4':
+      level: 4
+      label: eggs
+      farsi_name: تخم پرندگان
+      code: {start: 11_440, end: 11_450}
+
+    #                              ## LEVEL 5 ##                              #
+    '0114_41':
+      level: 5
+      label: factory_farmed_hen_egg
+      farsi_name: تخم مرغ ماشینی
+      code: 11_441
+
+    #                              ## LEVEL 5 ##                              #
+    '0114_42':
+      level: 5
+      label: non_factory_farmed_hen_egg
+      farsi_name: تخم مرغ غیر ماشینی
+      code: 11_442
+
+    #                              ## LEVEL 5 ##                              #
+    '0114_43':
+      level: 5
+      label: other_bird_eggs
+      farsi_name: تخم سایر پرندگان
+      code: 11_443
+
+    #                        ######## LEVEL 3 ########                        #
+    '0115':
+      label: oils_fats_and_butter
+      level: 3
+      farsi_name: روغن‌ها، چربی‌ها و کره
+      code: {start: 11_500, end: 11_600}
+
+    #                            #### LEVEL 4 ####                            #
+    '0115_1':
+      level: 4
+      label: animal_oils_and_fats_excluding_butter
+      farsi_name: روغن‌ها و چربی‌های حیوانی (به جز کره)
+      code: {start: 11_510, end: 11_520}
+
+    #                              ## LEVEL 5 ##                              #
+    '0115_11':
+      level: 5
+      label: 
+      farsi_name: انواع روغن حیوانی (روغن کرمانشاهی و مشابه آن)
+      code: 11_511
+
+    #                              ## LEVEL 5 ##                              #
+    '0115_12':
+      level: 5
+      label: 
+      farsi_name: دنبه و پیه
+      code: 11_512
+
+    #                            #### LEVEL 4 ####                            #
+    '0115_2':
+      level: 4
+      label: butter
+      farsi_name: انواع کره
+      code: {start: 11_520, end: 11_530}
+
+    #                              ## LEVEL 5 ##                              #
+    '0115_21':
+      level: 5
+      label: pasteurized_butter
+      farsi_name: کره پاستوریزه
+      code: 11_521
+
+    #                              ## LEVEL 5 ##                              #
+    '0115_22':
+      level: 5
+      label: unpasteurized_butter
+      farsi_name: کره غیر پاستوریزه
+      code: 11_522
+
+    #                              ## LEVEL 5 ##                              #
+    '0115_23':
+      level: 5
+      label: vegan_butter
+      farsi_name: کره غیر حیوانی
+      code: 11_523
+
+    #                            #### LEVEL 4 ####                            #
+    '0115_3':
+      label: vegetable_oils
+      level: 4
+      farsi_name: روغن‌های نباتی
+      code: {start: 11_530, end: 11_540}
+
+    #                              ## LEVEL 5 ##                              #
+    '0115_31':
+      level: 5
+      label: solid_vegetable_oils_and_margarine
+      farsi_name: انواع روغن نباتی جامد و مارگارین
+      code: 11_531
+
+    #                              ## LEVEL 5 ##                              #
+    '0115_32':
+      level: 5
+      label: olive_oil
+      farsi_name: روغن زیتون
+      code: 11_532
+
+    #                              ## LEVEL 5 ##                              #
+    '0115_33':
+      level: 5
+      label: other_liquid_vegetable_oils
+      farsi_name: سایر انواع روغن نباتی مایع (ذرت، کنجد، آفتابگردان و ...)
+      code: 11_533
+
+    #                        ######## LEVEL 3 ########                        #
+    '0116':
+      label: fruits_and_nuts
+      level: 3
+      farsi_name: میوه‌ها و خشکبار
+      code: {start: 11_600, end: 11_700}
+
+    #                            #### LEVEL 4 ####                            #
+    '0116_1-0116_2-0116_3':
+      level: 4
+      label: tree_fruits
+      farsi_name: میوه‌های درختی
+      code: {start: 11_610, end: 11_640}
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_11':
+      level: 5
+      label: apple
+      farsi_name: سیب درختی
+      code: 11_611
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_12':
+      level: 5
+      label: pear
+      farsi_name: گلابی
+      code: 11_612
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_13':
+      level: 5
+      label: plum
+      farsi_name: زردآلو، آلو و گوجه سبز
+      code: 11_613
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_14':
+      level: 5
+      label: peach
+      farsi_name: هلو، شلیل و شفتالو
+      code: 11_614
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_15':
+      level: 5
+      label: cherry
+      farsi_name: آلبالو وگیلاس
+      code: 11_615
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_16':
+      level: 5
+      label: berries
+      farsi_name: توت، شاه‌توت،توت فرنگی و تمشک
+      code: 11_616
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_17':
+      level: 5
+      label: grapes
+      farsi_name: انگور
+      code: 11_617
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_18':
+      level: 5
+      label: fig_quince_persimmon
+      farsi_name: انجیر تازه، ازگیل، به،خرمالو، زالزالک و زغال اخته
+      code: 11_618
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_19':
+      level: 5
+      label: pomegranate
+      farsi_name: انار
+      code: 11_619
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_21':
+      level: 5
+      label: banana_and_coconut
+      farsi_name: موز و نارگیل
+      code: 11_621
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_22':
+      level: 5
+      label: date
+      farsi_name: خرمای تازه
+      code: 11_622
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_23':
+      level: 5
+      label: 
+      farsi_name: پسته تازه
+      code: 11_623
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_24':
+      level: 5
+      label: 
+      farsi_name: گردو تازه، فندق تازه و بادام تازه
+      code: 11_624
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_25':
+      level: 5
+      label: 
+      farsi_name: آناناس، چغاله بادام و سایر میوه‌های درختی
+      code: 11_625
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_31':
+      level: 5
+      label: orange
+      farsi_name: پرتقال
+      code: 11_631
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_32':
+      level: 5
+      label: tangerine
+      farsi_name: نارنگی
+      code: 11_632
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_33':
+      level: 5
+      label: 
+      farsi_name: لیمو شیرین
+      code: 11_633
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_34':
+      level: 5
+      label: 
+      farsi_name: کیوی
+      code: 11_634
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_35':
+      level: 5
+      label: 
+      farsi_name: >
+        لیموترش، گریپ‌فروت، بالنگ، نارنج، ترنج و سایر انواع مرکبات
+      code: 11_635
+
+    #                            #### LEVEL 4 ####                            #
+    '0116_4':
+      level: 4
+      label: cucurbit_fruits
+      farsi_name: میوه‌های جالیزی
+      code: {start: 11_640, end: 11_650}
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_41':
+      level: 5
+      label: persian_melon
+      farsi_name: خربزه
+      code: 11_641
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_42':
+      level: 5
+      label: watermelon
+      farsi_name: هندوانه
+      code: 11_642
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_43':
+      level: 5
+      label: other_melons
+      farsi_name: طالبی، گرمک، دستنبو و سایر میوه‌های جالیزی
+      code: 11_643
+
+    #                            #### LEVEL 4 ####                            #
+    '0116_5-0116_6':
+      level: 4
+      label: nuts
+      farsi_name: خشکبار
+      code: {start: 11_650, end: 11_670}
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_51':
+      level: 5
+      label: 
+      farsi_name: برگه (هلو و زردآلو)
+      code: 11_651
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_52':
+      level: 5
+      label: 
+      farsi_name: کشمش و مویز
+      code: 11_652
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_53':
+      level: 5
+      label: 
+      farsi_name: خرمای خشک
+      code: 11_653
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_54':
+      level: 5
+      label: 
+      farsi_name: انواع آلو
+      code: 11_654
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_55':
+      level: 5
+      label: 
+      farsi_name: جوزقند و لواشک
+      code: 11_655
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_56':
+      level: 5
+      label: 
+      farsi_name: گردو و مغز آن
+      code: 11_656
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_57':
+      level: 5
+      label: 
+      farsi_name: فندق و مغز آن
+      code: 11_657
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_58':
+      level: 5
+      label: 
+      farsi_name: پسته و مغز آن
+      code: 11_658
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_59':
+      level: 5
+      label: 
+      farsi_name: بادام و مغز آن
+      code: 11_659
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_61':
+      level: 5
+      label: kuaci
+      farsi_name: انواع تخمه (کدو، هندوانه، آفتابگردان و ژاپنی)
+      code: 11_661
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_62':
+      level: 5
+      label: 
+      farsi_name: انواع آجیل مخلوط
+      code: 11_662
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_63':
+      level: 5
+      label: 
+      farsi_name: نخودچی و نخودچی کشمش
+      code: 11_663
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_64':
+      level: 5
+      label: 
+      farsi_name: >
+        گندم، شاهدانه، برنج بوداده، کنجد، ذرت بوداده، سنجد و عناب
+      code: 11_664
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_65':
+      level: 5
+      label: crisps
+      farsi_name: چیپس و پفک
+      code: 11_665
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_66':
+      level: 5
+      label: 
+      farsi_name: نارگیل (خشک) و قیسی
+      code: 11_666
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_67':
+      level: 5
+      label: 
+      farsi_name: بادام هندی، مغز هسته زردآلو و سایر انواع خشکبار
+      code: 11_667
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_68':
+      level: 5
+      label: 
+      farsi_name: انجیر خشک و توت خشک
+      code: 11_668
+
+    #                              ## LEVEL 5 ##                              #
+    '0116_69':
+      level: 5
+      label: 
+      farsi_name: آلوچه و آلبالو خشک
+      code: 11_669
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0117':
+      label: vegetables_and_pulses
+      level: 3
+      farsi_name: سبزی‌ها و حبوبات
+      code: {start: 11_700, end: 11_800}
+
+    #                            #### LEVEL 4 ####                            #
+    '0117_1':
+      level: 4
+      label: leafy_or_stem_vegetables
+      farsi_name: سبزی‌های برگی
+      code: {start: 11_710, end: 11_720}
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_11':
+      level: 5
+      label: lettuce
+      farsi_name: کاهو
+      code: 11_711
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_12':
+      level: 5
+      label: cabbages_rheum_celery_etc
+      farsi_name: کلم، ریواس، کرفس، کنگر، برگ‌مو، برگ‌گل، والک و بیدمشک
+      code: 11_712
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_13':
+      level: 5
+      label: sabzi_khordan
+      farsi_name: سبزی خوردن
+      code: 11_713
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_14':
+      level: 5
+      label: other_sabzi
+      farsi_name: انواع سبزی (آش، پلو، کوکو، قرمه)
+      code: 11_714
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_15':
+      level: 5
+      label: spinach
+      farsi_name: اسفناج
+      code: 11_715
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_16':
+      level: 5
+      label: 
+      farsi_name: قارچ
+      code: 11_716
+
+    #                            #### LEVEL 4 ####                            #
+    '0117_2':
+      level: 4
+      label: fruit_bearing_vegetables
+      farsi_name: سبزی‌های بوته‌ای
+      code: {start: 11_720, end: 11_730}
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_21':
+      level: 5
+      label: cucumber
+      farsi_name: خیار
+      code: 11_721
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_22':
+      level: 5
+      label: cucurbita
+      farsi_name: کدو
+      code: 11_722
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_23':
+      level: 5
+      label: aubergine
+      farsi_name: بادنجان
+      code: 11_723
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_24':
+      level: 5
+      label: tomato
+      farsi_name: گوجه فرنگی
+      code: 11_724
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_25':
+      level: 5
+      label: 
+      farsi_name: نخود فرنگی، بامیه، لوبیا سبز و باقالا سبز
+      code: 11_725
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_26':
+      level: 5
+      label: 
+      farsi_name: انواع فلفل سبز و فلفل دلمه
+      code: 11_726
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_27':
+      level: 5
+      label: 
+      farsi_name: سایر انواع سبزی‌های بوته‌ای
+      code: 11_727
+
+    #                            #### LEVEL 4 ####                            #
+    '0117_3':
+      level: 4
+      label: root_vegetables
+      farsi_name: سبزی‌های ریشه‌ای
+      code: {start: 11_730, end: 11_740}
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_31':
+      level: 5
+      label: potato
+      farsi_name: سیب‌زمینی
+      code: 11_731
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_32':
+      level: 5
+      label: onion
+      farsi_name: پیاز
+      code: 11_732
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_33':
+      level: 5
+      label: garlic
+      farsi_name: سیر
+      code: 11_733
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_34':
+      level: 5
+      label: carrot
+      farsi_name: هویج
+      code: 11_734
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_35':
+      level: 5
+      label: other_root_vegetables
+      farsi_name: >
+        چغندر، شلغم، انواع ترب، سیب‌زمینی ترشی، 
+        موسیر و سایر انواع سبزی‌های ریشه‌ای
+      code: 11_735
+
+    #                            #### LEVEL 4 ####                            #
+    '0117_4':
+      level: 4
+      label: other_vegetables
+      farsi_name: سایر انواع سبزی
+      code: {start: 11_740, end: 11_750}
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_41':
+      level: 5
+      label: 
+      farsi_name: زیتون
+      code: 11_741
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_42':
+      level: 5
+      label: 
+      farsi_name: ذرت شیرین
+      code: 11_742
+
+    #                            #### LEVEL 4 ####                            #
+    '0117_5':
+      level: 4
+      label: prepared_vegetables
+      farsi_name: سبزی‌های آماده بسته‌بندی شده
+      code: {start: 11_750, end: 11_760}
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_51':
+      level: 5
+      label: 
+      farsi_name: انواع سبزی خشک شده
+      code: 11_751
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_52':
+      level: 5
+      label: 
+      farsi_name: سبزی‌های بسته‌بندی شده آماده
+      code: 11_752
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_53':
+      level: 5
+      label: 
+      farsi_name: >
+        سبزی‌های کنسرو شده (نخود سبز، لوبیا سبز، ذرت، قارچ، اسفناج و ...)
+      code: 11_753
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_54':
+      level: 5
+      label: 
+      farsi_name: اجرت خدمات آماده‌سازی انواع سبزی‌ها (پاک کردن و خرد کردن)
+      code: 11_754
+
+    #                            #### LEVEL 4 ####                            #
+    '0117_6':
+      level: 4
+      label: pulses
+      farsi_name: حبوب
+      code: {start: 11_760, end: 11_770}
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_61':
+      level: 5
+      label: chickpea
+      farsi_name: نخود
+      code: 11_761
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_62':
+      level: 5
+      label: split_pea
+      farsi_name: لپه نخود
+      code: 11_762
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_63':
+      level: 5
+      label: pinto_bean
+      farsi_name: لوبیا چیتی
+      code: 11_763
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_64':
+      level: 5
+      label: kidney_bean
+      farsi_name: لوبیا قرمز
+      code: 11_764
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_65':
+      level: 5
+      label: other_beans
+      farsi_name: سایر انواع لوبیا
+      code: 11_765
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_66':
+      level: 5
+      label: soybean
+      farsi_name: سویا
+      code: 11_766
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_67':
+      level: 5
+      label: mixed_chickpea_and_bean
+      farsi_name: نخود و لوبیای مخلوط
+      code: 11_767
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_68':
+      level: 5
+      label: lentil
+      farsi_name: عدس
+      code: 11_768
+
+    #                              ## LEVEL 5 ##                              #
+    '0117_69':
+      level: 5
+      label: other_pulses
+      farsi_name: ماش، باقالا خشک، لپه‌باقالا، جوانه انواع حبوب و سایر حبوب
+      code: 11_769
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0118':
+      level: 3
+      label: sugar_confectionery_and_desserts
+      farsi_name: قند و شکر، مرباها و شیرینی‌ها
+      code: {start: 11_800, end: 11_900}
+
+    #                            #### LEVEL 4 ####                            #
+    '0118_1':
+      level: 4
+      label: sugar
+      farsi_name: قند و شکر
+      code: {start: 11_810, end: 11_820}
+
+
+    #                              ## LEVEL 5 ##                              #
+    '0118_11':
+      level: 5
+      label: cube_sugar
+      farsi_name: قند
+      code: 11_811
+
+    #                              ## LEVEL 5 ##                              #
+    '0118_12':
+      level: 5
+      label: other_sugars
+      farsi_name: شکر
+      code: 11_812
+
+    #                            #### LEVEL 4 ####                            #
+    '0118_2':
+      level: 4
+      label: confectionery_and_desserts
+      farsi_name: مرباها و شیرینی‌ها
+      code: {start: 11_820, end: 11_850}
+
+    #                              ## LEVEL 5 ##                              #
+    '0118_21':
+      level: 5
+      label: 
+      farsi_name: انواع عسل (شهد و با موم)
+      code: 11_821
+
+    #                              ## LEVEL 5 ##                              #
+    '0118_22':
+      level: 5
+      label: 
+      farsi_name: شیره (انگور و خرما و ...)
+      code: 11_822
+
+    #                              ## LEVEL 5 ##                              #
+    '0118_23':
+      level: 5
+      label: jam
+      farsi_name: مربا
+      code: 11_823
+
+    #                              ## LEVEL 5 ##                              #
+    '0118_31':
+      level: 5
+      label: 
+      farsi_name: حلوا شکری، حلوا ارده و ارده
+      code: 11_831
+
+    #                              ## LEVEL 5 ##                              #
+    '0118_32':
+      level: 5
+      label: 
+      farsi_name: >
+        مسقطی، ژله، باسلق، کرم کارامل، پاستیل، راحت الحلقوم و سمنو
+      code: 11_832
+
+    #                              ## LEVEL 5 ##                              #
+    '0118_33':
+      level: 5
+      label: 
+      farsi_name: انواع گز
+      code: 11_833
+
+    #                              ## LEVEL 5 ##                              #
+    '0118_34':
+      level: 5
+      label: 
+      farsi_name: انواع سوهان
+      code: 11_834
+
+    #                              ## LEVEL 5 ##                              #
+    '0118_35':
+      level: 5
+      label: 
+      farsi_name: باقلوا، زولبیا، بامیه، قطاب، رسته خوشکار و ...
+      code: 11_835
+
+    #                              ## LEVEL 5 ##                              #
+    '0118_36':
+      level: 5
+      label: 
+      farsi_name:
+        1383: انواع شیرینی تر و کیک
+        1386: null
+      code: 11_836
+
+    #                              ## LEVEL 5 ##                              #
+    '0118_37':
+      level: 5
+      label: 
+      farsi_name:
+        1383: انواع شیرینی خشک
+        1386: null
+      code: 11_837
+
+    #                              ## LEVEL 5 ##                              #
+    '0118_38':
+      level: 5
+      label: 
+      farsi_name: شربت‌های غیر طبی و سرکه شیره
+      code: 11_838
+
+    #                              ## LEVEL 5 ##                              #
+    '0118_39':
+      level: 5
+      label: chocolate
+      farsi_name: انواع شکلات
+      code: 11_839
+
+    #                              ## LEVEL 5 ##                              #
+    '0118_41':
+      level: 5
+      label: other_sweets
+      farsi_name: >
+        آب‌نبات و پولکی، نبات، نقل، پشمک، شکر پنیر و سایر انواع شیرینی
+      code: 11_841
+
+    #                              ## LEVEL 5 ##                              #
+    '0118_42':
+      level: 5
+      label: chewing_gum
+      farsi_name: آدامس
+      code: 11_842
+
+    #                              ## LEVEL 5 ##                              #
+    '0118_43':
+      level: 5
+      label: 
+      farsi_name: انواع کمپوت
+      code: 11_843
+
+    #                              ## LEVEL 5 ##                              #
+    '0118_44':
+      level: 5
+      label: 
+      farsi_name: آلاسکا و بستنی یخی (غیر شیری)، یخمک
+      code: 11_844
+
+    #                              ## LEVEL 5 ##                              #
+    '0118_45':
+      level: 5
+      label: 
+      farsi_name: فالوده
+      code: 11_845
+
+    #                              ## LEVEL 5 ##                              #
+    '0118_46':
+      level: 5
+      label: 
+      farsi_name:
+        1383: null
+        1384: انواع پودر کیک و شیرینی
+        1386: null
+      code: 11_846
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0119':
+      label: spices_condiments_and_other_food_products
+      level: 3
+      farsi_name: ادویه‌ها، چاشنی‌ها و سایر ترکیبات خوراکی
+      code: {start: 11_900, end: 12_000}
+
+    #                            #### LEVEL 4 ####                            #
+    '0119_1':
+      level: 4
+      label: spices
+      farsi_name: انواع ادویه
+      code: {start: 11_910, end: 11_920}
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_11':
+      level: 5
+      label: salt
+      farsi_name: نمک
+      code: 11_911
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_12':
+      level: 5
+      label: salt_stone
+      farsi_name: سنگ نمک
+      code: 11_912
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_13':
+      level: 5
+      label: pepper
+      farsi_name: فلفل
+      code: 11_913
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_14':
+      level: 5
+      label: turmeric
+      farsi_name: زردچوبه
+      code: 11_914
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_15':
+      level: 5
+      label: saffron
+      farsi_name: زعفران
+      code: 11_915
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_16':
+      level: 5
+      label: cinnamon_cardamom_ginger_and_golpar
+      farsi_name: دارچین، هل، زنجبیل و گلپر
+      code: 11_916
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_17':
+      level: 5
+      label: other_spices
+      farsi_name: لیموعمانی، سماق، كاری، خردل و سایر انواع ادویه
+      code: 11_917
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_18':
+      level: 5
+      label: 
+      farsi_name: زرشک، زیره
+      code: 11_918
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_19':
+      level: 5
+      label: 
+      farsi_name: جوهر لیمو، گردغوره، پودر سیر و پودر پیاز
+      code: 11_919
+
+    #                            #### LEVEL 4 ####                            #
+    '0119_2-0119_3-0119_4':
+      level: 4
+      label: condiments_and_other_food_products
+      farsi_name: چاشنی‌ها و سایر ترکیب‌های خوراکی
+      code: {start: 11_920, end: 11_950}
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_21':
+      level: 5
+      label: tomato_paste
+      farsi_name: رب گوجه‌فرنگی
+      code: 11_921
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_22':
+      level: 5
+      label: ketchup
+      farsi_name: سس گوجه‌فرنگی
+      code: 11_922
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_23':
+      level: 5
+      label: lemon_juice
+      farsi_name: آب لیمو
+      code: 11_923
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_24':
+      level: 5
+      label: other_sauces
+      farsi_name: سایر انواع سس (مایونز، سالاد و ...)
+      code: 11_924
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_25':
+      level: 5
+      label: 
+      farsi_name: سرکه
+      code: 11_925
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_26':
+      level: 5
+      label: 
+      farsi_name: آب غوره و آب نارنج
+      code: 11_926
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_27':
+      level: 5
+      label: 
+      farsi_name: غوره
+      code: 11_927
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_28':
+      level: 5
+      label: torshi_olive_and_pickle
+      farsi_name: ترشی، زیتون، خیارشور، مخلوط شور و ...
+      code: 11_928
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_29':
+      level: 5
+      label: 
+      farsi_name: گلاب
+      code: 11_929
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_31':
+      level: 5
+      label: 
+      farsi_name: تمرهندی، رب انار
+      code: 11_931
+
+    #                              ## LEVEL 5 ##                              #
+    '0118_32':
+      level: 5
+      label: 
+      farsi_name:
+        1383: انواع پودر کیک و شیرینی
+        1384: null
+      code: 11_832
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_33':
+      level: 5
+      label: 
+      farsi_name: پودر سالاد و پودر سوپ
+      code: 11_933
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_34':
+      level: 5
+      label: 
+      farsi_name: جوش شیرین، وانیک، بیکینگ پودر، خمیر نان و مایه پنیر
+      code: 11_934
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_35':
+      level: 5
+      label: 
+      farsi_name: هزینه‌ی آبگیری در خارج از منزل (شامل لیمو، غوره و ...)
+      code: 11_935
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_36':
+      level: 5
+      label: 
+      farsi_name: غذای مخصوص کودک (غیر از شیر خشک)
+      code: 11_936
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_45':
+      level: 5
+      label: 
+      farsi_name: سایر چاشنی‌ها و ترکیب‌های خوراکی
+      code: 11_945
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_46':
+      level: 5
+      label: 
+      farsi_name: پروتئین مرغ و گوشت گوساله (نظیر گالینابلانکا و ...)
+      code: 11_946
+
+    #                              ## LEVEL 5 ##                              #
+    '0119_47':
+      level: 5
+      label: 
+      farsi_name: انواع کنسرو و غذاهای آماده طبقه‌بندی نشده در سطرهای قبل
+      code: 11_947
+
+    #                ################ LEVEL 2 ################                #
+    '012':
+      label: non_alcoholic_beverages
+      level: 2
+      farsi_name: نوشیدنی‌های غیر الکلی
+      code: {start: 12_000, end: 13_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0121':
+      label: tea_coffee_and_cocoa_drinks
+      level: 3
+      farsi_name: چای، قهوه و کاکائو
+      code: {start: 12_100, end: 12_200}
+
+    #                            #### LEVEL 4 ####                            #
+    '0121_1':
+      label: tea_coffee_and_cocoa_drinks
+      level: 4
+      farsi_name: چای، قهوه و کاکائو
+      code: {start: 12_110, end: 12_120}
+
+    #                              ## LEVEL 5 ##                              #
+    '0121_11':
+      level: 5
+      label: domestic_tea
+      farsi_name: چای داخلی
+      code: 12_111
+
+    #                              ## LEVEL 5 ##                              #
+    '0121_12':
+      level: 5
+      label: foreign_tea
+      farsi_name: چای خارجی
+      code: 12_112
+
+    #                              ## LEVEL 5 ##                              #
+    '0121_13':
+      level: 5
+      label: mixed_tea
+      farsi_name: چای مخلوط
+      code: 12_113
+
+    #                              ## LEVEL 5 ##                              #
+    '0121_14':
+      level: 5
+      label: coffee_cocoa_etc
+      farsi_name: قهوه، نسکافه، کاکائو و ترکیبات مشابه
+      code: 12_114
+
+    #                        ######## LEVEL 3 ########                        #
+    '0122':
+      level: 3
+      label: soft_drinks
+      farsi_name: نوشابه‌ها
+      code: {start: 12_200, end: 12_300}
+
+    #                            #### LEVEL 4 ####                            #
+    '0122_1':
+      label: soft_drinks
+      level: 4
+      farsi_name: نوشابه‌ها
+      code: {start: 12_210, end: 12_220}
+
+    #                              ## LEVEL 5 ##                              #
+    '0122_11':
+      level: 5
+      label: soda
+      farsi_name: نوشابه
+      code: 12_211
+
+    #                              ## LEVEL 5 ##                              #
+    '0122_12':
+      level: 5
+      label: doogh
+      farsi_name: دوغ
+      code: 12_212
+
+    #                              ## LEVEL 5 ##                              #
+    '0122_13':
+      level: 5
+      label: zero_alcohol_beer
+      farsi_name: ماء الشعیر و دلستر
+      code: 12_213
+
+    #                              ## LEVEL 5 ##                              #
+    '0122_14':
+      level: 5
+      label: juice
+      farsi_name: انواع آبمیوه و ساندیس،افشره یا آب سبزی
+      code: 12_214
+
+    #                              ## LEVEL 5 ##                              #
+    '0122_15':
+      level: 5
+      label: bottled_water
+      farsi_name: آب معدنی، آب بطری و آب گالنی
+      code: 12_215
+
+    #                              ## LEVEL 5 ##                              #
+    '0122_16':
+      level: 5
+      label: soft_drink_concentrate
+      farsi_name: انواع شربت و کنسانتره برای تهیه‌ی نوشابه‌ها
+      code: 12_216
+
+    #                              ## LEVEL 5 ##                              #
+    '0122_18':
+      level: 5
+      label: ice
+      farsi_name: یخ
+      code: 12_218
+
+
+    ################################# LEVEL 1 #################################
+    '02':
+      level: 1
+      label: alcoholic_beverages_tobacco_and_norcotics
+      farsi_name: نوشیدنی‌های الکلی، تنباکو و مواد مخدر
+      code: {start: 20_000, end: 30_000}
+
+
+    #                ################ LEVEL 2 ################                #
+    '021':
+      level: 2
+      label: alcoholic_beverages
+      farsi_name: نوشیدنی‌های الکلی
+      code: {start: 21_000, end: 22_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0211':
+      level: 3
+      label: alcoholic_beverages
+      farsi_name: نوشیدنی‌های الکلی
+      code: {start: 21_100, end: 21_200}
+
+    #                            #### LEVEL 4 ####                            #
+    '0211_1':
+      level: 4
+      label: alcoholic_beverages
+      farsi_name: نوشیدنی‌های الکلی
+      code: {start: 21_110, end: 21_120}
+
+    #                              ## LEVEL 5 ##                              #
+    '0211_11':
+      level: 5
+      label: alcoholic_beverages
+      farsi_name: نوشیدنی‌های الکلی
+      code: 21_111
+
+
+    #                ################ LEVEL 2 ################                #
+    '022':
+      level: 2
+      label: tobacco
+      farsi_name: انواع دخانیات
+      code: {start: 22_000, end: 23_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0221':
+      level: 3
+      label: tobacco
+      farsi_name: انواع دخانیات
+      code: {start: 22_100, end: 22_200}
+
+    #                            #### LEVEL 4 ####                            #
+    '0221_1':
+      level: 4
+      label: tobacco
+      farsi_name: انواع دخانیات
+      code: {start: 22_110, end: 22_120}
+
+    #                              ## LEVEL 5 ##                              #
+    '0221_11':
+      level: 5
+      label: 
+      farsi_name: انواع سیگار ایرانی
+      code: 22_111
+
+    #                              ## LEVEL 5 ##                              #
+    '0221_13':
+      level: 5
+      label: 
+      farsi_name: انواع سیگار خارجی
+      code: 22_113
+
+    #                              ## LEVEL 5 ##                              #
+    '0221_15':
+      level: 5
+      label: 
+      farsi_name: انواع توتون، تباکو و کاغذ سیگار
+      code: 22_115
+
+
+    #                ################ LEVEL 2 ################                #
+    '023':
+      label: norcotics
+      level: 2
+      farsi_name: مواد مخدر
+      code: {start: 23_000, end: 24_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0231':
+      label: norcotics
+      level: 3
+      farsi_name: مواد مخدر
+      code: {start: 23_100, end: 23_200}
+
+    #                            #### LEVEL 4 ####                            #
+    '0231_1':
+      label: norcotics
+      level: 4
+      farsi_name: مواد مخدر
+      code: {start: 23_110, end: 23_120}
+
+    #                              ## LEVEL 5 ##                              #
+    '0231_11':
+      level: 5
+      label: 
+      farsi_name: مواد مخدر
+      code: 23_111
+
+
+    ################################# LEVEL 1 #################################
+    '03':
+      level: 1
+      label: clothing_and_footwear
+      farsi_name: پوشاک و کفش
+      code: {start: 30_000, end: 33_000}
+      # This is an exceptional case due to the non-standard codes at the end  #
+      # of the classification for investment expenses (33_000 - 35_000). As   #
+      # a result, this case does not follow the typical pattern.              #
+
+
+    #                ################ LEVEL 2 ################                #
+    '031':
+      level: 2
+      label: clothing
+      farsi_name: پوشاک
+      code: {start: 31_000, end: 32_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0311':
+      level: 3
+      label: clothing_materials
+      farsi_name: مواد پوشاکی
+      code: {start: 31_100, end: 31_200}
+
+    #                            #### LEVEL 4 ####                            #
+    '0311_1-0311_2':
+      level: 4
+      farsi_name: انواع پارچه
+      code: {start: 31_110, end: 31_130}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0312':
+      level: 3
+      label: garments
+      farsi_name: پوشاک
+      code: {start: 31_200, end: 31_300}
+
+    #                            #### LEVEL 4 ####                            #
+    '0312_1-0312_2':
+      level: 4
+      farsi_name: پوشاک مردانه
+      code: {start: 31_210, end: 31_230}
+
+    #                            #### LEVEL 4 ####                            #
+    '0312_3-0312_4':
+      level: 4
+      farsi_name: پوشاک زنانه
+      code: {start: 31_230, end: 31_250}
+
+    #                            #### LEVEL 4 ####                            #
+    '0312_5-0312_6':
+      level: 4
+      farsi_name: پوشاک بچه‌گانه (۳ تا ۱۳ ساله)
+      code: {start: 31_250, end: 31_270}
+
+    #                            #### LEVEL 4 ####                            #
+    '0312_7':
+      level: 4
+      farsi_name: پوشاک اطفال (تا دو سال)
+      code: {start: 31_270, end: 31_280}
+
+    #                        ######## LEVEL 3 ########                        #
+    '0313':
+      level: 3
+      label: other_articles_of_clothing_and_clothing_accessories
+      farsi_name: سایر انواع پوشاک و لوازم پوشاکی
+      code: {start: 31_300, end: 31_400}
+
+    #                            #### LEVEL 4 ####                            #
+    '0313_1-0313_2':
+      level: 4
+      label: other_articles_of_clothing_and_clothing_accessories
+      farsi_name: سایر انواع پوشاک و لوازم پوشاکی
+      code: {start: 31_310, end: 31_330}
+
+    #                        ######## LEVEL 3 ########                        #
+    '0314':
+      level: 3
+      label: cleaning_repair_tailoring_and_hire_of_clothing
+      farsi_name: هزینه شستشو، اجرت دوخت، تعمیر و کرایه پوشاک
+      code: {start: 31_400, end: 31_500}
+
+    #                            #### LEVEL 4 ####                            #
+    '0314_1':
+      level: 4
+      label: cleaning_repair_tailoring_and_hire_of_clothing
+      farsi_name: هزینه شستشو، اجرت دوخت، تعمیر و کرایه پوشاک
+      code: {start: 31_410, end: 31_420}
+
+
+    #                ################ LEVEL 2 ################                #
+    '032':
+      level: 2
+      label: footwear
+      farsi_name: کفش
+      code: {start: 32_000, end: 33_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0321':
+      level: 3
+      label: shoes_and_other_footwear
+      farsi_name: انواع کفش
+      code: {start: 32_100, end: 32_200}
+
+    #                            #### LEVEL 4 ####                            #
+    '0321_1':
+      level: 4
+      label:
+      farsi_name: کفش مردانه
+      code: {start: 32_110, end: 32_120}
+
+    #                            #### LEVEL 4 ####                            #
+    '0321_2':
+      level: 4
+      label:
+      farsi_name: کفش زنانه
+      code: {start: 32_120, end: 32_130}
+
+    #                            #### LEVEL 4 ####                            #
+    '0321_3':
+      level: 4
+      label:
+      farsi_name: کفش بچه‌گانه (۳ تا ۱۳ ساله)
+      code: {start: 32_130, end: 32_140}
+
+    #                            #### LEVEL 4 ####                            #
+    '0321_4':
+      level: 4
+      label:
+      farsi_name: کفش اطفال (تا دو سال)
+      code: {start: 32_140, end: 32_150}
+
+    #                        ######## LEVEL 3 ########                        #
+    '0322':
+      level: 3
+      label: cleaning_repair_and_hire_of_footwear
+      farsi_name: تعمیر و ملزومات کفش
+      code: {start: 32_200, end: 32_300}
+
+    #                            #### LEVEL 4 ####                            #
+    '0322_1':
+      level: 4
+      label:
+      farsi_name: تعمیرات کفش
+      code: {start: 32_210, end: 32_220}
+
+    #                            #### LEVEL 4 ####                            #
+    '0322_2':
+      level: 4
+      label:
+      farsi_name: ملزومات کفش
+      code: {start: 32_220, end: 32_230}
+
+
+    ################################# LEVEL 1 #################################
+    '04':
+      level: 1
+      label: housing_water_electricity_gas_and_other_fuels
+      title: Housing, water, electricity, gas and other fuels
+      farsi_name: مسکن، آب، فاضلاب، سوخت و روشنایی
+      code: {start: 40_000, end: 50_000}
+
+
+    #                ################ LEVEL 2 ################                #
+    '041':
+      level: 2
+      label: actual_rentals_for_housing
+      title: Actual rentals for housing
+      farsi_name: اجاره‌بهای واقعی مسکن
+      code: {start: 41_000, end: 42_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0411':
+      level: 3
+      label: actual_rentals_paid_by_tenants_for_main_residence
+      title: Actual rentals paid by tenants for main residence
+      farsi_name: اجاره‌بهای محل سکونت (اقامتگاه اصلی)
+      code: {start: 41_100, end: 41_200}
+
+    #                            #### LEVEL 4 ####                            #
+    '0411_1':
+      level: 4
+      label: actual_rentals_paid_by_tenants_for_main_residence
+      title: Actual rentals paid by tenants for main residence
+      farsi_name: اجاره‌بهای محل سکونت (اقامتگاه اصلی)
+      code: {start: 41_110, end: 41_120}
+
+    #                              ## LEVEL 5 ##                              #
+    '0411_11':
+      level: 5
+      label: actual_rentals_paid_by_tenants_for_main_residence_unfurnished
+      title: Actual rentals paid by tenants for main residence unfurnished
+      farsi_name: اجاره بهای محل سکونت (غیر مبله)
+      code: 41_111
+
+    #                              ## LEVEL 5 ##                              #
+    '0411_12':
+      level: 5
+      label: actual_rentals_paid_by_tenants_for_main_residence_furnished
+      title: Actual rentals paid by tenants for main residence furnished
+      farsi_name: اجاره بهای محل سکونت (مبله)
+      code: 41_112
+
+    #                              ## LEVEL 5 ##                              #
+    '0411_13':
+      level: 5
+      label: 
+      title: 
+      farsi_name: اجاره‌بهای یک اتاق در هتل یا پانسیون شبانه‌روزی
+      code: 41_113
+
+    #                        ######## LEVEL 3 ########                        #
+    '0412':
+      level: 3
+      label: actual_rentals_paid_by_tenants_for_secondary_residences
+      title: Actual rentals paid by tenants for secondary residences
+      farsi_name: اجاره‌بهای محل سکونت (اقامتگاه‌های بعدی)
+      code: {start: 41_200, end: 41_300}
+
+    #                            #### LEVEL 4 ####                            #
+    '0412_1':
+      level: 4
+      label: actual_rentals_paid_by_tenants_for_secondary_residences
+      title: Actual rentals paid by tenants for secondary residences
+      farsi_name: اجاره‌بهای محل سکونت (اقامتگاه‌های بعدی)
+      code: {start: 41_210, end: 41_220}
+
+    #                              ## LEVEL 5 ##                              #
+    '0412_11':
+      level: 5
+      label: 
+      title: 
+      farsi_name: اجاره‌بهای محل سکونت (غیر مبله)
+      code: 41_211
+
+    #                              ## LEVEL 5 ##                              #
+    '0412_12':
+      level: 5
+      label: 
+      title: 
+      farsi_name: اجاره‌بهای محل سکونت (مبله)
+      code: 41_212
+
+    #                              ## LEVEL 5 ##                              #
+    '0412_13':
+      level: 5
+      label: 
+      title: 
+      farsi_name: اجاره‌بهای یک اتاق در هتل یا پانسیون شبانه‌روزی
+      code: 41_213
+
+
+    #                ################ LEVEL 2 ################                #
+    '042':
+      level: 2
+      label: imputed_rentals_for_housing
+      title: Imputed rentals for housing
+      farsi_name: اجاره‌بهای احتسابی مسکن
+      code: {start: 42_000, end: 43_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0421':
+      level: 3
+      label: imputed_rentals_of_owner_occupiers_for_main_residence
+      title: Imputed rentals of owner-occupiers for main residence
+      farsi_name: برآورد اجاره‌بهای مسکن شخصی برای اقامتگاه اصلی
+      code: {start: 42_100, end: 42_200}
+
+    #                            #### LEVEL 4 ####                            #
+    '0421_1':
+      level: 4
+      label: imputed_rentals_of_owner_occupiers_for_main_residence
+      title: Imputed rentals of owner-occupiers for main residence
+      farsi_name: برآورد اجاره‌بهای مسکن شخصی برای اقامتگاه اصلی
+      code: {start: 42_110, end: 42_120}
+
+    #                              ## LEVEL 5 ##                              #
+    '0421_11':
+      level: 5
+      label: imputed_rentals_of_owner_occupiers_for_main_residence
+      title: Imputed rentals of owner-occupiers for main residence
+      farsi_name: برآورد اجاره‌بهای مسکن شخصی برای اقامتگاه اصلی
+      code: 42_111
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0422':
+      level: 3
+      label: other_imputed_rentals
+      title: Other imputed rentals
+      farsi_name: سایر اجاره‌های احتسابی
+      code: {start: 42_200, end: 42_300}
+
+    #                            #### LEVEL 4 ####                            #
+    '0422_1':
+      level: 4
+      label: other_imputed_rentals
+      title: Other imputed rentals
+      farsi_name: سایر اجاره‌های احتسابی
+      code: {start: 42_210, end: 42_220}
+
+    #                              ## LEVEL 5 ##                              #
+    '0422_11':
+      level: 5
+      label: imputed_rentals_of_owner_occupiers_for_other_residence
+      title: Imputed rentals of owner-occupiers for other residence
+      farsi_name: برآورد اجاره‌بهای مسکن شخصی اقامتگاه‌های بعدی
+      code: 42_211
+
+    #                              ## LEVEL 5 ##                              #
+    '0422_12':
+      level: 5
+      label: imputed_rental_equivalence_of_the_mortgage
+      title: Imputed rental equivalence of the mortgage
+      farsi_name: برآورد ارزش اجاری محل سکونت (رهنی)
+      code: 42_212
+
+    #                              ## LEVEL 5 ##                              #
+    '0422_13':
+      level: 5
+      label: 
+      title: 
+      farsi_name: برآورد اجاره‌بهای مسکن در برابر خدمت
+      code: 42_213
+
+    #                              ## LEVEL 5 ##                              #
+    '0422_14':
+      level: 5
+      label: 
+      title: 
+      farsi_name: برآورد اجاره‌بهای مسکن رایگان
+      code: 42_214
+
+    #                              ## LEVEL 5 ##                              #
+    '0422_15':
+      level: 5
+      label: 
+      title: 
+      farsi_name: برآورد سایر اجاره‌بهای احتسابی
+      code: 42_215
+
+
+    #                ################ LEVEL 2 ################                #
+    '043':
+      level: 2
+      label: maintenance_repair_and_security_of_the_dwelling
+      title: Maintenance, repair and security of the dwelling
+      farsi_name: نگهداری و تعمیر واحد مسکونی
+      code: {start: 43_000, end: 44_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0431':
+      level: 3
+      label: materials_for_the_maintenance_and_repair_of_the_dwelling
+      title: Materials for the maintenance and repair of the dwelling
+      farsi_name: مواد و مصالح برای نگهداری و تعمیر واحد مسکونی
+      code: {start: 43_100, end: 43_200}
+
+     #                            #### LEVEL 4 ####                            #
+    '0431_1-0431_2-0431_3':
+      level: 4
+      label: materials_for_the_maintenance_and_repair_of_the_dwelling
+      title: Materials for the maintenance and repair of the dwelling
+      farsi_name: مواد و مصالح برای نگهداری و تعمیر واحد مسکونی
+      code: {start: 43_110, end: 43_140}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0432':
+      level: 3
+      label: services_for_the_maintenance_and_repair_of_the_dwelling
+      title: Services for the maintenance and repair of the dwelling
+      farsi_name: خدمات نگهداری و تعمیر واحد مسکونی
+      code: {start: 43_200, end: 43_300}
+
+     #                            #### LEVEL 4 ####                            #
+    '0432_1-0432_2':
+      level: 4
+      label: services_for_the_maintenance_and_repair_of_the_dwelling
+      title: Services for the maintenance and repair of the dwelling
+      farsi_name: خدمات نگهداری و تعمیر واحد مسکونی
+      code: {start: 43_210, end: 43_230}
+
+
+    #                ################ LEVEL 2 ################                #
+    '044':
+      level: 2
+      label: water_supply_and_miscellaneous_services_relating_to_the_dwelling
+      title: Water supply and miscellaneous services relating to the dwelling
+      farsi_name: سایر خدمات مربوط به واحد مسکونی
+      code: {start: 44_000, end: 45_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0441':
+      level: 3
+      label: water_supply
+      title: Water supply
+      farsi_name: هزینه‌ی آب
+      code: {start: 44_100, end: 44_200}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0443':
+      level: 3
+      label: sewage_collection
+      title: Sewage collection
+      farsi_name: هزینه‌های جمع‌آوری فاضلاب
+      code: {start: 44_300, end: 44_400}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0444':
+      level: 3
+      label: other_services_relating_to_the_dwelling
+      title: Other services relating to the dwelling
+      farsi_name: سایر خدمات مربوط به واحد مسکونی
+      code: {start: 44_400, end: 44_500}
+
+
+    #                ################ LEVEL 2 ################                #
+    '045':
+      level: 2
+      label: electricity_gas_and_other_fuels
+      title: Electricity, gas and other fuels
+      farsi_name: روشنایی و سوخت
+      code: {start: 45_000, end: 46_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0451':
+      level: 3
+      label: electricity
+      title: Electricity
+      farsi_name: برق
+      code: {start: 45_100, end: 45_200}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0452':
+      level: 3
+      label: gas
+      title: Gas
+      farsi_name: گاز
+      code: {start: 45_200, end: 45_300}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0453':
+      level: 3
+      label: liquid_fuels
+      title: Liquid fuels
+      farsi_name: سوخت مایع
+      code: {start: 45_300, end: 45_400}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0454':
+      level: 3
+      label: solid_fuels
+      farsi_name: سوخت‌های جامد
+      code: {start: 45_400, end: 45_500}
+
+
+    ################################# LEVEL 1 #################################
+    '05':
+      level: 1
+      label: furnishings_household_equipment_and_routine_household_maintenance
+      farsi_name: مبلمان، لوازم خانگی، و نگهداری معمول آن‌ها
+      code: {start: 50_000, end: 60_000}
+
+
+    #                ################ LEVEL 2 ################                #
+    '051':
+      level: 2
+      label: furniture_furnishings_and_loose_carpets
+      title: Furniture, furnishings, and loose carpets
+      farsi_name: مبلمان و اثاث، فرش و سایر کفپوش‌ها
+      code: {start: 51_000, end: 52_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0511':
+      level: 3
+      label: furniture_and_furnishings
+      label: Furniture and furnishings
+      farsi_name: مبلمان و اثاث
+      code: {start: 51_100, end: 51_200}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0512':
+      level: 3
+      label: carpets_and_other_floor_coverings
+      title: Carpets and other floor coverings
+      farsi_name: فرش و سایر کفپوش‌ها
+      code: {start: 51_200, end: 51_300}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0513':
+      level: 3
+      label: repair_of_furniture_furnishings_and_floor_coverings
+      title: Repair of furniture, furnishings and floor coverings
+      farsi_name: تعمیر مبلمان، اثاث و کفپوش‌ها
+      code: {start: 51_300, end: 51_400}
+
+
+    #                ################ LEVEL 2 ################                #
+    '052':
+      level: 2
+      label: household_textiles
+      title: Household textiles
+      farsi_name: لوازم پارچه‌ای خانگی
+      code: {start: 52_000, end: 53_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0521':
+      level: 3
+      label: household_textiles
+      title: Household textiles
+      farsi_name: لوازم پارچه‌ای خانگی
+      code: {start: 52_100, end: 52_200}
+
+
+    #                ################ LEVEL 2 ################                #
+    '053':
+      level: 2
+      label: household_appliances
+      title: Household appliances
+      farsi_name: وسایل خانگی
+      code: {start: 53_000, end: 54_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0531':
+      level: 3
+      label: major_household_appliances_whether_electric_or_not
+      title: Major household appliances whether electric or not
+      farsi_name: وسایل اصلی برقی و غیر برقی
+      code: {start: 53_100, end: 53_200}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0532':
+      level: 3
+      label: small_electric_household_appliances
+      title: Small electric household appliances
+      farsi_name: وسایل کوچک برقی
+      code: {start: 53_200, end: 53_300}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0533':
+      level: 3
+      label: repair_of_household_appliances
+      title: Repair of household appliances
+      farsi_name: هزینه تعمیر، نصب و اجاره وسایل اصلی برقی و غیر برقی
+      code: {start: 53_300, end: 53_400}
+
+
+    #                ################ LEVEL 2 ################                #
+    '054':
+      level: 2
+      label: glassware_tableware_and_household_utensils
+      title: Glassware, tableware and household utensils
+      farsi_name: انواع ظروف غذاخوری و سایر لوازم خانگی
+      code: {start: 54_000, end: 55_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0540':
+      level: 3
+      label: glassware_tableware_and_household_utensils
+      title: Glassware, tableware and household utensils
+      farsi_name: انواع ظروف غذاخوری و سایر لوازم خانگی
+      code: {start: 54_000, end: 54_100}
+
+
+    #                ################ LEVEL 2 ################                #
+    '055':
+      level: 2
+      label: tools_and_equipment_for_house_and_garden
+      title: Tools and equipment for house and garden
+      farsi_name: ابزار و تجهیزات منزل و باغ
+      code: {start: 55_000, end: 56_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0551':
+      level: 3
+      label: major_tools_and_equipment
+      title: Major tools and equipment
+      farsi_name: ابزار و تجهیزات بادوام
+      code: {start: 55_100, end: 55_200}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0552':
+      level: 3
+      label: small_tools_and_miscellaneous_accessories
+      title: Small tools and miscellaneous accessories
+      farsi_name: ابزار و تجهیزات کم دوام
+      code: {start: 55_200, end: 55_300}
+
+
+    #                ################ LEVEL 2 ################                #
+    '056':
+      level: 2
+      label: goods_and_services_for_routine_household_maintenance
+      title: Goods and services for routine household maintenance
+      farsi_name: کالا و خدمات برای منزل
+      code: {start: 56_000, end: 57_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0561':
+      level: 3
+      label: non_durable_household_goods
+      title: Non-durable household goods
+      farsi_name: کالاهای بی‌دوام خانگی
+      code: {start: 56_100, end: 56_200}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0562':
+      level: 3
+      label: domestic_services_and_household_services
+      title: Domestic services and household services
+      farsi_name: خدمات خانگی و مراقبت از منزل
+      code: {start: 56_200, end: 56_300}
+
+
+    ################################# LEVEL 1 #################################
+    '06':
+      level: 1
+      label: health
+      title: health
+      farsi_name: بهداشت و درمان
+      code: {start: 60_000, end: 70_000}
+
+
+    #                ################ LEVEL 2 ################                #
+    '061':
+      level: 2
+      label: medicines_and_health_products
+      title: Medicines and health products
+      farsi_name: محصولات، وسایل و لوازم کمک پزشکی
+      code: {start: 61_000, end: 62_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0611':
+      level: 3
+      label: pharmaceutical_products
+      title: Pharmaceutical products
+      farsi_name: محصولات دارویی و درمانی
+      code: {start: 61_100, end: 61_200}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0612':
+      level: 3
+      label: other_medical_products
+      title: Other medical products
+      farsi_name: محصولات پزشکی
+      code: {start: 61_200, end: 61_300}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0613':
+      level: 3
+      label: therapeutic_appliances_and_equipment
+      title: Therapeutic appliances and equipment
+      farsi_name: وسایل و تجهیزات درمانی
+      code: {start: 61_300, end: 61_400}
+
+
+    #                ################ LEVEL 2 ################                #
+    '062':
+      level: 2
+      label: outpatient_care_services
+      title: Outpatient care services
+      farsi_name: خدمات طبی سرپایی
+      code: {start: 62_000, end: 63_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0621':
+      level: 3
+      label: medical_services
+      title: Medical services
+      farsi_name: خدمات پزشکی
+      code: {start: 62_100, end: 62_200}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0622':
+      level: 3
+      label: dental_services
+      title: Dental services
+      farsi_name: خدمات دندان‌پزشکی
+      code: {start: 62_200, end: 62_300}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0623':
+      level: 3
+      label: paramedical_services
+      title: Paramedical services
+      farsi_name: خدمات پیراپزشکی
+      code: {start: 62_300, end: 62_400}
+
+
+    #                ################ LEVEL 2 ################                #
+    '063':
+      level: 2
+      label: inpatient_care_services
+      title: Inpatient care services
+      farsi_name: خدمات بیمارستانی
+      code: {start: 63_000, end: 64_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0631':
+      level: 3
+      label: inpatient_care_services
+      title: Inpatient care services
+      farsi_name: خدمات بیمارستانی
+      code: {start: 63_100, end: 63_200}
+
+
+    #                ################ LEVEL 2 ################                #
+    '064':
+      level: 2
+      label: other_health_services
+      title: Other health services
+      farsi_name: هزینه‌ی ترک اعتیاد
+      code: {start: 64_000, end: 65_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0641':
+      level: 3
+      label: other_health_services
+      title: Other health services
+      farsi_name: هزینه‌ی ترک اعتیاد
+      code: {start: 64_100, end: 64_200}
+
+
+    ################################# LEVEL 1 #################################
+    '07':
+      level: 1
+      label: transport
+      farsi_name: حمل و نقل
+      code: {start: 70_000, end: 80_000}
+
+
+    #                ################ LEVEL 2 ################                #
+    '071':
+      level: 2
+      label: purchase_of_vehicles
+      title: Purchase of vehicles
+      farsi_name: خرید وسایل نقلیه
+      code: {start: 71_000, end: 72_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0711':
+      level: 3
+      label: motor_cars
+      title: Motor cars
+      farsi_name: خرید انواع خودرو
+      code: {start: 71_100, end: 71_200}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0712':
+      level: 3
+      label: motor_cycles
+      title: Motor cycles
+      farsi_name: خرید انواع موتور
+      code: {start: 71_200, end: 71_300}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0713':
+      level: 3
+      label: bicycles
+      title: Bicycles
+      farsi_name: خرید انواع دوچرخه
+      code: {start: 71_300, end: 71_400}
+
+
+    #                ################ LEVEL 2 ################                #
+    '072':
+      level: 2
+      label: operation_of_personal_transport_equipment
+      title: Operation of personal transport equipment
+      farsi_name: تجهیزات حمل و نقل شخصی
+      code: {start: 72_000, end: 73_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0721':
+      level: 3
+      label: spare_parts_and_accessories_for_personal_transport_equipment
+      title: Spare parts and accessories for personal transport equipment
+      farsi_name: لوازم و قطعات یدکی
+      code: {start: 72_100, end: 72_200}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0722':
+      level: 3
+      label: fuels_and_lubricants_for_personal_transport_equipment
+      title: Fuels and lubricants for personal transport equipment
+      farsi_name: انواع سوخت و روان‌ساز برای وسایل حمل و نقل شخصی
+      code: {start: 72_200, end: 72_300}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0723':
+      level: 3
+      label: maintenance_and_repair_of_personal_transport_equipment
+      title: Maintenance and repair of personal transport equipment
+      farsi_name: نگهداری و تعمیر وسایل نقلیه‌ی شخصی
+      code: {start: 72_300, end: 72_400}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0724':
+      level: 3
+      label: other_services_in_respect_of_personal_transport_equipment
+      title: Other services in respect of personal transport equipment
+      farsi_name: سایر خدمات مربوط به تجهیزات حمل و نقل شخصی
+      code: {start: 72_400, end: 72_500}
+
+
+    #                ################ LEVEL 2 ################                #
+    '073':
+      level: 2
+      label: passenger_transport_services
+      title: Passenger transport services
+      farsi_name: خدمات حمل و نقل
+      code: {start: 73_000, end: 74_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0731':
+      level: 3
+      label: passenger_transport_by_railway
+      title: Passenger transport by railway
+      farsi_name: هزینه‌ی خدمات حمل و نقل ریلی
+      code: {start: 73_100, end: 73_200}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0732':
+      level: 3
+      label: passenger_transport_by_road
+      title: Passenger transport by road
+      farsi_name: هزینه‌ی خدمات حمل و نقل جاده‌ای
+      code: {start: 73_200, end: 73_300}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0733':
+      level: 3
+      label: passenger_transport_by_air
+      title: Passenger transport by air
+      farsi_name: هزینه خدمات حمل و نقل هوایی
+      code: {start: 73_300, end: 73_400}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0734':
+      level: 3
+      label: passenger_transport_by_sea_and_inland_waterway
+      title: Passenger transport by sea and inland waterway
+      farsi_name: هزینه‌ی خدمات حمل و نقل دریایی و راه آبی داخلی
+      code: {start: 73_400, end: 73_500}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0735':
+      level: 3
+      label: combined_passenger_transport
+      title: Combined passenger transport
+      farsi_name: هزینه‌ی حمل و نقل مختلط
+      code: {start: 73_500, end: 73_600}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0736':
+      level: 3
+      label: other_purchased_transport_services
+      title: Other purchased transport services
+      farsi_name: سایر خدمات خریداری شده حمل و نقل
+      code: {start: 73_600, end: 73_700}
+
+
+    ################################# LEVEL 1 #################################
+    '08':
+      level: 1
+      label: information_and_communication
+      farsi_name: اطلاعات و ارتباطات
+      code: {start: 80_000, end: 90_000}
+
+
+    #                ################ LEVEL 2 ################                #
+    '081':
+      level: 2
+      label: postal_services
+      title: Postal services
+      farsi_name: خدمات پستی
+      code: {start: 81_000, end: 82_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0811':
+      level: 3
+      label: postal_services
+      title: Postal services
+      farsi_name: خدمات پستی
+      code: {start: 81_100, end: 81_200}
+
+    #                ################ LEVEL 2 ################                #
+    '082':
+      level: 2
+      label: telephone_and_telefax_equipment
+      title: Telephone and telefax equipment
+      farsi_name: تجهیزات تلفن و تلفکس
+      code: {start: 82_000, end: 83_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0821':
+      level: 3
+      label: telephone_and_telefax_equipment
+      title: Telephone and telefax equipment
+      farsi_name: تجهیزات تلفن و تلفکس
+      code: {start: 82_100, end: 82_200}
+
+
+    #                ################ LEVEL 2 ################                #
+    '083':
+      level: 2
+      label: telephone_and_telefax_services
+      title: Telephone and telefax services
+      farsi_name: خدمات تلفن و فکس
+      code: {start: 83_000, end: 84_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0831':
+      level: 3
+      label: telephone_and_telefax_services
+      title: Telephone and telefax services
+      farsi_name: خدمات تلفن و فکس
+      code: {start: 83_100, end: 83_200}
+
+
+    ################################# LEVEL 1 #################################
+    '09':
+      level: 1
+      label: recreation_and_culture
+      title: Recreation and culture
+      farsi_name: خدمات فرهنگی و تفریحات
+      code: {start: 90_000, end: 100_000}
+
+
+    #                ################ LEVEL 2 ################                #
+    '091':
+      level: 2
+      label: audio_visual_photographic_and_information_processing_equipment
+      title: Audio-visual, photographic and information processing equipment
+      farsi_name: تجهیزات سمعی - بصری، عکاسی، داده‌پردازی و لوازم آن‌ها
+      code: {start: 91_000, end: 92_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0911':
+      level: 3
+      label: equipment_for_the_reception_recording_and_reproduction_of_sound_
+        and_pictures
+      title: Equipment for the reception, recording and reproduction of sound
+        and pictures
+      farsi_name: تجهیزات ویژه دریافت، ضبط و تکثیر صدا و تصویر
+      code: {start: 91_100, end: 91_200}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0912':
+      level: 3
+      label: photographic_and_cinematographic_equipment_and_optical_instruments
+      title: Photographic and cinematographic equipment and optical instruments
+      farsi_name: وسایل عکاسی، فیلم‌برداری و تجهیزات نور
+      code: {start: 91_200, end: 91_300}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0913':
+      level: 3
+      label: 
+      farsi_name: تجهیزات رایانه
+      code: {start: 91_300, end: 91_400}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0914':
+      level: 3
+      label: 
+      farsi_name: وسایل ضبط تصویر و صدا
+      code: {start: 91_400, end: 91_500}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0915':
+      level: 3
+      label: 
+      farsi_name: اجرت تعمیر تجهیزات صوتی و تصویری، عکاسی، رایانه‌ای و
+        لوازم آن
+      code: {start: 91_500, end: 91_600}
+
+
+    #                ################ LEVEL 2 ################                #
+    '092':
+      level: 2
+      label: other_recreational_goods
+      title: Other recreational goods
+      farsi_name: سایر وسایل عمده بادوام برای تفریح و فرهنگ
+      code: {start: 92_000, end: 93_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0922':
+      level: 3
+      label: 
+      farsi_name: 
+      code: {start: 92_200, end: 92_300}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0923':
+      level: 3
+      label: 
+      farsi_name: 
+      code: {start: 92_300, end: 92_400}
+
+
+    #                ################ LEVEL 2 ################                #
+    '093':
+      level: 2
+      label: garden_products_and_pets
+      title: Garden products and pets
+      farsi_name: سایر اقلام و وسایل تفریحی، باغ‌ها و حیوان‌های خانگی
+      code: {start: 93_000, end: 94_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0931':
+      level: 3
+      label: 
+      farsi_name: لوازم بازی، انواع اسباب بازی و وسایل سرگرمی
+      code: {start: 93_100, end: 93_200}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0932':
+      level: 3
+      label: 
+      farsi_name: لوازم ورزشی و تفریحی در اردوگاه‌ها و فضاهای باز
+      code: {start: 93_200, end: 93_300}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0933':
+      level: 3
+      label: 
+      farsi_name: باغ گیاهان و گل‌ها
+      code: {start: 93_300, end: 93_400}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0934':
+      level: 3
+      label: 
+      farsi_name: حیوان‌های خانگی و لوازم مربوط
+      code: {start: 93_400, end: 93_500}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0935':
+      level: 3
+      label: 
+      farsi_name: دامپزشکی و سایر خدمات برای حیوان‌های خانگی
+      code: {start: 93_500, end: 93_600}
+
+
+    #                ################ LEVEL 2 ################                #
+    '094':
+      level: 2
+      label: cultural_and_recreational_services
+      title: Cultural and recreational services
+      farsi_name: خدمات فرهنگی و تفریحی
+      code: {start: 94_000, end: 95_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0941':
+      level: 3
+      label: 
+      farsi_name: خدمات تفریحی
+      code: {start: 94_100, end: 94_200}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0942':
+      level: 3
+      label: 
+      farsi_name: خدمات فرهنگی
+      code: {start: 94_200, end: 94_300}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0943':
+      level: 3
+      label: 
+      farsi_name: کلیه‌ی بازی‌های شانسی
+      code: {start: 94_300, end: 94_400}
+
+
+    #                ################ LEVEL 2 ################                #
+    '095':
+      level: 2
+      label: newspapers_books_and_stationery
+      title: Newspapers, books and stationery
+      farsi_name: روزنامه، کتاب و لوازم‌التحریر
+      code: {start: 95_000, end: 96_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0951':
+      level: 3
+      label: 
+      farsi_name: کتاب
+      code: {start: 95_100, end: 95_200}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0952':
+      level: 3
+      label: 
+      farsi_name: روزنامه‌ها، مجلات و سایر نشریات ادواری
+      code: {start: 95_200, end: 95_300}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0953':
+      level: 3
+      label: 
+      farsi_name: موضوعات چاپ شده‌ی متفرقه
+      code: {start: 95_300, end: 95_400}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0954':
+      level: 3
+      label: 
+      farsi_name: لوازم التحریر، لوازم رسم، نقاشی و لوازم هنری
+      code: {start: 95_400, end: 95_500}
+
+
+    #                ################ LEVEL 2 ################                #
+    '096':
+      level: 2
+      label: package_holidays
+      title: Package holidays
+      farsi_name: هزینه مسافرت‌های دستجمعی (همراه تور)
+      code: {start: 96_000, end: 97_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '0961':
+      level: 3
+      label: 
+      farsi_name: هزینه‌ی مسافرت‌های دستجمعی (همراه تور)
+      code: {start: 96_100, end: 96_200}
+
+
+    ################################# LEVEL 1 #################################
+    '10':
+      level: 1
+      label: education_services
+      farsi_name: آموزش و تحصیل
+      code: {start: 100_000, end: 110_000}
+
+
+    #                ################ LEVEL 2 ################                #
+    '101':
+      level: 2
+      label: early_childhood_and_primary_education
+      title: Early childhood and primary education
+      farsi_name: هزینه‌ی آموزش ابتدایی و پیش‌دبستانی
+      code: {start: 101_000, end: 102_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1011':
+      level: 3
+      label: 
+      farsi_name: هزینه‌ی آموزش ابتدایی و پیش‌دبستانی
+      code: {start: 101_100, end: 101_200}
+
+
+    #                ################ LEVEL 2 ################                #
+    '102':
+      level: 2
+      label: secondary_education
+      title: Secondary education
+      farsi_name: هزینه‌ی آموزش راهنمایی و دبیرستان / متوسطه ۱ و ۲
+      code: {start: 102_000, end: 103_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1021-1022':
+      level: 3
+      label:  
+      farsi_name: هزینه‌ی آموزش راهنمایی و دبیرستان / متوسطه ۱ و ۲
+      code: {start: 102_100, end: 102_300}
+
+
+    #                ################ LEVEL 2 ################                #
+    '103':
+      level: 2
+      label: post_secondary_non_tertiary_education
+      title: Post-secondary non-tertiary education
+      farsi_name: هزینه‌ی آموزش پیش‌دانشگاهی و تقویتی
+      code: {start: 103_000, end: 104_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1031':
+      level: 3
+      label: 
+      farsi_name: هزینه‌ی آموزش پیش‌دانشگاهی و تقویتی
+      code: {start: 103_100, end: 103_200}
+
+
+    #                ################ LEVEL 2 ################                #
+    '104':
+      level: 2
+      label: tertiary_education
+      title: Tertiary education
+      farsi_name: هزینه‌ی آموزش تحصیلات عالی
+      code: {start: 104_000, end: 105_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1041':
+      level: 3
+      label: 
+      farsi_name: هزینه‌ی آموزش تحصیلات عالی
+      code: {start: 104_100, end: 104_200}
+
+
+    #                ################ LEVEL 2 ################                #
+    '105':
+      level: 2
+      label: education_not_defined_by_level
+      title: Education not defined by level
+      farsi_name: هزینه‌ی آموزش‌های سطح‌بندی نشده
+      code: {start: 105_000, end: 106_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1051':
+      level: 3
+      label: 
+      farsi_name: هزینه‌ی آموزش‌های سطح‌بندی نشده
+      code: {start: 105_100, end: 105_200}
+
+
+    ################################# LEVEL 1 #################################
+    '11':
+      level: 1
+      label: restaurants_and_accommodation_services
+      farsi_name: غذاهای آماده، هتل و رستوران
+      code: {start: 110_000, end: 120_000}
+
+
+    #                ################ LEVEL 2 ################                #
+    '111':
+      level: 2
+      label: food_and_beverage_serving_services
+      title: Food and beverage serving services
+      farsi_name: خدمات تهیه‌ی و ارائه‌ی غذا
+      code: {start: 111_000, end: 112_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1111':
+      level: 3
+      label: restaurants_cafés_and_the_like
+      farsi_name: هزینه غذا در رستوران‌ها، کافه‌ها و نظایر آن
+      code: {start: 111_100, end: 111_200}
+
+
+    #                            #### LEVEL 4 ####                            #
+    '1111_1':
+      level: 4
+      label: restaurants_cafés_and_the_like
+      farsi_name: هزینه غذا در رستوران‌ها، کافه‌ها و نظایر آن
+      code: {start: 111_110, end: 111_150}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1112':
+      level: 3
+      label: canteens_cafeterias_and_refectories
+      farsi_name: غذاخوری‌ها و سلف سرویس
+      code: {start: 111_200, end: 111_300}
+
+
+    #                            #### LEVEL 4 ####                            #
+    '1112_1':
+      level: 4
+      label: canteens_cafeterias_and_refectories
+      farsi_name: غذاخوری‌ها و سلف سرویس
+      code: {start: 111_210, end: 111_220}
+
+
+    #                ################ LEVEL 2 ################                #
+    '112':
+      level: 2
+      label: accommodation_services
+      title: Accommodation services
+      farsi_name: خدمات تامین جا
+      code: {start: 112_000, end: 113_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1120':
+      level: 3
+      label: accommodation_services
+      farsi_name: خدمات تامین جا
+      code: {start: 112_000, end: 112_100}    # Yes! it is true!
+
+
+    #                            #### LEVEL 4 ####                            #
+    '1120_1':
+      level: 4
+      label: accommodation_services
+      farsi_name: خدمات تامین جا
+      code: {start: 112_010, end: 112_020}    # Yes! it is true!
+
+
+    ################################# LEVEL 1 #################################
+    '12':
+      level: 1
+      label: other_commodities
+      farsi_name: کالاها و خدمات متفرقه
+      code: {start: 120_000, end: 130_000}
+
+
+    #                ################ LEVEL 2 ################                #
+    '121':
+      level: 2
+      label: personal_care
+      title: Personal care
+      farsi_name: خدمات شخصی
+      code: {start: 121_000, end: 122_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1211':
+      level: 3
+      label: 
+      farsi_name: خدمات آرایش و پیرایش شخصی
+      code: {start: 121_100, end: 121_200}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1212':
+      level: 3
+      label: 
+      farsi_name: لوازم برقی برای خدمات شخصی
+      code: {start: 121_200, end: 121_300}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1213':
+      level: 3
+      label: 
+      farsi_name: لوازم و کالاهای شخصی
+      code: {start: 121_300, end: 121_400}
+
+    #                ################ LEVEL 2 ################                #
+    '123':
+      level: 2
+      label: other_personal_effects
+      title: Other personal effects
+      farsi_name: لوازم شخصی طبقه‌بندی نشده در جای دیگر
+      code: {start: 123_000, end: 124_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1231':
+      level: 3
+      label: 
+      farsi_name: جواهرات، ساعت‌های دیواری و مچی
+      code: {start: 123_100, end: 123_200}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1232':
+      level: 3
+      label: 
+      farsi_name: سایر لوازم شخصی
+      code: {start: 123_200, end: 123_300}
+
+
+    #                ################ LEVEL 2 ################                #
+    '124':
+      level: 2
+      label: social_protection
+      title: Social protection
+      farsi_name: حمایت اجتماعی و خدمات مشاوره‌ای
+      code: {start: 124_000, end: 125_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1241':
+      level: 3
+      label: 
+      farsi_name: حمایت اجتماعی
+      code: {start: 124_100, end: 124_200}
+
+
+    #                ################ LEVEL 2 ################                #
+    '125':
+      level: 2
+      label: insurance
+      title: Insurance
+      farsi_name: بیمه
+      code: {start: 125_000, end: 126_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1251':
+      level: 3
+      label: 
+      farsi_name: بیمه غیر درمانی (بازنشستگی و ...)
+      code: {start: 125_100, end: 125_200}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1252':
+      level: 3
+      label: 
+      farsi_name: بیمه‌های مربوط به مسکن
+      code: {start: 125_200, end: 125_300}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1253':
+      level: 3
+      label: 
+      farsi_name: بیمه‌های مربوط به بهداشت و درمان
+      code: {start: 125_300, end: 125_400}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1254':
+      level: 3
+      label: 
+      farsi_name: بیمه مرتبط به حمل و نقل
+      code: {start: 125_400, end: 125_500}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1255':
+      level: 3
+      label: 
+      farsi_name: سایر انواع بیمه (خدمت)
+      code: {start: 125_500, end: 125_600}
+
+
+    #                ################ LEVEL 2 ################                #
+    '126':
+      level: 2
+      label: other_financial_services
+      title: Other financial services
+      farsi_name: خدمات مالی طبقه‌بندی نشده در جای دیگر
+      code: {start: 126_000, end: 127_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1261':
+      level: 3
+      label: 
+      farsi_name: خدمات واسطه‌گری‌های مالی که غیر مستقیم اندازه‌گیری می‌شوند
+      code: {start: 126_100, end: 126_200}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1262':
+      level: 3
+      label: 
+      farsi_name: سایر خدمات مالی طبقه‌بندی نشده در جای دیگر
+      code: {start: 126_200, end: 126_300}
+
+
+    #                ################ LEVEL 2 ################                #
+    '127':
+      level: 2
+      label: other_services
+      title: Other services
+      farsi_name: سایر خدمات طبقه‌بندی نشده در جای دیگر
+      code: {start: 127_000, end: 128_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1271':
+      level: 3
+      label: 
+      farsi_name: سایر خدمات طبقه‌بندی نشده در جای دیگر
+      code: {start: 127_100, end: 127_200}
+
+
+    ################################# LEVEL 1 #################################
+    '13':
+      level: 1
+      label: transfer_payments
+      farsi_name: انتقالات
+      code: {start: 130_000, end: 140_000}
+
+
+    #                ################ LEVEL 2 ################                #
+    '139':
+      level: 2
+      label: transfer_payments
+      farsi_name: انتقالات
+      code: {start: 139_000, end: 140_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1391':
+      level: 3
+      label: 
+      farsi_name: هزینه‌های مذهبی
+      code: {start: 139_100, end: 139_200}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1392':
+      level: 3
+      label: 
+      farsi_name: خسارت و دیه
+      code: {start: 139_200, end: 139_300}
+
+
+    ################################# LEVEL 1 #################################
+
+    '14':
+      level: 1
+      label: investments
+      farsi_name: سرمایه‌گذاری‌ها
+      code: {start: 33_000, end: 35_000}
+
+
+    #                ################ LEVEL 2 ################                #
+    '141':
+      level: 2
+      label: investing_in_construction
+      farsi_name: سرمایه‌گذاری در ساختمان
+      code: {start: 33_000, end: 34_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1411-1412':
+      level: 3
+      label: 
+      farsi_name: سرمایه‌گذاری خانوار در ساختمان به منظور سکونت شخصی 
+        (اقامتگاه اصلی و اقامتگاه دوم)
+      code: {start: 33_100, end: 33_300}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1413-1414':
+      level: 3
+      label: 
+      farsi_name: سرمایه‌گذاری خانوار در ساختمان به منظور کسب درآمد
+      code: {start: 33_300, end: 33_500}
+
+
+    #                ################ LEVEL 2 ################                #
+    '142':
+      level: 2
+      label: other_investments
+      farsi_name: سرمایه‌گذاری خانوار در بخش کشاورزی و طرح‌های 
+        آبادانی و عمرانی
+      code: {start: 34_000, end: 35_000}
+
+
+    #                        ######## LEVEL 3 ########                        #
+    '1421-1422':
+      level: 3
+      label: 
+      farsi_name: سرمایه‌گذاری خانوار در بخش کشاورزی و طرح‌های 
+        آبادانی و عمرانی
+      code: {start: 34_100, end: 34_300}
+
+
+###############################################################################
+##                        - Original Classification -                        ##
+###############################################################################
+
+
+sci_coicop: &sci_coicop
+  defaults:
+    aspects: [label]
+    levels: [2, 3]
+
+  items:
+    1363: {{original_1363}}
+    1383: {{original_1383}}
+
+
+original_1363: *sci_coicop_1363
+
+
+original_1383: *sci_coicop_1383
+
+
+original: *sci_coicop
+
+
+###############################################################################
+##                            - Food / Non-Food -                            ##
+###############################################################################
+
+
+Food_NonFood:
+  defaults:
+    levels: [1]
+    column_names: [Food_NonFood]
+    missing_value_replacements: {Food_NonFood: NonFood}
+
+  items:
+    1363:
+      Food:
+        level: 1
+        farsi_name: مخارج خوراکی
+        code:
+          - {{original_1363.1}}
+      NonFood:
+        level: 1
+        farsi_name: مخارج غیر خوراکی
+    1383:
+      Food:
+        level: 1
+        farsi_name: مخارج خوراکی
+        code:
+          - {{original_1383.01}}
+          - {{original_1383.02}}
+          - {{original_1383.111}}
+      NonFood:
+        level: 1
+        farsi_name: مخارج غیر خوراکی
+
+
+###############################################################################
+##                                - Duration -                               ##
+###############################################################################
+
+
+Duration:
+  defaults:
+    levels: [4]
+    aspects: [duration]
+    column_names: [Duration]
+  items:
+    1363: {{original_1363}}
+
+
+###############################################################################
+##                               - Durability -                              ##
+###############################################################################
+
+
+Durability:
+  defaults:
+    levels: [1]
+    column_names: [Durability]
+  items:
+    1383:
+      NonDurable:
+        level: 1
+        farsi_name: بی دوام
+        code:
+          - {start: 10_000, end: 20_000}
+
+          - {start: 20_000, end: 30_000}
+
+          - {start: 43_100, end: 43_200}
+          - {start: 44_100, end: 44_200}
+          - {start: 45_000, end: 46_000}
+
+          - {start: 56_100, end: 56_200}
+
+          - {start: 61_100, end: 61_200}
+          - {start: 61_200, end: 61_300}
+
+          - {start: 72_200, end: 72_300}
+
+          - {start: 93_300, end: 93_400}
+          - {start: 95_200, end: 95_300}
+          - {start: 95_300, end: 95_400}
+          - {start: 95_400, end: 95_500}
+
+          - {start: 121_300, end: 121_400}
+
+      SemiDurable:
+        level: 1
+        farsi_name: کم دوام
+        code:
+          - {start: 31_100, end: 31_200}
+          - {start: 31_200, end: 31_300}
+          - {start: 31_300, end: 31_400}
+          - {start: 32_100, end: 32_200}
+
+          - {start: 52_110, end: 52_120}
+          - {start: 53_200, end: 53_300}
+          - {start: 54_000, end: 55_000}
+          - {start: 55_200, end: 55_300}
+
+          - {start: 72_100, end: 72_200}
+
+          - {start: 91_400, end: 91_500}
+          - {start: 93_100, end: 93_200}
+          - {start: 93_200, end: 93_300}
+          - {start: 93_400, end: 93_500}
+          - {start: 95_100, end: 95_200}
+
+          - {start: 121_200, end: 121_300}
+          - {start: 123_200, end: 123_300}
+
+      Durable:
+        level: 1
+        farsi_name: با دوام
+        code:
+          - {start: 51_100, end: 51_200}
+          - {start: 51_200, end: 51_300}
+          - {start: 53_100, end: 53_200}
+          - {start: 55_100, end: 55_200}
+
+          - {start: 61_300, end: 61_400}
+
+          - {start: 71_000, end: 72_000}
+
+          - {start: 82_000, end: 83_000}
+
+          - {start: 91_100, end: 91_200}
+          - {start: 91_210, end: 91_220}
+          - {start: 91_220, end: 91_230}
+          - {start: 91_300, end: 91_400}
+          - {start: 92_000, end: 93_000}
+
+          - {start: 123_100, end: 123_200}
+
+      Service:
+        level: 1
+        farsi_name: خدمات
+        code:
+          - {start: 31_400, end: 31_500}
+          - {start: 32_200, end: 32_300}
+
+          - {start: 41_000, end: 42_000}
+          - {start: 42_000, end: 43_000}
+          - {start: 43_200, end: 43_300}
+          - {start: 44_310, end: 44_320}
+          - {start: 44_320, end: 44_330}
+          - {start: 44_410, end: 44_420}
+          - {start: 44_490, end: 44_500}
+
+          - {start: 51_300, end: 51_400}
+          - {start: 52_120, end: 52_130}
+          - {start: 53_300, end: 53_400}
+          - {start: 56_200, end: 56_300}
+
+          - {start: 62_000, end: 63_000}
+          - {start: 63_000, end: 64_000}
+          - {start: 64_000, end: 65_000}
+
+          - {start: 72_300, end: 72_400}
+          - {start: 72_400, end: 72_500}
+          - {start: 73_000, end: 74_000}
+
+          - {start: 81_000, end: 82_000}
+          - {start: 83_000, end: 84_000}
+
+          - {start: 91_500, end: 91_600}
+          - {start: 93_500, end: 93_600}
+          - {start: 94_000, end: 95_000}
+          - {start: 96_000, end: 97_000}
+
+          - {start: 100_000, end: 110_000}
+          - {start: 110_000, end: 120_000}
+          - {start: 121_100, end: 121_200}
+          - {start: 124_000, end: 125_000}
+          - {start: 125_000, end: 126_000}
+          - {start: 126_000, end: 127_000}
+          - {start: 127_000, end: 128_000}
+          - {start: 139_000, end: 140_000}
+
+      Investment:
+        level: 1
+        farsi_name: سرمایه‌گذاری
+        code:
+          - {start: 33_000, end: 34_000}
+          - {start: 34_000, end: 35_000}
+
+
+###############################################################################
+##                              - Imputed Rent -                             ##
+###############################################################################
+
+
+Imputed_Rent:
+  defaults:
+    levels: [2]
+    column_names: [Imputed_Rent]
+
+  items:
+    Imputed_Rent:
+      level: 1
+      is_imputed: 1
+      code:
+        1363:
+          - 31_117
+          - 31_128
+          - 31_172
+        1383:
+          - 42_111
+          - 42_211
+          - 42_212
+          # - 42_215
+
+    Ownership:
+      level: 2
+      code:
+        1363:
+          - 31_117
+          - 31_128
+        1383:
+          - 42_111
+          - 42_211
+
+    Mortgage:
+      level: 2
+      code:
+        1363:
+          - 31_172
+        1383:
+          - 42_212
+
+
+###############################################################################
+##                           - Insurance Benefits -                          ##
+###############################################################################
+
+
+Insurance_Benefits:
+  defaults:
+    levels: [1]
+    column_names: [Insurance_Benefits]
+
+  items:
+    Insurance_Benefits:
+      level: 1
+      is_benefit: 1
+      code:
+        - 125_113
+        - 125_115
+        - 125_121
+        - 125_311
+        - 125_313
+
+
+###############################################################################
+##                          - SCI Main Categories -                          ##
+###############################################################################
+
+
+sci_main_categories:
+  defaults:
+    levels: [1]
+    column_names: [Main_Category]
+
+  items:
+    1383:
+      Food_Beverage_and_Tobacco:
+        level: 0
+        farsi_name: مخارج خوراکی، آشامیدنی و دخانی
+        code:
+          - {{original_1383.01}}
+          - {{original_1383.02}}
+          - {{original_1383.111}}
+
+      Food_and_Beverages:
+        level: 1
+        farsi_name: خوراکی‌ها و آشامیدنی‌ها
+        code:
+          - {{original_1383.01}}
+
+      Tobacco:
+        level: 1
+        farsi_name: دخانیات
+        code:
+          - {{original_1383.02}}
+      
+      Non_Food_Goods_and_Services:
+        level: 0
+        farsi_name: مخارج غیر خوراکی و خدمات
+
+
+###############################################################################
+##                          - SCI Food Categories -                          ##
+###############################################################################
+
+sci_food_categories:
+  items:
+    food:
+      level: 0
+      code:
+        - {{original_1383.01}}
+        - {{original_1383.02}}
+        - {{original_1383.111}}
+
+    cereals_and_cereal_products:
+      level: 1
+      farsi_name: آرد، رشته، غلات و فراورده‌های آن
+      code:
+        - {{original_1383.0111_6}}
+        - {{original_1383.0111_1-0111_2}}
+        - {{original_1383.0111_4-0111_5}}
+        - [11_171, 11_172]
+
+    flour_and_noodle:
+      level: 2
+      farsi_name: آرد و رشته
+      code: {{original_1383.0111_6}}
+
+    cereals:
+      level: 2
+      farsi_name: غلات
+      code: {{original_1383.0111_1-0111_2}}
+
+    bread:
+      level: 2
+      farsi_name: انواع نان
+      code: {{original_1383.0111_4-0111_5}}
+
+    biscuit:
+      level: 2
+      farsi_name: بیسکویت و ویفر
+      code:
+        - 11_171
+        - 11_172
+
+    meat:
+      level: 1
+      farsi_name: گوشت
+      code:
+        - {{original_1383.0112-0113}}
+
+    red_meat:
+      level: 2
+      farsi_name: گوشت دام
+      code:
+        - {{original_1383.0112_1-0112_2}}
+        - {start: 11_241, end: 11_244}
+        - {start: 11_247, end: 11_250}
+
+    poultry:
+      level: 2
+      farsi_name: گوشت پرندگان
+      code:
+        - {{original_1383.01123}}
+        - {start: 11_244, end: 11_247}
+
+    fish_and_other_sea_foods:
+      level: 2
+      farsi_name: گوشت حیوانات دریایی
+      code: {{original_1383.0113_1-0113_2}}
+
+    milk_other_dairy_product_and_eggs:
+      level: 1
+      farsi_name: شیر و فرآورده‌های آن و تخم پرندگان
+      code:
+        - {{original_1383.0114}}
+        - {{original_1383.0115_2}}
+
+    milk:
+      level: 2
+      farsi_name: انواع شیر
+      code:
+        - {{original_1383.0114_1}}
+
+    other_dairy_product:
+      level: 2
+      farsi_name: فراورده‌های شیر
+      code:
+        - {{original_1383.0114_2-0114_3}}
+        - {{original_1383.0115_2}}
+
+    eggs:
+      level: 2
+      farsi_name: تخم پرندگان
+      code:
+        - {{original_1383.0114_4}}
+
+    oils_and_fats:
+      level: 1
+      farsi_name: روغن‌هاو چربی‌ها
+      code:
+        - {{original_1383.0115_1}}
+        - {{original_1383.0115_3}}
+
+    animal_oils_and_fats:
+      level: 2
+      farsi_name: روغن‌هاو چربی‌های حیوانی
+      code:
+        - {{original_1383.0115_1}}
+
+    vegetable_oils:
+      level: 2
+      farsi_name: روغن‌های نباتی
+      code:
+        - {{original_1383.0115_3}}
+
+    fruits_and_vegetables:
+      level: 1
+      farsi_name: میوه‌ها و سبزی‌ها
+      code:
+        - {{original_1383.0116_1-0116_2-0116_3}}
+        - {{original_1383.0116_4}}
+        - {{original_1383.0117_1}}
+        - {{original_1383.0117_2}}
+        - {{original_1383.0117_3}}
+        - {{original_1383.0117_4}}
+        - {{original_1383.0117_5}}
+
+    fruits:
+      level: 2
+      farsi_name: میوه‌ها
+      code:
+        - {{original_1383.0116_1-0116_2-0116_3}}
+        - {{original_1383.0116_4}}
+
+    vegetables:
+      level: 2
+      farsi_name: سبزیجات
+      code:
+        - {{original_1383.0117_1}}
+        - {{original_1383.0117_2}}
+        - {{original_1383.0117_3}}
+        - {{original_1383.0117_4}}
+
+    prepared_fruits_and_vegetables:
+      level: 2
+      farsi_name: میوه و سبزیجات آماده
+      code:
+        - {{original_1383.0117_5}}
+
+    nuts_and_pulses:
+      level: 1
+      farsi_name: خشکبار و حبوب
+      code:
+        - {{original_1383.0116_5-0116_6}}
+        - {{original_1383.0117_6}}
+
+    nuts:
+      level: 2
+      farsi_name: خشکبار
+      code:
+        - {{original_1383.0116_5-0116_6}}
+
+    pulses:
+      level: 2
+      farsi_name: حبوب
+      code:
+        - {{original_1383.0117_6}}
+
+    sugar_confectionery_tea_coffee_and_cocoa_drinks:
+      level: 1
+      farsi_name: قند و شکر، شیرینی‌ها، چای، قهوه و کاکائو
+      code:
+        - {{original_1383.0118}}
+        - {{original_1383.0121}}
+        - {start: 11_173, end: 11_180}
+
+    sugar:
+      level: 2
+      farsi_name: قند و شکر
+      code: {{original_1383.0118_1}}
+
+    confectionery_and_desserts:
+      level: 2
+      farsi_name: انواع مربا و شیرینی
+      code:
+        - {{original_1383.0118_2}}
+        - {start: 11_173, end: 11_180}
+
+    tea_coffee_and_cocoa_drinks:
+      level: 2
+      farsi_name: چای، قهوه و کاکائو
+      code: {{original_1383.0121}}
+
+    spices_condiments_and_other_food_products:
+      level: 1
+      farsi_name: ادویه‌ها، چاشنی‌ها و سایر ترکیبات خوراکی
+      code:
+        - {{original_1383.0119}}
+
+    spices:
+      level: 2
+      farsi_name: ادویه‌ها
+      code: {{original_1383.0119_1}}
+
+    condiments_and_other_food_products:
+      level: 2
+      farsi_name: چاشنی‌ها و سایر ترکیبات خوراکی
+      code: {{original_1383.0119_2-0119_3-0119_4}}
+
+    drinks_prepared_foods_tobacco_and_norcotics:
+      level: 1
+      farsi_name: نوشابه‌ها، غذاهای آمده و دخانی‌ها
+      code:
+        - {{original_1383.0122}}
+        - {{original_1383.02}}
+        - {{original_1383.111}}
+
+    drinks:
+      level: 2
+      farsi_name: انواع نوشابه‌ها
+      code: 
+        - {{original_1383.0122}}
+        - {start: 111_133, end: 111_136}
+
+    prepared_foods:
+      level: 2
+      farsi_name: غذاهای آمده و تنقلات
+      code:
+        - {start: 111_000, end: 111_133}
+        - {start: 111_136, end: 112_000}
+
+    tobacco_and_norcotics:
+      level: 2
+      farsi_name: دخانی‌ها
+      code:
+        - {{original_1383.02}}
+
+
+###############################################################################
+##                        - SCI Non-Food Categories -                        ##
+###############################################################################
+
+
+
+###############################################################################
+##          _ _ _   Classification of Individual Consumption   _ _ _         ##
+##                     According to Purpose (COICOP) 2018                    ##
+###############################################################################
+#                                                                             #
+#       COICOP is a classification system developed by the United Nations     #
+#   Statistics Division to categorize individual consumption expenditures     #
+#   and household expenditures based on their purpose. It is widely used as   #
+#   a standard for collecting and analyzing data on household expenditure,    #
+#   providing insights into consumption patterns and changes over time.       #
+#   The system includes 12 major groups and provides a more detailed          #
+#   breakdown of subcategories within each group.                             #
+#                                                                             #
+###############################################################################
+
+coicop_2018:
+
+  items:
+    '01':
+      level: 1
+      description: Food and non-alcoholic beverages
+      code:
+        1383: {{original_1383.01}}
+
+    '01.1':
+      level: 2
+      description: Food
+      code:
+        1383: {{original_1383.011}}
+
+    '01.1.1':
+      level: 3
+      description: Cereals and cereal products (ND)
+      code:
+
+    '01.1.1.1':
+      level: 4
+      description: Cereals (ND)
+      code:
+
+    '01.1.1.1.1':
+      level: 5
+      description: Wheat
+      code: 11_121
+
+    '01.1.1.1.2':
+      level: 5
+      description: Rice
+      code: {start: 11_110, end: 11_120}
+
+    '01.1.1.1.3':
+      level: 5
+      description: Sorghum
+      code:
+
+    '01.1.1.1.4':
+      level: 5
+      description: Barley
+      code: 11_124
+
+    '01.1.1.1.5':
+      level: 5
+      description: Millet
+      code:
+
+    '01.1.1.1.6':
+      level: 5
+      description: Maize (corn)
+      code: 11_123
+
+    '01.1.1.1.7':
+      level: 5
+      description: Quinoa
+      code:
+
+    '01.1.1.1.8':
+      level: 5
+      description: Teff
+      code: 
+
+    '01.1.1.1.9':
+      level: 5
+      description: Other cereals
+      code: [11_122, 11_125]
+      
+    '01.1.1.2':
+      level: 4
+      description: Flour of cereals (ND)
+      code:
+
+    '01.1.1.3':
+      level: 4
+      description: Bread and bakery products (ND)
+      code:
+
+    '01.1.1.4':
+      level: 4
+      description: Breakfast cereals (ND)
+      code:
+
+    '01.1.1.5':
+      level: 4
+      description: Macaroni, noodles, couscous and similar pasta products (ND)
+      code:
+
+    '01.1.1.9':
+      level: 4
+      description: Other cereal and grain mill products (ND)
+      code:
+      
+    '01.2':
+      level: 2
+      description: Non-alcoholic beverages
+      code:
+        1383: {{original_1383.012}}
+
+    '01.3':
+      level: 2
+      description: Services for processing primary goods for food and non-alcoholic beverages
+      code:
+
+    '02':
+      level: 1
+      description: Alcoholic beverages, tobacco and narcotics
+      code:
+
+    '02.1':
+      level: 2
+      description: Alcoholic beverages
+      code:
+
+    '02.2':
+      level: 2
+      description: Alcohol production services
+      code:
+
+    '02.3':
+      level: 2
+      description: Tobacco
+      code:
+
+    '02.4':
+      level: 2
+      description: Narcotics
+      code:
+
+    '03':
+      level: 1
+      description: Clothing and footwear
+      code:
+
+    '03.1':
+      level: 2
+      description: Clothing
+      code:
+
+    '03.2':
+      level: 2
+      description: Footwear
+      code:
+
+    '04':
+      level: 1
+      description: Housing, water, electricity, gas and other fuels
+      code:
+
+    '04.1':
+      level: 2
+      description: Actual rentals for housing
+      code:
+
+    '04.1.1':
+      level: 3
+      title: Actual rentals paid by tenants for main residence (S)
+
+    '04.1.1.0':
+      level: 4
+      title: Actual rentals paid by tenants for main residence (S)
+
+    '04.1.2':
+      level: 3
+      title: Other actual rentals (S)
+
+    '04.1.2.1':
+      level: 4
+      title: Actual rentals paid by tenants for secondary residences (S)
+
+    '04.1.2.2':
+      level: 4
+      title: Garage rentals and other rentals paid by tenants (S)
+
+    '04.2':
+      level: 2
+      description: Imputed rentals for housing
+      code:
+
+    '04.2.1':
+      level: 3
+      description: Imputed rentals of owner-occupiers for main residence (S)
+
+    '04.2.1.0':
+      level: 4
+      description: Imputed rentals of owner-occupiers for main residence (S)
+
+    '04.2.2':
+      level: 3
+      description: Other imputed rentals (S)
+
+    '04.2.2.0':
+      level: 4
+      description: Other imputed rentals (S)
+
+    '04.3':
+      level: 2
+      description: Maintenance, repair and security of the dwelling
+      code:
+
+    '04.3.1':
+      level:
+      description: Security equipment and materials for the maintenance and repair of the dwelling (ND)
+
+    '04.3.1.1':
+      level:
+      description: Materials for the maintenance and repair of the dwelling (ND)
+
+    '04.3.1.2':
+      level:
+      description: Security equipment (SD)
+
+    '04.3.2':
+      level:
+      description: Services for the maintenance, repair and security of the dwelling (S)
+
+    '04.3.2.0':
+      level:
+      description: Services for the maintenance, repair and security of the dwelling (S)
+
+
+    '04.4':
+      level: 2
+      description: Water supply and miscellaneous services relating to the dwelling
+      code:
+
+    '04.4.1':
+      level:
+      description: Water supply (ND)
+
+    '04.4.1.1':
+      level:
+      description: Water supply through network systems (ND)
+
+    '04.4.1.2':
+      level:
+      description: Water supply through other systems (ND)
+
+    '04.4.2':
+      level:
+      description: Refuse collection (S)
+
+    '04.4.2.0':
+      level:
+      description: Refuse collection (S)
+
+    '04.4.3':
+      level:
+      description: Sewage collection (S)
+
+    '04.4.3.1':
+      level:
+      description: Sewage collection through sewer systems (S)
+
+    '04.4.3.2':
+      level:
+      description: Sewage collection through onsite sanitation systems (S)
+
+    '04.4.4':
+      level:
+      description: Other services relating to the dwelling n.e.c. (S)
+
+    '04.4.4.1':
+      level:
+      description: Maintenance charges in multi-occupied buildings (S)
+
+    '04.4.4.9':
+      level:
+      description: Other services related to dwelling (S)
+
+
+    '04.5':
+      level: 2
+      description: Electricity, gas and other fuels
+      code:
+
+    '04.5.1':
+      level:
+      description: Electricity (ND) 
+
+    '04.5.1.0':
+      level:
+      description: Electricity (ND) 
+
+    '04.5.2':
+      level:
+      description: Gas (ND) 
+
+    '04.5.2.1':
+      level:
+      description: Natural gas through networks (ND) 
+
+    '04.5.2.2':
+      level:
+      description: Liquefied hydrocarbons (ND) 
+
+    '04.5.3':
+      level:
+      description: Liquid fuels (ND) 
+
+    '04.5.3.0':
+      level:
+      description: Liquid fuels (ND) 
+
+    '04.5.4':
+      level:
+      description: Solid fuels (ND) 
+
+    '04.5.4.1':
+      level:
+      description: Coal, coal briquettes and peat (ND) 
+
+    '04.5.4.2':
+      level:
+      description: Wood fuel, including pellets and briquettes (ND) 
+
+    '04.5.4.3':
+      level:
+      description: Charcoal (ND) 
+
+    '04.5.4.9':
+      level:
+      description: Other solid fuels (ND) 
+
+    '04.5.5':
+      level:
+      description: Other energy for heating and cooling (ND) 
+
+    '04.5.5.0':
+      level:
+      description: Other energy for heating and cooling (ND)
+
+
+    '05':
+      level: 1
+      description: Furnishings, household equipment and routine household maintenance
+      code:
+
+    '05.1':
+      level: 2
+      description: Furniture, furnishings, and loose carpets
+      code:
+
+    '05.2':
+      level: 2
+      description: Household textiles
+      code:
+
+    '05.3':
+      level: 2
+      description: Household appliances
+      code:
+
+    '05.4':
+      level: 2
+      description: Glassware, tableware and household utensils
+      code:
+
+    '05.5':
+      level: 2
+      description: Tools and equipment for house and garden
+      code:
+
+    '05.6':
+      level: 2
+      description: Goods and services for routine household maintenance
+      code:
+
+    '06':
+      level: 1
+      description: Health
+      code:
+
+    '06.1':
+      level: 2
+      description: Medicines and health products
+      code:
+
+    '06.2':
+      level: 2
+      description: Outpatient care services
+      code:
+
+    '06.3':
+      level: 2
+      description: Inpatient care services
+      code:
+
+    '06.4':
+      level: 2
+      description: Other health services
+      code:
+
+    '07':
+      level: 1
+      description: Transport
+      code:
+
+    '07.1':
+      level: 2
+      description: Purchase of vehicles
+      code:
+
+    '07.2':
+      level: 2
+      description: Operation of personal transport equipment
+      code:
+
+    '07.3':
+      level: 2
+      description: Passenger transport services
+      code:
+
+    '07.4':
+      level: 2
+      description: Transport services of goods
+      code:
+
+    '08':
+      level: 1
+      description: Information and communication
+      code:
+
+    '08.1':
+      level: 2
+      description: Information and communication equipment
+      code:
+
+    '08.2':
+      level: 2
+      description: Software excluding games
+      code:
+
+    '08.3':
+      level: 2
+      description: Information and communication services
+      code:
+
+    '09':
+      level: 1
+      description: Recreation, sport and culture
+      code:
+
+    '09.1':
+      level: 2
+      description: Recreational durables
+      code:
+
+    '09.2':
+      level: 2
+      description: Other recreational goods
+      code:
+
+    '09.3':
+      level: 2
+      description: Garden products and pets
+      code:
+
+    '09.4':
+      level: 2
+      description: Recreational services
+      code:
+
+    '09.5':
+      level: 2
+      description: Cultural goods
+      code:
+
+    '09.6':
+      level: 2
+      description: Cultural services
+      code:
+
+    '09.7':
+      level: 2
+      description: Newspapers, books and stationery
+      code:
+
+    '09.8':
+      level: 2
+      description: Package holidays
+      code:
+
+    '10':
+      level: 1
+      description: Education services
+      code:
+
+    '10.1':
+      level: 2
+      description: Early childhood and primary education
+      code:
+
+    '10.2':
+      level: 2
+      description: Secondary education
+      code:
+
+    '10.3':
+      level: 2
+      description: Post-secondary non-tertiary education
+      code:
+
+    '10.4':
+      level: 2
+      description: Tertiary education
+      code:
+
+    '10.5':
+      level: 2
+      description: Education not defined by level
+      code:
+
+    '11':
+      level: 1
+      description: Restaurants and accommodation services
+      code:
+
+    '11.1':
+      level: 2
+      description: Food and beverage serving services
+      code:
+
+    '11.2':
+      level: 2
+      description: Accommodation services
+      code:
+
+    '12':
+      level: 1
+      description: Insurance and financial services
+      code:
+
+    '12.1':
+      level: 2
+      description: Insurance
+      code:
+
+    '12.2':
+      level: 2
+      description: Financial services
+      code:
+
+    '13':
+      level: 1
+      description: Personal care, social protection and miscellaneous goods and services
+      code:
+
+    '13.1':
+      level: 2
+      description: Personal care
+      code:
+
+    '13.2':
+      level: 2
+      description: Other personal effects
+      code:
+
+    '13.3':
+      level: 2
+      description: Social protection
+      code:
+
+    '13.9':
+      level: 2
+      description: Other services
+      code:
+
+    '14':
+      level: 1
+      description: Individual consumption expenditure of non-profit institutions serving households (NPISHS)
+      code:
+
+    '14.1':
+      level: 2
+      description: Housing
+      code:
+
+    '14.2':
+      level: 2
+      description: Health
+      code:
+
+    '14.3':
+      level: 2
+      description: Recreation and culture
+      code:
+
+    '14.4':
+      level: 2
+      description: Education
+      code:
+
+    '14.5':
+      level: 2
+      description: Social protection
+      code:
+
+    '14.6':
+      level: 2
+      description: Other services
+      code:
+
+    '15':
+      level: 1
+      description: Individual consumption expenditure of general government
+      code:
+
+    '15.1':
+      level: 2
+      description: Housing
+      code:
+
+    '15.2':
+      level: 2
+      description: Health
+      code:
+
+    '15.3':
+      level: 2
+      description: Recreation and culture
+      code:
+
+    '15.4':
+      level: 2
+      description: Education
+      code:
+
+    '15.5':
+      level: 2
+      description: Social protection
+      code:
+
+
+coicop_1999:
+
+  items:
+
+    '01':
+      level: 1
+      description: Food and non-alcoholic beverages
+      code:
+
+    '01.1':
+      level: 2
+      description: Food
+      code:
+
+    '01.1.1':
+      level: 3
+      description: Bread and cereals (ND)
+      code:
+
+    '01.1.2':
+      level: 3
+      description: Meat (ND)
+      code:
+
+    '01.1.3':
+      level: 3
+      description: Fish and seafood (ND)
+      code:
+
+    '01.1.4':
+      level: 3
+      description: Milk, cheese and eggs (ND)
+      code:
+
+    '01.1.5':
+      level: 3
+      description: Oils and fats (ND)
+      code:
+
+    '01.1.6':
+      level: 3
+      description: Fruit (ND)
+      code:
+
+    '01.1.7':
+      level: 3
+      description: Vegetables (ND)
+      code:
+
+    '01.1.8':
+      level: 3
+      description: Sugar, jam, honey, chocolate and confectionery (ND)
+      code:
+
+    '01.1.9':
+      level: 3
+      description: Food products n.e.c. (ND)
+      code:
+
+    '01.2':
+      level: 2
+      description: Non-alcoholic beverages
+      code:
+
+    '01.2.1':
+      level: 3
+      description: Coffee, tea and cocoa (ND)
+      code:
+
+    '01.2.2':
+      level: 3
+      description: Mineral waters, soft drinks, fruit and vegetable juices (ND)
+      code:
+
+    '02':
+      level: 1
+      description: Alcoholic beverages, tobacco and narcotics
+      code:
+
+    '02.1':
+      level: 2
+      description: Alcoholic beverages
+      code:
+
+    '02.1.1':
+      level: 3
+      description: Spirits (ND)
+      code:
+
+    '02.1.2':
+      level: 3
+      description: Wine (ND)
+      code:
+    '02.1.3':
+      level: 3
+      description: Beer (ND)
+      code:
+
+    '02.2':
+      level: 2
+      description: Tobacco
+      code:
+
+    '02.2.0':
+      level: 3
+      description: Tobacco (ND)
+      code:
+
+    '02.3':
+      level: 2
+      description: Narcotics
+      code:
+
+    '02.3.0':
+      level: 3
+      description: Narcotics (ND)
+      code:
+
+    '03':
+      level: 1
+      description: Clothing and footwear
+      code:
+
+    '03.1':
+      level: 2
+      description: Clothing
+      code:
+
+    '03.1.1':
+      level: 3
+      description: Clothing materials (SD)
+      code:
+
+    '03.1.2':
+      level: 3
+      description: Garments (SD)
+      code:
+
+    '03.1.3':
+      level: 3
+      description: Other articles of clothing and clothing accessories (SD)
+      code:
+
+    '03.1.4':
+      level: 3
+      description: Cleaning, repair and hire of clothing (S)
+      code:
+
+    '03.2':
+      level: 2
+      description: Footwear
+      code:
+
+    '03.2.1':
+      level: 3
+      description: Shoes and other footwear (SD)
+      code:
+
+    '03.2.2':
+      level: 3
+      description: Repair and hire of footwear (S)
+      code:
+
+    '04':
+      level: 1
+      description: Housing, water, electricity, gas and other fuels
+      code:
+
+    '04.1':
+      level: 2
+      description: Actual rentals for housing
+      code:
+
+    '04.1.1':
+      level: 3
+      description: Actual rentals paid by tenants (S)
+      code:
+
+    '04.1.2':
+      level: 3
+      description: Other actual rentals (S)
+      code:
+
+    '04.2':
+      level: 2
+      description: Imputed rentals for housing
+      code:
+
+    '04.2.1':
+      level: 3
+      description: Imputed rentals of owner-occupiers (S)
+      code:
+
+    '04.2.2':
+      level: 3
+      description: Other imputed rentals (S)
+      code:
+
+    '04.3':
+      level: 2
+      description: Maintenance and repair of the dwelling
+      code:
+
+    '04.3.1':
+      level: 3
+      description: Materials for the maintenance and repair of the dwelling (ND)
+      code:
+
+    '04.3.2':
+      level: 3
+      description: Services for the maintenance and repair of the dwelling (S)
+      code:
+
+    '04.4':
+      level: 2
+      description: Water supply and miscellaneous services relating to the dwelling
+      code:
+
+    '04.4.1':
+      level: 3
+      description: Water supply (ND)
+      code:
+
+    '04.4.2':
+      level: 3
+      description: Refuse collection (S)
+      code:
+
+    '04.4.3':
+      level: 3
+      description: Sewage collection (S)
+      code:
+
+    '04.4.4':
+      level: 3
+      description: Other services relating to the dwelling n.e.c. (S)
+      code:
+
+    '04.5':
+      level: 2
+      description: Electricity, gas and other fuels
+      code:
+
+    '04.5.1':
+      level: 3
+      description: Electricity (ND)
+      code:
+
+    '04.5.2':
+      level: 3
+      description: Gas (ND)
+      code:
+
+    '04.5.3':
+      level: 3
+      description: Liquid fuels (ND)
+      code:
+
+    '04.5.4':
+      level: 3
+      description: Solid fuels (ND)
+      code:
+
+    '04.5.5':
+      level: 3
+      description: Heat energy (ND)
+      code:
+
+    '05':
+      level: 1
+      description: Furnishings, household equipment and routine household maintenance
+      code:
+
+    '05.1':
+      level: 2
+      description: Furniture and furnishings, carpets and other floor coverings
+      code:
+
+    '05.1.1':
+      level: 3
+      description: Furniture and furnishings (D)
+      code:
+
+    '05.1.2':
+      level: 3
+      description: Carpets and other floor coverings (D)
+      code:
+
+    '05.1.3':
+      level: 3
+      description: Repair of furniture, furnishings and floor coverings (S)
+      code:
+
+    '05.2':
+      level: 2
+      description: Household textiles
+      code:
+
+    '05.2.0':
+      level: 3
+      description: Household textiles (SD)
+      code:
+
+    '05.3':
+      level: 2
+      description: Household appliances
+      code:
+
+    '05.3.1':
+      level: 3
+      description: Major household appliances whether electric or not (D)
+      code:
+
+    '05.3.2':
+      level: 3
+      description: Small electric household appliances (SD)
+      code:
+
+    '05.3.3':
+      level: 3
+      description: Repair of household appliances (S)
+      code:
+
+    '05.4':
+      level: 2
+      description: Glassware, tableware and household utensils
+      code:
+
+    '05.4.0':
+      level: 3
+      description: Glassware, tableware and household utensils (SD)
+      code:
+
+    '05.5':
+      level: 2
+      description: Tools and equipment for house and garden
+      code:
+
+    '05.5.1':
+      level: 3
+      description: Major tools and equipment (D)
+      code:
+
+    '05.5.2':
+      level: 3
+      description: Small tools and miscellaneous accessories (SD)
+      code:
+
+    '05.6':
+      level: 2
+      description: Goods and services for routine household maintenance
+      code:
+
+    '05.6.1':
+      level: 3
+      description: Non-durable household goods (ND)
+      code:
+
+    '05.6.2':
+      level: 3
+      description: Domestic services and household services (S)
+      code:
+
+    '06':
+      level: 1
+      description: Health
+      code:
+
+    '06.1':
+      level: 2
+      description: Medical products, appliances and equipment
+      code:
+
+    '06.1.1':
+      level: 3
+      description: Pharmaceutical products (ND)
+      code:
+
+    '06.1.2':
+      level: 3
+      description: Other medical products (ND)
+      code:
+
+    '06.1.3':
+      level: 3
+      description: Therapeutic appliances and equipment (D)
+      code:
+
+    '06.2':
+      level: 2
+      description: Outpatient services
+      code:
+
+    '06.2.1':
+      level: 3
+      description: Medical services (S)
+      code:
+
+    '06.2.2':
+      level: 3
+      description: Dental services (S)
+      code:
+
+    '06.2.3':
+      level: 3
+      description: Paramedical services (S)
+      code:
+
+    '06.3':
+      level: 2
+      description: Hospital services
+      code:
+
+    '06.3.0':
+      level: 3
+      description: Hospital services (S)
+      code:
+
+    '07':
+      level: 1
+      description: Transport
+      code:
+
+    '07.1':
+      level: 2
+      description: Purchase of vehicles
+      code:
+
+    '07.1.1':
+      level: 3
+      description: Motor cars (D)
+      code:
+
+    '07.1.2':
+      level: 3
+      description: Motor cycles (D)
+      code:
+
+    '07.1.3':
+      level: 3
+      description: Bicycles (D)
+      code:
+
+    '07.1.4':
+      level: 3
+      description: Animal drawn vehicles (D)
+      code:
+
+    '07.2':
+      level: 2
+      description: Operation of personal transport equipment
+      code:
+
+    '07.2.1':
+      level: 3
+      description: Spare parts and accessories for personal transport equipment (SD)
+      code:
+
+    '07.2.2':
+      level: 3
+      description: Fuels and lubricants for personal transport equipment (ND)
+      code:
+
+    '07.2.3':
+      level: 3
+      description: Maintenance and repair of personal transport equipment (S)
+      code:
+
+    '07.2.4':
+      level: 3
+      description: Other services in respect of personal transport equipment (S)
+      code:
+
+    '07.3':
+      level: 2
+      description: Transport services
+      code:
+
+    '07.3.1':
+      level: 3
+      description: Passenger transport by railway (S)
+      code:
+
+    '07.3.2':
+      level: 3
+      description: Passenger transport by road (S)
+      code:
+
+    '07.3.3':
+      level: 3
+      description: Passenger transport by air (S)
+      code:
+
+    '07.3.4':
+      level: 3
+      description: Passenger transport by sea and inland waterway (S)
+      code:
+
+    '07.3.5':
+      level: 3
+      description: Combined passenger transport (S)
+      code:
+
+    '07.3.6':
+      level: 3
+      description: Other purchased transport services (S)
+      code:
+
+    '08':
+      level: 1
+      description: Communication
+      code:
+
+    '08.1':
+      level: 2
+      description: Postal services
+      code:
+
+    '08.1.0':
+      level: 3
+      description: Postal services (S)
+      code:
+
+    '08.2':
+      level: 2
+      description: Telephone and telefax equipment
+      code:
+
+    '08.2.0':
+      level: 3
+      description: Telephone and telefax equipment (D)
+      code:
+
+    '08.3':
+      level: 2
+      description: Telephone and telefax services
+      code:
+
+    '08.3.0':
+      level: 3
+      description: Telephone and telefax services (S)
+      code:
+
+    '09':
+      level: 1
+      description: Recreation and culture
+      code:
+
+    '09.1':
+      level: 2
+      description: Audio-visual, photographic and information processing equipment
+      code:
+
+    '09.1.1':
+      level: 3
+      description: Equipment for the reception, recording and reproduction of sound and pictures (D)
+      code:
+
+    '09.1.2':
+      level: 3
+      description: Photographic and cinematographic equipment and optical instruments (D)
+      code:
+
+    '09.1.3':
+      level: 3
+      description: Information processing equipment (D)
+      code:
+
+    '09.1.4':
+      level: 3
+      description: Recording media (SD)
+      code:
+
+    '09.1.5':
+      level: 3
+      description: Repair of audio-visual, photographic and information processing equipment (S)
+      code:
+
+    '09.2':
+      level: 2
+      description: Other major durables for recreation and culture
+      code:
+
+    '09.2.1':
+      level: 3
+      description: Major durables for outdoor recreation (D)
+      code:
+
+    '09.2.2':
+      level: 3
+      description: Musical instruments and major durables for indoor recreation (D)
+      code:
+
+    '09.2.3':
+      level: 3
+      description: Maintenance and repair of other major durables for recreation and culture (S)
+      code:
+
+    '09.3':
+      level: 2
+      description: Other recreational items and equipment, gardens and pets
+      code:
+
+    '09.3.1':
+      level: 3
+      description: Games, toys and hobbies (SD)
+      code:
+
+    '09.3.2':
+      level: 3
+      description: Equipment for sport, camping and open-air recreation (SD)
+      code:
+
+    '09.3.3':
+      level: 3
+      description: Gardens, plants and flowers (ND)
+      code:
+
+    '09.3.4':
+      level: 3
+      description: Pets and related products (ND)
+      code:
+
+    '09.3.5':
+      level: 3
+      description: Veterinary and other services for pets (S)
+      code:
+
+    '09.4':
+      level: 2
+      description: Recreational and cultural services
+      code:
+
+    '09.4.1':
+      level: 3
+      description: Recreational and sporting services (S)
+      code:
+
+    '09.4.2':
+      level: 3
+      description: Cultural services (S)
+      code:
+
+    '09.4.3':
+      level: 3
+      description: Games of chance (S)
+      code:
+
+    '09.5':
+      level: 2
+      description: Newspapers, books and stationery
+      code:
+
+    '09.5.1':
+      level: 3
+      description: Books (SD)
+      code:
+
+    '09.5.2':
+      level: 3
+      description: Newspapers and periodicals (ND)
+      code:
+
+    '09.5.3':
+      level: 3
+      description: Miscellaneous printed matter (ND)
+      code:
+
+    '09.5.4':
+      level: 3
+      description: Stationery and drawing materials (ND)
+      code:
+
+    '09.6':
+      level: 2
+      description: Package holidays
+      code:
+
+    '09.6.0':
+      level: 3
+      description: Package holidays (S)
+      code:
+
+    '10':
+      level: 1
+      description: Education
+      code:
+
+    '10.1':
+      level: 2
+      description: Pre-primary and primary education
+      code:
+
+    '10.1.0':
+      level: 3
+      description: Pre-primary and primary education (S)
+      code:
+
+    '10.2':
+      level: 2
+      description: Secondary education
+      code:
+
+    '10.2.0':
+      level: 3
+      description: Secondary education (S)
+      code:
+
+    '10.3':
+      level: 2
+      description: Post-secondary non-tertiary education
+      code:
+
+    '10.3.0':
+      level: 3
+      description: Post-secondary non-tertiary education (S)
+      code:
+
+    '10.4':
+      level: 2
+      description: Tertiary education
+      code:
+
+    '10.4.0':
+      level: 3
+      description: Tertiary education (S)
+      code:
+
+    '10.5':
+      level: 2
+      description: Education not definable by level
+      code:
+
+    '10.5.0':
+      level: 3
+      description: Education not definable by level (S)
+      code:
+
+    '11':
+      level: 1
+      description: Restaurants and hotels
+      code:
+
+    '11.1':
+      level: 2
+      description: Catering services
+      code:
+
+    '11.1.1':
+      level: 3
+      description: Restaurants, cafés and the like (S)
+      code:
+
+    '11.1.2':
+      level: 3
+      description: Canteens (S)
+      code:
+
+    '11.2':
+      level: 2
+      description: Accommodation services
+      code:
+
+    '11.2.0':
+      level: 3
+      description: Accommodation services (S)
+      code:
+
+    '12':
+      level: 1
+      description: Miscellaneous goods and services
+      code:
+
+    '12.1':
+      level: 2
+      description: Personal care
+      code:
+
+    '12.1.1':
+      level: 3
+      description: Hairdressing salons and personal grooming establishments (S)
+      code:
+
+    '12.1.2':
+      level: 3
+      description: Electric appliances for personal care (SD)
+      code:
+
+    '12.1.3':
+      level: 3
+      description: Other appliances, articles and products for personal care (ND)
+      code:
+
+    '12.2':
+      level: 2
+      description: Prostitution
+      code:
+
+    '12.2.0':
+      level: 3
+      description: Prostitution (S)
+      code:
+
+    '12.3':
+      level: 2
+      description: Personal effects n.e.c.
+      code:
+
+    '12.3.1':
+      level: 3
+      description: Jewellery, clocks and watches (D)
+      code:
+
+    '12.3.2':
+      level: 3
+      description: Other personal effects  (SD)
+      code:
+
+    '12.4':
+      level: 2
+      description: Social protection
+      code:
+
+    '12.4.0':
+      level: 3
+      description: Social protection (S)
+      code:
+
+    '12.5':
+      level: 2
+      description: Insurance
+      code:
+
+    '12.5.1':
+      level: 3
+      description: Life insurance (S)
+      code:
+
+    '12.5.2':
+      level: 3
+      description: Insurance connected with the dwelling (S)
+      code:
+
+    '12.5.3':
+      level: 3
+      description: Insurance connected with health (S)
+      code:
+
+    '12.5.4':
+      level: 3
+      description: Insurance connected with transport (S)
+      code:
+
+    '12.5.5':
+      level: 3
+      description: Other insurance (S)
+      code:
+
+    '12.6':
+      level: 2
+      description: Financial services n.e.c.
+      code:
+
+    '12.6.1':
+      level: 3
+      description: FISIM (S)
+      code:
+
+    '12.6.2':
+      level: 3
+      description: Other financial services n.e.c. (S)
+      code:
+
+    '12.7':
+      level: 2
+      description: Other services n.e.c.
+      code:
+
+    '12.7.0':
+      level: 3
+      description: Other services n.e.c. (S)
+      code:
+
+    '13':
+      level: 1
+      description: Individual consumption expenditure of non-profit institutions serving households (NPISHs)
+      code:
+
+    '13.1':
+      level: 2
+      description: Housing
+      code:
+
+    '13.1.0':
+      level: 3
+      description: Housing (S)
+      code:
+
+    '13.2':
+      level: 2
+      description: Health
+      code:
+
+    '13.2.1':
+      level: 3
+      description: Pharmaceutical products (ND)
+      code:
+
+    '13.2.2':
+      level: 3
+      description: Other medical products (ND)
+      code:
+
+    '13.2.3':
+      level: 3
+      description: Therapeutic appliances and equipment (D)
+      code:
+
+    '13.2.4':
+      level: 3
+      description: Outpatient medical services (S)
+      code:
+
+    '13.2.5':
+      level: 3
+      description: Outpatient dental services (S)
+      code:
+
+    '13.2.6':
+      level: 3
+      description: Outpatient paramedical services (S)
+      code:
+
+    '13.2.7':
+      level: 3
+      description: Hospital services (S)
+      code:
+
+    '13.2.8':
+      level: 3
+      description: Other health services (S)
+      code:
+
+    '13.3':
+      level: 2
+      description: Recreation and culture
+      code:
+
+    '13.3.1':
+      level: 3
+      description: Recreational and sporting services (S)
+      code:
+
+    '13.3.2':
+      level: 3
+      description: Cultural services (S)
+      code:
+
+    '13.4':
+      level: 2
+      description: Education
+      code:
+
+    '13.4.1':
+      level: 3
+      description: Pre-primary and primary education (S)
+      code:
+
+    '13.4.2':
+      level: 3
+      description: Secondary education (S)
+      code:
+
+    '13.4.3':
+      level: 3
+      description: Post-secondary non-tertiary education (S)
+      code:
+
+    '13.4.4':
+      level: 3
+      description: Tertiary education (S)
+      code:
+
+    '13.4.5':
+      level: 2
+      description: Education not definable by level (S)
+      code:
+
+    '13.4.6':
+      level: 3
+      description: Other educational services (S)
+      code:
+
+    '13.5':
+      level: 2
+      description: Social protection
+      code:
+
+    '13.5.0':
+      level: 3
+      description: Social protection (S)
+      code:
+
+    '13.6':
+      level: 2
+      description: Other services
+      code:
+
+    '13.6.1':
+      level: 3
+      description: Religion (S)
+      code:
+
+    '13.6.2':
+      level: 3
+      description: Political parties, labour and professional organizations (S)
+      code:
+
+    '13.6.3':
+      level: 3
+      description: Environmental protection (S)
+      code:
+
+    '13.6.4':
+      level: 3
+      description: Services n.e.c. (S)
+      code:
+
+    '14':
+      level: 1
+      description: Individual consumption expenditure of general government
+      code:
+
+    '14.1':
+      level: 2
+      description: Housing
+      code:
+
+    '14.1.0':
+      level: 3
+      description: Housing (S)
+      code:
+
+    '14.2':
+      level: 2
+      description: Health
+      code:
+
+    '14.2.1':
+      level: 3
+      description: Pharmaceutical products (ND)
+      code:
+
+    '14.2.2':
+      level: 3
+      description: Other medical products (ND)
+      code:
+
+    '14.2.3':
+      level: 3
+      description: Therapeutic appliances and equipment (D)
+      code:
+
+    '14.2.4':
+      level: 3
+      description: Outpatient medical services (S)
+      code:
+
+    '14.2.5':
+      level: 3
+      description: Outpatient dental services (S)
+      code:
+
+    '14.2.6':
+      level: 3
+      description: Outpatient paramedical services (S)
+      code:
+
+    '14.2.7':
+      level: 3
+      description: Hospital services (S)
+      code:
+
+    '14.2.8':
+      level: 3
+      description: Public health services (S)
+      code:
+
+    '14.3':
+      level: 2
+      description: Recreation and culture
+      code:
+
+    '14.3.1':
+      level: 3
+      description: Recreational and sporting services (S)
+      code:
+
+    '14.3.2':
+      level: 3
+      description: Cultural services (S)
+      code:
+
+    '14.4':
+      level: 2
+      description: Education
+      code:
+
+    '14.4.1':
+      level: 3
+      description: Pre-primary and primary education (S)
+      code:
+
+    '14.4.2':
+      level: 3
+      description: Secondary education (S)
+      code:
+
+    '14.4.3':
+      level: 3
+      description: Post-secondary non-tertiary education (S)
+      code:
+
+    '14.4.4':
+      level: 3
+      description: Tertiary education (S)
+      code:
+
+    '14.4.5':
+      level: 3
+      description: Education not definable by level (S)
+      code:
+
+    '14.4.6':
+      level: 3
+      description: Subsidiary services to education (S)
+      code:
+
+    '14.5':
+      level: 2
+      description: Social protection
+      code:
+
+    '14.5.0':
+      level: 3
+      description: Social protection (S)
+      code:
