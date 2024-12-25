@@ -48,6 +48,10 @@ household_information:
     - drop_missings: ID
 
     - apply_function:
+        1387: hbsir.schema_functions.standard_tables.adjust_month
+        1400: null
+
+    - apply_function:
         1387: hbsir.schema_functions.standard_tables.create_season
         1396: null
 

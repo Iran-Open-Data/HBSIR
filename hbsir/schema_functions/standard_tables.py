@@ -26,6 +26,11 @@ def equivalence_scale(table: pd.DataFrame) -> pd.DataFrame:
     )
 
 
+def adjust_month(table: pd.DataFrame) -> pd.DataFrame:
+    table["Month"] = table["Month"].replace({1: 13}).sub(1)
+    return table
+
+
 def create_season(table: pd.DataFrame) -> pd.DataFrame:
     seasons = {1: "Spring", 2: "Summer", 3: "Autumn", 4: "Winter"}
     table["Season"] = pd.Series(
