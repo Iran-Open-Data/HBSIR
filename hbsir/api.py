@@ -198,7 +198,7 @@ def load_knowledge(
 
 def add_attribute(
     table: pd.DataFrame,
-    name: _Attribute,
+    name: _Attribute | str,
     *,
     aspects: Iterable[str] | str | None = None,
     column_names: Iterable[str] | str | None = None,
