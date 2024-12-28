@@ -52,6 +52,7 @@ _Table = Literal[
     "old_agricultural_self_employed_income",
     "old_non_agricultural_self_employed_income",
     "old_other_income",
+    "Season",
     "Weight",
     "Number_of_Members",
     "Equivalence_Scale",
