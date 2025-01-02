@@ -791,16 +791,16 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0111_71':
       level: 5
-      label: all_kinds_of_biscuit_and_wafer
-      name: All Kinds of Biscuit and Wafer
+      label: biscuit_and_wafer
+      name: Biscuit and Wafer
       farsi_name: انواع بیسکوییت و ویفر
       code: 11_171
 
     #                              ## LEVEL 5 ##                              #
     '0111_72':
       level: 5
-      label: all_kinds_of_cake
-      name: All Kinds of Cake
+      label: cake
+      name: Cake
       farsi_name: انواع کیک ساده
       code: 11_172
 
@@ -813,8 +813,8 @@ sci_coicop_1383: &sci_coicop_1383
           name: null
           farsi_name: null
         1386:
-          label: all_kinds_of_sweeter_and_dry_sweets
-          name: All Kinds of Sweeter and Dry Sweets
+          label: sweeter_and_dry_sweets
+          name: Sweeter and Dry Sweets
           farsi_name: انواع شیرینی تر و خشک
       code: 11_173
 
@@ -827,8 +827,8 @@ sci_coicop_1383: &sci_coicop_1383
           name: null
           farsi_name: null
         1386:
-          label: all_kinds_of_dry_sweets
-          name: All Kinds of Dry Sweets
+          label: dry_sweets
+          name: Dry Sweets
           farsi_name: انواع شیرینی خشک
       code: 11_174
 
@@ -841,8 +841,8 @@ sci_coicop_1383: &sci_coicop_1383
           name: null
           farsi_name: null
         1386:
-          label: all_kinds_of_baking_powder
-          name: All Kinds of Baking Powder
+          label: baking_powder
+          name: Baking Powder
           farsi_name: انواع پودر کیک و شیرینی
       code: 11_175
 
@@ -957,14 +957,14 @@ sci_coicop_1383: &sci_coicop_1383
           label: ghormeh_meat_salted_meat_and_similars
           name: Ghormeh Meat, Salted Meat and Similars
           farsi_name: >
-          گوشت قورمه، نمک سود و نظایر آن و سایر انواع گوشت دام که 
-          در بالا اشاره نشده است
+           گوشت قورمه، نمک سود و نظایر آن و سایر انواع گوشت دام که 
+           در بالا اشاره نشده است
         1386:
           label: ghormeh_meat_game_meat_salted_meat_and_similars
           name: Ghormeh Meat, Game Meat, Salted Meat and Similars
           farsi_name: >
-          گوشت قورمه، شکار، نمک سود و ... و سایر انواع گوشت دام که 
-          در بالا اشاره نشده است
+           گوشت قورمه، شکار، نمک سود و ... و سایر انواع گوشت دام که
+           در بالا اشاره نشده است
 
 
       code: 11_221
@@ -1001,7 +1001,7 @@ sci_coicop_1383: &sci_coicop_1383
           label: canned_tongue_head_and_trotters_and_other_canned_red_meats
           name: Canned Tongue, Head and Trotters and Other Canned Red Meats
           farsi_name: >
-          کنسرو زبان، کله پاچه و ... و سایر گوشت های قرمز کنسرو شده
+           کنسرو زبان، کله پاچه و ... و سایر گوشت های قرمز کنسرو شده
       code: 11_224
 
     #                            #### LEVEL 4 ####                            #
@@ -1287,7 +1287,8 @@ sci_coicop_1383: &sci_coicop_1383
         1389:
           label: oysters_caviar_and_espel
           name: Oysters, Caviar and Espel
-          farsi_name: انواع صدف، خاویار (از ماهیان خاویاری) و اشپیل (تخم ماهی)
+          farsi_name: >
+           انواع صدف، خاویار (از ماهیان خاویاری) و اشپیل (تخم ماهی)
       code: 11_319
 
     #                              ## LEVEL 5 ##                              #
@@ -1419,16 +1420,16 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0114_23':
       level: 5
-      label: all_kinds_of_ice_cream
-      name: All Kinds of Ice Cream
+      label: ice_cream
+      name: Ice Cream
       farsi_name: انواع بستنی شیری و میوه‌ای
       code: 11_423
 
     #                              ## LEVEL 5 ##                              #
     '0114_24':
       level: 5
-      label: all_kinds_of_pasteurized_yogurt
-      name: All Kinds of Pasteurized Yogurt
+      label: pasteurized_yogurt
+      name: Pasteurized Yogurt
       farsi_name: انواع ماست پاستوریزه
       code: 11_424
 
@@ -1442,8 +1443,8 @@ sci_coicop_1383: &sci_coicop_1383
           farsi_name: >
            ماست معمولی (غیر پاستوریزه) ماست کیسه ای و ماست موسیر
         1387:
-          label: all_kinds_of_Ordinary_yogurt_unpasteurized
-          name: All Kinds of Ordinary Yogurt (Unpasteurized)
+          label: ordinary_yogurt_unpasteurized
+          name: Ordinary Yogurt (Unpasteurized)
           farsi_name: انواع ماست معمولی (غیر پاستوریزه)
       code: 11_425
 
@@ -1545,8 +1546,9 @@ sci_coicop_1383: &sci_coicop_1383
 
     #                        ######## LEVEL 3 ########                        #
     '0115':
-      label: oils_fats_and_butter
       level: 3
+      label: oils_fats_and_butter
+      name: Oils, Fats and Butter
       farsi_name: روغن‌ها، چربی‌ها و کره
       code: {start: 11_500, end: 11_600}
 
@@ -1554,20 +1556,23 @@ sci_coicop_1383: &sci_coicop_1383
     '0115_1':
       level: 4
       label: animal_oils_and_fats_excluding_butter
+      name: Animal Oils and Fats (Excluding Butter)
       farsi_name: روغن‌ها و چربی‌های حیوانی (به جز کره)
       code: {start: 11_510, end: 11_520}
 
     #                              ## LEVEL 5 ##                              #
     '0115_11':
       level: 5
-      label: 
+      label: animal_oils_kermanshahi_oil_and_similars
+      name: Animal Oils (Kermanshahi Oil and Similars)
       farsi_name: انواع روغن حیوانی (روغن کرمانشاهی و مشابه آن)
       code: 11_511
 
     #                              ## LEVEL 5 ##                              #
     '0115_12':
       level: 5
-      label: 
+      label: fat
+      name: Fat
       farsi_name: دنبه و پیه
       code: 11_512
 
@@ -1575,6 +1580,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0115_2':
       level: 4
       label: butter
+      name: Butter
       farsi_name: انواع کره
       code: {start: 11_520, end: 11_530}
 
@@ -1582,6 +1588,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0115_21':
       level: 5
       label: pasteurized_butter
+      name: Psateurized Butter
       farsi_name: کره پاستوریزه
       code: 11_521
 
@@ -1589,20 +1596,23 @@ sci_coicop_1383: &sci_coicop_1383
     '0115_22':
       level: 5
       label: unpasteurized_butter
-      farsi_name: کره غیر پاستوریزه
+      name: Unpasteurized Butter
+      farsi_name: انواع کره غیر پاستوریزه
       code: 11_522
 
     #                              ## LEVEL 5 ##                              #
     '0115_23':
       level: 5
       label: vegan_butter
-      farsi_name: کره غیر حیوانی
+      name: Vegan Butter
+      farsi_name: انواع کره غیر حیوانی
       code: 11_523
 
     #                            #### LEVEL 4 ####                            #
     '0115_3':
-      label: vegetable_oils
       level: 4
+      label: vegetable_oils
+      name: Vegetable Oils
       farsi_name: روغن‌های نباتی
       code: {start: 11_530, end: 11_540}
 
@@ -1610,6 +1620,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0115_31':
       level: 5
       label: solid_vegetable_oils_and_margarine
+      name: Solid Vegetable Oils and Margarine
       farsi_name: انواع روغن نباتی جامد و مارگارین
       code: 11_531
 
@@ -1617,6 +1628,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0115_32':
       level: 5
       label: olive_oil
+      name: Olive Oil
       farsi_name: روغن زیتون
       code: 11_532
 
@@ -1624,13 +1636,15 @@ sci_coicop_1383: &sci_coicop_1383
     '0115_33':
       level: 5
       label: other_liquid_vegetable_oils
+      name: Other Liquid Vegetable Oils
       farsi_name: سایر انواع روغن نباتی مایع (ذرت، کنجد، آفتابگردان و ...)
       code: 11_533
 
     #                        ######## LEVEL 3 ########                        #
     '0116':
-      label: fruits_and_nuts
       level: 3
+      label: fruits_and_nuts
+      name: Fruits and Nuts
       farsi_name: میوه‌ها و خشکبار
       code: {start: 11_600, end: 11_700}
 
@@ -1638,6 +1652,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0116_1-0116_2-0116_3':
       level: 4
       label: tree_fruits
+      name: Tree Fruits
       farsi_name: میوه‌های درختی
       code: {start: 11_610, end: 11_640}
 
@@ -1645,6 +1660,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0116_11':
       level: 5
       label: apple
+      name: Apple
       farsi_name: سیب درختی
       code: 11_611
 
@@ -1652,48 +1668,55 @@ sci_coicop_1383: &sci_coicop_1383
     '0116_12':
       level: 5
       label: pear
+      name: Pear
       farsi_name: گلابی
       code: 11_612
 
     #                              ## LEVEL 5 ##                              #
     '0116_13':
       level: 5
-      label: plum
+      label: apricot_plum_and_greengage
+      name: Apricot, Plum and Greengage
       farsi_name: زردآلو، آلو و گوجه سبز
       code: 11_613
 
     #                              ## LEVEL 5 ##                              #
     '0116_14':
       level: 5
-      label: peach
+      label: peach_and_nectarine
+      name: Peach and Nectarine
       farsi_name: هلو، شلیل و شفتالو
       code: 11_614
 
     #                              ## LEVEL 5 ##                              #
     '0116_15':
       level: 5
-      label: cherry
-      farsi_name: آلبالو وگیلاس
+      label: sour_cherry_and_cherry
+      name: Sour Cherry and Cherry
+      farsi_name: آلبالو و گیلاس
       code: 11_615
 
     #                              ## LEVEL 5 ##                              #
     '0116_16':
       level: 5
       label: berries
+      name: Berries
       farsi_name: توت، شاه‌توت،توت فرنگی و تمشک
       code: 11_616
 
     #                              ## LEVEL 5 ##                              #
     '0116_17':
       level: 5
-      label: grapes
-      farsi_name: انگور
+      label: grapes_excluding_sour_grape
+      name: Grapes (Excluding Sour Grape)
+      farsi_name: انگور (به جز غوره)
       code: 11_617
 
     #                              ## LEVEL 5 ##                              #
     '0116_18':
       level: 5
-      label: fig_quince_persimmon
+      label: fig_medlar_quince_persimmon_hawthorn_and_blueberry
+      name: Fig, Medlar, Quince, Persimmon, Hawthorn and Blueberry
       farsi_name: انجیر تازه، ازگیل، به،خرمالو، زالزالک و زغال اخته
       code: 11_618
 
@@ -1701,6 +1724,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0116_19':
       level: 5
       label: pomegranate
+      name: Pomegranate
       farsi_name: انار
       code: 11_619
 
@@ -1708,6 +1732,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0116_21':
       level: 5
       label: banana_and_coconut
+      name: Banana and Coconut
       farsi_name: موز و نارگیل
       code: 11_621
 
@@ -1715,27 +1740,31 @@ sci_coicop_1383: &sci_coicop_1383
     '0116_22':
       level: 5
       label: date
-      farsi_name: خرمای تازه
+      name: Date
+      farsi_name: خرمای تازه (رطب، خارک و ...)
       code: 11_622
 
     #                              ## LEVEL 5 ##                              #
     '0116_23':
       level: 5
-      label: 
+      label: pistachio
+      name: Pistachio
       farsi_name: پسته تازه
       code: 11_623
 
     #                              ## LEVEL 5 ##                              #
     '0116_24':
       level: 5
-      label: 
+      label: walnut_hazelnut_and_almond
+      name: Walnut, hazelnut and Almond
       farsi_name: گردو تازه، فندق تازه و بادام تازه
       code: 11_624
 
     #                              ## LEVEL 5 ##                              #
     '0116_25':
       level: 5
-      label: 
+      label: pineapple_green_almond_and_other_tree_fruits
+      name: Pineapple, Green Almond and Other Tree Fruits
       farsi_name: آناناس، چغاله بادام و سایر میوه‌های درختی
       code: 11_625
 
@@ -1743,6 +1772,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0116_31':
       level: 5
       label: orange
+      name: Orange
       farsi_name: پرتقال
       code: 11_631
 
@@ -1750,27 +1780,31 @@ sci_coicop_1383: &sci_coicop_1383
     '0116_32':
       level: 5
       label: tangerine
+      name: Tangerine
       farsi_name: نارنگی
       code: 11_632
 
     #                              ## LEVEL 5 ##                              #
     '0116_33':
       level: 5
-      label: 
+      label: sweet_lemon
+      name: Sweet Lemon
       farsi_name: لیمو شیرین
       code: 11_633
 
     #                              ## LEVEL 5 ##                              #
     '0116_34':
       level: 5
-      label: 
+      label: kiwi
+      name: Kiwi
       farsi_name: کیوی
       code: 11_634
 
     #                              ## LEVEL 5 ##                              #
     '0116_35':
       level: 5
-      label: 
+      label: sour_lemon_grapefriut_citron_and_other_citrus_fruits
+      name: Sour Lemon, Grapefruit, Citron and Other Citrus Fruits
       farsi_name: >
         لیموترش، گریپ‌فروت، بالنگ، نارنج، ترنج و سایر انواع مرکبات
       code: 11_635
@@ -1779,6 +1813,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0116_4':
       level: 4
       label: cucurbit_fruits
+      name: Cucurbit Fruits
       farsi_name: میوه‌های جالیزی
       code: {start: 11_640, end: 11_650}
 
@@ -1786,6 +1821,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0116_41':
       level: 5
       label: persian_melon
+      name: Persian Melon
       farsi_name: خربزه
       code: 11_641
 
@@ -1793,6 +1829,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0116_42':
       level: 5
       label: watermelon
+      name: Watermelon
       farsi_name: هندوانه
       code: 11_642
 
@@ -1800,6 +1837,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0116_43':
       level: 5
       label: other_melons
+      name: Other Melons
       farsi_name: طالبی، گرمک، دستنبو و سایر میوه‌های جالیزی
       code: 11_643
 
@@ -1813,91 +1851,104 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0116_51':
       level: 5
-      label: 
+      label: dried_fruit_peach_and_apricot
+      name: Dried Fruit (Peach and Apricot)
       farsi_name: برگه (هلو و زردآلو)
       code: 11_651
 
     #                              ## LEVEL 5 ##                              #
     '0116_52':
       level: 5
-      label: 
+      label: raisin_and_currant
+      name: Raisin and Currant
       farsi_name: کشمش و مویز
       code: 11_652
 
     #                              ## LEVEL 5 ##                              #
     '0116_53':
       level: 5
-      label: 
+      label: dried_date
+      name: Dried Date
       farsi_name: خرمای خشک
       code: 11_653
 
     #                              ## LEVEL 5 ##                              #
     '0116_54':
       level: 5
-      label: 
+      label: plums
+      name: Plums
       farsi_name: انواع آلو
       code: 11_654
 
     #                              ## LEVEL 5 ##                              #
     '0116_55':
       level: 5
-      label: 
+      label: nutmeg_and_fruit_leather
+      name: Nutmeg and Fruit Leather
       farsi_name: جوزقند و لواشک
       code: 11_655
 
     #                              ## LEVEL 5 ##                              #
     '0116_56':
       level: 5
-      label: 
+      label: walnut
+      name: Walnut
       farsi_name: گردو و مغز آن
       code: 11_656
 
     #                              ## LEVEL 5 ##                              #
     '0116_57':
       level: 5
-      label: 
+      label: hazelnut
+      name: Hazelnut
       farsi_name: فندق و مغز آن
       code: 11_657
 
     #                              ## LEVEL 5 ##                              #
     '0116_58':
       level: 5
-      label: 
+      label: pistachio
+      name: Pistachio
       farsi_name: پسته و مغز آن
       code: 11_658
 
     #                              ## LEVEL 5 ##                              #
     '0116_59':
       level: 5
-      label: 
+      label: almond
+      name: Almond
       farsi_name: بادام و مغز آن
       code: 11_659
 
     #                              ## LEVEL 5 ##                              #
     '0116_61':
       level: 5
-      label: kuaci
+      label: nutmeats_pumpkin_watermelon_sunflower_and_japanese_seeds
+      name: Nutmeats (Pumpkin, Watermelon, Sunflower and Japanese Seeds)
       farsi_name: انواع تخمه (کدو، هندوانه، آفتابگردان و ژاپنی)
       code: 11_661
 
     #                              ## LEVEL 5 ##                              #
     '0116_62':
       level: 5
-      label: 
+      label: mixed_nuts
+      name: Mixed Nuts
       farsi_name: انواع آجیل مخلوط
       code: 11_662
 
     #                              ## LEVEL 5 ##                              #
     '0116_63':
       level: 5
-      label: 
+      label: leblebi
+      name: Leblebi
       farsi_name: نخودچی و نخودچی کشمش
       code: 11_663
 
     #                              ## LEVEL 5 ##                              #
     '0116_64':
       level: 5
-      label: 
+      label: cannabis_sesame_popcorn_oleaster_and_jujube
+      name: Cannabis, Sesame, Popcorn, Oleaster and Jujube
       farsi_name: >
         گندم، شاهدانه، برنج بوداده، کنجد، ذرت بوداده، سنجد و عناب
       code: 11_664
@@ -1905,50 +1956,57 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0116_65':
       level: 5
-      label: crisps
+      label: potato_chips_and_cheese_curls
+      name: Potato Chips and Cheese Curls
       farsi_name: چیپس و پفک
       code: 11_665
 
     #                              ## LEVEL 5 ##                              #
     '0116_66':
       level: 5
-      label: 
+      label: dried_coconut_and_gheysi
+      name: Dried Coconut and gheysi
       farsi_name: نارگیل (خشک) و قیسی
       code: 11_666
 
     #                              ## LEVEL 5 ##                              #
     '0116_67':
       level: 5
-      label: 
+      label: cashew_nut_apricot_nut_and_other_nuts
+      name: Cashew Nut, Apricot Nut and Other Nuts
       farsi_name: بادام هندی، مغز هسته زردآلو و سایر انواع خشکبار
       code: 11_667
 
     #                              ## LEVEL 5 ##                              #
     '0116_68':
       level: 5
-      label: 
+      label: dried_fig_and_dried_berries
+      name: Dreid Fig and Dried Berries
       farsi_name: انجیر خشک و توت خشک
       code: 11_668
 
     #                              ## LEVEL 5 ##                              #
     '0116_69':
       level: 5
-      label: 
+      label: dried_plum_and_dried_cherry
+      name: Dried Plum and Dried Cherry
       farsi_name: آلوچه و آلبالو خشک
       code: 11_669
 
 
     #                        ######## LEVEL 3 ########                        #
     '0117':
+      level: 3 
       label: vegetables_and_pulses
-      level: 3
+      name: Vegetables and Pulses
       farsi_name: سبزی‌ها و حبوبات
       code: {start: 11_700, end: 11_800}
 
     #                            #### LEVEL 4 ####                            #
     '0117_1':
       level: 4
-      label: leafy_or_stem_vegetables
+      label: leafy_vegetables
+      name: Leafy Vegetables
       farsi_name: سبزی‌های برگی
       code: {start: 11_710, end: 11_720}
 
@@ -1956,13 +2014,15 @@ sci_coicop_1383: &sci_coicop_1383
     '0117_11':
       level: 5
       label: lettuce
+      name: Lettuce
       farsi_name: کاهو
       code: 11_711
 
     #                              ## LEVEL 5 ##                              #
     '0117_12':
       level: 5
-      label: cabbages_rheum_celery_etc
+      label: cabbages_rheum_celery_and_others
+      name: Cabbages, Rheum, Celery and Others
       farsi_name: کلم، ریواس، کرفس، کنگر، برگ‌مو، برگ‌گل، والک و بیدمشک
       code: 11_712
 
@@ -1970,6 +2030,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0117_13':
       level: 5
       label: sabzi_khordan
+      name: Sabzi Khordan
       farsi_name: سبزی خوردن
       code: 11_713
 
@@ -1977,6 +2038,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0117_14':
       level: 5
       label: other_sabzi
+      name: Other Sabzi
       farsi_name: انواع سبزی (آش، پلو، کوکو، قرمه)
       code: 11_714
 
@@ -1984,13 +2046,15 @@ sci_coicop_1383: &sci_coicop_1383
     '0117_15':
       level: 5
       label: spinach
+      name: Spinach
       farsi_name: اسفناج
       code: 11_715
 
     #                              ## LEVEL 5 ##                              #
     '0117_16':
       level: 5
-      label: 
+      label: mushroom
+      name: Mushroom
       farsi_name: قارچ
       code: 11_716
 
@@ -1998,6 +2062,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0117_2':
       level: 4
       label: fruit_bearing_vegetables
+      name: Fruit Bearing Vegetables
       farsi_name: سبزی‌های بوته‌ای
       code: {start: 11_720, end: 11_730}
 
@@ -2005,48 +2070,55 @@ sci_coicop_1383: &sci_coicop_1383
     '0117_21':
       level: 5
       label: cucumber
-      farsi_name: خیار
+      name: Cucumber
+      farsi_name: انواع خیار
       code: 11_721
 
     #                              ## LEVEL 5 ##                              #
     '0117_22':
       level: 5
       label: cucurbita
-      farsi_name: کدو
+      name: Cucurbita
+      farsi_name: انواع کدو
       code: 11_722
 
     #                              ## LEVEL 5 ##                              #
     '0117_23':
       level: 5
       label: aubergine
-      farsi_name: بادنجان
+      name: Aubergine
+      farsi_name: انواع بادنجان
       code: 11_723
 
     #                              ## LEVEL 5 ##                              #
     '0117_24':
       level: 5
       label: tomato
+      name: Tomato
       farsi_name: گوجه فرنگی
       code: 11_724
 
     #                              ## LEVEL 5 ##                              #
     '0117_25':
       level: 5
-      label: 
+      label: peas_okra_snap_bean_and_broad_bean
+      name: Peas, Okra, Snap Bean and Broad Bean
       farsi_name: نخود فرنگی، بامیه، لوبیا سبز و باقالا سبز
       code: 11_725
 
     #                              ## LEVEL 5 ##                              #
     '0117_26':
       level: 5
-      label: 
+      label: green_pepper_and_bell_pepper
+      name: Green Pepper and Bell Pepper
       farsi_name: انواع فلفل سبز و فلفل دلمه
       code: 11_726
 
     #                              ## LEVEL 5 ##                              #
     '0117_27':
       level: 5
-      label: 
+      label: other_fruit_bearing_pepper
+      name: Pther Fruit Bearing Pepper
       farsi_name: سایر انواع سبزی‌های بوته‌ای
       code: 11_727
 
@@ -2061,13 +2133,15 @@ sci_coicop_1383: &sci_coicop_1383
     '0117_31':
       level: 5
       label: potato
-      farsi_name: سیب‌زمینی
+      name: Potato
+      farsi_name: سیب‌زمینی (پشندی، آلفا، استانبولی و ...)
       code: 11_731
 
     #                              ## LEVEL 5 ##                              #
     '0117_32':
       level: 5
       label: onion
+      name: Onion
       farsi_name: پیاز
       code: 11_732
 
@@ -2075,20 +2149,23 @@ sci_coicop_1383: &sci_coicop_1383
     '0117_33':
       level: 5
       label: garlic
-      farsi_name: سیر
+      name: Garlic
+      farsi_name: سیر خشک و تازه
       code: 11_733
 
     #                              ## LEVEL 5 ##                              #
     '0117_34':
       level: 5
       label: carrot
-      farsi_name: هویج
+      name: Carrot
+      farsi_name: انواع هویج
       code: 11_734
 
     #                              ## LEVEL 5 ##                              #
     '0117_35':
       level: 5
       label: other_root_vegetables
+      name: Other Root Vegetables
       farsi_name: >
         چغندر، شلغم، انواع ترب، سیب‌زمینی ترشی، 
         موسیر و سایر انواع سبزی‌های ریشه‌ای
@@ -2098,20 +2175,23 @@ sci_coicop_1383: &sci_coicop_1383
     '0117_4':
       level: 4
       label: other_vegetables
+      name: Other Vegetables
       farsi_name: سایر انواع سبزی
       code: {start: 11_740, end: 11_750}
 
     #                              ## LEVEL 5 ##                              #
     '0117_41':
       level: 5
-      label: 
-      farsi_name: زیتون
+      label: olive
+      name: Olive
+      farsi_name: زیتون تازه
       code: 11_741
 
     #                              ## LEVEL 5 ##                              #
     '0117_42':
       level: 5
-      label: 
+      label: sweet_corn
+      name: Sweet Corn
       farsi_name: ذرت شیرین
       code: 11_742
 
@@ -2119,27 +2199,31 @@ sci_coicop_1383: &sci_coicop_1383
     '0117_5':
       level: 4
       label: prepared_vegetables
+      name: Prepared Vegetables
       farsi_name: سبزی‌های آماده بسته‌بندی شده
       code: {start: 11_750, end: 11_760}
 
     #                              ## LEVEL 5 ##                              #
     '0117_51':
       level: 5
-      label: 
+      label: dried_vegetables
+      name: Dried Vegetables
       farsi_name: انواع سبزی خشک شده
       code: 11_751
 
     #                              ## LEVEL 5 ##                              #
     '0117_52':
       level: 5
-      label: 
+      label: packaged_vegetables
+      name: Packaged Vegetables
       farsi_name: سبزی‌های بسته‌بندی شده آماده
       code: 11_752
 
     #                              ## LEVEL 5 ##                              #
     '0117_53':
       level: 5
-      label: 
+      label: canned_vegetables
+      name: Canned Vegetables
       farsi_name: >
         سبزی‌های کنسرو شده (نخود سبز، لوبیا سبز، ذرت، قارچ، اسفناج و ...)
       code: 11_753
@@ -2147,7 +2231,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0117_54':
       level: 5
-      label: 
+      label: payments_for_prepared_vegetables
+      name: Payments for Prepared Vegetables
       farsi_name: اجرت خدمات آماده‌سازی انواع سبزی‌ها (پاک کردن و خرد کردن)
       code: 11_754
 
@@ -2155,6 +2240,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0117_6':
       level: 4
       label: pulses
+      name: Pulses
       farsi_name: حبوب
       code: {start: 11_760, end: 11_770}
 
@@ -2162,6 +2248,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0117_61':
       level: 5
       label: chickpea
+      name: Chickpea
       farsi_name: نخود
       code: 11_761
 
@@ -2169,6 +2256,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0117_62':
       level: 5
       label: split_pea
+      name: Split Pea
       farsi_name: لپه نخود
       code: 11_762
 
@@ -2176,6 +2264,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0117_63':
       level: 5
       label: pinto_bean
+      name: Pinto Bean
       farsi_name: لوبیا چیتی
       code: 11_763
 
@@ -2183,6 +2272,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0117_64':
       level: 5
       label: kidney_bean
+      name: Kidney Bean
       farsi_name: لوبیا قرمز
       code: 11_764
 
@@ -2190,13 +2280,15 @@ sci_coicop_1383: &sci_coicop_1383
     '0117_65':
       level: 5
       label: other_beans
-      farsi_name: سایر انواع لوبیا
+      name: Other Bean
+      farsi_name: سایر انواع لوبیا (چشم بلبلی و سفید)
       code: 11_765
 
     #                              ## LEVEL 5 ##                              #
     '0117_66':
       level: 5
       label: soybean
+      name: Soybean
       farsi_name: سویا
       code: 11_766
 
@@ -2204,6 +2296,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0117_67':
       level: 5
       label: mixed_chickpea_and_bean
+      name: Mixed Chickpea and Bean
       farsi_name: نخود و لوبیای مخلوط
       code: 11_767
 
@@ -2211,6 +2304,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0117_68':
       level: 5
       label: lentil
+      name: Lentil
       farsi_name: عدس
       code: 11_768
 
@@ -2218,6 +2312,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0117_69':
       level: 5
       label: other_pulses
+      name: Other Pulses
       farsi_name: ماش، باقالا خشک، لپه‌باقالا، جوانه انواع حبوب و سایر حبوب
       code: 11_769
 
@@ -2226,6 +2321,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0118':
       level: 3
       label: sugar_confectionery_and_desserts
+      name: Sugar, Confectionery and Desserts
       farsi_name: قند و شکر، مرباها و شیرینی‌ها
       code: {start: 11_800, end: 11_900}
 
@@ -2233,6 +2329,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0118_1':
       level: 4
       label: sugar
+      name: Sugar
       farsi_name: قند و شکر
       code: {start: 11_810, end: 11_820}
 
@@ -2241,34 +2338,40 @@ sci_coicop_1383: &sci_coicop_1383
     '0118_11':
       level: 5
       label: cube_sugar
-      farsi_name: قند
+      name: Cube Sugar
+      farsi_name: >
+       قند (حبه‌ای، کلوخه‌ای، مصنوعی یا رژیمی، پودر قند یا خاک قند)
       code: 11_811
 
     #                              ## LEVEL 5 ##                              #
     '0118_12':
       level: 5
       label: other_sugars
-      farsi_name: شکر
+      name: Other Sugars
+      farsi_name: انواع شکر
       code: 11_812
 
     #                            #### LEVEL 4 ####                            #
     '0118_2':
       level: 4
       label: confectionery_and_desserts
+      name: Confectionary and Desserts
       farsi_name: مرباها و شیرینی‌ها
       code: {start: 11_820, end: 11_850}
 
     #                              ## LEVEL 5 ##                              #
     '0118_21':
       level: 5
-      label: 
+      label: honey
+      name: Honey
       farsi_name: انواع عسل (شهد و با موم)
       code: 11_821
 
     #                              ## LEVEL 5 ##                              #
     '0118_22':
       level: 5
-      label: 
+      label: grape_molasses_date_syrup_and_others
+      name: Grape Molasses, Date Syrup and Others
       farsi_name: شیره (انگور و خرما و ...)
       code: 11_822
 
@@ -2276,20 +2379,23 @@ sci_coicop_1383: &sci_coicop_1383
     '0118_23':
       level: 5
       label: jam
+      name: Jam
       farsi_name: مربا
       code: 11_823
 
     #                              ## LEVEL 5 ##                              #
     '0118_31':
       level: 5
-      label: 
+      label: sugar_halva_arde_halva_and_arde
+      name: Sugar Halva, Arde Halva and Arde
       farsi_name: حلوا شکری، حلوا ارده و ارده
       code: 11_831
 
     #                              ## LEVEL 5 ##                              #
     '0118_32':
       level: 5
-      label: 
+      label: masqati_jello_caramel_cream_gummy_turkish_paste_and_samanu
+      name: Masqati, Jello, Caramel Cream, Gummy, Turkish Paste and Samanu
       farsi_name: >
         مسقطی، ژله، باسلق، کرم کارامل، پاستیل، راحت الحلقوم و سمنو
       code: 11_832
@@ -2297,46 +2403,68 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0118_33':
       level: 5
-      label: 
+      label: nougat
+      name: Nougat 
       farsi_name: انواع گز
       code: 11_833
 
     #                              ## LEVEL 5 ##                              #
     '0118_34':
       level: 5
-      label: 
+      label: sohan
+      name: Sohan
       farsi_name: انواع سوهان
       code: 11_834
 
     #                              ## LEVEL 5 ##                              #
     '0118_35':
       level: 5
-      label: 
-      farsi_name: باقلوا، زولبیا، بامیه، قطاب، رسته خوشکار و ...
+      versions:
+        1383:
+          label: baklava_zoolbia_bamie_cotton_candy_qotab_and_similars
+          name: Baklava, Zoolbia, Bamie, Cotton Candy, Qotab and Similars
+          farsi_name: باقلوا، زولبیا، بامیه، پشمک، قطاب و نظایر آن
+        1384:
+          label: baklava_zoolbia_bamie_cotton_candy_qotab_reshte_and_similars
+          name: >
+           Baklava, Zoolbia, Bamie, Cotton Candy, Qotab, reshte and Similars
+          farsi_name: >
+           باقلوا، زولبیا، بامیه، پشمک، قطاب، رشته خودکار و نظایر آن
       code: 11_835
 
     #                              ## LEVEL 5 ##                              #
     '0118_36':
       level: 5
-      label: 
-      farsi_name:
-        1383: انواع شیرینی تر و کیک
-        1386: null
+      versions:
+        1383:
+          label: sweeters_and_cake
+          name: Sweeters and Cake
+          farsi_name: انواع شیرینی تر و کیک
+        1386:
+          label: null
+          name: null
+          farsi_name: null
       code: 11_836
 
     #                              ## LEVEL 5 ##                              #
     '0118_37':
       level: 5
-      label: 
-      farsi_name:
-        1383: انواع شیرینی خشک
-        1386: null
+      versions:
+        1383:
+          label: shirini_khoshk
+          name: Shirini Khoshk
+          farsi_name: انواع شیرینی خشک
+        1386:
+          label: null
+          name: null
+          farsi_name: null
       code: 11_837
 
     #                              ## LEVEL 5 ##                              #
     '0118_38':
       level: 5
-      label: 
+      label: non_medicinal_drinks_and_serkeshire
+      name: Non Medicinal Drinks and Serkeshire
       farsi_name: شربت‌های غیر طبی و سرکه شیره
       code: 11_838
 
@@ -2344,6 +2472,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0118_39':
       level: 5
       label: chocolate
+      name: Chocolate
       farsi_name: انواع شکلات
       code: 11_839
 
@@ -2351,6 +2480,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0118_41':
       level: 5
       label: other_sweets
+      name: Otehr Sweets
       farsi_name: >
         آب‌نبات و پولکی، نبات، نقل، پشمک، شکر پنیر و سایر انواع شیرینی
       code: 11_841
@@ -2359,45 +2489,58 @@ sci_coicop_1383: &sci_coicop_1383
     '0118_42':
       level: 5
       label: chewing_gum
-      farsi_name: آدامس
+      name: Chewing Gum
+      farsi_name: آدامس، سقز و ...
       code: 11_842
 
     #                              ## LEVEL 5 ##                              #
     '0118_43':
       level: 5
-      label: 
+      label: compote
+      name: Compote
       farsi_name: انواع کمپوت
       code: 11_843
 
     #                              ## LEVEL 5 ##                              #
     '0118_44':
       level: 5
-      label: 
+      label: frozen_ice_cream
+      name: Frozen Ice Cream
       farsi_name: آلاسکا و بستنی یخی (غیر شیری)، یخمک
       code: 11_844
 
     #                              ## LEVEL 5 ##                              #
     '0118_45':
       level: 5
-      label: 
+      label: faloode
+      name: Faloode
       farsi_name: فالوده
       code: 11_845
 
     #                              ## LEVEL 5 ##                              #
     '0118_46':
       level: 5
-      label: 
-      farsi_name:
-        1383: null
-        1384: انواع پودر کیک و شیرینی
-        1386: null
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: backing_powder
+          name: Backing Powder
+          farsi_name: انواع پودر کیک و شیرینی
+        1386:
+          label: null
+          name: null
+          farsi_name: null
       code: 11_846
 
 
     #                        ######## LEVEL 3 ########                        #
     '0119':
-      label: spices_condiments_and_other_food_products
       level: 3
+      label: spices_condiments_and_other_food_products
+      name: Spices, Condiments and other Food Products
       farsi_name: ادویه‌ها، چاشنی‌ها و سایر ترکیبات خوراکی
       code: {start: 11_900, end: 12_000}
 
@@ -2405,6 +2548,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0119_1':
       level: 4
       label: spices
+      name: Spices
       farsi_name: انواع ادویه
       code: {start: 11_910, end: 11_920}
 
@@ -2412,13 +2556,15 @@ sci_coicop_1383: &sci_coicop_1383
     '0119_11':
       level: 5
       label: salt
-      farsi_name: نمک
+      name: Salt
+      farsi_name: انواع نمک (کوبیده)
       code: 11_911
 
     #                              ## LEVEL 5 ##                              #
     '0119_12':
       level: 5
       label: salt_stone
+      name: Salt Stone
       farsi_name: سنگ نمک
       code: 11_912
 
@@ -2426,6 +2572,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0119_13':
       level: 5
       label: pepper
+      name: Pepper
       farsi_name: فلفل
       code: 11_913
 
@@ -2433,6 +2580,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0119_14':
       level: 5
       label: turmeric
+      name: Turmeric
       farsi_name: زردچوبه
       code: 11_914
 
@@ -2440,6 +2588,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0119_15':
       level: 5
       label: saffron
+      name: Saffron
       farsi_name: زعفران
       code: 11_915
 
@@ -2447,27 +2596,31 @@ sci_coicop_1383: &sci_coicop_1383
     '0119_16':
       level: 5
       label: cinnamon_cardamom_ginger_and_golpar
+      name: Cinnamon, Cardamom, Ginger and Golapr
       farsi_name: دارچین، هل، زنجبیل و گلپر
       code: 11_916
 
     #                              ## LEVEL 5 ##                              #
     '0119_17':
       level: 5
-      label: other_spices
+      label: dried_lime_sumac_curry_mustard_and_other_spices
+      name: Dried Lime, Sumac, Curry, Mustard and Other Spices
       farsi_name: لیموعمانی، سماق، كاری، خردل و سایر انواع ادویه
       code: 11_917
 
     #                              ## LEVEL 5 ##                              #
     '0119_18':
       level: 5
-      label: 
+      label: barberry_cumin
+      name: Barberry, Cumin
       farsi_name: زرشک، زیره
       code: 11_918
 
     #                              ## LEVEL 5 ##                              #
     '0119_19':
       level: 5
-      label: 
+      label: citric_acid_sour_grape_powder_garlic_powder_and_onion_powder
+      name: Citric Acid, Sour Grape Powder, Garlic Powder and Onion Powder
       farsi_name: جوهر لیمو، گردغوره، پودر سیر و پودر پیاز
       code: 11_919
 
@@ -2475,6 +2628,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0119_2-0119_3-0119_4':
       level: 4
       label: condiments_and_other_food_products
+      name: Condiments and Other Food Products
       farsi_name: چاشنی‌ها و سایر ترکیب‌های خوراکی
       code: {start: 11_920, end: 11_950}
 
@@ -2482,149 +2636,218 @@ sci_coicop_1383: &sci_coicop_1383
     '0119_21':
       level: 5
       label: tomato_paste
+      name: Tomato Paste
       farsi_name: رب گوجه‌فرنگی
       code: 11_921
 
     #                              ## LEVEL 5 ##                              #
     '0119_22':
       level: 5
-      label: ketchup
-      farsi_name: سس گوجه‌فرنگی
+      label: ketchup 
+      name: Ketchup
+      farsi_name: انواع سس گوجه‌فرنگی
       code: 11_922
 
     #                              ## LEVEL 5 ##                              #
     '0119_23':
       level: 5
       label: lemon_juice
+      name: Lemon Juice
       farsi_name: آب لیمو
       code: 11_923
 
     #                              ## LEVEL 5 ##                              #
     '0119_24':
       level: 5
-      label: other_sauces
+      label: other_sauces 
+      name: Other Sauces
       farsi_name: سایر انواع سس (مایونز، سالاد و ...)
       code: 11_924
 
     #                              ## LEVEL 5 ##                              #
     '0119_25':
       level: 5
-      label: 
+      label: vinegar
+      name: Vinegar
       farsi_name: سرکه
       code: 11_925
 
     #                              ## LEVEL 5 ##                              #
     '0119_26':
       level: 5
-      label: 
+      label: sour_grape_juice_and_sour_orange_juice
+      name: Sour Grape Juice and Sour Orange Juice
       farsi_name: آب غوره و آب نارنج
       code: 11_926
 
     #                              ## LEVEL 5 ##                              #
     '0119_27':
       level: 5
-      label: 
+      label: sour_grape
+      name: Sour Grape
       farsi_name: غوره
       code: 11_927
 
     #                              ## LEVEL 5 ##                              #
     '0119_28':
       level: 5
-      label: torshi_olive_and_pickle
+      label: torshi_olive_pickle_mixed_torshi_and_others
+      name: Torshi, Olive, Pickle, Mixed Torshi and Others
       farsi_name: ترشی، زیتون، خیارشور، مخلوط شور و ...
       code: 11_928
 
     #                              ## LEVEL 5 ##                              #
     '0119_29':
       level: 5
-      label: 
+      label: rosewater
+      name: Rosewater
       farsi_name: گلاب
       code: 11_929
 
     #                              ## LEVEL 5 ##                              #
     '0119_31':
       level: 5
-      label: 
-      farsi_name: تمرهندی، رب انار
+      versions:
+        1383:
+          label: tamarind_pomegranate_paste_and_others
+          name: Tamarind, Pomegranate Paste and Others
+          farso_name: تمر هندی و رب انار و سایر چاشنی ها
+        1387:
+          label: tamarind_and_pomegranate_paste
+          name: Tamarind and Pomegranate Paste
+          farso_name: تمر هندی و رب انار
       code: 11_931
 
     #                              ## LEVEL 5 ##                              #
-    '0118_32':
+    '0119_32':
       level: 5
-      label: 
-      farsi_name:
-        1383: انواع پودر کیک و شیرینی
-        1384: null
+      versions:
+        1383:
+          label: cake_and_sweets_powder
+          name: Cake and Sweets Powder 
+          farsi_name: انواع پودر کیک و شیرینی
+        1384:
+          label: null
+          name: null
+          farsi_name: null
       code: 11_832
 
     #                              ## LEVEL 5 ##                              #
     '0119_33':
       level: 5
-      label: 
+      label: salad_and_soup_powder
+      name: Salad and Soup Powder
       farsi_name: پودر سالاد و پودر سوپ
       code: 11_933
 
     #                              ## LEVEL 5 ##                              #
     '0119_34':
       level: 5
-      label: 
-      farsi_name: جوش شیرین، وانیک، بیکینگ پودر، خمیر نان و مایه پنیر
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: baking_soda_vanilla_bread_yeast_and_cheese_yeast
+          name: Baking Sode, Vanilla, Bread Yeast and Cheese Yeast
+          farsi_name: جوش شیرین، وانیل، بیکینگ پودر، مایه خمیر نان و مایه پنیر 
       code: 11_934
 
     #                              ## LEVEL 5 ##                              #
     '0119_35':
       level: 5
-      label: 
-      farsi_name: هزینه‌ی آبگیری در خارج از منزل (شامل لیمو، غوره و ...)
+     versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: payments_for_adjusting
+          name: Payments for Adjusting
+          farsi_name: هزینه آبگیری در خارج از منزل (لیمو، غوره و ...)
       code: 11_935
 
     #                              ## LEVEL 5 ##                              #
     '0119_36':
       level: 5
-      label: 
-      farsi_name: غذای مخصوص کودک (غیر از شیر خشک)
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: baby_food_excluding_powdered_milk
+          name: Baby Food (Excluding Powdered Milk) 
+          farsi_name: غذای مخصوص کودک (غیر از شیر خشک)
       code: 11_936
 
     #                              ## LEVEL 5 ##                              #
     '0119_45':
       level: 5
-      label: 
-      farsi_name: سایر چاشنی‌ها و ترکیب‌های خوراکی
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: other_condiments_and_food_products
+          name: Other Condiments and Food Products
+          farsi_name: سایر چاشنی ها و ترکیب های خوراکی
       code: 11_945
 
     #                              ## LEVEL 5 ##                              #
     '0119_46':
       level: 5
-      label: 
-      farsi_name: پروتئین مرغ و گوشت گوساله (نظیر گالینابلانکا و ...)
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1386:
+          label: chicken_and_veal_protein_powder
+          name: Chicken and Veal Protein Powder
+          farsi_name: پروتئین مرغ و گوشت گوساله (نظیر گالینابلانکا و ... )
       code: 11_946
 
     #                              ## LEVEL 5 ##                              #
     '0119_47':
       level: 5
-      label: 
-      farsi_name: انواع کنسرو و غذاهای آماده طبقه‌بندی نشده در سطرهای قبل
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1389:
+          label: other_canned_and_prepared_foods
+          name: Other Canned and Prepared Foods
+          farsi_name: >
+           انواع کنسرو و غذاهای آماده طبقه بندی نشده در سطر های قبل
+           (شامل کنسرو قورمه سبزی، حلیم بادنجان و ...)
       code: 11_947
 
     #                ################ LEVEL 2 ################                #
     '012':
-      label: non_alcoholic_beverages
       level: 2
-      farsi_name: نوشیدنی‌های غیر الکلی
+      label: tea_coffee_cocoa_and_soft_drinks
+      name: Tea, Coffee, Cocoa and Soft Drinks
+      farsi_name: چای، قهوه، کاکائو و نوشابه‌ها
       code: {start: 12_000, end: 13_000}
 
 
     #                        ######## LEVEL 3 ########                        #
     '0121':
-      label: tea_coffee_and_cocoa_drinks
       level: 3
-      farsi_name: چای، قهوه و کاکائو
+      label: tea_coffee_and_cocoa
+      name: Tea, Coffee and Cocoa
+      farsi_name: چای، قهوه و کاکائو (خشک)
       code: {start: 12_100, end: 12_200}
 
     #                            #### LEVEL 4 ####                            #
     '0121_1':
-      label: tea_coffee_and_cocoa_drinks
       level: 4
+      label: tea_coffee_and_cocoa_drinks
+      name: Tea, Coffee and Cocoa Drinks 
       farsi_name: چای، قهوه و کاکائو
       code: {start: 12_110, end: 12_120}
 
@@ -2632,27 +2855,31 @@ sci_coicop_1383: &sci_coicop_1383
     '0121_11':
       level: 5
       label: domestic_tea
-      farsi_name: چای داخلی
+      name: Domestic Tea
+      farsi_name: انواع چای داخلی
       code: 12_111
 
     #                              ## LEVEL 5 ##                              #
     '0121_12':
       level: 5
       label: foreign_tea
-      farsi_name: چای خارجی
+      name: Foreign Tea
+      farsi_name: انواع چای خارجی
       code: 12_112
 
     #                              ## LEVEL 5 ##                              #
     '0121_13':
       level: 5
       label: mixed_tea
-      farsi_name: چای مخلوط
+      name: Mixed Tea
+      farsi_name: انواع چای مخلوط
       code: 12_113
 
     #                              ## LEVEL 5 ##                              #
     '0121_14':
       level: 5
-      label: coffee_cocoa_etc
+      label: coffee_nescafe_cocoa_and_similars
+      name: Coffee, Nescafe, Cocoa and Similars
       farsi_name: قهوه، نسکافه، کاکائو و ترکیبات مشابه
       code: 12_114
 
@@ -2660,48 +2887,73 @@ sci_coicop_1383: &sci_coicop_1383
     '0122':
       level: 3
       label: soft_drinks
+      name: Soft Drinks
       farsi_name: نوشابه‌ها
       code: {start: 12_200, end: 12_300}
 
     #                            #### LEVEL 4 ####                            #
     '0122_1':
-      label: soft_drinks
       level: 4
-      farsi_name: نوشابه‌ها
+      label: all_types_of_drink
+      name: All Types of Drink
+      farsi_name: انواع نوشابه‌ها
       code: {start: 12_210, end: 12_220}
 
     #                              ## LEVEL 5 ##                              #
     '0122_11':
       level: 5
-      label: soda
-      farsi_name: نوشابه
+      versions:
+        1383:
+          label: carbonated_soda
+          name: Carbonated Soda
+          farsi_name: انواع نوشابه های گازدار
+        1390:
+          label: soda
+          name: Soda
+          farsi_name: انواع نوشابه
       code: 12_211
 
     #                              ## LEVEL 5 ##                              #
     '0122_12':
       level: 5
-      label: doogh
-      farsi_name: دوغ
+      versions:
+        1383:
+          label: carbonated_doogh
+          name: Carbonated Doogh
+          farsi_name: دوغ (گازدار)
+        1390:
+          label: doogh
+          name: Doogh
+          farsi_name: انواع دوغ
       code: 12_212
 
     #                              ## LEVEL 5 ##                              #
     '0122_13':
       level: 5
-      label: zero_alcohol_beer
+      label: zero_alcohol_beers
+      name: Zero Alcohol Beers
       farsi_name: ماء الشعیر و دلستر
       code: 12_213
 
     #                              ## LEVEL 5 ##                              #
     '0122_14':
       level: 5
-      label: juice
-      farsi_name: انواع آبمیوه و ساندیس،افشره یا آب سبزی
+      versions:
+        1383:
+          label: juices
+          name: Juices
+          farsi_name: انواع آب میوه و ساندیس
+        1389:
+          label: juices_including_vegetable_juice
+          name: Juices (Including Vegetable Juice)
+          farsi_name: انواع آب میوه و ساندیس، افشره یا آب سبزی
       code: 12_214
 
     #                              ## LEVEL 5 ##                              #
     '0122_15':
       level: 5
       label: bottled_water
+      name: Bottled Water
       farsi_name: آب معدنی، آب بطری و آب گالنی
       code: 12_215
 
@@ -2709,14 +2961,36 @@ sci_coicop_1383: &sci_coicop_1383
     '0122_16':
       level: 5
       label: soft_drink_concentrate
+      name: Soft Drink Concentrate
       farsi_name: انواع شربت و کنسانتره برای تهیه‌ی نوشابه‌ها
       code: 12_216
+
+#                              ## LEVEL 5 ##                              #
+    '0122_17':
+      level: 5
+      versions:
+        1383:
+          label: vegetable_juice
+          name: Vegetable Juice
+          farsi_name: افشره یا آب سبزی
+        1389:
+          label: null
+          name: null
+          farsi_name: null
+      code: 12_218
 
     #                              ## LEVEL 5 ##                              #
     '0122_18':
       level: 5
-      label: ice
-      farsi_name: یخ
+      versions:
+        1383:
+          label: other_drinks_and_ice
+          name: Other Drinks and Ice
+          farsi_name: سایر انواع نوشابه و یخ
+        1390:
+          label: ice
+          name: Ice
+          farsi_name: یخ
       code: 12_218
 
 
@@ -2724,6 +2998,7 @@ sci_coicop_1383: &sci_coicop_1383
     '02':
       level: 1
       label: alcoholic_beverages_tobacco_and_norcotics
+      name: Alcoholic Beverages, Tobacco and Norcotics
       farsi_name: نوشیدنی‌های الکلی، تنباکو و مواد مخدر
       code: {start: 20_000, end: 30_000}
 
@@ -2731,8 +3006,9 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '021':
       level: 2
-      label: alcoholic_beverages
-      farsi_name: نوشیدنی‌های الکلی
+      label: uncategorized_drinks
+      name: Uncategorized Drinks
+      farsi_name: نوشیدنی‌های طبقه بندی نشده
       code: {start: 21_000, end: 22_000}
 
 
@@ -2740,6 +3016,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0211':
       level: 3
       label: alcoholic_beverages
+      name: Alcoholic Beverages
       farsi_name: نوشیدنی‌های الکلی
       code: {start: 21_100, end: 21_200}
 
@@ -2747,14 +3024,16 @@ sci_coicop_1383: &sci_coicop_1383
     '0211_1':
       level: 4
       label: alcoholic_beverages
+      name: Alcoholic Beverages
       farsi_name: نوشیدنی‌های الکلی
       code: {start: 21_110, end: 21_120}
 
     #                              ## LEVEL 5 ##                              #
     '0211_11':
       level: 5
-      label: alcoholic_beverages
-      farsi_name: نوشیدنی‌های الکلی
+      label: other_drinks_that_were_not_mentioned_yet
+      name: Other Drinks That Were not Mentioned Yet
+      farsi_name: سایر نوشیدنی هایی که در جای دیگر ذکر نشده است
       code: 21_111
 
 
@@ -2762,6 +3041,7 @@ sci_coicop_1383: &sci_coicop_1383
     '022':
       level: 2
       label: tobacco
+      name: Tobacco
       farsi_name: انواع دخانیات
       code: {start: 22_000, end: 23_000}
 
@@ -2770,6 +3050,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0221':
       level: 3
       label: tobacco
+      name: Tobacco
       farsi_name: انواع دخانیات
       code: {start: 22_100, end: 22_200}
 
@@ -2777,58 +3058,108 @@ sci_coicop_1383: &sci_coicop_1383
     '0221_1':
       level: 4
       label: tobacco
+      name: Tobacco
       farsi_name: انواع دخانیات
       code: {start: 22_110, end: 22_120}
 
     #                              ## LEVEL 5 ##                              #
     '0221_11':
       level: 5
-      label: 
-      farsi_name: انواع سیگار ایرانی
+      versions:
+        1384:
+          label: iranian_cigarettes_excluding_bahman
+          name: Iranina Cigarettes Excluding Bahman
+          farsi_name: >
+           انواع سیگار ایرانی به جز بهمن
+          (مانند سیگار 57، سیگار اشنو، سیگار هما و ...)
+        1388:
+          label: iranian_cigarettes
+          name: Iranian Cigarettes
+          farsi_name: انواع سیگار ایرانی
       code: 22_111
+
+ #                              ## LEVEL 5 ##                              #
+    '0221_12':
+      level: 5
+      versions:
+        1384:
+          label: bahman_cigarette
+          name: Bahman Cigarette
+          farsi_name: سیگار بهمن
+        1390:
+          label: null
+          name: null
+          farsi_name: null
+      code: 22_113
 
     #                              ## LEVEL 5 ##                              #
     '0221_13':
       level: 5
-      label: 
-      farsi_name: انواع سیگار خارجی
+      versions:
+        1384: 
+          label: foreign_cigarette_exluding_winston
+          name: Foreign Cigarette Excluding Winston
+          farsi_name: انواع سیگار خارجی به جز وینستون 
+        1386: 
+          label: foreign_cigarette
+          name: Foreign Cigarette
+          farsi_name: انواع سیگار خارجی
       code: 22_113
+
+ #                              ## LEVEL 5 ##                              #
+    '0221_14':
+      level: 5
+      versions:
+        1384:
+          label: winston_cigarette
+          name: Winston Cigarette
+          farsi_name: سیگار وینستون
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 22_115
 
     #                              ## LEVEL 5 ##                              #
     '0221_15':
       level: 5
-      label: 
+      label: tobacoo_and_cigarette_paper
+      name: Tobacco and Cigarette Paper
       farsi_name: انواع توتون، تباکو و کاغذ سیگار
       code: 22_115
 
 
     #                ################ LEVEL 2 ################                #
     '023':
-      label: norcotics
       level: 2
-      farsi_name: مواد مخدر
+      label: other_unmentioned_norcotics
+      name: Other Unmentioned Norcotics
+      farsi_name: سایر انواع مواد دخانی که در بالا ذکر نشده
       code: {start: 23_000, end: 24_000}
 
 
     #                        ######## LEVEL 3 ########                        #
     '0231':
-      label: norcotics
       level: 3
-      farsi_name: مواد مخدر
+      label: other_unmentioned_norcotics
+      name: Other Unmentioned Norcotics
+      farsi_name: سایر انواع مواد دخانی که در بالا ذکر نشده
       code: {start: 23_100, end: 23_200}
 
     #                            #### LEVEL 4 ####                            #
     '0231_1':
-      label: norcotics
       level: 4
-      farsi_name: مواد مخدر
+      label: other_unmentioned_norcotics
+      name: Other Unmentioned Norcotics
+      farsi_name: سایر انواع مواد دخانی که در بالا ذکر نشده
       code: {start: 23_110, end: 23_120}
 
     #                              ## LEVEL 5 ##                              #
     '0231_11':
-      level: 5
-      label: 
-      farsi_name: مواد مخدر
+     level: 5
+      label: other_unmentioned_norcotics
+      name: Other Unmentioned Norcotics
+      farsi_name: سایر انواع مواد دخانی که در بالا ذکر نشده
       code: 23_111
 
 
