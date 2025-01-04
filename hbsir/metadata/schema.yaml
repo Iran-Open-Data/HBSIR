@@ -303,6 +303,9 @@ food:
           expression: "Expenditure / Amount"
         1372: null
 
+    - apply_pandas_function: >
+        .assign(Price=self.table["Price"].replace(0, None))
+
     - add_classification:
         1363: {target: Commodity_Code, name: Duration}
         1369: null
