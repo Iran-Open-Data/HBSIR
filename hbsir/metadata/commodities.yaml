@@ -2394,10 +2394,9 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0118_32':
       level: 5
-      label: masqati_jello_caramel_cream_gummy_turkish_paste_and_samanu
-      name: Masqati, Jello, Caramel Cream, Gummy, Turkish Paste and Samanu
-      farsi_name: >
-        مسقطی، ژله، باسلق، کرم کارامل، پاستیل، راحت الحلقوم و سمنو
+      label: masqati_jello_etc
+      name: Masqati, Jello etc
+      farsi_name: مسقطی، ژله و غیره
       code: 11_832
 
     #                              ## LEVEL 5 ##                              #
@@ -2730,7 +2729,7 @@ sci_coicop_1383: &sci_coicop_1383
           label: null
           name: null
           farsi_name: null
-      code: 11_832
+      code: 11_932
 
     #                              ## LEVEL 5 ##                              #
     '0119_33':
@@ -2757,7 +2756,7 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0119_35':
       level: 5
-     versions:
+      versions:
         1383:
           label: null
           name: null
@@ -2977,7 +2976,7 @@ sci_coicop_1383: &sci_coicop_1383
           label: null
           name: null
           farsi_name: null
-      code: 12_218
+      code: 12_217
 
     #                              ## LEVEL 5 ##                              #
     '0122_18':
@@ -3031,8 +3030,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0211_11':
       level: 5
-      label: other_drinks_that_were_not_mentioned_yet
-      name: Other Drinks That Were not Mentioned Yet
+      label: other_unlisted_beverages
+      name: Other Unlisted Beverages
       farsi_name: سایر نوشیدنی هایی که در جای دیگر ذکر نشده است
       code: 21_111
 
@@ -3040,8 +3039,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '022':
       level: 2
-      label: tobacco
-      name: Tobacco
+      label: tobaccos
+      name: Tobaccos
       farsi_name: انواع دخانیات
       code: {start: 22_000, end: 23_000}
 
@@ -3049,17 +3048,17 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0221':
       level: 3
-      label: tobacco
-      name: Tobacco
-      farsi_name: انواع دخانیات
+      label: tobacco_products
+      name: Tobaccos Products
+      farsi_name: محصولات دخانی
       code: {start: 22_100, end: 22_200}
 
     #                            #### LEVEL 4 ####                            #
     '0221_1':
       level: 4
-      label: tobacco
-      name: Tobacco
-      farsi_name: انواع دخانیات
+      label: tobacco_and_tobacco_products
+      name: Tobacco and Tobacco Products
+      farsi_name: دخانیات و محصولات دخانی
       code: {start: 22_110, end: 22_120}
 
     #                              ## LEVEL 5 ##                              #
@@ -3071,7 +3070,7 @@ sci_coicop_1383: &sci_coicop_1383
           name: Iranina Cigarettes Excluding Bahman
           farsi_name: >
            انواع سیگار ایرانی به جز بهمن
-          (مانند سیگار 57، سیگار اشنو، سیگار هما و ...)
+           (مانند سیگار 57، سیگار اشنو، سیگار هما و ...)
         1388:
           label: iranian_cigarettes
           name: Iranian Cigarettes
@@ -3132,33 +3131,33 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '023':
       level: 2
-      label: other_unmentioned_norcotics
-      name: Other Unmentioned Norcotics
-      farsi_name: سایر انواع مواد دخانی که در بالا ذکر نشده
+      label: other_norcotics
+      name: Other Norcotics
+      farsi_name: سایر مواد مخدر
       code: {start: 23_000, end: 24_000}
 
 
     #                        ######## LEVEL 3 ########                        #
     '0231':
       level: 3
-      label: other_unmentioned_norcotics
-      name: Other Unmentioned Norcotics
-      farsi_name: سایر انواع مواد دخانی که در بالا ذکر نشده
+      label: other_norcotic_products
+      name: Other Norcotic Products
+      farsi_name: سایر محصولات مواد مخدر
       code: {start: 23_100, end: 23_200}
 
     #                            #### LEVEL 4 ####                            #
     '0231_1':
       level: 4
-      label: other_unmentioned_norcotics
-      name: Other Unmentioned Norcotics
-      farsi_name: سایر انواع مواد دخانی که در بالا ذکر نشده
+      label: norcotics_and_other_norcotic_products
+      name: Norcotics and Other Norcotic Products
+      farsi_name: مواد مخدر و سایر محصولات مخدر
       code: {start: 23_110, end: 23_120}
 
     #                              ## LEVEL 5 ##                              #
     '0231_11':
-     level: 5
-      label: other_unmentioned_norcotics
-      name: Other Unmentioned Norcotics
+      level: 5
+      label: other_unlisted_norcotics
+      name: Other Unlisted Norcotics
       farsi_name: سایر انواع مواد دخانی که در بالا ذکر نشده
       code: 23_111
 
