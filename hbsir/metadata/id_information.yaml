@@ -707,7 +707,9 @@ County:
     2906: Sarayan                           # سرایان
     2907: Ferdows                           # فردوس
     2908: Boshruyeh                         # بشرویه
-    2909: Zirkouh                           # زیرکوه
+    2909:
+      1395: Tabas                           # طبس
+      1397: Zirkouh                         # زیرکوه
     2910: Khusf                             # خوسف
     2911:
       1384: Sarayan                         # سرایان
