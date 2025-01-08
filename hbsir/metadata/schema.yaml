@@ -114,6 +114,82 @@ Season:
       - Season
 
 
+Administrative_Divisions:
+
+  table_list:
+    1363:
+      - old_rural_house_specifications
+      - old_urban_house_specifications
+    1369:
+      - house_specifications
+    1387:
+      - household_information
+
+  instructions:
+
+    - add_attribute:
+        name: Urban_Rural
+        aspects: [code, name]
+        column_names: [Urban_Rural_Code, Urban_Rural_Name]
+
+    - apply_pandas_function: >
+        .assign(Urban_Rural_Code=self.table["Urban_Rural_Code"].astype("str"))
+
+    - add_attribute:
+        name: Province
+        aspects: [code, name]
+        column_names: [Province_Code, Province_Name]
+
+    - apply_pandas_function: >
+        .assign(
+          Province_Code =
+          self.table["Province_Code"]
+          .astype("float")
+          .fillna(-1)
+          .astype("int")
+          .astype("str")
+          .str.pad(2, "left", "0")
+          .replace("-1", None)
+        )
+
+    - add_attribute:
+        1377:
+          name: County
+          aspects: [code, name]
+          column_names: [County_Code, County_Name]
+
+    - apply_pandas_function:
+        1377: >
+          .assign(
+            County_Code =
+            self.table["County_Code"]
+            .astype("float")
+            .fillna(-1)
+            .astype("int")
+            .astype("str")
+            .str.pad(4, "left", "0")
+            .replace("00-1", None)
+          )
+
+    - apply_order:
+        1363:
+          - Year
+          - ID
+          - Urban_Rural_Code
+          - Urban_Rural_Name
+          - Province_Code
+          - Province_Name
+        1377:
+          - Year
+          - ID
+          - Urban_Rural_Code
+          - Urban_Rural_Name
+          - Province_Code
+          - Province_Name
+          - County_Code
+          - County_Name
+
+
 census_month:
 
   instructions:
