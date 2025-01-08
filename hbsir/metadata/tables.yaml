@@ -586,12 +586,7 @@ HOUSE_ITEMS:
       true_condition: 1
 
   house_portable_split_ac: &house_portable_split_ac
-      new_name: Portable_AC
-      type: boolean
-      true_condition: 1
-
-  house_portable_ac: &house_portable_ac
-      new_name: Portable_AC
+      new_name: Portable_Split_AC
       type: boolean
       true_condition: 1
 
