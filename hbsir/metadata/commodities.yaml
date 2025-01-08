@@ -2750,7 +2750,8 @@ sci_coicop_1383: &sci_coicop_1383
         1384:
           label: baking_soda_vanilla_bread_yeast_and_cheese_yeast
           name: Baking Sode, Vanilla, Bread Yeast and Cheese Yeast
-          farsi_name: جوش شیرین، وانیل، بیکینگ پودر، مایه خمیر نان و مایه پنیر 
+          farsi_name: >
+           جوش شیرین، وانیل، بیکینگ پودر، مایه خمیر نان و مایه پنیر 
       code: 11_934
 
     #                              ## LEVEL 5 ##                              #
@@ -3005,8 +3006,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '021':
       level: 2
-      label: uncategorized_drinks
-      name: Uncategorized Drinks
+      label: unlisted_drinks
+      name: Unlisted Drinks
       farsi_name: نوشیدنی‌های طبقه بندی نشده
       code: {start: 21_000, end: 22_000}
 
@@ -3014,9 +3015,9 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0211':
       level: 3
-      label: alcoholic_beverages
-      name: Alcoholic Beverages
-      farsi_name: نوشیدنی‌های الکلی
+      label: unlisted_alcoholic_beverages
+      name: Unlisted Alcoholic Beverages
+      farsi_name: نوشیدنی‌های الکلی طبقه بندی نشده
       code: {start: 21_100, end: 21_200}
 
     #                            #### LEVEL 4 ####                            #
@@ -3050,7 +3051,7 @@ sci_coicop_1383: &sci_coicop_1383
       level: 3
       label: tobacco_products
       name: Tobaccos Products
-      farsi_name: محصولات دخانی
+      farsi_name: انواع محصولات دخانی
       code: {start: 22_100, end: 22_200}
 
     #                            #### LEVEL 4 ####                            #
@@ -3089,7 +3090,7 @@ sci_coicop_1383: &sci_coicop_1383
           label: null
           name: null
           farsi_name: null
-      code: 22_113
+      code: 22_112
 
     #                              ## LEVEL 5 ##                              #
     '0221_13':
@@ -3117,7 +3118,7 @@ sci_coicop_1383: &sci_coicop_1383
           label: null
           name: null
           farsi_name: null
-      code: 22_115
+      code: 22_114
 
     #                              ## LEVEL 5 ##                              #
     '0221_15':
@@ -3166,8 +3167,9 @@ sci_coicop_1383: &sci_coicop_1383
     '03':
       level: 1
       label: clothing_and_footwear
+      name: Clothing and Footwear
       farsi_name: پوشاک و کفش
-      code: {start: 30_000, end: 33_000}
+      code: {start: 30_000, end: 33_0 00}
       # This is an exceptional case due to the non-standard codes at the end  #
       # of the classification for investment expenses (33_000 - 35_000). As   #
       # a result, this case does not follow the typical pattern.              #
@@ -3177,6 +3179,7 @@ sci_coicop_1383: &sci_coicop_1383
     '031':
       level: 2
       label: clothing
+      name: Clothing
       farsi_name: پوشاک
       code: {start: 31_000, end: 32_000}
 
@@ -3185,12 +3188,15 @@ sci_coicop_1383: &sci_coicop_1383
     '0311':
       level: 3
       label: clothing_materials
+      name: Clothing Materials
       farsi_name: مواد پوشاکی
       code: {start: 31_100, end: 31_200}
 
     #                            #### LEVEL 4 ####                            #
     '0311_1-0311_2':
       level: 4
+      label: fabrics
+      name: Fabrics
       farsi_name: انواع پارچه
       code: {start: 31_110, end: 31_130}
 
@@ -3199,30 +3205,39 @@ sci_coicop_1383: &sci_coicop_1383
     '0312':
       level: 3
       label: garments
+      name: Garments
       farsi_name: پوشاک
       code: {start: 31_200, end: 31_300}
 
     #                            #### LEVEL 4 ####                            #
     '0312_1-0312_2':
       level: 4
+      label: mens_fabric
+      name: Men's Fabric
       farsi_name: پوشاک مردانه
       code: {start: 31_210, end: 31_230}
 
     #                            #### LEVEL 4 ####                            #
     '0312_3-0312_4':
       level: 4
+      label: womens_fabric
+      name: Women's Fabric
       farsi_name: پوشاک زنانه
       code: {start: 31_230, end: 31_250}
 
     #                            #### LEVEL 4 ####                            #
     '0312_5-0312_6':
       level: 4
+      label: childrens_wear
+      name: Children's Wear
       farsi_name: پوشاک بچه‌گانه (۳ تا ۱۳ ساله)
       code: {start: 31_250, end: 31_270}
 
     #                            #### LEVEL 4 ####                            #
     '0312_7':
       level: 4
+      label: babys_wear
+      name: Baby's Wear
       farsi_name: پوشاک اطفال (تا دو سال)
       code: {start: 31_270, end: 31_280}
 
@@ -3230,6 +3245,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0313':
       level: 3
       label: other_articles_of_clothing_and_clothing_accessories
+      name: Other Articles of Clothing and Clothing Accessories 
       farsi_name: سایر انواع پوشاک و لوازم پوشاکی
       code: {start: 31_300, end: 31_400}
 
@@ -3237,6 +3253,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0313_1-0313_2':
       level: 4
       label: other_articles_of_clothing_and_clothing_accessories
+      name: Other Articles of Clothing and Clothing Accessories
       farsi_name: سایر انواع پوشاک و لوازم پوشاکی
       code: {start: 31_310, end: 31_330}
 
@@ -3244,14 +3261,16 @@ sci_coicop_1383: &sci_coicop_1383
     '0314':
       level: 3
       label: cleaning_repair_tailoring_and_hire_of_clothing
+      name: Cleaning, Repair, Tailoring and Hire of Clothing
       farsi_name: هزینه شستشو، اجرت دوخت، تعمیر و کرایه پوشاک
       code: {start: 31_400, end: 31_500}
 
     #                            #### LEVEL 4 ####                            #
     '0314_1':
       level: 4
-      label: cleaning_repair_tailoring_and_hire_of_clothing
-      farsi_name: هزینه شستشو، اجرت دوخت، تعمیر و کرایه پوشاک
+      label: clothing_costs
+      name: Clothing Costs
+      farsi_name: هزینه های پوشاک
       code: {start: 31_410, end: 31_420}
 
 
@@ -3259,6 +3278,7 @@ sci_coicop_1383: &sci_coicop_1383
     '032':
       level: 2
       label: footwear
+      name: Footwear
       farsi_name: کفش
       code: {start: 32_000, end: 33_000}
 
@@ -3267,34 +3287,39 @@ sci_coicop_1383: &sci_coicop_1383
     '0321':
       level: 3
       label: shoes_and_other_footwear
+      name: Shoes and Other Footwear
       farsi_name: انواع کفش
       code: {start: 32_100, end: 32_200}
 
     #                            #### LEVEL 4 ####                            #
     '0321_1':
       level: 4
-      label:
+      label: footwear_for_men
+      name: Footwear for Men
       farsi_name: کفش مردانه
       code: {start: 32_110, end: 32_120}
 
     #                            #### LEVEL 4 ####                            #
     '0321_2':
       level: 4
-      label:
+      label: footwear_for_women
+      name: Footwear for Women
       farsi_name: کفش زنانه
       code: {start: 32_120, end: 32_130}
 
     #                            #### LEVEL 4 ####                            #
     '0321_3':
       level: 4
-      label:
+      label: footwear_for_children
+      name: Footwear for Children
       farsi_name: کفش بچه‌گانه (۳ تا ۱۳ ساله)
       code: {start: 32_130, end: 32_140}
 
     #                            #### LEVEL 4 ####                            #
     '0321_4':
       level: 4
-      label:
+      label: footwear_for_infants
+      name: Footwear for Infants
       farsi_name: کفش اطفال (تا دو سال)
       code: {start: 32_140, end: 32_150}
 
@@ -3302,20 +3327,23 @@ sci_coicop_1383: &sci_coicop_1383
     '0322':
       level: 3
       label: cleaning_repair_and_hire_of_footwear
-      farsi_name: تعمیر و ملزومات کفش
+      name: Cleaning, Repair and Hire of Footwear
+      farsi_name: تعمیرات و ملزومات کفش
       code: {start: 32_200, end: 32_300}
 
     #                            #### LEVEL 4 ####                            #
     '0322_1':
       level: 4
-      label:
+      label: repair_of_footwear
+      name: Repair of Footwear
       farsi_name: تعمیرات کفش
       code: {start: 32_210, end: 32_220}
 
     #                            #### LEVEL 4 ####                            #
     '0322_2':
       level: 4
-      label:
+      label: material_of_footwear
+      name: Material of Footwear
       farsi_name: ملزومات کفش
       code: {start: 32_220, end: 32_230}
 
