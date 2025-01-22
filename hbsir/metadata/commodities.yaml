@@ -813,8 +813,8 @@ sci_coicop_1383: &sci_coicop_1383
           name: null
           farsi_name: null
         1386:
-          label: sweeter_and_dry_sweets
-          name: Sweeter and Dry Sweets
+          label: pastries_and_dry_sweets
+          name: Pastries and Dry Sweets
           farsi_name: انواع شیرینی تر و خشک
       code: 11_173
 
@@ -934,8 +934,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0112_18':
       level: 5
-      label: ostokhane_qalam
-      name: Ostokhane Qalam
+      label: marrow_bone
+      name: Marrow Bone
       farsi_name: استخوان قلم (گاو و گوسفند)
       code: 11_218
 
@@ -954,8 +954,8 @@ sci_coicop_1383: &sci_coicop_1383
       level: 5
       versions:
         1383:
-          label: ghormeh_meat_salted_meat_and_similars
-          name: Ghormeh Meat, Salted Meat and Similars
+          label: stew_meat_salted_meat_and_similars
+          name: Stew Meat, Salted Meat and Similars
           farsi_name: >
            گوشت قورمه، نمک سود و نظایر آن و سایر انواع گوشت دام که 
            در بالا اشاره نشده است
@@ -1107,12 +1107,12 @@ sci_coicop_1383: &sci_coicop_1383
           name: Hamburger
           farsi_name: همبرگر آماده برای طبخ
         1384:
-          label: hamburger_and_grilled_bite
-          name: Hamburger and Grilled Bite
+          label: hamburger_and_minced_meat_kebab
+          name: Hamburger and Minced Meat Kebab
           farsi_name: همبرگر و کباب لقمه آماده برای طبخ
         1389:
-          label: hamburger_grilled_bite_cutlet_and_steak
-          name: Hamburger, Grilled Bite, Cutlet and Steak
+          label: hamburger_minced_meat_kebab_cutlet_and_steak
+          name: Hamburger, Minced Meat Kebab, Cutlet and Steak
           farsi_name: همبرگر، کباب لقمه، کتلت و استیک آماده برای طبخ
       code: 11_241
 
@@ -1215,32 +1215,32 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0113_11':
       level: 5
-      label: fresh_north_fishes
-      name: Fresh North Fishes
+      label: fresh_caspian_sea_fishes
+      name: Fresh Caspian Sea Fishes
       farsi_name: انواع ماهی تازه شمال (دریایی، پرورشی و رودخانه‌ای)
       code: 11_311
 
     #                              ## LEVEL 5 ##                              #
     '0113_12':
       level: 5
-      label: frozen_north_fishes
-      name: Frozen North Fishes
+      label: frozen_caspian_sea_fishes
+      name: Frozen Caspian Sea Fishes
       farsi_name: انواع ماهی یخ‌زده شمال (دریایی، پرورشی و رودخانه‌ای)
       code: 11_312
 
     #                              ## LEVEL 5 ##                              #
     '0113_13':
       level: 5
-      label: fresh_south_fishes
-      name: Fresh South Fishes
+      label: fresh_persian_gulf_fishes
+      name: Fresh Persian Gulf Fishes
       farsi_name: انواع ماهی تازه جنوب (دریایی، پرورشی و رودخانه‌ای)
       code: 11_313
 
     #                              ## LEVEL 5 ##                              #
     '0113_14':
       level: 5
-      label: frozen_south_fishes
-      name: Frozen South Fishes
+      label: frozen_persian_gulf_fishes
+      name: Frozen Persian Gulf Fishes
       farsi_name: انواع ماهی یخ‌زده جنوب (دریایی، پرورشی و رودخانه‌ای)
       code: 11_314
 
@@ -1404,8 +1404,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0114_21':
       level: 5
-      label: kaymak_and_Ordinary_cream
-      name: Kaymak and Ordinary Cream
+      label: kaymak_and_unpasteurized_cream
+      name: Kaymak and Unpasteurized Cream
       farsi_name: سرشیر و خامه معمولی
       code: 11_421
 
@@ -1438,13 +1438,13 @@ sci_coicop_1383: &sci_coicop_1383
       level: 5
       versions:
         1383:
-          label: ordinary_yogurt_unpasteurized_and_shallot_yogurt
-          name: Ordinary Yogurt (Unpasteurized) and Shallot Yogurt
+          label: unpasteurized_yogurt__and_shallot_yogurt
+          name: Unpasteurized Yogurt and Shallot Yogurt
           farsi_name: >
            ماست معمولی (غیر پاستوریزه) ماست کیسه ای و ماست موسیر
         1387:
-          label: ordinary_yogurt_unpasteurized
-          name: Ordinary Yogurt (Unpasteurized)
+          label: unpasteurized_yogurt
+          name: Unpasteurized Yogurt
           farsi_name: انواع ماست معمولی (غیر پاستوریزه)
       code: 11_425
 
@@ -1459,8 +1459,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0114_27':
       level: 5
-      label: ordinary_doogh   # 12_212 is also doogh. (?)
-      name: Ordinary Doogh
+      label: doogh   # 12_212 is also doogh. (?)
+      name: Doogh
       farsi_name: دوغ معمولی
       code: 11_427
 
@@ -2231,8 +2231,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0117_54':
       level: 5
-      label: payments_for_prepared_vegetables
-      name: Payments for Prepared Vegetables
+      label: payments_for_preparing_vegetables
+      name: Payments for Preparing Vegetables
       farsi_name: اجرت خدمات آماده‌سازی انواع سبزی‌ها (پاک کردن و خرد کردن)
       code: 11_754
 
@@ -2436,8 +2436,8 @@ sci_coicop_1383: &sci_coicop_1383
       level: 5
       versions:
         1383:
-          label: sweeters_and_cake
-          name: Sweeters and Cake
+          label: pastries_and_cake
+          name: Pastries and Cake
           farsi_name: انواع شیرینی تر و کیک
         1386:
           label: null
@@ -2450,8 +2450,8 @@ sci_coicop_1383: &sci_coicop_1383
       level: 5
       versions:
         1383:
-          label: shirini_khoshk
-          name: Shirini Khoshk
+          label: variety_of_dry_sweets
+          name: Variety of Dry Sweets
           farsi_name: انواع شیرینی خشک
         1386:
           label: null
@@ -2479,7 +2479,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0118_41':
       level: 5
       label: other_sweets
-      name: Otehr Sweets
+      name: Other Sweets
       farsi_name: >
         آب‌نبات و پولکی، نبات، نقل، پشمک، شکر پنیر و سایر انواع شیرینی
       code: 11_841
@@ -2763,8 +2763,8 @@ sci_coicop_1383: &sci_coicop_1383
           name: null
           farsi_name: null
         1384:
-          label: payments_for_adjusting
-          name: Payments for Adjusting
+          label: payments_for_external_juicing_services
+          name: Payments for External Juicing Services
           farsi_name: هزینه آبگیری در خارج از منزل (لیمو، غوره و ...)
       code: 11_935
 
@@ -3006,8 +3006,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                ################ LEVEL 2 ################                #
     '021':
       level: 2
-      label: unlisted_drinks
-      name: Unlisted Drinks
+      label: miscellaneous_drinks
+      name: Miscellaneous Drinks
       farsi_name: نوشیدنی‌های طبقه بندی نشده
       code: {start: 21_000, end: 22_000}
 
@@ -3015,24 +3015,24 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0211':
       level: 3
-      label: unlisted_alcoholic_beverages
-      name: Unlisted Alcoholic Beverages
+      label: miscellaneous_alcoholic_drinks
+      name: Miscellaneous Alcoholic Drinks
       farsi_name: نوشیدنی‌های الکلی طبقه بندی نشده
       code: {start: 21_100, end: 21_200}
 
     #                            #### LEVEL 4 ####                            #
     '0211_1':
       level: 4
-      label: alcoholic_beverages
-      name: Alcoholic Beverages
+      label: alcoholic_drink_variants
+      name: Alcoholic Drink Variants
       farsi_name: نوشیدنی‌های الکلی
       code: {start: 21_110, end: 21_120}
 
     #                              ## LEVEL 5 ##                              #
     '0211_11':
       level: 5
-      label: other_unlisted_beverages
-      name: Other Unlisted Beverages
+      label: unspecified_beverages
+      name: Unspecified Beverages
       farsi_name: سایر نوشیدنی هایی که در جای دیگر ذکر نشده است
       code: 21_111
 
@@ -3169,7 +3169,7 @@ sci_coicop_1383: &sci_coicop_1383
       label: clothing_and_footwear
       name: Clothing and Footwear
       farsi_name: پوشاک و کفش
-      code: {start: 30_000, end: 33_0 00}
+      code: {start: 30_000, end: 33_000}
       # This is an exceptional case due to the non-standard codes at the end  #
       # of the classification for investment expenses (33_000 - 35_000). As   #
       # a result, this case does not follow the typical pattern.              #
@@ -3189,7 +3189,7 @@ sci_coicop_1383: &sci_coicop_1383
       level: 3
       label: clothing_materials
       name: Clothing Materials
-      farsi_name: مواد پوشاکی
+      farsi_name: مواد پوشاکی (کم دوام)
       code: {start: 31_100, end: 31_200}
 
     #                            #### LEVEL 4 ####                            #
@@ -3200,23 +3200,153 @@ sci_coicop_1383: &sci_coicop_1383
       farsi_name: انواع پارچه
       code: {start: 31_110, end: 31_130}
 
+    #                              ## LEVEL 5 ##                              #
+    '0311_11':
+      level: 5
+      label: fastoni_fabric
+      name: Fastoni Fabric
+      farsi_name: پارچه فاستونی (کت و شلوار)
+      code: 31_111
+    
+    #                              ## LEVEL 5 ##                              #
+    '0311_12':
+      level: 5
+      label: black_chador_fabric
+      name: Black Chador Fabric
+      farsi_name: پارچه چادر مشکی
+      code: 31_112
 
+     #                              ## LEVEL 5 ##                              #
+    '0311_13':
+      level: 5
+      versions:
+        1383:
+          label: cotton_chador_fabric
+          name: Cotton Chador Fabric
+          farsi_name: پارچه چادر نخی
+        1387:
+          label: other_chador_fabric
+          name: Other Chador Fabric
+          farsi_name: سایر پارچه های چادری
+      code: 31_113
+    
+    #                              ## LEVEL 5 ##                              #
+    '0311_14':
+      level: 5
+      label: chit_floral_fabric
+      name: Chit Floral Fabric
+      farsi_name: پارچه چیت گلدار
+      code: 31_114
+    
+    #                              ## LEVEL 5 ##                              #
+    '0311_15':
+      level: 5
+      versions:
+        1383:
+          label: shirt_fabric
+          name: Shirt Fabric
+          farsi_name: پارچه پیراهنی
+        1384:
+          label: mens_shirt_fabric
+          name: Men's Shirt Fabric
+          farsi_name: پارچه پیراهن مردانه
+      code: 31_115
+    
+    #                              ## LEVEL 5 ##                              #
+    '0311_16':
+      level: 5
+      label: manteau_fabric
+      name: Manteau Fabric
+      farsi_name: پارچه مانتویی (ترگال و ...)
+      code: 31_116
+    
+    #                              ## LEVEL 5 ##                              #
+    '0311_17':
+      level: 5
+      label: womens_shirt_fabric
+      name: Women's Shirt Fabric
+      farsi_name: پارچه پیراهن زنانه
+      code: 31_117
+    
+    #                              ## LEVEL 5 ##                              #
+    '0311_18':
+      level: 5
+      label: lining_fabric
+      name: Lining Fabric
+      farsi_name: پارچه آستری
+      code: 31_118
+    
+    #                              ## LEVEL 5 ##                              #
+    '0311_19':
+      level: 5
+      label: leather_and_suede_fabric
+      name: Leather and Suede Fabric
+      farsi_name: چرم، پوست و جیر (طبیعی و مصنوعی)
+      code: 31_119
+    
+    #                              ## LEVEL 5 ##                              #
+    '0311_21':
+      level: 5
+      label: other_unlisted_fabrics
+      name: Other Unlisted Fabrics
+      farsi_name: سایر انواع پارچه ذکر نشده در بالا
+      code: 31_121
+    
     #                        ######## LEVEL 3 ########                        #
     '0312':
       level: 3
       label: garments
       name: Garments
-      farsi_name: پوشاک
+      farsi_name: پوشاک (کم دوام)
       code: {start: 31_200, end: 31_300}
 
     #                            #### LEVEL 4 ####                            #
     '0312_1-0312_2':
       level: 4
-      label: mens_fabric
-      name: Men's Fabric
+      label: mens_clothes
+      name: Men's Clothes
       farsi_name: پوشاک مردانه
       code: {start: 31_210, end: 31_230}
-
+    
+    #                              ## LEVEL 5 ##                              #
+    '0312_11':
+      level: 5
+      label: suit_overcoat_raincoat_jacket_blazer_and_vest
+      name: Suit, Overcoat, Raincoat, Jacket, Blazer and Vest
+      farsi_name: کت و شلوار، پالتو، بارانی، کاپشن، کت تنها و جلیقه
+      code: 31_211
+    
+    #                              ## LEVEL 5 ##                              #
+    '0312_12':
+      level: 5
+      label: pants
+      name: Pants
+      farsi_name: شلوار
+      code: 31_212
+    
+    #                              ## LEVEL 5 ##                              #
+    '0312_13':
+      level: 5
+      label: aba_and_qaba
+      name: Aba and Qaba
+      farsi_name: عبا، قبا (غیر پوستی)
+      code: 31_213
+    
+    #                              ## LEVEL 5 ##                              #
+    '0312_14':
+      level: 5
+      label: aba_qaba_and_vest
+      name: Aba, Qaba and Vest
+      farsi_name: عبا، قبا و جلیقه (پوستی)
+      code: 31_214
+    
+    #                              ## LEVEL 5 ##                              #
+    '0312_15':
+      level: 5
+      label:
+      name:
+      farsi_name:
+      code: 
     #                            #### LEVEL 4 ####                            #
     '0312_3-0312_4':
       level: 4
