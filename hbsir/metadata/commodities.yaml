@@ -4782,6 +4782,69 @@ sci_food_categories:
 ###############################################################################
 
 
+###############################################################################
+##                            - Food Properties -                            ##
+###############################################################################
+
+food_properties:
+  defaults:
+    levels: [1]
+    aspects: [item_key, fdc_id]
+    column_names: [Food_Name, FCD_ID]
+
+  items:
+    chicken_meat:
+      level: 1
+      fdc_id: 171447
+      code:
+        1363: [12_316, 12_327]
+        1383: [11_231, 11_232]
+
+    chicken_egg:
+      level: 1
+      fdc_id: 748967
+      code:
+        1363: [13_410, 13_421]
+        1383: [11_441, 11_442]
+
+    sabzi_khordan:
+      level: 1
+      fdc_id: 
+        - 172232    # Basil
+        - 169997    # Coriander (Cilantro)
+      code:
+        1363: 15_438
+        1383: 11_713
+
+    cucumber:
+      level: 1
+      fdc_id: 2346406
+      code:
+        1363: 15_518
+        1383: 11_721
+
+    tomato:
+      level: 1
+      fdc_id: 321360
+      code:
+        1363: 15_540
+        1383: 11_724
+
+    potato:
+      level: 1
+      fdc_id: 2346403
+      code:
+        1363: 15_610
+        1383: 11_731
+
+    onion:
+      level: 1
+      fdc_id: 790646
+      code:
+        1363: 15_620
+        1383: 11_732
+
+
 
 ###############################################################################
 ##          _ _ _   Classification of Individual Consumption   _ _ _         ##
