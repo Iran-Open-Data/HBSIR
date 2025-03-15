@@ -122,6 +122,9 @@ household_information:
     MAHMORAJEH:
       new_name: Month
       type: unsigned
+      replace:
+        1397: {0: 3}
+        1398: null
     WEIGHT:
       new_name: Weight
       type: unsigned
@@ -541,69 +544,69 @@ HOUSE_ITEMS:
     true_condition: 1
 
   house_freezer: &house_freezer
-      new_name: Freezer
-      type: boolean
-      true_condition: 1
+    new_name: Freezer
+    type: boolean
+    true_condition: 1
 
   house_refrigerator: &house_refrigerator
-      new_name: Refrigerator
-      type: boolean
-      true_condition: 1
+    new_name: Refrigerator
+    type: boolean
+    true_condition: 1
 
   house_freezer_refrigrator: &house_freezer_refrigrator
-      new_name: Freezer_Refrigrator
-      type: boolean
-      true_condition: 1
+    new_name: Freezer_Refrigrator
+    type: boolean
+    true_condition: 1
 
   house_oven: &house_oven
-      new_name: Oven
-      type: boolean
-      true_condition: 1
+    new_name: Oven
+    type: boolean
+    true_condition: 1
 
   house_vacuum_cleaner: &house_vacuum_cleaner
-      new_name: Vacuum_Cleaner
-      type: boolean
-      true_condition: 1
+    new_name: Vacuum_Cleaner
+    type: boolean
+    true_condition: 1
 
   house_washing_machine: &house_washing_machine
-      new_name: Washing_Machine
-      type: boolean
-      true_condition: 1
+    new_name: Washing_Machine
+    type: boolean
+    true_condition: 1
 
   house_sewing_machine: &house_sewing_machine
-      new_name: Sewing_Machine
-      type: boolean
-      true_condition: 1
+    new_name: Sewing_Machine
+    type: boolean
+    true_condition: 1
 
   house_fan: &house_fan
-      new_name: Fan
-      type: boolean
-      true_condition: 1
+    new_name: Fan
+    type: boolean
+    true_condition: 1
 
   house_portable_evaporative_ac: &house_portable_evaporative_ac
-      new_name: Portable_Evaporative_AC
-      type: boolean
-      true_condition: 1
+    new_name: Portable_Evaporative_AC
+    type: boolean
+    true_condition: 1
 
   house_portable_split_ac: &house_portable_split_ac
-      new_name: Portable_Split_AC
-      type: boolean
-      true_condition: 1
+    new_name: Portable_Split_AC
+    type: boolean
+    true_condition: 1
 
   house_dishwasher: &house_dishwasher
-      new_name: Dishwasher
-      type: boolean
-      true_condition: 1
+    new_name: Dishwasher
+    type: boolean
+    true_condition: 1
 
   house_microwave_oven: &house_microwave_oven
-      new_name: Microwave_Oven
-      type: boolean
-      true_condition: 1
+    new_name: Microwave_Oven
+    type: boolean
+    true_condition: 1
 
   house_no_appliances: &house_no_appliances
-      new_name: No_Appliances
-      type: boolean
-      true_condition: 1
+    new_name: No_Appliances
+    type: boolean
+    true_condition: 1
 
   house_pipe_water: &house_pipe_water
     new_name: Pipe_Water
@@ -641,22 +644,22 @@ HOUSE_ITEMS:
     true_condition: 1
 
   house_evaporative_ac: &house_evaporative_ac
-    new_name: Evaporative_Air_Conditioner
+    new_name: Evaporative_AC
     type: boolean
     true_condition: 1
 
   house_central_ac: &house_central_ac
-    new_name: Central_Air_Conditioner
+    new_name: Central_AC
     type: boolean
     true_condition: 1
 
   house_split_ac: &house_split_ac
-    new_name: Split_Air_Conditioner
+    new_name: Split_AC
     type: boolean
     true_condition: 1
 
   house_ac: &house_ac
-    new_name: Air_Conditioner
+    new_name: AC
     type: boolean
     true_condition: 1
 
