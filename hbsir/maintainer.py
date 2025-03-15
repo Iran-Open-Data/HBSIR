@@ -1,4 +1,5 @@
 from pathlib import Path
+from typing import Optional
 
 from bssir.metadata_reader import config, _Years
 from bssir.api import API
@@ -9,7 +10,10 @@ defaults, metadata = config.set_package_config(Path(__file__).parent)
 api = API(defaults=defaults, metadata=metadata)
 maintainer = Maintainer(lib_defaults=defaults, lib_metadata=metadata)
 
-def create_and_upload(years: _Years, table_names: list[str]) -> None:
+def create_and_upload(
+    years: _Years = "all",
+    table_names: Optional[list[str]] = None,
+) -> None:
     api.setup(
         years,
         table_names=table_names,
