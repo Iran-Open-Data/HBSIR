@@ -45,7 +45,7 @@ household_information:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
     - apply_function:
         1387: hbsir.schema_functions.standard_tables.adjust_month
@@ -196,7 +196,7 @@ census_month:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
 
 house_specifications:
@@ -205,7 +205,7 @@ house_specifications:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
 
 old_rural_house_specifications:
@@ -214,7 +214,7 @@ old_rural_house_specifications:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
 
 old_urban_house_specifications:
@@ -223,7 +223,7 @@ old_urban_house_specifications:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
 
 members_properties:
@@ -232,7 +232,7 @@ members_properties:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
     - apply_order:
         1363:
@@ -321,7 +321,7 @@ food:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
     - add_table_name
 
@@ -423,7 +423,7 @@ tobacco:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
     - add_table_name
 
@@ -450,7 +450,7 @@ cloth:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
     - add_table_name
 
@@ -468,7 +468,7 @@ home:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
     - add_table_name
 
@@ -530,7 +530,7 @@ furniture:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
     - add_table_name
 
@@ -548,7 +548,7 @@ medical:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
     - add_table_name
 
@@ -566,7 +566,7 @@ transportation:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
     - add_table_name
 
@@ -584,7 +584,7 @@ communication:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
     - add_table_name
 
@@ -602,7 +602,7 @@ entertainment:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
     - add_table_name
 
@@ -620,7 +620,7 @@ education:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
     - add_table_name
 
@@ -638,7 +638,7 @@ hotel:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
     - add_table_name
 
@@ -656,7 +656,7 @@ miscellaneous:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
     - add_table_name
 
@@ -674,7 +674,7 @@ durable:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
     - add_table_name
 
@@ -730,7 +730,7 @@ investment:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
     - add_table_name
 
@@ -845,6 +845,9 @@ Original_Expenditures:
       - durable
 
   instructions:
+
+    - fillna: [Expenditure, Secondhand_Sale]
+
     - create_column:
         name: Gross_Expenditure
         type: numerical
@@ -1137,7 +1140,7 @@ self_employed_income:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
     - add_table_name
 
@@ -1148,7 +1151,7 @@ other_income:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
     - add_table_name
 
@@ -1199,7 +1202,7 @@ subsidy:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
     - add_table_name
 
@@ -1210,7 +1213,7 @@ public_employment_income:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
     - add_table_name
 
@@ -1221,7 +1224,7 @@ private_employment_income:
 
     - add_year
 
-    - drop_missings: ID
+    - dropna: ID
 
     - add_table_name
 
@@ -1320,6 +1323,10 @@ Cash_Incomes:
       - subsidy
 
   instructions:
+
+    - fillna:
+        1369: [Annual_Net_Income, Profit, Other_Incomes]
+        1390: [Annual_Net_Income, Profit, Other_Incomes, Subsidy]
 
     - create_column:
         name: Income
