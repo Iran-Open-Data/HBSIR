@@ -2965,7 +2965,7 @@ sci_coicop_1383: &sci_coicop_1383
       farsi_name: انواع شربت و کنسانتره برای تهیه‌ی نوشابه‌ها
       code: 12_216
 
-#                              ## LEVEL 5 ##                              #
+    #                              ## LEVEL 5 ##                              #
     '0122_17':
       level: 5
       versions:
@@ -3078,7 +3078,7 @@ sci_coicop_1383: &sci_coicop_1383
           farsi_name: انواع سیگار ایرانی
       code: 22_111
 
- #                              ## LEVEL 5 ##                              #
+    #                              ## LEVEL 5 ##                              #
     '0221_12':
       level: 5
       versions:
@@ -3106,7 +3106,7 @@ sci_coicop_1383: &sci_coicop_1383
           farsi_name: انواع سیگار خارجی
       code: 22_113
 
- #                              ## LEVEL 5 ##                              #
+    #                              ## LEVEL 5 ##                              #
     '0221_14':
       level: 5
       versions:
@@ -3187,8 +3187,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0311':
       level: 3
-      label: clothing_materials
-      name: Clothing Materials
+      label: clothing_material
+      name: Clothing Material
       farsi_name: مواد پوشاکی (کم دوام)
       code: {start: 31_100, end: 31_200}
 
@@ -3216,7 +3216,7 @@ sci_coicop_1383: &sci_coicop_1383
       farsi_name: پارچه چادر مشکی
       code: 31_112
 
-     #                              ## LEVEL 5 ##                              #
+    #                              ## LEVEL 5 ##                              #
     '0311_13':
       level: 5
       versions:
@@ -3319,8 +3319,8 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0312_12':
       level: 5
-      label: pants
-      name: Pants
+      label: trousers
+      name: Trousers
       farsi_name: شلوار
       code: 31_212
     
@@ -3343,10 +3343,67 @@ sci_coicop_1383: &sci_coicop_1383
     #                              ## LEVEL 5 ##                              #
     '0312_15':
       level: 5
-      label:
-      name:
-      farsi_name:
-      code: 
+      label: mens_sports_clothes
+      name: Men's Sports Clothes
+      farsi_name: لباس ورزشی (فوتبال، اسکی، کوهنوردی، شنا و ...)
+      code: 31_215
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_16':
+      level: 5
+      label: shirts_blouses_and_pullovers
+      name: Shirts, Blouses and Pullovers
+      farsi_name: انواع پیراهن، بلوز و پلوور
+      code: 31_216
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_17':
+      level: 5
+      label: mens_tshirt 
+      name: Men's T-Shirt
+      farsi_name: انواع تی شرت مردانه
+      code: 31_217
+    
+    #                              ## LEVEL 5 ##                              #
+    '0312_18':
+      level: 5
+      label: school_uniforms_and_work_dress
+      name: School Uniforms and Work Dress
+      farsi_name: روپوش مدرسه و لباس کار (غیر شغلی)
+      code: 31_218
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_19':
+      level: 5
+      label: mens_underwears
+      name: Men's Underwears
+      farsi_name: زیر پیراهن، شورت
+      code: 31_219
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_21':
+      level: 5
+      label: pyjamas_bathrobes_and_dressing_gowns
+      name: Pyjamas, Bathrobes and Dressing Gowns
+      farsi_name: پیژاما، روبدوشامبدر، گرمکن غیر ورزشی
+      code: 31_221
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_22':
+      level: 5
+      label: socks
+      name: Socks
+      farsi_name: انواع جوراب (غیر طبی)
+      code: 31_222
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_23':
+      level: 5
+      label: other_unlisted_mens_clothing
+      name: Other Unlisted Men's Clothing
+      farsi_name: سایر انواع پوشاک مردانه که در بالا اشاره نشده
+      code: 31_223
+
     #                            #### LEVEL 4 ####                            #
     '0312_3-0312_4':
       level: 4
@@ -3354,6 +3411,103 @@ sci_coicop_1383: &sci_coicop_1383
       name: Women's Fabric
       farsi_name: پوشاک زنانه
       code: {start: 31_230, end: 31_250}
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_31':
+      level: 5
+      label: overcoats
+      name: Overcaots
+      farsi_name: انواع پالتو پوست
+      code: 31_231
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_32':
+      level: 5
+      label: normal_overcoat_jacket_raincoat_and_cape
+      name: Normal Overcoat, Jacket, Raincoat and Cape
+      farsi_name: انواع پالتو معمولی، کاپشن، بارانی و شنل
+      code: 31_232
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_33':
+      level: 5
+      label: coat_and_skirt_and_trousers
+      name: Coat and Skirt and Trousers
+      farsi_name: کت و دامن، شلوار
+      code: 31_233
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_34':
+      level: 5
+      label: manteau
+      name: Manteau
+      farsi_name: مانتو و روپوش
+      code: 31_234
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_35':
+      level: 5
+      label: shirts_and_blouses
+      name: Shirts and Blouses
+      farsi_name: انواع پیراهن و بلوز
+      code: 31_235
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_36':
+      level: 5
+      label: tshirts_and_top
+      name: T-Shirt and Top
+      farsi_name: انواع تی شرت و تاپ
+      code: 31_236
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_37':
+      level: 5
+      label: womens_sports_clothes
+      name: Women's Sports Clothes
+      farsi_name: لباس ورزشی (اسکی، کوهنوردی، شنا و غیره)
+      code: 31_237
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_38':
+      level: 5
+      label: underwears_nightdresses_bathrobes_pyjamas_and_dressing_gowns
+      name: Underwears, Nightdresses, Bathrobes, Pyjamas and Dressing Gowns
+      farsi_name: >
+       انواع لباس زیر، لباس خواب، روبدوشامبر و بیژاما و گرمکن غیر ورزشی
+      code: 31_238
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_39':
+      level: 5
+      label: readymade_black_chador
+      name: Ready-Made Black Chador
+      farsi_name: چادر آماده مشکی
+      code: 31_239
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_41':
+      level: 5
+      label: readymade_colorful_chador
+      name: Ready-Made Colorful Chador
+      farsi_name: چادر آماده رنگی
+      code: 31_241
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_42':
+      level: 5
+      label: nonmedical_socks_belts_and_girdle
+      name: Non-Medical Socks, Belts and Girdle
+      farsi_name: انواع جوراب غیر طبی، کمربند، شکم بند (گن)
+      code: 31_242
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_43':
+      level: 5
+      label: payment_for_purchasing_wedding_dress
+      name: Payment for Purchasing Wedding Dress
+      farsi_name: خرید لباس عروس
+      code: 31_243
 
     #                            #### LEVEL 4 ####                            #
     '0312_5-0312_6':
@@ -3363,6 +3517,128 @@ sci_coicop_1383: &sci_coicop_1383
       farsi_name: پوشاک بچه‌گانه (۳ تا ۱۳ ساله)
       code: {start: 31_250, end: 31_270}
 
+    #                              ## LEVEL 5 ##                              #
+    '0312_51':
+      level: 5
+      label: > 
+       childrens_blouses_trousers_skirt_coat_jacket_waistcoat_and_similars
+      name: >
+       children's Blouses, Trousers, Skirt, Coat, Jacket, Waistcoat and
+        Similars 
+      farsi_name: بلوز، شلوار، دامن، کت، ژاکت، ژیله و نظایر آن
+      code: 31_251
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_52':
+      level: 5
+      label: childrens_tshirt_and_top
+      name: Children's T-Shirt and Top
+      farsi_name:  انواع تیشرت و تاپ
+      code: 31_252
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_53':
+      level: 5
+      label: childrens_shirt_and_nightdress
+      name: Chldren's Shirt and Nightdress
+      farsi_name: انواع پیراهن و لباس خواب
+      code: 31_253
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_54':
+      level: 5
+      label: childrens_underwear_nightdress_bathrobe_pyjama_and_dressing_gown
+      name: Children's Underwear, Nightdress, Bathrobe, Pyjama and Dressing Gown
+      farsi_name: انواع لباس زیر، روبدوشامبر، پیژاما و گرمکن غیر ورزشی
+      code: 31_254
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_55':
+      level: 5
+      label: manteau_and_school_uniform
+      name: Manteau and School Uniform
+      farsi_name: مانتو و روپوش مدرسه
+      code: 31_255
+    
+    #                              ## LEVEL 5 ##                              #
+    '0312_56':
+      level: 5
+      label: outerwear_coats_jackets_raincoats_capes
+      name: Outerwear (Coats, Jackets, Raincoats, Capes)
+      farsi_name: انواع پالتو معمولی، كاپشن، بارانی و شنل
+      code: 31_256
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_57':
+      level: 5
+      label: blankets
+      name: Blankets
+      farsi_name: انواع پتو
+      code: 31_257
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_58':
+      level: 5
+      versions:
+        1383:
+          label: childrens_readymade_black_chador
+          name: Children's Ready-Made Black Chador
+          farsi_name: چادر آماده مشکی
+        1389:
+          label: childrens_readymade_chador_black_and_other_types
+          name: Children's Ready-Made Chador (Black and Other Types)
+          farsi_name: چادر آماده مشکی و سایر انواع چادر آماده
+      code: 31_258
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_59':
+      level: 5
+      versions:
+        1383:
+          label: childrens_readymade_colorful_chador
+          name: Children's Ready-Made Colorful Chador 
+          farsi_name: چادر آماده رنگی
+        1389:
+          label: null
+          name: null
+          farsi_name: null
+      code: 31_259
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_61':
+      level: 5
+      label: childrens_socks
+      name: Children's Socks
+      farsi_name: انواع جوراب
+      code: 31_261
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_62':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: childrens_sports_clothes
+          name: Children's Sports Clothes
+          farsi_name: لباس ورزشی (اسکی، کوهنوردی، شنا، گرمکن و ...)
+      code: 31_262
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_69':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: other_types_of_childrens_clothing
+          name: Other Types of Children's Clothing
+          farsi_name: سایر انواع پوشاک بچه گانه
+      code: 31_269
     #                            #### LEVEL 4 ####                            #
     '0312_7':
       level: 4
@@ -3370,6 +3646,68 @@ sci_coicop_1383: &sci_coicop_1383
       name: Baby's Wear
       farsi_name: پوشاک اطفال (تا دو سال)
       code: {start: 31_270, end: 31_280}
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_71':
+      level: 5
+      label: babies_blouse_troussers_coat_jacket_waistcoat_and_similars
+      name: Babies Blouse, Trousers, Coat, Jacket, Waistcoat and Similars
+      farsi_name: بلوز، شلوار، كت، ژاكت، ژيله، انواع كاپشن و نظایر آن
+      code: 31_271
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_72':
+      level: 5
+      label: swaddle_and_cloth_diaper
+      name: Swaddle and Cloth Diaper
+      farsi_name: انواع قنداق و كهنه آماده پارچه ای
+      code: 31_272
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_73':
+      level: 5
+      label: rubber_and_plastic_trousers
+      name: Rubber and Plastic Trousers
+      farsi_name: شلوار لاستیکی و پلاستیکی
+      code: 31_273
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_74':
+      level: 5
+      label: baby_blanket
+      name: Baby Blanket
+      farsi_name: پتو بچه گانه
+      code: 31_274
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_75':
+      level: 5
+      label: shirt_undershirt_and_sleepwear
+      name: Shirt, Undershirt and Sleepwear
+      farsi_name: انواع پيراهن،زير پيراهن و لباس خواب (کشباف، پارچه ای)
+      code: 31_275
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_76':
+      level: 5
+      label: baby_socks
+      name: Baby Socks
+      farsi_name: انواع جوراب بچه گانه
+      code: 31_276
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_77':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: other_baby_clothing
+          name: Other Baby Clothing
+          farsi_name: سایر انواع پوشاک اطفال
+      code: 31_277
 
     #                        ######## LEVEL 3 ########                        #
     '0313':
@@ -3382,10 +3720,123 @@ sci_coicop_1383: &sci_coicop_1383
     #                            #### LEVEL 4 ####                            #
     '0313_1-0313_2':
       level: 4
-      label: other_articles_of_clothing_and_clothing_accessories
-      name: Other Articles of Clothing and Clothing Accessories
-      farsi_name: سایر انواع پوشاک و لوازم پوشاکی
+      label: other_articles_of_clothing_and_clothing_accessories_non_durable
+      name: Other Articles of Clothing and Clothing Accessories (Non-durable)
+      farsi_name: سایر انواع پوشاک و لوازم پوشاکی (کم دوام)
       code: {start: 31_310, end: 31_330}
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_11':
+      level: 5
+      label: apron_robe_and_work_clothes_non_durable
+      name: Apron, Robe and Work Clothes (Non-Durable)
+      farsi_name: پیش بند، روپوش و لباس كار (کم دوام)
+      code: 31_311
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_12':
+      level: 5
+      label: scarf_headscarf_chador_veil_and_similars
+      name: Scarf, Headscarf, Chador, Veil and Simialrs
+      farsi_name: شال،روسري، چارقد، مقنعه و نظاير آن
+      code: 31_312
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_13':
+      level: 5
+      label: scarf_handkerchief_necktie_bowtie_belt_and_suspender
+      name: Scarf, Handkerchief, Necktie, Bowtie, Belt and Suspender
+      farsi_name: > 
+       شال گردن، دستمال دست و گردن، كروات، پاپيون، كمربند و بندشلوار
+      code: 31_313
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_14':
+      level: 5
+      label: hats
+      name: Hats
+      farsi_name: انواع كلاه
+      code: 31_314
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_15':
+      level: 5
+      versions:
+        1383:
+          label: safety_helmet_motorcycle_and_bicycle
+          name: Safety Helmet (Motorcycle and Bicycle)
+          farsi_name: انواع كلاه ايمني (برای موتور سیکلت و دوچرخه)
+        1389:
+          label: null
+          name: null
+          farsi_name: null
+      code: 31_315
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_16':
+      level: 5
+      label: ribbon_hairband_floral_decoration_and_bridal_tiara
+      name: Ribbon, Hairband, Floral Decorations and Bridal Tiara
+      farsi_name: روبان، تل، گلهاي زينتي و تاج عروس
+      code: 31_316
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_17':
+      level: 5
+      label: gloves_non_rubber
+      name: Gloves (Non-Rubber)
+      farsi_name: انواع دستكش (غیر لاستیکی)
+      code: 31_317
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_18':
+      level: 5
+      label: sewing_threads
+      name: Sewing Threads
+      farsi_name: انواع نخ خیاطی و گلدوزي
+      code: 31_318
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_19':
+      level: 5
+      versions:
+        1383:
+          label: elastic_lining_haircloth_collar
+          name: Elastic, Lining, Haircloth, Collar
+          farsi_name: كش ولائي، موئي، يقه
+        1384:
+          label: > 
+           elastic_lining_haircloth_collar_sequins_beads_decorative_stones
+          name: > 
+           Elastic, Lining, Haircloth, Collar, Sequins, Beads, Decorative 
+           Stones
+          farsi_name: >
+           كش، لائي، موئي، يقه، پولك، منجوق و سنگهاي تزئيني براي لباس
+      code: 31_319
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_21':
+      level: 5
+      label: zipper_and_similars
+      name: Zipper and Similars
+      farsi_name: زیپ و نظایر آن
+      code: 31_321
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_22':
+      level: 5
+      label: non_decorative_buttons
+      name: Non-Decorative Buttons
+      farsi_name: انواع دكمه غیر تزئینی
+      code: 31_322
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_23':
+      level: 5
+      label: canvas_fabric
+      name: Canvas Fabric
+      farsi_name: كانوا
+      code: 31_323
 
     #                        ######## LEVEL 3 ########                        #
     '0314':
@@ -3403,6 +3854,59 @@ sci_coicop_1383: &sci_coicop_1383
       farsi_name: هزینه های پوشاک
       code: {start: 31_410, end: 31_420}
 
+    #                              ## LEVEL 5 ##                              #
+    '0314_11':
+      level: 5
+      label: dry_cleaning_laundry_dyeing_ironing
+      name: Dry Cleaning, Laundry, Dyeing, Ironing
+      farsi_name: هزينه خشك شوئي، لباسشوئي، رنگرزي و اطو
+      code: 31_411
+
+    #                              ## LEVEL 5 ##                              #
+    '0314_12':
+      level: 5
+      label: clothing_repair_mending
+      name: Clothing Repair, Mending
+      farsi_name: تعمير و رفوي لباس
+      code: 31_412
+
+    #                              ## LEVEL 5 ##                              #
+    '0314_13':
+      level: 5
+      versions:
+        1383:
+          label: clothing_rental_wedding_dress
+          name: Clothing Rental, Wedding Dress
+          farsi_name: كرايه لباس ( شامل لباس عروس و...) 
+        1389:
+          label: null
+          name: null
+          farsi_name: null
+      code: 31_413
+        
+    #                              ## LEVEL 5 ##                              #
+    '0314_14':
+      level: 5
+      label: tailoring_knitting_men
+      name: Tailoring, Knitting (Men)
+      farsi_name: اجرت دوخت یا بافت لباس (مردانه)
+      code: 31_414
+
+    #                              ## LEVEL 5 ##                              #
+    '0314_15':
+      level: 5
+      label: tailoring_knitting_women
+      name: Tailoring, Knitting (Women)
+      farsi_name: اجرت دوخت یا بافت لباس (زنانه)
+      code: 31_415
+
+    #                              ## LEVEL 5 ##                              #
+    '0314_16':
+      level: 5
+      label: tailoring_knitting_children
+      name: Tailoring, Knitting (Children)
+      farsi_name: اجرت دوخت یا بافت لباس (بچه گانه)
+      code: 31_416
 
     #                ################ LEVEL 2 ################                #
     '032':
@@ -3429,6 +3933,39 @@ sci_coicop_1383: &sci_coicop_1383
       farsi_name: کفش مردانه
       code: {start: 32_110, end: 32_120}
 
+    #                              ## LEVEL 5 ##                              #
+    '0321_11':
+      level: 5
+      label: mens_leather_suede_varnish_shoes_and_boots
+      name: Men's Leather, Suede, Varnish Shoes and Boots
+      farsi_name: كفش چرمي، شورو، جير، ورني، چكمه و پوتين
+      code: 32_111
+    
+    #                              ## LEVEL 5 ##                              #
+    '0321_12':
+      level: 5
+      label: mens casual_and_sports_shoes_excluding_ski_skate_football
+      name: Men's Casual and Sports Shoes (Excluding Ski, Skate, Football)
+      farsi_name: >
+       انواع كفش راحتی و ورزشی (به استثنای کفش اسکی، اسکیت، فوتبال و ...)
+      code: 32_112     
+    
+    #                              ## LEVEL 5 ##                              #
+    '0321_13':
+      level: 5
+      label: mens galoshes_brogan_and_slippers
+      name: Men's Galoshes, Brogan and Slippers
+      farsi_name: گالش، كفش، چكمه، دمپائي (لاستیکی و پلاستیکی)
+      code: 32_113
+
+    #                              ## LEVEL 5 ##                              #
+    '0321_14':
+      level: 5
+      label: mens giveh_and_other_types_of_shoes
+      name: Men's Giveh and Other Types of Shoes
+      farsi_name: گیوه و سایر انواع كفش
+      code: 32_114
+
     #                            #### LEVEL 4 ####                            #
     '0321_2':
       level: 4
@@ -3436,6 +3973,39 @@ sci_coicop_1383: &sci_coicop_1383
       name: Footwear for Women
       farsi_name: کفش زنانه
       code: {start: 32_120, end: 32_130}
+
+    #                              ## LEVEL 5 ##                              #
+    '0321_21':
+      level: 5
+      label: womens_leather_suede_varnish_shoes_and_boots
+      name: Women's Leather, Suede, Varnish Shoes and Boots
+      farsi_name: كفش چرمی، شورو، جیر، ورنی، چکمه و پوتین
+      code: 32_121
+
+    #                              ## LEVEL 5 ##                              #
+    '0321_22':
+      level: 5
+      label: womens_casual_and_sports_shoes_excluding_ski_skate_football
+      name: Women's Casual and Sports Shoes (Excluding Ski, Skate, Football)
+      farsi_name: >
+       انواع كفش راحتی و ورزشی (به استثنای کفش اسکی، اسکیت، فوتبال و ...)
+      code: 32_122
+    
+    #                              ## LEVEL 5 ##                              #
+    '0321_23':
+      level: 5
+      label: womens_galoshes_brogan_and_slippers
+      name: Women's Galoshes, Brogan and Slippers
+      farsi_name: (گالش، كفش، چكمه، دمپائي (لاستیکی و پلاستیکی
+      code: 32_123
+
+    #                              ## LEVEL 5 ##                              #
+    '0321_24':
+      level: 5
+      label: womens_giveh_and_other_types_of_shoes
+      name: Women's Giveh and Other Types of Shoes
+      farsi_name: گیوه و سایر انواع كفش
+      code: 32_124
 
     #                            #### LEVEL 4 ####                            #
     '0321_3':
@@ -3445,6 +4015,40 @@ sci_coicop_1383: &sci_coicop_1383
       farsi_name: کفش بچه‌گانه (۳ تا ۱۳ ساله)
       code: {start: 32_130, end: 32_140}
 
+    #                              ## LEVEL 5 ##                              #
+    '0321_31':
+      level: 5
+      label: childrens_leather_suede_varnish_shoes_and_boots
+      name: Children's Leather, Suede, Varnish Shoes and Boots
+      farsi_name: كفش چرمی، شورو، جیر، ورنی، چکمه و پوتین
+      code: 32_131
+
+    #                              ## LEVEL 5 ##                              #
+    '0321_32':
+      level: 5
+      label: childrens_casual_and_sports_shoes_excluding_ski_skate_football
+      name: >
+       Children's Casual and Sports Shoes (Excluding Ski, Skate, Football)
+      farsi_name: >
+       انواع كفش راحتی و ورزشی (به استثنای کفش اسکی، اسکیت، فوتبال و ...)
+      code: 32_132
+    
+    #                              ## LEVEL 5 ##                              #
+    '0321_33':
+      level: 5
+      label: childrens_galoshes_brogan_and_slippers
+      name: Children's Galoshes, Brogan and Slippers
+      farsi_name: (گالش، كفش، چكمه، دمپائي (لاستیکی و پلاستیکی
+      code: 32_133
+
+    #                              ## LEVEL 5 ##                              #
+    '0321_34':
+      level: 5
+      label: childrens_giveh_and_other_types_of_shoes
+      name: Children's Giveh and Other Types of Shoes
+      farsi_name: گیوه و سایر انواع كفش
+      code: 32_134
+
     #                            #### LEVEL 4 ####                            #
     '0321_4':
       level: 4
@@ -3452,6 +4056,14 @@ sci_coicop_1383: &sci_coicop_1383
       name: Footwear for Infants
       farsi_name: کفش اطفال (تا دو سال)
       code: {start: 32_140, end: 32_150}
+
+    #                              ## LEVEL 5 ##                              #
+    '0321_41':
+      level: 5
+      label: infants_shoes
+      name: Infants' Shoes
+      farsi_name: انواع کفش اطفال
+      code: 32_141
 
     #                        ######## LEVEL 3 ########                        #
     '0322':
@@ -3469,6 +4081,22 @@ sci_coicop_1383: &sci_coicop_1383
       farsi_name: تعمیرات کفش
       code: {start: 32_210, end: 32_220}
 
+    #                              ## LEVEL 5 ##                              #
+    '0322_11':
+      level: 5
+      label: payment_for_shoe_polishing
+      name: Payment for Shoe Polishing
+      farsi_name: اجرت واكس زدن انواع كفش
+      code: 32_211
+
+    #                              ## LEVEL 5 ##                              #
+    '0322_12':
+      level: 5
+      label: payment_for_shoe_repair_and_related_costs
+      name: Payment for Shoe Repair and Related Costs
+      farsi_name: كليه تعميرات كفش، پاپوش و ساير هزينه هاي مشابه
+      code: 32_212
+
     #                            #### LEVEL 4 ####                            #
     '0322_2':
       level: 4
@@ -3477,12 +4105,20 @@ sci_coicop_1383: &sci_coicop_1383
       farsi_name: ملزومات کفش
       code: {start: 32_220, end: 32_230}
 
+    #                              ## LEVEL 5 ##                              #
+    '0322_21':
+      level: 5
+      label: shoe_laces_insoles_soles_and_others
+      name: Shoe Laces, Insoles, Soles, and Others
+      farsi_name: بند كفش، كفي كفش، تخت كفش و ...
+      code: 32_221
+
 
     ################################# LEVEL 1 #################################
     '04':
       level: 1
       label: housing_water_electricity_gas_and_other_fuels
-      title: Housing, water, electricity, gas and other fuels
+      name: Housing, Water, Electricity, Gas and Other Fuels
       farsi_name: مسکن، آب، فاضلاب، سوخت و روشنایی
       code: {start: 40_000, end: 50_000}
 
@@ -3491,7 +4127,7 @@ sci_coicop_1383: &sci_coicop_1383
     '041':
       level: 2
       label: actual_rentals_for_housing
-      title: Actual rentals for housing
+      name: Actual Rentals for Housing
       farsi_name: اجاره‌بهای واقعی مسکن
       code: {start: 41_000, end: 42_000}
 
@@ -3499,16 +4135,16 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0411':
       level: 3
-      label: actual_rentals_paid_by_tenants_for_main_residence
-      title: Actual rentals paid by tenants for main residence
-      farsi_name: اجاره‌بهای محل سکونت (اقامتگاه اصلی)
+      label: actual_rentals_paid_by_tenants
+      name: Actual Rentals Paid by Tenants
+      farsi_name: اجاره‌بهای محل سکونت
       code: {start: 41_100, end: 41_200}
 
     #                            #### LEVEL 4 ####                            #
     '0411_1':
       level: 4
       label: actual_rentals_paid_by_tenants_for_main_residence
-      title: Actual rentals paid by tenants for main residence
+      title: Actual Rentals Paid by Tenants for Main Residence
       farsi_name: اجاره‌بهای محل سکونت (اقامتگاه اصلی)
       code: {start: 41_110, end: 41_120}
 
@@ -3516,7 +4152,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0411_11':
       level: 5
       label: actual_rentals_paid_by_tenants_for_main_residence_unfurnished
-      title: Actual rentals paid by tenants for main residence unfurnished
+      name: Actual Rentals Paid by Tenants for Main Residence Unfurnished
       farsi_name: اجاره بهای محل سکونت (غیر مبله)
       code: 41_111
 
@@ -3524,15 +4160,15 @@ sci_coicop_1383: &sci_coicop_1383
     '0411_12':
       level: 5
       label: actual_rentals_paid_by_tenants_for_main_residence_furnished
-      title: Actual rentals paid by tenants for main residence furnished
+      name: Actual Rentals Paid by Tenants for Main Residence Furnished
       farsi_name: اجاره بهای محل سکونت (مبله)
       code: 41_112
 
     #                              ## LEVEL 5 ##                              #
     '0411_13':
       level: 5
-      label: 
-      title: 
+      label: payment_for_room_rent_in_hotel_or_overnight_boarding_house
+      name: Payment for Room Rent in Hotel or Overnight Boarding House
       farsi_name: اجاره‌بهای یک اتاق در هتل یا پانسیون شبانه‌روزی
       code: 41_113
 
@@ -3540,39 +4176,39 @@ sci_coicop_1383: &sci_coicop_1383
     '0412':
       level: 3
       label: actual_rentals_paid_by_tenants_for_secondary_residences
-      title: Actual rentals paid by tenants for secondary residences
+      name: Actual Rentals Paid by Tenants for Secondary Residences
       farsi_name: اجاره‌بهای محل سکونت (اقامتگاه‌های بعدی)
       code: {start: 41_200, end: 41_300}
 
     #                            #### LEVEL 4 ####                            #
     '0412_1':
       level: 4
-      label: actual_rentals_paid_by_tenants_for_secondary_residences
-      title: Actual rentals paid by tenants for secondary residences
-      farsi_name: اجاره‌بهای محل سکونت (اقامتگاه‌های بعدی)
+      label: rental_payments_for_secondary_residences_by_tenants
+      name: Rental Payments for Secondary Residences by Tenants
+      farsi_name: اجاره‌بهای محل سکونت (اقامتگاه‌های بعدی) توسط مستأجران
       code: {start: 41_210, end: 41_220}
 
     #                              ## LEVEL 5 ##                              #
     '0412_11':
       level: 5
-      label: 
-      title: 
+      label: rent_for_unfurnished_residences 
+      name: Rent for Unfurnished Residences
       farsi_name: اجاره‌بهای محل سکونت (غیر مبله)
       code: 41_211
 
     #                              ## LEVEL 5 ##                              #
     '0412_12':
       level: 5
-      label: 
-      title: 
+      label: rent_for_furnished_residences
+      name: Rent for Furnished Residences
       farsi_name: اجاره‌بهای محل سکونت (مبله)
       code: 41_212
 
     #                              ## LEVEL 5 ##                              #
     '0412_13':
       level: 5
-      label: 
-      title: 
+      label: rent_for_room_in_hotel_or_overnight_boarding_house
+      name: Rent for Room in Hotel or Overnight Boarding House
       farsi_name: اجاره‌بهای یک اتاق در هتل یا پانسیون شبانه‌روزی
       code: 41_213
 
@@ -3581,7 +4217,7 @@ sci_coicop_1383: &sci_coicop_1383
     '042':
       level: 2
       label: imputed_rentals_for_housing
-      title: Imputed rentals for housing
+      name: Imputed rentals for housing
       farsi_name: اجاره‌بهای احتسابی مسکن
       code: {start: 42_000, end: 43_000}
 
@@ -3590,133 +4226,96 @@ sci_coicop_1383: &sci_coicop_1383
     '0421':
       level: 3
       label: imputed_rentals_of_owner_occupiers_for_main_residence
-      title: Imputed rentals of owner-occupiers for main residence
+      name: Imputed rentals of owner-occupiers for main residence
       farsi_name: برآورد اجاره‌بهای مسکن شخصی برای اقامتگاه اصلی
       code: {start: 42_100, end: 42_200}
 
     #                            #### LEVEL 4 ####                            #
     '0421_1':
       level: 4
-      label: imputed_rentals_of_owner_occupiers_for_main_residence
-      title: Imputed rentals of owner-occupiers for main residence
-      farsi_name: برآورد اجاره‌بهای مسکن شخصی برای اقامتگاه اصلی
+      label: estimated_rental_value_of_owner_occupied_main_residence
+      name: Estimated Rental Value of Owner-Occupied Main Residence
+      farsi_name: ارزش برآوردی اجاره‌بهای مسکن شخصی برای اقامتگاه اصلی
       code: {start: 42_110, end: 42_120}
+
 
     #                              ## LEVEL 5 ##                              #
     '0421_11':
       level: 5
-      label: imputed_rentals_of_owner_occupiers_for_main_residence
-      title: Imputed rentals of owner-occupiers for main residence
-      farsi_name: برآورد اجاره‌بهای مسکن شخصی برای اقامتگاه اصلی
+      label: imputed_rental_costs_of_owner_occupiers
+      name: Imputed Rental Costs of Owner-Occupiers
+      farsi_name: برآورد هزینه‌های اجاره‌ای مسکن شخصی
       code: 42_111
-
 
     #                        ######## LEVEL 3 ########                        #
     '0422':
       level: 3
       label: other_imputed_rentals
-      title: Other imputed rentals
+      name: Other Imputed Rentals
       farsi_name: سایر اجاره‌های احتسابی
       code: {start: 42_200, end: 42_300}
 
     #                            #### LEVEL 4 ####                            #
     '0422_1':
       level: 4
-      label: other_imputed_rentals
-      title: Other imputed rentals
-      farsi_name: سایر اجاره‌های احتسابی
+      label: additional_imputed_rentals
+      name: Additional Imputed Rentals
+      farsi_name: اجاره‌های احتسابی اضافی
       code: {start: 42_210, end: 42_220}
 
     #                              ## LEVEL 5 ##                              #
     '0422_11':
       level: 5
-      label: imputed_rentals_of_owner_occupiers_for_other_residence
-      title: Imputed rentals of owner-occupiers for other residence
+      label: imputed_rental_value_of_secondary_residences
+      name: Imputed Rental Value of Secondary Residences
       farsi_name: برآورد اجاره‌بهای مسکن شخصی اقامتگاه‌های بعدی
       code: 42_211
 
     #                              ## LEVEL 5 ##                              #
     '0422_12':
       level: 5
-      label: imputed_rental_equivalence_of_the_mortgage
-      title: Imputed rental equivalence of the mortgage
+      label: imputed_rental_value_of_mortgaged_residences
+      name: Imputed Rental Value of Mortgaged Residences
       farsi_name: برآورد ارزش اجاری محل سکونت (رهنی)
       code: 42_212
 
     #                              ## LEVEL 5 ##                              #
     '0422_13':
       level: 5
-      label: 
-      title: 
+      label: imputed_rental_value_of_service_accommodation
+      name: Imputed Rental Value of Service Accommodation
       farsi_name: برآورد اجاره‌بهای مسکن در برابر خدمت
       code: 42_213
 
     #                              ## LEVEL 5 ##                              #
     '0422_14':
       level: 5
-      label: 
-      title: 
+      label: imputed_rental_value_of_free_housing
+      name: Imputed Rental Value of Free Housing
       farsi_name: برآورد اجاره‌بهای مسکن رایگان
       code: 42_214
 
     #                              ## LEVEL 5 ##                              #
     '0422_15':
       level: 5
-      label: 
-      title: 
-      farsi_name: برآورد سایر اجاره‌بهای احتسابی
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: imputed_rental_value_of_other_housing
+          name: Imputed Rental Value of Other Housing
+          farsi_name: برآورد سایر اجاره بهای احتسابی
       code: 42_215
-
-
-    #                ################ LEVEL 2 ################                #
-    '043':
-      level: 2
-      label: maintenance_repair_and_security_of_the_dwelling
-      title: Maintenance, repair and security of the dwelling
-      farsi_name: نگهداری و تعمیر واحد مسکونی
-      code: {start: 43_000, end: 44_000}
-
-
-    #                        ######## LEVEL 3 ########                        #
-    '0431':
-      level: 3
-      label: materials_for_the_maintenance_and_repair_of_the_dwelling
-      title: Materials for the maintenance and repair of the dwelling
-      farsi_name: مواد و مصالح برای نگهداری و تعمیر واحد مسکونی
-      code: {start: 43_100, end: 43_200}
-
-     #                            #### LEVEL 4 ####                            #
-    '0431_1-0431_2-0431_3':
-      level: 4
-      label: materials_for_the_maintenance_and_repair_of_the_dwelling
-      title: Materials for the maintenance and repair of the dwelling
-      farsi_name: مواد و مصالح برای نگهداری و تعمیر واحد مسکونی
-      code: {start: 43_110, end: 43_140}
-
-
-    #                        ######## LEVEL 3 ########                        #
-    '0432':
-      level: 3
-      label: services_for_the_maintenance_and_repair_of_the_dwelling
-      title: Services for the maintenance and repair of the dwelling
-      farsi_name: خدمات نگهداری و تعمیر واحد مسکونی
-      code: {start: 43_200, end: 43_300}
-
-     #                            #### LEVEL 4 ####                            #
-    '0432_1-0432_2':
-      level: 4
-      label: services_for_the_maintenance_and_repair_of_the_dwelling
-      title: Services for the maintenance and repair of the dwelling
-      farsi_name: خدمات نگهداری و تعمیر واحد مسکونی
-      code: {start: 43_210, end: 43_230}
 
 
     #                ################ LEVEL 2 ################                #
     '044':
       level: 2
-      label: water_supply_and_miscellaneous_services_relating_to_the_dwelling
-      title: Water supply and miscellaneous services relating to the dwelling
-      farsi_name: سایر خدمات مربوط به واحد مسکونی
+      label:
+      name: 
+      farsi_name: هزینه آب و فاضلاب و سایر خدمات مربوط به واحد مسکونی
       code: {start: 44_000, end: 45_000}
 
 
@@ -3724,123 +4323,494 @@ sci_coicop_1383: &sci_coicop_1383
     '0441':
       level: 3
       label: water_supply
-      title: Water supply
+      name: Water supply
       farsi_name: هزینه‌ی آب
       code: {start: 44_100, end: 44_200}
 
+    #                            #### LEVEL 4 ####                            #
+    '0441_1':
+      level: 4
+      label: residential_water_expenses
+      name: Residential Water Expenses
+      farsi_name: هزینه‌ی آب واحد مسکونی
+      code: {start: 44_110, end: 42_120}
 
+    #                              ## LEVEL 5 ##                              #
+    '0441_11':
+      level: 5
+      label: piped_water_supply
+      name: Piped Water Supply
+      farsi_name: آب لوله كشی
+      code: 44_111
+
+    #                              ## LEVEL 5 ##                              #
+    '0441_12':
+      level: 5
+      versions:
+        1383:
+          label: water_penalty_fees
+          name: Water Penalty Fees
+          farsi_name: هزينه هاي مربوط به جريمه
+        1386:
+          label: water_penalty_and_reconnection_fees
+          name: Water Penalty and Reconnection Fees
+          farsi_name: هزينه هاي مربوط به جريمه و وصل مجدد آب
+      code: 44_112
+
+    #                              ## LEVEL 5 ##                              #
+    '0441_13':
+      level: 5
+      versions:
+        1383:
+          label: water_reconnection_fees
+          name: Water Reconnection Fees
+          farsi_name: هزینه های مربوط به وصل مجدد آب
+        1386:
+          label: null 
+          name: null
+          farsi_name: null
+      code: 44_113
+
+    #                              ## LEVEL 5 ##                              #
+    '0441_14':
+      level: 5
+      label: purchased_water_and_other_water_expenses
+      name: Purchased Water and Other Water Expenses
+      farsi_name: خرید آب و سایر هزینه های آب
+      code: 44_114
+
+    #                        ######## LEVEL 3 ########                        #
+    '0442':
+      level: 3
+      label: waste_disposal_expenses
+      name: Waste Disposal Expenses
+      farsi_name: هزینه‌های دفع زباله
+      code: {start: 44_200, end: 44_300} 
+
+    #                            #### LEVEL 4 ####                            #
+    '0442_1':
+      level: 4
+      label: residential_waste_disposal_expenses
+      name: Residential Waste Disposal Expenses
+      farsi_name: هزینه‌های دفع زباله واحد مسکونی
+      code: {start: 44_210, end: 44_220}
+
+    #                              ## LEVEL 5 ##                              #
+    '0442_11':
+      level: 5
+      versions:
+        1383:
+          label: waste_collection_and_disposal_fees
+          name: Waste Collection and Disposal Fees
+          farsi_name: هزينه جمع آوري ودفع زباله
+        1384:
+          label: null
+          name: null
+          farsi_name: null
+      code: 44_211
+      
     #                        ######## LEVEL 3 ########                        #
     '0443':
       level: 3
       label: sewage_collection
-      title: Sewage collection
+      name: Sewage collection
       farsi_name: هزینه‌های جمع‌آوری فاضلاب
       code: {start: 44_300, end: 44_400}
 
+    #                            #### LEVEL 4 ####                            #
+    '0443_1':
+      level: 4
+      label: residential_sewage_collection_expenses
+      name: Residential Sewage Collection Expenses
+      farsi_name: هزینه‌های جمع‌آوری فاضلاب واحد مسکونی 
+      code: {start: 44_310, end: 44_320}
+
+    #                              ## LEVEL 5 ##                              #
+    '0443_11':
+      level: 5
+      label: ongoing_sewage_expenses
+      name: Ongoing Sewage Expenses
+      farsi_name: هزينه هاي جاري فاضلاب
+      code: 44_311
+
+    #                              ## LEVEL 5 ##                              #
+    '0443_12':
+      level: 5
+      label: septic_tank_cleaning_and_pipe_unclogging
+      name: Septic Tank Cleaning and Pipe Unclogging
+      farsi_name: هزينه تخليه چاه و لوله بازكني
+      code: 44_312
 
     #                        ######## LEVEL 3 ########                        #
     '0444':
       level: 3
       label: other_services_relating_to_the_dwelling
-      title: Other services relating to the dwelling
+      name: Other Services Relating to the Dwelling
       farsi_name: سایر خدمات مربوط به واحد مسکونی
       code: {start: 44_400, end: 44_500}
 
+    #                            #### LEVEL 4 ####                            #
+    '0444_1':
+      level: 4
+      label: maintenance_and_miscellaneous_housing_services
+      name: Maintenance and Miscellaneous Housing Services
+      farsi_name: خدمات نگهداری و سایر خدمات مربوط به واحد مسکونی
+      code: {start: 44_410, end: 44_420}
 
-    #                ################ LEVEL 2 ################                #
+    #                              ## LEVEL 5 ##                              #
+    '0444_11':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: staircase_and_garbage_chute_cleaning_expenses
+          name: Staircase and Garbage Chute Cleaning Expenses
+          farsi_name: هزينه عمومي نظافت راه پله وشوت زباله
+      code: 44_411
+
+    #                              ## LEVEL 5 ##                              #
+    '0444_12':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: lighting_heating_and_elevator_maintenance_expenses
+          name: Lighting, Heating, and Elevator Maintenance Expenses
+          farsi_name: هزينه عمومي روشنايي، گرما و نگهداري آسانسور
+      code: 44_412
+    
+    #                              ## LEVEL 5 ##                              #
+    '0444_13':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: other_apartment_maintenance_expenses
+          name: Other Apartment Maintenance Expenses
+          farsi_name: ساير هزينه هاي عمومي نگهداري آپارتمان
+      code: 44_413
+
+    #                              ## LEVEL 5 ##                              #
+    '0444_14':
+      level: 5
+      versions:
+        1383:
+          label: gardener_expenses
+          name: Gardener Expenses
+          farsi_name: هزینه باغبان
+        1386:
+          label: >
+           gardening_janitor_water_distributor_and_snow_removal_expenses
+          name: >
+           Gardening, Janitor, Water Distributor, and Snow Removal Expenses
+          farsi_name: هزينه باغباني، سرايداري، ميراب و برفروب
+      code: 44_414
+
+    #                              ## LEVEL 5 ##                              #
+    '0444_15':
+      level: 5
+      versions:
+        1383:
+          label: janitor_expenses
+          name: Janitor Expenses
+          farsi_name: هزینه سرایداری
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 44_415
+
+    #                              ## LEVEL 5 ##                              #
+    '0444_16':
+      level: 5
+      versions:
+        1383:
+          label: water_distributor_expenses
+          name: Water Distributor Expenses
+          farsi_name: هزینه میراب
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 44_416
+
+    #                              ## LEVEL 5 ##                              #
+    '0444_17':
+      level: 5
+      versions:
+        1383:
+          label: snow_removal_expenses
+          name: Snow Removal Expenses
+          farsi_name: هزینه برف روب
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 44_417
+
+    #                              ## LEVEL 5 ##                              #
+    '0444_18':
+      level: 5
+      label: street_sweeper_expenses
+      name: Street Sweeper Expenses
+      farsi_name: رفتگر
+      code: 44_418
+
+    #                        ######## LEVEL 2 ########                        #
     '045':
       level: 2
-      label: electricity_gas_and_other_fuels
-      title: Electricity, gas and other fuels
+      label: lighting_and_fuel
+      name: Lighting and Fuel
       farsi_name: روشنایی و سوخت
-      code: {start: 45_000, end: 46_000}
-
+      code: {start: 45_000, end: 45_500}
 
     #                        ######## LEVEL 3 ########                        #
     '0451':
       level: 3
       label: electricity
-      title: Electricity
+      name: Electricity
       farsi_name: برق
       code: {start: 45_100, end: 45_200}
 
+    #                            #### LEVEL 4 ####                            #
+    '0451_1':
+      level: 4
+      label: residential_electricity
+      name: Residential Electricity
+      farsi_name: برق واحد مسکونی 
+      code: {start: 45_110, end: 45_120}
+
+    #                              ## LEVEL 5 ##                              #
+    '0451_11':
+      level: 5
+      label: electricity_bill
+      name: Electricity Bill
+      farsi_name: برق
+      code: 45_111
+
+    #                              ## LEVEL 5 ##                              #
+    '0451_12':
+      level: 5
+      versions:
+        1383:
+          label: lighting_supply_costs
+          name: Lighting Supply Costs
+          farsi_name: هزینه تامین روشنائی
+        1384:
+          label: null
+          name: null
+          farsi_name: null
+      code: 45_112  
+      
+    #                              ## LEVEL 5 ##                              #
+    '0451_13':
+      level: 5
+      versions:
+        1383:
+          label: electricity_penalty_fees
+          name: Electricity Penalty Fees
+          farsi_name: هزینه‌های مربوط به جریمه
+        1386:
+          label: electricity_penalty_and_reconnection_fees
+          name: Electricity Penalty and Reconnection Fees
+          farsi_name: هزینه‌های مربوط به جریمه و وصل مجدد برق
+      code: 45_113
+
+    #                              ## LEVEL 5 ##                              #
+    '0451_14':
+      level: 5
+      versions:
+        1383:
+          label: electricity_reconnection_fees
+          name: Electricity Reconnection Fees
+          farsi_name: هزینه های مربوط به وصل مجدد برق
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 45_114
 
     #                        ######## LEVEL 3 ########                        #
     '0452':
       level: 3
       label: gas
-      title: Gas
+      name: Gas
       farsi_name: گاز
       code: {start: 45_200, end: 45_300}
 
+    #                            #### LEVEL 4 ####                            #
+    '0452_1':
+      level: 4
+      label: residential_gas
+      name: Residential Gas
+      farsi_name: گاز واحد مسکونی
+      code: {start: 45_210, end: 45_220}
+
+    #                              ## LEVEL 5 ##                              #
+    '0452_11':
+      level: 5
+      label: piped_gas
+      name: Piped Gas
+      farsi_name: گاز لوله‌کشی
+      code: 45_211
+
+    #                              ## LEVEL 5 ##                              #
+    '0452_12':
+      level: 5
+      label: bottled_gas
+      name: Bottled Gas (Various Capsules and Picnic Gas)
+      farsi_name: گاز مایع (در انواع کپسول‌های معمولی و پیک نیکی)
+      code: 45_212
+
+    #                              ## LEVEL 5 ##                              #
+    '0452_13':
+      level: 5
+      versions:
+        1383:
+          label: gas_penalty_and_fees
+          name: Gas Penalty Fees
+          farsi_name: هزینه‌های مربوط به جریمه
+        1386:
+          label: gas_penalty_and_reconnection_fees
+          name: Gas Penalty and Reconnection Fees
+          farsi_name: هزینه‌های مربوط به جریمه و وصل مجدد گاز
+      code: 45_213
+
+    #                              ## LEVEL 5 ##                              #
+    '0452_14':
+      level: 5
+      versions:
+        1383:
+          label: gas_reconnection_fees
+          name: Gas Reconnection Fees
+          farsi_name: هزینه‌های مربوط به وصل مجدد گاز
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 45_214
 
     #                        ######## LEVEL 3 ########                        #
     '0453':
       level: 3
       label: liquid_fuels
-      title: Liquid fuels
+      name: Liquid Fuels
       farsi_name: سوخت مایع
       code: {start: 45_300, end: 45_400}
 
+    #                            #### LEVEL 4 ####                            #
+    '0453_1':
+      level: 4
+      label: household_liquid_fuels
+      name: Household Liquid Fuels
+      farsi_name: سوخت‌های مایع خانگی
+      code: {start: 45_310, end: 45_320}
+
+    #                              ## LEVEL 5 ##                              #
+    '0453_11':
+      level: 5
+      label: white_kerosene
+      name: White Kerosene
+      farsi_name: نفت سفید
+      code: 45_311
+
+    #                              ## LEVEL 5 ##                              #
+    '0453_12':
+      level: 5
+      label: gasoline
+      name: Gasoline
+      farsi_name: گازوئیل
+      code: 45_312
+
+    #                              ## LEVEL 5 ##                              #
+    '0453_13':
+      level: 5
+      label: black_oil_and_burner_fuel
+      name: Black Oil and Burner Fuel
+      farsi_name: نفت سیاه و نفت مشعل
+      code: 45_313
+
+    #                              ## LEVEL 5 ##                              #
+    '0453_14':
+      level: 5
+      label: other_liquid_fuels
+      name: Other Liquid Fuels
+      farsi_name: سایر سوخت‌های مایع
+      code: 45_314
 
     #                        ######## LEVEL 3 ########                        #
     '0454':
       level: 3
       label: solid_fuels
+      name: Solid Fuels
       farsi_name: سوخت‌های جامد
       code: {start: 45_400, end: 45_500}
+
+    #                            #### LEVEL 4 ####                            #
+    '0454_1':
+      level: 4
+      label: household_solid_fuels
+      name: Household Solid Fuels
+      farsi_name: سوخت‌های جامد خانگی
+      code: {start: 45_410, end: 45_420}
+
+    #                              ## LEVEL 5 ##                              #
+    '0454_11':
+      level: 5
+      label: coal
+      name: Coal
+      farsi_name: زغال سنگ
+      code: 45_411
+
+    #                              ## LEVEL 5 ##                              #
+    '0454_12':
+      level: 5
+      label: wood_charcoal
+      name: Wood and Charcoal
+      farsi_name: زغال چوب و خاک زغال
+      code: 45_412
+
+    #                              ## LEVEL 5 ##                              #
+    '0454_13':
+      level: 5
+      label: other_solid_fuels
+      name: Other Solid Fuels (Wood Chips and ...)
+      farsi_name: هیزم، چوب، خرده چوب و ...
+      code: 45_413
+
+    #                              ## LEVEL 5 ##                              #
+    '0454_14':
+      level: 5
+      label: animal_fuel
+      name: Animal Fuel
+      farsi_name: سوخت حیوانی
+      code: 45_414
 
 
     ################################# LEVEL 1 #################################
     '05':
       level: 1
       label: furnishings_household_equipment_and_routine_household_maintenance
+      name: Furnishings Household Equipment_and Routine Household Maintenance
       farsi_name: مبلمان، لوازم خانگی، و نگهداری معمول آن‌ها
       code: {start: 50_000, end: 60_000}
 
 
     #                ################ LEVEL 2 ################                #
-    '051':
-      level: 2
-      label: furniture_furnishings_and_loose_carpets
-      title: Furniture, furnishings, and loose carpets
-      farsi_name: مبلمان و اثاث، فرش و سایر کفپوش‌ها
-      code: {start: 51_000, end: 52_000}
-
-
-    #                        ######## LEVEL 3 ########                        #
-    '0511':
-      level: 3
-      label: furniture_and_furnishings
-      label: Furniture and furnishings
-      farsi_name: مبلمان و اثاث
-      code: {start: 51_100, end: 51_200}
-
-
-    #                        ######## LEVEL 3 ########                        #
-    '0512':
-      level: 3
-      label: carpets_and_other_floor_coverings
-      title: Carpets and other floor coverings
-      farsi_name: فرش و سایر کفپوش‌ها
-      code: {start: 51_200, end: 51_300}
-
-
-    #                        ######## LEVEL 3 ########                        #
-    '0513':
-      level: 3
-      label: repair_of_furniture_furnishings_and_floor_coverings
-      title: Repair of furniture, furnishings and floor coverings
-      farsi_name: تعمیر مبلمان، اثاث و کفپوش‌ها
-      code: {start: 51_300, end: 51_400}
-
-
-    #                ################ LEVEL 2 ################                #
     '052':
       level: 2
-      label: household_textiles
-      title: Household textiles
-      farsi_name: لوازم پارچه‌ای خانگی
+      label: household_textiles_non_durable
+      name: Household Textiles (Non-durable)
+      farsi_name: لوازم پارچه‌ای خانگی (کم دوام)
       code: {start: 52_000, end: 53_000}
 
 
@@ -3848,16 +4818,153 @@ sci_coicop_1383: &sci_coicop_1383
     '0521':
       level: 3
       label: household_textiles
-      title: Household textiles
+      name: Household textiles
       farsi_name: لوازم پارچه‌ای خانگی
       code: {start: 52_100, end: 52_200}
 
+    #                            #### LEVEL 4 ####                            #
+    '0521_1':
+      level: 4
+      label: general_household_textiles
+      name: General Household Textiles
+      farsi_name: لوازم پارچه‌ای خانگی عمومی
+      code: {start: 52_110, end: 52_120}
+
+    #                              ## LEVEL 5 ##                              #
+    '0521_11':
+      level: 5
+      label: fabric_curtains
+      name: Fabric Curtains
+      farsi_name: انواع پرده پارچه اي
+      code: 52_111
+
+    #                              ## LEVEL 5 ##                              #
+    '0521_12':
+      level: 5
+      label: > 
+       bedspreads_pillowcases_sheets_mattress_covers_quilts_and_mosquito_nets
+      name: >
+       Bedspreads, Pillowcases, Sheets, Mattress Covers,
+       Quilts, and Mosquito Nets
+      farsi_name: > 
+        روتختي، روبالشي، چادرشب، ملحفه، روفرشي، شمد، پشه بند و نظایر آن
+      code: 52_112
+    
+    #                              ## LEVEL 5 ##                              #
+    '0521_13':
+      level: 5
+      label: blankets_non_electric
+      name: Blankets (Non-Electric)
+      farsi_name: انواع پتو (غیر از پتوی برقی)
+      code: 52_113
+
+    #                              ## LEVEL 5 ##                              #
+    '0521_14':
+      level: 5
+      label: quilts_mattresses_pillows_fabric_hammocks
+      name: Quilts, Mattresses, Pillows, and Fabric Hammocks
+      farsi_name:  لحاف، تشك، بالش، متکا و ننو پارچه ای
+      code: 52_114
+    
+    #                              ## LEVEL 5 ##                              #
+    '0521_15':
+      level: 5
+      label: tablecloths_napkins
+      name: Tablecloths, Napkins
+      farsi_name: روميزي، دستمال سفره و انواع سفره
+      code: 52_115
+
+    #                              ## LEVEL 5 ##                              #
+    '0521_16':
+      level: 5
+      label: towels_bath_mitts_loofahs
+      name: Towels, Bath Mitts, Loofahs, and Wraps
+      farsi_name: حوله، لیف، كیسه و لنگ
+      code: 52_116
+
+    #                              ## LEVEL 5 ##                              #
+    '0521_17':
+      level: 5
+      label: other_fabric_items
+      name: Other Fabric Items 
+      farsi_name: >
+       ساير لوازم پارچه اي
+       (نظير ساك خريد، روكش پارچه اي لباس، مبلمان، جادستمالي و نظایر آن)
+      code: 52_117
+
+    #                              ## LEVEL 5 ##                              #
+    '0521_18':
+      level: 5
+      label: fabric_lace_ribbons_canevas_for_household_textiles
+      name: Fabric, Lace, Ribbons, and Canevas for Household Textiles
+      farsi_name: پارچه، تور، نوار و كانوا براي تهيه لوازم فوق
+      code: 52_118
+
+    #                              ## LEVEL 5 ##                              #
+    '0521_19':
+      level: 5
+      label: floor_mats_woven_rugs_and_doormats
+      name: Floor Mats, Woven Rugs, and Doormats
+      farsi_name: زيرپائي، زيرانداز حصيري و پادری
+      code: 52_119
+
+    #                              ## LEVEL 5 ##                              #
+    '0521_21':
+      level: 5
+      label: wool_and_feathers_for_household_textiles
+      name: Wool and Feathers for Household Textiles
+      farsi_name: پشم و پر جهت تهيه لوازم فوق
+      code: 52_121
+    
+    #                              ## LEVEL 5 ##                              #
+    '0521_22':
+      level: 5
+      label: cotton_for_household_textiles
+      name: Cotton for Household Textiles
+      farsi_name: پنبه جهت تهيه لوازم فوق
+      code: 52_122
+
+    #                              ## LEVEL 5 ##                              #
+    '0521_23':
+      level: 5
+      versions:
+        1383:
+          label: felt_for_household_textiles
+          name: Felt for Household Textiles
+          farsi_name: كرك جهت تهيه لوازم فوق
+        1389:
+          label: felt_foam_sponge_fabric_and_plastic_for_household_textiles 
+          name: Felt, Foam, Sponge, Fabric, and Plastic for Household Textiles
+          farsi_name: كرك، ابر، اسفنج، پارچه و مشمع جهت تهيه لوازم فوق
+      code: 52_123
+    
+    #                              ## LEVEL 5 ##                              #
+    '0521_24':
+      level: 5
+      versions:
+        1383:
+          label: foam_sponge_fabric_ans_plastic_for_household_textiles
+          name: Foam, Sponge, Fabric, and Plastic for Household Textiles
+          farsi_name: ابر، اسفنج، پارچه و مشمع جهت تهيه لوازم فوق
+        1389:
+          label: null
+          name: null
+          farsi_name: null
+      code: 52_124
+
+    #                              ## LEVEL 5 ##                              #
+    '0521_25':
+      level: 5
+      label: tailoring_and_repair_costs
+      name: Tailoring and Repair Costs
+      farsi_name: اجرت دوخت يا بافت لوازم فوق و هزينه تعميرات آن
+      code: 52_125
 
     #                ################ LEVEL 2 ################                #
     '053':
       level: 2
       label: household_appliances
-      title: Household appliances
+      name: Household appliances
       farsi_name: وسایل خانگی
       code: {start: 53_000, end: 54_000}
 
@@ -3866,7 +4973,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0531':
       level: 3
       label: major_household_appliances_whether_electric_or_not
-      title: Major household appliances whether electric or not
+      name: Major household appliances whether electric or not
       farsi_name: وسایل اصلی برقی و غیر برقی
       code: {start: 53_100, end: 53_200}
 
@@ -3875,7 +4982,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0532':
       level: 3
       label: small_electric_household_appliances
-      title: Small electric household appliances
+      name: Small electric household appliances
       farsi_name: وسایل کوچک برقی
       code: {start: 53_200, end: 53_300}
 
@@ -3884,7 +4991,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0533':
       level: 3
       label: repair_of_household_appliances
-      title: Repair of household appliances
+      name: Repair of household appliances
       farsi_name: هزینه تعمیر، نصب و اجاره وسایل اصلی برقی و غیر برقی
       code: {start: 53_300, end: 53_400}
 
@@ -3893,7 +5000,7 @@ sci_coicop_1383: &sci_coicop_1383
     '054':
       level: 2
       label: glassware_tableware_and_household_utensils
-      title: Glassware, tableware and household utensils
+      name: Glassware, tableware and household utensils
       farsi_name: انواع ظروف غذاخوری و سایر لوازم خانگی
       code: {start: 54_000, end: 55_000}
 
@@ -3902,7 +5009,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0540':
       level: 3
       label: glassware_tableware_and_household_utensils
-      title: Glassware, tableware and household utensils
+      name: Glassware, tableware and household utensils
       farsi_name: انواع ظروف غذاخوری و سایر لوازم خانگی
       code: {start: 54_000, end: 54_100}
 
@@ -3911,7 +5018,7 @@ sci_coicop_1383: &sci_coicop_1383
     '055':
       level: 2
       label: tools_and_equipment_for_house_and_garden
-      title: Tools and equipment for house and garden
+      name: Tools and equipment for house and garden
       farsi_name: ابزار و تجهیزات منزل و باغ
       code: {start: 55_000, end: 56_000}
 
@@ -3920,7 +5027,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0551':
       level: 3
       label: major_tools_and_equipment
-      title: Major tools and equipment
+      name: Major tools and equipment
       farsi_name: ابزار و تجهیزات بادوام
       code: {start: 55_100, end: 55_200}
 
@@ -3929,7 +5036,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0552':
       level: 3
       label: small_tools_and_miscellaneous_accessories
-      title: Small tools and miscellaneous accessories
+      name: Small tools and miscellaneous accessories
       farsi_name: ابزار و تجهیزات کم دوام
       code: {start: 55_200, end: 55_300}
 
@@ -3938,7 +5045,7 @@ sci_coicop_1383: &sci_coicop_1383
     '056':
       level: 2
       label: goods_and_services_for_routine_household_maintenance
-      title: Goods and services for routine household maintenance
+      name: Goods and services for routine household maintenance
       farsi_name: کالا و خدمات برای منزل
       code: {start: 56_000, end: 57_000}
 
@@ -3947,7 +5054,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0561':
       level: 3
       label: non_durable_household_goods
-      title: Non-durable household goods
+      name: Non-durable household goods
       farsi_name: کالاهای بی‌دوام خانگی
       code: {start: 56_100, end: 56_200}
 
@@ -3956,7 +5063,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0562':
       level: 3
       label: domestic_services_and_household_services
-      title: Domestic services and household services
+      name: Domestic services and household services
       farsi_name: خدمات خانگی و مراقبت از منزل
       code: {start: 56_200, end: 56_300}
 
@@ -3965,7 +5072,7 @@ sci_coicop_1383: &sci_coicop_1383
     '06':
       level: 1
       label: health
-      title: health
+      name: Health
       farsi_name: بهداشت و درمان
       code: {start: 60_000, end: 70_000}
 
@@ -3974,7 +5081,7 @@ sci_coicop_1383: &sci_coicop_1383
     '061':
       level: 2
       label: medicines_and_health_products
-      title: Medicines and health products
+      name: Medicines and Health Products
       farsi_name: محصولات، وسایل و لوازم کمک پزشکی
       code: {start: 61_000, end: 62_000}
 
@@ -3983,34 +5090,676 @@ sci_coicop_1383: &sci_coicop_1383
     '0611':
       level: 3
       label: pharmaceutical_products
-      title: Pharmaceutical products
+      name: Pharmaceutical Products
       farsi_name: محصولات دارویی و درمانی
       code: {start: 61_100, end: 61_200}
 
+    #                            #### LEVEL 4 ####                            #
+    '0611_1-0611_2':
+      level: 4
+      label: prescription_and_non_prescription_medicines
+      name: Prescription and Non-Prescription Medicines
+      farsi_name: داروهای نسخه‌ای و بدون نسخه
+      code: {start: 61_110, end: 61_120}
+
+    #                              ## LEVEL 5 ##                              #
+    '0611_11':
+      level: 5
+      versions:
+        1383:
+          label: therapeutic_nutritional_and_pain_relief_medicines
+          name: Therapeutic, Nutritional, and Pain Relief Medicines
+          farsi_name: >
+           داروهای درمانی، تقویتی، قرص های مسکن، انواع سرم و امثال آن
+        1395:
+          label: null
+          name: null
+          farsi_name: null   
+      code: 61_111
+
+    #                              ## LEVEL 5 ##                              #
+    '0611_12':
+      level: 5
+      versions:
+        1383:
+          label: herbal_and_home_remedies
+          name: Herbal and Home Remedies
+          farsi_name: >
+           داروهای گیاهی و خانگی 
+           (گل گاو زبان، شیر خشت، ترنجبین و امثال آن)
+        1395:
+          label: null
+          name: null
+          farsi_name: null  
+      code: 61_112
+
+    #                              ## LEVEL 5 ##                              #
+    '0611_13':
+      level: 5
+      versions:
+        1383:
+          label: glycerin
+          name: Glycerin
+          farsi_name: گلیسرین
+        1386:
+          label: null
+          name: null
+          farsi_name: null 
+      code: 61_113
+
+    #                              ## LEVEL 5 ##                              #
+    '0611_14':
+      level: 5
+      versions:
+        1383:
+          label: paraffin_vaseline_and_similar_products
+          name: Paraffin, Vaseline, and Similar Products
+          farsi_name: پارافین، وازلین و نظایر آن
+        1386:
+          label: glycerin_paraffin_vaseline_and_similar_products
+          name: Glycerin, Paraffin, Vaseline, and Similar Products
+          farsi_name: گلیسیرین، پارافین، وازلین و نظایر آن
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 61_114
+
+    #                              ## LEVEL 5 ##                              #
+    '0611_15':
+      level: 5
+      versions:
+        1383:
+          label: herbal_distillates_borage_chicory_mint_and_similars
+          name: Herbal Distillates (Borage, Chicory, Mint, and Similars)
+          farsi_name: انواع عرقیات (بید مشک، کاسنی، نعناع و نظایر آن)
+        1395:
+          label: null
+          name: null
+          farsi_name: null  
+      code: 61_115
+
+    #                              ## LEVEL 5 ##                              #
+    '0611_16':
+      level: 5
+      label: contraceptive_medicines
+      name: Contraceptive Medicines
+      farsi_name: >
+       داروهای مورد استفاده در تنظیم خاتواده (قرص، کپسول و آمپول)
+      code: 61_116
+
+    #                              ## LEVEL 5 ##                              #
+    '0611_17':
+      level: 5
+      label: special_disease_medication_costs
+      name: Special Disease Medication Costs
+      farsi_name: >
+       هزینه دارو جهت بیماری خاص (تالاسمی، سرطان، MS و نظایر آن)
+      code: 61_117
+
+    #                              ## LEVEL 5 ##                              #
+    '0611_18':
+      level: 5
+      versions:
+        1383:
+          label: antiseptic_and_preservative_solutions
+          name: Antiseptic and Preservative Solutions
+          farsi_name: > 
+           انواع محلول های شوینده و نگهدارنده (بتادین، ساولن و نظایر آن)
+        1395:
+          label: null
+          name: null
+          farsi_name: null 
+      code: 61_118
+
+    #                              ## LEVEL 5 ##                              #
+    '0611_19':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: prescription_medicines
+          name: Prescription Medicines
+          farsi_name: >
+           دارو با دستور پزشک
+            شامل داروهای درمانی، تقویتی، شربت، پماد، سرم و نظایر آن
+      code: 61_119
+
+    #                              ## LEVEL 5 ##                              #
+    '0611_21':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: non_prescription_medicines
+          name: Non-Prescription Medicines
+          farsi_name: >
+           دارو بدون دستور پزشک
+            شامل داروهای درمانی، تقویتی، شربت، پماد، سرم و نظایر آن
+      code: 61_121
+
+    #                              ## LEVEL 5 ##                              #
+    '0611_22':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: herbal_and_home_remedies_and_distillates
+          name: Herbal and Home Remedies and Distillates
+          farsi_name: >
+           داروهای گیاهی و خانگی
+            (گل گاو زبان، شیر خشت، ترنجبین و امثال آن) و 
+            انواع عرقیات (بید مشک، کاسنی، نعناع و نظایر آن)
+      code: 61_122
+
+    #                              ## LEVEL 5 ##                              #
+    '0611_23':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: > 
+           antiseptic_solutions_glycerin_paraffin_vaseline_and_similars
+          name: >
+           Antiseptic Solutions, Glycerin, Paraffin, Vaseline, and Similars
+          farsi_name: >
+           انواع محلول های شوینده و نگهدارنده (بتادین، ساولن و نظایر آن)، 
+            گلیسیرین، پارافین، وازلین و نظایر آن
+      code: 61_123
 
     #                        ######## LEVEL 3 ########                        #
     '0612':
       level: 3
-      label: other_medical_products
-      title: Other medical products
+      label: medical_products
+      name: Medical Products
       farsi_name: محصولات پزشکی
       code: {start: 61_200, end: 61_300}
 
+
+    #                            #### LEVEL 4 ####                            #
+    '0612_1-0612_2':
+      level: 4
+      label: personal_and_diagnostic_medical_products
+      name: Personal and Diagnostic Medical Products
+      farsi_name: محصولات پزشکی شخصی و تشخیصی
+      code: {start: 61_210, end: 61_230}
+
+    #                              ## LEVEL 5 ##                              #
+    '0612_11':
+      level: 5
+      versions:
+        1383:
+          label: electric_blanket_humidifier_and_similars
+          name: Electric Blanket, Humidifier, and Similars
+          farsi_name: پتو برقی، دستگاه بخور و نظایر آن
+        1386:
+          label: >
+           electric_blanket_humidifier_thermometer_hot_water_bag_ice_bag_and_
+           similars
+          name: >
+           Electric Blanket, Humidifier, Thermometer, Hot Water Bag, Ice Bag
+           and Similars
+          farsi_name: >
+           پتو برقی، دستگاه بخور، میزان الحراره، کیسه آبجوش، کیسه یخ
+            و نظایر آن
+        1390:
+          label: null
+          name: null
+          farsi_name: null  
+      code: 61_211
+    
+    #                              ## LEVEL 5 ##                              #
+    '0612_12':
+      level: 5
+      versions:
+        1383:
+          label: thermometer
+          name: Thermometer
+          farsi_name: میزان الحراره
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+        1389:
+          label: thermometer_hot_water_bag_ice_bag_and_similars
+          name: Thermometer, Hot Water Bag, Ice Bag, and Similars
+          farsi_name: تب سنج، کیسه آبجوش، کیسه یخ و نظایر آن
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 61_212
+    
+    #                              ## LEVEL 5 ##                              #
+    '0612_13':
+      level: 5
+      versions:
+        1383:
+          label: hot_water_bag_and_ice_bag
+          name: Hot Water Bag and Ice Bag
+          farsi_name: کیسه آب جوش ، کیسه یخ
+        1386:
+          label: null
+          name: null
+          farsi_name: null 
+      code: 61_213
+
+    #                              ## LEVEL 5 ##                              #
+    '0612_14':
+      level: 5
+      versions:
+        1383:
+          label: oxygen_cylinder
+          name: Oxygen Cylinder
+          farsi_name: کپسول اکسیژن
+        1389:
+          label: null
+          name: null
+          farsi_name: null
+      code: 61_214
+
+    #                              ## LEVEL 5 ##                              #
+    '0612_15':
+      level: 5
+      versions:
+        1383:
+          label: first_aid_supplies
+          name: First Aid Supplies
+          farsi_name: لوازم کمک های اولیه
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 61_215
+
+    #                              ## LEVEL 5 ##                              #
+    '0612_16':
+      level: 5
+      versions:
+        1383:
+          label: injection_syringe
+          name: Injection Syringe
+          farsi_name: سرنگ تزریق
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 61_216
+
+    #                              ## LEVEL 5 ##                              #
+    '0612_17':
+      level: 5
+      label: family_planning_supplies
+      name: Family Planning Supplies
+      farsi_name: وسایل موردنیاز در تنظیم خانواده
+      code: 61_217
+
+    #                              ## LEVEL 5 ##                              #
+    '0612_18':
+      level: 5
+      label: medical_support_items
+      name: Medical Support Items
+      farsi_name: جوراب طبی، زانوبند، قوزبند، کرست طبی و نظایر آن
+      code: 61_218
+
+    #                              ## LEVEL 5 ##                              #
+    '0612_19':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1389:
+          label: oxygen_cylinder_refill_and_repair
+          name: Oxygen Cylinder Refill and Repair
+          farsi_name: شارژ و تعمیر کپسول اکسیژن
+        1395:
+          label: null
+          name: null
+          farsi_name: null 
+      code: 61_219
+
+    #                              ## LEVEL 5 ##                              #
+    '0612_21':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: >
+           medical_essentials_injection_syringes_first_aid_supplies_
+           thermometers_hot_water_bags_ice_bags_and_similars
+          name: >
+           edical Essentials (Injection Syringes, First Aid Supplies, 
+           Thermometers, Hot Water Bags, Ice Bags and Similars)
+          farsi_name: >
+           سرنگ تزریق، لوازم کمک های اولیه، تب سنج، کیسه آب جوش، کیسه یخ
+           و نظایر آن
+      code: 61_221
 
     #                        ######## LEVEL 3 ########                        #
     '0613':
       level: 3
       label: therapeutic_appliances_and_equipment
-      title: Therapeutic appliances and equipment
+      name: Therapeutic Appliances and Equipment
       farsi_name: وسایل و تجهیزات درمانی
       code: {start: 61_300, end: 61_400}
+    
+
+    #                            #### LEVEL 4 ####                            #
+    '0613_1-0613_2-0613_3':
+      level: 4
+      label: home_medical_devices_and_treatment_equipment
+      name: Home Medical Devices and Treatment Equipment
+      farsi_name: دستگاه‌ها و تجهیزات درمانی خانگی
+      code: {start: 61_310, end: 61_330}
+
+    #                              ## LEVEL 5 ##                              #
+    '0613_11':
+      level: 5
+      versions:
+        1383:
+          label: blood_pressure_monitor
+          name: Blood Pressure Monitor
+          farsi_name: دستگاه فشار خون
+        1395:
+          label: null
+          name: null
+          farsi_name: null 
+      code: 61_311
+
+    #                              ## LEVEL 5 ##                              #
+    '0613_12':
+      level: 5
+      versions:
+        1383:
+          label: eyeglasses_and_contact_lenses
+          name: Eyeglasses and Contact Lenses
+          farsi_name: عینک و لنز طبی
+        1395:
+          label: eyeglasses_lens_and_repairs
+          name: Eyeglasses, Lens, and Repairs
+          farsi_name: عینک، شیشه عینک، لنز طبی و تعمیرات وسایل آن
+      code: 61_312
+
+    #                              ## LEVEL 5 ##                              #
+    '0613_13':
+      level: 5
+      versions:
+        1383:
+          label: hearing_aid
+          name: Hearing Aid
+          farsi_name: سمعک
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 61_313
+    
+    #                              ## LEVEL 5 ##                              #
+    '0613_14':
+      level: 5
+      versions:
+        1383:
+          label: prosthetic_limbs
+          name: Prosthetic Limbs
+          farsi_name: اعضای مصنوعی بدن
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 61_314
+
+    #                              ## LEVEL 5 ##                              #
+    '0613_15':
+      level: 5
+      versions:
+        1383:
+          label: medical_massage_devices
+          name: Medical Massage Devices
+          farsi_name: وسایل ماساژ طبی
+        1386:
+          label: orthopedic_and_medical_support_items
+          name: Orthopedic and Medical Support Items
+          farsi_name: > 
+           وسایل ماساژ طبی، کفش طبی، کمربند طبی و جراحی،
+            گردنبند طبی و مچ بند، عصا و چوب زیر بغل
+      code: 61_315
+
+    #                              ## LEVEL 5 ##                              #
+    '0613_16':
+      level: 5
+      versions:
+        1383:
+          label: medical_shoes
+          name: Medical Shoes
+          farsi_name: کفش طبی
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 61_316
+
+    #                              ## LEVEL 5 ##                              #
+    '0613_17':
+      level: 5
+      versions:
+        1383:
+          label: medical_braces
+          name: Medical Braces
+          farsi_name: کمربند طبی و جراحی، گردنبند طبی و مچ بند
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 61_317
+
+    #                              ## LEVEL 5 ##                              #
+    '0613_18':
+      level: 5
+      versions:
+        1383:
+          label: walking_canes_and_crutches
+          name: Walking Canes and Crutches
+          farsi_name: عصا و چوب زیر بغل
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 61_318
+
+    #                              ## LEVEL 5 ##                              #
+    '0613_19':
+      level: 5
+      versions:
+        1383:
+          label: motorized_wheelchairs
+          name: Motorized Wheelchairs
+          farsi_name: وسایل چرخدار موتوری
+        1386:
+          label: motorized_and_non_motorized_wheelchairs
+          name: Motorized and Non-Motorized Wheelchairs
+          farsi_name: وسایل چرخدار موتوری و غیرموتوری 
+      code: 61_319
+
+    #                              ## LEVEL 5 ##                              #
+    '0613_21':
+      level: 5
+      versions:
+        1383:
+          label: non_motorized_wheelchairs
+          name: Non-Motorized Wheelchairs
+          farsi_name: وسایل چرخدار غیرموتوری
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 61_321
+
+    #                              ## LEVEL 5 ##                              #
+    '0613_22':
+      level: 5
+      versions:
+        1383:
+          label: dentures_cost
+          name: Dentures Cost
+          farsi_name: هزینه ساخت دندان مصنوعی
+        1385:
+          label: null
+          name: null
+          farsi_name: null
+      code: 61_322
+
+    #                              ## LEVEL 5 ##                              #
+    '0613_31':
+      level: 5
+      versions:
+        1383:
+          label: eyeglasses_repair_cost
+          name: Eyeglasses Repair Cost
+          farsi_name: هزینه تعمیر عینک
+        1386:
+          label: > 
+           repair_costs_for_eyeglasses_hearing_aids_prosthetic_limbs_and_
+           massage_devices
+          name: > 
+           Repair Costs for Eyeglasses, Hearing Aids, Prosthetic Limbs,
+            and Massage Devices
+          farsi_name: هزینه تعمیر عینک، سمعک، اعضا مصنوعی بدن،
+           وسایل ماساژ طبی و نظایر آن
+        1395:
+          label: null 
+          name: null
+          farsi_name: null
+      code: 61_331
+
+    #                              ## LEVEL 5 ##                              #
+    '0613_32':
+      level: 5
+      versions:
+        1383:
+          label: hearing_aid_repair_cost
+          name: Hearing Aid Repair Cost
+          farsi_name: هزینه تعمیر سمعک
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 61_332
+
+    #                              ## LEVEL 5 ##                              #
+    '0613_33':
+      level: 5
+      versions:
+        1383:
+          label: repair_costs_for_prosthetic_limbs_and_medical_massage_devices
+          name: Repair Costs for Prosthetic Limbs and Medical Massage Devices
+          farsi_name: هزینه تعمیر اعضا مصنوعی بدن و وسایل ماساژ طبی و
+           نظایر آن
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 61_333
+
+    #                              ## LEVEL 5 ##                              #
+    '0613_34':
+      level: 5
+      versions:
+        1383:
+          label: repair_costs_for_motorized_and_nonmotorized_wheelchairs
+          name: Repair Costs for Motorized and Non-Motorized Wheelchairs
+          farsi_name: هزینه تعمیر وسایل چرخدار موتوری و غیر موتوری
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 61_334
+
+    #                              ## LEVEL 5 ##                              #
+    '0613_35':
+      level: 5
+      versions:
+        1383:
+          label: other_therapeutic_devices
+          name: Other Therapeutic Devices
+          farsi_name: سایر وسایل و تجهیزات درمانی
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 61_335
+
+    #                              ## LEVEL 5 ##                              #
+    '0613_36':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: blood_pressure_monitor_medical_testing_supplies_and_
+           orthopedic_equipment
+          name: > 
+           Blood Pressure Monitor, Medical Testing Supplies,
+            and Orthopedic Equipment
+          farsi_name: >
+           دستگاه سنجش فشار خون، لوازم تست یا سنجش طبی و سایر لوازم
+            برای درمان عمومی و ارتوپدی و هزینه تعمیرات آنها
+      code: 61_336
+
+    #                              ## LEVEL 5 ##                              #
+    '0613_37':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: prosthetic_limbs_orthopedic_devices_hearing_aid_and_repairs
+          name: > 
+           Prosthetic Limbs, Orthopedic Devices, Hearing Aids, and Repairs
+          farsi_name: >
+           اعضای مصنوعی بدن، وسایل ارتوپدی و سمعک و تعمیرات آنها
+      code: 61_337
+
+    #                              ## LEVEL 5 ##                              #
+    '0613_38':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: other_therapeutic_equipment
+          name: Other Therapeutic Equipment
+          farsi_name: سایر وسایل و تجهیزات درمانی
+      code: 61_338
 
 
     #                ################ LEVEL 2 ################                #
     '062':
       level: 2
       label: outpatient_care_services
-      title: Outpatient care services
+      name: Outpatient Care Services
       farsi_name: خدمات طبی سرپایی
       code: {start: 62_000, end: 63_000}
 
@@ -4019,34 +5768,995 @@ sci_coicop_1383: &sci_coicop_1383
     '0621':
       level: 3
       label: medical_services
-      title: Medical services
+      name: Medical Services
       farsi_name: خدمات پزشکی
       code: {start: 62_100, end: 62_200}
 
+    #                            #### LEVEL 4 ####                            #
+    '0621_1-0621_2':
+      level: 4
+      label: general_and_specialized_medical_services
+      name: General and Specialized Medical Services
+      farsi_name: خدمات پزشکی عمومی و تخصصی
+      code: {start: 62_110, end: 62_120}
+
+    # G  : Centers, clinics, and hospitals affiliated with medical 
+    # universities.
+    # NG : Other centers and hospitals (affiliated with Social Security 
+    # Organization, Armed Forces, Oil Company, Azad University, private, 
+    # and charitable organizations).
+
+    #                              ## LEVEL 5 ##                              #
+    '0621_11':
+      level: 5
+      versions:
+        1383:
+          label: general_practitioner_visit
+          name: General Practitioner Visit
+          farsi_name: ویزیت پزشک عمومی
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_111
+
+    #                              ## LEVEL 5 ##                              #
+    '0621_12':
+      level: 5
+      versions:
+        1383:
+          label: specialist_visit_excluding_psychiatrist
+          name: Specialist Visit (Excluding Psychiatrist)
+          farsi_name: ویزیت پزشک متخصص (بجز روانپزشک)
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_112
+
+    #                              ## LEVEL 5 ##                              #
+    '0621_13':
+      level: 5
+      versions:
+        1383:
+          label: psychiatrist_visit
+          name: Psychiatrist Visit
+          farsi_name: ویزیت روانپزشک
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_113
+    
+    #                              ## LEVEL 5 ##                              #
+    '0621_14':
+      level: 5
+      versions:
+        1383:
+          label: outpatient_surgery_cost
+          name: Outpatient Surgery Cost
+          farsi_name: هزینه عمل جراحی سرپایی
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_114
+
+    #                              ## LEVEL 5 ##                              #
+    '0621_15':
+      level: 5
+      versions:
+        1383:
+          label: clinic_service_cost
+          name: Clinic Service Cost
+          farsi_name: هزینه های کلینیک
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_115
+
+    #                              ## LEVEL 5 ##                              #
+    '0621_16':
+      level: 5
+      versions:
+        1383:
+          label: kidney_lithotripsy_clinic_cost
+          name: Kidney Lithotripsy Clinic Cost
+          farsi_name: هزینه سنگ شکن کلیه در کلینیک و درمانگاه
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_116
+
+    #                              ## LEVEL 5 ##                              #
+    '0621_17':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: psychiatrist_and_clinical_psychologist_visit_g
+          name: Psychiatrist and Clinical Psychologist Visit (G)
+          farsi_name: ویزیت روانپزشک و روان شناس بالینی (G)
+      code: 62_117
+
+    #                              ## LEVEL 5 ##                              #
+    '0621_18':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: psychiatrist_and_clinical_psychologist_visit_ng
+          name: Psychiatrist and Clinical Psychologist Visit (NG)
+          farsi_name: ویزیت روانپزشک و روان شناس بالینی (NG)
+      code: 62_118
+
+    #                              ## LEVEL 5 ##                              #
+    '0621_19':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: general_practitioner_visit_surgery_other_services_g
+          name: General Practitioner Visit, Surgery, and Other Services (G)
+          farsi_name: ویزیت، جراحی سرپایی و سایر خدمات توسط پزشک عمومی (G)
+      code: 62_119
+
+    #                              ## LEVEL 5 ##                              #
+    '0621_21':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: general_practitioner_visit_surgery_other_services_ng
+          name: General Practitioner Visit, Surgery, and Other Services (NG)
+          farsi_name: ویزیت، جراحی سرپایی و سایر خدمات توسط پزشک عمومی (NG)
+      code: 62_121
+    
+    #                              ## LEVEL 5 ##                              #
+    '0621_22':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: specialist_visit_surgery_other_services_g
+          name: Specialist Visit, Surgery, and Other Services (G)
+          farsi_name: >
+           ویزیت، جراحی سرپایی و سایر خدمات توسط پزشک متخصص (G)
+      code: 62_122
+
+    #                              ## LEVEL 5 ##                              #
+    '0621_23':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: specialist_visit_surgery_other_services_ng
+          name: Specialist Visit, Surgery, and Other Services (NG)
+          farsi_name: > 
+           ویزیت، جراحی سرپایی و سایر خدمات توسط پزشک متخصص (NG)
+      code: 62_123
+
+    #                              ## LEVEL 5 ##                              #
+    '0621_28':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: orthodontic_specialist_services_g
+          name: Orthodontic Specialist Services (G)
+          farsi_name: خدمات متخصصین ارتودنسی (G)
+      code: 62_128
+
+    #                              ## LEVEL 5 ##                              #
+    '0621_29':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: orthodontic_specialist_services_ng
+          name: Orthodontic Specialist Services (NG)
+          farsi_name: خدمات متخصصین ارتودنسی (NG)
+      code: 62_129
 
     #                        ######## LEVEL 3 ########                        #
     '0622':
       level: 3
       label: dental_services
-      title: Dental services
+      name: Dental Services
       farsi_name: خدمات دندان‌پزشکی
       code: {start: 62_200, end: 62_300}
 
+    #                            #### LEVEL 4 ####                            #
+    '0622_1-0622_2':
+      level: 4
+      label: general_and_specialized_dental_services
+      name: General and Specialized Dental Services
+      farsi_name: خدمات عمومی و تخصصی دندان‌پزشکی
+      code: {start: 62_210, end: 62_220}
+
+    #                              ## LEVEL 5 ##                              #
+    '0622_11':
+      level: 5
+      versions:
+        1383:
+          label: dentist_visit_public
+          name: Dentist Visit (Public)
+          farsi_name: ویزیت دندانپزشک (دولتی)
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_211
+    
+    #                              ## LEVEL 5 ##                              #
+    '0622_12':
+      level: 5
+      versions:
+        1383:
+          label: dentist_visit_private
+          name: Dentist Visit (Private)
+          farsi_name: ویزیت دندانپزشک (خصوصی)
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_212
+    
+    #                              ## LEVEL 5 ##                              #
+    '0622_13':
+      level: 5
+      versions:
+        1383:
+          label: gum_surgery_public
+          name: Gum Surgery (Public)
+          farsi_name: هزینه جراحی لثه (دولتی)
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_213
+    
+    #                              ## LEVEL 5 ##                              #
+    '0622_14':
+      level: 5
+      versions:
+        1383:
+          label: gum_surgery_private
+          name: Gum Surgery (Private)
+          farsi_name: هزینه جراحی لثه (خصوصی)
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_214
+
+    #                              ## LEVEL 5 ##                              #
+    '0622_15':
+      level: 5
+      versions:
+        1383:
+          label: orthodontics_public
+          name: Orthodontics (Public)
+          farsi_name: هزینه ارتودنسی (دولتی)
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_215
+
+    #                              ## LEVEL 5 ##                              #
+    '0622_16':
+      level: 5
+      versions:
+        1383:
+          label: orthodontics_private
+          name: Orthodontics (Private)
+          farsi_name: هزینه ارتودنسی (خصوصی)
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_216
+
+    #                              ## LEVEL 5 ##                              #
+    '0622_17':
+      level: 5
+      versions:
+        1383:
+          label: filling_implant_and_crown_public
+          name: Filling, Implant, and Crown (Public)
+          farsi_name: هزینه پر کردن، نصب دندان و روکش دندان (دولتی)
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_217
+
+    #                              ## LEVEL 5 ##                              #
+    '0622_18':
+      level: 5
+      versions:
+        1383:
+          label: filling_implant_and_crown_private
+          name: Filling, Implant, and Crown (Private)
+          farsi_name: هزینه پر کردن، نصب دندان و روکش دندان (خصوصی)
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_218
+    
+    #                              ## LEVEL 5 ##                              #
+    '0622_19':
+      level: 5
+      versions:
+        1383:
+          label: tooth_extraction_ans_scaling_public
+          name: Tooth Extraction and Scaling (Public)
+          farsi_name: هزینه کشیدن دندان و جرم گیری دندان (دولتی)
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_219
+    
+    #                              ## LEVEL 5 ##                              #
+    '0622_21':
+      level: 5
+      versions:
+        1383:
+          label: tooth_extraction_and_scaling_private
+          name: Tooth Extraction and Scaling (Private)
+          farsi_name: هزینه کشیدن دندان و جرم گیری دندان (خصوصی)
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_221
+
+    #                              ## LEVEL 5 ##                              #
+    '0622_22':
+      level: 5
+      versions:
+        1383:
+          label: dental_clinic_services
+          name: Dental Clinic Services
+          farsi_name: هزینه های کلینیک
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_222
+
+    #                              ## LEVEL 5 ##                              #
+    '0622_23':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: dental_visit_extraction_scaling_surgery_endo_g
+          name: Dental Visit, Extraction, Scaling, Surgery, Endodontic (G)
+          farsi_name: ویزیت، کشیدن، جرم گیری، جراحی دندان و ترمیم اندو (G)
+      code: 62_223
+
+    #                              ## LEVEL 5 ##                              #
+    '0622_24':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: dental_visit_extraction_scaling_surgery_endo_ng
+          name: Dental Visit, Extraction, Scaling, Surgery, Endodontic (NG)
+          farsi_name: ویزیت، کشیدن، جرم گیری، جراحی دندان و ترمیم اندو (NG)
+      code: 62_224
+
+    #                              ## LEVEL 5 ##                              #
+    '0622_25':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: gum_surgery_implant_and_dental_prosthetics_g
+          name: Gum Surgery, Implant, and Dental Prosthetics (G)
+          farsi_name: جراحی لثه، کاشت و انواع پروتز دندان (G)
+      code: 62_225
+
+    #                              ## LEVEL 5 ##                              #
+    '0622_26':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: gum_surgery_implant_and_dental_prosthetics_ng
+          name: Gum Surgery, Implant, and Dental Prosthetics (NG)
+          farsi_name: جراحی لثه، کاشت و انواع پروتز دندان (NG)
+      code: 62_226
 
     #                        ######## LEVEL 3 ########                        #
     '0623':
       level: 3
       label: paramedical_services
-      title: Paramedical services
+      name: Paramedical Services
       farsi_name: خدمات پیراپزشکی
       code: {start: 62_300, end: 62_400}
 
+    #                            #### LEVEL 4 ####                            #
+    '0623_1-0623_2-0623_3-0623_4':
+      level: 4
+      label: diagnostic_therapeutic_and_rehabilitation_paramedical_services
+      name: Diagnostic, Therapeutic, and Rehabilitation Paramedical Services
+      farsi_name: 
+      code: {start: 62_310, end: 62_340}
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_11':
+      level: 5
+      versions:
+        1383:
+          label: midwife_audiometrist_optometrist_visit_and_similars
+          name: Midwife, Audiometrist, Optometrist Visit and Similars
+          farsi_name: ویزیت ماما، شنوایی سنج، بینایی سنج و نظایر آن
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_311
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_12':
+      level: 5
+      versions:
+        1383:
+          label: orthopedics_cost
+          name: Orthopedics Cost
+          farsi_name: هزینه ارتوپد
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_312
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_13':
+      level: 5
+      versions:
+        1383:
+          label: radiology_ultrasound_radiotherapy_scan_eco_mri_and_similars
+          name: > 
+           Radiology, Ultrasound, Radiotherapy, Scan, Eco, MRI and Similars
+          farsi_name: >
+           رادیولوژی، سونوگرافی، رادیوتراپی، انواع اسکن، اکو، MRI، 
+           تست ورزش، اندوسکوپی، نوار قلب، نوار مغز و نظایر آن
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_313
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_14':
+      level: 5
+      versions:
+        1383:
+          label: physiotherapy_home
+          name: Physiotherapy (Home)
+          farsi_name: فیزیوتراپی (در منزل)
+        1386:
+          label: physiotherapy
+          name: Physiotherapy
+          farsi_name: فیزیوتراپی
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_314
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_15':
+      level: 5
+      versions:
+        1383:
+          label: physiotherapy_outside_home
+          name: Physiotherapy (Outside Home)
+          farsi_name: فیزیوتراپی (در خارج از منزل)
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_315
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_16':
+      level: 5
+      versions:
+        1383:
+          label: laboratory_blood_test
+          name: Laboratory Blood Test
+          farsi_name: هزینه خدمات آزمایشگاهی (آزمایش خون)
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_316
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_17':
+      level: 5
+      versions:
+        1383:
+          label: laboratory_urine_test
+          name: Laboratory Urine Test
+          farsi_name: هزینه خدمات آزمایشگاهی (آزمایش ادرار)
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_317
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_18':
+      level: 5
+      versions:
+        1383:
+          label: other_laboratory_services
+          name: Other Laboratory Services
+          farsi_name: سایر هزینه های خدمات آزمایشگاهی
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_318
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_19':
+      level: 5
+      versions:
+        1383:
+          label: vaccination_injection_home
+          name: Vaccination, Injection (Home)
+          farsi_name: واکسیناسیون، تزریق در منزل
+        1386:
+          label: vaccination_injection
+          name: Vaccination, Injection
+          farsi_name: واکسیناسیون و تزریق
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_319
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_21':
+      level: 5
+      versions:
+        1383:
+          label: vaccination_injection_outside_home
+          name: Vaccination, Injection (Outside Home)
+          farsi_name: واکسیناسیون، تزریق در خارج از منزل
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_321
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_22':
+      level: 5
+      versions:
+        1383:
+          label: bone_setter_midwife_healer_home
+          name: Bone Setter, Midwife, Healer (Home)
+          farsi_name: دستمزد شکسته بند، قابله و حکیم در منزل
+        1386:
+          label: bone_setter_midwife_healer
+          name: Bone Setter, Midwife, Healer
+          farsi_name: دستمزد شکسته بند، قابله و حکیم
+      code: 62_322
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_23':
+      level: 5
+      versions:
+        1383:
+          label: bone_setter_midwife_healer_outside_home
+          name: Bone Setter, Midwife, Healer (Outside Home)
+          farsi_name: دستمزد شکسته بند، قابله و حکیم در خارج از منزل
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_323
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_24':
+      level: 5
+      versions:
+        1383:
+          label: dialysis_payment
+          name: Dialysis Payment
+          farsi_name: هزینه پرداختی بابت دیالیز
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_324
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_25':
+      level: 5
+      versions:
+        1383:
+          label: traditional_and_energy_therapy
+          name: Traditional and Energy Therapy
+          farsi_name: طب سنتی و انرژی درمانی
+        1386:
+          label: acupuncture_traditional_and_energy_therapy
+          name: Acupuncture, Traditional and Energy Therapy
+          farsi_name: طب سوزنی، طب سنتی و انرژی درمانی
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_325
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_26':
+      level: 5
+      versions:
+        1383:
+          label: acupuncture
+          name: Acupuncture
+          farsi_name: طب سوزنی
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_326
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_27':
+      level: 5
+      versions:
+        1383:
+          label: circumcision_and_ear_piercing_home
+          name: Circumcision and Ear Piercing (Home)
+          farsi_name: ختنه اطفال و سوراخ کردن گوش در منزل
+        1386:
+          label: circumcision_and_ear_piercing
+          name: Circumcision and Ear Piercing 
+          farsi_name: ختنه اطفال و سوراخ کردن گوش
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_327
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_28':
+      level: 5
+      versions:
+        1383:
+          label: circumcision_and_ear_piercing_outside_home
+          name: Circumcision and Ear Piercing (Outside Home)
+          farsi_name: ختنه اطفال و سوراخ کردن گوش خارج از منزل
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_328
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_29':
+      level: 5
+      versions:
+        1383:
+          label: paramedical_clinic_services
+          name: Paramedical Clinic Services
+          farsi_name: هزینه های کلینیک پیراپزشکی
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_329
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_31':
+      level: 5
+      versions:
+        1383:
+          label: psychiatric_clinic_services
+          name: Psychiatric Clinic Services 
+          farsi_name: هزینه های کلینیک روانی
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_331
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_32':
+      level: 5
+      versions:
+        1383:
+          label: ambulance_services
+          name: Ambulance Services
+          farsi_name: خدمات آمبولانس
+        1395:
+          label: null
+          name: null
+          farsi_name: null
+      code: 62_332
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_33':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: private_nurse_home
+          name: Private Nurse (Home)
+          farsi_name: پرستار خصوصی در منزل
+      code: 62_333
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_34':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: radiology_dental_xray_ultrasound_scan_eco_mri_and_similars_g
+          name: > 
+           Radiology, Dental X-Ray, Ultrasound, Scan, Eco, MRI and
+            Similars (G)
+          farsi_name: >
+           خدمات رادیولوژی، رادیوگرافی دندان، سونوگرافی، اسکن، اکو، MRI، 
+           نوار قلب، نوار مغز و نظایر آن (G)
+      code: 62_334
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_35':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: > 
+           radiology_dental_xray_ultrasound_scan_eco_mri_and_similars_ng
+          name: >
+           Radiology, Dental X-Ray, Ultrasound, Scan, Eco, MRI and
+            Similars (NG)
+          farsi_name: >
+           خدمات رادیولوژی، رادیوگرافی دندان، سونوگرافی، اسکن، اکو، MRI، 
+           نوار قلب، نوار مغز و نظایر آن (NG)
+      code: 62_335
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_36':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: traditional_acupuncture_energy_therapy_g
+          name: Traditional, Acupuncture, Energy Therapy (G)
+          farsi_name: هزینه های طب سنتی، سوزنی و انرژی درمانی (G)
+      code: 62_336
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_37':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: traditional_acupuncture_energy_therapy_ng
+          name: Traditional, Acupuncture, Energy Therapy (NG)
+          farsi_name: هزینه های طب سنتی، سوزنی و انرژی درمانی (NG)
+      code: 62_337
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_38':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: audiometry_optometry_speech_therapy_rehabilitation_g
+          name: Audiometry, Optometry, Speech Therapy, Rehabilitation (G)
+          farsi_name: >
+           هزینه خدمات شنوایی سنجی، بینایی سنجی، گفتار درمانی، و
+            سایر خدمات درمان توانبخشی (G)
+      code: 62_338
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_39':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: audiometry_optometry_speech_therapy_rehabilitation_ng
+          name: Audiometry, Optometry, Speech Therapy, Rehabilitation (NG)
+          farsi_name: >
+           هزینه خدمات شنوایی سنجی، بینایی سنجی، گفتار درمانی، و
+            سایر خدمات درمان توانبخشی (NG)
+      code: 62_339
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_41':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: laboratory_pathology_services_g
+          name: Laboratory, Pathology Services (G)
+          farsi_name: هزینه خدمات آزمایشگاهی و پاتولوژی (G)
+      code: 62_341
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_42':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: laboratory_pathology_services_ng
+          name: Laboratory, Pathology Services (NG)
+          farsi_name:  هزینه خدمات آزمایشگاهی و پاتولوژی (NG)
+      code: 62_342
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_43':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: ambulance_services_g
+          name: Ambulance Services (G)
+          farsi_name: خدمات آمبولانس (G)
+      code: 62_343
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_44':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: ambulance_services_ng
+          name: Ambulance Services (NG)
+          farsi_name: خدمات آمبولانس (NG)
+      code: 62_344
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_45':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: vaccination_g
+          name: Vaccination (G)
+          farsi_name: واکسیناسیون (G)
+      code: 62_345
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_46':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: vaccination_ng
+          name: Vaccination (NG)
+          farsi_name: واکسیناسیون (NG)
+      code: 62_346
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_47':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: midwife_nutritionist_injection_casting_paramedical_g
+          name: Midwife, Nutritionist, Injection, Casting, Paramedical (G)
+          farsi_name: >
+           ویزیت ماما، متخصص تغذیه، تزریقات، گچ گرفتن 
+           و سایر خدمات پیراپزشکی (G)
+      code: 62_347
+
+    #                              ## LEVEL 5 ##                              #
+    '0623_48':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1395:
+          label: midwife_nutritionist_injection_casting_paramedical_ng
+          name: Midwife, Nutritionist, Injection, Casting, Paramedical (NG)
+          farsi_name: >
+           ویزیت ماما، متخصص تغذیه، تزریقات، گچ گرفتن 
+           و سایر خدمات پیراپزشکی (NG)
+      code: 62_348
 
     #                ################ LEVEL 2 ################                #
     '063':
       level: 2
       label: inpatient_care_services
-      title: Inpatient care services
+      name: Inpatient care services
       farsi_name: خدمات بیمارستانی
       code: {start: 63_000, end: 64_000}
 
@@ -4055,7 +6765,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0631':
       level: 3
       label: inpatient_care_services
-      title: Inpatient care services
+      name: Inpatient care services
       farsi_name: خدمات بیمارستانی
       code: {start: 63_100, end: 63_200}
 
@@ -4064,7 +6774,7 @@ sci_coicop_1383: &sci_coicop_1383
     '064':
       level: 2
       label: other_health_services
-      title: Other health services
+      name: Other health services
       farsi_name: هزینه‌ی ترک اعتیاد
       code: {start: 64_000, end: 65_000}
 
@@ -4073,7 +6783,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0641':
       level: 3
       label: other_health_services
-      title: Other health services
+      name: Other health services
       farsi_name: هزینه‌ی ترک اعتیاد
       code: {start: 64_100, end: 64_200}
 
