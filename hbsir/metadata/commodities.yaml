@@ -2607,6 +2607,7 @@ sci_coicop_1383: &sci_coicop_1383
     '03':
       level: 1
       label: clothing_and_footwear
+      name: Clothing and Footwear
       farsi_name: پوشاک و کفش
       code: {start: 30_000, end: 33_000}
       # This is an exceptional case due to the non-standard codes at the end  #
@@ -2618,6 +2619,7 @@ sci_coicop_1383: &sci_coicop_1383
     '031':
       level: 2
       label: clothing
+      name: Clothing
       farsi_name: پوشاک
       code: {start: 31_000, end: 32_000}
 
@@ -2625,81 +2627,732 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0311':
       level: 3
-      label: clothing_materials
-      farsi_name: مواد پوشاکی
+      label: clothing_material
+      name: Clothing Material
+      farsi_name: مواد پوشاکی (کم دوام)
       code: {start: 31_100, end: 31_200}
 
     #                            #### LEVEL 4 ####                            #
     '0311_1-0311_2':
       level: 4
+      label: fabrics
+      name: Fabrics
       farsi_name: انواع پارچه
       code: {start: 31_110, end: 31_130}
 
+    #                              ## LEVEL 5 ##                              #
+    '0311_11':
+      level: 5
+      label: fastoni_fabric
+      name: Fastoni Fabric
+      farsi_name: پارچه فاستونی (کت و شلوار)
+      code: 31_111
+    
+    #                              ## LEVEL 5 ##                              #
+    '0311_12':
+      level: 5
+      label: black_chador_fabric
+      name: Black Chador Fabric
+      farsi_name: پارچه چادر مشکی
+      code: 31_112
 
+    #                              ## LEVEL 5 ##                              #
+    '0311_13':
+      level: 5
+      versions:
+        1383:
+          label: cotton_chador_fabric
+          name: Cotton Chador Fabric
+          farsi_name: پارچه چادر نخی
+        1387:
+          label: other_chador_fabric
+          name: Other Chador Fabric
+          farsi_name: سایر پارچه های چادری
+      code: 31_113
+    
+    #                              ## LEVEL 5 ##                              #
+    '0311_14':
+      level: 5
+      label: chit_floral_fabric
+      name: Chit Floral Fabric
+      farsi_name: پارچه چیت گلدار
+      code: 31_114
+    
+    #                              ## LEVEL 5 ##                              #
+    '0311_15':
+      level: 5
+      versions:
+        1383:
+          label: shirt_fabric
+          name: Shirt Fabric
+          farsi_name: پارچه پیراهنی
+        1384:
+          label: mens_shirt_fabric
+          name: Men's Shirt Fabric
+          farsi_name: پارچه پیراهن مردانه
+      code: 31_115
+    
+    #                              ## LEVEL 5 ##                              #
+    '0311_16':
+      level: 5
+      label: manteau_fabric
+      name: Manteau Fabric
+      farsi_name: پارچه مانتویی (ترگال و ...)
+      code: 31_116
+    
+    #                              ## LEVEL 5 ##                              #
+    '0311_17':
+      level: 5
+      label: womens_shirt_fabric
+      name: Women's Shirt Fabric
+      farsi_name: پارچه پیراهن زنانه
+      code: 31_117
+    
+    #                              ## LEVEL 5 ##                              #
+    '0311_18':
+      level: 5
+      label: lining_fabric
+      name: Lining Fabric
+      farsi_name: پارچه آستری
+      code: 31_118
+    
+    #                              ## LEVEL 5 ##                              #
+    '0311_19':
+      level: 5
+      label: leather_and_suede_fabric
+      name: Leather and Suede Fabric
+      farsi_name: چرم، پوست و جیر (طبیعی و مصنوعی)
+      code: 31_119
+    
+    #                              ## LEVEL 5 ##                              #
+    '0311_21':
+      level: 5
+      label: other_unlisted_fabrics
+      name: Other Unlisted Fabrics
+      farsi_name: سایر انواع پارچه ذکر نشده در بالا
+      code: 31_121
+    
     #                        ######## LEVEL 3 ########                        #
     '0312':
       level: 3
       label: garments
-      farsi_name: پوشاک
+      name: Garments
+      farsi_name: پوشاک (کم دوام)
       code: {start: 31_200, end: 31_300}
 
     #                            #### LEVEL 4 ####                            #
     '0312_1-0312_2':
       level: 4
+      label: mens_clothes
+      name: Men's Clothes
       farsi_name: پوشاک مردانه
       code: {start: 31_210, end: 31_230}
+    
+    #                              ## LEVEL 5 ##                              #
+    '0312_11':
+      level: 5
+      label: suit_overcoat_raincoat_jacket_blazer_and_vest
+      name: Suit, Overcoat, Raincoat, Jacket, Blazer and Vest
+      farsi_name: کت و شلوار، پالتو، بارانی، کاپشن، کت تنها و جلیقه
+      code: 31_211
+    
+    #                              ## LEVEL 5 ##                              #
+    '0312_12':
+      level: 5
+      label: trousers
+      name: Trousers
+      farsi_name: شلوار
+      code: 31_212
+    
+    #                              ## LEVEL 5 ##                              #
+    '0312_13':
+      level: 5
+      label: aba_and_qaba
+      name: Aba and Qaba
+      farsi_name: عبا، قبا (غیر پوستی)
+      code: 31_213
+    
+    #                              ## LEVEL 5 ##                              #
+    '0312_14':
+      level: 5
+      label: aba_qaba_and_vest
+      name: Aba, Qaba and Vest
+      farsi_name: عبا، قبا و جلیقه (پوستی)
+      code: 31_214
+    
+    #                              ## LEVEL 5 ##                              #
+    '0312_15':
+      level: 5
+      label: mens_sports_clothes
+      name: Men's Sports Clothes
+      farsi_name: لباس ورزشی (فوتبال، اسکی، کوهنوردی، شنا و ...)
+      code: 31_215
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_16':
+      level: 5
+      label: shirts_blouses_and_pullovers
+      name: Shirts, Blouses and Pullovers
+      farsi_name: انواع پیراهن، بلوز و پلوور
+      code: 31_216
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_17':
+      level: 5
+      label: mens_tshirt 
+      name: Men's T-Shirt
+      farsi_name: انواع تی شرت مردانه
+      code: 31_217
+    
+    #                              ## LEVEL 5 ##                              #
+    '0312_18':
+      level: 5
+      label: school_uniforms_and_work_dress
+      name: School Uniforms and Work Dress
+      farsi_name: روپوش مدرسه و لباس کار (غیر شغلی)
+      code: 31_218
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_19':
+      level: 5
+      label: mens_underwears
+      name: Men's Underwears
+      farsi_name: زیر پیراهن، شورت
+      code: 31_219
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_21':
+      level: 5
+      label: pyjamas_bathrobes_and_dressing_gowns
+      name: Pyjamas, Bathrobes and Dressing Gowns
+      farsi_name: پیژاما، روبدوشامبدر، گرمکن غیر ورزشی
+      code: 31_221
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_22':
+      level: 5
+      label: socks
+      name: Socks
+      farsi_name: انواع جوراب (غیر طبی)
+      code: 31_222
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_23':
+      level: 5
+      label: other_unlisted_mens_clothing
+      name: Other Unlisted Men's Clothing
+      farsi_name: سایر انواع پوشاک مردانه که در بالا اشاره نشده
+      code: 31_223
 
     #                            #### LEVEL 4 ####                            #
     '0312_3-0312_4':
       level: 4
+      label: womens_fabric
+      name: Women's Fabric
       farsi_name: پوشاک زنانه
       code: {start: 31_230, end: 31_250}
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_31':
+      level: 5
+      label: overcoats
+      name: Overcaots
+      farsi_name: انواع پالتو پوست
+      code: 31_231
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_32':
+      level: 5
+      label: normal_overcoat_jacket_raincoat_and_cape
+      name: Normal Overcoat, Jacket, Raincoat and Cape
+      farsi_name: انواع پالتو معمولی، کاپشن، بارانی و شنل
+      code: 31_232
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_33':
+      level: 5
+      label: coat_and_skirt_and_trousers
+      name: Coat and Skirt and Trousers
+      farsi_name: کت و دامن، شلوار
+      code: 31_233
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_34':
+      level: 5
+      label: manteau
+      name: Manteau
+      farsi_name: مانتو و روپوش
+      code: 31_234
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_35':
+      level: 5
+      label: shirts_and_blouses
+      name: Shirts and Blouses
+      farsi_name: انواع پیراهن و بلوز
+      code: 31_235
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_36':
+      level: 5
+      label: tshirts_and_top
+      name: T-Shirt and Top
+      farsi_name: انواع تی شرت و تاپ
+      code: 31_236
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_37':
+      level: 5
+      label: womens_sports_clothes
+      name: Women's Sports Clothes
+      farsi_name: لباس ورزشی (اسکی، کوهنوردی، شنا و غیره)
+      code: 31_237
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_38':
+      level: 5
+      label: underwears_nightdresses_bathrobes_pyjamas_and_dressing_gowns
+      name: Underwears, Nightdresses, Bathrobes, Pyjamas and Dressing Gowns
+      farsi_name: >
+       انواع لباس زیر، لباس خواب، روبدوشامبر و بیژاما و گرمکن غیر ورزشی
+      code: 31_238
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_39':
+      level: 5
+      label: readymade_black_chador
+      name: Ready-Made Black Chador
+      farsi_name: چادر آماده مشکی
+      code: 31_239
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_41':
+      level: 5
+      label: readymade_colorful_chador
+      name: Ready-Made Colorful Chador
+      farsi_name: چادر آماده رنگی
+      code: 31_241
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_42':
+      level: 5
+      label: nonmedical_socks_belts_and_girdle
+      name: Non-Medical Socks, Belts and Girdle
+      farsi_name: انواع جوراب غیر طبی، کمربند، شکم بند (گن)
+      code: 31_242
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_43':
+      level: 5
+      label: payment_for_purchasing_wedding_dress
+      name: Payment for Purchasing Wedding Dress
+      farsi_name: خرید لباس عروس
+      code: 31_243
 
     #                            #### LEVEL 4 ####                            #
     '0312_5-0312_6':
       level: 4
+      label: childrens_wear
+      name: Children's Wear
       farsi_name: پوشاک بچه‌گانه (۳ تا ۱۳ ساله)
       code: {start: 31_250, end: 31_270}
 
+    #                              ## LEVEL 5 ##                              #
+    '0312_51':
+      level: 5
+      label: > 
+       childrens_blouses_trousers_skirt_coat_jacket_waistcoat_and_similars
+      name: >
+       children's Blouses, Trousers, Skirt, Coat, Jacket, Waistcoat and
+        Similars 
+      farsi_name: بلوز، شلوار، دامن، کت، ژاکت، ژیله و نظایر آن
+      code: 31_251
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_52':
+      level: 5
+      label: childrens_tshirt_and_top
+      name: Children's T-Shirt and Top
+      farsi_name:  انواع تیشرت و تاپ
+      code: 31_252
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_53':
+      level: 5
+      label: childrens_shirt_and_nightdress
+      name: Chldren's Shirt and Nightdress
+      farsi_name: انواع پیراهن و لباس خواب
+      code: 31_253
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_54':
+      level: 5
+      label: childrens_underwear_nightdress_bathrobe_pyjama_and_dressing_gown
+      name: Children's Underwear, Nightdress, Bathrobe, Pyjama and Dressing Gown
+      farsi_name: انواع لباس زیر، روبدوشامبر، پیژاما و گرمکن غیر ورزشی
+      code: 31_254
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_55':
+      level: 5
+      label: manteau_and_school_uniform
+      name: Manteau and School Uniform
+      farsi_name: مانتو و روپوش مدرسه
+      code: 31_255
+    
+    #                              ## LEVEL 5 ##                              #
+    '0312_56':
+      level: 5
+      label: outerwear_coats_jackets_raincoats_capes
+      name: Outerwear (Coats, Jackets, Raincoats, Capes)
+      farsi_name: انواع پالتو معمولی، كاپشن، بارانی و شنل
+      code: 31_256
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_57':
+      level: 5
+      label: blankets
+      name: Blankets
+      farsi_name: انواع پتو
+      code: 31_257
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_58':
+      level: 5
+      versions:
+        1383:
+          label: childrens_readymade_black_chador
+          name: Children's Ready-Made Black Chador
+          farsi_name: چادر آماده مشکی
+        1389:
+          label: childrens_readymade_chador_black_and_other_types
+          name: Children's Ready-Made Chador (Black and Other Types)
+          farsi_name: چادر آماده مشکی و سایر انواع چادر آماده
+      code: 31_258
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_59':
+      level: 5
+      versions:
+        1383:
+          label: childrens_readymade_colorful_chador
+          name: Children's Ready-Made Colorful Chador 
+          farsi_name: چادر آماده رنگی
+        1389:
+          label: null
+          name: null
+          farsi_name: null
+      code: 31_259
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_61':
+      level: 5
+      label: childrens_socks
+      name: Children's Socks
+      farsi_name: انواع جوراب
+      code: 31_261
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_62':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: childrens_sports_clothes
+          name: Children's Sports Clothes
+          farsi_name: لباس ورزشی (اسکی، کوهنوردی، شنا، گرمکن و ...)
+      code: 31_262
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_69':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: other_types_of_childrens_clothing
+          name: Other Types of Children's Clothing
+          farsi_name: سایر انواع پوشاک بچه گانه
+      code: 31_269
     #                            #### LEVEL 4 ####                            #
     '0312_7':
       level: 4
+      label: babys_wear
+      name: Baby's Wear
       farsi_name: پوشاک اطفال (تا دو سال)
       code: {start: 31_270, end: 31_280}
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_71':
+      level: 5
+      label: babies_blouse_troussers_coat_jacket_waistcoat_and_similars
+      name: Babies Blouse, Trousers, Coat, Jacket, Waistcoat and Similars
+      farsi_name: بلوز، شلوار، كت، ژاكت، ژيله، انواع كاپشن و نظایر آن
+      code: 31_271
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_72':
+      level: 5
+      label: swaddle_and_cloth_diaper
+      name: Swaddle and Cloth Diaper
+      farsi_name: انواع قنداق و كهنه آماده پارچه ای
+      code: 31_272
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_73':
+      level: 5
+      label: rubber_and_plastic_trousers
+      name: Rubber and Plastic Trousers
+      farsi_name: شلوار لاستیکی و پلاستیکی
+      code: 31_273
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_74':
+      level: 5
+      label: baby_blanket
+      name: Baby Blanket
+      farsi_name: پتو بچه گانه
+      code: 31_274
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_75':
+      level: 5
+      label: shirt_undershirt_and_sleepwear
+      name: Shirt, Undershirt and Sleepwear
+      farsi_name: انواع پيراهن،زير پيراهن و لباس خواب (کشباف، پارچه ای)
+      code: 31_275
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_76':
+      level: 5
+      label: baby_socks
+      name: Baby Socks
+      farsi_name: انواع جوراب بچه گانه
+      code: 31_276
+
+    #                              ## LEVEL 5 ##                              #
+    '0312_77':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: other_baby_clothing
+          name: Other Baby Clothing
+          farsi_name: سایر انواع پوشاک اطفال
+      code: 31_277
 
     #                        ######## LEVEL 3 ########                        #
     '0313':
       level: 3
       label: other_articles_of_clothing_and_clothing_accessories
+      name: Other Articles of Clothing and Clothing Accessories 
       farsi_name: سایر انواع پوشاک و لوازم پوشاکی
       code: {start: 31_300, end: 31_400}
 
     #                            #### LEVEL 4 ####                            #
     '0313_1-0313_2':
       level: 4
-      label: other_articles_of_clothing_and_clothing_accessories
-      farsi_name: سایر انواع پوشاک و لوازم پوشاکی
+      label: other_articles_of_clothing_and_clothing_accessories_non_durable
+      name: Other Articles of Clothing and Clothing Accessories (Non-durable)
+      farsi_name: سایر انواع پوشاک و لوازم پوشاکی (کم دوام)
       code: {start: 31_310, end: 31_330}
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_11':
+      level: 5
+      label: apron_robe_and_work_clothes_non_durable
+      name: Apron, Robe and Work Clothes (Non-Durable)
+      farsi_name: پیش بند، روپوش و لباس كار (کم دوام)
+      code: 31_311
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_12':
+      level: 5
+      label: scarf_headscarf_chador_veil_and_similars
+      name: Scarf, Headscarf, Chador, Veil and Simialrs
+      farsi_name: شال،روسري، چارقد، مقنعه و نظاير آن
+      code: 31_312
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_13':
+      level: 5
+      label: scarf_handkerchief_necktie_bowtie_belt_and_suspender
+      name: Scarf, Handkerchief, Necktie, Bowtie, Belt and Suspender
+      farsi_name: > 
+       شال گردن، دستمال دست و گردن، كروات، پاپيون، كمربند و بندشلوار
+      code: 31_313
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_14':
+      level: 5
+      label: hats
+      name: Hats
+      farsi_name: انواع كلاه
+      code: 31_314
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_15':
+      level: 5
+      versions:
+        1383:
+          label: safety_helmet_motorcycle_and_bicycle
+          name: Safety Helmet (Motorcycle and Bicycle)
+          farsi_name: انواع كلاه ايمني (برای موتور سیکلت و دوچرخه)
+        1389:
+          label: null
+          name: null
+          farsi_name: null
+      code: 31_315
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_16':
+      level: 5
+      label: ribbon_hairband_floral_decoration_and_bridal_tiara
+      name: Ribbon, Hairband, Floral Decorations and Bridal Tiara
+      farsi_name: روبان، تل، گلهاي زينتي و تاج عروس
+      code: 31_316
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_17':
+      level: 5
+      label: gloves_non_rubber
+      name: Gloves (Non-Rubber)
+      farsi_name: انواع دستكش (غیر لاستیکی)
+      code: 31_317
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_18':
+      level: 5
+      label: sewing_threads
+      name: Sewing Threads
+      farsi_name: انواع نخ خیاطی و گلدوزي
+      code: 31_318
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_19':
+      level: 5
+      versions:
+        1383:
+          label: elastic_lining_haircloth_collar
+          name: Elastic, Lining, Haircloth, Collar
+          farsi_name: كش ولائي، موئي، يقه
+        1384:
+          label: > 
+           elastic_lining_haircloth_collar_sequins_beads_decorative_stones
+          name: > 
+           Elastic, Lining, Haircloth, Collar, Sequins, Beads, Decorative 
+           Stones
+          farsi_name: >
+           كش، لائي، موئي، يقه، پولك، منجوق و سنگهاي تزئيني براي لباس
+      code: 31_319
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_21':
+      level: 5
+      label: zipper_and_similars
+      name: Zipper and Similars
+      farsi_name: زیپ و نظایر آن
+      code: 31_321
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_22':
+      level: 5
+      label: non_decorative_buttons
+      name: Non-Decorative Buttons
+      farsi_name: انواع دكمه غیر تزئینی
+      code: 31_322
+
+    #                              ## LEVEL 5 ##                              #
+    '0313_23':
+      level: 5
+      label: canvas_fabric
+      name: Canvas Fabric
+      farsi_name: كانوا
+      code: 31_323
 
     #                        ######## LEVEL 3 ########                        #
     '0314':
       level: 3
       label: cleaning_repair_tailoring_and_hire_of_clothing
+      name: Cleaning, Repair, Tailoring and Hire of Clothing
       farsi_name: هزینه شستشو، اجرت دوخت، تعمیر و کرایه پوشاک
       code: {start: 31_400, end: 31_500}
 
     #                            #### LEVEL 4 ####                            #
     '0314_1':
       level: 4
-      label: cleaning_repair_tailoring_and_hire_of_clothing
-      farsi_name: هزینه شستشو، اجرت دوخت، تعمیر و کرایه پوشاک
+      label: clothing_costs
+      name: Clothing Costs
+      farsi_name: هزینه های پوشاک
       code: {start: 31_410, end: 31_420}
 
+    #                              ## LEVEL 5 ##                              #
+    '0314_11':
+      level: 5
+      label: dry_cleaning_laundry_dyeing_ironing
+      name: Dry Cleaning, Laundry, Dyeing, Ironing
+      farsi_name: هزينه خشك شوئي، لباسشوئي، رنگرزي و اطو
+      code: 31_411
+
+    #                              ## LEVEL 5 ##                              #
+    '0314_12':
+      level: 5
+      label: clothing_repair_mending
+      name: Clothing Repair, Mending
+      farsi_name: تعمير و رفوي لباس
+      code: 31_412
+
+    #                              ## LEVEL 5 ##                              #
+    '0314_13':
+      level: 5
+      versions:
+        1383:
+          label: clothing_rental_wedding_dress
+          name: Clothing Rental, Wedding Dress
+          farsi_name: كرايه لباس ( شامل لباس عروس و...) 
+        1389:
+          label: null
+          name: null
+          farsi_name: null
+      code: 31_413
+        
+    #                              ## LEVEL 5 ##                              #
+    '0314_14':
+      level: 5
+      label: tailoring_knitting_men
+      name: Tailoring, Knitting (Men)
+      farsi_name: اجرت دوخت یا بافت لباس (مردانه)
+      code: 31_414
+
+    #                              ## LEVEL 5 ##                              #
+    '0314_15':
+      level: 5
+      label: tailoring_knitting_women
+      name: Tailoring, Knitting (Women)
+      farsi_name: اجرت دوخت یا بافت لباس (زنانه)
+      code: 31_415
+
+    #                              ## LEVEL 5 ##                              #
+    '0314_16':
+      level: 5
+      label: tailoring_knitting_children
+      name: Tailoring, Knitting (Children)
+      farsi_name: اجرت دوخت یا بافت لباس (بچه گانه)
+      code: 31_416
 
     #                ################ LEVEL 2 ################                #
     '032':
       level: 2
       label: footwear
+      name: Footwear
       farsi_name: کفش
       code: {start: 32_000, end: 33_000}
 
@@ -2708,57 +3361,198 @@ sci_coicop_1383: &sci_coicop_1383
     '0321':
       level: 3
       label: shoes_and_other_footwear
+      name: Shoes and Other Footwear
       farsi_name: انواع کفش
       code: {start: 32_100, end: 32_200}
 
     #                            #### LEVEL 4 ####                            #
     '0321_1':
       level: 4
-      label:
+      label: footwear_for_men
+      name: Footwear for Men
       farsi_name: کفش مردانه
       code: {start: 32_110, end: 32_120}
+
+    #                              ## LEVEL 5 ##                              #
+    '0321_11':
+      level: 5
+      label: mens_leather_suede_varnish_shoes_and_boots
+      name: Men's Leather, Suede, Varnish Shoes and Boots
+      farsi_name: كفش چرمي، شورو، جير، ورني، چكمه و پوتين
+      code: 32_111
+    
+    #                              ## LEVEL 5 ##                              #
+    '0321_12':
+      level: 5
+      label: mens casual_and_sports_shoes_excluding_ski_skate_football
+      name: Men's Casual and Sports Shoes (Excluding Ski, Skate, Football)
+      farsi_name: >
+       انواع كفش راحتی و ورزشی (به استثنای کفش اسکی، اسکیت، فوتبال و ...)
+      code: 32_112     
+    
+    #                              ## LEVEL 5 ##                              #
+    '0321_13':
+      level: 5
+      label: mens galoshes_brogan_and_slippers
+      name: Men's Galoshes, Brogan and Slippers
+      farsi_name: گالش، كفش، چكمه، دمپائي (لاستیکی و پلاستیکی)
+      code: 32_113
+
+    #                              ## LEVEL 5 ##                              #
+    '0321_14':
+      level: 5
+      label: mens giveh_and_other_types_of_shoes
+      name: Men's Giveh and Other Types of Shoes
+      farsi_name: گیوه و سایر انواع كفش
+      code: 32_114
 
     #                            #### LEVEL 4 ####                            #
     '0321_2':
       level: 4
-      label:
+      label: footwear_for_women
+      name: Footwear for Women
       farsi_name: کفش زنانه
       code: {start: 32_120, end: 32_130}
+
+    #                              ## LEVEL 5 ##                              #
+    '0321_21':
+      level: 5
+      label: womens_leather_suede_varnish_shoes_and_boots
+      name: Women's Leather, Suede, Varnish Shoes and Boots
+      farsi_name: كفش چرمی، شورو، جیر، ورنی، چکمه و پوتین
+      code: 32_121
+
+    #                              ## LEVEL 5 ##                              #
+    '0321_22':
+      level: 5
+      label: womens_casual_and_sports_shoes_excluding_ski_skate_football
+      name: Women's Casual and Sports Shoes (Excluding Ski, Skate, Football)
+      farsi_name: >
+       انواع كفش راحتی و ورزشی (به استثنای کفش اسکی، اسکیت، فوتبال و ...)
+      code: 32_122
+    
+    #                              ## LEVEL 5 ##                              #
+    '0321_23':
+      level: 5
+      label: womens_galoshes_brogan_and_slippers
+      name: Women's Galoshes, Brogan and Slippers
+      farsi_name: (گالش، كفش، چكمه، دمپائي (لاستیکی و پلاستیکی
+      code: 32_123
+
+    #                              ## LEVEL 5 ##                              #
+    '0321_24':
+      level: 5
+      label: womens_giveh_and_other_types_of_shoes
+      name: Women's Giveh and Other Types of Shoes
+      farsi_name: گیوه و سایر انواع كفش
+      code: 32_124
 
     #                            #### LEVEL 4 ####                            #
     '0321_3':
       level: 4
-      label:
+      label: footwear_for_children
+      name: Footwear for Children
       farsi_name: کفش بچه‌گانه (۳ تا ۱۳ ساله)
       code: {start: 32_130, end: 32_140}
+
+    #                              ## LEVEL 5 ##                              #
+    '0321_31':
+      level: 5
+      label: childrens_leather_suede_varnish_shoes_and_boots
+      name: Children's Leather, Suede, Varnish Shoes and Boots
+      farsi_name: كفش چرمی، شورو، جیر، ورنی، چکمه و پوتین
+      code: 32_131
+
+    #                              ## LEVEL 5 ##                              #
+    '0321_32':
+      level: 5
+      label: childrens_casual_and_sports_shoes_excluding_ski_skate_football
+      name: >
+       Children's Casual and Sports Shoes (Excluding Ski, Skate, Football)
+      farsi_name: >
+       انواع كفش راحتی و ورزشی (به استثنای کفش اسکی، اسکیت، فوتبال و ...)
+      code: 32_132
+    
+    #                              ## LEVEL 5 ##                              #
+    '0321_33':
+      level: 5
+      label: childrens_galoshes_brogan_and_slippers
+      name: Children's Galoshes, Brogan and Slippers
+      farsi_name: (گالش، كفش، چكمه، دمپائي (لاستیکی و پلاستیکی
+      code: 32_133
+
+    #                              ## LEVEL 5 ##                              #
+    '0321_34':
+      level: 5
+      label: childrens_giveh_and_other_types_of_shoes
+      name: Children's Giveh and Other Types of Shoes
+      farsi_name: گیوه و سایر انواع كفش
+      code: 32_134
 
     #                            #### LEVEL 4 ####                            #
     '0321_4':
       level: 4
-      label:
+      label: footwear_for_infants
+      name: Footwear for Infants
       farsi_name: کفش اطفال (تا دو سال)
       code: {start: 32_140, end: 32_150}
+
+    #                              ## LEVEL 5 ##                              #
+    '0321_41':
+      level: 5
+      label: infants_shoes
+      name: Infants' Shoes
+      farsi_name: انواع کفش اطفال
+      code: 32_141
 
     #                        ######## LEVEL 3 ########                        #
     '0322':
       level: 3
       label: cleaning_repair_and_hire_of_footwear
-      farsi_name: تعمیر و ملزومات کفش
+      name: Cleaning, Repair and Hire of Footwear
+      farsi_name: تعمیرات و ملزومات کفش
       code: {start: 32_200, end: 32_300}
 
     #                            #### LEVEL 4 ####                            #
     '0322_1':
       level: 4
-      label:
+      label: repair_of_footwear
+      name: Repair of Footwear
       farsi_name: تعمیرات کفش
       code: {start: 32_210, end: 32_220}
+
+    #                              ## LEVEL 5 ##                              #
+    '0322_11':
+      level: 5
+      label: payment_for_shoe_polishing
+      name: Payment for Shoe Polishing
+      farsi_name: اجرت واكس زدن انواع كفش
+      code: 32_211
+
+    #                              ## LEVEL 5 ##                              #
+    '0322_12':
+      level: 5
+      label: payment_for_shoe_repair_and_related_costs
+      name: Payment for Shoe Repair and Related Costs
+      farsi_name: كليه تعميرات كفش، پاپوش و ساير هزينه هاي مشابه
+      code: 32_212
 
     #                            #### LEVEL 4 ####                            #
     '0322_2':
       level: 4
-      label:
+      label: material_of_footwear
+      name: Material of Footwear
       farsi_name: ملزومات کفش
       code: {start: 32_220, end: 32_230}
+
+    #                              ## LEVEL 5 ##                              #
+    '0322_21':
+      level: 5
+      label: shoe_laces_insoles_soles_and_others
+      name: Shoe Laces, Insoles, Soles, and Others
+      farsi_name: بند كفش، كفي كفش، تخت كفش و ...
+      code: 32_221
+
 
 
     ################################# LEVEL 1 #################################
