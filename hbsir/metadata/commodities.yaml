@@ -882,7 +882,7 @@ sci_coicop_1383: &sci_coicop_1383
       level: 5
       label: other_red_meat
       farsi_name:
-        1386: گوشت قرمه، نمک‌سود، و سایر انواع گوشت دام
+        1383: گوشت قرمه، نمک‌سود، و سایر انواع گوشت دام
         1386: گوشت قرمه، شکار، نمک‌سود، و سایر انواع گوشت دام
       code: 11_221
 
@@ -1149,6 +1149,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0114':
       level: 3
       label: milk_other_dairy_product_excluding_butter_and_eggs
+      name: Milk, Other Dairy Product Excluding Butter, and Eggs
       farsi_name: شیر و فرآورده‌های آن (به جز کره) و تخم پرندگان
       code: {start: 11_400, end: 11_500}
 
@@ -1316,8 +1317,9 @@ sci_coicop_1383: &sci_coicop_1383
 
     #                        ######## LEVEL 3 ########                        #
     '0115':
-      label: oils_fats_and_butter
       level: 3
+      label: oils_fats_and_butter
+      name: Oils, Fats and Butter
       farsi_name: روغن‌ها، چربی‌ها و کره
       code: {start: 11_500, end: 11_600}
 
@@ -1400,8 +1402,9 @@ sci_coicop_1383: &sci_coicop_1383
 
     #                        ######## LEVEL 3 ########                        #
     '0116':
-      label: fruits_and_nuts
       level: 3
+      label: fruits_and_nuts
+      name: Fruits and Nuts
       farsi_name: میوه‌ها و خشکبار
       code: {start: 11_600, end: 11_700}
 
@@ -1711,8 +1714,9 @@ sci_coicop_1383: &sci_coicop_1383
 
     #                        ######## LEVEL 3 ########                        #
     '0117':
-      label: vegetables_and_pulses
       level: 3
+      label: vegetables_and_pulses
+      name: Vegetables and Pulses
       farsi_name: سبزی‌ها و حبوبات
       code: {start: 11_700, end: 11_800}
 
@@ -1997,6 +2001,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0118':
       level: 3
       label: sugar_confectionery_and_desserts
+      name: Sugar, Confectionery and Desserts
       farsi_name: قند و شکر، مرباها و شیرینی‌ها
       code: {start: 11_800, end: 11_900}
 
@@ -2167,8 +2172,9 @@ sci_coicop_1383: &sci_coicop_1383
 
     #                        ######## LEVEL 3 ########                        #
     '0119':
-      label: spices_condiments_and_other_food_products
       level: 3
+      label: spices_condiments_and_other_food_products
+      name: Spices, Condiments and Other Food Products
       farsi_name: ادویه‌ها، چاشنی‌ها و سایر ترکیبات خوراکی
       code: {start: 11_900, end: 12_000}
 
@@ -2320,13 +2326,13 @@ sci_coicop_1383: &sci_coicop_1383
       code: 11_931
 
     #                              ## LEVEL 5 ##                              #
-    '0118_32':
+    '0119_32':
       level: 5
       label: 
       farsi_name:
         1383: انواع پودر کیک و شیرینی
         1384: null
-      code: 11_832
+      code: 11_932
 
     #                              ## LEVEL 5 ##                              #
     '0119_33':
@@ -2387,8 +2393,9 @@ sci_coicop_1383: &sci_coicop_1383
 
     #                        ######## LEVEL 3 ########                        #
     '0121':
-      label: tea_coffee_and_cocoa_drinks
       level: 3
+      label: tea_coffee_and_cocoa_drinks
+      name: Tea, Coffee and Cocoa Drinks
       farsi_name: چای، قهوه و کاکائو
       code: {start: 12_100, end: 12_200}
 
@@ -2431,6 +2438,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0122':
       level: 3
       label: soft_drinks
+      name: Soft Drinks
       farsi_name: نوشابه‌ها
       code: {start: 12_200, end: 12_300}
 
@@ -2495,6 +2503,7 @@ sci_coicop_1383: &sci_coicop_1383
     '02':
       level: 1
       label: alcoholic_beverages_tobacco_and_norcotics
+      name: Alcoholic Beverages Tobacco and Norcotics
       farsi_name: نوشیدنی‌های الکلی، تنباکو و مواد مخدر
       code: {start: 20_000, end: 30_000}
 
@@ -2607,6 +2616,7 @@ sci_coicop_1383: &sci_coicop_1383
     '03':
       level: 1
       label: clothing_and_footwear
+      name: Clothing and Footwear
       farsi_name: پوشاک و کفش
       code: {start: 30_000, end: 33_000}
       # This is an exceptional case due to the non-standard codes at the end  #
@@ -2765,7 +2775,7 @@ sci_coicop_1383: &sci_coicop_1383
     '04':
       level: 1
       label: housing_water_electricity_gas_and_other_fuels
-      title: Housing, water, electricity, gas and other fuels
+      name: Housing, Water, Electricity, Gas and Other Fuels
       farsi_name: مسکن، آب، فاضلاب، سوخت و روشنایی
       code: {start: 40_000, end: 50_000}
 
@@ -3078,6 +3088,7 @@ sci_coicop_1383: &sci_coicop_1383
     '05':
       level: 1
       label: furnishings_household_equipment_and_routine_household_maintenance
+      name: Furnishings Household Equipment and Routine Household Maintenance
       farsi_name: مبلمان، لوازم خانگی، و نگهداری معمول آن‌ها
       code: {start: 50_000, end: 60_000}
 
@@ -3095,7 +3106,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0511':
       level: 3
       label: furniture_and_furnishings
-      label: Furniture and furnishings
+      title: Furniture and furnishings
       farsi_name: مبلمان و اثاث
       code: {start: 51_100, end: 51_200}
 
@@ -3248,7 +3259,7 @@ sci_coicop_1383: &sci_coicop_1383
     '06':
       level: 1
       label: health
-      title: health
+      name: Health
       farsi_name: بهداشت و درمان
       code: {start: 60_000, end: 70_000}
 
@@ -3365,6 +3376,7 @@ sci_coicop_1383: &sci_coicop_1383
     '07':
       level: 1
       label: transport
+      name: Transport
       farsi_name: حمل و نقل
       code: {start: 70_000, end: 80_000}
 
@@ -3517,6 +3529,7 @@ sci_coicop_1383: &sci_coicop_1383
     '08':
       level: 1
       label: information_and_communication
+      name: Information and Communication
       farsi_name: اطلاعات و ارتباطات
       code: {start: 80_000, end: 90_000}
 
@@ -3578,7 +3591,7 @@ sci_coicop_1383: &sci_coicop_1383
     '09':
       level: 1
       label: recreation_and_culture
-      title: Recreation and culture
+      name: Recreation and Culture
       farsi_name: خدمات فرهنگی و تفریحات
       code: {start: 90_000, end: 100_000}
 
@@ -3806,6 +3819,7 @@ sci_coicop_1383: &sci_coicop_1383
     '10':
       level: 1
       label: education_services
+      name: Education Services
       farsi_name: آموزش و تحصیل
       code: {start: 100_000, end: 110_000}
 
@@ -3899,6 +3913,7 @@ sci_coicop_1383: &sci_coicop_1383
     '11':
       level: 1
       label: restaurants_and_accommodation_services
+      name: Restaurants and Accommodation Services
       farsi_name: غذاهای آماده، هتل و رستوران
       code: {start: 110_000, end: 120_000}
 
@@ -3973,6 +3988,7 @@ sci_coicop_1383: &sci_coicop_1383
     '12':
       level: 1
       label: other_commodities
+      name: Other Commodities
       farsi_name: کالاها و خدمات متفرقه
       code: {start: 120_000, end: 130_000}
 
@@ -4146,6 +4162,7 @@ sci_coicop_1383: &sci_coicop_1383
     '13':
       level: 1
       label: transfer_payments
+      name: Transfer Payments
       farsi_name: انتقالات
       code: {start: 130_000, end: 140_000}
 
@@ -4179,6 +4196,7 @@ sci_coicop_1383: &sci_coicop_1383
     '14':
       level: 1
       label: investments
+      name: Investments
       farsi_name: سرمایه‌گذاری‌ها
       code: {start: 33_000, end: 35_000}
 
