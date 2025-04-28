@@ -4885,1780 +4885,5225 @@ coicop_2018:
     '01':
       level: 1
       description: Food and non-alcoholic beverages
-      code:
-        1383: {{original_1383.01}}
+      farsi_description: خوراکی‌ها و نوشابه‌های غیرالکلی
+      code: 
 
     '01.1':
       level: 2
       description: Food
-      code:
-        1383: {{original_1383.011}}
+      farsi_description: خوراکی‌ها
+      code: 
 
     '01.1.1':
       level: 3
       description: Cereals and cereal products (ND)
-      code:
+      farsi_description: غلات و فرآورده‌های غلات (بی‌دوام)
+      code: 
 
     '01.1.1.1':
       level: 4
       description: Cereals (ND)
-      code:
+      farsi_description: غلات (بی‌دوام)
+      code: 
 
     '01.1.1.1.1':
       level: 5
       description: Wheat
-      code: 11_121
+      farsi_description: 
+      code: 
 
     '01.1.1.1.2':
       level: 5
       description: Rice
-      code: {start: 11_110, end: 11_120}
+      farsi_description: 
+      code: 
 
     '01.1.1.1.3':
       level: 5
       description: Sorghum
-      code:
+      farsi_description: 
+      code: 
 
     '01.1.1.1.4':
       level: 5
       description: Barley
-      code: 11_124
+      farsi_description: 
+      code: 
 
     '01.1.1.1.5':
       level: 5
       description: Millet
-      code:
+      farsi_description: 
+      code: 
 
     '01.1.1.1.6':
       level: 5
       description: Maize (corn)
-      code: 11_123
+      farsi_description: 
+      code: 
 
     '01.1.1.1.7':
       level: 5
       description: Quinoa
-      code:
+      farsi_description: 
+      code: 
 
     '01.1.1.1.8':
       level: 5
       description: Teff
+      farsi_description: 
       code: 
 
     '01.1.1.1.9':
       level: 5
       description: Other cereals
-      code: [11_122, 11_125]
-      
+      farsi_description: 
+      code: 
+
     '01.1.1.2':
       level: 4
       description: Flour of cereals (ND)
-      code:
+      farsi_description: آرد غلات (بی‌دوام)
+      code: 
+
+    '01.1.1.2.1':
+      level: 5
+      description: Flour of wheat
+      farsi_description: 
+      code: 
+
+    '01.1.1.2.2':
+      level: 5
+      description: Flour of rice
+      farsi_description: 
+      code: 
+
+    '01.1.1.2.3':
+      level: 5
+      description: Flour of sorghum
+      farsi_description: 
+      code: 
+
+    '01.1.1.2.4':
+      level: 5
+      description: Flour of barley
+      farsi_description: 
+      code: 
+
+    '01.1.1.2.5':
+      level: 5
+      description: Flour of millet
+      farsi_description: 
+      code: 
+
+    '01.1.1.2.6':
+      level: 5
+      description: Flour of maize or cornmeal
+      farsi_description: 
+      code: 
+
+    '01.1.1.2.7':
+      level: 5
+      description: Flour of quinoa
+      farsi_description: 
+      code: 
+
+    '01.1.1.2.8':
+      level: 5
+      description: Flour of teff
+      farsi_description: 
+      code: 
+
+    '01.1.1.2.9':
+      level: 5
+      description: Other flours of cereals
+      farsi_description: 
+      code: 
 
     '01.1.1.3':
       level: 4
       description: Bread and bakery products (ND)
-      code:
+      farsi_description: نان و محصولات نانوایی (بی‌دوام)
+      code: 
+
+    '01.1.1.3.1':
+      level: 5
+      description: Bread
+      farsi_description: 
+      code: 
+
+    '01.1.1.3.9':
+      level: 5
+      description: Other bakery products
+      farsi_description: 
+      code: 
 
     '01.1.1.4':
       level: 4
       description: Breakfast cereals (ND)
-      code:
+      farsi_description: غلات ویژه صبحانه (بی‌دوام)
+      code: 
+
+    '01.1.1.4.0':
+      level: 5
+      description: Breakfast cereals
+      farsi_description: 
+      code: 
 
     '01.1.1.5':
       level: 4
       description: Macaroni, noodles, couscous and similar pasta products (ND)
-      code:
+      farsi_description: ماکارونی، رشته فرنگی، پودر بلغور مراکشی (کوسکوس)، محصولات مشابه پاستا (بی‌دوام)
+      code: 
+
+    '01.1.1.5.0':
+      level: 5
+      description: Macaroni, noodles, couscous and similar pasta products
+      farsi_description: 
+      code: 
 
     '01.1.1.9':
       level: 4
-      description: Other cereal and grain mill products (ND)
-      code:
-      
-    '01.2':
-      level: 2
-      description: Non-alcoholic beverages
-      code:
-        1383: {{original_1383.012}}
-
-    '01.3':
-      level: 2
-      description: Services for processing primary goods for food and non-alcoholic beverages
-      code:
-
-    '02':
-      level: 1
-      description: Alcoholic beverages, tobacco and narcotics
-      code:
-
-    '02.1':
-      level: 2
-      description: Alcoholic beverages
-      code:
-
-    '02.2':
-      level: 2
-      description: Alcohol production services
-      code:
-
-    '02.3':
-      level: 2
-      description: Tobacco
-      code:
-
-    '02.4':
-      level: 2
-      description: Narcotics
-      code:
-
-    '03':
-      level: 1
-      description: Clothing and footwear
-      code:
-
-    '03.1':
-      level: 2
-      description: Clothing
-      code:
-
-    '03.2':
-      level: 2
-      description: Footwear
-      code:
-
-    '04':
-      level: 1
-      description: Housing, water, electricity, gas and other fuels
-      code:
-
-    '04.1':
-      level: 2
-      description: Actual rentals for housing
-      code:
-
-    '04.1.1':
-      level: 3
-      title: Actual rentals paid by tenants for main residence (S)
-
-    '04.1.1.0':
-      level: 4
-      title: Actual rentals paid by tenants for main residence (S)
-
-    '04.1.2':
-      level: 3
-      title: Other actual rentals (S)
-
-    '04.1.2.1':
-      level: 4
-      title: Actual rentals paid by tenants for secondary residences (S)
-
-    '04.1.2.2':
-      level: 4
-      title: Garage rentals and other rentals paid by tenants (S)
-
-    '04.2':
-      level: 2
-      description: Imputed rentals for housing
-      code:
-
-    '04.2.1':
-      level: 3
-      description: Imputed rentals of owner-occupiers for main residence (S)
-
-    '04.2.1.0':
-      level: 4
-      description: Imputed rentals of owner-occupiers for main residence (S)
-
-    '04.2.2':
-      level: 3
-      description: Other imputed rentals (S)
-
-    '04.2.2.0':
-      level: 4
-      description: Other imputed rentals (S)
-
-    '04.3':
-      level: 2
-      description: Maintenance, repair and security of the dwelling
-      code:
-
-    '04.3.1':
-      level:
-      description: Security equipment and materials for the maintenance and repair of the dwelling (ND)
-
-    '04.3.1.1':
-      level:
-      description: Materials for the maintenance and repair of the dwelling (ND)
-
-    '04.3.1.2':
-      level:
-      description: Security equipment (SD)
-
-    '04.3.2':
-      level:
-      description: Services for the maintenance, repair and security of the dwelling (S)
-
-    '04.3.2.0':
-      level:
-      description: Services for the maintenance, repair and security of the dwelling (S)
-
-
-    '04.4':
-      level: 2
-      description: Water supply and miscellaneous services relating to the dwelling
-      code:
-
-    '04.4.1':
-      level:
-      description: Water supply (ND)
-
-    '04.4.1.1':
-      level:
-      description: Water supply through network systems (ND)
-
-    '04.4.1.2':
-      level:
-      description: Water supply through other systems (ND)
-
-    '04.4.2':
-      level:
-      description: Refuse collection (S)
-
-    '04.4.2.0':
-      level:
-      description: Refuse collection (S)
-
-    '04.4.3':
-      level:
-      description: Sewage collection (S)
-
-    '04.4.3.1':
-      level:
-      description: Sewage collection through sewer systems (S)
-
-    '04.4.3.2':
-      level:
-      description: Sewage collection through onsite sanitation systems (S)
-
-    '04.4.4':
-      level:
-      description: Other services relating to the dwelling n.e.c. (S)
-
-    '04.4.4.1':
-      level:
-      description: Maintenance charges in multi-occupied buildings (S)
-
-    '04.4.4.9':
-      level:
-      description: Other services related to dwelling (S)
-
-
-    '04.5':
-      level: 2
-      description: Electricity, gas and other fuels
-      code:
-
-    '04.5.1':
-      level:
-      description: Electricity (ND) 
-
-    '04.5.1.0':
-      level:
-      description: Electricity (ND) 
-
-    '04.5.2':
-      level:
-      description: Gas (ND) 
-
-    '04.5.2.1':
-      level:
-      description: Natural gas through networks (ND) 
-
-    '04.5.2.2':
-      level:
-      description: Liquefied hydrocarbons (ND) 
-
-    '04.5.3':
-      level:
-      description: Liquid fuels (ND) 
-
-    '04.5.3.0':
-      level:
-      description: Liquid fuels (ND) 
-
-    '04.5.4':
-      level:
-      description: Solid fuels (ND) 
-
-    '04.5.4.1':
-      level:
-      description: Coal, coal briquettes and peat (ND) 
-
-    '04.5.4.2':
-      level:
-      description: Wood fuel, including pellets and briquettes (ND) 
-
-    '04.5.4.3':
-      level:
-      description: Charcoal (ND) 
-
-    '04.5.4.9':
-      level:
-      description: Other solid fuels (ND) 
-
-    '04.5.5':
-      level:
-      description: Other energy for heating and cooling (ND) 
-
-    '04.5.5.0':
-      level:
-      description: Other energy for heating and cooling (ND)
-
-
-    '05':
-      level: 1
-      description: Furnishings, household equipment and routine household maintenance
-      code:
-
-    '05.1':
-      level: 2
-      description: Furniture, furnishings, and loose carpets
-      code:
-
-    '05.2':
-      level: 2
-      description: Household textiles
-      code:
-
-    '05.3':
-      level: 2
-      description: Household appliances
-      code:
-
-    '05.4':
-      level: 2
-      description: Glassware, tableware and household utensils
-      code:
-
-    '05.5':
-      level: 2
-      description: Tools and equipment for house and garden
-      code:
-
-    '05.6':
-      level: 2
-      description: Goods and services for routine household maintenance
-      code:
-
-    '06':
-      level: 1
-      description: Health
-      code:
-
-    '06.1':
-      level: 2
-      description: Medicines and health products
-      code:
-
-    '06.2':
-      level: 2
-      description: Outpatient care services
-      code:
-
-    '06.3':
-      level: 2
-      description: Inpatient care services
-      code:
-
-    '06.4':
-      level: 2
-      description: Other health services
-      code:
-
-    '07':
-      level: 1
-      description: Transport
-      code:
-
-    '07.1':
-      level: 2
-      description: Purchase of vehicles
-      code:
-
-    '07.2':
-      level: 2
-      description: Operation of personal transport equipment
-      code:
-
-    '07.3':
-      level: 2
-      description: Passenger transport services
-      code:
-
-    '07.4':
-      level: 2
-      description: Transport services of goods
-      code:
-
-    '08':
-      level: 1
-      description: Information and communication
-      code:
-
-    '08.1':
-      level: 2
-      description: Information and communication equipment
-      code:
-
-    '08.2':
-      level: 2
-      description: Software excluding games
-      code:
-
-    '08.3':
-      level: 2
-      description: Information and communication services
-      code:
-
-    '09':
-      level: 1
-      description: Recreation, sport and culture
-      code:
-
-    '09.1':
-      level: 2
-      description: Recreational durables
-      code:
-
-    '09.2':
-      level: 2
-      description: Other recreational goods
-      code:
-
-    '09.3':
-      level: 2
-      description: Garden products and pets
-      code:
-
-    '09.4':
-      level: 2
-      description: Recreational services
-      code:
-
-    '09.5':
-      level: 2
-      description: Cultural goods
-      code:
-
-    '09.6':
-      level: 2
-      description: Cultural services
-      code:
-
-    '09.7':
-      level: 2
-      description: Newspapers, books and stationery
-      code:
-
-    '09.8':
-      level: 2
-      description: Package holidays
-      code:
-
-    '10':
-      level: 1
-      description: Education services
-      code:
-
-    '10.1':
-      level: 2
-      description: Early childhood and primary education
-      code:
-
-    '10.2':
-      level: 2
-      description: Secondary education
-      code:
-
-    '10.3':
-      level: 2
-      description: Post-secondary non-tertiary education
-      code:
-
-    '10.4':
-      level: 2
-      description: Tertiary education
-      code:
-
-    '10.5':
-      level: 2
-      description: Education not defined by level
-      code:
-
-    '11':
-      level: 1
-      description: Restaurants and accommodation services
-      code:
-
-    '11.1':
-      level: 2
-      description: Food and beverage serving services
-      code:
-
-    '11.2':
-      level: 2
-      description: Accommodation services
-      code:
-
-    '12':
-      level: 1
-      description: Insurance and financial services
-      code:
-
-    '12.1':
-      level: 2
-      description: Insurance
-      code:
-
-    '12.2':
-      level: 2
-      description: Financial services
-      code:
-
-    '13':
-      level: 1
-      description: Personal care, social protection and miscellaneous goods and services
-      code:
-
-    '13.1':
-      level: 2
-      description: Personal care
-      code:
-
-    '13.2':
-      level: 2
-      description: Other personal effects
-      code:
-
-    '13.3':
-      level: 2
-      description: Social protection
-      code:
-
-    '13.9':
-      level: 2
-      description: Other services
-      code:
-
-    '14':
-      level: 1
-      description: Individual consumption expenditure of non-profit institutions serving households (NPISHS)
-      code:
-
-    '14.1':
-      level: 2
-      description: Housing
-      code:
-
-    '14.2':
-      level: 2
-      description: Health
-      code:
-
-    '14.3':
-      level: 2
-      description: Recreation and culture
-      code:
-
-    '14.4':
-      level: 2
-      description: Education
-      code:
-
-    '14.5':
-      level: 2
-      description: Social protection
-      code:
-
-    '14.6':
-      level: 2
-      description: Other services
-      code:
-
-    '15':
-      level: 1
-      description: Individual consumption expenditure of general government
-      code:
-
-    '15.1':
-      level: 2
-      description: Housing
-      code:
-
-    '15.2':
-      level: 2
-      description: Health
-      code:
-
-    '15.3':
-      level: 2
-      description: Recreation and culture
-      code:
-
-    '15.4':
-      level: 2
-      description: Education
-      code:
-
-    '15.5':
-      level: 2
-      description: Social protection
-      code:
-
-
-coicop_1999:
-
-  items:
-
-    '01':
-      level: 1
-      description: Food and non-alcoholic beverages
-      code:
-
-    '01.1':
-      level: 2
-      description: Food
-      code:
-
-    '01.1.1':
-      level: 3
-      description: Bread and cereals (ND)
-      code:
+      description: Other milled cereal and grain products (ND)
+      farsi_description: سایر فرآورده‌های غلات (‌بی‌دوام)
+      code: 
+
+    '01.1.1.9.0':
+      level: 5
+      description: Other milled cereal and grain products
+      farsi_description: 
+      code: 
 
     '01.1.2':
       level: 3
-      description: Meat (ND)
-      code:
+      description: Live animals, and meat and other parts of slaughtered land animals (ND)
+      farsi_description: حیوانات زنده، گوشت و سایر قسمت‌های حیوانات خشکی‌زی ذبح شده (بی‌دوام)
+      code: 
+
+    '01.1.2.1':
+      level: 4
+      description: Live land animals (ND)
+      farsi_description: حیوانات زنده خشکی‌زی (بی‌دوام)
+      code: 
+
+    '01.1.2.1.1':
+      level: 5
+      description: Bovine animal, live
+      farsi_description: 
+      code: 
+
+    '01.1.2.1.2':
+      level: 5
+      description: Pigs, live
+      farsi_description: 
+      code: 
+
+    '01.1.2.1.3':
+      level: 5
+      description: Goats, lambs and sheep, live
+      farsi_description: 
+      code: 
+
+    '01.1.2.1.4':
+      level: 5
+      description: Poultry, live
+      farsi_description: 
+      code: 
+
+    '01.1.2.1.5':
+      level: 5
+      description: Hares and rabbits, live
+      farsi_description: 
+      code: 
+
+    '01.1.2.1.9':
+      level: 5
+      description: Other live animals
+      farsi_description: 
+      code: 
+
+    '01.1.2.2':
+      level: 4
+      description: Meat, fresh, chilled or frozen (ND)
+      farsi_description: گوشت تازه، سردخانه‌ای یا منجمد (بی‌دوام)
+      code: 
+
+    '01.1.2.2.1':
+      level: 5
+      description: Meat of bovine animals, fresh, chilled or frozen
+      farsi_description: 
+      code: 
+
+    '01.1.2.2.2':
+      level: 5
+      description: Meat of pigs, fresh, chilled or frozen
+      farsi_description: 
+      code: 
+
+    '01.1.2.2.3':
+      level: 5
+      description: Meat of goats, lambs and sheep, fresh, chilled or frozen
+      farsi_description: 
+      code: 
+
+    '01.1.2.2.4':
+      level: 5
+      description: Meat of poultry, fresh, chilled or frozen
+      farsi_description: 
+      code: 
+
+    '01.1.2.2.5':
+      level: 5
+      description: Meat of hares and rabbits, fresh, chilled or frozen
+      farsi_description: 
+      code: 
+
+    '01.1.2.2.6':
+      level: 5
+      description: Meat of horses and other equines, fresh, chilled or frozen
+      farsi_description: 
+      code: 
+
+    '01.1.2.2.7':
+      level: 5
+      description: Meat of camels and camelids, fresh, chilled or frozen
+      farsi_description: 
+      code: 
+
+    '01.1.2.2.9':
+      level: 5
+      description: Other meat, fresh, chilled or frozen
+      farsi_description: 
+      code: 
+
+    '01.1.2.3':
+      level: 4
+      description: Meat, dried, salted, in brine or smoked (ND)
+      farsi_description: گوشت خشک شده، نمک سود، در آب نمک یا دودی شده (بی‌دوام)
+      code: 
+
+    '01.1.2.3.1':
+      level: 5
+      description: Meat of bovine, salted, dried or smoked
+      farsi_description: 
+      code: 
+
+    '01.1.2.3.2':
+      level: 5
+      description: Meat of pigs, cuts, salted, dried or smoked (bacon and ham)
+      farsi_description: 
+      code: 
+
+    '01.1.2.3.9':
+      level: 5
+      description: Other meat, dried, salted or smoked
+      farsi_description: 
+      code: 
+
+    '01.1.2.4':
+      level: 4
+      description: Offal, blood and other parts of slaughtered animals, fresh, chilled or frozen, dried, salted, in brine or smoked (ND)
+      farsi_description: امعا و احشا، خون و سایر قسمت‌های حیوانات ذبح شده تازه، سردخانه‌ای یا منجمد، خشک شده، نمک سود، در آب نمک، یا دودی‌شده (بی‌دوام)
+      code: 
+
+    '01.1.2.4.0':
+      level: 5
+      description: Offal, blood and other parts of slaughtered animals fresh, chilled or frozen, dried, salted, in brine or smoked
+      farsi_description: 
+      code: 
+
+    '01.1.2.5':
+      level: 4
+      description: Preparations of meat, offal, blood and other parts of slaughtered animals (ND)
+      farsi_description: فرآورده‌های گوشت، امعا و احشاء، خون و سایر قسمت‌های حیوانات ذبح‌شده (بی‌دوام)
+      code: 
+
+    '01.1.2.5.1':
+      level: 5
+      description: Sausages and similar products of meat, offal or blood
+      farsi_description: 
+      code: 
+
+    '01.1.2.5.2':
+      level: 5
+      description: Canned meat
+      farsi_description: 
+      code: 
+
+    '01.1.2.5.3':
+      level: 5
+      description: Pâté, including liver pâté
+      farsi_description: 
+      code: 
+
+    '01.1.2.5.9':
+      level: 5
+      description: Other preparations of meat, offal or blood n.e.c.
+      farsi_description: 
+      code: 
 
     '01.1.3':
       level: 3
-      description: Fish and seafood (ND)
-      code:
+      description: Fish and other seafood (ND)
+      farsi_description: ماهی و سایر خوراکی‌های دریایی (بی‌دوام)
+      code: 
+
+    '01.1.3.1':
+      level: 4
+      description: Fish, live, fresh, chilled or frozen (ND)
+      farsi_description: ماهی زنده تازه، سردخانه‌ای یا منجمد (بی‌دوام)
+      code: 
+
+    '01.1.3.1.1':
+      level: 5
+      description: Freshwater fish, live, fresh, chilled or frozen
+      farsi_description: 
+      code: 
+
+    '01.1.3.1.2':
+      level: 5
+      description: Salmonoidae, live, fresh, chilled or frozen
+      farsi_description: 
+      code: 
+
+    '01.1.3.1.3':
+      level: 5
+      description: Flatfish, live, fresh, chilled, or frozen
+      farsi_description: 
+      code: 
+
+    '01.1.3.1.4':
+      level: 5
+      description: Gadiformes, live, fresh, chilled, or frozen
+      farsi_description: 
+      code: 
+
+    '01.1.3.1.5':
+      level: 5
+      description: Tunas, skipjack or stripe-bellied bonito, live, fresh, chilled, or frozen
+      farsi_description: 
+      code: 
+
+    '01.1.3.1.6':
+      level: 5
+      description: Other pelagic fish, live, fresh, chilled, or frozen
+      farsi_description: 
+      code: 
+
+    '01.1.3.1.9':
+      level: 5
+      description: Other fish, live, fresh, chilled, or frozen
+      farsi_description: 
+      code: 
+
+    '01.1.3.2':
+      level: 4
+      description: Fish, dried, salted, in brine or smoked (ND)
+      farsi_description: ماهی خشک‌شده، نمک‌سود، در آب نمک یا دودی‌شده (بی‌دوام)
+      code: 
+
+    '01.1.3.2.1':
+      level: 5
+      description: Salmonoidae, smoked
+      farsi_description: 
+      code: 
+
+    '01.1.3.2.2':
+      level: 5
+      description: Gadiformes, dried, salted or in brine
+      farsi_description: 
+      code: 
+
+    '01.1.3.2.9':
+      level: 5
+      description: Other fish, dried, salted, in brine, smoked
+      farsi_description: 
+      code: 
+
+    '01.1.3.3':
+      level: 4
+      description: Fish preparations (ND)
+      farsi_description: فرآورده‌های ماهی (بی‌دوام)
+      code: 
+
+    '01.1.3.3.1':
+      level: 5
+      description: Tunas, skipjack or stripe-bellied bonito, prepared or preserved
+      farsi_description: 
+      code: 
+
+    '01.1.3.3.2':
+      level: 5
+      description: Other pelagic fish, prepared or preserved
+      farsi_description: 
+      code: 
+
+    '01.1.3.3.3':
+      level: 5
+      description: Caviar and caviar substitutes
+      farsi_description: 
+      code: 
+
+    '01.1.3.3.9':
+      level: 5
+      description: Other fish, prepared or preserved
+      farsi_description: 
+      code: 
+
+    '01.1.3.4':
+      level: 4
+      description: Other seafood, live, fresh, chilled or frozen (ND)
+      farsi_description: سایر خوراکی‌های دریایی زنده، تازه، سردخانه‌ای یا منجمد (بی‌دوام)
+      code: 
+
+    '01.1.3.4.1':
+      level: 5
+      description: Shrimps and prawns, live, fresh, chilled or frozen
+      farsi_description: 
+      code: 
+
+    '01.1.3.4.2':
+      level: 5
+      description: Other crustaceans, live, fresh, chilled or frozen
+      farsi_description: 
+      code: 
+
+    '01.1.3.4.3':
+      level: 5
+      description: Bivalves, live, fresh, chilled or frozen
+      farsi_description: 
+      code: 
+
+    '01.1.3.4.4':
+      level: 5
+      description: Cephalopods, live, fresh, chilled or frozen
+      farsi_description: 
+      code: 
+
+    '01.1.3.4.5':
+      level: 5
+      description: Other molluscs, live, fresh, chilled or frozen
+      farsi_description: 
+      code: 
+
+    '01.1.3.4.9':
+      level: 5
+      description: Other aquatic invertebrates, live, fresh, chilled or frozen
+      farsi_description: 
+      code: 
+
+    '01.1.3.5':
+      level: 4
+      description: Other seafood, dried, salted, in brine or smoked (ND)
+      farsi_description: سایر خوراکی‌های دریایی خشک شده، نمک سود، در آب نمک یا دودی (بی‌دوام)
+      code: 
+
+    '01.1.3.5.1':
+      level: 5
+      description: Shrimps and prawns, dried, salted or in brine; smoked
+      farsi_description: 
+      code: 
+
+    '01.1.3.5.2':
+      level: 5
+      description: Other crustaceans, dried, salted or in brine; smoked
+      farsi_description: 
+      code: 
+
+    '01.1.3.5.3':
+      level: 5
+      description: Bivalves, dried, salted or in brine; smoked
+      farsi_description: 
+      code: 
+
+    '01.1.3.5.4':
+      level: 5
+      description: Cephalopods, dried, salted or in brine; smoked
+      farsi_description: 
+      code: 
+
+    '01.1.3.5.5':
+      level: 5
+      description: Other molluscs, dried, salted or in brine; smoked
+      farsi_description: 
+      code: 
+
+    '01.1.3.5.9':
+      level: 5
+      description: Other aquatic invertebrates, dried, salted or in brine; smoked
+      farsi_description: 
+      code: 
+
+    '01.1.3.6':
+      level: 4
+      description: Other seafood preparations (ND)
+      farsi_description: سایر خوراکی‌های دریایی (بی‌دوام)
+      code: 
+
+    '01.1.3.6.1':
+      level: 5
+      description: Shrimps and prawns, prepared or preserved
+      farsi_description: 
+      code: 
+
+    '01.1.3.6.2':
+      level: 5
+      description: Other crustaceans, prepared or preserved
+      farsi_description: 
+      code: 
+
+    '01.1.3.6.3':
+      level: 5
+      description: Bivalves, prepared or preserved
+      farsi_description: 
+      code: 
+
+    '01.1.3.6.4':
+      level: 5
+      description: Cephalopods, prepared or preserved
+      farsi_description: 
+      code: 
+
+    '01.1.3.6.5':
+      level: 5
+      description: Other molluscs, prepared or preserved
+      farsi_description: 
+      code: 
+
+    '01.1.3.6.9':
+      level: 5
+      description: Other aquatic invertebrates, prepared or preserved
+      farsi_description: 
+      code: 
+
+    '01.1.3.7':
+      level: 4
+      description: Livers, roes and other offal of fish and of other seafood in all forms (ND)
+      farsi_description: جگر، اشپل (تخم ماهی) و امعا و احشای ماهی و سایر خوراکی‌های دریایی در تمام اشکال (بی‌دوام)
+      code: 
+
+    '01.1.3.7.0':
+      level: 5
+      description: Livers, roes and other offal of fish and of other seafood in all forms
+      farsi_description: 
+      code: 
 
     '01.1.4':
       level: 3
-      description: Milk, cheese and eggs (ND)
-      code:
+      description: Milk, other dairy products and eggs (ND)
+      farsi_description: شیر، سایر محصولات لبنی و تخم‌‍ ‌مرغ (بی‌دوام)
+      code: 
+
+    '01.1.4.1':
+      level: 4
+      description: Raw and whole milk (ND)
+      farsi_description: شیر خام و کامل (بی‌دوام)
+      code: 
+
+    '01.1.4.1.1':
+      level: 5
+      description: Raw and whole milk of cattle
+      farsi_description: 
+      code: 
+
+    '01.1.4.1.2':
+      level: 5
+      description: Raw and whole milk of buffaloes
+      farsi_description: 
+      code: 
+
+    '01.1.4.1.3':
+      level: 5
+      description: Raw and whole milk of sheep and goats
+      farsi_description: 
+      code: 
+
+    '01.1.4.1.4':
+      level: 5
+      description: Raw and whole milk of camels
+      farsi_description: 
+      code: 
+
+    '01.1.4.1.9':
+      level: 5
+      description: Other raw and whole milk
+      farsi_description: 
+      code: 
+
+    '01.1.4.2':
+      level: 4
+      description: Skimmed milk (ND)
+      farsi_description: شیرکم‌چرب (بی‌دوام)
+      code: 
+
+    '01.1.4.2.0':
+      level: 5
+      description: Skimmed milk
+      farsi_description: 
+      code: 
+
+    '01.1.4.3':
+      level: 4
+      description: Other milk and cream (ND)
+      farsi_description: سایر انواع شیر و خامه (بی‌دوام)
+      code: 
+
+    '01.1.4.3.1':
+      level: 5
+      description: Condensed or evaporated milk
+      farsi_description: 
+      code: 
+
+    '01.1.4.3.2':
+      level: 5
+      description: Powdered milk
+      farsi_description: 
+      code: 
+
+    '01.1.4.3.3':
+      level: 5
+      description: Cream
+      farsi_description: 
+      code: 
+
+    '01.1.4.3.9':
+      level: 5
+      description: Other milk
+      farsi_description: 
+      code: 
+
+    '01.1.4.4':
+      level: 4
+      description: Non-animal milk (ND)
+      farsi_description: شیر غیرحیوانی (بی‌دوام)
+      code: 
+
+    '01.1.4.4.1':
+      level: 5
+      description: Coconut milk
+      farsi_description: 
+      code: 
+
+    '01.1.4.4.2':
+      level: 5
+      description: Almond milk
+      farsi_description: 
+      code: 
+
+    '01.1.4.4.3':
+      level: 5
+      description: Soy milk
+      farsi_description: 
+      code: 
+
+    '01.1.4.4.4':
+      level: 5
+      description: Rice milk
+      farsi_description: 
+      code: 
+
+    '01.1.4.4.5':
+      level: 5
+      description: Oat milk
+      farsi_description: 
+      code: 
+
+    '01.1.4.4.9':
+      level: 5
+      description: Other non-animal milk
+      farsi_description: 
+      code: 
+
+    '01.1.4.5':
+      level: 4
+      description: Cheese (ND)
+      farsi_description: پنیر (بی‌دوام)
+      code: 
+
+    '01.1.4.5.0':
+      level: 5
+      description: Cheese
+      farsi_description: 
+      code: 
+
+    '01.1.4.6':
+      level: 4
+      description: Yoghurt and similar products (ND)
+      farsi_description: ماست و محصولات مشابه (بی‌دوام)
+      code: 
+
+    '01.1.4.6.0':
+      level: 5
+      description: Yoghurt and similar products
+      farsi_description: 
+      code: 
+
+    '01.1.4.7':
+      level: 4
+      description: Milk-based dessert and beverages (ND)
+      farsi_description: دسر و نوشیدنی‌های شیری (بی‌دوام)
+      code: 
+
+    '01.1.4.7.0':
+      level: 5
+      description: Milk-based dessert and beverages
+      farsi_description: 
+      code: 
+
+    '01.1.4.8':
+      level: 4
+      description: Eggs (ND)
+      farsi_description: تخم‌مرغ (بی‌دوام)
+      code: 
+
+    '01.1.4.8.1':
+      level: 5
+      description: Eggs of hen and other birds, in shell, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.4.8.2':
+      level: 5
+      description: Eggs of other animals, in shell, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.4.8.9':
+      level: 5
+      description: Other egg products
+      farsi_description: 
+      code: 
+
+    '01.1.4.9':
+      level: 4
+      description: Other dairy products (ND)
+      farsi_description: سایر فرآورده‌های لبنی (بی‌دوام)
+      code: 
+
+    '01.1.4.9.0':
+      level: 5
+      description: Other dairy products
+      farsi_description: 
+      code: 
 
     '01.1.5':
       level: 3
       description: Oils and fats (ND)
-      code:
+      farsi_description: روغن‌ها و چربی‌ها (بی‌دوام)
+      code: 
+
+    '01.1.5.1':
+      level: 4
+      description: Vegetable oils (ND)
+      farsi_description: روغن‌های گیاهی (بی‌دوام)
+      code: 
+
+    '01.1.5.1.1':
+      level: 5
+      description: Sunflower-seed and safflower-seed oil
+      farsi_description: 
+      code: 
+
+    '01.1.5.1.2':
+      level: 5
+      description: Palm oil
+      farsi_description: 
+      code: 
+
+    '01.1.5.1.3':
+      level: 5
+      description: Olive oil
+      farsi_description: 
+      code: 
+
+    '01.1.5.1.4':
+      level: 5
+      description: Soya bean oil
+      farsi_description: 
+      code: 
+
+    '01.1.5.1.5':
+      level: 5
+      description: Groundnut oil
+      farsi_description: 
+      code: 
+
+    '01.1.5.1.6':
+      level: 5
+      description: Coconut oil
+      farsi_description: 
+      code: 
+
+    '01.1.5.1.7':
+      level: 5
+      description: Corn oil
+      farsi_description: 
+      code: 
+
+    '01.1.5.1.9':
+      level: 5
+      description: Other edible vegetable oils n.e.c.
+      farsi_description: 
+      code: 
+
+    '01.1.5.2':
+      level: 4
+      description: Butter and other oils and fats derived from milk (ND)
+      farsi_description: کره و سایر چربی‌ها و روغن‌های گرفته‌شده از شیر (بی‌دوام)
+      code: 
+
+    '01.1.5.2.1':
+      level: 5
+      description: Butter
+      farsi_description: 
+      code: 
+
+    '01.1.5.2.9':
+      level: 5
+      description: Other oils and fats derived from milk
+      farsi_description: 
+      code: 
+
+    '01.1.5.3':
+      level: 4
+      description: Margarine and similar preparations (ND)
+      farsi_description: مارگارین و فرآورده‌های مشابه (بی‌دوام)
+      code: 
+
+    '01.1.5.3.0':
+      level: 5
+      description: Margarine and similar preparations
+      farsi_description: 
+      code: 
+
+    '01.1.5.9':
+      level: 4
+      description: Other animal oils and fats (ND)
+      farsi_description: سایر روغن‌ها و چربی‌های حیوانی (بی‌دوام)
+      code: 
+
+    '01.1.5.9.1':
+      level: 5
+      description: Lard
+      farsi_description: 
+      code: 
+
+    '01.1.5.9.2':
+      level: 5
+      description: Tallow
+      farsi_description: 
+      code: 
+
+    '01.1.5.9.3':
+      level: 5
+      description: Edible oils and fats of fish
+      farsi_description: 
+      code: 
+
+    '01.1.5.9.9':
+      level: 5
+      description: Other animal oils and fats n.e.c.
+      farsi_description: 
+      code: 
 
     '01.1.6':
       level: 3
-      description: Fruit (ND)
-      code:
+      description: Fruits and nuts (ND)
+      farsi_description: میوه و آجیل (بی‌دوام)
+      code: 
+
+    '01.1.6.1':
+      level: 4
+      description: Dates, figs and tropical fruits, fresh (ND)
+      farsi_description: خرما، انواع انجیر و میوه‌های گرمسیری تازه (بی‌دوام)
+      code: 
+
+    '01.1.6.1.1':
+      level: 5
+      description: Avocados, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.1.2':
+      level: 5
+      description: Bananas, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.1.3':
+      level: 5
+      description: Dates, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.1.4':
+      level: 5
+      description: Figs, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.1.5':
+      level: 5
+      description: Mangoes, guavas and mangosteens, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.1.6':
+      level: 5
+      description: Papayas, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.1.7':
+      level: 5
+      description: Pineapples, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.1.8':
+      level: 5
+      description: Coconuts, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.1.9':
+      level: 5
+      description: Other tropical fruits, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.2':
+      level: 4
+      description: Citrus fruits, fresh (ND)
+      farsi_description: مرکبات تازه (بی‌دوام)
+      code: 
+
+    '01.1.6.2.1':
+      level: 5
+      description: Pomelos and grapefruits, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.2.2':
+      level: 5
+      description: Lemons and limes, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.2.3':
+      level: 5
+      description: Oranges, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.2.4':
+      level: 5
+      description: Tangerines, mandarins and clementines, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.2.9':
+      level: 5
+      description: Other citrus fruits, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.3':
+      level: 4
+      description: Stone fruits and pome fruits, fresh (ND)
+      farsi_description: میوه‌های سنگی و میوه‌های دانه‌دار تازه (بی‌دوام)
+      code: 
+
+    '01.1.6.3.1':
+      level: 5
+      description: Apples, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.3.2':
+      level: 5
+      description: Pears and quinces, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.3.3':
+      level: 5
+      description: Apricots, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.3.4':
+      level: 5
+      description: Cherries, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.3.5':
+      level: 5
+      description: Peaches and nectarines, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.3.6':
+      level: 5
+      description: Plums and sloes, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.3.9':
+      level: 5
+      description: Other stone fruits and pome fruits, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.4':
+      level: 4
+      description: Berries, fresh (ND)
+      farsi_description: توت‌های تازه (بی‌دوام)
+      code: 
+
+    '01.1.6.4.1':
+      level: 5
+      description: Currants, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.4.2':
+      level: 5
+      description: Gooseberries, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.4.3':
+      level: 5
+      description: Raspberries, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.4.4':
+      level: 5
+      description: Blackberries, mulberries and loganberries, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.4.5':
+      level: 5
+      description: Strawberries, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.4.6':
+      level: 5
+      description: Blueberries, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.4.7':
+      level: 5
+      description: Cranberries, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.4.9':
+      level: 5
+      description: Other berries, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.5':
+      level: 4
+      description: Other fruits, fresh (ND)
+      farsi_description: سایر میوه‌های تازه (بی‌دوام)
+      code: 
+
+    '01.1.6.5.1':
+      level: 5
+      description: Grapes, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.5.2':
+      level: 5
+      description: Kiwi fruits, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.5.3':
+      level: 5
+      description: Cantaloupes and other melons, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.5.4':
+      level: 5
+      description: Watermelons, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.5.5':
+      level: 5
+      description: Persimmons, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.5.6':
+      level: 5
+      description: Cashew apples, fresh
+      farsi_description: 
+      code: 
+
+    '01.1.6.5.9':
+      level: 5
+      description: Other fruits or mixtures of fruit, fresh, n.e.c.
+      farsi_description: 
+      code: 
+
+    '01.1.6.6':
+      level: 4
+      description: Fruits, frozen (ND)
+      farsi_description: میوه منجمد (بی‌دوام)
+      code: 
+
+    '01.1.6.6.0':
+      level: 5
+      description: Fruits, frozen
+      farsi_description: 
+      code: 
+
+    '01.1.6.7':
+      level: 4
+      description: Fruits, dried and dehydrated (ND)
+      farsi_description: میوه خشک و آبگیری شده (بی‌دوام)
+      code: 
+
+    '01.1.6.7.1':
+      level: 5
+      description: Raisins
+      farsi_description: 
+      code: 
+
+    '01.1.6.7.2':
+      level: 5
+      description: Prunes
+      farsi_description: 
+      code: 
+
+    '01.1.6.7.9':
+      level: 5
+      description: Other dried fruit
+      farsi_description: 
+      code: 
+
+    '01.1.6.8':
+      level: 4
+      description: Nuts, in shell or shelled (ND)
+      farsi_description: آجیل، با پوست یا پوست گرفته شده (بی‌دوام)
+      code: 
+
+    '01.1.6.8.1':
+      level: 5
+      description: Almonds, in shell or shelled
+      farsi_description: 
+      code: 
+
+    '01.1.6.8.2':
+      level: 5
+      description: Cashew nuts, in shell or shelled
+      farsi_description: 
+      code: 
+
+    '01.1.6.8.3':
+      level: 5
+      description: Chestnuts, in shell or shelled
+      farsi_description: 
+      code: 
+
+    '01.1.6.8.4':
+      level: 5
+      description: Hazelnuts, in shell or shelled
+      farsi_description: 
+      code: 
+
+    '01.1.6.8.5':
+      level: 5
+      description: Pistachios, in shell or shelled
+      farsi_description: 
+      code: 
+
+    '01.1.6.8.6':
+      level: 5
+      description: Walnuts, in shell or shelled
+      farsi_description: 
+      code: 
+
+    '01.1.6.8.7':
+      level: 5
+      description: Brazil nuts, in shell or shelled
+      farsi_description: 
+      code: 
+
+    '01.1.6.8.8':
+      level: 5
+      description: Groundnuts, in shell or shelled
+      farsi_description: 
+      code: 
+
+    '01.1.6.8.9':
+      level: 5
+      description: Other nuts, in shell or shelled
+      farsi_description: 
+      code: 
+
+    '01.1.6.9':
+      level: 4
+      description: Fruits and nuts, ground, and in other preparations (ND)
+      farsi_description: میوه و آجیل آسیاب شده و سایر فرآورده‌ها (بی‌دوام)
+      code: 
+
+    '01.1.6.9.1':
+      level: 5
+      description: Fruit and nuts flour
+      farsi_description: 
+      code: 
+
+    '01.1.6.9.2':
+      level: 5
+      description: Canned fruit
+      farsi_description: 
+      code: 
+
+    '01.1.6.9.3':
+      level: 5
+      description: Homogenized fruit preparations
+      farsi_description: 
+      code: 
+
+    '01.1.6.9.4':
+      level: 5
+      description: Nuts and seeds roasted, salted or otherwise prepared
+      farsi_description: 
+      code: 
+
+    '01.1.6.9.9':
+      level: 5
+      description: Other fruit and nuts preparations
+      farsi_description: 
+      code: 
 
     '01.1.7':
       level: 3
-      description: Vegetables (ND)
-      code:
+      description: Vegetables, tubers, plantains, cooking bananas and pulses (ND)
+      farsi_description: سبزی‌ها، سبزی‌های غده‌ای، انواع موز سبز (پلنتین)، انواع موز پختنی و حبوبات (بی‌دوام)
+      code: 
+
+    '01.1.7.1':
+      level: 4
+      description: Leafy or stem vegetables, fresh or chilled (ND)
+      farsi_description: سبزی‌های برگ‌دار یا ساقه‌ای، تازه یا سردخانه‌ای (بی‌دوام)
+      code: 
+
+    '01.1.7.1.1':
+      level: 5
+      description: Asparagus, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.1.2':
+      level: 5
+      description: Cabbages, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.1.3':
+      level: 5
+      description: Cauliflowers and broccoli, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.1.4':
+      level: 5
+      description: Lettuce and chicory, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.1.5':
+      level: 5
+      description: Spinach, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.1.6':
+      level: 5
+      description: Artichokes, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.1.7':
+      level: 5
+      description: Cassava leaves, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.1.9':
+      level: 5
+      description: Other leafy or stem vegetables, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.2':
+      level: 4
+      description: Fruit-bearing vegetables, fresh or chilled (ND)
+      farsi_description: سبزی‌های دارای میوه، تازه یا سردخانه‌ای (بی‌دوام)
+      code: 
+
+    '01.1.7.2.1':
+      level: 5
+      description: Chillies and peppers, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.2.2':
+      level: 5
+      description: Cucumbers and gherkins, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.2.3':
+      level: 5
+      description: Eggplants (aubergines), fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.2.4':
+      level: 5
+      description: Tomatoes, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.2.5':
+      level: 5
+      description: Pumpkins, squash and gourds, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.2.6':
+      level: 5
+      description: Okra, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.2.9':
+      level: 5
+      description: Other fruit-bearing vegetables, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.3':
+      level: 4
+      description: Green leguminous vegetables, fresh or chilled (ND)
+      farsi_description: سبزی‌های حبوبات سبز، تازه یا سردخانه‌ای (بی‌دوام)
+      code: 
+
+    '01.1.7.3.1':
+      level: 5
+      description: Beans, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.3.2':
+      level: 5
+      description: String beans, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.3.3':
+      level: 5
+      description: Peas, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.3.4':
+      level: 5
+      description: Broad beans and horse beans, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.3.5':
+      level: 5
+      description: Soya beans, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.3.9':
+      level: 5
+      description: Other green leguminous vegetables, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.4':
+      level: 4
+      description: Other vegetables, fresh or chilled (ND)
+      farsi_description: سایر سبزی‌های تازه یا سردخانه‌ای (بی‌دوام)
+      code: 
+
+    '01.1.7.4.1':
+      level: 5
+      description: Carrots and turnips, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.4.2':
+      level: 5
+      description: Garlic, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.4.3':
+      level: 5
+      description: Onions and shallots, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.4.4':
+      level: 5
+      description: Leeks and other alliaceous vegetables, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.4.5':
+      level: 5
+      description: Mushrooms and truffles, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.4.6':
+      level: 5
+      description: Edible seaweeds and other aquatic plants, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.4.7':
+      level: 5
+      description: Olives, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.4.8':
+      level: 5
+      description: Green maize (green corn)
+      farsi_description: 
+      code: 
+
+    '01.1.7.4.9':
+      level: 5
+      description: Other vegetable n.e.c., mixtures of vegetables, fresh or chilled
+      farsi_description: 
+      code: 
+
+    '01.1.7.5':
+      level: 4
+      description: Tubers, plantains and cooking bananas, fresh or chilled (ND)
+      farsi_description: گیاهان غده‌ای و انواع موز سبز (پلنتین)، انواع موز پختنی (بی‌دوام)
+      code: 
+
+    '01.1.7.5.1':
+      level: 5
+      description: Potatoes
+      farsi_description: 
+      code: 
+
+    '01.1.7.5.2':
+      level: 5
+      description: Sweet potatoes
+      farsi_description: 
+      code: 
+
+    '01.1.7.5.3':
+      level: 5
+      description: Cassava (manioc, yuca)
+      farsi_description: 
+      code: 
+
+    '01.1.7.5.4':
+      level: 5
+      description: Yams
+      farsi_description: 
+      code: 
+
+    '01.1.7.5.5':
+      level: 5
+      description: Taro
+      farsi_description: 
+      code: 
+
+    '01.1.7.5.6':
+      level: 5
+      description: Yautia
+      farsi_description: 
+      code: 
+
+    '01.1.7.5.7':
+      level: 5
+      description: Plantains and cooking bananas
+      farsi_description: 
+      code: 
+
+    '01.1.7.5.9':
+      level: 5
+      description: Other tubers
+      farsi_description: 
+      code: 
+
+    '01.1.7.6':
+      level: 4
+      description: Pulses (ND)
+      farsi_description: حبوبات (بی‌دوام)
+      code: 
+
+    '01.1.7.6.1':
+      level: 5
+      description: Beans, dried
+      farsi_description: 
+      code: 
+
+    '01.1.7.6.2':
+      level: 5
+      description: Broad beans and horse beans, dried
+      farsi_description: 
+      code: 
+
+    '01.1.7.6.3':
+      level: 5
+      description: Chickpeas, dried
+      farsi_description: 
+      code: 
+
+    '01.1.7.6.4':
+      level: 5
+      description: Lentils, dried
+      farsi_description: 
+      code: 
+
+    '01.1.7.6.5':
+      level: 5
+      description: Peas, dried
+      farsi_description: 
+      code: 
+
+    '01.1.7.6.6':
+      level: 5
+      description: Cow peas, dried
+      farsi_description: 
+      code: 
+
+    '01.1.7.6.7':
+      level: 5
+      description: Pigeon peas, dried
+      farsi_description: 
+      code: 
+
+    '01.1.7.6.8':
+      level: 5
+      description: Bambara beans, dried
+      farsi_description: 
+      code: 
+
+    '01.1.7.6.9':
+      level: 5
+      description: Other pulses
+      farsi_description: 
+      code: 
+
+    '01.1.7.7':
+      level: 4
+      description: Other vegetables, tubers, plantains and cooking bananas, dried and dehydrated (ND)
+      farsi_description: سایر سبزی‌ها، گیاهان غده‌ای، انواع موز سبز (پلنتین)، انواع موز پختنی، خشک شده و آب گرفته شده (بی‌دوام)
+      code: 
+
+    '01.1.7.7.0':
+      level: 5
+      description: Other vegetables, tubers, plantains and cooking bananas, dried and dehydrated
+      farsi_description: 
+      code: 
+
+    '01.1.7.8':
+      level: 4
+      description: Vegetables, tubers, plantains and cooking bananas, frozen (ND)
+      farsi_description: سبزی‌ها، گیاهان غده‌ای، انواع موز سبز (پلنتین)، انواع موز پختنی، منجمد (بی‌دوام)
+      code: 
+
+    '01.1.7.8.0':
+      level: 5
+      description: Vegetables, tubers, plantains and cooking bananas, frozen
+      farsi_description: 
+      code: 
+
+    '01.1.7.9':
+      level: 4
+      description: Vegetables, tubers, plantains, cooking bananas and pulses, ground, and in other preparations (ND)
+      farsi_description: سبزی‌ها، گیاهان غده‌ای، انواع موز سبز (پلنتین)، انواع موز پختنی و حبوبات آسیاب ‌شده و سایر فرآورده‌ها (بی‌دوام)
+      code: 
+
+    '01.1.7.9.1':
+      level: 5
+      description: Flour of vegetables, pulses, tubers, plantains and cooking bananas
+      farsi_description: 
+      code: 
+
+    '01.1.7.9.2':
+      level: 5
+      description: Canned vegetables
+      farsi_description: 
+      code: 
+
+    '01.1.7.9.3':
+      level: 5
+      description: Preserved olives
+      farsi_description: 
+      code: 
+
+    '01.1.7.9.4':
+      level: 5
+      description: Chipped potatoes, frozen
+      farsi_description: 
+      code: 
+
+    '01.1.7.9.5':
+      level: 5
+      description: Tofu
+      farsi_description: 
+      code: 
+
+    '01.1.7.9.6':
+      level: 5
+      description: Tempeh, soy meat and burgers
+      farsi_description: 
+      code: 
+
+    '01.1.7.9.9':
+      level: 5
+      description: Other vegetables, pulses and tubers preserved or processed
+      farsi_description: 
+      code: 
 
     '01.1.8':
       level: 3
-      description: Sugar, jam, honey, chocolate and confectionery (ND)
-      code:
+      description: Sugar, confectionery and desserts (ND)
+      farsi_description: شکر، شیرینی‌ها و انواع دسرها (بی‌دوام)
+      code: 
+
+    '01.1.8.1':
+      level: 4
+      description: Cane sugar and beet sugar (ND)
+      farsi_description: شکر نیشکر و شکر چغندر (بی‌دوام)
+      code: 
+
+    '01.1.8.1.1':
+      level: 5
+      description: Cane sugar
+      farsi_description: 
+      code: 
+
+    '01.1.8.1.2':
+      level: 5
+      description: Beet sugar
+      farsi_description: 
+      code: 
+
+    '01.1.8.2':
+      level: 4
+      description: Other sugars and sugar substitutes (ND)
+      farsi_description: سایر انواع شکر و جایگزین‌های شکر (بی‌دوام)
+      code: 
+
+    '01.1.8.2.0':
+      level: 5
+      description: Other sugars and sugar substitutes
+      farsi_description: 
+      code: 
+
+    '01.1.8.3':
+      level: 4
+      description: Jams, marmalades, fruit jellies, purées and pastes, and honey (ND)
+      farsi_description: مربا، ژله‌های میوه‌ای، مارمالاد، پوره و خمیر میوه، عسل (بی‌دوام)
+      code: 
+
+    '01.1.8.3.1':
+      level: 5
+      description: Honey
+      farsi_description: 
+      code: 
+
+    '01.1.8.3.9':
+      level: 5
+      description: Other jams, marmalades, fruit jellies, purées and pastes
+      farsi_description: 
+      code: 
+
+    '01.1.8.4':
+      level: 4
+      description: Nut purées, nut butters and nut pastes (ND)
+      farsi_description: پوره آجیل، کره آجیل و خمیرهای آجیل (بی‌دوام)
+      code: 
+
+    '01.1.8.4.0':
+      level: 5
+      description: Nut purées, nut butters and nut pastes
+      farsi_description: 
+      code: 
+
+    '01.1.8.5':
+      level: 4
+      description: Chocolate, cocoa and cocoa-based food products (ND)
+      farsi_description: شکلات،کاکایو و محصولات غذایی مبتنی بر کاکایو (بی‌دوام)
+      code: 
+
+    '01.1.8.5.1':
+      level: 5
+      description: Chocolate
+      farsi_description: 
+      code: 
+
+    '01.1.8.5.2':
+      level: 5
+      description: Cocoa beans
+      farsi_description: 
+      code: 
+
+    '01.1.8.5.3':
+      level: 5
+      description: Cocoa powder
+      farsi_description: 
+      code: 
+
+    '01.1.8.5.9':
+      level: 5
+      description: Other cocoa-based foods and cocoa-based dessert preparations
+      farsi_description: 
+      code: 
+
+    '01.1.8.6':
+      level: 4
+      description: Ice, ice cream and sorbets (ND)
+      farsi_description: یخ، بستنی و یخمک (بستنی یخی) (بی‌دوام)
+      code: 
+
+    '01.1.8.6.0':
+      level: 5
+      description: Ice, ice cream and sorbets
+      farsi_description: 
+      code: 
+
+    '01.1.8.9':
+      level: 4
+      description: Other sugar confectionery and desserts n.e.c. (ND)
+      farsi_description: سایر انواع شیرینی‌ها و دسرهای طبقه‌بندی نشده در جای دیگر (بی‌دوام)
+      code: 
+
+    '01.1.8.9.1':
+      level: 5
+      description: Vegetables, fruits, nuts, fruit peel and other parts of plants, preserved by sugar
+      farsi_description: 
+      code: 
+
+    '01.1.8.9.9':
+      level: 5
+      description: Other sugar confectionery and desserts n.e.c. (not containing cocoa)
+      farsi_description: 
+      code: 
 
     '01.1.9':
       level: 3
-      description: Food products n.e.c. (ND)
-      code:
+      description: Ready-made food and other food products (ND)
+      farsi_description: مواد خوراکی آماده و سایر محصولات خوراکی طبقه‌بندی نشده در جای دیگر (بی‌دوام)
+      code: 
+
+    '01.1.9.1':
+      level: 4
+      description: Ready-made food (ND)
+      farsi_description: مواد خوراکی آماده (بی‌دوام)
+      code: 
+
+    '01.1.9.1.1':
+      level: 5
+      description: Precooked dishes based on pasta and cereals
+      farsi_description: 
+      code: 
+
+    '01.1.9.1.2':
+      level: 5
+      description: Precooked dishes based on meat and/or fish
+      farsi_description: 
+      code: 
+
+    '01.1.9.1.3':
+      level: 5
+      description: Mixed salads and prepared dishes based on vegetables
+      farsi_description: 
+      code: 
+
+    '01.1.9.1.4':
+      level: 5
+      description: Sandwiches, pizzas, quiches, meat or fish pies, frozen or not
+      farsi_description: 
+      code: 
+
+    '01.1.9.1.5':
+      level: 5
+      description: Omelettes, crepes and other ready-made food based on eggs
+      farsi_description: 
+      code: 
+
+    '01.1.9.1.6':
+      level: 5
+      description: Ready-made soups
+      farsi_description: 
+      code: 
+
+    '01.1.9.1.9':
+      level: 5
+      description: Other prepared ready-made dishes and meals n.e.c.
+      farsi_description: 
+      code: 
+
+    '01.1.9.2':
+      level: 4
+      description: Baby food (ND)
+      farsi_description: غذای کودک (بی‌دوام)
+      code: 
+
+    '01.1.9.2.1':
+      level: 5
+      description: Baby formula
+      farsi_description: 
+      code: 
+
+    '01.1.9.2.2':
+      level: 5
+      description: Baby rice cereals and flours for baby meals
+      farsi_description: 
+      code: 
+
+    '01.1.9.2.3':
+      level: 5
+      description: Homogenized baby food
+      farsi_description: 
+      code: 
+
+    '01.1.9.2.9':
+      level: 5
+      description: Other baby food
+      farsi_description: 
+      code: 
+
+    '01.1.9.3':
+      level: 4
+      description: Salt, condiments and sauces (ND)
+      farsi_description: نمک، انواع چاشنی‌ها و سس‌ها (بی‌دوام)
+      code: 
+
+    '01.1.9.3.1':
+      level: 5
+      description: Salt
+      farsi_description: 
+      code: 
+
+    '01.1.9.3.9':
+      level: 5
+      description: Other condiments and sauces
+      farsi_description: 
+      code: 
+
+    '01.1.9.4':
+      level: 4
+      description: Spices, culinary herbs and seeds (ND)
+      farsi_description: ادویه‌ها، گیاهان و دانه‌های ویژه پخت و پز (آشپزی) (بی‌دوام)
+      code: 
+
+    '01.1.9.4.0':
+      level: 5
+      description: Spices, culinary herbs and seeds
+      farsi_description: 
+      code: 
+
+    '01.1.9.9':
+      level: 4
+      description: Other food products n.e.c. (ND)
+      farsi_description: سایر محصولات خوراکی طبقه‌بندی نشده در جای دیگر (بی‌دوام)
+      code: 
+
+    '01.1.9.9.0':
+      level: 5
+      description: Other food products n.e.c.
+      farsi_description: 
+      code: 
 
     '01.2':
       level: 2
       description: Non-alcoholic beverages
-      code:
+      farsi_description: نوشابه‌های غیرالکلی
+      code: 
 
     '01.2.1':
       level: 3
-      description: Coffee, tea and cocoa (ND)
-      code:
+      description: Fruit and vegetable juices (ND)
+      farsi_description: آب میوه و آب سبزی‌ها (بی‌دوام)
+      code: 
+
+    '01.2.1.0':
+      level: 4
+      description: Fruit and vegetable juices (ND)
+      farsi_description: آب میوه و آب سبزی‌ها (بی‌دوام)
+      code: 
+
+    '01.2.1.0.0':
+      level: 5
+      description: Fruit and vegetable juices
+      farsi_description: 
+      code: 
 
     '01.2.2':
       level: 3
-      description: Mineral waters, soft drinks, fruit and vegetable juices (ND)
-      code:
+      description: Coffee and coffee substitutes (ND)
+      farsi_description: قهوه و جایگزین‌های قهوه (بی‌دوام)
+      code: 
+
+    '01.2.2.0':
+      level: 4
+      description: Coffee and coffee substitutes (ND)
+      farsi_description: قهوه و جایگزین‌های قهوه (بی‌دوام)
+      code: 
+
+    '01.2.2.0.1':
+      level: 5
+      description: Coffee
+      farsi_description: 
+      code: 
+
+    '01.2.2.0.2':
+      level: 5
+      description: Coffee substitutes
+      farsi_description: 
+      code: 
+
+    '01.2.2.0.9':
+      level: 5
+      description: Other coffee
+      farsi_description: 
+      code: 
+
+    '01.2.3':
+      level: 3
+      description: Tea, maté and other plant-derived products for infusion (ND)
+      farsi_description: چای، چای ماته و سایر محصولات گیاهی برای دم کردن (بی‌دوام)
+      code: 
+
+    '01.2.3.0':
+      level: 4
+      description: Tea, maté and other plant-derived products for infusion (ND)
+      farsi_description: چای، چای ماته و سایر محصولات گیاهی برای دم کردن (بی‌دوام)
+      code: 
+
+    '01.2.3.0.1':
+      level: 5
+      description: Green tea, leaves
+      farsi_description: 
+      code: 
+
+    '01.2.3.0.2':
+      level: 5
+      description: Black tea, leaves
+      farsi_description: 
+      code: 
+
+    '01.2.3.0.3':
+      level: 5
+      description: Iced tea
+      farsi_description: 
+      code: 
+
+    '01.2.3.0.4':
+      level: 5
+      description: Instant tea powder
+      farsi_description: 
+      code: 
+
+    '01.2.3.0.5':
+      level: 5
+      description: Maté
+      farsi_description: 
+      code: 
+
+    '01.2.3.0.9':
+      level: 5
+      description: Other tea products and plant-derived products for infusion
+      farsi_description: 
+      code: 
+
+    '01.2.4':
+      level: 3
+      description: Cocoa drinks (ND)
+      farsi_description: نوشیدنی‌های کاکایویی (بی‌دوام)
+      code: 
+
+    '01.2.4.0':
+      level: 4
+      description: Cocoa drinks (ND)
+      farsi_description: نوشیدنی‌های کاکایویی (بی‌دوام)
+      code: 
+
+    '01.2.4.0.0':
+      level: 5
+      description: Cocoa drinks
+      farsi_description: 
+      code: 
+
+    '01.2.5':
+      level: 3
+      description: Water (ND)
+      farsi_description: آب (بی‌دوام)
+      code: 
+
+    '01.2.5.0':
+      level: 4
+      description: Water (ND)
+      farsi_description: آب (بی‌دوام)
+      code: 
+
+    '01.2.5.0.0':
+      level: 5
+      description: Water
+      farsi_description: 
+      code: 
+
+    '01.2.6':
+      level: 3
+      description: Soft drinks (ND)
+      farsi_description: نوشیدنی‌های غیرالکلی (بی‌دوام)
+      code: 
+
+    '01.2.6.0':
+      level: 4
+      description: Soft drinks (ND)
+      farsi_description: نوشیدنی‌های غیرالکلی (بی‌دوام)
+      code: 
+
+    '01.2.6.0.0':
+      level: 5
+      description: Soft drinks
+      farsi_description: 
+      code: 
+
+    '01.2.9':
+      level: 3
+      description: Other non-alcoholic beverages (ND)
+      farsi_description: سایر نوشیدنی‌های غیرالکلی (بی‌دوام)
+      code: 
+
+    '01.2.9.0':
+      level: 4
+      description: Other non-alcoholic beverages (ND)
+      farsi_description: سایر نوشیدنی‌های غیرالکلی (بی‌دوام)
+      code: 
+
+    '01.2.9.0.0':
+      level: 5
+      description: Other non-alcoholic beverages
+      farsi_description: 
+      code: 
+
+    '01.3':
+      level: 2
+      description: Services for processing primary goods for food and non-alcoholic beverages
+      farsi_description: خدمات فرآوری کالاهای اولیه برای مواد خوراکی و نوشابه‌های غیرالکلی
+      code: 
+
+    '01.3.0':
+      level: 3
+      description: Services for processing primary goods for food and non-alcoholic beverages (S)
+      farsi_description: خدمات فرآوری کالاهای اولیه برای مواد خوراکی و نوشابه‌های غیرالکلی (خدمت)
+      code: 
+
+    '01.3.0.0':
+      level: 4
+      description: Services for processing primary goods for food and non-alcoholic beverages (S)
+      farsi_description: خدمات فرآوری کالاهای اولیه برای مواد خوراکی و نوشابه‌های غیرالکلی (خدمت)
+      code: 
+
+    '01.3.0.0.0':
+      level: 5
+      description: Services for processing primary goods for food and non-alcoholic beverages
+      farsi_description: 
+      code: 
 
     '02':
       level: 1
       description: Alcoholic beverages, tobacco and narcotics
-      code:
+      farsi_description: نوشابه‌های الکلی، دخانیات و مواد مخدر
+      code: 
 
     '02.1':
       level: 2
       description: Alcoholic beverages
-      code:
+      farsi_description: نوشابه‌های الکلی
+      code: 
 
     '02.1.1':
       level: 3
-      description: Spirits (ND)
-      code:
+      description: Spirits and liquors (ND)
+      farsi_description: نوشابه‌های الکلی و مشروبات غلیظ الکلی (بی‌دوام)
+      code: 
+
+    '02.1.1.0':
+      level: 4
+      description: Spirits and liquors (ND)
+      farsi_description: نوشابه‌های الکلی و مشروبات غلیظ الکلی (بی‌دوام)
+      code: 
 
     '02.1.2':
       level: 3
       description: Wine (ND)
-      code:
+      farsi_description: شراب (بی‌دوام)
+      code: 
+
+    '02.1.2.1':
+      level: 4
+      description: Wine from grapes (ND)
+      farsi_description: شراب از انواع انگور (بی‌دوام)
+      code: 
+
+    '02.1.2.2':
+      level: 4
+      description: Wine from other sources (ND)
+      farsi_description: شراب حاصل از سایر منابع (بی‌دوام)
+      code: 
+
     '02.1.3':
       level: 3
       description: Beer (ND)
-      code:
+      farsi_description: آبجو (بی‌دوام)
+      code: 
+
+    '02.1.3.0':
+      level: 4
+      description: Beer (ND)
+      farsi_description: آبجو (بی‌دوام)
+      code: 
+
+    '02.1.9':
+      level: 3
+      description: Other alcoholic beverages (ND)
+      farsi_description: سایر نوشابه‌های الکلی (بی‌دوام)
+      code: 
+
+    '02.1.9.0':
+      level: 4
+      description: Other alcoholic beverages (ND)
+      farsi_description: سایر نوشابه‌های الکلی (بی‌دوام)
+      code: 
 
     '02.2':
       level: 2
-      description: Tobacco
-      code:
+      description: Alcohol production services
+      farsi_description: خدمات تولید نوشابه‌های الکلی
+      code: 
 
     '02.2.0':
       level: 3
-      description: Tobacco (ND)
-      code:
+      description: Alcohol production services (S)
+      farsi_description: خدمات تولید نوشابه‌های الکلی (خدمت)
+      code: 
+
+    '02.2.0.0':
+      level: 4
+      description: Alcohol production services (S)
+      farsi_description: خدمات تولید نوشابه‌های الکلی (خدمت)
+      code: 
 
     '02.3':
       level: 2
-      description: Narcotics
-      code:
+      description: Tobacco
+      farsi_description: دخانیات
+      code: 
 
     '02.3.0':
       level: 3
+      description: Tobacco (ND)
+      farsi_description: دخانیات (بی‌دوام)
+      code: 
+
+    '02.3.0.1':
+      level: 4
+      description: Cigarettes (ND)
+      farsi_description: سیگار (بی‌دوام)
+      code: 
+
+    '02.3.0.2':
+      level: 4
+      description: Cigars (ND)
+      farsi_description: سیگار برگ (بی‌دوام)
+      code: 
+
+    '02.3.0.9':
+      level: 4
+      description: Other tobacco products (ND)
+      farsi_description: سایر محصولات دخانی (بی‌دوام)
+      code: 
+
+    '02.4':
+      level: 2
+      description: Narcotics
+      farsi_description: مواد مخدر
+      code: 
+
+    '02.4.0':
+      level: 3
       description: Narcotics (ND)
-      code:
+      farsi_description: مواد مخدر (بی‌دوام)
+      code: 
+
+    '02.4.0.0':
+      level: 4
+      description: Narcotics (ND)
+      farsi_description: مواد مخدر (بی‌دوام)
+      code: 
 
     '03':
       level: 1
       description: Clothing and footwear
-      code:
+      farsi_description: پوشاک و کفش (پاپوش)
+      code: 
 
     '03.1':
       level: 2
       description: Clothing
-      code:
+      farsi_description: پوشاک
+      code: 
 
     '03.1.1':
       level: 3
       description: Clothing materials (SD)
-      code:
+      farsi_description: مواد تشکیل‌دهنده پوشاک (کم‌دوام)
+      code: 
+
+    '03.1.1.0':
+      level: 4
+      description: Clothing materials (SD)
+      farsi_description: مواد تشکیل‌دهنده پوشاک (کم‌دوام)
+      code: 
 
     '03.1.2':
       level: 3
       description: Garments (SD)
-      code:
+      farsi_description: پوشاک (کم‌دوام)
+      code: 
+
+    '03.1.2.1':
+      level: 4
+      description: Garments for men or boys (SD)
+      farsi_description: پوشاک مردانه و پسرانه (کم‌دوام)
+      code: 
+
+    '03.1.2.2':
+      level: 4
+      description: Garments for women or girls (SD)
+      farsi_description: پوشاک زنانه و دخترانه (کم‌دوام)
+      code: 
+
+    '03.1.2.3':
+      level: 4
+      description: Garments for infants (under 2 years of age) (SD)
+      farsi_description: پوشاک نوزادان و کودکان (0 تا 2 سال) (کم‌دوام)
+      code: 
+
+    '03.1.2.4':
+      level: 4
+      description: School uniforms (SD)
+      farsi_description: لباس‌های فرم مدرسه (کم‌دوام)
+      code: 
 
     '03.1.3':
       level: 3
       description: Other articles of clothing and clothing accessories (SD)
-      code:
+      farsi_description: سایر انواع پوشاک و لوازم جانبی پوشاک (کم‌دوام)
+      code: 
+
+    '03.1.3.1':
+      level: 4
+      description: Other articles of clothing (SD)
+      farsi_description: سایر انواع پوشاک (کم‌دوام)
+      code: 
+
+    '03.1.3.2':
+      level: 4
+      description: Clothing accessories (SD)
+      farsi_description: لوازم جانبی پوشاک (کم‌دوام)
+      code: 
 
     '03.1.4':
       level: 3
-      description: Cleaning, repair and hire of clothing (S)
-      code:
+      description: Cleaning, repair, tailoring and hire of clothing (S)
+      farsi_description: تمیز کردن، تعمیر، خیاطی و کرایه پوشاک (خدمت)
+      code: 
+
+    '03.1.4.1':
+      level: 4
+      description: Cleaning of clothing (S)
+      farsi_description: تمیز کردن پوشاک (خدمت)
+      code: 
+
+    '03.1.4.2':
+      level: 4
+      description: Repair, tailoring and hire of clothing (S)
+      farsi_description: تعمیر، خیاطی و کرایه پوشاک (خدمت)
+      code: 
 
     '03.2':
       level: 2
       description: Footwear
-      code:
+      farsi_description: کفش (پاپوش)
+      code: 
 
     '03.2.1':
       level: 3
       description: Shoes and other footwear (SD)
-      code:
+      farsi_description: کفش و سایر پاپوش‌ها (کم‌دوام)
+      code: 
+
+    '03.2.1.1':
+      level: 4
+      description: Footwear for men (SD)
+      farsi_description: کفش (پاپوش) مردانه (کم‌دوام)
+      code: 
+
+    '03.2.1.2':
+      level: 4
+      description: Footwear for women (SD)
+      farsi_description: کفش (پاپوش) زنانه (کم دوام)
+      code: 
+
+    '03.2.1.3':
+      level: 4
+      description: Footwear for infants and children (SD)
+      farsi_description: کفش (پاپوش) برای نوزادان و کودکان (کم‌دوام)
+      code: 
 
     '03.2.2':
       level: 3
-      description: Repair and hire of footwear (S)
-      code:
+      description: Cleaning, repair and hire of footwear (S)
+      farsi_description: تمیز کردن، تعمیر و کرایه کفش (پاپوش) (خدمت)
+      code: 
+
+    '03.2.2.0':
+      level: 4
+      description: Cleaning, repair and hire of footwear (S)
+      farsi_description: تمیز کردن، تعمیر و کرایه کفش (پاپوش) (خدمت)
+      code: 
 
     '04':
       level: 1
       description: Housing, water, electricity, gas and other fuels
-      code:
+      farsi_description: مسکن، آب، برق، گاز و سایر سوخت‌ها
+      code: 
 
     '04.1':
       level: 2
-      description: Actual rentals for housing
-      code:
+      description: Actual rental payments made for housing
+      farsi_description: اجاره‌بهای واقعی برای مسکن
+      code: 
 
     '04.1.1':
       level: 3
-      description: Actual rentals paid by tenants (S)
-      code:
+      description: Actual rental payments made by tenants for main residence (S)
+      farsi_description: اجاره‌بهای واقعی پرداختی توسط مستاجر برای محل اقامت اصلی (خدمت)
+      code: 
+
+    '04.1.1.0':
+      level: 4
+      description: Actual rental payments made by tenants for main residence (S)
+      farsi_description: اجاره‌بهای واقعی پرداختی توسط مستاجر برای محل اقامت اصلی (خدمت)
+      code: 
 
     '04.1.2':
       level: 3
-      description: Other actual rentals (S)
-      code:
+      description: Other actual rental payments (S)
+      farsi_description: سایر انواع اجاره‌بهای واقعی (خدمت)
+      code: 
+
+    '04.1.2.1':
+      level: 4
+      description: Actual rental payments made by tenants for secondary residences (S)
+      farsi_description: اجاره‌بهای واقعی پرداختی توسط مستاجر برای اقامتگاه‌ دوم (خدمت)
+      code: 
+
+    '04.1.2.2':
+      level: 4
+      description: Garage rental payments and other rental payments made by tenants (S)
+      farsi_description: اجاره‌بهای گاراژ/ پارکینگ و سایر اجاره‌بهاهای پرداختی توسط مستاجر (خدمت)
+      code: 
 
     '04.2':
       level: 2
-      description: Imputed rentals for housing
-      code:
+      description: Imputed rental payments for housing
+      farsi_description: اجاره‌بهای احتسابی مسکن
+      code: 
 
     '04.2.1':
       level: 3
-      description: Imputed rentals of owner-occupiers (S)
-      code:
+      description: Imputed rental payments of owner-occupiers for their main residence (S)
+      farsi_description: اجاره‌بهای احتسابی مالک ساکن برای محل اقامت اصلی (خدمت)
+      code: 
+
+    '04.2.1.0':
+      level: 4
+      description: Imputed rental payments of owner-occupiers for their main residence (S)
+      farsi_description: اجاره‌بهای احتسابی مالک ساکن برای محل اقامت اصلی (خدمت)
+      code: 
 
     '04.2.2':
       level: 3
       description: Other imputed rentals (S)
-      code:
+      farsi_description: سایر انواع اجاره‌بهای احتسابی (خدمت)
+      code: 
+
+    '04.2.2.0':
+      level: 4
+      description: Other imputed rentals (S)
+      farsi_description: سایر انواع اجاره‌بهای احتسابی (خدمت)
+      code: 
 
     '04.3':
       level: 2
-      description: Maintenance and repair of the dwelling
-      code:
+      description: Maintenance, repair and security of the dwelling
+      farsi_description: نگهداری، تعمیر و امنیت واحد مسکونی
+      code: 
 
     '04.3.1':
       level: 3
+      description: Security equipment and materials for dwelling maintenance and repair
+      farsi_description: تجهیزات امنیتی و مواد و مصالح برای نگهداری و تعمیر واحد مسکونی (بی‌دوام)
+      code: 
+
+    '04.3.1.1':
+      level: 4
       description: Materials for the maintenance and repair of the dwelling (ND)
-      code:
+      farsi_description: مواد و مصالح برای نگهداری و تعمیر واحد مسکونی (بی‌دوام)
+      code: 
+
+    '04.3.1.2':
+      level: 4
+      description: Security equipment (SD)
+      farsi_description: تجهیزات امنیتی (کم‌دوام)
+      code: 
 
     '04.3.2':
       level: 3
-      description: Services for the maintenance and repair of the dwelling (S)
-      code:
+      description: Services for the maintenance, repair and security of the dwelling (S)
+      farsi_description: خدمات نگهداری، تعمیر و امنیت واحد مسکونی (خدمت)
+      code: 
+
+    '04.3.2.0':
+      level: 4
+      description: Services for the maintenance, repair and security of the dwelling (S)
+      farsi_description: خدمات نگهداری، تعمیر و امنیت واحد مسکونی (خدمت)
+      code: 
 
     '04.4':
       level: 2
       description: Water supply and miscellaneous services relating to the dwelling
-      code:
+      farsi_description: تامین آب و خدمات متفرقه مربوط به واحد مسکونی
+      code: 
 
     '04.4.1':
       level: 3
       description: Water supply (ND)
-      code:
+      farsi_description: تامین آب (بی‌دوام)
+      code: 
+
+    '04.4.1.1':
+      level: 4
+      description: Water supply delivered through network systems (ND)
+      farsi_description: تامین آب از طریق سیستم‌های شبکه (بی‌دوام)
+      code: 
+
+    '04.4.1.2':
+      level: 4
+      description: Water supply delivered through other systems (ND)
+      farsi_description: تامین آب از طریق سایر سیستم‌ها (بی‌دوام)
+      code: 
 
     '04.4.2':
       level: 3
       description: Refuse collection (S)
-      code:
+      farsi_description: جمع‌آوری پسماند (زباله) (خدمت)
+      code: 
+
+    '04.4.2.0':
+      level: 4
+      description: Refuse collection (S)
+      farsi_description: جمع‌آوری پسماند (زباله) (خدمت)
+      code: 
 
     '04.4.3':
       level: 3
       description: Sewage collection (S)
-      code:
+      farsi_description: جمع‌آوری فاضلاب (خدمت)
+      code: 
+
+    '04.4.3.1':
+      level: 4
+      description: Sewage collection through sewer systems (S)
+      farsi_description: جمع‌آوری فاضلاب از طریق سیستم‌های فاضلاب (خدمت)
+      code: 
+
+    '04.4.3.2':
+      level: 4
+      description: Sewage collection through on-site sanitation systems (S)
+      farsi_description: جمع‌آوری فاضلاب از طریق سیستم‌های بهداشتی در محل (خدمت)
+      code: 
 
     '04.4.4':
       level: 3
-      description: Other services relating to the dwelling n.e.c. (S)
-      code:
+      description: Other services related to the dwelling (S)
+      farsi_description: سایر خدمات مربوط به واحدهای مسکونی، طبقه‌بندی نشده در جای دیگر (خدمت)
+      code: 
+
+    '04.4.4.1':
+      level: 4
+      description: Charges for maintenance of multi-occupied buildings (S)
+      farsi_description: هزینه‌های نگهداری در مجتمع‌های مسکونی (خدمت)
+      code: 
+
+    '04.4.4.9':
+      level: 4
+      description: Other services related to the dwelling n.e.c. (S)
+      farsi_description: سایر خدمات مربوط به واحدهای مسکونی (خدمت)
+      code: 
 
     '04.5':
       level: 2
       description: Electricity, gas and other fuels
-      code:
+      farsi_description: برق، گاز و سایر سوخت‌ها
+      code: 
 
     '04.5.1':
       level: 3
       description: Electricity (ND)
-      code:
+      farsi_description: برق (بی‌دوام)
+      code: 
+
+    '04.5.1.0':
+      level: 4
+      description: Electricity (ND)
+      farsi_description: برق (بی‌دوام)
+      code: 
 
     '04.5.2':
       level: 3
       description: Gas (ND)
-      code:
+      farsi_description: گاز (بی‌دوام)
+      code: 
+
+    '04.5.2.1':
+      level: 4
+      description: Natural gas through networks (ND)
+      farsi_description: گاز طبیعی از طریق شبکه (بی‌دوام)
+      code: 
+
+    '04.5.2.2':
+      level: 4
+      description: Liquefied hydrocarbons (ND)
+      farsi_description: هیدروکربن‌های مایع‌شده (بی‌دوام)
+      code: 
 
     '04.5.3':
       level: 3
       description: Liquid fuels (ND)
-      code:
+      farsi_description: سوخت‌های مایع (بی‌دوام)
+      code: 
+
+    '04.5.3.0':
+      level: 4
+      description: Liquid fuels (ND)
+      farsi_description: سوخت‌های مایع (بی‌دوام)
+      code: 
 
     '04.5.4':
       level: 3
       description: Solid fuels (ND)
-      code:
+      farsi_description: سوخت‌های جامد (بی‌دوام)
+      code: 
+
+    '04.5.4.1':
+      level: 4
+      description: Coal, coal briquettes, peat and peat briquettes (ND)
+      farsi_description: زغال‌سنگ، خاک زغال قالبی، زغال‌سنگ نارس (تورب) (بی‌دوام)
+      code: 
+
+    '04.5.4.2':
+      level: 4
+      description: Wood fuel, including pellets and briquettes (ND)
+      farsi_description: سوخت چوبی، شامل زغال‌های گلوله‌ای و قالبی (بی‌دوام)
+      code: 
+
+    '04.5.4.3':
+      level: 4
+      description: Charcoal (ND)
+      farsi_description: زغال چوب (بی‌دوام)
+      code: 
+
+    '04.5.4.9':
+      level: 4
+      description: Other solid fuels (ND)
+      farsi_description: سایر سوخت‌های جامد (بی‌دوام)
+      code: 
 
     '04.5.5':
       level: 3
-      description: Heat energy (ND)
-      code:
+      description: Other energy for heating and cooling (ND)
+      farsi_description: سایر انواع انرژی ‌برای ایجاد گرمایش و سرمایش (بی‌دوام)
+      code: 
+
+    '04.5.5.0':
+      level: 4
+      description: Other energy for heating and cooling (ND)
+      farsi_description: سایر انواع انرژی برای ایجاد گرمایش و سرمایش (بی‌دوام)
+      code: 
 
     '05':
       level: 1
       description: Furnishings, household equipment and routine household maintenance
-      code:
+      farsi_description: مبلمان و لوازم و تجهیزات خانگی و نگهداری معمول آن‌ها
+      code: 
 
     '05.1':
       level: 2
-      description: Furniture and furnishings, carpets and other floor coverings
-      code:
+      description: Furniture, furnishings, and loose carpets
+      farsi_description: مبلمان و اثاث، انواع فرش و کف‌پوش‌های غیرثابت
+      code: 
 
     '05.1.1':
       level: 3
-      description: Furniture and furnishings (D)
-      code:
+      description: Furniture, furnishings and loose carpets (D)
+      farsi_description: مبلمان و اثاث، انواع فرش و کف‌پوش‌های غیرثابت (بادوام)
+      code: 
+
+    '05.1.1.1':
+      level: 4
+      description: Household furniture (D)
+      farsi_description: مبلمان خانگی (بادوام)
+      code: 
+
+    '05.1.1.2':
+      level: 4
+      description: Garden and camping furniture (D)
+      farsi_description: مبلمان باغ و ویژه سفر (بادوام)
+      code: 
+
+    '05.1.1.3':
+      level: 4
+      description: Lighting equipment (D)
+      farsi_description: تجهیزات روشنایی (بادوام)
+      code: 
+
+    '05.1.1.4':
+      level: 4
+      description: Furnishings, loose carpets and rugs (D)
+      farsi_description: اثاث، انواع قالیچه و کف‌پوش‌های غیرثابت (بادوام)
+      code: 
 
     '05.1.2':
       level: 3
-      description: Carpets and other floor coverings (D)
-      code:
+      description: Repair, installation and hire of furniture, furnishings and loose carpets (S)
+      farsi_description: تعمیر، نصب و اجاره مبلمان و اثاث، انواع فرش و کفپوش‌های غیرثابت (خدمت)
+      code: 
 
-    '05.1.3':
-      level: 3
-      description: Repair of furniture, furnishings and floor coverings (S)
-      code:
+    '05.1.2.0':
+      level: 4
+      description: Repair, installation and hire of furniture, furnishings and loose carpets (S)
+      farsi_description: تعمیر، نصب و اجاره مبلمان و اثاث، انواع فرش و کفپوش‌های غیرثابت (خدمت)
+      code: 
 
     '05.2':
       level: 2
       description: Household textiles
-      code:
+      farsi_description: لوازم پارچه‌ای خانگی
+      code: 
 
-    '05.2.0':
+    '05.2.1':
       level: 3
       description: Household textiles (SD)
-      code:
+      farsi_description: لوازم پارچه‌ای خانگی (کم‌دوام)
+      code: 
+
+    '05.2.1.1':
+      level: 4
+      description: Furnishing fabrics and curtains (SD)
+      farsi_description: پارچه مبلمان و پرده (کم‌دوام)
+      code: 
+
+    '05.2.1.2':
+      level: 4
+      description: Bed linen and bedding (SD)
+      farsi_description: ملافه و لوازم تختخواب/ رختخواب (کم‌دوام)
+      code: 
+
+    '05.2.1.3':
+      level: 4
+      description: Table linen and bathroom linen (SD)
+      farsi_description: لوازم پارچه‌ای میز و حمام (کم‌دوام)
+      code: 
+
+    '05.2.1.9':
+      level: 4
+      description: Other household textiles (SD)
+      farsi_description: سایر لوازم پارچه‌ای خانگی (کم‌دوام)
+      code: 
+
+    '05.2.2':
+      level: 3
+      description: Repair, hire and sewing services of household textiles (S)
+      farsi_description: خدمات تعمیر، اجاره و دوخت لوازم پارچه‌ای خانگی (خدمت)
+      code: 
+
+    '05.2.2.0':
+      level: 4
+      description: Repair, hire and sewing services of household textiles (S)
+      farsi_description: خدمات تعمیر، اجاره و دوخت لوازم پارچه‌ای خانگی (خدمت)
+      code: 
 
     '05.3':
       level: 2
       description: Household appliances
-      code:
+      farsi_description: لوازم خانگی
+      code: 
 
     '05.3.1':
       level: 3
-      description: Major household appliances whether electric or not (D)
-      code:
+      description: Major electric and other household appliances (D)
+      farsi_description: لوازم عمده خانگی، اعم از برقی و غیربرقی (بادوام)
+      code: 
+
+    '05.3.1.1':
+      level: 4
+      description: Major kitchen appliances (D)
+      farsi_description: لوازم عمده آشپزخانه (بادوام)
+      code: 
+
+    '05.3.1.2':
+      level: 4
+      description: Major laundry appliances (D)
+      farsi_description: لوازم عمده لباس‌شویی (بادوام)
+      code: 
+
+    '05.3.1.3':
+      level: 4
+      description: Heaters and air conditioners (D)
+      farsi_description: وسایل گرمایشی و سیستم‌های تهویه هوا (بادوام)
+      code: 
+
+    '05.3.1.4':
+      level: 4
+      description: Cleaning equipment (D)
+      farsi_description: لوازم و تجهیزات پاکسازی و تمیز کردن (بادوام)
+      code: 
+
+    '05.3.1.9':
+      level: 4
+      description: Other major household appliances (D)
+      farsi_description: سایر لوازم عمده خانگی (بادوام)
+      code: 
 
     '05.3.2':
       level: 3
-      description: Small electric household appliances (SD)
-      code:
+      description: Small household appliances (SD)
+      farsi_description: لوازم کوچک خانگی (کم‌دوام)
+      code: 
+
+    '05.3.2.1':
+      level: 4
+      description: Small appliances for the cooking and processing of food (SD)
+      farsi_description: لوازم کوچک برای پخت و پز و فرآوری غذا (کم‌دوام)
+      code: 
+
+    '05.3.2.2':
+      level: 4
+      description: Small appliances for the preparation of beverages (SD)
+      farsi_description: لوازم کوچک برای آماده‌سازی انواع نوشیدنی‌ها (کم‌دوام)
+      code: 
+
+    '05.3.2.9':
+      level: 4
+      description: Other small household appliances (SD)
+      farsi_description: سایر لوازم کوچک خانگی (کم‌دوام)
+      code: 
 
     '05.3.3':
       level: 3
-      description: Repair of household appliances (S)
-      code:
+      description: Repair, installation and hire of household appliances (S)
+      farsi_description: تعمیر، نصب و کرایه لوازم خانگی (خدمت)
+      code: 
+
+    '05.3.3.0':
+      level: 4
+      description: Repair, installation and hire of household appliances (S)
+      farsi_description: تعمیر، نصب و کرایه لوازم خانگی (خدمت)
+      code: 
 
     '05.4':
       level: 2
       description: Glassware, tableware and household utensils
-      code:
+      farsi_description: ظروف شیشه‌ای، لوازم غذاخوری و ظروف خانگی
+      code: 
 
     '05.4.0':
       level: 3
       description: Glassware, tableware and household utensils (SD)
-      code:
+      farsi_description: ظروف شیشه‌ای، ‌لوازم غذاخوری و ظروف خانگی (کم‌دوام)
+      code: 
+
+    '05.4.0.1':
+      level: 4
+      description: Glassware, crystal ware, ceramic ware and china ware (SD)
+      farsi_description: ظروف شیشه‌ای، ظروف کریستال، ظروف سرامیکی و چینی (کم‌دوام)
+      code: 
+
+    '05.4.0.2':
+      level: 4
+      description: Cutlery, flatware and silverware (SD)
+      farsi_description: کارد، قاشق و چنگال، انواع ظروف مسطح سر میز و ظروف نقره‌ای (کم‌دوام)
+      code: 
+
+    '05.4.0.3':
+      level: 4
+      description: Kitchen utensils and articles (SD)
+      farsi_description: ‌ظروف و لوازم آشپزخانه (کم‌دوام)
+      code: 
+
+    '05.4.0.4':
+      level: 4
+      description: Repair and hire of glassware, tableware and household utensils (S)
+      farsi_description: تعمیر و کرایه ظروف شیشه‌ای، ظروف غذاخوری، کارد، قاشق و چنگال و سایر ظروف خانگی (خدمت)
+      code: 
 
     '05.5':
       level: 2
       description: Tools and equipment for house and garden
-      code:
+      farsi_description: ابزار و تجهیزات خانه و باغ
+      code: 
 
     '05.5.1':
       level: 3
-      description: Major tools and equipment (D)
-      code:
+      description: Motorized tools and equipment (D)
+      farsi_description: ابزار و تجهیزات موتوری (بادوام)
+      code: 
+
+    '05.5.1.0':
+      level: 4
+      description: Motorized tools and equipment (D)
+      farsi_description: ابزار و تجهیزات موتوری (بادوام)
+      code: 
 
     '05.5.2':
       level: 3
-      description: Small tools and miscellaneous accessories (SD)
-      code:
+      description: Non-motorized tools and miscellaneous accessories (SD)
+      farsi_description: ابزار غیرموتوری و لوازم یدکی/ جانبی متفرقه (کم‌دوام)
+      code: 
+
+    '05.5.2.1':
+      level: 4
+      description: Non-motorized tools (SD)
+      farsi_description: ابزار غیرموتوری (کم‌دوام)
+      code: 
+
+    '05.5.2.2':
+      level: 4
+      description: Miscellaneous accessories (SD)
+      farsi_description: لوازم یدکی/ جانبی متفرقه (کم‌دوام)
+      code: 
+
+    '05.5.3':
+      level: 3
+      description: Repair and hire of motorized and non-motorized tools and equipment (S)
+      farsi_description: تعمیر و کرایه ابزار و تجهیزات موتوری و غیرموتوری (خدمت)
+      code: 
+
+    '05.5.3.0':
+      level: 4
+      description: Repair and hire of motorized and non-motorized tools and equipment (S)
+      farsi_description: تعمیر و کرایه ابزار و تجهیزات موتوری و غیرموتوری (خدمت)
+      code: 
 
     '05.6':
       level: 2
       description: Goods and services for routine household maintenance
-      code:
+      farsi_description: کالاها و خدمات برای نگهداری و مراقبت معمولی/ روزمره خانگی
+      code: 
 
     '05.6.1':
       level: 3
       description: Non-durable household goods (ND)
-      code:
+      farsi_description: کالاهای بی‌دوام خانگی (بی‌دوام)
+      code: 
+
+    '05.6.1.1':
+      level: 4
+      description: Household cleaning and maintenance products (ND)
+      farsi_description: محصولات پاک‌کننده (نظافت) نگهداری و مراقبت خانگی (بی‌دوام)
+      code: 
+
+    '05.6.1.9':
+      level: 4
+      description: Other non-durable household goods (ND)
+      farsi_description: سایر کالاهای بی‌دوام خانگی (بی‌دوام)
+      code: 
 
     '05.6.2':
       level: 3
       description: Domestic services and household services (S)
-      code:
+      farsi_description: خدمات خانگی و خدمات انجام امور داخلی (خدمت)
+      code: 
+
+    '05.6.2.1':
+      level: 4
+      description: Domestic services provided by paid staff (S)
+      farsi_description: خدمات انجام امور داخلی خانگی توسط کارکنان مزدبگیر (خدمت)
+      code: 
+
+    '05.6.2.9':
+      level: 4
+      description: Other household services (S)
+      farsi_description: سایر خدمات خانگی (خدمت)
+      code: 
 
     '06':
       level: 1
       description: Health
-      code:
+      farsi_description: سلامت
+      code: 
 
     '06.1':
       level: 2
-      description: Medical products, appliances and equipment
-      code:
+      description: Medicines and health products
+      farsi_description: داروها و محصولات ویژه سلامت
+      code: 
 
     '06.1.1':
       level: 3
-      description: Pharmaceutical products (ND)
-      code:
+      description: Medicines (ND)
+      farsi_description: داروها (بی‌دوام)
+      code: 
+
+    '06.1.1.1':
+      level: 4
+      description: Medicines, vaccines and other pharmaceutical preparations (ND)
+      farsi_description: داروها، واکسن‌ها و سایر فرآورده‌های دارویی (بی‌دوام)
+      code: 
+
+    '06.1.1.2':
+      level: 4
+      description: Herbal medicines and homeopathic products (ND)
+      farsi_description: داروهای گیاهی و محصولات هومیوپاتی (همسان‌درمانی) (بی‌دوام)
+      code: 
 
     '06.1.2':
       level: 3
-      description: Other medical products (ND)
-      code:
+      description: Medical products (ND)
+      farsi_description: محصولات پزشکی (بی‌دوام)
+      code: 
+
+    '06.1.2.1':
+      level: 4
+      description: Medical diagnostic products (ND)
+      farsi_description: محصولات تشخیصی پزشکی (بی‌دوام)
+      code: 
+
+    '06.1.2.2':
+      level: 4
+      description: Preventive and protective devices (ND)
+      farsi_description: دستگاه‌های پیشگیری و محافظت (بی‌دوام)
+      code: 
+
+    '06.1.2.3':
+      level: 4
+      description: Treatment devices for personal use (ND)
+      farsi_description: دستگاه‌های با کاربرد درمانی برای مصارف شخصی (بی‌دوام)
+      code: 
 
     '06.1.3':
       level: 3
-      description: Therapeutic appliances and equipment (D)
-      code:
+      description: Assistive products (D)
+      farsi_description: محصولات کمکی( لوازم مددکاری) (بادوام)
+      code: 
+
+    '06.1.3.1':
+      level: 4
+      description: Assistive products for vision (D)
+      farsi_description: محصولات‌کمکی برای بینایی (بادوام)
+      code: 
+
+    '06.1.3.2':
+      level: 4
+      description: Assistive products for hearing and communication (D)
+      farsi_description: محصولات کمکی برای شنوایی و ارتباطات (بادوام)
+      code: 
+
+    '06.1.3.3':
+      level: 4
+      description: Assistive products for mobility and daily living (D)
+      farsi_description: محصولات کمکی برای تحرک و زندگی روزمره (بادوام)
+      code: 
+
+    '06.1.4':
+      level: 3
+      description: Repair, rental and maintenance of medical and assistive products (S)
+      farsi_description: تعمیر، اجاره، و نگهداری وسایل یاری‌رسان و درمانی (خدمت)
+      code: 
+
+    '06.1.4.0':
+      level: 4
+      description: Repair, rental and maintenance of medical and assistive products (S)
+      farsi_description: تعمیر، اجاره و نگهداری از ابزار پزشکی و کمک‌پزشکی (خدمت)
+      code: 
 
     '06.2':
       level: 2
-      description: Outpatient services
-      code:
+      description: Outpatient care services
+      farsi_description: خدمات مراقبت پزشکی سرپایی
+      code: 
 
     '06.2.1':
       level: 3
-      description: Medical services (S)
-      code:
+      description: Preventive care services (S)
+      farsi_description: خدمات مراقبت‌های پیشگیرانه (خدمت)
+      code: 
+
+    '06.2.1.1':
+      level: 4
+      description: Immunization services (S)
+      farsi_description: خدمات واکسیناسیون (خدمت)
+      code: 
+
+    '06.2.1.9':
+      level: 4
+      description: Other preventive care services (S)
+      farsi_description: سایر خدمات پیشگیری (خدمت)
+      code: 
 
     '06.2.2':
       level: 3
-      description: Dental services (S)
-      code:
+      description: Outpatient dental services (S)
+      farsi_description: خدمات دندان‌پزشکی سرپایی (خدمت)
+      code: 
+
+    '06.2.2.1':
+      level: 4
+      description: Dental preventive services (S)
+      farsi_description: خدمات پیشگیرانه دندان‌پزشکی (خدمت)
+      code: 
+
+    '06.2.2.9':
+      level: 4
+      description: Other outpatient dental services (S)
+      farsi_description: سایر خدمات دندان‌پزشکی سرپایی (خدمت)
+      code: 
 
     '06.2.3':
       level: 3
-      description: Paramedical services (S)
-      code:
+      description: Other outpatient care services (S)
+      farsi_description: سایر خدمات مراقبت طبی سرپایی (خدمت)
+      code: 
+
+    '06.2.3.1':
+      level: 4
+      description: Outpatient curative and rehabilitative services (S)
+      farsi_description: خدمات درمانی و توانبخشی سرپایی (خدمت)
+      code: 
+
+    '06.2.3.2':
+      level: 4
+      description: Outpatient long-term care services (S)
+      farsi_description: خدمات مراقبت طولانی‌مدت (سرپایی) (خدمت)
+      code: 
 
     '06.3':
       level: 2
-      description: Hospital services
-      code:
+      description: Inpatient care services
+      farsi_description: خدمات مراقبت بیمارستانی
+      code: 
 
-    '06.3.0':
+    '06.3.1':
       level: 3
-      description: Hospital services (S)
-      code:
+      description: Inpatient curative and rehabilitative services (S)
+      farsi_description: خدمات درمانی و توان‌بخشی در طول بستری (خدمت)
+      code: 
+
+    '06.3.1.0':
+      level: 4
+      description: Inpatient curative and rehabilitative services (S)
+      farsi_description: خدمات درمانی و توان‌بخشی در طول بستری (خدمت)
+      code: 
+
+    '06.3.2':
+      level: 3
+      description: Inpatient long-term care services (S)
+      farsi_description: خدمات مراقبت طولانی‌مدت بستری (خدمت)
+      code: 
+
+    '06.3.2.0':
+      level: 4
+      description: Inpatient long-term care services (S)
+      farsi_description: خدمات مراقبت طولانی‌مدت بستری (خدمت)
+      code: 
+
+    '06.4':
+      level: 2
+      description: Other health services
+      farsi_description: سایرخدمات ویژه سلامت
+      code: 
+
+    '06.4.1':
+      level: 3
+      description: Diagnostic imaging services and medical laboratory services (S)
+      farsi_description: خدمات تصویربرداری تشخیصی و خدمات آزمایشگاهی پزشکی (خدمت)
+      code: 
+
+    '06.4.1.0':
+      level: 4
+      description: Diagnostic imaging services and medical laboratory services (S)
+      farsi_description: خدمات تصویربرداری تشخیصی و خدمات آزمایشگاهی پزشکی (خدمت)
+      code: 
+
+    '06.4.2':
+      level: 3
+      description: Patient emergency transportation and emergency rescue services (S)
+      farsi_description: خدمات حمل و نقل اضطراری (اورژانسی) بیمار و نجات اضطراری (اورژانسی) (خدمت)
+      code: 
+
+    '06.4.2.0':
+      level: 4
+      description: Patient emergency transportation and emergency rescue services (S)
+      farsi_description: خدمات حمل و نقل اضطراری (اورژانسی) بیمار و نجات اضطراری (اورژانسی) (خدمت)
+      code: 
 
     '07':
       level: 1
       description: Transport
-      code:
+      farsi_description: حمل و نقل
+      code: 
 
     '07.1':
       level: 2
       description: Purchase of vehicles
-      code:
+      farsi_description: خرید وسایل نقلیه
+      code: 
 
     '07.1.1':
       level: 3
       description: Motor cars (D)
-      code:
+      farsi_description: انواع خودروها (بادوام)
+      code: 
+
+    '07.1.1.1':
+      level: 4
+      description: New motor cars (D)
+      farsi_description: انواع خودروهای نو (بادوام)
+      code: 
+
+    '07.1.1.2':
+      level: 4
+      description: Second-hand motor cars (D)
+      farsi_description: انواع خودروهای دست‌دوم (بادوام)
+      code: 
 
     '07.1.2':
       level: 3
-      description: Motor cycles (D)
-      code:
+      description: Motorcycles (D)
+      farsi_description: انواع موتورسیکلت (بادوام)
+      code: 
+
+    '07.1.2.0':
+      level: 4
+      description: Motorcycles (D)
+      farsi_description: انواع موتورسیکلت (بادوام)
+      code: 
 
     '07.1.3':
       level: 3
       description: Bicycles (D)
-      code:
+      farsi_description: انواع دوچرخه (بادوام)
+      code: 
+
+    '07.1.3.0':
+      level: 4
+      description: Bicycles (D)
+      farsi_description: انواع دوچرخه (بادوام)
+      code: 
 
     '07.1.4':
       level: 3
-      description: Animal drawn vehicles (D)
-      code:
+      description: Animal-drawn vehicles (D)
+      farsi_description: انواع وسیله نقلیه که توسط حیوان کشیده می‌شود (بادوام)
+      code: 
+
+    '07.1.4.0':
+      level: 4
+      description: Animal-drawn vehicles (D)
+      farsi_description: انواع وسیله نقلیه که توسط حیوان کشیده می‌شود (بادوام)
+      code: 
 
     '07.2':
       level: 2
       description: Operation of personal transport equipment
-      code:
+      farsi_description: راه‌اندازی وسایل نقلیه شخصی
+      code: 
 
     '07.2.1':
       level: 3
-      description: Spare parts and accessories for personal transport equipment (SD)
-      code:
+      description: Parts and accessories for personal transport equipment (SD)
+      farsi_description: قطعات و لوازم جانبی وسایل نقلیه شخصی (کم‌دوام)
+      code: 
+
+    '07.2.1.1':
+      level: 4
+      description: Tyres (SD)
+      farsi_description: انواع لاستیک‌ها (کم‌دوام)
+      code: 
+
+    '07.2.1.2':
+      level: 4
+      description: Parts for personal transport equipment (SD)
+      farsi_description: قطعات تجهیزات برای وسایل نقلیه شخصی (کم‌دوام)
+      code: 
+
+    '07.2.1.3':
+      level: 4
+      description: Accessories for personal transport equipment (SD)
+      farsi_description: لوازم یدکی برای وسایل نقلیه شخصی (کم‌دوام)
+      code: 
 
     '07.2.2':
       level: 3
       description: Fuels and lubricants for personal transport equipment (ND)
-      code:
+      farsi_description: انواع سوخت و روان‌کننده‌ها برای وسایل نقلیه شخصی (بی‌دوام)
+      code: 
+
+    '07.2.2.1':
+      level: 4
+      description: Diesel (ND)
+      farsi_description: گازوییل (بی‌دوام)
+      code: 
+
+    '07.2.2.2':
+      level: 4
+      description: Petrol (ND)
+      farsi_description: بنزین (بی‌دوام)
+      code: 
+
+    '07.2.2.3':
+      level: 4
+      description: Other fuels for personal transport equipment (ND)
+      farsi_description: سایر سوخت‌ها برای وسایل نقلیه شخصی (بی‌دوام)
+      code: 
+
+    '07.2.2.4':
+      level: 4
+      description: Lubricants (ND)
+      farsi_description: انواع روان‌کننده‌ها (بی‌دوام)
+      code: 
 
     '07.2.3':
       level: 3
       description: Maintenance and repair of personal transport equipment (S)
-      code:
+      farsi_description: نگهداری و تعمیر وسایل نقلیه شخصی (خدمت)
+      code: 
+
+    '07.2.3.0':
+      level: 4
+      description: Maintenance and repair of personal transport equipment (S)
+      farsi_description: نگهداری و تعمیر وسایل نقلیه شخصی (خدمت)
+      code: 
 
     '07.2.4':
       level: 3
-      description: Other services in respect of personal transport equipment (S)
-      code:
+      description: Other services related to personal transport equipment (S)
+      farsi_description: سایر خدمات مربوط به وسایل نقلیه شخصی (خدمت)
+      code: 
+
+    '07.2.4.1':
+      level: 4
+      description: Parking services (S)
+      farsi_description: خدمات مربوط به پارکینگ (خدمت)
+      code: 
+
+    '07.2.4.2':
+      level: 4
+      description: Toll facilities (S)
+      farsi_description: عوارض راهداری (خدمت)
+      code: 
+
+    '07.2.4.3':
+      level: 4
+      description: Driving lessons, tests, licences and roadworthiness tests (S)
+      farsi_description: آموزش رانندگی، آزمون‌ها، تست‌های ویژه تردد جاده‌ای خودرو (خدمت)
+      code: 
+
+    '07.2.4.4':
+      level: 4
+      description: Hire of personal transport equipment without driver (S)
+      farsi_description: کرایه وسایل نقلیه شخصی بدون راننده (خدمت)
+      code: 
 
     '07.3':
       level: 2
-      description: Transport services
-      code:
+      description: Passenger transport services
+      farsi_description: خدمات حمل و نقل مسافر (خدمت)
+      code: 
 
     '07.3.1':
       level: 3
       description: Passenger transport by railway (S)
-      code:
+      farsi_description: حمل و نقل ریلی مسافر (خدمت)
+      code: 
+
+    '07.3.1.1':
+      level: 4
+      description: Passenger transport by train (S)
+      farsi_description: حمل و نقل مسافر با قطار (خدمت)
+      code: 
+
+    '07.3.1.2':
+      level: 4
+      description: Passenger transport by rapid transit and tram (S)
+      farsi_description: حمل و نقل مسافر با قطار شهری و تراموا (خدمت)
+      code: 
 
     '07.3.2':
       level: 3
       description: Passenger transport by road (S)
-      code:
+      farsi_description: حمل و نقل جاده‌ای مسافر (خدمت)
+      code: 
+
+    '07.3.2.1':
+      level: 4
+      description: Passenger transport by bus and coach (S)
+      farsi_description: حمل و نقل مسافر با اتوبوس و مینی‌بوس (خدمت)
+      code: 
+
+    '07.3.2.2':
+      level: 4
+      description: Passenger transport by taxi and hired vehicle with driver (S)
+      farsi_description: حمل و نقل مسافر با تاکسی و ماشین کرایه‌ای با راننده (خدمت)
+      code: 
+
+    '07.3.2.3':
+      level: 4
+      description: Passenger transport for students to and from school (S)
+      farsi_description: حمل و نقل دانش‌آموزان برای رفتن به مدرسه و برگشتن (خدمت)
+      code: 
+
+    '07.3.2.9':
+      level: 4
+      description: Other passenger transport by road (S)
+      farsi_description: سایر حمل و نقل جاده‌ای مسافر (خدمت)
+      code: 
 
     '07.3.3':
       level: 3
       description: Passenger transport by air (S)
-      code:
+      farsi_description: حمل و نقل هوایی مسافر (خدمت)
+      code: 
+
+    '07.3.3.1':
+      level: 4
+      description: Passenger transport by air, domestic (S)
+      farsi_description: حمل و نقل هوایی داخلی مسافر (خدمت)
+      code: 
+
+    '07.3.3.2':
+      level: 4
+      description: Passenger transport by air, international (S)
+      farsi_description: حمل و نقل هوایی بین‌المللی مسافر (خدمت)
+      code: 
 
     '07.3.4':
       level: 3
       description: Passenger transport by sea and inland waterway (S)
-      code:
+      farsi_description: حمل و نقل دریایی و آبراه‌های داخلی مسافر (خدمت)
+      code: 
+
+    '07.3.4.0':
+      level: 4
+      description: Passenger transport by sea and inland waterway (S)
+      farsi_description: حمل و نقل دریایی و آبراه‌های داخلی مسافر (خدمت)
+      code: 
 
     '07.3.5':
       level: 3
       description: Combined passenger transport (S)
-      code:
+      farsi_description: حمل و نقل ترکیبی مسافری (خدمت)
+      code: 
+
+    '07.3.5.0':
+      level: 4
+      description: Combined passenger transport (S)
+      farsi_description: حمل و نقل ترکیبی مسافری (خدمت)
+      code: 
 
     '07.3.6':
       level: 3
-      description: Other purchased transport services (S)
-      code:
+      description: Other passenger transport services (S)
+      farsi_description: سایر خدمات خریداری شده حمل و نقل (خدمت)
+      code: 
+
+    '07.3.6.0':
+      level: 4
+      description: Other passenger transport services (S)
+      farsi_description: سایر خدمات خریداری شده حمل و نقل (خدمت)
+      code: 
+
+    '07.4':
+      level: 2
+      description: Transport services for goods
+      farsi_description: خدمات حمل و نقل کالا
+      code: 
+
+    '07.4.1':
+      level: 3
+      description: Postal and courier services (S)
+      farsi_description: خدمات پستی و پیک (خدمت)
+      code: 
+
+    '07.4.1.1':
+      level: 4
+      description: Letter handling services (S)
+      farsi_description: خدمات انتقال نامه (خدمت)
+      code: 
+
+    '07.4.1.2':
+      level: 4
+      description: Courier and parcel delivery services (S)
+      farsi_description: خدمات تحویل بسته و پیک (خدمت)
+      code: 
+
+    '07.4.9':
+      level: 3
+      description: Other transport of goods (S)
+      farsi_description: سایر حمل و نقل کالا (خدمت)
+      code: 
+
+    '07.4.9.1':
+      level: 4
+      description: Removal and storage services (S)
+      farsi_description: خدمات انتقال و انبارداری (خدمت)
+      code: 
+
+    '07.4.9.2':
+      level: 4
+      description: Delivery of goods (S)
+      farsi_description: تحویل کالاها (خدمت)
+      code: 
 
     '08':
       level: 1
-      description: Communication
-      code:
+      description: Information and communication
+      farsi_description: اطلاعات و ارتباطات
+      code: 
 
     '08.1':
       level: 2
-      description: Postal services
-      code:
+      description: Information and communication equipment
+      farsi_description: تجهیزات اطلاعاتی و ارتباطاتی
+      code: 
 
-    '08.1.0':
+    '08.1.1':
       level: 3
-      description: Postal services (S)
-      code:
+      description: Fixed telephone equipment (D)
+      farsi_description: تجهیزات تلفن ثابت (بادوام)
+      code: 
+
+    '08.1.1.0':
+      level: 4
+      description: Fixed telephone equipment (D)
+      farsi_description: تجهیزات تلفن ثابت (باداوم)
+      code: 
+
+    '08.1.2':
+      level: 3
+      description: Mobile telephone equipment (D)
+      farsi_description: تجهیزات تلفن همراه (بادوام)
+      code: 
+
+    '08.1.2.0':
+      level: 4
+      description: Mobile telephone equipment (D)
+      farsi_description: تجهیزات تلفن همراه (باداوم)
+      code: 
+
+    '08.1.3':
+      level: 3
+      description: Information processing equipment (D)
+      farsi_description: تجهیزات پردازش اطلاعات (بادوام)
+      code: 
+
+    '08.1.3.1':
+      level: 4
+      description: Computers, laptops and tablets (D)
+      farsi_description: رایانه، لپ‌تاپ و تبلت (بادوام)
+      code: 
+
+    '08.1.3.2':
+      level: 4
+      description: Peripheral equipment and its consumable components (D)
+      farsi_description: تجهیزات جانبی رایانه و اجزای مصرفی آن‌ها (بادوام)
+      code: 
+
+    '08.1.4':
+      level: 3
+      description: Equipment for the reception, recording and reproduction of sound and vision (D)
+      farsi_description: تجهیزات ویژه دریافت، ضبط و تولید صدا و تصویر (بادوام)
+      code: 
+
+    '08.1.4.0':
+      level: 4
+      description: Equipment for the reception, recording and reproduction of sound and vision (D)
+      farsi_description: تجهیزات ویژه دریافت، ضبط و تولید صدا و تصویر (بادوام)
+      code: 
+
+    '08.1.5':
+      level: 3
+      description: Unrecorded recording media (SD)
+      farsi_description: رسانه‌های دیجیتالی خام/ ضبط‌نشده (کم‌دوام)
+      code: 
+
+    '08.1.5.0':
+      level: 4
+      description: Unrecorded recording media (SD)
+      farsi_description: رسانه‌های دیجیتالی خام/ ضبط‌نشده (کم‌دوام)
+      code: 
+
+    '08.1.9':
+      level: 3
+      description: Other information and communication equipment and accessories (D)
+      farsi_description: سایر تجهیزات و لوازم جانبی اطلاعات و ارتباطات (بادوام)
+      code: 
+
+    '08.1.9.1':
+      level: 4
+      description: Other information and communication equipment (D)
+      farsi_description: سایر تجهیزات اطلاعاتی و ارتباطاتی (کم‌دوام)
+      code: 
+
+    '08.1.9.2':
+      level: 4
+      description: Other information and communication accessories (SD)
+      farsi_description: سایر لوازم جانبی اطلاعات و ارتباطات (کم‌دوام)
+      code: 
 
     '08.2':
       level: 2
-      description: Telephone and telefax equipment
-      code:
+      description: Software, excluding games
+      farsi_description: نرم‌افزار به جز نرم‌افزارهای بازی
+      code: 
 
     '08.2.0':
       level: 3
-      description: Telephone and telefax equipment (D)
-      code:
+      description: Software, excluding games (S)
+      farsi_description: نرم‌افزار (خدمت)
+      code: 
+
+    '08.2.0.0':
+      level: 4
+      description: Software, excluding games (S)
+      farsi_description: نرم‌افزار (خدمت)
+      code: 
 
     '08.3':
       level: 2
-      description: Telephone and telefax services
-      code:
+      description: Information and communication services
+      farsi_description: خدمات اطلاعات و ارتباطات
+      code: 
 
-    '08.3.0':
+    '08.3.1':
       level: 3
-      description: Telephone and telefax services (S)
-      code:
+      description: Fixed communication services (S)
+      farsi_description: خدمات ارتباطی تلفن ثابت (خدمت)
+      code: 
+
+    '08.3.1.0':
+      level: 4
+      description: Fixed communication services (S)
+      farsi_description: خدمات ارتباطی تلفن ثابت (خدمت)
+      code: 
+
+    '08.3.2':
+      level: 3
+      description: Mobile communication services (S)
+      farsi_description: خدمات ارتباطی تلفن همراه (خدمت)
+      code: 
+
+    '08.3.2.0':
+      level: 4
+      description: Mobile communication services (S)
+      farsi_description: خدمات ارتباطی تلفن همراه (خدمت)
+      code: 
+
+    '08.3.3':
+      level: 3
+      description: Internet access provision services and online storage services (S)
+      farsi_description: خدمات ارایه دسترسی به اینترنت و خدمات ذخیره‌سازی شبکه‌ای خالص (خدمت)
+      code: 
+
+    '08.3.3.0':
+      level: 4
+      description: Internet access provision services and online storage services (S)
+      farsi_description: خدمات ارایه دسترسی به اینترنت و خدمات ذخیره‌سازی شبکه‌ای خالص (خدمت)
+      code: 
+
+    '08.3.4':
+      level: 3
+      description: Bundled telecommunication services (S)
+      farsi_description: خدمات بسته‌های مخابراتی (خدمت)
+      code: 
+
+    '08.3.4.0':
+      level: 4
+      description: Bundled telecommunication services (S)
+      farsi_description: خدمات بسته‌های مخابراتی (خدمت)
+      code: 
+
+    '08.3.5':
+      level: 3
+      description: Repair and rental of information and communication equipment (S)
+      farsi_description: تعمیر و کرایه تجهیزات اطلاعاتی و ارتباطاتی (خدمت)
+      code: 
+
+    '08.3.5.0':
+      level: 4
+      description: Repair and rental of information and communication equipment (S)
+      farsi_description: تعمیر و کرایه تجهیزات اطلاعاتی و ارتباطاتی (خدمت)
+      code: 
+
+    '08.3.9':
+      level: 3
+      description: Other information and communication services (S)
+      farsi_description: سایر خدمات اطلاعاتی و ارتباطاتی (خدمت)
+      code: 
+
+    '08.3.9.1':
+      level: 4
+      description: Television and radio licences and fees (S)
+      farsi_description: مجوزها و هزینه‌های تلویزیون و رادیو (خدمت)
+      code: 
+
+    '08.3.9.2':
+      level: 4
+      description: Subscriptions to audiovisual streaming services and rental of audiovisual content (S)
+      farsi_description: حق اشتراک محتوای صوتی و تصویری، خدمات پخش و کرایه محتوای صوتی و تصویری (خدمت)
+      code: 
+
+    '08.3.9.9':
+      level: 4
+      description: Other information and communication services n.e.c. (S)
+      farsi_description: سایر خدمات اطلاعاتی و ارتباطاتی (خدمت)
+      code: 
 
     '09':
       level: 1
-      description: Recreation and culture
-      code:
+      description: Recreation, sport and culture
+      farsi_description: تفریح/ سرگرمی، ورزش و فرهنگ
+      code: 
 
     '09.1':
       level: 2
-      description: Audio-visual, photographic and information processing equipment
-      code:
+      description: Recreational durables
+      farsi_description: کالاهای بادوام تفریحی/ سرگرمی
+      code: 
 
     '09.1.1':
       level: 3
-      description: Equipment for the reception, recording and reproduction of sound and pictures (D)
-      code:
+      description: Photographic and cinematographic equipment and optical instruments (D)
+      farsi_description: تجهیزات عکاسی و فیلم‌برداری و ابزارهای نوری (بادوام)
+      code: 
+
+    '09.1.1.1':
+      level: 4
+      description: Cameras (D)
+      farsi_description: دوربین (بادوام)
+      code: 
+
+    '09.1.1.2':
+      level: 4
+      description: Accessories for photographic and cinematographic equipment (D)
+      farsi_description: لوازم جانبی برای تجهیزات عکاسی و فیلم‌برداری (بادوام)
+      code: 
+
+    '09.1.1.3':
+      level: 4
+      description: Optical instruments (D)
+      farsi_description: ابزارهای نوری (بادوام)
+      code: 
 
     '09.1.2':
       level: 3
-      description: Photographic and cinematographic equipment and optical instruments (D)
-      code:
+      description: Major recreational durables (D)
+      farsi_description: وسایل عمده بادوام برای تفریح/ سرگرمی (بادوام)
+      code: 
 
-    '09.1.3':
-      level: 3
-      description: Information processing equipment (D)
-      code:
+    '09.1.2.1':
+      level: 4
+      description: Camper vans, caravans and trailers (D)
+      farsi_description: ون‌های سفری، خودروهای کاروان و تریلرها/ یدک‌کش‌های مخصوص مسافر (بادوام)
+      code: 
 
-    '09.1.4':
-      level: 3
-      description: Recording media (SD)
-      code:
+    '09.1.2.2':
+      level: 4
+      description: Aeroplanes, microlight aircraft, gliders, hang gliders and hot-air balloons (D)
+      farsi_description: هواپیما، هواپیمای فوق‌سبک کوچک، گلایدر، کایت و بالن‌های هوای گرم (بادوام)
+      code: 
 
-    '09.1.5':
-      level: 3
-      description: Repair of audio-visual, photographic and information processing equipment (S)
-      code:
+    '09.1.2.3':
+      level: 4
+      description: Boats, yachts, outboard motors and other water-sport equipment (D)
+      farsi_description: قایق، قایق بادبانی، قایق موتوری و سایر تجهیزات ورزشی آبی (بادوام)
+      code: 
+
+    '09.1.2.4':
+      level: 4
+      description: Horses, ponies, camels and dromedaries and accessories (D)
+      farsi_description: اسب، اسب پانی (اسب کوچک اندام/ مینیاتوری)، شتر دو کوهان و یک کوهان و لوازم جانبی برای اهداف تفریحی (بادوام)
+      code: 
+
+    '09.1.2.9':
+      level: 4
+      description: Other major recreational durables (D)
+      farsi_description: سایر وسایل عمده بادوام برای تفریح/ سرگرمی (بادوام)
+      code: 
 
     '09.2':
       level: 2
-      description: Other major durables for recreation and culture
-      code:
+      description: Other recreational goods
+      farsi_description: سایر کالاهای تفریحی
+      code: 
 
     '09.2.1':
       level: 3
-      description: Major durables for outdoor recreation (D)
-      code:
+      description: Games, toys and hobby-related articles (SD)
+      farsi_description: بازی‌ها، اسباب‌بازی‌ها و ابزارهای سرگرمی (کم‌دوام)
+      code: 
+
+    '09.2.1.1':
+      level: 4
+      description: Video game computers, consoles, game applications and software (SD)
+      farsi_description: رایانه‌های بازی‌های ویدیویی، کنسول‌های بازی، برنامه‌ها و نرم‌افزارهای بازی (کم‌دوام)
+      code: 
+
+    '09.2.1.2':
+      level: 4
+      description: Other games, toys and hobby-related articles (SD)
+      farsi_description: سایر بازی‌ها، اسباب‌بازی‌ها و سرگرمی‌ها (کم‌دوام)
+      code: 
+
+    '09.2.1.3':
+      level: 4
+      description: Celebration articles (ND)
+      farsi_description: ابزارها/ اقلام ویژه جشن (بی‌دوام)
+      code: 
 
     '09.2.2':
       level: 3
-      description: Musical instruments and major durables for indoor recreation (D)
-      code:
+      description: Sporting, camping and open-air recreation equipment (SD)
+      farsi_description: تجهیزات ورزشی، اردو و تفریح در فضای باز (کم‌دوام)
+      code: 
 
-    '09.2.3':
-      level: 3
-      description: Maintenance and repair of other major durables for recreation and culture (S)
-      code:
+    '09.2.2.1':
+      level: 4
+      description: Sporting equipment (SD)
+      farsi_description: تجهیزات ورزشی (کم‌دوام)
+      code: 
+
+    '09.2.2.2':
+      level: 4
+      description: Camping and open-air recreation equipment (SD)
+      farsi_description: تجهیزات اردو و تفریح در فضای باز (کم‌دوام)
+      code: 
 
     '09.3':
       level: 2
-      description: Other recreational items and equipment, gardens and pets
-      code:
+      description: Garden products and pets
+      farsi_description: محصولات باغی و حیوانات خانگی
+      code: 
 
     '09.3.1':
       level: 3
-      description: Games, toys and hobbies (SD)
-      code:
+      description: Garden products, plants and flowers (ND)
+      farsi_description: محصولات باغی، گیاهان و گل‌ها (بی‌دوام)
+      code: 
+
+    '09.3.1.1':
+      level: 4
+      description: Garden products (ND)
+      farsi_description: محصولات باغی (بی‌دوام)
+      code: 
+
+    '09.3.1.2':
+      level: 4
+      description: Plants, seeds and flowers (ND)
+      farsi_description: گیاهان، دانه‌ها و گل‌ها (بی‌دوام)
+      code: 
 
     '09.3.2':
       level: 3
-      description: Equipment for sport, camping and open-air recreation (SD)
-      code:
+      description: Pets and pet products (D)
+      farsi_description: حیوانات خانگی و محصولات ویژه حیوانات خانگی (بی‌دوام)
+      code: 
 
-    '09.3.3':
-      level: 3
-      description: Gardens, plants and flowers (ND)
-      code:
+    '09.3.2.1':
+      level: 4
+      description: Pets (D)
+      farsi_description: خرید حیوانات خانگی (بی‌دوام)
+      code: 
 
-    '09.3.4':
-      level: 3
-      description: Pets and related products (ND)
-      code:
-
-    '09.3.5':
-      level: 3
-      description: Veterinary and other services for pets (S)
-      code:
+    '09.3.2.2':
+      level: 4
+      description: Products for pets and other household animals (ND)
+      farsi_description: محصولات ویژه حیوانات دست‌آموز و سایر حیوانات خانگی (بی‌دوام)
+      code: 
 
     '09.4':
       level: 2
-      description: Recreational and cultural services
-      code:
+      description: Recreational services
+      farsi_description: خدمات تفریحی
+      code: 
 
     '09.4.1':
       level: 3
-      description: Recreational and sporting services (S)
-      code:
+      description: Hire and repair of photographic and cinematographic equipment and optical instruments (S)
+      farsi_description: کرایه و تعمیر تجهیزات عکاسی و فیلم‌برداری و ابزارهای نوری (اپتیکی) (خدمت)
+      code: 
+
+    '09.4.1.0':
+      level: 4
+      description: Hire and repair of photographic and cinematographic equipment and optical instruments (S)
+      farsi_description: کرایه و تعمیر تجهیزات عکاسی و فیلم‌برداری و ابزارهای نوری (اپتیکی) (خدمت)
+      code: 
 
     '09.4.2':
       level: 3
-      description: Cultural services (S)
-      code:
+      description: Hire, maintenance and repair of major recreational durables (S)
+      farsi_description: کرایه، نگهداری و تعمیر وسایل بادوام اصلی برای تفریح (خدمت)
+      code: 
+
+    '09.4.2.1':
+      level: 4
+      description: Hire, maintenance and repair of camper vans and caravans (S)
+      farsi_description: کرایه، نگهداری و تعمیر ون‌های سفری، خودروهای کاروان (خدمت)
+      code: 
+
+    '09.4.2.2':
+      level: 4
+      description: Hire, maintenance and repair of other major recreational durables (S)
+      farsi_description: کرایه، نگهداری و تعمیر سایر وسایل بادوام اصلی برای تفریح (خدمت)
+      code: 
 
     '09.4.3':
       level: 3
+      description: Hire and repair of games, toys and hobby-related articles (S)
+      farsi_description: کرایه و تعمیر انواع بازی‌ها، اسباب‌بازی‌ها و سرگرمی‌ها (خدمت)
+      code: 
+
+    '09.4.3.1':
+      level: 4
+      description: Hire of game software and subscription to online games (S)
+      farsi_description: کرایه نرم‌افزار بازی و حق اشتراک بازی‌های برخط (خدمت)
+      code: 
+
+    '09.4.3.2':
+      level: 4
+      description: Hire and repair of other games, toys and hobby-related articles (S)
+      farsi_description: کرایه و تعمیر انواع بازی‌ها، اسباب‌بازی‌ها و سرگرمی‌ها (خدمت)
+      code: 
+
+    '09.4.4':
+      level: 3
+      description: Hire and repair of sporting, camping and open-air recreational equipment (S)
+      farsi_description: کرایه و تعمیر تجهیزات ویژه ورزش، اردو و تفریح در فضای باز (خدمت)
+      code: 
+
+    '09.4.4.0':
+      level: 4
+      description: Hire and repair of sporting, camping and open-air recreational equipment (S)
+      farsi_description: کرایه و تعمیر تجهیزات ویژه ورزش، اردو و تفریح در فضای باز (خدمت)
+      code: 
+
+    '09.4.5':
+      level: 3
+      description: Veterinary and other services for pets (S)
+      farsi_description: دامپزشکی و سایر خدمات برای حیوانات خانگی (خدمت)
+      code: 
+
+    '09.4.5.0':
+      level: 4
+      description: Veterinary and other services for pets (S)
+      farsi_description: دامپزشکی و سایر خدمات برای حیوانات خانگی (خدمت)
+      code: 
+
+    '09.4.6':
+      level: 3
+      description: Recreational and sporting services (S)
+      farsi_description: خدمات تفریحی و ورزشی (خدمت)
+      code: 
+
+    '09.4.6.1':
+      level: 4
+      description: Recreational and leisure services (S)
+      farsi_description: خدمات تفریحی و اوقات فراغت (خدمت)
+      code: 
+
+    '09.4.6.2':
+      level: 4
+      description: Services associated with the practice of sports (S)
+      farsi_description: خدمات ورزشی-تمرین (خدمت)
+      code: 
+
+    '09.4.6.3':
+      level: 4
+      description: Services associated with attendance at sporting events (S)
+      farsi_description: خدمات ورزشی- حضور در ورزشگاه (خدمت)
+      code: 
+
+    '09.4.7':
+      level: 3
       description: Games of chance (S)
-      code:
+      farsi_description: بازی‌های‌ شانسی (بخت‌آزمایی) (خدمت)
+      code: 
+
+    '09.4.7.0':
+      level: 4
+      description: Games of chance (S)
+      farsi_description: بازی‌های‌ شانسی (بخت‌آزمایی) (خدمت)
+      code: 
 
     '09.5':
       level: 2
-      description: Newspapers, books and stationery
-      code:
+      description: Cultural goods
+      farsi_description: کالاهای فرهنگی
+      code: 
 
     '09.5.1':
       level: 3
-      description: Books (SD)
-      code:
+      description: Musical instruments (D)
+      farsi_description: ابزارهای موسیقی (بادوام)
+      code: 
+
+    '09.5.1.0':
+      level: 4
+      description: Musical instruments (D)
+      farsi_description: ابزارهای موسیقی (بادوام)
+      code: 
 
     '09.5.2':
       level: 3
-      description: Newspapers and periodicals (ND)
-      code:
+      description: Audiovisual media (SD)
+      farsi_description: رسانه‌های دیداری و شنیداری (کم‌دوام)
+      code: 
 
-    '09.5.3':
-      level: 3
-      description: Miscellaneous printed matter (ND)
-      code:
-
-    '09.5.4':
-      level: 3
-      description: Stationery and drawing materials (ND)
-      code:
+    '09.5.2.0':
+      level: 4
+      description: Audiovisual media (SD)
+      farsi_description: رسانه‌های دیداری و شنیداری (کم‌دوام)
+      code: 
 
     '09.6':
       level: 2
-      description: Package holidays
-      code:
+      description: Cultural services
+      farsi_description: خدمات فرهنگی
+      code: 
 
-    '09.6.0':
+    '09.6.1':
+      level: 3
+      description: Services provided by cinemas, theatres and concert venues (S)
+      farsi_description: خدمات ارایه‌شده توسط سینماها، سالن‌های تیاتر و محل‌های کنسرت (خدمت)
+      code: 
+
+    '09.6.1.0':
+      level: 4
+      description: Services provided by cinemas, theatres and concert venues (S)
+      farsi_description: خدمات ارایه‌شده توسط سینماها، سالن‌های تیاتر و محل‌های کنسرت (خدمت)
+      code: 
+
+    '09.6.2':
+      level: 3
+      description: Services provided by museums, libraries and cultural sites (S)
+      farsi_description: خدمات ارایه‌شده توسط موزه‌ها، کتابخانه‌ها و مکان‌های فرهنگی (خدمت)
+      code: 
+
+    '09.6.2.0':
+      level: 4
+      description: Services provided by museums, libraries and cultural sites (S)
+      farsi_description: خدمات ارایه‌شده توسط موزه‌ها، کتابخانه‌ها و مکان‌های فرهنگی (خدمت)
+      code: 
+
+    '09.6.3':
+      level: 3
+      description: Photographic services (S)
+      farsi_description: خدمات عکاسی (خدمت)
+      code: 
+
+    '09.6.3.0':
+      level: 4
+      description: Photographic services (S)
+      farsi_description: خدمات عکاسی (خدمت)
+      code: 
+
+    '09.6.9':
+      level: 3
+      description: Other cultural services (S)
+      farsi_description: سایر خدمات فرهنگی (خدمت)
+      code: 
+
+    '09.6.9.0':
+      level: 4
+      description: Other cultural services (S)
+      farsi_description: سایر خدمات فرهنگی (خدمت)
+      code: 
+
+    '09.7':
+      level: 2
+      description: Newspapers, books and stationery
+      farsi_description: روزنامه‌ها، کتاب‌ها و نوشت‌افزارها
+      code: 
+
+    '09.7.1':
+      level: 3
+      description: Books (SD)
+      farsi_description: کتاب‌ (کم‌دوام)
+      code: 
+
+    '09.7.1.1':
+      level: 4
+      description: Educational books and textbooks (SD)
+      farsi_description: کتاب‌های آموزشی و کتاب‌های درسی (کم‌دوام)
+      code: 
+
+    '09.7.1.9':
+      level: 4
+      description: Other books (SD)
+      farsi_description: سایر کتاب‌ها (کم‌دوام)
+      code: 
+
+    '09.7.2':
+      level: 3
+      description: Newspapers and periodicals (ND)
+      farsi_description: روزنامه‌ها و نشریات ادواری (بی‌دوام)
+      code: 
+
+    '09.7.2.1':
+      level: 4
+      description: Newspapers (ND)
+      farsi_description: روزنامه‌ها (بی‌دوام)
+      code: 
+
+    '09.7.2.2':
+      level: 4
+      description: Magazines and periodicals (ND)
+      farsi_description: مجلات و نشریات ادواری (بی‌دوام)
+      code: 
+
+    '09.7.3':
+      level: 3
+      description: Miscellaneous printed matter (ND)
+      farsi_description: مطالب چاپ‌شده متفرقه (بی‌دوام)
+      code: 
+
+    '09.7.3.0':
+      level: 4
+      description: Miscellaneous printed matter (ND)
+      farsi_description: مطالب چاپ‌شده متفرقه (بی‌دوام)
+      code: 
+
+    '09.7.4':
+      level: 3
+      description: Stationery and drawing materials (ND)
+      farsi_description: نوشت‌افزار و ملزومات طراحی (بی‌دوام)
+      code: 
+
+    '09.7.4.0':
+      level: 4
+      description: Stationery and drawing materials (ND)
+      farsi_description: نوشت‌افزار و ملزومات طراحی (بی‌دوام)
+      code: 
+
+    '09.8':
+      level: 2
+      description: Package holidays
+      farsi_description: تورهای مسافرتی
+      code: 
+
+    '09.8.0':
       level: 3
       description: Package holidays (S)
-      code:
+      farsi_description: تورهای مسافرتی (خدمت)
+      code: 
+
+    '09.8.0.0':
+      level: 4
+      description: Package holidays (S)
+      farsi_description: تورهای مسافرتی (خدمت)
+      code: 
 
     '10':
       level: 1
-      description: Education
-      code:
+      description: Education services
+      farsi_description: خدمات آموزشی
+      code: 
 
     '10.1':
       level: 2
-      description: Pre-primary and primary education
-      code:
+      description: Early childhood and primary education
+      farsi_description: آموزش پیش‌دبستانی و آموزش ابتدایی
+      code: 
 
     '10.1.0':
       level: 3
-      description: Pre-primary and primary education (S)
-      code:
+      description: Early childhood and primary education (S)
+      farsi_description: آموزش پیش‌دبستانی و آموزش ابتدایی (خدمت)
+      code: 
+
+    '10.1.0.1':
+      level: 4
+      description: Early childhood education (S)
+      farsi_description: آموزش پیش‌دبستانی (خدمت)
+      code: 
+
+    '10.1.0.2':
+      level: 4
+      description: Primary education (S)
+      farsi_description: آموزش ابتدایی (خدمت)
+      code: 
 
     '10.2':
       level: 2
       description: Secondary education
-      code:
+      farsi_description: آموزش متوسطه
+      code: 
 
     '10.2.0':
       level: 3
       description: Secondary education (S)
-      code:
+      farsi_description: آموزش متوسطه (خدمت)
+      code: 
+
+    '10.2.0.0':
+      level: 4
+      description: Secondary education (S)
+      farsi_description: آموزش متوسطه (خدمت)
+      code: 
 
     '10.3':
       level: 2
       description: Post-secondary non-tertiary education
-      code:
+      farsi_description: آموزش پس از متوسطه و قبل از دوره سوم (آموزش پیش‌دانشگاهی) (خدمت)
+      code: 
 
     '10.3.0':
       level: 3
       description: Post-secondary non-tertiary education (S)
-      code:
+      farsi_description: آموزش پس از متوسطه و قبل از دوره سوم (خدمت)
+      code: 
+
+    '10.3.0.0':
+      level: 4
+      description: Post-secondary non-tertiary education (S)
+      farsi_description: آموزش پس از متوسطه و قبل از دوره سوم (خدمت)
+      code: 
 
     '10.4':
       level: 2
       description: Tertiary education
-      code:
+      farsi_description: آموزش عالی
+      code: 
 
     '10.4.0':
       level: 3
       description: Tertiary education (S)
-      code:
+      farsi_description: آموزش عالی (خدمت)
+      code: 
+
+    '10.4.0.0':
+      level: 4
+      description: Tertiary education (S)
+      farsi_description: آموزش عالی (خدمت)
+      code: 
 
     '10.5':
       level: 2
-      description: Education not definable by level
-      code:
+      description: Education not defined by level
+      farsi_description: آموزش‌های طبقه‌بندی‌نشده بر حسب سطح
+      code: 
 
     '10.5.0':
       level: 3
-      description: Education not definable by level (S)
-      code:
+      description: Education not defined by level (S)
+      farsi_description: آموزش‌های طبقه‌بندی‌نشده بر حسب سطح (خدمت)
+      code: 
+
+    '10.5.0.1':
+      level: 4
+      description: Tutoring (S)
+      farsi_description: آموزش/ تدریس خصوصی (خدمت)
+      code: 
+
+    '10.5.0.9':
+      level: 4
+      description: Other education not defined by level (S)
+      farsi_description: سایر آموزش‌های طبقه‌بندی‌نشده بر حسب سطح (خدمت)
+      code: 
 
     '11':
       level: 1
-      description: Restaurants and hotels
-      code:
+      description: Restaurants and accommodation services
+      farsi_description: رستوران‌ها و خدمات اقامتگاهی
+      code: 
 
     '11.1':
       level: 2
-      description: Catering services
-      code:
+      description: Food and beverage serving services
+      farsi_description: خدمات ارایه غذا و نوشیدنی
+      code: 
 
     '11.1.1':
       level: 3
       description: Restaurants, cafés and the like (S)
-      code:
+      farsi_description: رستوران‌ها، کافه‌ها و مکان‌های مشابه (خدمت)
+      code: 
+
+    '11.1.1.1':
+      level: 4
+      description: Restaurants, cafés and the like – with full service (S)
+      farsi_description: رستوران‌ها، کافه‌ها و مکان‌های مشابه- با خدمات کامل (خدمت)
+      code: 
+
+    '11.1.1.2':
+      level: 4
+      description: Restaurants, cafés and the like – with limited service (S)
+      farsi_description: رستوران‌ها، کافه‌ها و مکان‌های مشابه- با خدمات محدود (خدمت)
+      code: 
 
     '11.1.2':
       level: 3
-      description: Canteens (S)
-      code:
+      description: Canteens, cafeterias and refectories (S)
+      farsi_description: رستوران‌ها، کافه‌تریاها و سالن‌های غذاخوری (خدمت)
+      code: 
+
+    '11.1.2.1':
+      level: 4
+      description: Canteens and cafeterias of universities, schools and kindergartens (S)
+      farsi_description: رستوران‌ها، کافه‌تریاها و سالن‌های غذاخوری دانشگاه‌ها، مدارس و مهدکودک‌ها (خدمت)
+      code: 
+
+    '11.1.2.9':
+      level: 4
+      description: Other canteens, cafeterias and refectories (S)
+      farsi_description: سایر رستوران‌ها، کافه‌تریاها و سالن‌های غذاخوری (خدمت)
+      code: 
 
     '11.2':
       level: 2
       description: Accommodation services
-      code:
+      farsi_description: خدمات اقامتگاه
+      code: 
 
     '11.2.0':
       level: 3
       description: Accommodation services (S)
-      code:
+      farsi_description: خدمات اقامتگاه (خدمت)
+      code: 
+
+    '11.2.0.1':
+      level: 4
+      description: Hotels, motels, inns and similar accommodation services (S)
+      farsi_description: خدمات هتل‌ها، متل‌ها، مسافرخانه‌ها و اقامتگاه‌های مشابه (خدمت)
+      code: 
+
+    '11.2.0.2':
+      level: 4
+      description: Holiday centres, camping sites, youth hostels and similar accommodation services (S)
+      farsi_description: خدمات مراکز ویژه تعطیلات، مکان‌های ارودگاهی، هتل‌ها و خوابگاه‌های ویژه جوانان و اقامتگاه‌های مشابه (خدمت)
+      code: 
+
+    '11.2.0.3':
+      level: 4
+      description: Accommodation services of boarding schools, universities and other educational establishments (S)
+      farsi_description: خدمات اقامتگاهی در مدارس شبانه‌روزی، دانشگاه‌ها و سایر موسسات آموزشی (خدمت)
+      code: 
+
+    '11.2.0.9':
+      level: 4
+      description: Other accommodation services (S)
+      farsi_description: سایر خدمات اقامتگاهی (خدمت)
+      code: 
 
     '12':
       level: 1
-      description: Miscellaneous goods and services
-      code:
+      description: Insurance and financial services
+      farsi_description: بیمه و خدمات مالی
+      code: 
 
     '12.1':
       level: 2
-      description: Personal care
-      code:
+      description: Insurance
+      farsi_description: بیمه
+      code: 
 
     '12.1.1':
       level: 3
-      description: Hairdressing salons and personal grooming establishments (S)
-      code:
+      description: Life and accident insurance (S)
+      farsi_description: بیمه عمر و حوادث (خدمت)
+      code: 
+
+    '12.1.1.0':
+      level: 4
+      description: Life and accident insurance (S)
+      farsi_description: بیمه عمر و حوادث (خدمت)
+      code: 
 
     '12.1.2':
       level: 3
-      description: Electric appliances for personal care (SD)
-      code:
+      description: Insurance connected with health (S)
+      farsi_description: بیمه مرتبط با سلامت (خدمت)
+      code: 
+
+    '12.1.2.0':
+      level: 4
+      description: Insurance connected with health (S)
+      farsi_description: بیمه مرتبط با سلامت (خدمت)
+      code: 
 
     '12.1.3':
       level: 3
-      description: Other appliances, articles and products for personal care (ND)
-      code:
+      description: Insurance connected with dwellings (S)
+      farsi_description: بیمه مرتبط با مسکن (خدمت)
+      code: 
+
+    '12.1.3.0':
+      level: 4
+      description: Insurance connected with dwellings (S)
+      farsi_description: بیمه مرتبط با مسکن (خدمت)
+      code: 
+
+    '12.1.4':
+      level: 3
+      description: Insurance connected with transport (S)
+      farsi_description: بیمه مرتبط با حمل و نقل (خدمت)
+      code: 
+
+    '12.1.4.1':
+      level: 4
+      description: Personal transport insurance (S)
+      farsi_description: بیمه حمل و نقل شخصی (خدمت)
+      code: 
+
+    '12.1.4.2':
+      level: 4
+      description: Travel insurance (S)
+      farsi_description: بیمه مسافرت (خدمت)
+      code: 
+
+    '12.1.9':
+      level: 3
+      description: Other insurance (S)
+      farsi_description: سایر بیمه‌ها (خدمت)
+      code: 
+
+    '12.1.9.0':
+      level: 4
+      description: Other insurance (S)
+      farsi_description: سایر بیمه‌ها (خدمت)
+      code: 
 
     '12.2':
       level: 2
-      description: Prostitution
-      code:
+      description: Financial services
+      farsi_description: خدمات مالی
+      code: 
 
-    '12.2.0':
+    '12.2.1':
       level: 3
-      description: Prostitution (S)
-      code:
+      description: Financial intermediation services indirectly measured (S)
+      farsi_description: خدمات واسطه‌گری مالی که غیرمستقیم اندازه‌گیری می‌شود (خدمت)
+      code: 
 
-    '12.3':
-      level: 2
-      description: Personal effects n.e.c.
-      code:
+    '12.2.1.0':
+      level: 4
+      description: Financial intermediation services indirectly measured (S)
+      farsi_description: خدمات واسطه‌گری مالی که غیرمستقیم اندازه‌گیری می‌شود (خدمت)
+      code: 
 
-    '12.3.1':
+    '12.2.2':
       level: 3
-      description: Jewellery, clocks and watches (D)
-      code:
+      description: Explicit charges by deposit-taking corporations (S)
+      farsi_description: هزینه‌های آشکار شرکت‌های سپرده‌پذیر (اعتباری) (خدمت)
+      code: 
 
-    '12.3.2':
+    '12.2.2.0':
+      level: 4
+      description: Explicit charges by deposit-taking corporations (S)
+      farsi_description: هزینه‌های آشکار شرکت‌های سپرده‌پذیر (اعتباری) (خدمت)
+      code: 
+
+    '12.2.9':
       level: 3
-      description: Other personal effects  (SD)
-      code:
+      description: Other financial services (S)
+      farsi_description: سایر خدمات مالی (خدمت)
+      code: 
 
-    '12.4':
-      level: 2
-      description: Social protection
-      code:
+    '12.2.9.1':
+      level: 4
+      description: Remittances fees (S)
+      farsi_description: هزینه‌های حواله
+      code: 
 
-    '12.4.0':
-      level: 3
-      description: Social protection (S)
-      code:
-
-    '12.5':
-      level: 2
-      description: Insurance
-      code:
-
-    '12.5.1':
-      level: 3
-      description: Life insurance (S)
-      code:
-
-    '12.5.2':
-      level: 3
-      description: Insurance connected with the dwelling (S)
-      code:
-
-    '12.5.3':
-      level: 3
-      description: Insurance connected with health (S)
-      code:
-
-    '12.5.4':
-      level: 3
-      description: Insurance connected with transport (S)
-      code:
-
-    '12.5.5':
-      level: 3
-      description: Other insurance (S)
-      code:
-
-    '12.6':
-      level: 2
-      description: Financial services n.e.c.
-      code:
-
-    '12.6.1':
-      level: 3
-      description: FISIM (S)
-      code:
-
-    '12.6.2':
-      level: 3
+    '12.2.9.9':
+      level: 4
       description: Other financial services n.e.c. (S)
-      code:
-
-    '12.7':
-      level: 2
-      description: Other services n.e.c.
-      code:
-
-    '12.7.0':
-      level: 3
-      description: Other services n.e.c. (S)
-      code:
+      farsi_description: سایر خدمات مالی طبقه‌بندی نشده در جای دیگر (خدمت)
+      code: 
 
     '13':
       level: 1
-      description: Individual consumption expenditure of non-profit institutions serving households (NPISHs)
-      code:
+      description: Personal care, social protection and miscellaneous goods and services
+      farsi_description: مراقبت شخصی، حمایت اجتماعی و کالاهای متفرقه
+      code: 
 
     '13.1':
       level: 2
-      description: Housing
-      code:
+      description: Personal care
+      farsi_description: مراقب شخصی
+      code: 
 
-    '13.1.0':
+    '13.1.1':
       level: 3
-      description: Housing (S)
-      code:
+      description: Electric appliances for personal care (SD)
+      farsi_description: وسایل برقی برای مراقب شخصی (کم‌دوام)
+      code: 
+
+    '13.1.1.1':
+      level: 4
+      description: Purchase of electric appliances for personal care (SD)
+      farsi_description: وسایل برقی برای مراقب شخصی (کم‌دوام)
+      code: 
+
+    '13.1.1.2':
+      level: 4
+      description: Repair of electric appliances for personal care (S)
+      farsi_description: تعمیر وسایل برقی برای مراقب شخصی (خدمت)
+      code: 
+
+    '13.1.2':
+      level: 3
+      description: Other appliances, articles and products for personal care (ND)
+      farsi_description: سایر وسایل، کالاها و محصولات برای مراقب شخصی (بی‌دوام)
+      code: 
+
+    '13.1.2.0':
+      level: 4
+      description: Other appliances, articles and products for personal care (ND)
+      farsi_description: سایر وسایل، کالاها و محصولات برای مراقب شخصی (بی‌دوام)
+      code: 
+
+    '13.1.3':
+      level: 3
+      description: Hairdressing salons and personal grooming establishments (S)
+      farsi_description: آرایشگاه‌ها و مراکز نظافت شخصی (خدمت)
+      code: 
+
+    '13.1.3.1':
+      level: 4
+      description: Hairdressing (S)
+      farsi_description: آرایشگاه‌ها (خدمت)
+      code: 
+
+    '13.1.3.2':
+      level: 4
+      description: Personal grooming treatments (S)
+      farsi_description: اقدامات مربوط به پیرایش شخصی (خدمت)
+      code: 
 
     '13.2':
       level: 2
-      description: Health
-      code:
+      description: Other personal effects
+      farsi_description: سایر لوازم شخصی
+      code: 
 
     '13.2.1':
       level: 3
-      description: Pharmaceutical products (ND)
-      code:
+      description: Jewellery and watches (D)
+      farsi_description: جواهرات و ساعت‌ها (بادوام)
+      code: 
+
+    '13.2.1.1':
+      level: 4
+      description: Purchase of jewellery and watches (D)
+      farsi_description: جواهرات و ساعت‌ها (بادوام)
+      code: 
+
+    '13.2.1.2':
+      level: 4
+      description: Repair and hire of jewellery, clocks and watches (S)
+      farsi_description: تعمیر و کرایه جواهرات، ساعت‌های دیواری و مچی (خدمت)
+      code: 
 
     '13.2.2':
       level: 3
-      description: Other medical products (ND)
-      code:
+      description: Devotional articles and articles for religious and ritual celebrations (SD)
+      farsi_description: اقلام ویژه عبادت و اقلام مناسک مذهبی و آیینی (کم‌دوام)
+      code: 
 
-    '13.2.3':
-      level: 3
-      description: Therapeutic appliances and equipment (D)
-      code:
+    '13.2.2.0':
+      level: 4
+      description: Devotional articles and articles for religious and ritual celebrations (SD)
+      farsi_description: اقلام ویژه عبادت و اقلام مناسک مذهبی و آیینی (کم‌دوام)
+      code: 
 
-    '13.2.4':
+    '13.2.9':
       level: 3
-      description: Outpatient medical services (S)
-      code:
+      description: Other personal effects n.e.c. (SD)
+      farsi_description: سایر لوازم شخصی (کم‌دوام)
+      code: 
 
-    '13.2.5':
-      level: 3
-      description: Outpatient dental services (S)
-      code:
+    '13.2.9.1':
+      level: 4
+      description: Travel goods, baby articles and other personal effects n.e.c. (SD)
+      farsi_description: کالاهای مسافرتی و اقلام مربوط به خردسالان و سایر لوازم شخصی طبقه‌بندی‌نشده در جای دیگر (کم‌دوام)
+      code: 
 
-    '13.2.6':
-      level: 3
-      description: Outpatient paramedical services (S)
-      code:
-
-    '13.2.7':
-      level: 3
-      description: Hospital services (S)
-      code:
-
-    '13.2.8':
-      level: 3
-      description: Other health services (S)
-      code:
+    '13.2.9.2':
+      level: 4
+      description: Repair and hire of other personal effects (S)
+      farsi_description: تعمیر و کرایه سایر لوازم شخصی طبقه‌بندی‌نشده در جای دیگر (خدمت)
+      code: 
 
     '13.3':
       level: 2
-      description: Recreation and culture
-      code:
-
-    '13.3.1':
-      level: 3
-      description: Recreational and sporting services (S)
-      code:
-
-    '13.3.2':
-      level: 3
-      description: Cultural services (S)
-      code:
-
-    '13.4':
-      level: 2
-      description: Education
-      code:
-
-    '13.4.1':
-      level: 3
-      description: Pre-primary and primary education (S)
-      code:
-
-    '13.4.2':
-      level: 3
-      description: Secondary education (S)
-      code:
-
-    '13.4.3':
-      level: 3
-      description: Post-secondary non-tertiary education (S)
-      code:
-
-    '13.4.4':
-      level: 3
-      description: Tertiary education (S)
-      code:
-
-    '13.4.5':
-      level: 2
-      description: Education not definable by level (S)
-      code:
-
-    '13.4.6':
-      level: 3
-      description: Other educational services (S)
-      code:
-
-    '13.5':
-      level: 2
       description: Social protection
-      code:
+      farsi_description: حمایت اجتماعی
+      code: 
 
-    '13.5.0':
+    '13.3.0':
       level: 3
       description: Social protection (S)
-      code:
+      farsi_description: حمایت اجتماعی (خدمت)
+      code: 
 
-    '13.6':
+    '13.3.0.1':
+      level: 4
+      description: Childcare services (S)
+      farsi_description: خدمات مراقبت از کودک (خدمت)
+      code: 
+
+    '13.3.0.2':
+      level: 4
+      description: Retirement homes for elderly persons and residences for disabled persons, not providing medical care (S)
+      farsi_description: خانه‌های بازنشستگی غیردرمانی برای افراد مسن و اقامتگاه برای افراد معلول (خدمت)
+      code: 
+
+    '13.3.0.3':
+      level: 4
+      description: Home care services for elderly and disabled (S)
+      farsi_description: خدمات نگهداری افراد در خانه‌های شخصی خودشان (خدمت)
+      code: 
+
+    '13.3.0.9':
+      level: 4
+      description: Other social protection services (S)
+      farsi_description: سایر خدمات حمایت اجتماعی (خدمت)
+      code: 
+
+    '13.9':
       level: 2
       description: Other services
-      code:
+      farsi_description: سایر خدمات
+      code: 
 
-    '13.6.1':
+    '13.9.0':
       level: 3
-      description: Religion (S)
-      code:
+      description: Other services (S)
+      farsi_description: سایر خدمات (خدمت)
+      code: 
 
-    '13.6.2':
-      level: 3
-      description: Political parties, labour and professional organizations (S)
-      code:
+    '13.9.0.1':
+      level: 4
+      description: Prostitution (S)
+      farsi_description: تن‌فروشی (خدمات)
+      code: 
 
-    '13.6.3':
-      level: 3
-      description: Environmental protection (S)
-      code:
+    '13.9.0.2':
+      level: 4
+      description: Religious services (S)
+      farsi_description: خدمات مذهبی (خدمت)
+      code: 
 
-    '13.6.4':
-      level: 3
-      description: Services n.e.c. (S)
-      code:
+    '13.9.0.9':
+      level: 4
+      description: Other services n.e.c. (S)
+      farsi_description: سایر خدمات طبقه‌بندی نشده در جای دیگر (خدمت)
+      code: 
 
     '14':
       level: 1
-      description: Individual consumption expenditure of general government
-      code:
+      description: Individual consumption expenditure of Non-profit Institutions Serving Households
+      farsi_description: هزینه مصرف فردی موسسات غیرانتفاعی در خدمت خانوارها
+      code: 
 
     '14.1':
       level: 2
       description: Housing
-      code:
+      farsi_description: مسکن
+      code: 
 
     '14.1.0':
       level: 3
       description: Housing (S)
-      code:
+      farsi_description: مسکن (خدمت)
+      code: 
+
+    '14.1.0.0':
+      level: 4
+      description: Housing (S)
+      farsi_description: مسکن (خدمت)
+      code: 
 
     '14.2':
       level: 2
       description: Health
-      code:
+      farsi_description: سلامت
+      code: 
 
     '14.2.1':
       level: 3
       description: Pharmaceutical products (ND)
-      code:
+      farsi_description: محصولات دارویی (بی‌دوام)
+      code: 
+
+    '14.2.1.0':
+      level: 4
+      description: Pharmaceutical products (ND)
+      farsi_description: محصولات دارویی (بی‌دوام)
+      code: 
 
     '14.2.2':
       level: 3
       description: Other medical products (ND)
-      code:
+      farsi_description: سایر محصولات پزشکی (بی‌دوام)
+      code: 
+
+    '14.2.2.0':
+      level: 4
+      description: Other medical products (ND)
+      farsi_description: سایر محصولات پزشکی (بی‌دوام)
+      code: 
 
     '14.2.3':
       level: 3
       description: Therapeutic appliances and equipment (D)
-      code:
+      farsi_description: وسایل و تجهیزات درمانی (بادوام)
+      code: 
+
+    '14.2.3.0':
+      level: 4
+      description: Therapeutic appliances and equipment (D)
+      farsi_description: وسایل و تجهیزات درمانی (بادوام)
+      code: 
 
     '14.2.4':
       level: 3
       description: Outpatient medical services (S)
-      code:
+      farsi_description: خدمات پزشکی سرپایی (خدمت)
+      code: 
+
+    '14.2.4.0':
+      level: 4
+      description: Outpatient medical services (S)
+      farsi_description: خدمات پزشکی سرپایی (خدمت)
+      code: 
 
     '14.2.5':
       level: 3
       description: Outpatient dental services (S)
-      code:
+      farsi_description: خدمات دندان‌پزشکی سرپایی (خدمت)
+      code: 
+
+    '14.2.5.0':
+      level: 4
+      description: Outpatient dental services (S)
+      farsi_description: خدمات دندان‌پزشکی سرپایی (خدمت)
+      code: 
 
     '14.2.6':
       level: 3
       description: Outpatient paramedical services (S)
-      code:
+      farsi_description: خدمات پیراپزشکی سرپایی (خدمت)
+      code: 
+
+    '14.2.6.0':
+      level: 4
+      description: Outpatient paramedical services (S)
+      farsi_description: خدمات پیراپزشکی سرپایی (خدمت)
+      code: 
 
     '14.2.7':
       level: 3
       description: Hospital services (S)
-      code:
+      farsi_description: خدمات بیمارستانی(خدمت)
+      code: 
+
+    '14.2.7.0':
+      level: 4
+      description: Hospital services (S)
+      farsi_description: خدمات بیمارستانی(خدمت)
+      code: 
 
     '14.2.8':
       level: 3
-      description: Public health services (S)
-      code:
+      description: Other health services (S)
+      farsi_description: سایر خدمات سلامت (خدمت)
+      code: 
+
+    '14.2.8.0':
+      level: 4
+      description: Other health services (S)
+      farsi_description: سایر خدمات سلامت (خدمت)
+      code: 
 
     '14.3':
       level: 2
       description: Recreation and culture
-      code:
+      farsi_description: تفریح، سرگرمی و فرهنگ
+      code: 
 
     '14.3.1':
       level: 3
       description: Recreational and sporting services (S)
-      code:
+      farsi_description: خدمات تفریحی و ورزشی (خدمت)
+      code: 
+
+    '14.3.1.0':
+      level: 4
+      description: Recreational and sporting services (S)
+      farsi_description: خدمات تفریحی و ورزشی (خدمت)
+      code: 
 
     '14.3.2':
       level: 3
       description: Cultural services (S)
-      code:
+      farsi_description: خدمات فرهنگی (خدمت)
+      code: 
+
+    '14.3.2.0':
+      level: 4
+      description: Cultural services (S)
+      farsi_description: خدمات فرهنگی (خدمت)
+      code: 
 
     '14.4':
       level: 2
       description: Education
-      code:
+      farsi_description: آموزش
+      code: 
 
     '14.4.1':
       level: 3
       description: Pre-primary and primary education (S)
-      code:
+      farsi_description: آموزش پیش‌دبستانی و ابتدایی (خدمت)
+      code: 
+
+    '14.4.1.0':
+      level: 4
+      description: Pre-primary and primary education (S)
+      farsi_description: آموزش پیش‌دبستانی و ابتدایی (خدمت)
+      code: 
 
     '14.4.2':
       level: 3
       description: Secondary education (S)
-      code:
+      farsi_description: آموزش متوسطه (خدمت)
+      code: 
+
+    '14.4.2.0':
+      level: 4
+      description: Secondary education (S)
+      farsi_description: آموزش متوسطه (خدمت)
+      code: 
 
     '14.4.3':
       level: 3
       description: Post-secondary non-tertiary education (S)
-      code:
+      farsi_description: آموزش پس از متوسطه و قبل از دوره سوم (خدمت)
+      code: 
+
+    '14.4.3.0':
+      level: 4
+      description: Post-secondary non-tertiary education (S)
+      farsi_description: آموزش پس از متوسطه و قبل از دوره سوم (خدمت)
+      code: 
 
     '14.4.4':
       level: 3
       description: Tertiary education (S)
-      code:
+      farsi_description: آموزش عالی (خدمت)
+      code: 
+
+    '14.4.4.0':
+      level: 4
+      description: Tertiary education (S)
+      farsi_description: آموزش عالی (خدمت)
+      code: 
 
     '14.4.5':
       level: 3
-      description: Education not definable by level (S)
-      code:
+      description: Education not defined by level (S)
+      farsi_description: آموزش‌های تعریف نشده بر حسب سطح (خدمت)
+      code: 
+
+    '14.4.5.0':
+      level: 4
+      description: Education not defined by level (S)
+      farsi_description: آموزش‌های تعریف نشده بر حسب سطح (خدمت)
+      code: 
 
     '14.4.6':
       level: 3
-      description: Subsidiary services to education (S)
-      code:
+      description: Other educational services (S)
+      farsi_description: سایر خدمات آموزشی (خدمت)
+      code: 
+
+    '14.4.6.0':
+      level: 4
+      description: Other educational services (S)
+      farsi_description: سایر خدمات آموزشی (خدمت)
+      code: 
 
     '14.5':
       level: 2
       description: Social protection
-      code:
+      farsi_description: حمایت اجتماعی
+      code: 
 
     '14.5.0':
       level: 3
       description: Social protection (S)
-      code:
+      farsi_description: حمایت اجتماعی (خدمت)
+      code: 
+
+    '14.5.0.0':
+      level: 4
+      description: Social protection (S)
+      farsi_description: حمایت اجتماعی (خدمت)
+      code: 
+
+    '14.6':
+      level: 2
+      description: Other services
+      farsi_description: سایر خدمات
+      code: 
+
+    '14.6.1':
+      level: 3
+      description: Religion (S)
+      farsi_description: دین (خدمت)
+      code: 
+
+    '14.6.1.0':
+      level: 4
+      description: Religion (S)
+      farsi_description: دین (خدمت)
+      code: 
+
+    '14.6.2':
+      level: 3
+      description: Political parties, labour and professional organizations (S)
+      farsi_description: احزاب سیاسی، سازمان‌های کارگری و حرفه‌ای (خدمت)
+      code: 
+
+    '14.6.2.0':
+      level: 4
+      description: Political parties, labour and professional organizations (S)
+      farsi_description: احزاب سیاسی، سازمان‌های کارگری و حرفه‌ای (خدمت)
+      code: 
+
+    '14.6.3':
+      level: 3
+      description: Environmental protection (S)
+      farsi_description: حفاظت از محیط زیست (خدمت)
+      code: 
+
+    '14.6.3.0':
+      level: 4
+      description: Environmental protection (S)
+      farsi_description: حفاظت از محیط زیست (خدمت)
+      code: 
+
+    '14.6.4':
+      level: 3
+      description: Services n.e.c. (S)
+      farsi_description: خدمات طبقه‌بندی نشده در جای دیگر (خدمت)
+      code: 
+
+    '14.6.4.0':
+      level: 4
+      description: Services n.e.c. (S)
+      farsi_description: خدمات طبقه‌بندی نشده در جای دیگر (خدمت)
+      code: 
+
+    '15':
+      level: 1
+      description: Individual consumption expenditure of general government
+      farsi_description: هزینه مصرف فردی دولت
+      code: 
+
+    '15.1':
+      level: 2
+      description: Housing
+      farsi_description: مسکن
+      code: 
+
+    '15.1.0':
+      level: 3
+      description: Housing (S)
+      farsi_description: مسکن (خدمت)
+      code: 
+
+    '15.1.0.0':
+      level: 4
+      description: Housing (S)
+      farsi_description: مسکن (خدمت)
+      code: 
+
+    '15.2':
+      level: 2
+      description: Health
+      farsi_description: سلامت
+      code: 
+
+    '15.2.1':
+      level: 3
+      description: Pharmaceutical products (ND)
+      farsi_description: محصولات دارویی (بی‌دوام)
+      code: 
+
+    '15.2.1.0':
+      level: 4
+      description: Pharmaceutical products (ND)
+      farsi_description: محصولات دارویی (بی‌دوام)
+      code: 
+
+    '15.2.2':
+      level: 3
+      description: Other medical products (ND)
+      farsi_description: سایر محصولات پزشکی (بی‌دوام)
+      code: 
+
+    '15.2.2.0':
+      level: 4
+      description: Other medical products (ND)
+      farsi_description: سایر محصولات پزشکی (بی‌دوام)
+      code: 
+
+    '15.2.3':
+      level: 3
+      description: Therapeutic appliances and equipment (D)
+      farsi_description: وسایل و تجهیزات درمانی (بادوام)
+      code: 
+
+    '15.2.3.0':
+      level: 4
+      description: Therapeutic appliances and equipment (D)
+      farsi_description: وسایل و تجهیزات درمانی (بادوام)
+      code: 
+
+    '15.2.4':
+      level: 3
+      description: Outpatient medical services (S)
+      farsi_description: خدمات درمانی سرپایی (خدمت)
+      code: 
+
+    '15.2.4.0':
+      level: 4
+      description: Outpatient medical services (S)
+      farsi_description: خدمات درمانی سرپایی (خدمت)
+      code: 
+
+    '15.2.5':
+      level: 3
+      description: Outpatient dental services (S)
+      farsi_description: خدمات دندان‌پزشکی سرپایی (خدمت)
+      code: 
+
+    '15.2.5.0':
+      level: 4
+      description: Outpatient dental services (S)
+      farsi_description: خدمات دندان‌پزشکی سرپایی (خدمت)
+      code: 
+
+    '15.2.6':
+      level: 3
+      description: Outpatient paramedical services (S)
+      farsi_description: خدمات پیراپزشکی سرپایی (خدمت)
+      code: 
+
+    '15.2.6.0':
+      level: 4
+      description: Outpatient paramedical services (S)
+      farsi_description: خدمات پیراپزشکی سرپایی (خدمت)
+      code: 
+
+    '15.2.7':
+      level: 3
+      description: Hospital services (S)
+      farsi_description: خدمات بیمارستانی (خدمت)
+      code: 
+
+    '15.2.7.0':
+      level: 4
+      description: Hospital services (S)
+      farsi_description: خدمات بیمارستانی (خدمت)
+      code: 
+
+    '15.2.8':
+      level: 3
+      description: Public health services (S)
+      farsi_description: خدمات بهداشت عمومی (خدمت)
+      code: 
+
+    '15.2.8.0':
+      level: 4
+      description: Public health services (S)
+      farsi_description: خدمات بهداشت عمومی (خدمت)
+      code: 
+
+    '15.3':
+      level: 2
+      description: Recreation and culture
+      farsi_description: تفریح، سرگرمی و فرهنگ
+      code: 
+
+    '15.3.1':
+      level: 3
+      description: Recreational and sporting services (S)
+      farsi_description: خدمات تفریحی و ورزشی (خدمت)
+      code: 
+
+    '15.3.1.0':
+      level: 4
+      description: Recreational and sporting services (S)
+      farsi_description: خدمات تفریحی و ورزشی (خدمت)
+      code: 
+
+    '15.3.2':
+      level: 3
+      description: Cultural services (S)
+      farsi_description: خدمات فرهنگی (خدمت)
+      code: 
+
+    '15.3.2.0':
+      level: 4
+      description: Cultural services (S)
+      farsi_description: خدمات فرهنگی (خدمت)
+      code: 
+
+    '15.4':
+      level: 2
+      description: Education
+      farsi_description: آموزش
+      code: 
+
+    '15.4.1':
+      level: 3
+      description: Pre-primary and primary education (S)
+      farsi_description: آموزش پیش‌دبستانی و ابتدایی (خدمت)
+      code: 
+
+    '15.4.1.0':
+      level: 4
+      description: Pre-primary and primary education (S)
+      farsi_description: آموزش پیش‌دبستانی و ابتدایی (خدمت)
+      code: 
+
+    '15.4.2':
+      level: 3
+      description: Secondary education (S)
+      farsi_description: آموزش متوسطه (خدمت)
+      code: 
+
+    '15.4.2.0':
+      level: 4
+      description: Secondary education (S)
+      farsi_description: آموزش متوسطه (خدمت)
+      code: 
+
+    '15.4.3':
+      level: 3
+      description: Post-secondary non-tertiary education (S)
+      farsi_description: آموزش پس از متوسطه و قبل از دوره سوم (خدمت)
+      code: 
+
+    '15.4.3.0':
+      level: 4
+      description: Post-secondary non-tertiary education (S)
+      farsi_description: آموزش پس از متوسطه و قبل از دوره سوم (خدمت)
+      code: 
+
+    '15.4.4':
+      level: 3
+      description: Tertiary education (S)
+      farsi_description: آموزش عالی (خدمت)
+      code: 
+
+    '15.4.4.0':
+      level: 4
+      description: Tertiary education (S)
+      farsi_description: آموزش عالی (خدمت)
+      code: 
+
+    '15.4.5':
+      level: 3
+      description: Education not defined by level (S)
+      farsi_description: آموزش‌های تعریف نشده بر حسب سطح (خدمت)
+      code: 
+
+    '15.4.5.0':
+      level: 4
+      description: Education not defined by level (S)
+      farsi_description: آموزش‌های تعریف نشده بر حسب سطح (خدمت)
+      code: 
+
+    '15.4.6':
+      level: 3
+      description: Subsidiary services to education (S)
+      farsi_description: خدمات کمکی (فرعی) برای آموزش (خدمت)
+      code: 
+
+    '15.4.6.0':
+      level: 4
+      description: Subsidiary services to education (S)
+      farsi_description: خدمات کمکی (فرعی) برای آموزش (خدمت)
+      code: 
+
+    '15.5':
+      level: 2
+      description: Social protection
+      farsi_description: حمایت اجتماعی
+      code: 
+
+    '15.5.0':
+      level: 3
+      description: Social protection (S)
+      farsi_description: حمایت اجتماعی (خدمت)
+      code: 
+
+    '15.5.0.0':
+      level: 4
+      description: Social protection (S)
+      farsi_description: حمایت اجتماعی (خدمت)
+      code: 
