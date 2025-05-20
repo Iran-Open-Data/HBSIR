@@ -14,5 +14,6 @@ fonts/*
 *.pdf
 *.log
 *.png
+*.ipynb
 
 *tokens.toml
