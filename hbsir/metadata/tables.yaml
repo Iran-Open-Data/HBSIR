@@ -616,70 +616,104 @@ HOUSE_ITEMS:
   house_electricity: &house_electricity
     new_name: Electricity
     type: boolean
-    true_condition: 1
+    true_condition:
+      1363: 1
+      1385: 2
+      1391: 1
 
   house_natural_gas: &house_natural_gas
     new_name: Natural_Gas
     type: boolean
-    true_condition: 1
+    true_condition:
+      1363: 1
+      1385: 3
+      1391: 1
 
   house_phone: &house_phone
     new_name: Phone
     type: boolean
-    true_condition: 1
+    true_condition:
+      1363: 1
+      1385: 4
+      1391: 1
 
   house_internet: &house_internet
     new_name: Internet
     type: boolean
-    true_condition: 1
+    true_condition:
+      1363: 1
+      1385: 5
+      1391: 1
 
   house_bathroom: &house_bathroom
     new_name: Bathroom
     type: boolean
-    true_condition: 1
+    true_condition:
+      1363: 1
+      1385: 6
+      1391: 1
 
   house_kitchen: &house_kitchen
     new_name: Kitchen
     type: boolean
-    true_condition: 1
-
-  house_evaporative_ac: &house_evaporative_ac
-    new_name: Evaporative_AC
-    type: boolean
-    true_condition: 1
-
-  house_central_ac: &house_central_ac
-    new_name: Central_AC
-    type: boolean
-    true_condition: 1
-
-  house_split_ac: &house_split_ac
-    new_name: Split_AC
-    type: boolean
-    true_condition: 1
+    true_condition:
+      1363: 1
+      1385: 7
+      1391: 1
 
   house_ac: &house_ac
     new_name: AC
     type: boolean
-    true_condition: 1
+    true_condition:
+      1363: 1
+      1385: null
 
-  house_hvac: &house_hvac
-    new_name: HVAC
+  house_evaporative_ac: &house_evaporative_ac
+    new_name: Evaporative_AC
     type: boolean
-    true_condition: 1
+    true_condition:
+      1385: 8
+      1391: 1
+
+  house_central_ac: &house_central_ac
+    new_name: Central_AC
+    type: boolean
+    true_condition:
+      1363: 1
+      1385: 9
+      1391: 1
 
   house_central_heating: &house_central_heating
     new_name: Central_Heating
     type: boolean
-    true_condition: 1
+    true_condition:
+      1363: 1
+      1385: 10
+      1391: 1
 
   house_water_heater: &house_water_heater
     new_name: Water_Heater
     type: boolean
-    true_condition: 1
+    true_condition:
+      1385: 11
+      1391: 1
+
+  house_split_ac: &house_split_ac
+    new_name: Split_AC
+    type: boolean
+    true_condition:
+      1385: 12
+      1391: 1
 
   house_sewerage: &house_sewerage
     new_name: Sewerage
+    type: boolean
+    true_condition:
+      1385: 13
+      1391: 1
+
+  house_hvac: &house_hvac
+    new_name: HVAC
     type: boolean
     true_condition: 1
 
@@ -1086,20 +1120,20 @@ house_specifications:
     DYCOL35:
       1383: *house_cooking_fuel
       1384: *house_central_heating
-      1385: *house_ac
+      1385: *house_evaporative_ac
       1387: *house_kitchen
       1391: *house_bathroom
     DYCOL36:
       1383: *house_heatfuel
       1384: *house_cooking_fuel
       1385: *house_central_ac
-      1387: *house_ac
+      1387: *house_evaporative_ac
       1391: *house_kitchen
     DYCOL37:
       1384: *house_heatfuel
       1385: *house_central_heating
       1387: *house_central_ac
-      1391: *house_ac
+      1391: *house_evaporative_ac
     DYCOL38:
       1384: *party_month
       1385: *house_water_heater
