@@ -48,6 +48,9 @@ def create_season(table: pd.DataFrame) -> pd.DataFrame:
 
 
 def calculate_amount_before_1382(table: pd.DataFrame) -> pd.DataFrame:
+    if "Price" not in table.columns:
+        table["Amount"] = table["Kilos"]
+        return table
     table["Amount"] = (
         table["Kilos"]
         .mask(
