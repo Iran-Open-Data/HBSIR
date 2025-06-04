@@ -88,7 +88,7 @@ three rotation groups (equivalent to 6 households) as follows:
 Thus, the overlap between two years $t$ and $t+i$ is:
 
 $$
-O_{t,t+1} = 2/3    O_{t,t+2} = 2/3
+O_{t,t+1} = 2/3    O_{t,t+2} = 1/3
 $$
 
 Every year, surveys are conducted from three rotation groups inside each 
