@@ -440,6 +440,7 @@ def setup_config(
         Whether to overwrite existing config file.
 
     """
-    global defaults, metadata
+    global defaults, metadata, api
     api.setup_config(mode=mode, replace=replace)
     defaults, metadata = config.set_package_config(Path(__file__).parent)
+    api = API(defaults=defaults, metadata=metadata)
