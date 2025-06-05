@@ -343,7 +343,7 @@ def setup(
     table_names: str | list[str] | None = None,
     replace: bool = False,
     method: Literal["create_from_raw", "download_cleaned"] = "create_from_raw",
-    download_source: Literal["original", "google_drive", "mirror"] = "original",
+    download_source: Literal["original", "mirror"] | str = "original",
 ) -> None:
     """Set up package data for the given years.
 
