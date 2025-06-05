@@ -423,7 +423,10 @@ def setup(
     api.setup(**parameters)
 
 
-def setup_config(replace: bool = False) -> None:
+def setup_config(
+    mode: Literal['Standard', 'Colab'] = "Standard",
+    replace: bool = False
+) -> None:
     """Copy default config file to data directory.
 
     Copies the default config file 'settings_sample.yaml' from the package
@@ -437,4 +440,6 @@ def setup_config(replace: bool = False) -> None:
         Whether to overwrite existing config file.
 
     """
-    api.setup_config(replace=replace)
+    global defaults, metadata
+    api.setup_config(mode=mode, replace=replace)
+    defaults, metadata = config.set_package_config(Path(__file__).parent)
