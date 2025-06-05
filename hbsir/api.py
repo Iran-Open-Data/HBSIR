@@ -9,7 +9,7 @@ and analysis for users without extensive programming knowledge.
 # pylint: disable=unused-argument
 # pylint: disable=too-many-locals
 
-from typing import Any, Iterable, Literal
+from typing import Any, Iterable, Literal, overload
 from pathlib import Path
 
 import pandas as pd
@@ -335,6 +335,30 @@ def add_weight(table: pd.DataFrame) -> pd.DataFrame:
 
     """
     return api.add_weight(table)
+
+
+@overload
+def setup(
+    years: _Years,
+    *,
+    table_names: str | list[str] | None = None,
+    replace: bool = False,
+    method: Literal["create_from_raw"] = "create_from_raw",
+    download_source: Literal["original", "mirror"] | str = "original",
+) -> None:
+    ...
+
+
+@overload
+def setup(
+    years: _Years,
+    *,
+    table_names: str | list[str] | None = None,
+    replace: bool = False,
+    method: Literal["download_cleaned"] = "download_cleaned",
+    download_source: Literal["mirror"] | str = "mirror",
+) -> None:
+    ...
 
 
 def setup(
