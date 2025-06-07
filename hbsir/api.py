@@ -244,8 +244,8 @@ def add_attribute(
     Examples
     --------
     ``` python
-    import lfsir
-    table = lfsir.load_table(years=1401)
+    import hbsir
+    table = hbsir.load_table(years=1401)
     table = add_attribute(table, "Urban_Rural")
     table = add_attribute(table, "Province", aspects="farsi_name")
     ```
