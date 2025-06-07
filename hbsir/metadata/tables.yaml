@@ -553,8 +553,8 @@ HOUSE_ITEMS:
     type: boolean
     true_condition: 1
 
-  house_freezer_refrigrator: &house_freezer_refrigrator
-    new_name: Freezer_Refrigrator
+  house_freezer_refrigerator: &house_freezer_refrigerator
+    new_name: Freezer_Refrigerator
     type: boolean
     true_condition: 1
 
@@ -1034,12 +1034,12 @@ house_specifications:
       1387: *house_freezer
     DYCOL18:
       1383: *house_oven
-      1384: *house_freezer_refrigrator
+      1384: *house_freezer_refrigerator
       1387: *house_refrigerator
     DYCOL19:
       1383: *house_vacuum_cleaner
       1384: *house_oven
-      1387: *house_freezer_refrigrator
+      1387: *house_freezer_refrigerator
     DYCOL20:
       1383: *house_washing_machine
       1384: *house_vacuum_cleaner

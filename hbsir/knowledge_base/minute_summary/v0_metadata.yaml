@@ -201,7 +201,7 @@ columns:
     Description: "Ownership of a standalone freezer (True/False)"
     Farsi_description: "مالکیت فریزر جداگانه (دارد/ندارد)"
 
-  - Name: "Freezer Refrigrator"
+  - Name: "Freezer Refrigerator"
     Farsi_Name: "یخچال فریزر"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
