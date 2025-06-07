@@ -2,23 +2,23 @@
 
 ## Old to New Titles
 
-|   Years | ADDRESS   | COL1   | COL3             | COL4   | COL5   | COL6   | COL7        |
-|--------:|:----------|:-------|:-----------------|:-------|:-------|:-------|:------------|
-|    1383 | ID        | Code   | Provision_Method | drop   | Amount | Price  | Expenditure |
+|   Years | ADDRESS   | COL1           | COL3             | COL4   | COL5   | COL6   | COL7        |
+|--------:|:----------|:---------------|:-----------------|:-------|:-------|:-------|:------------|
+|    1383 | ID        | Commodity_Code | Provision_Method | drop   | Amount | Price  | Expenditure |
 
 
-| Years     | ADDRESS   | DYCOL01   | DYCOL02          | DYCOL03   | DYCOL04   | DYCOL05   | DYCOL06     | DYCOL07   |
-|:----------|:----------|:----------|:-----------------|:----------|:----------|:----------|:------------|:----------|
-| 1384      | ID        | Code      | Provision_Method | drop      | Amount    | Price     | Expenditure | drop      |
-| 1385-1401 | ID        | Code      | Provision_Method | drop      | Amount    | Price     | Expenditure |           |
+| Years     | ADDRESS   | DYCOL01        | DYCOL02          | DYCOL03   | DYCOL04   | DYCOL05   | DYCOL06     | DYCOL07   |
+|:----------|:----------|:---------------|:-----------------|:----------|:----------|:----------|:------------|:----------|
+| 1384      | ID        | Commodity_Code | Provision_Method | drop      | Amount    | Price     | Expenditure | drop      |
+| 1385-1402 | ID        | Commodity_Code | Provision_Method | drop      | Amount    | Price     | Expenditure |           |
 
 
 ## New to Old Titles
 
-| Years     | ID      | Code    | Provision_Method   | Amount   | Price   | Expenditure   |
-|:----------|:--------|:--------|:-------------------|:---------|:--------|:--------------|
-| 1383      | ADDRESS | COL1    | COL3               | COL5     | COL6    | COL7          |
-| 1384-1401 | ADDRESS | DYCOL01 | DYCOL02            | DYCOL04  | DYCOL05 | DYCOL06       |
+| Years     | ID      | Commodity_Code   | Provision_Method   | Amount   | Price   | Expenditure   |
+|:----------|:--------|:-----------------|:-------------------|:---------|:--------|:--------------|
+| 1383      | ADDRESS | COL1             | COL3               | COL5     | COL6    | COL7          |
+| 1384-1402 | ADDRESS | DYCOL01          | DYCOL02            | DYCOL04  | DYCOL05 | DYCOL06       |
 
 
 ## Columns Details
@@ -36,7 +36,7 @@
 
 | Years     | ID                                           |
 |:----------|:---------------------------------------------|
-| 1383-1401 | [ADDRESS](/HBSIR/tables/raw/tobacco#address) |
+| 1383-1402 | [ADDRESS](/HBSIR/tables/raw/tobacco#address) |
 
 
 #### Summary Statistics
@@ -64,9 +64,10 @@
 |   1399 |    6814 | 1.67569e+10 |          5.0256e+09  |     1.0001e+10 | 2.01034e+10 | 2.30067e+10 |
 |   1400 |    6828 | 1.66982e+10 |          5.02842e+09 |     1.0001e+10 | 2.00124e+10 | 2.30067e+10 |
 |   1401 |    6762 | 1.68044e+10 |          5.02249e+09 |     1.0001e+10 | 2.01039e+10 | 2.30067e+10 |
+|   1402 |    6862 | 1.69361e+10 |          5.02042e+09 |     1.0001e+10 | 2.02144e+10 | 2.30067e+10 |
 
 
-### Code
+### Commodity_Code
 
 ??? abstract "Column Metadata"
     ``` yaml
@@ -187,14 +188,17 @@
     1401:
       column_code: DYCOL01
       type: UInt32
+    1402:
+      column_code: DYCOL01
+      type: UInt32
     
     ```
 #### Column Codes
 
-| Years     | Code                                         |
+| Years     | Commodity_Code                               |
 |:----------|:---------------------------------------------|
 | 1383      | [COL1](/HBSIR/tables/raw/tobacco#col1)       |
-| 1384-1401 | [DYCOL01](/HBSIR/tables/raw/tobacco#dycol01) |
+| 1384-1402 | [DYCOL01](/HBSIR/tables/raw/tobacco#dycol01) |
 
 
 #### Summary Statistics
@@ -222,6 +226,7 @@
 |   1399 |    6814 | 22197.7 |               286.66 |     21111 |    22113 |     23111 |
 |   1400 |    6828 | 22205.2 |               293.83 |     21111 |    22113 |     23111 |
 |   1401 |    6762 | 22210.9 |               302.21 |     21111 |    22113 |     23111 |
+|   1402 |    6862 | 22230.8 |               327.86 |     21111 |    22111 |     23111 |
 
 
 ### Provision_Method
@@ -687,6 +692,19 @@
         6: Agricultural_Work
         7: Non_Agricultural_Work
         8: Donation
+    1402:
+      column_code: DYCOL02
+      type: category
+      categories:
+        0: Secondhand_Sale
+        1: Purchase
+        2: Home_Production
+        3: Instead_of_Public_Service
+        4: Instead_of_Cooperative_Service
+        5: Instead_of_Private_Service
+        6: Agricultural_Work
+        7: Non_Agricultural_Work
+        8: Donation
     
     ```
 #### Column Codes
@@ -694,39 +712,40 @@
 | Years     | Provision_Method                             |
 |:----------|:---------------------------------------------|
 | 1383      | [COL3](/HBSIR/tables/raw/tobacco#col3)       |
-| 1384-1401 | [DYCOL02](/HBSIR/tables/raw/tobacco#dycol02) |
+| 1384-1402 | [DYCOL02](/HBSIR/tables/raw/tobacco#dycol02) |
 
 
 #### Summary Statistics
 
 **category data**
 
-|   Year |   Purchase |   Non_Agricultural_Work | Agricultural_Work   | Instead_of_Private_Service   | nan   | Home_Production   | Instead_of_Public_Service   | Instead_of_Cooperative_Service   | Donation   |
-|-------:|-----------:|------------------------:|:--------------------|:-----------------------------|:------|:------------------|:----------------------------|:---------------------------------|:-----------|
-|   1383 |      96.51 |                    1.26 | 0.14                | 0.03                         | 1.97  | 0.07              | 0.02                        |                                  |            |
-|   1384 |      98.85 |                    1    | 0.05                | 0.03                         |       | 0.04              | 0.01                        | 0.01                             |            |
-|   1385 |      98.69 |                    1.27 | 0.01                | 0.01                         |       |                   | 0.02                        |                                  |            |
-|   1386 |      98.69 |                    1.22 | 0.04                | 0.04                         |       |                   | 0.01                        |                                  |            |
-|   1387 |      98.96 |                    0.94 | 0.02                | 0.03                         |       | 0.02              | 0.03                        |                                  |            |
-|   1388 |      98.82 |                    1.07 | 0.02                | 0.03                         |       | 0.01              |                             | 0.02                             | 0.02       |
-|   1389 |      99.04 |                    0.8  | 0.06                | 0.03                         |       | 0.05              |                             |                                  | 0.01       |
-|   1390 |      99.17 |                    0.74 | 0.04                | 0.02                         |       | 0.02              |                             |                                  |            |
-|   1391 |      99.22 |                    0.73 | 0.01                |                              |       | 0.02              |                             | 0.01                             | 0.01       |
-|   1392 |      99.53 |                    0.45 | 0.01                |                              |       |                   |                             |                                  |            |
-|   1393 |      99.23 |                    0.69 | 0.01                | 0.03                         |       | 0.04              |                             |                                  |            |
-|   1394 |      99.24 |                    0.66 | 0.03                | 0.06                         |       |                   | 0.01                        |                                  |            |
-|   1395 |      99.19 |                    0.75 | 0.04                | 0.01                         |       |                   | 0.01                        |                                  |            |
-|   1396 |      99.33 |                    0.64 |                     | 0.01                         |       |                   |                             |                                  | 0.01       |
-|   1397 |      99.31 |                    0.66 |                     | 0.01                         |       | 0.01              |                             |                                  | 0.01       |
-|   1398 |      99.33 |                    0.59 | 0.03                | 0.01                         |       |                   | 0.01                        |                                  | 0.03       |
-|   1399 |      99.25 |                    0.65 |                     | 0.04                         |       | 0.01              |                             |                                  | 0.04       |
-|   1400 |      99.34 |                    0.51 |                     | 0.04                         |       |                   | 0.01                        |                                  | 0.09       |
-|   1401 |      99.48 |                    0.49 | 0.01                | 0.01                         |       |                   |                             |                                  |            |
+|   Year |   Purchase |   Non_Agricultural_Work | Instead_of_Private_Service   | Donation   | nan   | Agricultural_Work   | Home_Production   | Instead_of_Public_Service   | Instead_of_Cooperative_Service   |
+|-------:|-----------:|------------------------:|:-----------------------------|:-----------|:------|:--------------------|:------------------|:----------------------------|:---------------------------------|
+|   1383 |      96.51 |                    1.26 | 0.03                         |            | 1.97  | 0.14                | 0.07              | 0.02                        |                                  |
+|   1384 |      98.85 |                    1    | 0.03                         |            |       | 0.05                | 0.04              | 0.01                        | 0.01                             |
+|   1385 |      98.69 |                    1.27 | 0.01                         |            |       | 0.01                |                   | 0.02                        |                                  |
+|   1386 |      98.69 |                    1.22 | 0.04                         |            |       | 0.04                |                   | 0.01                        |                                  |
+|   1387 |      98.96 |                    0.94 | 0.03                         |            |       | 0.02                | 0.02              | 0.03                        |                                  |
+|   1388 |      98.82 |                    1.07 | 0.03                         | 0.02       |       | 0.02                | 0.01              |                             | 0.02                             |
+|   1389 |      99.04 |                    0.8  | 0.03                         | 0.01       |       | 0.06                | 0.05              |                             |                                  |
+|   1390 |      99.17 |                    0.74 | 0.02                         |            |       | 0.04                | 0.02              |                             |                                  |
+|   1391 |      99.22 |                    0.73 |                              | 0.01       |       | 0.01                | 0.02              |                             | 0.01                             |
+|   1392 |      99.53 |                    0.45 |                              |            |       | 0.01                |                   |                             |                                  |
+|   1393 |      99.23 |                    0.69 | 0.03                         |            |       | 0.01                | 0.04              |                             |                                  |
+|   1394 |      99.24 |                    0.66 | 0.06                         |            |       | 0.03                |                   | 0.01                        |                                  |
+|   1395 |      99.19 |                    0.75 | 0.01                         |            |       | 0.04                |                   | 0.01                        |                                  |
+|   1396 |      99.33 |                    0.64 | 0.01                         | 0.01       |       |                     |                   |                             |                                  |
+|   1397 |      99.31 |                    0.66 | 0.01                         | 0.01       |       |                     | 0.01              |                             |                                  |
+|   1398 |      99.33 |                    0.59 | 0.01                         | 0.03       |       | 0.03                |                   | 0.01                        |                                  |
+|   1399 |      99.25 |                    0.65 | 0.04                         | 0.04       |       |                     | 0.01              |                             |                                  |
+|   1400 |      99.34 |                    0.51 | 0.04                         | 0.09       |       |                     |                   | 0.01                        |                                  |
+|   1401 |      99.48 |                    0.49 | 0.01                         |            |       | 0.01                |                   |                             |                                  |
+|   1402 |      99.48 |                    0.48 | 0.03                         | 0.01       |       |                     |                   |                             |                                  |
 
 
 #### Categories
 
-|    | 1383-1400                      | 1401                           |
+|    | 1383-1400                      | 1401-1402                      |
 |---:|:-------------------------------|:-------------------------------|
 |  0 |                                | Secondhand_Sale                |
 |  1 | Purchase                       | Purchase                       |
@@ -860,6 +879,9 @@
     1401:
       column_code: DYCOL04
       type: float
+    1402:
+      column_code: DYCOL04
+      type: float
     
     ```
 #### Column Codes
@@ -867,7 +889,7 @@
 | Years     | Amount                                       |
 |:----------|:---------------------------------------------|
 | 1383      | [COL5](/HBSIR/tables/raw/tobacco#col5)       |
-| 1384-1401 | [DYCOL04](/HBSIR/tables/raw/tobacco#dycol04) |
+| 1384-1402 | [DYCOL04](/HBSIR/tables/raw/tobacco#dycol04) |
 
 
 #### Summary Statistics
@@ -895,6 +917,7 @@
 |   1399 |    5562 | 450.95 |               290.17 |         1 |      500 |      3000 |
 |   1400 |    5505 | 453.75 |               284.18 |         1 |      560 |      3500 |
 |   1401 |    5462 | 486.43 |               334.37 |         2 |      600 |      6000 |
+|   1402 |    5458 | 497.2  |               315.35 |         4 |      600 |      3600 |
 
 
 ### Price
@@ -1018,6 +1041,9 @@
     1401:
       column_code: DYCOL05
       type: float
+    1402:
+      column_code: DYCOL05
+      type: float
     
     ```
 #### Column Codes
@@ -1025,7 +1051,7 @@
 | Years     | Price                                        |
 |:----------|:---------------------------------------------|
 | 1383      | [COL6](/HBSIR/tables/raw/tobacco#col6)       |
-| 1384-1401 | [DYCOL05](/HBSIR/tables/raw/tobacco#dycol05) |
+| 1384-1402 | [DYCOL05](/HBSIR/tables/raw/tobacco#dycol05) |
 
 
 #### Summary Statistics
@@ -1053,6 +1079,7 @@
 |   1399 |    5562 | 3767.9  |              3298.37 |       200 |     3000 |    120000 |
 |   1400 |    5505 | 5156.22 |              5316.37 |       250 |     4000 |    100000 |
 |   1401 |    6762 | 5710.75 |              8791.54 |         0 |     5000 |    170000 |
+|   1402 |    6862 | 6856.43 |              5512.61 |         0 |     7000 |    100000 |
 
 
 ### Expenditure
@@ -1176,6 +1203,9 @@
     1401:
       column_code: DYCOL06
       type: float
+    1402:
+      column_code: DYCOL06
+      type: float
     
     ```
 #### Column Codes
@@ -1183,7 +1213,7 @@
 | Years     | Expenditure                                  |
 |:----------|:---------------------------------------------|
 | 1383      | [COL7](/HBSIR/tables/raw/tobacco#col7)       |
-| 1384-1401 | [DYCOL06](/HBSIR/tables/raw/tobacco#dycol06) |
+| 1384-1402 | [DYCOL06](/HBSIR/tables/raw/tobacco#dycol06) |
 
 
 #### Summary Statistics
@@ -1211,5 +1241,6 @@
 |   1399 |    6814 |      1.55012e+06 |          1.49873e+06 |      6000 |      1.24e+06  |  3.1e+07  |
 |   1400 |    6828 |      2.14038e+06 |          2.03606e+06 |     12000 |      1.8e+06   |  3e+07    |
 |   1401 |    6762 |      3.1471e+06  |          3.64006e+06 |     16000 |      2.4e+06   |  1.2e+08  |
+|   1402 |    6862 |      4.85862e+06 |          5.69519e+06 |     20000 |      3.6e+06   |  1.2e+08  |
 
 

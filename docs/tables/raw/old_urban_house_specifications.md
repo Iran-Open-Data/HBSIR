@@ -22,7 +22,7 @@
 
 | Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                    |
 |:---------|----------------:|---------------------:|:------------|----------------:|:-----------------------------------|
-| ADDRESS  |               0 |                  100 | integer     |           14728 | 1001001: 1; 1143054: 1; 1143056: 1 |
+| ADDRESS  |               0 |                  100 | integer     |           14728 | 1234515: 1; 1001001: 1; 1001002: 1 |
 | Q1       |               0 |                  100 | integer     |               6 | 1: 10,169; 3: 2,099; 6: 1,486      |
 | Q2       |               0 |                  100 | integer     |               6 | 3: 7,348; 5: 3,469; 4: 3,081       |
 | Q3       |               0 |                  100 | integer     |              14 | 2: 4,096; 3: 3,818; 4: 2,951       |
@@ -59,7 +59,7 @@
 
 | Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                    |
 |:---------|----------------:|---------------------:|:------------|----------------:|:-----------------------------------|
-| ADDRESS  |               0 |             100      | integer     |           13976 | 1001001: 1; 1142009: 1; 1141078: 1 |
+| ADDRESS  |               0 |             100      | integer     |           13976 | 1234425: 1; 1001001: 1; 1001002: 1 |
 | Q1       |               0 |             100      | integer     |               2 | 1: 13,920; 2: 56                   |
 | Q2       |              30 |              99.7853 | integer     |              21 | 1: 9,079; 2: 3,511; 3: 940         |
 | Q3       |               0 |             100      | integer     |               6 | 1: 9,415; 3: 2,063; 6: 1,554       |
@@ -98,7 +98,7 @@
 
 | Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                    |
 |:---------|----------------:|---------------------:|:------------|----------------:|:-----------------------------------|
-| ADDRESS  |               0 |             100      | integer     |            2745 | 1001001: 1; 1203004: 1; 1202001: 1 |
+| ADDRESS  |               0 |             100      | integer     |            2745 | 1234215: 1; 1001001: 1; 1001002: 1 |
 | Q1       |               0 |             100      | integer     |               2 | 1: 2,732; 2: 13                    |
 | Q2       |               3 |              99.8907 | integer     |              10 | 1: 1,885; 2: 597; 3: 186           |
 | Q3       |               0 |             100      | integer     |               6 | 1: 1,915; 3: 359; 6: 285           |
@@ -137,7 +137,7 @@
 
 | Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                    |
 |:---------|----------------:|---------------------:|:------------|----------------:|:-----------------------------------|
-| ADDRESS  |               0 |                  100 | integer     |            2748 | 1001001: 1; 1203002: 1; 1202004: 1 |
+| ADDRESS  |               0 |                  100 | integer     |            2748 | 1234210: 1; 1001001: 1; 1001002: 1 |
 | Q1       |               0 |                  100 | integer     |               6 | 1: 1,942; 3: 410; 5: 232           |
 | Q2       |               0 |                  100 | integer     |               9 | 2: 1,790; 3: 402; 7: 166           |
 | Q3       |               0 |                  100 | integer     |              13 | 4: 663; 3: 661; 2: 552             |
@@ -171,7 +171,7 @@
 
 | Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                    |
 |:---------|----------------:|---------------------:|:------------|----------------:|:-----------------------------------|
-| ADDRESS  |               0 |                  100 | integer     |            3987 | 1001001: 1; 1182006: 1; 1181003: 1 |
+| ADDRESS  |               0 |                  100 | integer     |            3987 | 1234275: 1; 1001001: 1; 1001002: 1 |
 | Q1       |               0 |                  100 | integer     |               6 | 1: 2,768; 3: 620; 5: 337           |
 | Q2       |               0 |                  100 | integer     |               9 | 2: 2,530; 3: 588; 7: 281           |
 | Q3       |               0 |                  100 | integer     |               9 | 3: 929; 4: 882; 2: 788             |
@@ -205,7 +205,7 @@
 
 | Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                    |
 |:---------|----------------:|---------------------:|:------------|----------------:|:-----------------------------------|
-| ADDRESS  |               0 |                  100 | integer     |            5492 | 1001001: 1; 1134048: 1; 1134056: 1 |
+| ADDRESS  |               0 |                  100 | integer     |            5492 | 1234275: 1; 1001001: 1; 1001002: 1 |
 | Q1       |               0 |                  100 | integer     |               6 | 1: 4,030; 3: 695; 5: 465           |
 | Q2       |               0 |                  100 | integer     |               9 | 2: 3,514; 3: 985; 7: 496           |
 | Q3       |               0 |                  100 | integer     |              10 | 3: 1,425; 4: 1,370; 2: 970         |
@@ -248,12 +248,12 @@
     ```
 |      |   Missing_Count |   Availability_Ratio | Data_Type   |   Unique_Values | Frequent_Values                    |
 |-----:|----------------:|---------------------:|:------------|----------------:|:-----------------------------------|
-| 1363 |               0 |                  100 | integer     |           14728 | 1001001: 1; 1143054: 1; 1143056: 1 |
-| 1364 |               0 |                  100 | integer     |           13976 | 1001001: 1; 1142009: 1; 1141078: 1 |
-| 1365 |               0 |                  100 | integer     |            2745 | 1001001: 1; 1203004: 1; 1202001: 1 |
-| 1366 |               0 |                  100 | integer     |            2748 | 1001001: 1; 1203002: 1; 1202004: 1 |
-| 1367 |               0 |                  100 | integer     |            3987 | 1001001: 1; 1182006: 1; 1181003: 1 |
-| 1368 |               0 |                  100 | integer     |            5492 | 1001001: 1; 1134048: 1; 1134056: 1 |
+| 1363 |               0 |                  100 | integer     |           14728 | 1234515: 1; 1001001: 1; 1001002: 1 |
+| 1364 |               0 |                  100 | integer     |           13976 | 1234425: 1; 1001001: 1; 1001002: 1 |
+| 1365 |               0 |                  100 | integer     |            2745 | 1234215: 1; 1001001: 1; 1001002: 1 |
+| 1366 |               0 |                  100 | integer     |            2748 | 1234210: 1; 1001001: 1; 1001002: 1 |
+| 1367 |               0 |                  100 | integer     |            3987 | 1234275: 1; 1001001: 1; 1001002: 1 |
+| 1368 |               0 |                  100 | integer     |            5492 | 1234275: 1; 1001001: 1; 1001002: 1 |
 
 
 ### Q1
@@ -267,15 +267,24 @@
         1: Owned_Estate_Land
         2: Owned_Estate
         3: Rent
-        4: Mortgage
-        5: Service
-        6: Free
-        7: Other
+        4: Service
+        5: Free
+        6: Other
     1364:
       new_name: Lives_in_House
       type: boolean
       true_condition: 1
     1366:
+      new_name: Tenure
+      type: category
+      categories:
+        1: Owned_Estate_Land
+        2: Owned_Estate
+        3: Rent
+        4: Service
+        5: Free
+        6: Other
+    1383:
       new_name: Tenure
       type: category
       categories:
@@ -322,6 +331,14 @@
       new_name: Electricity
       type: boolean
       true_condition: 1
+    1385:
+      new_name: Electricity
+      type: boolean
+      true_condition: 2
+    1391:
+      new_name: Electricity
+      type: boolean
+      true_condition: 1
     
     ```
 |      |   Missing_Count |   Availability_Ratio | Data_Type   |   Unique_Values | Frequent_Values   |
@@ -335,6 +352,14 @@
 ??? abstract "Column Metadata"
     ``` yaml
     1363:
+      new_name: Natural_Gas
+      type: boolean
+      true_condition: 1
+    1385:
+      new_name: Natural_Gas
+      type: boolean
+      true_condition: 3
+    1391:
       new_name: Natural_Gas
       type: boolean
       true_condition: 1
@@ -354,6 +379,14 @@
       new_name: Bathroom
       type: boolean
       true_condition: 1
+    1385:
+      new_name: Bathroom
+      type: boolean
+      true_condition: 6
+    1391:
+      new_name: Bathroom
+      type: boolean
+      true_condition: 1
     
     ```
 |      |   Missing_Count |   Availability_Ratio | Data_Type   |   Unique_Values | Frequent_Values    |
@@ -367,9 +400,13 @@
 ??? abstract "Column Metadata"
     ``` yaml
     1363:
-      new_name: Air_Conditioner
+      new_name: AC
       type: boolean
       true_condition: 1
+    1385:
+      new_name: AC
+      type: boolean
+      true_condition: null
     
     ```
 |      |   Missing_Count |   Availability_Ratio | Data_Type   |   Unique_Values | Frequent_Values    |
@@ -386,6 +423,14 @@
       new_name: Phone
       type: boolean
       true_condition: 1
+    1385:
+      new_name: Phone
+      type: boolean
+      true_condition: 4
+    1391:
+      new_name: Phone
+      type: boolean
+      true_condition: 1
     
     ```
 |      |   Missing_Count |   Availability_Ratio | Data_Type   |   Unique_Values | Frequent_Values     |
@@ -399,6 +444,14 @@
 ??? abstract "Column Metadata"
     ``` yaml
     1363:
+      new_name: Central_Heating
+      type: boolean
+      true_condition: 1
+    1385:
+      new_name: Central_Heating
+      type: boolean
+      true_condition: 10
+    1391:
       new_name: Central_Heating
       type: boolean
       true_condition: 1
@@ -498,10 +551,9 @@
         1: Owned_Estate_Land
         2: Owned_Estate
         3: Rent
-        4: Mortgage
-        5: Service
-        6: Free
-        7: Other
+        4: Service
+        5: Free
+        6: Other
     1366:
       new_name: Number_of_Rooms
       type: UInt8
@@ -929,6 +981,14 @@
       new_name: Electricity
       type: boolean
       true_condition: 1
+    1385:
+      new_name: Electricity
+      type: boolean
+      true_condition: 2
+    1391:
+      new_name: Electricity
+      type: boolean
+      true_condition: 1
     
     ```
 |      |   Missing_Count |   Availability_Ratio | Data_Type   |   Unique_Values | Frequent_Values   |
@@ -944,6 +1004,14 @@
 ??? abstract "Column Metadata"
     ``` yaml
     1363:
+      new_name: Natural_Gas
+      type: boolean
+      true_condition: 1
+    1385:
+      new_name: Natural_Gas
+      type: boolean
+      true_condition: 3
+    1391:
       new_name: Natural_Gas
       type: boolean
       true_condition: 1
@@ -965,6 +1033,14 @@
       new_name: Bathroom
       type: boolean
       true_condition: 1
+    1385:
+      new_name: Bathroom
+      type: boolean
+      true_condition: 6
+    1391:
+      new_name: Bathroom
+      type: boolean
+      true_condition: 1
     
     ```
 |      |   Missing_Count |   Availability_Ratio | Data_Type   |   Unique_Values | Frequent_Values    |
@@ -980,9 +1056,13 @@
 ??? abstract "Column Metadata"
     ``` yaml
     1363:
-      new_name: Air_Conditioner
+      new_name: AC
       type: boolean
       true_condition: 1
+    1385:
+      new_name: AC
+      type: boolean
+      true_condition: null
     
     ```
 |      |   Missing_Count |   Availability_Ratio | Data_Type   |   Unique_Values | Frequent_Values    |
@@ -1001,6 +1081,14 @@
       new_name: Phone
       type: boolean
       true_condition: 1
+    1385:
+      new_name: Phone
+      type: boolean
+      true_condition: 4
+    1391:
+      new_name: Phone
+      type: boolean
+      true_condition: 1
     
     ```
 |      |   Missing_Count |   Availability_Ratio | Data_Type   |   Unique_Values | Frequent_Values     |
@@ -1016,6 +1104,14 @@
 ??? abstract "Column Metadata"
     ``` yaml
     1363:
+      new_name: Central_Heating
+      type: boolean
+      true_condition: 1
+    1385:
+      new_name: Central_Heating
+      type: boolean
+      true_condition: 10
+    1391:
       new_name: Central_Heating
       type: boolean
       true_condition: 1

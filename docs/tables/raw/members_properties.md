@@ -4,7 +4,7 @@
 
 | Years     | File Code   |
 |:----------|:------------|
-| 1363-1401 | \*P1\*      |
+| 1363-1402 | \*P1\*      |
 
 
 ## Columns Availability
@@ -16,7 +16,7 @@
 | 1369-1383 | ADDRESS | COL01   | COL03   | COL04   | COL05   | COL06   | COL07   | COL08   | COL09   | COL10   |       |       |       |       |       |
 | 1384      | Address | DYCOL01 | DYCOL03 | DYCOL04 | DYCOL05 | DYCOL06 | DYCOL07 | DYCOL08 | DYCOL09 | DYCOL10 |       |       |       |       |       |
 | 1385      | ADDRESS | DYCOL01 | DYCOL03 | DYCOL04 | DYCOL05 | DYCOL06 | DYCOL07 | DYCOL08 | DYCOL09 | DYCOL10 |       |       |       |       |       |
-| 1386-1401 | Address | DYCOL01 | DYCOL03 | DYCOL04 | DYCOL05 | DYCOL06 | DYCOL07 | DYCOL08 | DYCOL09 | DYCOL10 |       |       |       |       |       |
+| 1386-1402 | Address | DYCOL01 | DYCOL03 | DYCOL04 | DYCOL05 | DYCOL06 | DYCOL07 | DYCOL08 | DYCOL09 | DYCOL10 |       |       |       |       |       |
 
 
 ## Annual Summary Tables
@@ -25,7 +25,7 @@
 
 | Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                        |
 |:---------|----------------:|---------------------:|:------------|----------------:|:---------------------------------------|
-| ADDRESS  |               0 |             100      | integer     |           27148 | 1134106: 29; 63071: 27; 124040: 27     |
+| ADDRESS  |               0 |             100      | integer     |           27148 | 1134106: 29; 4037: 27; 63071: 27       |
 | COL01    |           70169 |              51.2928 | string      |              37 | 01: 14,729; 02: 13,963; 03: 12,494     |
 | COL03    |               0 |             100      | integer     |               9 | 3: 81,634; 1: 27,148; 2: 23,667        |
 | COL04    |               0 |             100      | integer     |               2 | 1: 72,430; 2: 71,633                   |
@@ -46,7 +46,7 @@
 
 | Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                        |
 |:---------|----------------:|---------------------:|:------------|----------------:|:---------------------------------------|
-| ADDRESS  |               0 |             100      | integer     |           27563 | 122015: 23; 181098: 23; 183046: 21     |
+| ADDRESS  |               0 |             100      | integer     |           27563 | 181098: 23; 122015: 23; 181079: 21     |
 | COL01    |               0 |             100      | integer     |              25 | 1: 27,563; 2: 26,366; 3: 23,531        |
 | COL03    |               0 |             100      | integer     |               9 | 3: 82,955; 1: 27,563; 2: 24,413        |
 | COL04    |               0 |             100      | integer     |               2 | 1: 73,209; 2: 72,327                   |
@@ -145,7 +145,7 @@
 
 | Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                   |
 |:---------|----------------:|---------------------:|:------------|----------------:|:----------------------------------|
-| ADDRESS  |               0 |             100      | integer     |           18442 | 62117: 24; 24053: 24; 1042111: 23 |
+| ADDRESS  |               0 |             100      | integer     |           18442 | 24053: 24; 62117: 24; 1042111: 23 |
 | COL01    |               0 |             100      | integer     |              28 | 1: 18,453; 2: 17,548; 3: 15,884   |
 | COL03    |               0 |             100      | integer     |              10 | 3: 59,429; 1: 18,454; 2: 16,175   |
 | COL04    |              17 |              99.9833 | integer     |               9 | 2: 51,069; 1: 50,462; 3: 13       |
@@ -159,18 +159,18 @@
 
 ### 1370
 
-| Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                    |
-|:---------|----------------:|---------------------:|:------------|----------------:|:-----------------------------------|
-| ADDRESS  |               0 |             100      | integer     |           18672 | 43044: 25; 1072007: 22; 221034: 21 |
-| COL01    |               0 |             100      | integer     |              25 | 1: 18,673; 2: 17,758; 3: 15,984    |
-| COL03    |               0 |             100      | integer     |               9 | 3: 60,448; 1: 18,673; 2: 16,310    |
-| COL04    |               0 |             100      | integer     |               2 | 2: 51,550; 1: 51,278               |
-| COL05    |               0 |             100      | integer     |             100 | 5: 3,776; 7: 3,542; 8: 3,519       |
-| COL06    |           17774 |              82.7148 | integer     |               3 | 1: 58,467; 2: 26,587               |
-| COL07    |           39882 |              61.2148 | integer     |               3 | 2: 31,564; 1: 31,382               |
-| COL08    |           44361 |              56.859  | integer     |              57 | 16: 6,120; 14: 5,451; 15: 5,056    |
-| COL09    |           18217 |              82.284  | integer     |               8 | 4: 29,878; 1: 24,047; 5: 21,453    |
-| COL10    |           31414 |              69.45   | integer     |               5 | 1: 36,716; 4: 31,051; 2: 3,386     |
+| Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                     |
+|:---------|----------------:|---------------------:|:------------|----------------:|:------------------------------------|
+| ADDRESS  |               0 |             100      | integer     |           18672 | 43044: 25; 1072007: 22; 1044144: 21 |
+| COL01    |               0 |             100      | integer     |              25 | 1: 18,673; 2: 17,758; 3: 15,984     |
+| COL03    |               0 |             100      | integer     |               9 | 3: 60,448; 1: 18,673; 2: 16,310     |
+| COL04    |               0 |             100      | integer     |               2 | 2: 51,550; 1: 51,278                |
+| COL05    |               0 |             100      | integer     |             100 | 5: 3,776; 7: 3,542; 8: 3,519        |
+| COL06    |           17774 |              82.7148 | integer     |               3 | 1: 58,467; 2: 26,587                |
+| COL07    |           39882 |              61.2148 | integer     |               3 | 2: 31,564; 1: 31,382                |
+| COL08    |           44361 |              56.859  | integer     |              57 | 16: 6,120; 14: 5,451; 15: 5,056     |
+| COL09    |           18217 |              82.284  | integer     |               8 | 4: 29,878; 1: 24,047; 5: 21,453     |
+| COL10    |           31414 |              69.45   | integer     |               5 | 1: 36,716; 4: 31,051; 2: 3,386      |
 
 
 ### 1371
@@ -193,7 +193,7 @@
 
 | Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                   |
 |:---------|----------------:|---------------------:|:------------|----------------:|:----------------------------------|
-| ADDRESS  |               0 |             100      | integer     |           12769 | 61005: 21; 31026: 21; 1131023: 20 |
+| ADDRESS  |               0 |             100      | integer     |           12769 | 31026: 21; 61005: 21; 1131023: 20 |
 | COL01    |               0 |             100      | integer     |              21 | 1: 12,770; 2: 12,116; 3: 10,850   |
 | COL03    |               0 |             100      | integer     |               9 | 3: 38,346; 1: 12,770; 2: 11,209   |
 | COL04    |               0 |             100      | integer     |               2 | 1: 33,256; 2: 32,989              |
@@ -209,7 +209,7 @@
 
 | Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                 |
 |:---------|----------------:|---------------------:|:------------|----------------:|:--------------------------------|
-| ADDRESS  |               0 |             100      | integer     |           19909 | 74118: 34; 62063: 26; 43034: 26 |
+| ADDRESS  |               0 |             100      | integer     |           19909 | 74118: 34; 43034: 26; 62063: 26 |
 | COL01    |               0 |             100      | integer     |              34 | 1: 19,909; 2: 19,083; 3: 17,226 |
 | COL03    |               0 |             100      | integer     |               9 | 3: 60,322; 1: 19,909; 2: 17,636 |
 | COL04    |               0 |             100      | integer     |               2 | 1: 52,397; 2: 51,973            |
@@ -223,18 +223,18 @@
 
 ### 1374
 
-| Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                    |
-|:---------|----------------:|---------------------:|:------------|----------------:|:-----------------------------------|
-| ADDRESS  |               0 |             100      | integer     |           36591 | 630074: 33; 630053: 26; 610063: 25 |
-| COL01    |               0 |             100      | integer     |              33 | 1: 36,591; 2: 35,005; 3: 31,471    |
-| COL03    |               0 |             100      | integer     |               9 | 3: 112,491; 1: 36,591; 2: 32,098   |
-| COL04    |               0 |             100      | integer     |               2 | 1: 97,004; 2: 96,667               |
-| COL05    |               0 |             100      | integer     |             100 | 12: 6,712; 10: 6,705; 11: 6,470    |
-| COL06    |           25310 |              86.9314 | integer     |               3 | 1: 125,020; 2: 43,341              |
-| COL07    |           62047 |              67.9627 | integer     |               3 | 2: 66,507; 1: 65,117               |
-| COL08    |           68652 |              64.5523 | integer     |              62 | 16: 15,843; 23: 11,208; 14: 10,500 |
-| COL09    |           48845 |              74.7794 | integer     |               7 | 1: 50,306; 4: 43,373; 5: 37,755    |
-| COL10    |           48859 |              74.7722 | integer     |               5 | 1: 71,510; 4: 67,004; 2: 5,752     |
+| Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                     |
+|:---------|----------------:|---------------------:|:------------|----------------:|:------------------------------------|
+| ADDRESS  |               0 |             100      | integer     |           36591 | 630074: 33; 630053: 26; 2220090: 25 |
+| COL01    |               0 |             100      | integer     |              33 | 1: 36,591; 2: 35,005; 3: 31,471     |
+| COL03    |               0 |             100      | integer     |               9 | 3: 112,491; 1: 36,591; 2: 32,098    |
+| COL04    |               0 |             100      | integer     |               2 | 1: 97,004; 2: 96,667                |
+| COL05    |               0 |             100      | integer     |             100 | 12: 6,712; 10: 6,705; 11: 6,470     |
+| COL06    |           25310 |              86.9314 | integer     |               3 | 1: 125,020; 2: 43,341               |
+| COL07    |           62047 |              67.9627 | integer     |               3 | 2: 66,507; 1: 65,117                |
+| COL08    |           68652 |              64.5523 | integer     |              62 | 16: 15,843; 23: 11,208; 14: 10,500  |
+| COL09    |           48845 |              74.7794 | integer     |               7 | 1: 50,306; 4: 43,373; 5: 37,755     |
+| COL10    |           48859 |              74.7722 | integer     |               5 | 1: 71,510; 4: 67,004; 2: 5,752      |
 
 
 ### 1375
@@ -257,7 +257,7 @@
 
 | Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                  |
 |:---------|----------------:|---------------------:|:------------|----------------:|:---------------------------------|
-| ADDRESS  |               0 |             100      | integer     |           21950 | 61025: 40; 61024: 25; 42012: 24  |
+| ADDRESS  |               0 |             100      | integer     |           21950 | 61025: 40; 61024: 25; 234177: 24 |
 | COL01    |               0 |             100      | integer     |              40 | 1: 21,950; 2: 21,096; 3: 19,029  |
 | COL03    |               0 |             100      | integer     |               9 | 3: 63,153; 1: 21,950; 2: 19,524  |
 | COL04    |               0 |             100      | integer     |               2 | 2: 56,031; 1: 55,704             |
@@ -303,18 +303,18 @@
 
 ### 1379
 
-| Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                        |
-|:---------|----------------:|---------------------:|:------------|----------------:|:---------------------------------------|
-| ADDRESS  |               0 |             100      | integer     |           26941 | 6032016: 22; 6032026: 21; 22042044: 20 |
-| COL01    |               0 |             100      | integer     |              22 | 1: 26,941; 2: 25,728; 3: 22,944        |
-| COL03    |               0 |             100      | integer     |               9 | 3: 74,390; 1: 26,941; 2: 23,703        |
-| COL04    |               0 |             100      | integer     |               2 | 1: 66,783; 2: 65,925                   |
-| COL05    |               0 |             100      | integer     |             100 | 15: 4,431; 14: 4,335; 12: 4,167        |
-| COL06    |           12421 |              90.6404 | integer     |               3 | 1: 91,741; 2: 28,546                   |
-| COL07    |           40967 |              69.13   | integer     |               3 | 2: 50,780; 1: 40,961                   |
-| COL08    |           40967 |              69.13   | integer     |              60 | 16: 10,717; 23: 10,430; 15: 7,862      |
-| COL09    |           24893 |              81.2423 | integer     |               7 | 1: 37,053; 4: 29,646; 5: 29,057        |
-| COL10    |           24893 |              81.2423 | integer     |               5 | 1: 52,741; 4: 50,641; 2: 4,041         |
+| Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                       |
+|:---------|----------------:|---------------------:|:------------|----------------:|:--------------------------------------|
+| ADDRESS  |               0 |             100      | integer     |           26941 | 6032016: 22; 6032026: 21; 4074071: 20 |
+| COL01    |               0 |             100      | integer     |              22 | 1: 26,941; 2: 25,728; 3: 22,944       |
+| COL03    |               0 |             100      | integer     |               9 | 3: 74,390; 1: 26,941; 2: 23,703       |
+| COL04    |               0 |             100      | integer     |               2 | 1: 66,783; 2: 65,925                  |
+| COL05    |               0 |             100      | integer     |             100 | 15: 4,431; 14: 4,335; 12: 4,167       |
+| COL06    |           12421 |              90.6404 | integer     |               3 | 1: 91,741; 2: 28,546                  |
+| COL07    |           40967 |              69.13   | integer     |               3 | 2: 50,780; 1: 40,961                  |
+| COL08    |           40967 |              69.13   | integer     |              60 | 16: 10,717; 23: 10,430; 15: 7,862     |
+| COL09    |           24893 |              81.2423 | integer     |               7 | 1: 37,053; 4: 29,646; 5: 29,057       |
+| COL10    |           24893 |              81.2423 | integer     |               5 | 1: 52,741; 4: 50,641; 2: 4,041        |
 
 
 ### 1380
@@ -337,7 +337,7 @@
 
 | Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                         |
 |:---------|----------------:|---------------------:|:------------|----------------:|:----------------------------------------|
-| ADDRESS  |               0 |             100      | integer     |           32152 | 3054037: 22; 106032041: 22; 4011009: 19 |
+| ADDRESS  |               0 |             100      | integer     |           32152 | 106032041: 22; 3054037: 22; 4011009: 19 |
 | COL01    |               0 |             100      | integer     |              22 | 1: 32,152; 2: 30,592; 3: 27,016         |
 | COL03    |               0 |             100      | integer     |               9 | 3: 84,337; 1: 32,152; 2: 27,846         |
 | COL04    |               0 |             100      | integer     |               2 | 2: 76,835; 1: 76,279                    |
@@ -367,18 +367,18 @@
 
 ### 1383
 
-| Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                          |
-|:---------|----------------:|---------------------:|:------------|----------------:|:-----------------------------------------|
-| ADDRESS  |               0 |             100      | integer     |           24534 | 124013001: 21; 26012016: 20; 3032016: 19 |
-| COL01    |               0 |             100      | integer     |              21 | 1: 24,534; 2: 23,521; 3: 20,749          |
-| COL03    |               0 |             100      | integer     |               9 | 3: 59,951; 1: 24,552; 2: 21,557          |
-| COL04    |               0 |             100      | integer     |               2 | 1: 56,874; 2: 55,900                     |
-| COL05    |            1447 |              98.7169 | integer     |             100 | 18: 3,635; 15: 3,478; 17: 3,429          |
-| COL06    |            9871 |              91.2471 | integer     |               3 | 1: 81,095; 2: 21,808                     |
-| COL07    |           27224 |              75.8597 | integer     |               3 | 2: 55,272; 1: 30,278                     |
-| COL08    |           31679 |              71.9093 | integer     |              58 | 23: 10,570; 16: 8,069; 15: 7,346         |
-| COL09    |           17783 |              84.2313 | integer     |               7 | 1: 34,277; 5: 25,121; 4: 22,865          |
-| COL10    |           17777 |              84.2366 | integer     |               5 | 1: 48,229; 4: 42,932; 2: 3,443           |
+| Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                           |
+|:---------|----------------:|---------------------:|:------------|----------------:|:------------------------------------------|
+| ADDRESS  |               0 |             100      | integer     |           24534 | 124013001: 21; 26012016: 20; 11033041: 19 |
+| COL01    |               0 |             100      | integer     |              21 | 1: 24,534; 2: 23,521; 3: 20,749           |
+| COL03    |               0 |             100      | integer     |               9 | 3: 59,951; 1: 24,552; 2: 21,557           |
+| COL04    |               0 |             100      | integer     |               2 | 1: 56,874; 2: 55,900                      |
+| COL05    |            1447 |              98.7169 | integer     |             100 | 18: 3,635; 15: 3,478; 17: 3,429           |
+| COL06    |            9871 |              91.2471 | integer     |               3 | 1: 81,095; 2: 21,808                      |
+| COL07    |           27224 |              75.8597 | integer     |               3 | 2: 55,272; 1: 30,278                      |
+| COL08    |           31679 |              71.9093 | integer     |              58 | 23: 10,570; 16: 8,069; 15: 7,346          |
+| COL09    |           17783 |              84.2313 | integer     |               7 | 1: 34,277; 5: 25,121; 4: 22,865           |
+| COL10    |           17777 |              84.2366 | integer     |               5 | 1: 48,229; 4: 42,932; 2: 3,443            |
 
 
 ### 1384
@@ -465,7 +465,7 @@
 
 | Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                                |
 |:---------|----------------:|---------------------:|:------------|----------------:|:-----------------------------------------------|
-| Address  |               0 |             100      | integer     |           38285 | 1030060058: 19; 2110068302: 18; 2030009067: 18 |
+| Address  |               0 |             100      | integer     |           38285 | 1030060058: 19; 2030009067: 18; 2110068302: 18 |
 | DYCOL01  |               0 |             100      | integer     |              19 | 1: 38,285; 2: 35,943; 3: 30,678                |
 | DYCOL03  |               0 |             100      | integer     |               9 | 3: 74,377; 1: 38,285; 2: 32,380                |
 | DYCOL04  |               0 |             100      | integer     |               2 | 1: 76,249; 2: 76,042                           |
@@ -481,7 +481,7 @@
 
 | Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                                |
 |:---------|----------------:|---------------------:|:------------|----------------:|:-----------------------------------------------|
-| Address  |               0 |             100      | integer     |           38513 | 2060019172: 18; 1110110009: 16; 2260052009: 16 |
+| Address  |               0 |             100      | integer     |           38513 | 2060019172: 18; 2100010073: 16; 2260052009: 16 |
 | DYCOL01  |               0 |             100      | integer     |              18 | 1: 38,513; 2: 36,014; 3: 30,487                |
 | DYCOL03  |               0 |             100      | integer     |               9 | 3: 72,922; 1: 38,513; 2: 32,462                |
 | DYCOL04  |               3 |              99.998  | integer     |               3 | 2: 75,296; 1: 75,241                           |
@@ -529,7 +529,7 @@
 
 | Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                                   |
 |:---------|----------------:|---------------------:|:------------|----------------:|:--------------------------------------------------|
-| Address  |               0 |             100      | integer     |           38275 | 20611147612: 16; 10603133023: 15; 11105260416: 15 |
+| Address  |               0 |             100      | integer     |           38275 | 20611147612: 16; 11105260416: 15; 11105258023: 15 |
 | DYCOL01  |               0 |             100      | integer     |              16 | 1: 38,275; 2: 35,537; 3: 29,323                   |
 | DYCOL03  |               0 |             100      | integer     |               9 | 3: 63,800; 1: 38,276; 2: 32,165                   |
 | DYCOL04  |               0 |             100      | integer     |               2 | 2: 69,605; 1: 69,428                              |
@@ -545,7 +545,7 @@
 
 | Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                                   |
 |:---------|----------------:|---------------------:|:------------|----------------:|:--------------------------------------------------|
-| Address  |               0 |             100      | integer     |           38252 | 11105258023: 17; 10712161316: 16; 21403325616: 16 |
+| Address  |               0 |             100      | integer     |           38252 | 11105258023: 17; 21403325616: 16; 10712161316: 16 |
 | DYCOL01  |               0 |             100      | integer     |              17 | 1: 38,252; 2: 35,429; 3: 28,916                   |
 | DYCOL03  |               0 |             100      | integer     |               9 | 3: 62,743; 1: 38,252; 2: 31,832                   |
 | DYCOL04  |               0 |             100      | integer     |               2 | 2: 68,946; 1: 68,670                              |
@@ -561,7 +561,7 @@
 
 | Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                                   |
 |:---------|----------------:|---------------------:|:------------|----------------:|:--------------------------------------------------|
-| Address  |               0 |             100      | integer     |           38146 | 20608145921: 20; 11105258023: 17; 20303076829: 15 |
+| Address  |               0 |             100      | integer     |           38146 | 20608145921: 20; 11105258023: 17; 22713601234: 15 |
 | DYCOL01  |               0 |             100      | integer     |              20 | 1: 38,146; 2: 35,156; 3: 28,292                   |
 | DYCOL03  |               0 |             100      | integer     |               9 | 3: 60,983; 1: 38,146; 2: 31,618                   |
 | DYCOL04  |               0 |             100      | integer     |               2 | 2: 67,779; 1: 67,773                              |
@@ -577,7 +577,7 @@
 
 | Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                                   |
 |:---------|----------------:|---------------------:|:------------|----------------:|:--------------------------------------------------|
-| Address  |               0 |             100      | integer     |           37962 | 20303076829: 16; 22002434740: 15; 21110274137: 15 |
+| Address  |               0 |             100      | integer     |           37962 | 20303076829: 16; 21110274137: 15; 22002434740: 15 |
 | DYCOL01  |               0 |             100      | integer     |              16 | 1: 37,962; 2: 35,080; 3: 28,061                   |
 | DYCOL03  |               0 |             100      | integer     |               9 | 3: 59,866; 1: 37,962; 2: 31,538                   |
 | DYCOL04  |               0 |             100      | integer     |               2 | 1: 67,226; 2: 67,163                              |
@@ -641,7 +641,7 @@
 
 | Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                                   |
 |:---------|----------------:|---------------------:|:------------|----------------:|:--------------------------------------------------|
-| Address  |               0 |             100      | integer     |           37988 | 22203621632: 16; 11105141826: 13; 21108521523: 12 |
+| Address  |               0 |             100      | integer     |           37988 | 22203621632: 16; 11105141826: 13; 12301281335: 12 |
 | DYCOL01  |               0 |             100      | integer     |              16 | 1: 37,988; 2: 34,583; 3: 27,078                   |
 | DYCOL03  |               0 |             100      | integer     |               9 | 3: 56,436; 1: 37,988; 2: 30,896                   |
 | DYCOL04  |               0 |             100      | integer     |               2 | 1: 64,499; 2: 64,415                              |
@@ -669,6 +669,22 @@
 | DYCOL10  |           17878 |              85.8647 | string      |               6 | 1: 64,496; 4: 35,969; 2: 6,609                    |
 
 
+### 1402
+
+| Column   |   Missing Count |   Availability Ratio | Data Type   |   Unique Values | Frequent Values                                   |
+|:---------|----------------:|---------------------:|:------------|----------------:|:--------------------------------------------------|
+| Address  |               0 |             100      | integer     |           37883 | 20611458132: 16; 10603074141: 16; 22203621632: 15 |
+| DYCOL01  |               0 |             100      | integer     |              16 | 1: 37,883; 2: 33,741; 3: 25,424                   |
+| DYCOL03  |               0 |             100      | integer     |               9 | 3: 53,047; 1: 37,883; 2: 30,014                   |
+| DYCOL04  |               0 |             100      | integer     |               2 | 2: 62,258; 1: 61,599                              |
+| DYCOL05  |               0 |             100      | integer     |             100 | 40: 2,446; 8: 2,381; 12: 2,344                    |
+| DYCOL06  |            7914 |              93.6104 | string      |               4 | 1: 98,619; 2: 17,294; -: 30                       |
+| DYCOL07  |           25208 |              79.6475 | string      |               4 | 2: 70,214; 1: 28,405; -: 30                       |
+| DYCOL08  |           25207 |              79.6483 | string      |              11 | 1: 37,521; 2: 20,375; 4: 19,297                   |
+| DYCOL09  |           16763 |              86.4658 | integer     |               7 | 1: 34,109; 5: 31,726; 4: 19,360                   |
+| DYCOL10  |           16762 |              86.4667 | integer     |               5 | 1: 63,079; 4: 35,545; 2: 6,805                    |
+
+
 ## Column Code Summary Tables
 
 ### ADDRESS
@@ -686,19 +702,20 @@
 | 1386 |               0 |                  100 | integer     |           31283 | 111052068: 24; 4013010: 23; 4072068: 22           |
 | 1387 |               0 |                  100 | integer     |           39088 | 2041183005: 28; 2041219001: 23; 2041203003: 21    |
 | 1388 |               0 |                  100 | integer     |           36868 | 2040133001: 26; 1110105005: 25; 1260013005: 20    |
-| 1389 |               0 |                  100 | integer     |           38285 | 1030060058: 19; 2110068302: 18; 2030009067: 18    |
-| 1390 |               0 |                  100 | integer     |           38513 | 2060019172: 18; 1110110009: 16; 2260052009: 16    |
+| 1389 |               0 |                  100 | integer     |           38285 | 1030060058: 19; 2030009067: 18; 2110068302: 18    |
+| 1390 |               0 |                  100 | integer     |           38513 | 2060019172: 18; 2100010073: 16; 2260052009: 16    |
 | 1391 |               0 |                  100 | integer     |           38192 | 2060019172: 20; 2100010073: 17; 2030132162: 17    |
 | 1392 |               0 |                  100 | integer     |           38316 | 20608146005: 19; 10804181005: 16; 20605143905: 16 |
-| 1393 |               0 |                  100 | integer     |           38275 | 20611147612: 16; 10603133023: 15; 11105260416: 15 |
-| 1394 |               0 |                  100 | integer     |           38252 | 11105258023: 17; 10712161316: 16; 21403325616: 16 |
-| 1395 |               0 |                  100 | integer     |           38146 | 20608145921: 20; 11105258023: 17; 20303076829: 15 |
-| 1396 |               0 |                  100 | integer     |           37962 | 20303076829: 16; 22002434740: 15; 21110274137: 15 |
+| 1393 |               0 |                  100 | integer     |           38275 | 20611147612: 16; 11105260416: 15; 11105258023: 15 |
+| 1394 |               0 |                  100 | integer     |           38252 | 11105258023: 17; 21403325616: 16; 10712161316: 16 |
+| 1395 |               0 |                  100 | integer     |           38146 | 20608145921: 20; 11105258023: 17; 22713601234: 15 |
+| 1396 |               0 |                  100 | integer     |           37962 | 20303076829: 16; 21110274137: 15; 22002434740: 15 |
 | 1397 |               0 |                  100 | integer     |           38960 | 11103137514: 17; 20627463511: 16; 11103138014: 15 |
 | 1398 |               0 |                  100 | integer     |           38328 | 20817487523: 18; 22209628608: 16; 22105614617: 14 |
 | 1399 |               0 |                  100 | integer     |           37557 | 20817487523: 18; 21105519226: 15; 12603320614: 14 |
-| 1400 |               0 |                  100 | integer     |           37988 | 22203621632: 16; 11105141826: 13; 21108521523: 12 |
+| 1400 |               0 |                  100 | integer     |           37988 | 22203621632: 16; 11105141826: 13; 12301281335: 12 |
 | 1401 |               0 |                  100 | integer     |           37951 | 22203621632: 16; 21103517935: 15; 20623456634: 14 |
+| 1402 |               0 |                  100 | integer     |           37883 | 20611458132: 16; 10603074141: 16; 22203621632: 15 |
 
 
 ### COL01
@@ -938,7 +955,7 @@
       new_name: Weeks_in_Household
       type: UInt16
     1364:
-      new_name: Marrital_State
+      new_name: Marital_Status
       type: category
       categories:
         1: Married
@@ -985,7 +1002,7 @@
 ??? abstract "Column Metadata"
     ``` yaml
     1363:
-      new_name: Marrital_State
+      new_name: Marital_Status
       type: category
       categories:
         1: Married
@@ -1050,13 +1067,13 @@
       type: category
       categories:
         11: Primary
-        21: Secondary
-        31: Tertiary
+        21: Lower_Secondary
+        31: Higher_Secondary
         41: Pre_University
-        51: College
+        51: Short_Cycle_Tertiary
         52: Bachelors
         53: Masters
-        61: PhD
+        61: Doctoral
         71: Unofficial
       replace: null
     1394:
@@ -1064,13 +1081,13 @@
       type: category
       categories:
         11: Primary
-        21: Secondary
-        31: Tertiary
+        21: Lower_Secondary
+        31: Higher_Secondary
         41: Pre_University
-        51: College
+        51: Short_Cycle_Tertiary
         52: Bachelors
         53: Masters
-        61: PhD
+        61: Doctoral
         71: Unofficial
       replace:
         '1': null
@@ -1079,27 +1096,27 @@
       type: category
       categories:
         11: Primary
-        21: Secondary
-        31: Tertiary
+        21: Lower_Secondary
+        31: Higher_Secondary
         41: Pre_University
-        51: College
+        51: Short_Cycle_Tertiary
         52: Bachelors
         53: Masters
-        61: PhD
+        61: Doctoral
         71: Unofficial
       replace: null
     1397:
       new_name: Education_Level
       type: category
       categories:
-        1: Primar
-        2: Secondary
-        3: Tertiary
+        1: Primary
+        2: Lower_Secondary
+        3: Higher_Secondary
         4: Pre_University
-        5: College
+        5: Short_Cycle_Tertiary
         6: Bachelors
         7: Masters
-        8: PhD
+        8: Doctoral
         9: Unofficial
       replace: null
     
@@ -1137,7 +1154,7 @@
       new_name: Literacy_Status
       type: UInt8
     1366:
-      new_name: Activity_State
+      new_name: Activity_Status
       type: UInt16
       categories:
         1: Employed
@@ -1148,7 +1165,7 @@
         6: Other
       replace: null
     1369:
-      new_name: Activity_State
+      new_name: Activity_Status
       type: category
       categories:
         1: Employed
@@ -1161,7 +1178,7 @@
         0: null
         9: null
     1370:
-      new_name: Activity_State
+      new_name: Activity_Status
       type: category
       categories:
         1: Employed
@@ -1173,7 +1190,7 @@
       replace:
         7: null
     1371:
-      new_name: Activity_State
+      new_name: Activity_Status
       type: category
       categories:
         1: Employed
@@ -1185,7 +1202,7 @@
       replace:
         9: null
     1372:
-      new_name: Activity_State
+      new_name: Activity_Status
       type: category
       categories:
         1: Employed
@@ -1232,10 +1249,10 @@
       categories: null
       replace: null
     1366:
-      new_name: Job_Code
+      new_name: Occupation_Code
       type: string
     1369:
-      new_name: Marrital_State
+      new_name: Marital_Status
       type: category
       categories:
         1: Married
@@ -1249,7 +1266,7 @@
         8: null
         9: null
     1370:
-      new_name: Marrital_State
+      new_name: Marital_Status
       type: category
       categories:
         1: Married
@@ -1289,7 +1306,7 @@
 ??? abstract "Column Metadata"
     ``` yaml
     1363:
-      new_name: Activity_State
+      new_name: Activity_Status
       type: UInt16
       categories:
         1: Employed
@@ -1300,7 +1317,7 @@
         6: Other
       replace: null
     1364:
-      new_name: Activity_State
+      new_name: Activity_Status
       type: UInt16
       categories:
         1: Employed
@@ -1312,7 +1329,7 @@
       replace:
         ٌق: null
     1365:
-      new_name: Activity_State
+      new_name: Activity_Status
       type: UInt16
       categories:
         1: Employed
@@ -1343,7 +1360,7 @@
 ??? abstract "Column Metadata"
     ``` yaml
     1363:
-      new_name: Job_Code
+      new_name: Occupation_Code
       type: string
     1366:
       new_name: Work_Type
@@ -1447,6 +1464,7 @@
 | 1399 |               0 |             100      | integer     |              18 | 1: 37,557; 2: 34,399; 3: 27,142 |
 | 1400 |               0 |             100      | integer     |              16 | 1: 37,988; 2: 34,583; 3: 27,078 |
 | 1401 |               0 |             100      | integer     |              16 | 1: 37,951; 2: 34,205; 3: 26,286 |
+| 1402 |               0 |             100      | integer     |              16 | 1: 37,883; 2: 33,741; 3: 25,424 |
 
 
 ### DYCOL03
@@ -1547,6 +1565,7 @@
 | 1399 |               0 |                  100 | integer     |               9 | 3: 56,595; 1: 37,557; 2: 30,808 |
 | 1400 |               0 |                  100 | integer     |               9 | 3: 56,436; 1: 37,988; 2: 30,896 |
 | 1401 |               0 |                  100 | integer     |               9 | 3: 54,823; 1: 37,951; 2: 30,490 |
+| 1402 |               0 |                  100 | integer     |               9 | 3: 53,047; 1: 37,883; 2: 30,014 |
 
 
 ### DYCOL04
@@ -1602,6 +1621,7 @@
 | 1399 |               0 |             100      | integer     |               2 | 2: 64,541; 1: 64,414       |
 | 1400 |               0 |             100      | integer     |               2 | 1: 64,499; 2: 64,415       |
 | 1401 |           61743 |              51.1828 | string      |               4 | 1: 32,446; 2: 32,287; ?: 2 |
+| 1402 |               0 |             100      | integer     |               2 | 2: 62,258; 1: 61,599       |
 
 
 ### DYCOL05
@@ -1633,6 +1653,7 @@
 | 1399 |               0 |             100      | integer     |             100 | 35: 2,525; 5: 2,422; 30: 2,330  |
 | 1400 |               0 |             100      | integer     |             100 | 35: 2,568; 40: 2,487; 36: 2,315 |
 | 1401 |               0 |             100      | integer     |             100 | 40: 2,342; 8: 2,295; 7: 2,279   |
+| 1402 |               0 |             100      | integer     |             100 | 40: 2,446; 8: 2,381; 12: 2,344  |
 
 
 ### DYCOL06
@@ -1665,6 +1686,7 @@
 | 1399 |           11194 |              91.3195 | string      |               5 | 1: 99,242; 2: 18,467; -: 52   |
 | 1400 |           10065 |              92.1925 | string      |               5 | 1: 100,889; 2: 17,902; -: 58  |
 | 1401 |            8953 |              92.9213 | string      |               4 | 1: 99,833; 2: 17,656; -: 36   |
+| 1402 |            7914 |              93.6104 | string      |               4 | 1: 98,619; 2: 17,294; -: 30   |
 
 
 ### DYCOL07
@@ -1697,6 +1719,7 @@
 | 1399 |           29660 |              76.9997 | string      |               5 | 2: 71,055; 1: 28,188; -: 52  |
 | 1400 |           27966 |              78.3065 | string      |               5 | 2: 71,927; 1: 28,963; -: 58  |
 | 1401 |           26609 |              78.9616 | string      |               4 | 2: 70,919; 1: 28,914; -: 36  |
+| 1402 |           25208 |              79.6475 | string      |               4 | 2: 70,214; 1: 28,405; -: 30  |
 
 
 ### DYCOL08
@@ -1713,13 +1736,13 @@
       type: category
       categories:
         11: Primary
-        21: Secondary
-        31: Tertiary
+        21: Lower_Secondary
+        31: Higher_Secondary
         41: Pre_University
-        51: College
+        51: Short_Cycle_Tertiary
         52: Bachelors
         53: Masters
-        61: PhD
+        61: Doctoral
         71: Unofficial
       replace: null
     1394:
@@ -1727,13 +1750,13 @@
       type: category
       categories:
         11: Primary
-        21: Secondary
-        31: Tertiary
+        21: Lower_Secondary
+        31: Higher_Secondary
         41: Pre_University
-        51: College
+        51: Short_Cycle_Tertiary
         52: Bachelors
         53: Masters
-        61: PhD
+        61: Doctoral
         71: Unofficial
       replace:
         '1': null
@@ -1742,27 +1765,27 @@
       type: category
       categories:
         11: Primary
-        21: Secondary
-        31: Tertiary
+        21: Lower_Secondary
+        31: Higher_Secondary
         41: Pre_University
-        51: College
+        51: Short_Cycle_Tertiary
         52: Bachelors
         53: Masters
-        61: PhD
+        61: Doctoral
         71: Unofficial
       replace: null
     1397:
       new_name: Education_Level
       type: category
       categories:
-        1: Primar
-        2: Secondary
-        3: Tertiary
+        1: Primary
+        2: Lower_Secondary
+        3: Higher_Secondary
         4: Pre_University
-        5: College
+        5: Short_Cycle_Tertiary
         6: Bachelors
         7: Masters
-        8: PhD
+        8: Doctoral
         9: Unofficial
       replace: null
     
@@ -1787,6 +1810,7 @@
 | 1399 |           29661 |              76.999  | string      |              12 | 1: 37,989; 2: 20,368; 4: 18,924       |
 | 1400 |           27966 |              78.3065 | string      |              12 | 1: 38,504; 2: 20,665; 4: 19,395       |
 | 1401 |           26609 |              78.9616 | string      |              11 | 1: 38,023; 2: 20,466; 4: 19,428       |
+| 1402 |           25207 |              79.6483 | string      |              11 | 1: 37,521; 2: 20,375; 4: 19,297       |
 
 
 ### DYCOL09
@@ -1794,7 +1818,7 @@
 ??? abstract "Column Metadata"
     ``` yaml
     1363:
-      new_name: Activity_State
+      new_name: Activity_Status
       type: UInt16
       categories:
         1: Employed
@@ -1805,7 +1829,7 @@
         6: Other
       replace: null
     1364:
-      new_name: Activity_State
+      new_name: Activity_Status
       type: UInt16
       categories:
         1: Employed
@@ -1817,7 +1841,7 @@
       replace:
         ٌق: null
     1365:
-      new_name: Activity_State
+      new_name: Activity_Status
       type: UInt16
       categories:
         1: Employed
@@ -1828,7 +1852,7 @@
         6: Other
       replace: null
     1369:
-      new_name: Activity_State
+      new_name: Activity_Status
       type: category
       categories:
         1: Employed
@@ -1841,7 +1865,7 @@
         0: null
         9: null
     1370:
-      new_name: Activity_State
+      new_name: Activity_Status
       type: category
       categories:
         1: Employed
@@ -1853,7 +1877,7 @@
       replace:
         7: null
     1371:
-      new_name: Activity_State
+      new_name: Activity_Status
       type: category
       categories:
         1: Employed
@@ -1865,7 +1889,7 @@
       replace:
         9: null
     1372:
-      new_name: Activity_State
+      new_name: Activity_Status
       type: category
       categories:
         1: Employed
@@ -1897,6 +1921,7 @@
 | 1399 |           19976 |              84.5093 | integer     |               7 | 1: 34,912; 5: 32,851; 4: 19,222 |
 | 1400 |           19043 |              85.2281 | integer     |               7 | 1: 35,222; 5: 32,927; 4: 19,927 |
 | 1401 |           17881 |              85.8624 | integer     |               7 | 1: 34,580; 5: 32,320; 4: 19,814 |
+| 1402 |           16763 |              86.4658 | integer     |               7 | 1: 34,109; 5: 31,726; 4: 19,360 |
 
 
 ### DYCOL10
@@ -1904,7 +1929,7 @@
 ??? abstract "Column Metadata"
     ``` yaml
     1363:
-      new_name: Marrital_State
+      new_name: Marital_Status
       type: category
       categories:
         1: Married
@@ -1913,7 +1938,7 @@
         4: Bachelor
       replace: null
     1369:
-      new_name: Marrital_State
+      new_name: Marital_Status
       type: category
       categories:
         1: Married
@@ -1927,7 +1952,7 @@
         8: null
         9: null
     1370:
-      new_name: Marrital_State
+      new_name: Marital_Status
       type: category
       categories:
         1: Married
@@ -1957,5 +1982,6 @@
 | 1399 |           19975 |              84.5101 | integer     |               5 | 1: 65,698; 4: 35,698; 2: 6,034 |
 | 1400 |           19040 |              85.2305 | integer     |               5 | 1: 65,660; 4: 36,431; 2: 6,246 |
 | 1401 |           17878 |              85.8647 | string      |               6 | 1: 64,496; 4: 35,969; 2: 6,609 |
+| 1402 |           16762 |              86.4667 | integer     |               5 | 1: 63,079; 4: 35,545; 2: 6,805 |
 
 

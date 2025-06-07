@@ -2,20 +2,20 @@
 
 ## Old to New Titles
 
-| Years     | ADDRESS   | Q1             | Q2                            | Q3              | Q4                       | Q4_01   | Q4_02      | Q4_03   | Q4_04          | Q4_05   | Q4_06    | Q4_07   | Q4_08        | Q4_09   | Q4_1   | Q4_2       | Q4_3    | Q4_4           | Q4_5   | Q4_6     | Q4_7   | Q4_8         | Q4_9   | Q5              | Q5_1       | Q5_2        | Q5_3        | Q5_4     | Q5_5            | Q6_01   | Q6_02      | Q6_03   | Q6_04          | Q6_05   | Q6_06    | Q6_07   | Q6_08        | Q6_09   | Q7_1       | Q7_2        | Q7_3        | Q7_4     | Q7_5            |
-|:----------|:----------|:---------------|:------------------------------|:----------------|:-------------------------|:--------|:-----------|:--------|:---------------|:--------|:---------|:--------|:-------------|:--------|:-------|:-----------|:--------|:---------------|:-------|:---------|:-------|:-------------|:-------|:----------------|:-----------|:------------|:------------|:---------|:----------------|:--------|:-----------|:--------|:---------------|:--------|:---------|:--------|:-------------|:--------|:-----------|:------------|:------------|:---------|:----------------|
-| 1363      | ID        | Tenure         | Structure_Main_Materials      | Number_of_Rooms |                          | Car     | Motorcycle | Bicycle | Sewing_Machine | Radio   | Cassette | TV      | Refrigerator | Oven    |        |            |         |                |        |          |        |              |        |                 | Pipe_Water | Electricity | Natural_Gas | Bathroom | Air_Conditioner |         |            |         |                |         |          |         |              |         |            |             |             |          |                 |
-| 1364-1365 | ID        | Lives_in_House | Number_of_Households_in_House | Tenure          | Structure_Main_Materials |         |            |         |                |         |          |         |              |         |        |            |         |                |        |          |        |              |        | Number_of_Rooms |            |             |             |          |                 | Car     | Motorcycle | Bicycle | Sewing_Machine | Radio   | Cassette | TV      | Refrigerator | Oven    | Pipe_Water | Electricity | Natural_Gas | Bathroom | Air_Conditioner |
-| 1366-1368 | ID        | Tenure         | Structure_Main_Materials      | Number_of_Rooms |                          |         |            |         |                |         |          |         |              |         | Car    | Motorcycle | Bicycle | Sewing_Machine | Radio  | Cassette | TV     | Refrigerator | Oven   |                 | Pipe_Water | Electricity | Natural_Gas | Bathroom | Air_Conditioner |         |            |         |                |         |          |         |              |         |            |             |             |          |                 |
+| Years     | ADDRESS   | Q1             | Q2                            | Q3              | Q4                       | Q4_01   | Q4_02      | Q4_03   | Q4_04          | Q4_05   | Q4_06    | Q4_07   | Q4_08        | Q4_09   | Q4_1   | Q4_2       | Q4_3    | Q4_4           | Q4_5   | Q4_6     | Q4_7   | Q4_8         | Q4_9   | Q5              | Q5_1       | Q5_2        | Q5_3        | Q5_4     | Q5_5   | Q6_01   | Q6_02      | Q6_03   | Q6_04          | Q6_05   | Q6_06    | Q6_07   | Q6_08        | Q6_09   | Q7_1       | Q7_2        | Q7_3        | Q7_4     | Q7_5   |
+|:----------|:----------|:---------------|:------------------------------|:----------------|:-------------------------|:--------|:-----------|:--------|:---------------|:--------|:---------|:--------|:-------------|:--------|:-------|:-----------|:--------|:---------------|:-------|:---------|:-------|:-------------|:-------|:----------------|:-----------|:------------|:------------|:---------|:-------|:--------|:-----------|:--------|:---------------|:--------|:---------|:--------|:-------------|:--------|:-----------|:------------|:------------|:---------|:-------|
+| 1363      | ID        | Tenure         | Structure_Main_Materials      | Number_of_Rooms |                          | Car     | Motorcycle | Bicycle | Sewing_Machine | Radio   | Cassette | TV      | Refrigerator | Oven    |        |            |         |                |        |          |        |              |        |                 | Pipe_Water | Electricity | Natural_Gas | Bathroom | AC     |         |            |         |                |         |          |         |              |         |            |             |             |          |        |
+| 1364-1365 | ID        | Lives_in_House | Number_of_Households_in_House | Tenure          | Structure_Main_Materials |         |            |         |                |         |          |         |              |         |        |            |         |                |        |          |        |              |        | Number_of_Rooms |            |             |             |          |        | Car     | Motorcycle | Bicycle | Sewing_Machine | Radio   | Cassette | TV      | Refrigerator | Oven    | Pipe_Water | Electricity | Natural_Gas | Bathroom | AC     |
+| 1366-1368 | ID        | Tenure         | Structure_Main_Materials      | Number_of_Rooms |                          |         |            |         |                |         |          |         |              |         | Car    | Motorcycle | Bicycle | Sewing_Machine | Radio  | Cassette | TV     | Refrigerator | Oven   |                 | Pipe_Water | Electricity | Natural_Gas | Bathroom | AC     |         |            |         |                |         |          |         |              |         |            |             |             |          |        |
 
 
 ## New to Old Titles
 
-| Years     | ID      | Tenure   | Structure_Main_Materials   | Number_of_Rooms   | Car   | Motorcycle   | Bicycle   | Sewing_Machine   | Radio   | Cassette   | TV    | Refrigerator   | Oven   | Pipe_Water   | Electricity   | Natural_Gas   | Bathroom   | Air_Conditioner   | Lives_in_House   | Number_of_Households_in_House   |
-|:----------|:--------|:---------|:---------------------------|:------------------|:------|:-------------|:----------|:-----------------|:--------|:-----------|:------|:---------------|:-------|:-------------|:--------------|:--------------|:-----------|:------------------|:-----------------|:--------------------------------|
-| 1363      | ADDRESS | Q1       | Q2                         | Q3                | Q4_01 | Q4_02        | Q4_03     | Q4_04            | Q4_05   | Q4_06      | Q4_07 | Q4_08          | Q4_09  | Q5_1         | Q5_2          | Q5_3          | Q5_4       | Q5_5              |                  |                                 |
-| 1364-1365 | ADDRESS | Q3       | Q4                         | Q5                | Q6_01 | Q6_02        | Q6_03     | Q6_04            | Q6_05   | Q6_06      | Q6_07 | Q6_08          | Q6_09  | Q7_1         | Q7_2          | Q7_3          | Q7_4       | Q7_5              | Q1               | Q2                              |
-| 1366-1368 | ADDRESS | Q1       | Q2                         | Q3                | Q4_1  | Q4_2         | Q4_3      | Q4_4             | Q4_5    | Q4_6       | Q4_7  | Q4_8           | Q4_9   | Q5_1         | Q5_2          | Q5_3          | Q5_4       | Q5_5              |                  |                                 |
+| Years     | ID      | Tenure   | Structure_Main_Materials   | Number_of_Rooms   | Car   | Motorcycle   | Bicycle   | Sewing_Machine   | Radio   | Cassette   | TV    | Refrigerator   | Oven   | Pipe_Water   | Electricity   | Natural_Gas   | Bathroom   | AC   | Lives_in_House   | Number_of_Households_in_House   |
+|:----------|:--------|:---------|:---------------------------|:------------------|:------|:-------------|:----------|:-----------------|:--------|:-----------|:------|:---------------|:-------|:-------------|:--------------|:--------------|:-----------|:-----|:-----------------|:--------------------------------|
+| 1363      | ADDRESS | Q1       | Q2                         | Q3                | Q4_01 | Q4_02        | Q4_03     | Q4_04            | Q4_05   | Q4_06      | Q4_07 | Q4_08          | Q4_09  | Q5_1         | Q5_2          | Q5_3          | Q5_4       | Q5_5 |                  |                                 |
+| 1364-1365 | ADDRESS | Q3       | Q4                         | Q5                | Q6_01 | Q6_02        | Q6_03     | Q6_04            | Q6_05   | Q6_06      | Q6_07 | Q6_08          | Q6_09  | Q7_1         | Q7_2          | Q7_3          | Q7_4       | Q7_5 | Q1               | Q2                              |
+| 1366-1368 | ADDRESS | Q1       | Q2                         | Q3                | Q4_1  | Q4_2         | Q4_3      | Q4_4             | Q4_5    | Q4_6       | Q4_7  | Q4_8           | Q4_9   | Q5_1         | Q5_2          | Q5_3          | Q5_4       | Q5_5 |                  |                                 |
 
 
 ## Columns Details
@@ -61,10 +61,9 @@
         1: Owned_Estate_Land
         2: Owned_Estate
         3: Rent
-        4: Mortgage
-        5: Service
-        6: Free
-        7: Other
+        4: Service
+        5: Free
+        6: Other
     1364:
       column_code: Q3
       type: category
@@ -72,11 +71,20 @@
         1: Owned_Estate_Land
         2: Owned_Estate
         3: Rent
-        4: Mortgage
-        5: Service
-        6: Free
-        7: Other
+        4: Service
+        5: Free
+        6: Other
     1366:
+      column_code: Q1
+      type: category
+      categories:
+        1: Owned_Estate_Land
+        2: Owned_Estate
+        3: Rent
+        4: Service
+        5: Free
+        6: Other
+    1383:
       column_code: Q1
       type: category
       categories:
@@ -102,14 +110,14 @@
 
 **category data**
 
-|   Year |   Owned_Estate_Land |   Service |   Rent | Mortgage   |   Owned_Estate |   Free |
-|-------:|--------------------:|----------:|-------:|:-----------|---------------:|-------:|
-|   1363 |               88.31 |      1.34 |   1.1  | 0.03       |           1.47 |   7.75 |
-|   1364 |               84.16 |      1.49 |   1.38 | 0.06       |           3.32 |   9.59 |
-|   1365 |               87.47 |      1.15 |   1.32 |            |           0.92 |   9.14 |
-|   1366 |               84.53 |      8.65 |   2.12 | 2.42       |           2.22 |   0.07 |
-|   1367 |               86.4  |      7.25 |   1.57 | 1.8        |           2.79 |   0.18 |
-|   1368 |               89.12 |      6.8  |   1.53 | 1.43       |           1.08 |   0.05 |
+|   Year |   Owned_Estate_Land |   Free |   Rent | Service   |   Owned_Estate |   Other |
+|-------:|--------------------:|-------:|-------:|:----------|---------------:|--------:|
+|   1363 |               88.31 |   1.34 |   1.1  | 0.03      |           1.47 |    7.75 |
+|   1364 |               84.16 |   1.49 |   1.38 | 0.06      |           3.32 |    9.59 |
+|   1365 |               87.47 |   1.15 |   1.32 |           |           0.92 |    9.14 |
+|   1366 |               84.53 |   8.65 |   2.12 | 2.42      |           2.22 |    0.07 |
+|   1367 |               86.4  |   7.25 |   1.57 | 1.8       |           2.79 |    0.18 |
+|   1368 |               89.12 |   6.8  |   1.53 | 1.43      |           1.08 |    0.05 |
 
 
 #### Categories
@@ -119,10 +127,9 @@
 |  1 | Owned_Estate_Land |
 |  2 | Owned_Estate      |
 |  3 | Rent              |
-|  4 | Mortgage          |
-|  5 | Service           |
-|  6 | Free              |
-|  7 | Other             |
+|  4 | Service           |
+|  5 | Free              |
+|  6 | Other             |
 
 
 ### Structure_Main_Materials
@@ -400,6 +407,10 @@
       column_code: Q6_01
       type: boolean
       true_condition: 1
+    1402:
+      column_code: Q6_01
+      type: boolean
+      true_condition: 1
     
     ```
 #### Column Codes
@@ -582,6 +593,10 @@
       type: boolean
       true_condition: 1
     1401:
+      column_code: Q6_02
+      type: boolean
+      true_condition: 1
+    1402:
       column_code: Q6_02
       type: boolean
       true_condition: 1
@@ -770,6 +785,10 @@
       column_code: Q6_03
       type: boolean
       true_condition: 1
+    1402:
+      column_code: Q6_03
+      type: boolean
+      true_condition: 1
     
     ```
 #### Column Codes
@@ -952,6 +971,10 @@
       type: boolean
       true_condition: 1
     1401:
+      column_code: Q6_04
+      type: boolean
+      true_condition: 1
+    1402:
       column_code: Q6_04
       type: boolean
       true_condition: 1
@@ -1140,6 +1163,10 @@
       column_code: Q6_05
       type: boolean
       true_condition: 1
+    1402:
+      column_code: Q6_05
+      type: boolean
+      true_condition: 1
     
     ```
 #### Column Codes
@@ -1322,6 +1349,10 @@
       type: boolean
       true_condition: 1
     1401:
+      column_code: Q6_06
+      type: boolean
+      true_condition: 1
+    1402:
       column_code: Q6_06
       type: boolean
       true_condition: 1
@@ -1510,6 +1541,10 @@
       column_code: Q6_07
       type: boolean
       true_condition: 1
+    1402:
+      column_code: Q6_07
+      type: boolean
+      true_condition: 1
     
     ```
 #### Column Codes
@@ -1692,6 +1727,10 @@
       type: boolean
       true_condition: 1
     1401:
+      column_code: Q6_08
+      type: boolean
+      true_condition: 1
+    1402:
       column_code: Q6_08
       type: boolean
       true_condition: 1
@@ -1880,6 +1919,10 @@
       column_code: Q6_09
       type: boolean
       true_condition: 1
+    1402:
+      column_code: Q6_09
+      type: boolean
+      true_condition: 1
     
     ```
 #### Column Codes
@@ -2065,6 +2108,10 @@
       column_code: Q7_1
       type: boolean
       true_condition: 1
+    1402:
+      column_code: Q7_1
+      type: boolean
+      true_condition: 1
     
     ```
 #### Column Codes
@@ -2185,27 +2232,27 @@
     1385:
       column_code: Q7_2
       type: boolean
-      true_condition: 1
+      true_condition: 2
     1386:
       column_code: Q7_2
       type: boolean
-      true_condition: 1
+      true_condition: 2
     1387:
       column_code: Q7_2
       type: boolean
-      true_condition: 1
+      true_condition: 2
     1388:
       column_code: Q7_2
       type: boolean
-      true_condition: 1
+      true_condition: 2
     1389:
       column_code: Q7_2
       type: boolean
-      true_condition: 1
+      true_condition: 2
     1390:
       column_code: Q7_2
       type: boolean
-      true_condition: 1
+      true_condition: 2
     1391:
       column_code: Q7_2
       type: boolean
@@ -2247,6 +2294,10 @@
       type: boolean
       true_condition: 1
     1401:
+      column_code: Q7_2
+      type: boolean
+      true_condition: 1
+    1402:
       column_code: Q7_2
       type: boolean
       true_condition: 1
@@ -2370,27 +2421,27 @@
     1385:
       column_code: Q7_3
       type: boolean
-      true_condition: 1
+      true_condition: 3
     1386:
       column_code: Q7_3
       type: boolean
-      true_condition: 1
+      true_condition: 3
     1387:
       column_code: Q7_3
       type: boolean
-      true_condition: 1
+      true_condition: 3
     1388:
       column_code: Q7_3
       type: boolean
-      true_condition: 1
+      true_condition: 3
     1389:
       column_code: Q7_3
       type: boolean
-      true_condition: 1
+      true_condition: 3
     1390:
       column_code: Q7_3
       type: boolean
-      true_condition: 1
+      true_condition: 3
     1391:
       column_code: Q7_3
       type: boolean
@@ -2432,6 +2483,10 @@
       type: boolean
       true_condition: 1
     1401:
+      column_code: Q7_3
+      type: boolean
+      true_condition: 1
+    1402:
       column_code: Q7_3
       type: boolean
       true_condition: 1
@@ -2555,27 +2610,27 @@
     1385:
       column_code: Q7_4
       type: boolean
-      true_condition: 1
+      true_condition: 6
     1386:
       column_code: Q7_4
       type: boolean
-      true_condition: 1
+      true_condition: 6
     1387:
       column_code: Q7_4
       type: boolean
-      true_condition: 1
+      true_condition: 6
     1388:
       column_code: Q7_4
       type: boolean
-      true_condition: 1
+      true_condition: 6
     1389:
       column_code: Q7_4
       type: boolean
-      true_condition: 1
+      true_condition: 6
     1390:
       column_code: Q7_4
       type: boolean
-      true_condition: 1
+      true_condition: 6
     1391:
       column_code: Q7_4
       type: boolean
@@ -2620,6 +2675,10 @@
       column_code: Q7_4
       type: boolean
       true_condition: 1
+    1402:
+      column_code: Q7_4
+      type: boolean
+      true_condition: 1
     
     ```
 #### Column Codes
@@ -2645,7 +2704,7 @@
 |   1368 |   87.59 |  12.41 |         0 |
 
 
-### Air_Conditioner
+### AC
 
 ??? abstract "Column Metadata"
     ``` yaml
@@ -2740,76 +2799,80 @@
     1385:
       column_code: Q7_5
       type: boolean
-      true_condition: 1
+      true_condition: null
     1386:
       column_code: Q7_5
       type: boolean
-      true_condition: 1
+      true_condition: null
     1387:
       column_code: Q7_5
       type: boolean
-      true_condition: 1
+      true_condition: null
     1388:
       column_code: Q7_5
       type: boolean
-      true_condition: 1
+      true_condition: null
     1389:
       column_code: Q7_5
       type: boolean
-      true_condition: 1
+      true_condition: null
     1390:
       column_code: Q7_5
       type: boolean
-      true_condition: 1
+      true_condition: null
     1391:
       column_code: Q7_5
       type: boolean
-      true_condition: 1
+      true_condition: null
     1392:
       column_code: Q7_5
       type: boolean
-      true_condition: 1
+      true_condition: null
     1393:
       column_code: Q7_5
       type: boolean
-      true_condition: 1
+      true_condition: null
     1394:
       column_code: Q7_5
       type: boolean
-      true_condition: 1
+      true_condition: null
     1395:
       column_code: Q7_5
       type: boolean
-      true_condition: 1
+      true_condition: null
     1396:
       column_code: Q7_5
       type: boolean
-      true_condition: 1
+      true_condition: null
     1397:
       column_code: Q7_5
       type: boolean
-      true_condition: 1
+      true_condition: null
     1398:
       column_code: Q7_5
       type: boolean
-      true_condition: 1
+      true_condition: null
     1399:
       column_code: Q7_5
       type: boolean
-      true_condition: 1
+      true_condition: null
     1400:
       column_code: Q7_5
       type: boolean
-      true_condition: 1
+      true_condition: null
     1401:
       column_code: Q7_5
       type: boolean
-      true_condition: 1
+      true_condition: null
+    1402:
+      column_code: Q7_5
+      type: boolean
+      true_condition: null
     
     ```
 #### Column Codes
 
-| Years     | Air_Conditioner                                               |
+| Years     | AC                                                            |
 |:----------|:--------------------------------------------------------------|
 | 1363      | [Q5_5](/HBSIR/tables/raw/old_rural_house_specifications#q5_5) |
 | 1364-1365 | [Q7_5](/HBSIR/tables/raw/old_rural_house_specifications#q7_5) |

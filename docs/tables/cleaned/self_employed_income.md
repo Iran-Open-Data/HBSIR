@@ -10,7 +10,7 @@
 
 | Years     | ADDRESS   | DYCOL01       | DYCOL02           | DYCOL03         | DYCOL04       | DYCOL05         | DYCOL06         | DYCOL07               | DYCOL08              | DYCOL09   | DYCOL10       | DYCOL11               | DYCOL12     | DYCOL13      | DYCOL14   | DYCOL15   |
 |:----------|:----------|:--------------|:------------------|:----------------|:--------------|:----------------|:----------------|:----------------------|:---------------------|:----------|:--------------|:----------------------|:------------|:-------------|:----------|:----------|
-| 1384-1401 | ID        | Member_Number | Employment_Status | Occupation_Code | Industry_Code | Employment_Type | Is_Agricultural | Working_Hours_per_Day | Working_Day_per_Week | Wage_Cost | Cost_of_Sales | Other_Operating_Costs | Other_Costs | Business_Tax | Sales     | Profit    |
+| 1384-1402 | ID        | Member_Number | Employment_Status | Occupation_Code | Industry_Code | Employment_Type | Is_Agricultural | Working_Hours_per_Day | Working_Day_per_Week | Wage_Cost | Cost_of_Sales | Other_Operating_Costs | Other_Costs | Business_Tax | Sales     | Profit    |
 
 
 ## New to Old Titles
@@ -19,7 +19,7 @@
 |:----------|:--------|:----------------|:--------------------|:------------------|:----------------|:------------------|:------------------|:------------------------|:-----------------------|:------------|:----------------|:------------------------|:--------------|:---------------|:--------|:---------|
 | 1369-1373 | ADDRESS | COL01           |                     | COL02             | COL03           | COL04             | COL05             |                         |                        | COL06       | COL07           | COL08                   | COL09         | COL10          | COL11   | COL12    |
 | 1374-1383 | ADDRESS | COL01           | COL02               | COL03             | COL04           | COL05             | COL06             |                         |                        | COL07       | COL08           | COL09                   | COL10         | COL11          | COL12   | COL13    |
-| 1384-1401 | ADDRESS | DYCOL01         | DYCOL02             | DYCOL03           | DYCOL04         | DYCOL05           | DYCOL06           | DYCOL07                 | DYCOL08                | DYCOL09     | DYCOL10         | DYCOL11                 | DYCOL12       | DYCOL13        | DYCOL14 | DYCOL15  |
+| 1384-1402 | ADDRESS | DYCOL01         | DYCOL02             | DYCOL03           | DYCOL04         | DYCOL05           | DYCOL06           | DYCOL07                 | DYCOL08                | DYCOL09     | DYCOL10         | DYCOL11                 | DYCOL12       | DYCOL13        | DYCOL14 | DYCOL15  |
 
 
 ## Columns Details
@@ -52,7 +52,7 @@
 
 | Years     | ID                                                        |
 |:----------|:----------------------------------------------------------|
-| 1369-1401 | [ADDRESS](/HBSIR/tables/raw/self_employed_income#address) |
+| 1369-1402 | [ADDRESS](/HBSIR/tables/raw/self_employed_income#address) |
 
 
 #### Summary Statistics
@@ -94,6 +94,7 @@
 |   1399 |   19323 |      1.8131e+10  |          4.71779e+09 |     1.0001e+10  |      2.05094e+10 | 2.30067e+10 |
 |   1400 |   18570 |      1.80035e+10 |          4.77232e+09 |     1.0001e+10  |      2.05044e+10 | 2.30067e+10 |
 |   1401 |   17313 |      1.78946e+10 |          4.82908e+09 |     1.0001e+10  |      2.05074e+10 | 2.30067e+10 |
+|   1402 |   17568 |      1.79201e+10 |          4.85837e+09 |     1.0001e+10  |      2.05104e+10 | 2.30067e+10 |
 
 
 ### Member_Number
@@ -217,6 +218,9 @@
     1401:
       column_code: DYCOL01
       type: UInt8
+    1402:
+      column_code: DYCOL01
+      type: UInt8
     
     ```
 #### Column Codes
@@ -224,7 +228,7 @@
 | Years     | Member_Number                                             |
 |:----------|:----------------------------------------------------------|
 | 1369-1383 | [COL01](/HBSIR/tables/raw/self_employed_income#col01)     |
-| 1384-1401 | [DYCOL01](/HBSIR/tables/raw/self_employed_income#dycol01) |
+| 1384-1402 | [DYCOL01](/HBSIR/tables/raw/self_employed_income#dycol01) |
 
 
 #### Summary Statistics
@@ -266,6 +270,7 @@
 |   1399 |   19322 |   1.5  |                 0.97 |         1 |        1 |        12 |
 |   1400 |   18570 |   1.47 |                 0.92 |         1 |        1 |        11 |
 |   1401 |   17313 |   1.44 |                 0.89 |         1 |        1 |         8 |
+|   1402 |   17568 |   1.45 |                 0.89 |         1 |        1 |         9 |
 
 
 ### Employment_Status
@@ -823,6 +828,25 @@
         6: null
         7: null
         9: null
+    1402:
+      column_code: DYCOL02
+      type: category
+      categories:
+        1: Employed
+        2: Unemployed
+      replace:
+        X01: null
+        X02: null
+        X03: null
+        X04: null
+        '3': null
+        '9': null
+        3: null
+        4: null
+        5: null
+        6: null
+        7: null
+        9: null
     
     ```
 #### Column Codes
@@ -831,7 +855,7 @@
 |:----------|:----------------------------------------------------------|
 | 1369-1373 |                                                           |
 | 1374-1383 | [COL02](/HBSIR/tables/raw/self_employed_income#col02)     |
-| 1384-1401 | [DYCOL02](/HBSIR/tables/raw/self_employed_income#dycol02) |
+| 1384-1402 | [DYCOL02](/HBSIR/tables/raw/self_employed_income#dycol02) |
 
 
 #### Summary Statistics
@@ -868,11 +892,12 @@
 |   1399 |      97.57 |         2.42 | 0.01  |
 |   1400 |      98.29 |         1.71 |       |
 |   1401 |      97.67 |         2.33 |       |
+|   1402 |      98.12 |         1.88 |       |
 
 
 #### Categories
 
-|    | 1374-1401   |
+|    | 1374-1402   |
 |---:|:------------|
 |  1 | Employed    |
 |  2 | Unemployed  |
@@ -1368,6 +1393,20 @@
         x04: null
         x0000: 0
         x000: 0
+    1402:
+      column_code: DYCOL03
+      type: UInt32
+      replace:
+        X01: null
+        X02: null
+        X03: null
+        X04: null
+        x01: null
+        x02: null
+        x03: null
+        x04: null
+        x0000: 0
+        x000: 0
     
     ```
 #### Column Codes
@@ -1376,7 +1415,7 @@
 |:----------|:----------------------------------------------------------|
 | 1369-1373 | [COL02](/HBSIR/tables/raw/self_employed_income#col02)     |
 | 1374-1383 | [COL03](/HBSIR/tables/raw/self_employed_income#col03)     |
-| 1384-1401 | [DYCOL03](/HBSIR/tables/raw/self_employed_income#dycol03) |
+| 1384-1402 | [DYCOL03](/HBSIR/tables/raw/self_employed_income#dycol03) |
 
 
 #### Summary Statistics
@@ -1418,6 +1457,7 @@
 |   1399 |   19319 | 6406.49 |              1270.83 |      1120 |     6121 |      9629 |
 |   1400 |   18569 | 6403.95 |              1303.33 |      1120 |     6121 |      9629 |
 |   1401 |   17313 | 6388.02 |              1325.25 |       410 |     6121 |      9629 |
+|   1402 |   17568 | 6399.42 |              1357.98 |      1120 |     6121 |      9629 |
 
 
 #### Replacements
@@ -1653,6 +1693,12 @@
       replace:
         x0000: 0
         x000: 0
+    1402:
+      column_code: DYCOL04
+      type: UInt32
+      replace:
+        x0000: 0
+        x000: 0
     
     ```
 #### Column Codes
@@ -1661,7 +1707,7 @@
 |:----------|:----------------------------------------------------------|
 | 1369-1373 | [COL03](/HBSIR/tables/raw/self_employed_income#col03)     |
 | 1374-1383 | [COL04](/HBSIR/tables/raw/self_employed_income#col04)     |
-| 1384-1401 | [DYCOL04](/HBSIR/tables/raw/self_employed_income#dycol04) |
+| 1384-1402 | [DYCOL04](/HBSIR/tables/raw/self_employed_income#dycol04) |
 
 
 #### Summary Statistics
@@ -1703,6 +1749,7 @@
 |   1399 |   19318 | 19820.5  |             24717.3  |      1110 |     1440 |     97000 |
 |   1400 |   18569 | 20817.9  |             24937.2  |      1110 |     1440 |     97000 |
 |   1401 |   17313 | 22313.8  |             25398.3  |      1110 |     1440 |     97000 |
+|   1402 |   17568 | 22295.9  |             25401.9  |      1110 |     1440 |     97000 |
 
 
 #### Replacements
@@ -1990,6 +2037,14 @@
         2: Independent_Worker
         3: Family_Worker
       replace: null
+    1402:
+      column_code: DYCOL05
+      type: category
+      categories:
+        1: Employer
+        2: Independent_Worker
+        3: Family_Worker
+      replace: null
     
     ```
 #### Column Codes
@@ -1998,7 +2053,7 @@
 |:----------|:----------------------------------------------------------|
 | 1369-1373 | [COL04](/HBSIR/tables/raw/self_employed_income#col04)     |
 | 1374-1383 | [COL05](/HBSIR/tables/raw/self_employed_income#col05)     |
-| 1384-1401 | [DYCOL05](/HBSIR/tables/raw/self_employed_income#dycol05) |
+| 1384-1402 | [DYCOL05](/HBSIR/tables/raw/self_employed_income#dycol05) |
 
 
 #### Summary Statistics
@@ -2040,11 +2095,12 @@
 |   1399 | 75.19 | 15.85 | 8.96  |       |       |       | 0.01  |                      |                 |            |
 |   1400 | 76.78 | 14.24 | 8.98  |       |       |       |       |                      |                 |            |
 |   1401 | 79.96 | 11.64 | 8.4   |       |       |       |       |                      |                 |            |
+|   1402 | 76.84 | 12.36 | 10.79 |       |       |       |       |                      |                 |            |
 
 
 #### Categories
 
-|    | 1369-1397          | 1398-1401          |
+|    | 1369-1397          | 1398-1402          |
 |---:|:-------------------|:-------------------|
 |  1 |                    | Employer           |
 |  2 |                    | Independent_Worker |
@@ -2201,6 +2257,10 @@
       column_code: DYCOL06
       type: boolean
       true_condition: 1
+    1402:
+      column_code: DYCOL06
+      type: boolean
+      true_condition: 1
     
     ```
 #### Column Codes
@@ -2209,7 +2269,7 @@
 |:----------|:----------------------------------------------------------|
 | 1369-1373 | [COL05](/HBSIR/tables/raw/self_employed_income#col05)     |
 | 1374-1383 | [COL06](/HBSIR/tables/raw/self_employed_income#col06)     |
-| 1384-1401 | [DYCOL06](/HBSIR/tables/raw/self_employed_income#dycol06) |
+| 1384-1402 | [DYCOL06](/HBSIR/tables/raw/self_employed_income#dycol06) |
 
 
 #### Summary Statistics
@@ -2251,6 +2311,7 @@
 |   1399 |  58.95 |   41.05 |         0 |
 |   1400 |  56.75 |   43.25 |         0 |
 |   1401 |  54.07 |   45.93 |         0 |
+|   1402 |  53.57 |   46.43 |         0 |
 
 
 ### Working_Hours_per_Day
@@ -2267,7 +2328,7 @@
 | Years     | Working_Hours_per_Day                                     |
 |:----------|:----------------------------------------------------------|
 | 1369-1383 |                                                           |
-| 1384-1401 | [DYCOL07](/HBSIR/tables/raw/self_employed_income#dycol07) |
+| 1384-1402 | [DYCOL07](/HBSIR/tables/raw/self_employed_income#dycol07) |
 
 
 #### Summary Statistics
@@ -2294,6 +2355,7 @@
 |   1399 |   19028 |   6.38 |                 2.79 |         0 |        6 |        18 |
 |   1400 |   18338 |   6.62 |                 2.75 |         0 |        7 |        18 |
 |   1401 |   16951 |   6.67 |                 2.71 |         1 |        7 |        18 |
+|   1402 |   17268 |   6.58 |                 2.73 |         1 |        7 |        20 |
 
 
 ### Working_Day_per_Week
@@ -2310,7 +2372,7 @@
 | Years     | Working_Day_per_Week                                      |
 |:----------|:----------------------------------------------------------|
 | 1369-1383 |                                                           |
-| 1384-1401 | [DYCOL08](/HBSIR/tables/raw/self_employed_income#dycol08) |
+| 1384-1402 | [DYCOL08](/HBSIR/tables/raw/self_employed_income#dycol08) |
 
 
 #### Summary Statistics
@@ -2337,6 +2399,7 @@
 |   1399 |   19035 |   5.5  |                 1.7  |         0 |        6 |         7 |
 |   1400 |   18335 |   5.52 |                 1.65 |         0 |        6 |         7 |
 |   1401 |   16943 |   5.55 |                 1.59 |         1 |        6 |         7 |
+|   1402 |   17251 |   5.53 |                 1.64 |         1 |        6 |         7 |
 
 
 ### Wage_Cost
@@ -2445,6 +2508,9 @@
     1401:
       column_code: DYCOL09
       type: float
+    1402:
+      column_code: DYCOL09
+      type: float
     
     ```
 #### Column Codes
@@ -2453,7 +2519,7 @@
 |:----------|:----------------------------------------------------------|
 | 1369-1373 | [COL06](/HBSIR/tables/raw/self_employed_income#col06)     |
 | 1374-1383 | [COL07](/HBSIR/tables/raw/self_employed_income#col07)     |
-| 1384-1401 | [DYCOL09](/HBSIR/tables/raw/self_employed_income#dycol09) |
+| 1384-1402 | [DYCOL09](/HBSIR/tables/raw/self_employed_income#dycol09) |
 
 
 #### Summary Statistics
@@ -2495,6 +2561,7 @@
 |   1399 |   16988 |      2.72155e+07 |          2.15026e+08 |         0 |        0 | 7.8e+09     |
 |   1400 |   16224 |      4.1994e+07  |          3.2976e+08  |         0 |        0 | 2.077e+10   |
 |   1401 |   17313 |      5.51543e+07 |          4.64185e+08 |         0 |        0 | 3.648e+10   |
+|   1402 |   17568 |      9.7898e+07  |          1.8001e+09  |         0 |        0 | 2.04e+11    |
 
 
 ### Cost_of_Sales
@@ -2603,6 +2670,9 @@
     1401:
       column_code: DYCOL10
       type: float
+    1402:
+      column_code: DYCOL10
+      type: float
     
     ```
 #### Column Codes
@@ -2611,7 +2681,7 @@
 |:----------|:----------------------------------------------------------|
 | 1369-1373 | [COL07](/HBSIR/tables/raw/self_employed_income#col07)     |
 | 1374-1383 | [COL08](/HBSIR/tables/raw/self_employed_income#col08)     |
-| 1384-1401 | [DYCOL10](/HBSIR/tables/raw/self_employed_income#dycol10) |
+| 1384-1402 | [DYCOL10](/HBSIR/tables/raw/self_employed_income#dycol10) |
 
 
 #### Summary Statistics
@@ -2653,6 +2723,7 @@
 |   1399 |   18743 |      2.74139e+08 |          1.49011e+09 |         0 |      3e+07    | 8e+10       |
 |   1400 |   17973 |      4.46849e+08 |          2.58142e+09 |         0 |      5e+07    | 1.5e+11     |
 |   1401 |   17313 |      6.73711e+08 |          3.93872e+09 |         0 |      6e+07    | 2.475e+11   |
+|   1402 |   17568 |      1.00903e+09 |          6.07457e+09 |         0 |      9.5e+07  | 4e+11       |
 
 
 ### Other_Operating_Costs
@@ -2761,6 +2832,9 @@
     1401:
       column_code: DYCOL11
       type: float
+    1402:
+      column_code: DYCOL11
+      type: float
     
     ```
 #### Column Codes
@@ -2769,7 +2843,7 @@
 |:----------|:----------------------------------------------------------|
 | 1369-1373 | [COL08](/HBSIR/tables/raw/self_employed_income#col08)     |
 | 1374-1383 | [COL09](/HBSIR/tables/raw/self_employed_income#col09)     |
-| 1384-1401 | [DYCOL11](/HBSIR/tables/raw/self_employed_income#dycol11) |
+| 1384-1402 | [DYCOL11](/HBSIR/tables/raw/self_employed_income#dycol11) |
 
 
 #### Summary Statistics
@@ -2811,6 +2885,7 @@
 |   1399 |   17473 |      1.30865e+07 |          1.0677e+08  |         0 |        0 | 7.2e+09   |
 |   1400 |   16698 |      2.19373e+07 |          2.08453e+08 |         0 |        0 | 1.8e+10   |
 |   1401 |   17313 |      2.93265e+07 |          2.25414e+08 |         0 |        0 | 1.8e+10   |
+|   1402 |   17568 |      6.69418e+07 |          3.02915e+09 |         0 |        0 | 4e+11     |
 
 
 ### Other_Costs
@@ -2919,6 +2994,9 @@
     1401:
       column_code: DYCOL12
       type: float
+    1402:
+      column_code: DYCOL12
+      type: float
     
     ```
 #### Column Codes
@@ -2927,7 +3005,7 @@
 |:----------|:----------------------------------------------------------|
 | 1369-1373 | [COL09](/HBSIR/tables/raw/self_employed_income#col09)     |
 | 1374-1383 | [COL10](/HBSIR/tables/raw/self_employed_income#col10)     |
-| 1384-1401 | [DYCOL12](/HBSIR/tables/raw/self_employed_income#dycol12) |
+| 1384-1402 | [DYCOL12](/HBSIR/tables/raw/self_employed_income#dycol12) |
 
 
 #### Summary Statistics
@@ -2969,6 +3047,7 @@
 |   1399 |   18251 |      3.25114e+07 |          1.73795e+08 |         0 |      5e+06      | 1.5e+10     |
 |   1400 |   17450 |      4.53658e+07 |          1.31934e+08 |         0 |      1e+07      | 5e+09       |
 |   1401 |   17313 |      6.95007e+07 |          2.72697e+08 |         0 |      1.25e+07   | 1.811e+10   |
+|   1402 |   17568 |      1.05049e+08 |          3.50513e+08 |         0 |      2e+07      | 1.5e+10     |
 
 
 ### Business_Tax
@@ -3077,6 +3156,9 @@
     1401:
       column_code: DYCOL13
       type: float
+    1402:
+      column_code: DYCOL13
+      type: float
     
     ```
 #### Column Codes
@@ -3085,7 +3167,7 @@
 |:----------|:----------------------------------------------------------|
 | 1369-1373 | [COL10](/HBSIR/tables/raw/self_employed_income#col10)     |
 | 1374-1383 | [COL11](/HBSIR/tables/raw/self_employed_income#col11)     |
-| 1384-1401 | [DYCOL13](/HBSIR/tables/raw/self_employed_income#dycol13) |
+| 1384-1402 | [DYCOL13](/HBSIR/tables/raw/self_employed_income#dycol13) |
 
 
 #### Summary Statistics
@@ -3127,6 +3209,7 @@
 |   1399 |   16591 |      1.27765e+06 |          2.16501e+07 |         0 |        0 | 1.94e+09  |
 |   1400 |   15830 |      2.10241e+06 |          8.44986e+07 |         0 |        0 | 8.6e+09   |
 |   1401 |   17313 |      2.6395e+06  |          4.7678e+07  |         0 |        0 | 5.68e+09  |
+|   1402 |   17568 |      6.53166e+06 |          5.13314e+07 |         0 |        0 | 1.85e+09  |
 
 
 ### Sales
@@ -3235,6 +3318,9 @@
     1401:
       column_code: DYCOL14
       type: float
+    1402:
+      column_code: DYCOL14
+      type: float
     
     ```
 #### Column Codes
@@ -3243,7 +3329,7 @@
 |:----------|:----------------------------------------------------------|
 | 1369-1373 | [COL11](/HBSIR/tables/raw/self_employed_income#col11)     |
 | 1374-1383 | [COL12](/HBSIR/tables/raw/self_employed_income#col12)     |
-| 1384-1401 | [DYCOL14](/HBSIR/tables/raw/self_employed_income#dycol14) |
+| 1384-1402 | [DYCOL14](/HBSIR/tables/raw/self_employed_income#dycol14) |
 
 
 #### Summary Statistics
@@ -3285,6 +3371,7 @@
 |   1399 |   19056 | 5.48536e+08 |          1.78144e+09 |         0 |      2.28e+08   | 8.49e+10    |
 |   1400 |   18284 | 8.87107e+08 |          3.04918e+09 |         0 |      3.74e+08   | 1.52624e+11 |
 |   1401 |   17313 | 1.36895e+09 |          4.62231e+09 |         0 |      6e+08      | 2.7028e+11  |
+|   1402 |   17568 | 2.10967e+09 |          8.59549e+09 |         0 |      8.5e+08    | 6.555e+11   |
 
 
 ### Profit
@@ -3393,6 +3480,9 @@
     1401:
       column_code: DYCOL15
       type: float
+    1402:
+      column_code: DYCOL15
+      type: float
     
     ```
 #### Column Codes
@@ -3401,7 +3491,7 @@
 |:----------|:----------------------------------------------------------|
 | 1369-1373 | [COL12](/HBSIR/tables/raw/self_employed_income#col12)     |
 | 1374-1383 | [COL13](/HBSIR/tables/raw/self_employed_income#col13)     |
-| 1384-1401 | [DYCOL15](/HBSIR/tables/raw/self_employed_income#dycol15) |
+| 1384-1402 | [DYCOL15](/HBSIR/tables/raw/self_employed_income#dycol15) |
 
 
 #### Summary Statistics
@@ -3443,5 +3533,6 @@
 |   1399 |   19322 |      2.07606e+08 |          3.86678e+08 | -1.5e+09     |      1.34e+08    | 2.4e+10     |
 |   1400 |   18570 |      3.42352e+08 |          6.41452e+08 | -2.27e+09    |      2.22e+08    | 3.95919e+10 |
 |   1401 |   16908 |      5.5667e+08  |          9.53718e+08 | -2.671e+10   |      3.935e+08   | 4.10503e+10 |
+|   1402 |   17119 |      8.54343e+08 |          1.39081e+09 | -1.4534e+10  |      6e+08       | 4.8e+10     |
 
 

@@ -11,7 +11,7 @@
 
 | Years     | ADDRESS   | DYCOL01       | DYCOL02           | DYCOL03         | DYCOL04       | DYCOL05   | DYCOL06               | DYCOL07              | DYCOL08              | DYCOL09             | DYCOL10                   | DYCOL11                  | DYCOL12                  | DYCOL13                 | DYCOL14            | DYCOL15           |
 |:----------|:----------|:--------------|:------------------|:----------------|:--------------|:----------|:----------------------|:---------------------|:---------------------|:--------------------|:--------------------------|:-------------------------|:-------------------------|:------------------------|:-------------------|:------------------|
-| 1384-1401 | ID        | Member_Number | Employment_Status | Occupation_Code | Industry_Code | Sector    | Working_Hours_per_Day | Working_Day_per_Week | Monthly_Gross_Income | Annual_Gross_Income | Monthly_Continuous_Income | Annual_Continuous_Income | Monthly_Temporary_Income | Annual_Temporary_Income | Monthly_Net_Income | Annual_Net_Income |
+| 1384-1402 | ID        | Member_Number | Employment_Status | Occupation_Code | Industry_Code | Sector    | Working_Hours_per_Day | Working_Day_per_Week | Monthly_Gross_Income | Annual_Gross_Income | Monthly_Continuous_Income | Annual_Continuous_Income | Monthly_Temporary_Income | Annual_Temporary_Income | Monthly_Net_Income | Annual_Net_Income |
 
 
 ## New to Old Titles
@@ -21,7 +21,7 @@
 | 1369      | ADDRESS | COL01           |                     | COL02             | COL03           | COL04    |                         |                        |                        | COL06                 |                             | COL08                      |                            | COL10                     |                      | COL12               |
 | 1370-1373 | ADDRESS | COL01           |                     | COL02             | COL03           | COL04    |                         |                        | COL05                  | COL06                 | COL07                       | COL08                      | COL09                      | COL10                     | COL11                | COL12               |
 | 1374-1383 | ADDRESS | COL01           | COL02               | COL03             | COL04           | COL05    |                         |                        | COL06                  | COL07                 | COL08                       | COL09                      | COL10                      | COL11                     | COL12                | COL13               |
-| 1384-1401 | ADDRESS | DYCOL01         | DYCOL02             | DYCOL03           | DYCOL04         | DYCOL05  | DYCOL06                 | DYCOL07                | DYCOL08                | DYCOL09               | DYCOL10                     | DYCOL11                    | DYCOL12                    | DYCOL13                   | DYCOL14              | DYCOL15             |
+| 1384-1402 | ADDRESS | DYCOL01         | DYCOL02             | DYCOL03           | DYCOL04         | DYCOL05  | DYCOL06                 | DYCOL07                | DYCOL08                | DYCOL09               | DYCOL10                     | DYCOL11                    | DYCOL12                    | DYCOL13                   | DYCOL14              | DYCOL15             |
 
 
 ## Columns Details
@@ -54,7 +54,7 @@
 
 | Years     | ID                                                     |
 |:----------|:-------------------------------------------------------|
-| 1369-1401 | [ADDRESS](/HBSIR/tables/raw/employment_income#address) |
+| 1369-1402 | [ADDRESS](/HBSIR/tables/raw/employment_income#address) |
 
 
 #### Summary Statistics
@@ -96,6 +96,7 @@
 |   1399 |   23073 |      1.62619e+10 |          5.01881e+09 |     1.0001e+10 | 1.28074e+10 | 2.30067e+10 |
 |   1400 |   23130 |      1.61739e+10 |          5.00668e+09 |     1.0001e+10 | 1.28034e+10 | 2.30067e+10 |
 |   1401 |   22615 |      1.60988e+10 |          5.01045e+09 |     1.0001e+10 | 1.27143e+10 | 2.30067e+10 |
+|   1402 |   22094 |      1.60955e+10 |          5.01589e+09 |     1.0001e+10 | 1.27143e+10 | 2.30067e+10 |
 
 
 #### Replacements
@@ -231,6 +232,9 @@
     1401:
       column_code: DYCOL01
       type: UInt8
+    1402:
+      column_code: DYCOL01
+      type: UInt8
     
     ```
 #### Column Codes
@@ -238,7 +242,7 @@
 | Years     | Member_Number                                          |
 |:----------|:-------------------------------------------------------|
 | 1369-1383 | [COL01](/HBSIR/tables/raw/employment_income#col01)     |
-| 1384-1401 | [DYCOL01](/HBSIR/tables/raw/employment_income#dycol01) |
+| 1384-1402 | [DYCOL01](/HBSIR/tables/raw/employment_income#dycol01) |
 
 
 #### Summary Statistics
@@ -280,6 +284,7 @@
 |   1399 |   23073 |   1.66 |                 1.12 |         1 |        1 |        14 |
 |   1400 |   23130 |   1.66 |                 1.09 |         1 |        1 |        10 |
 |   1401 |   22615 |   1.66 |                 1.08 |         1 |        1 |        10 |
+|   1402 |   22094 |   1.69 |                 1.1  |         1 |        1 |        11 |
 
 
 ### Employment_Status
@@ -837,6 +842,25 @@
         6: null
         7: null
         9: null
+    1402:
+      column_code: DYCOL02
+      type: category
+      categories:
+        1: Employed
+        2: Unemployed
+      replace:
+        X01: null
+        X02: null
+        X03: null
+        X04: null
+        '3': null
+        '9': null
+        3: null
+        4: null
+        5: null
+        6: null
+        7: null
+        9: null
     
     ```
 #### Column Codes
@@ -845,7 +869,7 @@
 |:----------|:-------------------------------------------------------|
 | 1369-1373 |                                                        |
 | 1374-1383 | [COL02](/HBSIR/tables/raw/employment_income#col02)     |
-| 1384-1401 | [DYCOL02](/HBSIR/tables/raw/employment_income#dycol02) |
+| 1384-1402 | [DYCOL02](/HBSIR/tables/raw/employment_income#dycol02) |
 
 
 #### Summary Statistics
@@ -882,11 +906,12 @@
 |   1399 |      89.1  |        10.9  |       |
 |   1400 |      91.59 |         8.41 |       |
 |   1401 |      92.4  |         7.6  | 0.0   |
+|   1402 |      92.96 |         7.04 |       |
 
 
 #### Categories
 
-|    | 1374-1401   |
+|    | 1374-1402   |
 |---:|:------------|
 |  1 | Employed    |
 |  2 | Unemployed  |
@@ -1380,6 +1405,20 @@
         x04: null
         x0000: 0
         x000: 0
+    1402:
+      column_code: DYCOL03
+      type: UInt32
+      replace:
+        X01: null
+        X02: null
+        X03: null
+        X04: null
+        x01: null
+        x02: null
+        x03: null
+        x04: null
+        x0000: 0
+        x000: 0
     
     ```
 #### Column Codes
@@ -1388,7 +1427,7 @@
 |:----------|:-------------------------------------------------------|
 | 1369-1373 | [COL02](/HBSIR/tables/raw/employment_income#col02)     |
 | 1374-1383 | [COL03](/HBSIR/tables/raw/employment_income#col03)     |
-| 1384-1401 | [DYCOL03](/HBSIR/tables/raw/employment_income#dycol03) |
+| 1384-1402 | [DYCOL03](/HBSIR/tables/raw/employment_income#dycol03) |
 
 
 #### Summary Statistics
@@ -1430,6 +1469,7 @@
 |   1399 |   23073 | 6940.14 |              2721.56 |       410 |     8151 |      9629 |
 |   1400 |   23130 | 6911.6  |              2733.31 |       410 |     8131 |      9629 |
 |   1401 |   22614 | 6867.76 |              2733.63 |       410 |     8114 |      9629 |
+|   1402 |   22094 | 6837.29 |              2739.64 |       410 |     7537 |      9629 |
 
 
 #### Replacements
@@ -1672,6 +1712,12 @@
       replace:
         x0000: 0
         x000: 0
+    1402:
+      column_code: DYCOL04
+      type: UInt32
+      replace:
+        x0000: 0
+        x000: 0
     
     ```
 #### Column Codes
@@ -1680,7 +1726,7 @@
 |:----------|:-------------------------------------------------------|
 | 1369-1373 | [COL03](/HBSIR/tables/raw/employment_income#col03)     |
 | 1374-1383 | [COL04](/HBSIR/tables/raw/employment_income#col04)     |
-| 1384-1401 | [DYCOL04](/HBSIR/tables/raw/employment_income#dycol04) |
+| 1384-1402 | [DYCOL04](/HBSIR/tables/raw/employment_income#dycol04) |
 
 
 #### Summary Statistics
@@ -1722,6 +1768,7 @@
 |   1399 |   23073 | 42511.6  |             27726.5  |      1110 |    41000 |     97000 |
 |   1400 |   23130 | 42858.9  |             27703.5  |      1110 |    41000 |     98200 |
 |   1401 |   22614 | 43083.7  |             27649.7  |      1110 |    41000 |     97000 |
+|   1402 |   22092 | 43068.2  |             27660.1  |      1110 |    41000 |     98200 |
 
 
 #### Replacements
@@ -2004,6 +2051,14 @@
         2: Cooperative
         3: Private
       replace: null
+    1402:
+      column_code: DYCOL05
+      type: category
+      categories:
+        1: Public
+        2: Cooperative
+        3: Private
+      replace: null
     
     ```
 #### Column Codes
@@ -2012,7 +2067,7 @@
 |:----------|:-------------------------------------------------------|
 | 1369-1373 | [COL04](/HBSIR/tables/raw/employment_income#col04)     |
 | 1374-1383 | [COL05](/HBSIR/tables/raw/employment_income#col05)     |
-| 1384-1401 | [DYCOL05](/HBSIR/tables/raw/employment_income#dycol05) |
+| 1384-1402 | [DYCOL05](/HBSIR/tables/raw/employment_income#dycol05) |
 
 
 #### Summary Statistics
@@ -2054,11 +2109,12 @@
 |   1399 |     83.31 |    16.49 | 0.2           |       |
 |   1400 |     83.1  |    16.76 | 0.14          |       |
 |   1401 |     82.78 |    16.98 | 0.23          | 0.01  |
+|   1402 |     82.98 |    16.88 | 0.13          | 0.01  |
 
 
 #### Categories
 
-|    | 1369-1376   | 1377-1401   |
+|    | 1369-1376   | 1377-1402   |
 |---:|:------------|:------------|
 |  1 | Public      | Public      |
 |  2 | Private     | Cooperative |
@@ -2087,7 +2143,7 @@
 | Years     | Working_Hours_per_Day                                  |
 |:----------|:-------------------------------------------------------|
 | 1369-1383 |                                                        |
-| 1384-1401 | [DYCOL06](/HBSIR/tables/raw/employment_income#dycol06) |
+| 1384-1402 | [DYCOL06](/HBSIR/tables/raw/employment_income#dycol06) |
 
 
 #### Summary Statistics
@@ -2114,6 +2170,7 @@
 |   1399 |   21072 |   8.17 |                 1.89 |         0 |        8 |        18 |
 |   1400 |   21593 |   8.17 |                 1.89 |         0 |        8 |        18 |
 |   1401 |   20923 |   8.19 |                 1.75 |         1 |        8 |        18 |
+|   1402 |   20637 |   8.22 |                 1.74 |         1 |        8 |        18 |
 
 
 ### Working_Day_per_Week
@@ -2130,7 +2187,7 @@
 | Years     | Working_Day_per_Week                                   |
 |:----------|:-------------------------------------------------------|
 | 1369-1383 |                                                        |
-| 1384-1401 | [DYCOL07](/HBSIR/tables/raw/employment_income#dycol07) |
+| 1384-1402 | [DYCOL07](/HBSIR/tables/raw/employment_income#dycol07) |
 
 
 #### Summary Statistics
@@ -2157,6 +2214,7 @@
 |   1399 |   21074 |   5.24 |                 1.37 |         0 |        6 |         7 |
 |   1400 |   21596 |   5.24 |                 1.36 |         0 |        6 |         7 |
 |   1401 |   20923 |   5.33 |                 1.26 |         1 |        6 |         7 |
+|   1402 |   20637 |   5.36 |                 1.24 |         1 |        6 |         7 |
 
 
 ### Monthly_Gross_Income
@@ -2262,6 +2320,9 @@
     1401:
       column_code: DYCOL08
       type: float
+    1402:
+      column_code: DYCOL08
+      type: float
     
     ```
 #### Column Codes
@@ -2271,7 +2332,7 @@
 | 1369      |                                                        |
 | 1370-1373 | [COL05](/HBSIR/tables/raw/employment_income#col05)     |
 | 1374-1383 | [COL06](/HBSIR/tables/raw/employment_income#col06)     |
-| 1384-1401 | [DYCOL08](/HBSIR/tables/raw/employment_income#dycol08) |
+| 1384-1402 | [DYCOL08](/HBSIR/tables/raw/employment_income#dycol08) |
 
 
 #### Summary Statistics
@@ -2312,6 +2373,7 @@
 |   1399 |   23073 |      2.36146e+07 |          3.58183e+07 |         0 |      2e+07       | 4.095e+09   |
 |   1400 |   23130 |      3.72057e+07 |          5.70332e+07 |         0 |      3.2e+07     | 7e+09       |
 |   1401 |   22615 |      5.52249e+07 |          4.62816e+07 |         0 |      5e+07       | 1.498e+09   |
+|   1402 |   22094 |      8.30324e+07 |          7.58914e+07 |         0 |      7.6275e+07  | 3.625e+09   |
 
 
 ### Annual_Gross_Income
@@ -2420,6 +2482,9 @@
     1401:
       column_code: DYCOL09
       type: float
+    1402:
+      column_code: DYCOL09
+      type: float
     
     ```
 #### Column Codes
@@ -2428,7 +2493,7 @@
 |:----------|:-------------------------------------------------------|
 | 1369-1373 | [COL06](/HBSIR/tables/raw/employment_income#col06)     |
 | 1374-1383 | [COL07](/HBSIR/tables/raw/employment_income#col07)     |
-| 1384-1401 | [DYCOL09](/HBSIR/tables/raw/employment_income#dycol09) |
+| 1384-1402 | [DYCOL09](/HBSIR/tables/raw/employment_income#dycol09) |
 
 
 #### Summary Statistics
@@ -2470,6 +2535,7 @@
 |   1399 |   23073 |      2.77996e+08 |          2.75994e+08 |         0 |      2.29984e+08 | 2.02922e+10 |
 |   1400 |   23130 |      4.39243e+08 |          6.97932e+08 |         0 |      3.6e+08     | 8.88e+10    |
 |   1401 |   22615 |      6.55362e+08 |          5.38651e+08 |         0 |      6e+08       | 1.44e+10    |
+|   1402 |   22094 |      9.63213e+08 |          7.39636e+08 |         0 |      8.5e+08     | 2.252e+10   |
 
 
 ### Monthly_Continuous_Income
@@ -2578,6 +2644,9 @@
     1401:
       column_code: DYCOL10
       type: float
+    1402:
+      column_code: DYCOL10
+      type: float
     
     ```
 #### Column Codes
@@ -2587,7 +2656,7 @@
 | 1369      |                                                        |
 | 1370-1373 | [COL07](/HBSIR/tables/raw/employment_income#col07)     |
 | 1374-1383 | [COL08](/HBSIR/tables/raw/employment_income#col08)     |
-| 1384-1401 | [DYCOL10](/HBSIR/tables/raw/employment_income#dycol10) |
+| 1384-1402 | [DYCOL10](/HBSIR/tables/raw/employment_income#dycol10) |
 
 
 #### Summary Statistics
@@ -2628,6 +2697,7 @@
 |   1399 |   23053 |      2.14972e+07 |          1.74184e+07 |         0 |      2e+07       | 4.76067e+08 |
 |   1400 |   23114 |      3.40823e+07 |          2.48756e+07 |         0 |      3.05e+07    | 5.85e+08    |
 |   1401 |   22612 |      5.07423e+07 |          3.70752e+07 |         0 |      5e+07       | 1.2e+09     |
+|   1402 |   22094 |      7.60941e+07 |          5.18035e+07 |         0 |      7.4e+07     | 1.2e+09     |
 
 
 ### Annual_Continuous_Income
@@ -2736,6 +2806,9 @@
     1401:
       column_code: DYCOL11
       type: float
+    1402:
+      column_code: DYCOL11
+      type: float
     
     ```
 #### Column Codes
@@ -2744,7 +2817,7 @@
 |:----------|:-------------------------------------------------------|
 | 1369-1373 | [COL08](/HBSIR/tables/raw/employment_income#col08)     |
 | 1374-1383 | [COL09](/HBSIR/tables/raw/employment_income#col09)     |
-| 1384-1401 | [DYCOL11](/HBSIR/tables/raw/employment_income#dycol11) |
+| 1384-1402 | [DYCOL11](/HBSIR/tables/raw/employment_income#dycol11) |
 
 
 #### Summary Statistics
@@ -2786,6 +2859,7 @@
 |   1399 |   23072 |      2.5089e+08  |          1.88674e+08 |         0 |      2.16e+08    | 2.76e+09    |
 |   1400 |   23124 |      3.95723e+08 |          2.77829e+08 |         0 |      3.6e+08     | 3.6e+09     |
 |   1401 |   22611 |      5.92957e+08 |          3.99955e+08 |         0 |      5.69386e+08 | 1.44e+10    |
+|   1402 |   22094 |      8.82425e+08 |          5.80933e+08 |         0 |      8.4e+08     | 1.65e+10    |
 
 
 ### Monthly_Temporary_Income
@@ -2894,6 +2968,9 @@
     1401:
       column_code: DYCOL12
       type: float
+    1402:
+      column_code: DYCOL12
+      type: float
     
     ```
 #### Column Codes
@@ -2903,7 +2980,7 @@
 | 1369      |                                                        |
 | 1370-1373 | [COL09](/HBSIR/tables/raw/employment_income#col09)     |
 | 1374-1383 | [COL10](/HBSIR/tables/raw/employment_income#col10)     |
-| 1384-1401 | [DYCOL12](/HBSIR/tables/raw/employment_income#dycol12) |
+| 1384-1402 | [DYCOL12](/HBSIR/tables/raw/employment_income#dycol12) |
 
 
 #### Summary Statistics
@@ -2944,6 +3021,7 @@
 |   1399 |   23061 | 441544           |          3.14756e+06 |     0     |        0 |      1.5e+08     |
 |   1400 |   23119 | 618480           |          5.1485e+06  |     0     |        0 |      1.56e+08    |
 |   1401 |   22612 |      1.13951e+06 |          6.97349e+06 |    -2e+06 |        0 |      2.2e+08     |
+|   1402 |   22094 |      1.68716e+06 |          9.99041e+06 |     0     |        0 |      2.88e+08    |
 
 
 ### Annual_Temporary_Income
@@ -3052,6 +3130,9 @@
     1401:
       column_code: DYCOL13
       type: float
+    1402:
+      column_code: DYCOL13
+      type: float
     
     ```
 #### Column Codes
@@ -3060,7 +3141,7 @@
 |:----------|:-------------------------------------------------------|
 | 1369-1373 | [COL10](/HBSIR/tables/raw/employment_income#col10)     |
 | 1374-1383 | [COL11](/HBSIR/tables/raw/employment_income#col11)     |
-| 1384-1401 | [DYCOL13](/HBSIR/tables/raw/employment_income#dycol13) |
+| 1384-1402 | [DYCOL13](/HBSIR/tables/raw/employment_income#dycol13) |
 
 
 #### Summary Statistics
@@ -3102,6 +3183,7 @@
 |   1399 |   23071 |      1.04054e+07 |          2.61791e+07 |     0     |      0     | 8.52e+08    |
 |   1400 |   23124 |      1.40479e+07 |          4.11389e+07 |     0     |      0     | 3e+09       |
 |   1401 |   22613 |      2.21781e+07 |          6.1663e+07  |    -2e+07 |      0     | 1.2e+09     |
+|   1402 |   22094 |      3.09852e+07 |          7.90898e+07 |     0     |      0     | 2.04e+09    |
 
 
 ### Monthly_Net_Income
@@ -3210,6 +3292,9 @@
     1401:
       column_code: DYCOL14
       type: float
+    1402:
+      column_code: DYCOL14
+      type: float
     
     ```
 #### Column Codes
@@ -3219,7 +3304,7 @@
 | 1369      |                                                        |
 | 1370-1373 | [COL11](/HBSIR/tables/raw/employment_income#col11)     |
 | 1374-1383 | [COL12](/HBSIR/tables/raw/employment_income#col12)     |
-| 1384-1401 | [DYCOL14](/HBSIR/tables/raw/employment_income#dycol14) |
+| 1384-1402 | [DYCOL14](/HBSIR/tables/raw/employment_income#dycol14) |
 
 
 #### Summary Statistics
@@ -3260,6 +3345,7 @@
 |   1399 |   23073 |      2.19254e+07 |          1.82045e+07 |         0 |      2e+07      | 4.76067e+08 |
 |   1400 |   23130 |      3.47417e+07 |          2.59244e+07 |         0 |      3.1e+07    | 5.85e+08    |
 |   1401 |   22615 |      5.22521e+07 |          3.90504e+07 |         0 |      5e+07      | 1.2e+09     |
+|   1402 |   22094 |      7.77812e+07 |          5.44608e+07 |         0 |      7.5e+07    | 1.2e+09     |
 
 
 ### Annual_Net_Income
@@ -3368,6 +3454,9 @@
     1401:
       column_code: DYCOL15
       type: float
+    1402:
+      column_code: DYCOL15
+      type: float
     
     ```
 #### Column Codes
@@ -3376,7 +3465,7 @@
 |:----------|:-------------------------------------------------------|
 | 1369-1373 | [COL12](/HBSIR/tables/raw/employment_income#col12)     |
 | 1374-1383 | [COL13](/HBSIR/tables/raw/employment_income#col13)     |
-| 1384-1401 | [DYCOL15](/HBSIR/tables/raw/employment_income#dycol15) |
+| 1384-1402 | [DYCOL15](/HBSIR/tables/raw/employment_income#dycol15) |
 
 
 #### Summary Statistics
@@ -3418,5 +3507,6 @@
 |   1399 |   23073 |      2.61396e+08 |          2.01453e+08 |  0        |      2.204e+08   | 2.99e+09    |
 |   1400 |   23130 |      4.10468e+08 |          2.95174e+08 |  0        |      3.6e+08     | 5.4e+09     |
 |   1401 |   22615 |      6.18849e+08 |          4.23398e+08 |  0        |      5.92e+08    | 1.44e+10    |
+|   1402 |   22094 |      9.13411e+08 |          6.15691e+08 |  0        |      8.4e+08     | 1.65e+10    |
 
 

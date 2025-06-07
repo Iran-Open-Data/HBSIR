@@ -12,7 +12,7 @@
 | 1396-1398 |           | ID        |          |          | drop             | Season |        |         |        |        |         |         | Alternative_Household |                |                 |                 | drop            | drop            | drop            | Month        |                 |                    | Household_Type | drop            |                   |          | Main_Household |              | drop          | drop          | drop          |           |         |         |         |         | Weight   |
 | 1399      |           | ID        |          |          | drop             | Season |        |         | drop   |        |         | drop    | Alternative_Household |                |                 |                 | drop            | drop            | drop            | Month        |                 |                    | Household_Type | drop            |                   |          | Main_Household |              | drop          | drop          | drop          |           |         |         |         |         | Weight   |
 | 1400      |           | ID        |          |          | drop             | Season |        |         | drop   |        |         | drop    | Alternative_Household |                |                 |                 | drop            | drop            | drop            |              |                 |                    | Household_Type | drop            |                   |          | Main_Household |              | drop          | drop          | drop          |           |         |         |         |         | Weight   |
-| 1401      |           | ID        |          |          | drop             | Season |        |         |        |        |         |         | Alternative_Household |                |                 |                 | drop            | drop            |                 |              |                 |                    | Household_Type | drop            |                   |          | Main_Household |              | drop          | drop          | drop          |           |         |         |         |         | Weight   |
+| 1401-1402 |           | ID        |          |          | drop             | Season |        |         |        |        |         |         | Alternative_Household |                |                 |                 | drop            | drop            |                 |              |                 |                    | Household_Type | drop            |                   |          | Main_Household |              | drop          | drop          | drop          |           |         |         |         |         | Weight   |
 
 
 ## New to Old Titles
@@ -21,7 +21,7 @@
 |:----------|:--------|:---------|:------------------------|:-----------------|:-----------------|:---------|:-----------|
 | 1387-1395 | ADDRESS |          | JAYGOZIN                | NOEKHN           | TAKMIL           |          | MAHMORAJEH |
 | 1396-1399 | ADDRESS | FASL     | JAYGOZIN                | NOEKHN           | TAKMIL           | WEIGHT   | MAHMORAJEH |
-| 1400-1401 | ADDRESS | FASL     | JAYGOZIN                | NOEKHN           | TAKMIL           | WEIGHT   |            |
+| 1400-1402 | ADDRESS | FASL     | JAYGOZIN                | NOEKHN           | TAKMIL           | WEIGHT   |            |
 
 
 ## Columns Details
@@ -39,7 +39,7 @@
 
 | Years     | ID                                                         |
 |:----------|:-----------------------------------------------------------|
-| 1387-1401 | [ADDRESS](/HBSIR/tables/raw/household_information#address) |
+| 1387-1402 | [ADDRESS](/HBSIR/tables/raw/household_information#address) |
 
 
 #### Summary Statistics
@@ -63,6 +63,7 @@
 |   1399 |   37557 | 1.63697e+10 |          5.03728e+09 | 1.0001e+10 | 1.29094e+10 | 2.30067e+10 |
 |   1400 |   37988 | 1.63391e+10 |          5.03654e+09 | 1.0001e+10 | 1.29074e+10 | 2.30067e+10 |
 |   1401 |   37951 | 1.63471e+10 |          5.03962e+09 | 1.0001e+10 | 1.29074e+10 | 2.30067e+10 |
+|   1402 |   37883 | 1.63102e+10 |          5.03775e+09 | 1.0001e+10 | 1.29054e+10 | 2.30067e+10 |
 
 
 ### Season
@@ -84,26 +85,27 @@
 | Years     | Season                                               |
 |:----------|:-----------------------------------------------------|
 | 1387-1395 |                                                      |
-| 1396-1401 | [FASL](/HBSIR/tables/raw/household_information#fasl) |
+| 1396-1402 | [FASL](/HBSIR/tables/raw/household_information#fasl) |
 
 
 #### Summary Statistics
 
 **category data**
 
-|   Year |   Autumn |   Spring |   Winter |   Summer |
+|   Year |   Spring |   Summer |   Autumn |   Winter |
 |-------:|---------:|---------:|---------:|---------:|
-|   1396 |    24.89 |    25.08 |    24.92 |    25.11 |
-|   1397 |    25.38 |    24.95 |    24.91 |    24.76 |
-|   1398 |    25.77 |    25.43 |    23.44 |    25.36 |
-|   1399 |    25.31 |    24.75 |    25.02 |    24.93 |
-|   1400 |    25.51 |    24.65 |    24.88 |    24.96 |
-|   1401 |    25.33 |    25.03 |    24.85 |    24.78 |
+|   1396 |    25.08 |    25.11 |    24.89 |    24.92 |
+|   1397 |    24.95 |    24.76 |    25.38 |    24.91 |
+|   1398 |    25.43 |    25.36 |    25.77 |    23.44 |
+|   1399 |    24.75 |    24.93 |    25.31 |    25.02 |
+|   1400 |    24.65 |    24.96 |    25.51 |    24.88 |
+|   1401 |    25.03 |    24.78 |    25.33 |    24.85 |
+|   1402 |    25.09 |    24.98 |    24.97 |    24.96 |
 
 
 #### Categories
 
-|    | 1396-1401   |
+|    | 1396-1402   |
 |---:|:------------|
 |  1 | Spring      |
 |  2 | Summer      |
@@ -125,7 +127,7 @@
 
 | Years     | Alternative_Household                                        |
 |:----------|:-------------------------------------------------------------|
-| 1387-1401 | [JAYGOZIN](/HBSIR/tables/raw/household_information#jaygozin) |
+| 1387-1402 | [JAYGOZIN](/HBSIR/tables/raw/household_information#jaygozin) |
 
 
 #### Summary Statistics
@@ -149,6 +151,7 @@
 |   1399 |      0    |  22.29 |   77.71 |
 |   1400 |      0    |  22.13 |   77.87 |
 |   1401 |     77.1  |  22.9  |    0    |
+|   1402 |     78.24 |  21.76 |    0    |
 
 
 ### Household_Type
@@ -167,7 +170,7 @@
 
 | Years     | Household_Type                                           |
 |:----------|:---------------------------------------------------------|
-| 1387-1401 | [NOEKHN](/HBSIR/tables/raw/household_information#noekhn) |
+| 1387-1402 | [NOEKHN](/HBSIR/tables/raw/household_information#noekhn) |
 
 
 #### Summary Statistics
@@ -191,11 +194,12 @@
 |   1399 |    99.94 |    0.06 |       |
 |   1400 |    99.9  |    0.1  |       |
 |   1401 |    99.98 |    0.02 |       |
+|   1402 |    99.98 |    0.02 |       |
 
 
 #### Categories
 
-|    | 1387-1401   |
+|    | 1387-1402   |
 |---:|:------------|
 |  1 | Normal      |
 |  2 | Group       |
@@ -215,7 +219,7 @@
 
 | Years     | Main_Household                                           |
 |:----------|:---------------------------------------------------------|
-| 1387-1401 | [TAKMIL](/HBSIR/tables/raw/household_information#takmil) |
+| 1387-1402 | [TAKMIL](/HBSIR/tables/raw/household_information#takmil) |
 
 
 #### Summary Statistics
@@ -239,6 +243,7 @@
 |   1399 |  75.12 |   24.88 |         0 |
 |   1400 |  74.76 |   25.24 |         0 |
 |   1401 |  73.21 |   26.79 |         0 |
+|   1402 |  73.76 |   26.24 |         0 |
 
 
 ### Weight
@@ -255,7 +260,7 @@
 | Years     | Weight                                                   |
 |:----------|:---------------------------------------------------------|
 | 1387-1395 |                                                          |
-| 1396-1401 | [WEIGHT](/HBSIR/tables/raw/household_information#weight) |
+| 1396-1402 | [WEIGHT](/HBSIR/tables/raw/household_information#weight) |
 
 
 #### Summary Statistics
@@ -270,6 +275,7 @@
 |   1399 |   37557 | 697.32 |               857.18 |     41.33 |   389.81 |   15124.8 |
 |   1400 |   37988 | 702.69 |               860.51 |     42    |   394    |   15253   |
 |   1401 |   37951 | 716.56 |               886.11 |     41.83 |   400.54 |   12938.5 |
+|   1402 |   37883 | 731.14 |               940.06 |     41.85 |   404.19 |   23894.2 |
 
 
 ### Month
@@ -279,6 +285,16 @@
     1363:
       column_code: MAHMORAJEH
       type: unsigned
+      replace: null
+    1397:
+      column_code: MAHMORAJEH
+      type: unsigned
+      replace:
+        0: 3
+    1398:
+      column_code: MAHMORAJEH
+      type: unsigned
+      replace: null
     
     ```
 #### Column Codes
@@ -286,7 +302,7 @@
 | Years     | Month                                                            |
 |:----------|:-----------------------------------------------------------------|
 | 1387-1399 | [MAHMORAJEH](/HBSIR/tables/raw/household_information#mahmorajeh) |
-| 1400-1401 |                                                                  |
+| 1400-1402 |                                                                  |
 
 
 #### Summary Statistics
@@ -305,8 +321,15 @@
 |   1394 |   39857 |   6.52 |                 3.44 |         1 |        7 |        12 |
 |   1395 |   39864 |   6.53 |                 3.45 |         1 |        7 |        12 |
 |   1396 |   37962 |   6.53 |                 3.45 |         1 |        7 |        12 |
-|   1397 |   38960 |   6.52 |                 3.45 |         0 |        7 |        12 |
+|   1397 |   38960 |   6.52 |                 3.45 |         1 |        7 |        12 |
 |   1398 |   38328 |   6.56 |                 3.4  |         1 |        7 |        12 |
 |   1399 |   37557 |   6.57 |                 3.45 |         1 |        7 |        12 |
+
+
+#### Replacements
+
+|   Year |   Value |   Replace_Value |   Frequency |
+|-------:|--------:|----------------:|------------:|
+|   1397 |       0 |               3 |           1 |
 
 
