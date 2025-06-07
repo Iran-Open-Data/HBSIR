@@ -153,13 +153,13 @@
   type: category
   categories:
     11: Primary
-    21: Secondary
-    31: Tertiary
+    21: Lower_Secondary
+    31: Higher_Secondary
     41: Pre_University
-    51: College
+    51: Short_Cycle_Tertiary
     52: Bachelors
     53: Masters
-    61: PhD
+    61: Doctoral
     71: Unofficial
   replace: null
 1394:
@@ -167,13 +167,13 @@
   type: category
   categories:
     11: Primary
-    21: Secondary
-    31: Tertiary
+    21: Lower_Secondary
+    31: Higher_Secondary
     41: Pre_University
-    51: College
+    51: Short_Cycle_Tertiary
     52: Bachelors
     53: Masters
-    61: PhD
+    61: Doctoral
     71: Unofficial
   replace:
     '1': null
@@ -182,13 +182,13 @@
   type: category
   categories:
     11: Primary
-    21: Secondary
-    31: Tertiary
+    21: Lower_Secondary
+    31: Higher_Secondary
     41: Pre_University
-    51: College
+    51: Short_Cycle_Tertiary
     52: Bachelors
     53: Masters
-    61: PhD
+    61: Doctoral
     71: Unofficial
   replace: null
 1396:
@@ -196,82 +196,96 @@
   type: category
   categories:
     11: Primary
-    21: Secondary
-    31: Tertiary
+    21: Lower_Secondary
+    31: Higher_Secondary
     41: Pre_University
-    51: College
+    51: Short_Cycle_Tertiary
     52: Bachelors
     53: Masters
-    61: PhD
+    61: Doctoral
     71: Unofficial
   replace: null
 1397:
   column_code: DYCOL08
   type: category
   categories:
-    1: Primar
-    2: Secondary
-    3: Tertiary
+    1: Primary
+    2: Lower_Secondary
+    3: Higher_Secondary
     4: Pre_University
-    5: College
+    5: Short_Cycle_Tertiary
     6: Bachelors
     7: Masters
-    8: PhD
+    8: Doctoral
     9: Unofficial
   replace: null
 1398:
   column_code: DYCOL08
   type: category
   categories:
-    1: Primar
-    2: Secondary
-    3: Tertiary
+    1: Primary
+    2: Lower_Secondary
+    3: Higher_Secondary
     4: Pre_University
-    5: College
+    5: Short_Cycle_Tertiary
     6: Bachelors
     7: Masters
-    8: PhD
+    8: Doctoral
     9: Unofficial
   replace: null
 1399:
   column_code: DYCOL08
   type: category
   categories:
-    1: Primar
-    2: Secondary
-    3: Tertiary
+    1: Primary
+    2: Lower_Secondary
+    3: Higher_Secondary
     4: Pre_University
-    5: College
+    5: Short_Cycle_Tertiary
     6: Bachelors
     7: Masters
-    8: PhD
+    8: Doctoral
     9: Unofficial
   replace: null
 1400:
   column_code: DYCOL08
   type: category
   categories:
-    1: Primar
-    2: Secondary
-    3: Tertiary
+    1: Primary
+    2: Lower_Secondary
+    3: Higher_Secondary
     4: Pre_University
-    5: College
+    5: Short_Cycle_Tertiary
     6: Bachelors
     7: Masters
-    8: PhD
+    8: Doctoral
     9: Unofficial
   replace: null
 1401:
   column_code: DYCOL08
   type: category
   categories:
-    1: Primar
-    2: Secondary
-    3: Tertiary
+    1: Primary
+    2: Lower_Secondary
+    3: Higher_Secondary
     4: Pre_University
-    5: College
+    5: Short_Cycle_Tertiary
     6: Bachelors
     7: Masters
-    8: PhD
+    8: Doctoral
+    9: Unofficial
+  replace: null
+1402:
+  column_code: DYCOL08
+  type: category
+  categories:
+    1: Primary
+    2: Lower_Secondary
+    3: Higher_Secondary
+    4: Pre_University
+    5: Short_Cycle_Tertiary
+    6: Bachelors
+    7: Masters
+    8: Doctoral
     9: Unofficial
   replace: null

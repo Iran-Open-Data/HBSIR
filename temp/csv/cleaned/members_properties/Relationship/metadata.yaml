@@ -546,3 +546,17 @@
     8: Other_Family
     9: Non_Family
   replace: null
+1402:
+  column_code: DYCOL03
+  type: category
+  categories:
+    1: Head
+    2: Spouse
+    3: Child
+    4: Child_in_Law
+    5: Grand_Child
+    6: Parent
+    7: Sibling
+    8: Other_Family
+    9: Non_Family
+  replace: null

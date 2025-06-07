@@ -263,3 +263,11 @@
     2: Cooperative
     3: Private
   replace: null
+1402:
+  column_code: DYCOL05
+  type: category
+  categories:
+    1: Public
+    2: Cooperative
+    3: Private
+  replace: null

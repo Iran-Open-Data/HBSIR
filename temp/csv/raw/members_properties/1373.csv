@@ -1,5 +1,5 @@
 Column,Missing_Count,Availability_Ratio,Data_Type,Unique_Values,Frequent_Values
-ADDRESS,0,100.0,integer,19909,74118: 34; 62063: 26; 43034: 26
+ADDRESS,0,100.0,integer,19909,74118: 34; 43034: 26; 62063: 26
 COL01,0,100.0,integer,34,"1: 19,909; 2: 19,083; 3: 17,226"
 COL03,0,100.0,integer,9,"3: 60,322; 1: 19,909; 2: 17,636"
 COL04,0,100.0,integer,2,"1: 52,397; 2: 51,973"

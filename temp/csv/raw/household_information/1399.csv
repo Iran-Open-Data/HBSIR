@@ -1,5 +1,5 @@
 Column,Missing_Count,Availability_Ratio,Data_Type,Unique_Values,Frequent_Values
-Address,0,100.0,integer,37557,20002385813: 1; 11308170523: 1; 11302160123: 1
+Address,0,100.0,integer,37557,13001374515: 1; 20002385813: 1; 20002385814: 1
 MahMorajeh,0,100.0,integer,12,"3: 3,273; 10: 3,255; 11: 3,236"
 Fasl,0,100.0,integer,4,"3: 9,506; 4: 9,395; 2: 9,362"
 weight,0,100.0,floating,1875,48.53333333333331: 378; 763.5478467201459: 222; 382.9498904882191: 198

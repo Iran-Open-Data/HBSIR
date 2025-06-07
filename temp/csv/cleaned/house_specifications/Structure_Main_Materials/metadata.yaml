@@ -311,3 +311,16 @@
     7: Adobe_and_Clay
     8: Other
   replace: null
+1402:
+  column_code: DYCOL06
+  type: category
+  categories:
+    1: Brick_and_Iron_or_Stone_and_Iron
+    2: Brick_and_Wood_or_Stone_and_Wood
+    3: Cement_Block
+    4: All_Brick_or_Stone_and_Brick
+    5: All_Wood
+    6: Adobe_and_Wood
+    7: Adobe_and_Clay
+    8: Other
+  replace: null

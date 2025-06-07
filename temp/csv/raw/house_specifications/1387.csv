@@ -1,5 +1,5 @@
 Column,Missing_Count,Availability_Ratio,Data_Type,Unique_Values,Frequent_Values
-Address,0,100.0,integer,39088,2000146005: 1; 1102670001: 1; 1102706004: 1
+Address,0,100.0,integer,39088,1297677004: 1; 1297677003: 1; 1297677002: 1
 DYCOL01,0,100.0,integer,7,"1: 29,508; 3: 4,002; 6: 3,440"
 DYCOL02,39053,0.08954154727793817,string,7,کپري: 26; چادرنشين: 4; کپروچادر: 3
 DYCOL03,0,100.0,integer,14,"3: 13,036; 4: 11,098; 2: 7,200"

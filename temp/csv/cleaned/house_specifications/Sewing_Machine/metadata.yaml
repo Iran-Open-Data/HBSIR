@@ -78,3 +78,7 @@
   column_code: DYCOL23
   type: boolean
   true_condition: 1
+1402:
+  column_code: DYCOL23
+  type: boolean
+  true_condition: 1

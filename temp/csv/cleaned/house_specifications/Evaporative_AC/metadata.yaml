@@ -1,0 +1,12 @@
+1385:
+  column_code: DYCOL35
+  type: boolean
+  true_condition: 8
+1387:
+  column_code: DYCOL36
+  type: boolean
+  true_condition: 8
+1391:
+  column_code: DYCOL37
+  type: boolean
+  true_condition: 1

@@ -115,3 +115,6 @@
 1401:
   column_code: DYCOL06
   type: float
+1402:
+  column_code: DYCOL06
+  type: float

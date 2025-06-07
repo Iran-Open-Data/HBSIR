@@ -1,5 +1,5 @@
 Column,Missing_Count,Availability_Ratio,Data_Type,Unique_Values,Frequent_Values
-ADDRESS,0,100.0,integer,1559,1074043: 6; 91045: 6; 1071018: 6
+ADDRESS,0,100.0,integer,1559,1071018: 6; 91045: 6; 1074043: 6
 COL1,0,100.0,integer,32,33189: 468; 34159: 376; 33112: 205
 COL3,880,60.03633060853769,integer,7,"2: 1,013; 1: 282; 3: 19"
 COL4,45,97.95640326975476,integer,387,200000: 87; 10000: 72; 50000: 71

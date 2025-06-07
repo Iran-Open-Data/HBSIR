@@ -549,3 +549,22 @@
     6: null
     7: null
     9: null
+1402:
+  column_code: DYCOL02
+  type: category
+  categories:
+    1: Employed
+    2: Unemployed
+  replace:
+    X01: null
+    X02: null
+    X03: null
+    X04: null
+    '3': null
+    '9': null
+    3: null
+    4: null
+    5: null
+    6: null
+    7: null
+    9: null

@@ -1,5 +1,5 @@
 Column,Missing_Count,Availability_Ratio,Data_Type,Unique_Values,Frequent_Values
-Address,0,100.0,integer,37045,2000272004: 1; 1100114003: 1; 1100054002: 1
+Address,0,100.0,integer,37045,1290112003: 1; 2000272004: 1; 2000224005: 1
 MahMorajeh,0,100.0,integer,12,"4: 3,164; 3: 3,141; 8: 3,113"
 NeshaniSarparast,37045,-0.0,integer,1,
 NameSarparast,37045,-0.0,integer,1,
@@ -9,7 +9,7 @@ Takmil,0,100.0,integer,2,"1: 36,868; 2: 177"
 TakmilDesc,36865,0.48589553246052297,string,99,عدم همکاري: 26; صعب العبور بودن: 10; غايب موقت: 9
 Jaygozin,177,99.52220272641382,integer,3,"2: 32,746; 1: 4,122"
 JaygozinDesc,32898,11.194493183965449,string,1492,خالي از سکنه: 214; عدم حضور خانوار اصلي: 181; خالي از سكنه: 155
-BlkAbdJaygozin,32917,11.143204211094615,integer,1136,1: 249; 3: 172; 2: 172
+BlkAbdJaygozin,32917,11.143204211094615,integer,1136,1: 249; 2: 172; 3: 172
 RadifJaygozin,32915,11.148603050344175,integer,47,"6: 1,345; 7: 919; 8: 677"
 fStat,0,100.0,integer,3,"5: 20,304; 4: 11,828; 3: 4,913"
 fEnt,0,100.0,integer,1589,745: 82; 834: 80; 752: 76

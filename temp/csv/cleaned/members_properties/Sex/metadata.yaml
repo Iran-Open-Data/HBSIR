@@ -277,3 +277,10 @@
     1: Male
     2: Female
   replace: null
+1402:
+  column_code: DYCOL04
+  type: category
+  categories:
+    1: Male
+    2: Female
+  replace: null

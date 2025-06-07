@@ -1,5 +1,5 @@
 Column,Missing_Count,Availability_Ratio,Data_Type,Unique_Values,Frequent_Values
-Address,0,100.0,integer,37962,20007017925: 1; 10916206926: 1; 10916208126: 1
+Address,0,100.0,integer,37962,13003654232: 1; 20007017925: 1; 20003012637: 1
 MahMorajeh,0,100.0,integer,12,"7: 3,254; 11: 3,249; 9: 3,248"
 Fasl,0,100.0,integer,4,"2: 9,531; 1: 9,520; 4: 9,461"
 weight,0,100.0,integer,947,41: 462; 110: 424; 223: 336
@@ -7,7 +7,7 @@ NoeKhn,0,100.0,integer,2,"1: 37,942; 2: 20"
 Takmil,0,100.0,integer,2,"1: 27,607; 2: 10,355"
 TakmilDescA,37962,-0.0,integer,1,
 TakmilDescB,29941,21.129023760602706,integer,8,"1: 5,908; 2: 1,246; 3: 542"
-TakmilDescC,37920,0.11063695274221574,string,40,فوت شده: 3; خانوار اصلي کوچ کرده است: 2; مکان مسکوني نيست فقط باغ است: 1
+TakmilDescC,37920,0.11063695274221574,string,40,فوت شده: 3; خانوار اصلي کوچ کرده است: 2; خانوار دوم ادغام شده است: 1
 Jaygozin,29941,21.129023760602706,integer,2,"1: 8,021"
 JaygozinDescA,37962,-0.0,integer,1,
 JaygozinDescB,37962,-0.0,integer,1,

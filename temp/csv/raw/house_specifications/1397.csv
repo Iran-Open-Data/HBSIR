@@ -1,5 +1,5 @@
 Column,Missing_Count,Availability_Ratio,Data_Type,Unique_Values,Frequent_Values
-Address,0,100.0,integer,38960,20005389002: 1; 11002127205: 1; 11002121705: 1
+Address,0,100.0,integer,38960,12605325102: 1; 12603321808: 1; 12603321802: 1
 DYCOL01,0,100.0,integer,7,"1: 29,455; 3: 3,945; 6: 3,181"
 DYCOL03,0,100.0,integer,12,"4: 15,714; 3: 13,112; 5: 4,565"
 DYCOL04,0,100.0,integer,237,"100: 5,350; 80: 3,555; 120: 3,276"

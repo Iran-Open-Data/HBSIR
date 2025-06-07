@@ -202,3 +202,9 @@
   replace:
     x0000: 0
     x000: 0
+1402:
+  column_code: DYCOL04
+  type: UInt32
+  replace:
+    x0000: 0
+    x000: 0

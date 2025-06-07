@@ -5,10 +5,9 @@
     1: Owned_Estate_Land
     2: Owned_Estate
     3: Rent
-    4: Mortgage
-    5: Service
-    6: Free
-    7: Other
+    4: Service
+    5: Free
+    6: Other
 1364:
   column_code: Q3
   type: category
@@ -16,11 +15,20 @@
     1: Owned_Estate_Land
     2: Owned_Estate
     3: Rent
-    4: Mortgage
-    5: Service
-    6: Free
-    7: Other
+    4: Service
+    5: Free
+    6: Other
 1366:
+  column_code: Q1
+  type: category
+  categories:
+    1: Owned_Estate_Land
+    2: Owned_Estate
+    3: Rent
+    4: Service
+    5: Free
+    6: Other
+1383:
   column_code: Q1
   type: category
   categories:

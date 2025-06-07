@@ -115,3 +115,6 @@
 1401:
   column_code: DYCOL01
   type: UInt8
+1402:
+  column_code: DYCOL01
+  type: UInt8

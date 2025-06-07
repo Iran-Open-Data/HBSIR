@@ -353,3 +353,16 @@
     6: Agricultural_Work
     7: Non_Agricultural_Work
     8: Donation
+1402:
+  column_code: DYCOL02
+  type: category
+  categories:
+    0: Secondhand_Sale
+    1: Purchase
+    2: Home_Production
+    3: Instead_of_Public_Service
+    4: Instead_of_Cooperative_Service
+    5: Instead_of_Private_Service
+    6: Agricultural_Work
+    7: Non_Agricultural_Work
+    8: Donation

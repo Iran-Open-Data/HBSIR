@@ -268,3 +268,11 @@
     2: Independent_Worker
     3: Family_Worker
   replace: null
+1402:
+  column_code: DYCOL05
+  type: category
+  categories:
+    1: Employer
+    2: Independent_Worker
+    3: Family_Worker
+  replace: null

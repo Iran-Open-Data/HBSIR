@@ -1,5 +1,5 @@
 Column,Missing_Count,Availability_Ratio,Data_Type,Unique_Values,Frequent_Values
-ADDRESS,0,100.0,integer,10146,9021031: 14; 9052076: 14; 4121101: 14
+ADDRESS,0,100.0,integer,10146,9052076: 14; 9021031: 14; 4121101: 14
 COL01,0,100.0,integer,17,"1: 14,908; 2: 2,464; 3: 2,148"
 COL02,0,100.0,integer,2,"1: 21,189; 2: 823"
 COL03,0,100.0,integer,95,"611: 8,389; 612: 5,050; 750: 1,864"

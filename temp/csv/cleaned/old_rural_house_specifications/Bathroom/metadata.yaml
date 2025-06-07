@@ -89,27 +89,27 @@
 1385:
   column_code: Q7_4
   type: boolean
-  true_condition: 1
+  true_condition: 6
 1386:
   column_code: Q7_4
   type: boolean
-  true_condition: 1
+  true_condition: 6
 1387:
   column_code: Q7_4
   type: boolean
-  true_condition: 1
+  true_condition: 6
 1388:
   column_code: Q7_4
   type: boolean
-  true_condition: 1
+  true_condition: 6
 1389:
   column_code: Q7_4
   type: boolean
-  true_condition: 1
+  true_condition: 6
 1390:
   column_code: Q7_4
   type: boolean
-  true_condition: 1
+  true_condition: 6
 1391:
   column_code: Q7_4
   type: boolean
@@ -151,6 +151,10 @@
   type: boolean
   true_condition: 1
 1401:
+  column_code: Q7_4
+  type: boolean
+  true_condition: 1
+1402:
   column_code: Q7_4
   type: boolean
   true_condition: 1

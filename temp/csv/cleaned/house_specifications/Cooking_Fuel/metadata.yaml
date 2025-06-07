@@ -311,3 +311,19 @@
     10: None
   replace:
     30: null
+1402:
+  column_code: DYCOL43
+  type: category
+  categories:
+    1: Karosine
+    2: Gasoline
+    3: Liquid_Gas
+    4: Piped_Gas
+    5: Electricity
+    6: Wood_and_Charcoal
+    7: Animal_Fuel
+    8: Coal
+    9: Other_Fuel
+    10: None
+  replace:
+    30: null

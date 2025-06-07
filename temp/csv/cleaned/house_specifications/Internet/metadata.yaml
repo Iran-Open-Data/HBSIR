@@ -13,27 +13,27 @@
 1385:
   column_code: DYCOL32
   type: boolean
-  true_condition: 1
+  true_condition: 5
 1386:
   column_code: DYCOL32
   type: boolean
-  true_condition: 1
+  true_condition: 5
 1387:
   column_code: DYCOL33
   type: boolean
-  true_condition: 1
+  true_condition: 5
 1388:
   column_code: DYCOL33
   type: boolean
-  true_condition: 1
+  true_condition: 5
 1389:
   column_code: DYCOL33
   type: boolean
-  true_condition: 1
+  true_condition: 5
 1390:
   column_code: DYCOL33
   type: boolean
-  true_condition: 1
+  true_condition: 5
 1391:
   column_code: DYCOL34
   type: boolean
@@ -75,6 +75,10 @@
   type: boolean
   true_condition: 1
 1401:
+  column_code: DYCOL34
+  type: boolean
+  true_condition: 1
+1402:
   column_code: DYCOL34
   type: boolean
   true_condition: 1

@@ -58,3 +58,6 @@
 1401:
   column_code: DYCOL04
   type: UInt16
+1402:
+  column_code: DYCOL04
+  type: UInt16

@@ -1,5 +1,5 @@
 Column,Missing_Count,Availability_Ratio,Data_Type,Unique_Values,Frequent_Values
-Address,1,99.99750068731099,integer,40011,2000081293: 1; 1090152255: 1; 1090024124: 1
+Address,1,99.99750068731099,integer,40011,1300040067: 1; 2000081293: 1; 2000105234: 1
 MahMorajeh,1,99.99750068731099,integer,13,"9: 3,516; 12: 3,493; 4: 3,466"
 ShoghlSarparast,1489,96.27852340606333,string,8261,"داراي درامد بدون کار: 2,467; داراي درآمد بدون کار: 2,262; زراعتکار: 2,090"
 NoeKhn,1366,96.58593886681163,integer,3,"1: 38,582; 2: 63"

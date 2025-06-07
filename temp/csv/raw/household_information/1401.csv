@@ -1,5 +1,5 @@
 Column,Missing_Count,Availability_Ratio,Data_Type,Unique_Values,Frequent_Values
-Address,0,100.0,integer,37951,20916495838: 1; 12001231241: 1; 12001231629: 1
+Address,0,100.0,integer,37951,13006383841: 1; 20916495838: 1; 20916495841: 1
 Fasl,0,100.0,integer,4,"3: 9,612; 1: 9,501; 4: 9,432"
 weight,0,100.0,floating,1768,49.59300978339786: 342; 817.1812943463569: 240; 1105.1315617276832: 192
 NoeKhn,0,100.0,integer,2,"1: 37,942; 2: 9"

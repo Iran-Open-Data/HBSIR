@@ -1,5 +1,5 @@
 Column,Missing_Count,Availability_Ratio,Data_Type,Unique_Values,Frequent_Values
-ADDRESS,0,100.0,integer,21817,116014009: 14; 115032049: 14; 3123062: 14
+ADDRESS,0,100.0,integer,21817,3123062: 14; 115032049: 14; 116014009: 14
 COL1,0,100.0,integer,27,"81126: 18,362; 81319: 13,779; 81217: 12,451"
 COL3,0,100.0,integer,8,"1: 83,194; 6: 719; 2: 28"
 COL4,0,100.0,integer,454,"5000: 10,496; 3000: 7,655; 2500: 6,850"
