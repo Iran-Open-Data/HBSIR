@@ -88,7 +88,7 @@ def create_house_specifications_table(year: int) -> pd.DataFrame:
                 "Cellphone",
                 "Refrigerator",
                 "Freezer",
-                "Freezer_Refrigrator",
+                "Freezer_Refrigerator",
                 "Oven",
                 "Vacuum_Cleaner",
                 "Washing_Machine",

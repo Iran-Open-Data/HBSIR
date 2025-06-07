@@ -2455,7 +2455,7 @@
       type: boolean
       true_condition: 1
     1384:
-      new_name: Freezer_Refrigrator
+      new_name: Freezer_Refrigerator
       type: boolean
       true_condition: 1
     1387:
@@ -2501,7 +2501,7 @@
       type: boolean
       true_condition: 1
     1387:
-      new_name: Freezer_Refrigrator
+      new_name: Freezer_Refrigerator
       type: boolean
       true_condition: 1
     
