@@ -2784,7 +2784,7 @@ sci_coicop_1383: &sci_coicop_1383
     '041':
       level: 2
       label: actual_rentals_for_housing
-      title: Actual rentals for housing
+      name: Actual Rentals for Housing
       farsi_name: اجاره‌بهای واقعی مسکن
       code: {start: 41_000, end: 42_000}
 
@@ -2792,16 +2792,16 @@ sci_coicop_1383: &sci_coicop_1383
     #                        ######## LEVEL 3 ########                        #
     '0411':
       level: 3
-      label: actual_rentals_paid_by_tenants_for_main_residence
-      title: Actual rentals paid by tenants for main residence
-      farsi_name: اجاره‌بهای محل سکونت (اقامتگاه اصلی)
+      label: actual_rentals_paid_by_tenants
+      name: Actual Rentals Paid by Tenants
+      farsi_name: اجاره‌بهای محل سکونت
       code: {start: 41_100, end: 41_200}
 
     #                            #### LEVEL 4 ####                            #
     '0411_1':
       level: 4
       label: actual_rentals_paid_by_tenants_for_main_residence
-      title: Actual rentals paid by tenants for main residence
+      title: Actual Rentals Paid by Tenants for Main Residence
       farsi_name: اجاره‌بهای محل سکونت (اقامتگاه اصلی)
       code: {start: 41_110, end: 41_120}
 
@@ -2809,7 +2809,7 @@ sci_coicop_1383: &sci_coicop_1383
     '0411_11':
       level: 5
       label: actual_rentals_paid_by_tenants_for_main_residence_unfurnished
-      title: Actual rentals paid by tenants for main residence unfurnished
+      name: Actual Rentals Paid by Tenants for Main Residence Unfurnished
       farsi_name: اجاره بهای محل سکونت (غیر مبله)
       code: 41_111
 
@@ -2817,15 +2817,15 @@ sci_coicop_1383: &sci_coicop_1383
     '0411_12':
       level: 5
       label: actual_rentals_paid_by_tenants_for_main_residence_furnished
-      title: Actual rentals paid by tenants for main residence furnished
+      name: Actual Rentals Paid by Tenants for Main Residence Furnished
       farsi_name: اجاره بهای محل سکونت (مبله)
       code: 41_112
 
     #                              ## LEVEL 5 ##                              #
     '0411_13':
       level: 5
-      label: 
-      title: 
+      label: payment_for_room_rent_in_hotel_or_overnight_boarding_house
+      name: Payment for Room Rent in Hotel or Overnight Boarding House
       farsi_name: اجاره‌بهای یک اتاق در هتل یا پانسیون شبانه‌روزی
       code: 41_113
 
@@ -2833,39 +2833,39 @@ sci_coicop_1383: &sci_coicop_1383
     '0412':
       level: 3
       label: actual_rentals_paid_by_tenants_for_secondary_residences
-      title: Actual rentals paid by tenants for secondary residences
+      name: Actual Rentals Paid by Tenants for Secondary Residences
       farsi_name: اجاره‌بهای محل سکونت (اقامتگاه‌های بعدی)
       code: {start: 41_200, end: 41_300}
 
     #                            #### LEVEL 4 ####                            #
     '0412_1':
       level: 4
-      label: actual_rentals_paid_by_tenants_for_secondary_residences
-      title: Actual rentals paid by tenants for secondary residences
-      farsi_name: اجاره‌بهای محل سکونت (اقامتگاه‌های بعدی)
+      label: rental_payments_for_secondary_residences_by_tenants
+      name: Rental Payments for Secondary Residences by Tenants
+      farsi_name: اجاره‌بهای محل سکونت (اقامتگاه‌های بعدی) توسط مستأجران
       code: {start: 41_210, end: 41_220}
 
     #                              ## LEVEL 5 ##                              #
     '0412_11':
       level: 5
-      label: 
-      title: 
+      label: rent_for_unfurnished_residences 
+      name: Rent for Unfurnished Residences
       farsi_name: اجاره‌بهای محل سکونت (غیر مبله)
       code: 41_211
 
     #                              ## LEVEL 5 ##                              #
     '0412_12':
       level: 5
-      label: 
-      title: 
+      label: rent_for_furnished_residences
+      name: Rent for Furnished Residences
       farsi_name: اجاره‌بهای محل سکونت (مبله)
       code: 41_212
 
     #                              ## LEVEL 5 ##                              #
     '0412_13':
       level: 5
-      label: 
-      title: 
+      label: rent_for_room_in_hotel_or_overnight_boarding_house
+      name: Rent for Room in Hotel or Overnight Boarding House
       farsi_name: اجاره‌بهای یک اتاق در هتل یا پانسیون شبانه‌روزی
       code: 41_213
 
@@ -2874,7 +2874,7 @@ sci_coicop_1383: &sci_coicop_1383
     '042':
       level: 2
       label: imputed_rentals_for_housing
-      title: Imputed rentals for housing
+      name: Imputed rentals for housing
       farsi_name: اجاره‌بهای احتسابی مسکن
       code: {start: 42_000, end: 43_000}
 
@@ -2883,133 +2883,96 @@ sci_coicop_1383: &sci_coicop_1383
     '0421':
       level: 3
       label: imputed_rentals_of_owner_occupiers_for_main_residence
-      title: Imputed rentals of owner-occupiers for main residence
+      name: Imputed rentals of owner-occupiers for main residence
       farsi_name: برآورد اجاره‌بهای مسکن شخصی برای اقامتگاه اصلی
       code: {start: 42_100, end: 42_200}
 
     #                            #### LEVEL 4 ####                            #
     '0421_1':
       level: 4
-      label: imputed_rentals_of_owner_occupiers_for_main_residence
-      title: Imputed rentals of owner-occupiers for main residence
-      farsi_name: برآورد اجاره‌بهای مسکن شخصی برای اقامتگاه اصلی
+      label: estimated_rental_value_of_owner_occupied_main_residence
+      name: Estimated Rental Value of Owner-Occupied Main Residence
+      farsi_name: ارزش برآوردی اجاره‌بهای مسکن شخصی برای اقامتگاه اصلی
       code: {start: 42_110, end: 42_120}
+
 
     #                              ## LEVEL 5 ##                              #
     '0421_11':
       level: 5
-      label: imputed_rentals_of_owner_occupiers_for_main_residence
-      title: Imputed rentals of owner-occupiers for main residence
-      farsi_name: برآورد اجاره‌بهای مسکن شخصی برای اقامتگاه اصلی
+      label: imputed_rental_costs_of_owner_occupiers
+      name: Imputed Rental Costs of Owner-Occupiers
+      farsi_name: برآورد هزینه‌های اجاره‌ای مسکن شخصی
       code: 42_111
-
 
     #                        ######## LEVEL 3 ########                        #
     '0422':
       level: 3
       label: other_imputed_rentals
-      title: Other imputed rentals
+      name: Other Imputed Rentals
       farsi_name: سایر اجاره‌های احتسابی
       code: {start: 42_200, end: 42_300}
 
     #                            #### LEVEL 4 ####                            #
     '0422_1':
       level: 4
-      label: other_imputed_rentals
-      title: Other imputed rentals
-      farsi_name: سایر اجاره‌های احتسابی
+      label: additional_imputed_rentals
+      name: Additional Imputed Rentals
+      farsi_name: اجاره‌های احتسابی اضافی
       code: {start: 42_210, end: 42_220}
 
     #                              ## LEVEL 5 ##                              #
     '0422_11':
       level: 5
-      label: imputed_rentals_of_owner_occupiers_for_other_residence
-      title: Imputed rentals of owner-occupiers for other residence
+      label: imputed_rental_value_of_secondary_residences
+      name: Imputed Rental Value of Secondary Residences
       farsi_name: برآورد اجاره‌بهای مسکن شخصی اقامتگاه‌های بعدی
       code: 42_211
 
     #                              ## LEVEL 5 ##                              #
     '0422_12':
       level: 5
-      label: imputed_rental_equivalence_of_the_mortgage
-      title: Imputed rental equivalence of the mortgage
+      label: imputed_rental_value_of_mortgaged_residences
+      name: Imputed Rental Value of Mortgaged Residences
       farsi_name: برآورد ارزش اجاری محل سکونت (رهنی)
       code: 42_212
 
     #                              ## LEVEL 5 ##                              #
     '0422_13':
       level: 5
-      label: 
-      title: 
+      label: imputed_rental_value_of_service_accommodation
+      name: Imputed Rental Value of Service Accommodation
       farsi_name: برآورد اجاره‌بهای مسکن در برابر خدمت
       code: 42_213
 
     #                              ## LEVEL 5 ##                              #
     '0422_14':
       level: 5
-      label: 
-      title: 
+      label: imputed_rental_value_of_free_housing
+      name: Imputed Rental Value of Free Housing
       farsi_name: برآورد اجاره‌بهای مسکن رایگان
       code: 42_214
 
     #                              ## LEVEL 5 ##                              #
     '0422_15':
       level: 5
-      label: 
-      title: 
-      farsi_name: برآورد سایر اجاره‌بهای احتسابی
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: imputed_rental_value_of_other_housing
+          name: Imputed Rental Value of Other Housing
+          farsi_name: برآورد سایر اجاره بهای احتسابی
       code: 42_215
-
-
-    #                ################ LEVEL 2 ################                #
-    '043':
-      level: 2
-      label: maintenance_repair_and_security_of_the_dwelling
-      title: Maintenance, repair and security of the dwelling
-      farsi_name: نگهداری و تعمیر واحد مسکونی
-      code: {start: 43_000, end: 44_000}
-
-
-    #                        ######## LEVEL 3 ########                        #
-    '0431':
-      level: 3
-      label: materials_for_the_maintenance_and_repair_of_the_dwelling
-      title: Materials for the maintenance and repair of the dwelling
-      farsi_name: مواد و مصالح برای نگهداری و تعمیر واحد مسکونی
-      code: {start: 43_100, end: 43_200}
-
-     #                            #### LEVEL 4 ####                            #
-    '0431_1-0431_2-0431_3':
-      level: 4
-      label: materials_for_the_maintenance_and_repair_of_the_dwelling
-      title: Materials for the maintenance and repair of the dwelling
-      farsi_name: مواد و مصالح برای نگهداری و تعمیر واحد مسکونی
-      code: {start: 43_110, end: 43_140}
-
-
-    #                        ######## LEVEL 3 ########                        #
-    '0432':
-      level: 3
-      label: services_for_the_maintenance_and_repair_of_the_dwelling
-      title: Services for the maintenance and repair of the dwelling
-      farsi_name: خدمات نگهداری و تعمیر واحد مسکونی
-      code: {start: 43_200, end: 43_300}
-
-     #                            #### LEVEL 4 ####                            #
-    '0432_1-0432_2':
-      level: 4
-      label: services_for_the_maintenance_and_repair_of_the_dwelling
-      title: Services for the maintenance and repair of the dwelling
-      farsi_name: خدمات نگهداری و تعمیر واحد مسکونی
-      code: {start: 43_210, end: 43_230}
 
 
     #                ################ LEVEL 2 ################                #
     '044':
       level: 2
-      label: water_supply_and_miscellaneous_services_relating_to_the_dwelling
-      title: Water supply and miscellaneous services relating to the dwelling
-      farsi_name: سایر خدمات مربوط به واحد مسکونی
+      label:
+      name: 
+      farsi_name: هزینه آب و فاضلاب و سایر خدمات مربوط به واحد مسکونی
       code: {start: 44_000, end: 45_000}
 
 
@@ -3017,71 +2980,477 @@ sci_coicop_1383: &sci_coicop_1383
     '0441':
       level: 3
       label: water_supply
-      title: Water supply
+      name: Water supply
       farsi_name: هزینه‌ی آب
       code: {start: 44_100, end: 44_200}
 
+    #                            #### LEVEL 4 ####                            #
+    '0441_1':
+      level: 4
+      label: residential_water_expenses
+      name: Residential Water Expenses
+      farsi_name: هزینه‌ی آب واحد مسکونی
+      code: {start: 44_110, end: 42_120}
 
+    #                              ## LEVEL 5 ##                              #
+    '0441_11':
+      level: 5
+      label: piped_water_supply
+      name: Piped Water Supply
+      farsi_name: آب لوله كشی
+      code: 44_111
+
+    #                              ## LEVEL 5 ##                              #
+    '0441_12':
+      level: 5
+      versions:
+        1383:
+          label: water_penalty_fees
+          name: Water Penalty Fees
+          farsi_name: هزينه هاي مربوط به جريمه
+        1386:
+          label: water_penalty_and_reconnection_fees
+          name: Water Penalty and Reconnection Fees
+          farsi_name: هزينه هاي مربوط به جريمه و وصل مجدد آب
+      code: 44_112
+
+    #                              ## LEVEL 5 ##                              #
+    '0441_13':
+      level: 5
+      versions:
+        1383:
+          label: water_reconnection_fees
+          name: Water Reconnection Fees
+          farsi_name: هزینه های مربوط به وصل مجدد آب
+        1386:
+          label: null 
+          name: null
+          farsi_name: null
+      code: 44_113
+
+    #                              ## LEVEL 5 ##                              #
+    '0441_14':
+      level: 5
+      label: purchased_water_and_other_water_expenses
+      name: Purchased Water and Other Water Expenses
+      farsi_name: خرید آب و سایر هزینه های آب
+      code: 44_114
+
+    #                        ######## LEVEL 3 ########                        #
+    '0442':
+      level: 3
+      label: waste_disposal_expenses
+      name: Waste Disposal Expenses
+      farsi_name: هزینه‌های دفع زباله
+      code: {start: 44_200, end: 44_300} 
+
+    #                            #### LEVEL 4 ####                            #
+    '0442_1':
+      level: 4
+      label: residential_waste_disposal_expenses
+      name: Residential Waste Disposal Expenses
+      farsi_name: هزینه‌های دفع زباله واحد مسکونی
+      code: {start: 44_210, end: 44_220}
+
+    #                              ## LEVEL 5 ##                              #
+    '0442_11':
+      level: 5
+      versions:
+        1383:
+          label: waste_collection_and_disposal_fees
+          name: Waste Collection and Disposal Fees
+          farsi_name: هزينه جمع آوري ودفع زباله
+        1384:
+          label: null
+          name: null
+          farsi_name: null
+      code: 44_211
+      
     #                        ######## LEVEL 3 ########                        #
     '0443':
       level: 3
       label: sewage_collection
-      title: Sewage collection
+      name: Sewage collection
       farsi_name: هزینه‌های جمع‌آوری فاضلاب
       code: {start: 44_300, end: 44_400}
 
+    #                            #### LEVEL 4 ####                            #
+    '0443_1':
+      level: 4
+      label: residential_sewage_collection_expenses
+      name: Residential Sewage Collection Expenses
+      farsi_name: هزینه‌های جمع‌آوری فاضلاب واحد مسکونی 
+      code: {start: 44_310, end: 44_320}
+
+    #                              ## LEVEL 5 ##                              #
+    '0443_11':
+      level: 5
+      label: ongoing_sewage_expenses
+      name: Ongoing Sewage Expenses
+      farsi_name: هزينه هاي جاري فاضلاب
+      code: 44_311
+
+    #                              ## LEVEL 5 ##                              #
+    '0443_12':
+      level: 5
+      label: septic_tank_cleaning_and_pipe_unclogging
+      name: Septic Tank Cleaning and Pipe Unclogging
+      farsi_name: هزينه تخليه چاه و لوله بازكني
+      code: 44_312
 
     #                        ######## LEVEL 3 ########                        #
     '0444':
       level: 3
       label: other_services_relating_to_the_dwelling
-      title: Other services relating to the dwelling
+      name: Other Services Relating to the Dwelling
       farsi_name: سایر خدمات مربوط به واحد مسکونی
       code: {start: 44_400, end: 44_500}
 
+    #                            #### LEVEL 4 ####                            #
+    '0444_1':
+      level: 4
+      label: maintenance_and_miscellaneous_housing_services
+      name: Maintenance and Miscellaneous Housing Services
+      farsi_name: خدمات نگهداری و سایر خدمات مربوط به واحد مسکونی
+      code: {start: 44_410, end: 44_420}
 
-    #                ################ LEVEL 2 ################                #
+    #                              ## LEVEL 5 ##                              #
+    '0444_11':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: staircase_and_garbage_chute_cleaning_expenses
+          name: Staircase and Garbage Chute Cleaning Expenses
+          farsi_name: هزينه عمومي نظافت راه پله وشوت زباله
+      code: 44_411
+
+    #                              ## LEVEL 5 ##                              #
+    '0444_12':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: lighting_heating_and_elevator_maintenance_expenses
+          name: Lighting, Heating, and Elevator Maintenance Expenses
+          farsi_name: هزينه عمومي روشنايي، گرما و نگهداري آسانسور
+      code: 44_412
+    
+    #                              ## LEVEL 5 ##                              #
+    '0444_13':
+      level: 5
+      versions:
+        1383:
+          label: null
+          name: null
+          farsi_name: null
+        1384:
+          label: other_apartment_maintenance_expenses
+          name: Other Apartment Maintenance Expenses
+          farsi_name: ساير هزينه هاي عمومي نگهداري آپارتمان
+      code: 44_413
+
+    #                              ## LEVEL 5 ##                              #
+    '0444_14':
+      level: 5
+      versions:
+        1383:
+          label: gardener_expenses
+          name: Gardener Expenses
+          farsi_name: هزینه باغبان
+        1386:
+          label: >
+           gardening_janitor_water_distributor_and_snow_removal_expenses
+          name: >
+           Gardening, Janitor, Water Distributor, and Snow Removal Expenses
+          farsi_name: هزينه باغباني، سرايداري، ميراب و برفروب
+      code: 44_414
+
+    #                              ## LEVEL 5 ##                              #
+    '0444_15':
+      level: 5
+      versions:
+        1383:
+          label: janitor_expenses
+          name: Janitor Expenses
+          farsi_name: هزینه سرایداری
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 44_415
+
+    #                              ## LEVEL 5 ##                              #
+    '0444_16':
+      level: 5
+      versions:
+        1383:
+          label: water_distributor_expenses
+          name: Water Distributor Expenses
+          farsi_name: هزینه میراب
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 44_416
+
+    #                              ## LEVEL 5 ##                              #
+    '0444_17':
+      level: 5
+      versions:
+        1383:
+          label: snow_removal_expenses
+          name: Snow Removal Expenses
+          farsi_name: هزینه برف روب
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 44_417
+
+    #                              ## LEVEL 5 ##                              #
+    '0444_18':
+      level: 5
+      label: street_sweeper_expenses
+      name: Street Sweeper Expenses
+      farsi_name: رفتگر
+      code: 44_418
+
+    #                        ######## LEVEL 2 ########                        #
     '045':
       level: 2
-      label: electricity_gas_and_other_fuels
-      title: Electricity, gas and other fuels
+      label: lighting_and_fuel
+      name: Lighting and Fuel
       farsi_name: روشنایی و سوخت
-      code: {start: 45_000, end: 46_000}
-
+      code: {start: 45_000, end: 45_500}
 
     #                        ######## LEVEL 3 ########                        #
     '0451':
       level: 3
       label: electricity
-      title: Electricity
+      name: Electricity
       farsi_name: برق
       code: {start: 45_100, end: 45_200}
 
+    #                            #### LEVEL 4 ####                            #
+    '0451_1':
+      level: 4
+      label: residential_electricity
+      name: Residential Electricity
+      farsi_name: برق واحد مسکونی 
+      code: {start: 45_110, end: 45_120}
+
+    #                              ## LEVEL 5 ##                              #
+    '0451_11':
+      level: 5
+      label: electricity_bill
+      name: Electricity Bill
+      farsi_name: برق
+      code: 45_111
+
+    #                              ## LEVEL 5 ##                              #
+    '0451_12':
+      level: 5
+      versions:
+        1383:
+          label: lighting_supply_costs
+          name: Lighting Supply Costs
+          farsi_name: هزینه تامین روشنائی
+        1384:
+          label: null
+          name: null
+          farsi_name: null
+      code: 45_112  
+      
+    #                              ## LEVEL 5 ##                              #
+    '0451_13':
+      level: 5
+      versions:
+        1383:
+          label: electricity_penalty_fees
+          name: Electricity Penalty Fees
+          farsi_name: هزینه‌های مربوط به جریمه
+        1386:
+          label: electricity_penalty_and_reconnection_fees
+          name: Electricity Penalty and Reconnection Fees
+          farsi_name: هزینه‌های مربوط به جریمه و وصل مجدد برق
+      code: 45_113
+
+    #                              ## LEVEL 5 ##                              #
+    '0451_14':
+      level: 5
+      versions:
+        1383:
+          label: electricity_reconnection_fees
+          name: Electricity Reconnection Fees
+          farsi_name: هزینه های مربوط به وصل مجدد برق
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 45_114
 
     #                        ######## LEVEL 3 ########                        #
     '0452':
       level: 3
       label: gas
-      title: Gas
+      name: Gas
       farsi_name: گاز
       code: {start: 45_200, end: 45_300}
 
+    #                            #### LEVEL 4 ####                            #
+    '0452_1':
+      level: 4
+      label: residential_gas
+      name: Residential Gas
+      farsi_name: گاز واحد مسکونی
+      code: {start: 45_210, end: 45_220}
+
+    #                              ## LEVEL 5 ##                              #
+    '0452_11':
+      level: 5
+      label: piped_gas
+      name: Piped Gas
+      farsi_name: گاز لوله‌کشی
+      code: 45_211
+
+    #                              ## LEVEL 5 ##                              #
+    '0452_12':
+      level: 5
+      label: bottled_gas
+      name: Bottled Gas (Various Capsules and Picnic Gas)
+      farsi_name: گاز مایع (در انواع کپسول‌های معمولی و پیک نیکی)
+      code: 45_212
+
+    #                              ## LEVEL 5 ##                              #
+    '0452_13':
+      level: 5
+      versions:
+        1383:
+          label: gas_penalty_and_fees
+          name: Gas Penalty Fees
+          farsi_name: هزینه‌های مربوط به جریمه
+        1386:
+          label: gas_penalty_and_reconnection_fees
+          name: Gas Penalty and Reconnection Fees
+          farsi_name: هزینه‌های مربوط به جریمه و وصل مجدد گاز
+      code: 45_213
+
+    #                              ## LEVEL 5 ##                              #
+    '0452_14':
+      level: 5
+      versions:
+        1383:
+          label: gas_reconnection_fees
+          name: Gas Reconnection Fees
+          farsi_name: هزینه‌های مربوط به وصل مجدد گاز
+        1386:
+          label: null
+          name: null
+          farsi_name: null
+      code: 45_214
 
     #                        ######## LEVEL 3 ########                        #
     '0453':
       level: 3
       label: liquid_fuels
-      title: Liquid fuels
+      name: Liquid Fuels
       farsi_name: سوخت مایع
       code: {start: 45_300, end: 45_400}
 
+    #                            #### LEVEL 4 ####                            #
+    '0453_1':
+      level: 4
+      label: household_liquid_fuels
+      name: Household Liquid Fuels
+      farsi_name: سوخت‌های مایع خانگی
+      code: {start: 45_310, end: 45_320}
+
+    #                              ## LEVEL 5 ##                              #
+    '0453_11':
+      level: 5
+      label: white_kerosene
+      name: White Kerosene
+      farsi_name: نفت سفید
+      code: 45_311
+
+    #                              ## LEVEL 5 ##                              #
+    '0453_12':
+      level: 5
+      label: gasoline
+      name: Gasoline
+      farsi_name: گازوئیل
+      code: 45_312
+
+    #                              ## LEVEL 5 ##                              #
+    '0453_13':
+      level: 5
+      label: black_oil_and_burner_fuel
+      name: Black Oil and Burner Fuel
+      farsi_name: نفت سیاه و نفت مشعل
+      code: 45_313
+
+    #                              ## LEVEL 5 ##                              #
+    '0453_14':
+      level: 5
+      label: other_liquid_fuels
+      name: Other Liquid Fuels
+      farsi_name: سایر سوخت‌های مایع
+      code: 45_314
 
     #                        ######## LEVEL 3 ########                        #
     '0454':
       level: 3
       label: solid_fuels
+      name: Solid Fuels
       farsi_name: سوخت‌های جامد
       code: {start: 45_400, end: 45_500}
+
+    #                            #### LEVEL 4 ####                            #
+    '0454_1':
+      level: 4
+      label: household_solid_fuels
+      name: Household Solid Fuels
+      farsi_name: سوخت‌های جامد خانگی
+      code: {start: 45_410, end: 45_420}
+
+    #                              ## LEVEL 5 ##                              #
+    '0454_11':
+      level: 5
+      label: coal
+      name: Coal
+      farsi_name: زغال سنگ
+      code: 45_411
+
+    #                              ## LEVEL 5 ##                              #
+    '0454_12':
+      level: 5
+      label: wood_charcoal
+      name: Wood and Charcoal
+      farsi_name: زغال چوب و خاک زغال
+      code: 45_412
+
+    #                              ## LEVEL 5 ##                              #
+    '0454_13':
+      level: 5
+      label: other_solid_fuels
+      name: Other Solid Fuels (Wood Chips and ...)
+      farsi_name: هیزم، چوب، خرده چوب و ...
+      code: 45_413
+
+    #                              ## LEVEL 5 ##                              #
+    '0454_14':
+      level: 5
+      label: animal_fuel
+      name: Animal Fuel
+      farsi_name: سوخت حیوانی
+      code: 45_414
 
 
     ################################# LEVEL 1 #################################
