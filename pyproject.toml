@@ -1,12 +1,11 @@
 [project]
 name = "hbsir"
-version = "0.5.2"
+version = "0.6.0"
 description = "An intuitive platform designed to simplify the analysis of Iran household budget survey data."
 readme = "README.md"
 authors = [
   { name = "Mohammad Amin Alavian", email = "m.amin.alavian@gmail.com" }
 ]
-license = { text = "MIT" }
 keywords = ["iran", "survey", "data", "socioeconomic"]
 requires-python = ">=3.10"
 dependencies = [
