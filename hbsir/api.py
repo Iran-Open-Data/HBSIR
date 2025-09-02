@@ -421,7 +421,11 @@ def setup(
     """
     parameters = __get_optional_params(locals())
     api.setup(**parameters)
-
+    years_list = set(api.utils.parse_years(years))
+    if years_list.intersection(set(range(1387, 1392))):
+        api.load_external_table("hbsir_counties")
+    if years_list.intersection(set(range(1376, 1396))):
+        api.load_external_table("hbsir_weights")
 
 def setup_config(
     mode: Literal['Standard', 'Colab'] = "Standard",
