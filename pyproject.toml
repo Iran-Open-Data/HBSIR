@@ -1,27 +1,29 @@
-[tool.poetry]
+[project]
 name = "hbsir"
-version = "0.5.1"
+version = "0.5.2"
 description = "An intuitive platform designed to simplify the analysis of Iran household budget survey data."
-authors = ["mohammad amin alavian <m.amin.alavian@gmail.com>"]
 readme = "README.md"
+authors = [
+  { name = "Mohammad Amin Alavian", email = "m.amin.alavian@gmail.com" }
+]
+license = { text = "MIT" }
+keywords = ["iran", "survey", "data", "socioeconomic"]
+requires-python = ">=3.10"
+dependencies = [
+    "bssir>=0.4.0"
+]
 
-[tool.poetry.dependencies]
-python = ">=3.10"
-bssir = ">=0.4.0"
+[project.optional-dependencies]
+dev = [
+    "bssir[dev]>=0.4.0",
+]
 
+[project.urls]
+Homepage = "https://github.com/Iran-Open-Data/HBSIR"
+Repository = "https://github.com/Iran-Open-Data/HBSIR"
 
-[tool.poetry.group.dev.dependencies]
-ipykernel = "*"
-black = "*"
-tabulate = "*"
-mkdocs = "*"
-mkdocs-material = "*"
-mkdocs-literate-nav = "*"
-mkdocs-autorefs = "*"
-mkdocstrings-python = "*"
-mkdocs-jupyter = "*"
-pytest = "*"
+[tool.setuptools.packages.find]
+where = ["."]
 
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[tool.setuptools.package-data]
+hbsir = ["**/*.yaml"]
