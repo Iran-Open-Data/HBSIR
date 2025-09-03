@@ -30,3 +30,4 @@ def create_and_upload(
     years = api.utils.parse_years(years)
     maintainer.upload_raw_files(years=years)
     maintainer.upload_cleaned_files(years=years, table_names=table_names)
+    maintainer.upload_external_files()
