@@ -800,12 +800,18 @@ investment:
 Weight:
 
   table_list:
+    1373:
+      - house_specifications
     1376:
       - external.hbsir_weights
     1396:
       - household_information
 
   instructions:
+
+    - apply_function:
+        1373: hbsir.schema_functions.weight.calculate_weight
+        1376: null
 
     - filter_year
 
