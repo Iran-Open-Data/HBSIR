@@ -28,7 +28,8 @@ def calculate_weight(table: pd.DataFrame) -> pd.DataFrame:
         .pipe(api.add_attribute, name="Province", aspects="code")
         .pipe(api.add_attribute, name="Urban_Rural")
         .assign(
-            Sample_Count=lambda df: df.groupby("Province")["ID"].transform("count")
+            Sample_Count=lambda df:
+            df.groupby(["Province", "Urban_Rural"])["ID"].transform("count")
         )
         .join(province_weight_share, on=["Province", "Urban_Rural"])
         .join(household_count, on=["Urban_Rural"])
