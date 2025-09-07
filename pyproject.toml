@@ -9,12 +9,12 @@ authors = [
 keywords = ["iran", "survey", "data", "socioeconomic"]
 requires-python = ">=3.10"
 dependencies = [
-    "bssir>=0.4.0"
+  "bssir>=0.4.0",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "bssir[dev]>=0.4.0",
+  "bssir[dev]>=0.4.0",
 ]
 
 [project.urls]
