@@ -577,7 +577,7 @@ def write_excel(year: int) -> None:
             excel_writer,
             sheet_name="Metadata",
             index=False,
-            freeze_panes=(1, 0)
+            freeze_panes=(1, 0),
         )
 
 
@@ -588,7 +588,13 @@ def write_csv(year: int) -> None:
     tables = create_tables(year)
     summary_table = create_summary_table(tables)
     metadata_buffer = io.BytesIO()
-    metadata_table.to_csv(metadata_buffer, index=False)
+    styled_metadata = create_styled_metadata(tables, metadata_table)
+    styled_metadata.to_excel(
+        metadata_buffer,
+        sheet_name="Metadata",
+        index=False,
+        freeze_panes=(1, 0),
+    )
     data_buffer = io.BytesIO()
     summary_table.to_csv(data_buffer, index=False)
     with ZipFile(
@@ -596,5 +602,5 @@ def write_csv(year: int) -> None:
         mode="w",
         compression=ZIP_LZMA,
     ) as zip_file:
-        zip_file.writestr("Metadata.csv", metadata_buffer.getvalue())
+        zip_file.writestr("Metadata.xlsx", metadata_buffer.getvalue())
         zip_file.writestr("Data.csv", data_buffer.getvalue())

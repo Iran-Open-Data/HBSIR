@@ -1,4 +1,5 @@
 import pandas as pd
+from pandas.api.types import CategoricalDtype
 
 
 def number_of_members(table: pd.DataFrame) -> pd.DataFrame:
@@ -31,18 +32,16 @@ def adjust_month(table: pd.DataFrame) -> pd.DataFrame:
     return table
 
 
-def create_season(table: pd.DataFrame) -> pd.DataFrame:
-    seasons = {1: "Spring", 2: "Summer", 3: "Autumn", 4: "Winter"}
-    table["Season"] = pd.Series(
-        data=pd.Categorical(
-            table["Month"]
-            .sub(1)
-            .floordiv(3)
-            .add(1)
-            .astype("Int16")
-            .map(seasons)
-        ),
-        index=table.index,
+def create_season_number(table: pd.DataFrame) -> pd.DataFrame:
+    table["Season_Number"] = table["Month"].sub(1).floordiv(3).add(1)
+    return table
+
+
+def season_name(table: pd.DataFrame) -> pd.DataFrame:
+    table["Season"] = (
+        table["Season_Number"]
+        .astype(CategoricalDtype([1, 2, 3, 4], ordered=True))
+        .cat.rename_categories({1: "Spring", 2: "Summer", 3: "Autumn", 4: "Winter"})
     )
     return table
 
@@ -66,5 +65,5 @@ def calculate_amount_after_1383(table: pd.DataFrame) -> pd.DataFrame:
     filt = table[["Grams", "Kilos"]].notna().max(axis="columns").eq(False)
     table.loc[filt, "Amount"] = None
     filt = table["Amount"].isna() & table["Price"].gt(0)
-    table.loc[filt, "Amount"] = table.loc[filt, "Expenditure"] / table.loc[filt, "Price"]
+    table["Amount"] = table["Amount"].mask(filt, table["Expenditure"]/ table["Price"])
     return table

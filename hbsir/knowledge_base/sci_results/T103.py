@@ -50,7 +50,11 @@ def create_table_for_a_year(
 
     average_number_of_members = (
         table.groupby("Expenditure_Tier", observed=True)
-        .apply(calculate.weighted_average, columns=["Members", "Have_Income", "Value"])
+        .apply(
+            calculate.weighted_average,
+            columns=["Members", "Have_Income", "Value"],
+            include_groups=False,
+        )
         .rename(
             columns={
                 "Members": "Average_Members",

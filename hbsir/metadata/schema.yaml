@@ -52,8 +52,10 @@ household_information:
         1400: null
 
     - apply_function:
-        1387: hbsir.schema_functions.standard_tables.create_season
+        1387: hbsir.schema_functions.standard_tables.create_season_number
         1396: null
+
+    - apply_function: hbsir.schema_functions.standard_tables.season_name
 
     - apply_function:
         1387: hbsir.api.add_weight
@@ -63,8 +65,9 @@ household_information:
         1387:
           - Year
           - ID
-          - Season
           - Month
+          - Season_Number
+          - Season
           - Weight
           - Household_Type
           - Main_Household
@@ -72,6 +75,7 @@ household_information:
         1400:
           - Year
           - ID
+          - Season_Number
           - Season
           - Weight
           - Household_Type
@@ -190,13 +194,13 @@ Administrative_Divisions:
           - County_Name
 
 
-census_month:
+# census_month:
 
-  instructions:
+#   instructions:
 
-    - add_year
+#     - add_year
 
-    - dropna: ID
+#     - dropna: ID
 
 
 house_specifications:

@@ -32,7 +32,7 @@ def create_table_for_a_year(
 
     average_number_of_members = (
         table.groupby("Expenditure_Tier", observed=True)
-        .apply(calculate.weighted_average, columns=["Value"])
+        .apply(calculate.weighted_average, columns=["Value"], include_groups=False)
         .rename(columns={"Value": "Average"})
     )
     average_number_of_members.loc["Total"] = total
