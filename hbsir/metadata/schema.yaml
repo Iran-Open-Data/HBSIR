@@ -300,6 +300,21 @@ Number_of_Members:
       - Childs
 
 
+Calorie_Based_Equivalence_Scale:
+
+  table_list:
+    members_properties
+
+  instructions:
+
+    - apply_function: hbsir.schema_functions.calorie_requirements.calorie_based_equivalence_scale
+
+    - apply_order:
+      - Year
+      - ID
+      - Calorie_Based_Equivalence_Scale_NNFTRI
+
+
 Equivalence_Scale:
 
   table_list:
