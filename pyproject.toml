@@ -34,4 +34,4 @@ Repository = "https://github.com/Iran-Open-Data/HBSIR"
 where = ["."]
 
 [tool.setuptools.package-data]
-hbsir = ["**/*.yaml"]
+hbsir = ["**/*.yaml", "**/*.csv"]
