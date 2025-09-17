@@ -1202,7 +1202,7 @@ _long_other_income:
       - Year
       - ID
       - Member_Number
-      - Other_Incomes
+      - Other_Incomes: float
       - Other_Income_Type
 
 
@@ -1378,7 +1378,7 @@ Income_Breakdown:
   instructions:
 
     - apply_pandas_function: >
-        .groupby(["Year", "ID", "Income_Type"], as_index=False).sum()
+        .groupby(["Year", "ID", "Income_Type"], as_index=False)["Income"].sum()
 
     - apply_order:
       - Year
