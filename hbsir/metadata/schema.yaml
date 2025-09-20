@@ -99,6 +99,8 @@ Season:
     - add_attribute:
         1363:
           name: Season
+          aspects: [name, season_number]
+          column_names: [Season, Season_Number]
         1387: null
 
     - create_column:
@@ -115,7 +117,64 @@ Season:
     - apply_order:
       - Year
       - ID
+      - Season_Number
       - Season
+
+
+CPI_Quarterly:
+  table_list:
+    - Season
+    - external.sci.cpi.quarterly
+
+  concat_options:
+    left_on: [Year, Season_Number]
+    right_on: [Year, Season]
+    how: left
+
+  instructions:
+
+    - rename: {CPI: CPI_Quarterly}
+
+    - apply_order:
+      - Year
+      - ID
+      - CPI_Quarterly
+
+
+CPI_Annual:
+  table_list:
+    - Season
+    - external.sci.cpi.annual
+
+  concat_options:
+    merge_on: [Year]
+    how: left
+
+  instructions:
+
+    - rename: {CPI: CPI_Annual}
+
+    - apply_order:
+      - Year
+      - ID
+      - CPI_Annual
+
+
+CPI:
+  table_list:
+    - CPI_Annual
+    - CPI_Quarterly
+  
+  concat_options:
+    on_columns: [Year, ID]
+  
+  instructions:
+
+    - apply_order:
+      - Year
+      - ID
+      - CPI_Annual
+      - CPI_Quarterly
 
 
 Administrative_Divisions:

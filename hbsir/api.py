@@ -15,7 +15,7 @@ from pathlib import Path
 import pandas as pd
 
 from bssir.metadata_reader import config, _Years
-from bssir.api import API
+from bssir.api import API, _DataSource, _Frequency, _SeparateBy
 
 
 defaults, metadata = config.set_package_config(Path(__file__).parent)
@@ -162,6 +162,23 @@ def load_table(
     """
     parameters = __get_optional_params(locals())
     return api.load_table(**parameters)
+
+
+def load_external_data(
+    table_name: str,
+    data_source: Optional[_DataSource] = None,
+    frequency: Optional[_Frequency] = None,
+    separate_by: Optional[_SeparateBy] = None,
+    form: Optional[Literal["cleaned", "original"]]  = None,
+    on_missing: Optional[Literal["error", "download", "create"]]  = None,
+    save_downloaded: Optional[bool]  = None,
+    redownload: Optional[bool]  = None,
+    save_created: Optional[bool]  = None,
+    recreate: Optional[bool]  = None,
+    reset_index: bool = True,
+) -> pd.DataFrame:
+    parameters = __get_optional_params(locals())
+    return api.load_external_table(**parameters)
 
 
 def load_knowledge(
