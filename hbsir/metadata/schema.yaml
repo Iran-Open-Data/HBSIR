@@ -819,7 +819,7 @@ investment:
 Weight:
 
   table_list:
-    1373:
+    1371:
       - house_specifications
     1376:
       - external.hbsir_weights
@@ -829,7 +829,7 @@ Weight:
   instructions:
 
     - apply_function:
-        1373: hbsir.schema_functions.weight.calculate_weight
+        1371: hbsir.schema_functions.weight.calculate_weight
         1376: null
 
     - filter_year

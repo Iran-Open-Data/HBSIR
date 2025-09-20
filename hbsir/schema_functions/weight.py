@@ -9,6 +9,9 @@ def calculate_weight(table: pd.DataFrame) -> pd.DataFrame:
     internal_data_path = api.defaults.package_dir / "internal_data"
     if year >= 1373:
         province_weights_path = internal_data_path / "province_weights_1373.csv"
+    elif year > 1371:
+        province_weights_path = internal_data_path / "province_weights_1371.csv"
+
     province_weights = pd.read_csv(province_weights_path, index_col=0)
     province_weight_share = province_weights.stack().rename("Weight_Share")
 
