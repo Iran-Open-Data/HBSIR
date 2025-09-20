@@ -1,6 +1,6 @@
 [project]
 name = "hbsir"
-version = "0.6.2"
+version = "0.6.3"
 description = "An intuitive platform designed to simplify the analysis of Iran household budget survey data."
 readme = "README.md"
 authors = [
@@ -9,21 +9,21 @@ authors = [
 keywords = ["iran", "survey", "data", "socioeconomic"]
 requires-python = ">=3.10"
 dependencies = [
-  "bssir>=0.6.2",
+  "bssir",
 ]
 
 [project.optional-dependencies]
 all = [
-  "bssir[all]>=0.6.2",
+  "bssir[all]",
 ]
 dev = [
-  "bssir[dev]>=0.6.2",
+  "bssir[dev]",
 ]
 maintain = [
-  "bssir[maintain]>=0.6.2",
+  "bssir[maintain]",
 ]
 notebook = [
-  "bssir[notebook]>=0.6.2",
+  "bssir[notebook]",
 ]
 
 [project.urls]
