@@ -376,6 +376,43 @@ sci_classification_1363:
       code: {start: 31_000, end: 32_000}
 
 
+sci_classification_1383:
+  defaults:
+    aspects: [farsi_name]
+    levels: [1, 2, 3, 4]
+
+  items:
+    '01':
+      level: 1
+      code: {start: 10_000, end: 20_000}
+      literal_title: اقلام خوراکی و نوشیدنی‌های غیر الکلی
+      title: اقلام خوراکی و نوشیدنی‌های غیر الکلی 
+
+    '011':
+      level: 2
+      code: {start: 11_000, end: 12_000}
+      literal_title: مواد خوراکی
+      title: مواد خوراکی
+
+    '0111':
+      level: 3
+      code: {start: 11_100, end: 11_200}
+      literal_title: غلات، نان، آرد، رشته و فراورده‌های آن
+      title: غلات، نان، آرد، رشته و فراورده‌های آن
+
+    '01111, 01112':
+      level: 4
+      code: {start: 11_110, end: 11_130}
+      literal_title: غلات
+      title: غلات
+
+    '011111':
+      level: 5
+      code: 11_111
+      literal_title: برنج صدری، دمسیاه و استخوانی
+      title: برنج صدری، دمسیاه و استخوانی
+
+
 ###############################################################################
 ##                - - -    Original Classifications   - - -                  ##
 ###############################################################################
