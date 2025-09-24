@@ -381,7 +381,7 @@ sci_classification_1383:
     aspects: [farsi_name]
     levels: [1, 2, 3, 4]
 
-  items:
+items:
     '01':
       level: 1
       code: {start: 10_000, end: 20_000}
