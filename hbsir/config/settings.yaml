@@ -2,7 +2,7 @@
 package_name: HBSIR
 
 # Local Directory
-local_dir: Data/HBSIR
+local_dir: Data
 in_root: true
 
 # Years (list of years or range in for of: "first_year - last_year")
@@ -13,11 +13,11 @@ local_settings: config/hbsir_settings.yaml
 
 # Folder Names
 folder_names:
-  cached: _cache
-  metadata: _metadata
-  original: 1_original
-  unpacked: 2_unpacked
-  extracted: 3_extracted
-  cleaned: 4_cleaned
-  external: ../external
-  maps: ../maps
+  cached: HBSIR/_cache
+  metadata: HBSIR/_metadata
+  original: HBSIR/1_original
+  unpacked: HBSIR/2_unpacked
+  extracted: HBSIR/3_extracted
+  cleaned: HBSIR/4_cleaned
+  external: External_Data
+  maps: Maps
