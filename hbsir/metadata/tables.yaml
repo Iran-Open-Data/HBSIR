@@ -458,15 +458,15 @@ HOUSE_ITEMS:
     type: category
     categories:
       1369:
-        '1': Brick
-        '2': Ceramic_Block
-        '3': Cement_Block
-        '4': Concrete
-        '5': Iron_Beam
-        '6': Stone
-        '7': Wood
-        '8': Adobe
-        '9': Clay
+        '01': Brick
+        '02': Ceramic_Block
+        '03': Cement_Block
+        '04': Concrete
+        '05': Iron_Beam
+        '06': Stone
+        '07': Wood
+        '08': Adobe
+        '09': Clay
         '10': Other
       1377:
         '01': Brick_and_Iron_or_Stone_and_Iron  
@@ -605,14 +605,17 @@ HOUSE_ITEMS:
   house_pipe_water: &house_pipe_water
     new_name: Pipe_Water
     type: boolean
-    true_condition: '1'
+    true_condition:
+      1363: '1'
+      1385: '01'
+      1391: '1'
 
   house_electricity: &house_electricity
     new_name: Electricity
     type: boolean
     true_condition:
       1363: '1'
-      1385: '2'
+      1385: '02'
       1391: '1'
 
   house_natural_gas: &house_natural_gas
@@ -620,7 +623,7 @@ HOUSE_ITEMS:
     type: boolean
     true_condition:
       1363: '1'
-      1385: '3'
+      1385: '03'
       1391: '1'
 
   house_phone: &house_phone
@@ -628,7 +631,7 @@ HOUSE_ITEMS:
     type: boolean
     true_condition:
       1363: '1'
-      1385: '4'
+      1385: '04'
       1391: '1'
 
   house_internet: &house_internet
@@ -636,7 +639,7 @@ HOUSE_ITEMS:
     type: boolean
     true_condition:
       1363: '1'
-      1385: '5'
+      1385: '05'
       1391: '1'
 
   house_bathroom: &house_bathroom
@@ -644,7 +647,7 @@ HOUSE_ITEMS:
     type: boolean
     true_condition:
       1363: '1'
-      1385: '6'
+      1385: '06'
       1391: '1'
 
   house_kitchen: &house_kitchen
@@ -652,7 +655,7 @@ HOUSE_ITEMS:
     type: boolean
     true_condition:
       1363: '1'
-      1385: '7'
+      1385: '07'
       1391: '1'
 
   house_ac: &house_ac
@@ -666,7 +669,7 @@ HOUSE_ITEMS:
     new_name: Evaporative_AC
     type: boolean
     true_condition:
-      1385: '8'
+      1385: '08'
       1391: '1'
 
   house_central_ac: &house_central_ac
@@ -674,7 +677,7 @@ HOUSE_ITEMS:
     type: boolean
     true_condition:
       1363: '1'
-      1385: '9'
+      1385: '09'
       1391: '1'
 
   house_central_heating: &house_central_heating
