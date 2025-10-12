@@ -18,12 +18,11 @@ def equivalence_scale(table: pd.DataFrame) -> pd.DataFrame:
     return table.assign(
         Household=1,
         Per_Capita=table["Members"],
+        Family_Size=table["Members"],
         OECD=table["Adults"].multiply(0.7).add(0.3).add(table["Childs"].multiply(0.5)),
-        OECD_Modified=table["Adults"]
-        .multiply(0.5)
-        .add(0.5)
+        OECD_Modified=table["Adults"].multiply(0.5).add(0.5)
         .add(table["Childs"].multiply(0.3)),
-        Square_Root=table.eval("sqrt(Members)"),
+        Square_Root=table["Members"].pow(1/2),
     )
 
 
