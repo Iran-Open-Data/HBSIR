@@ -278,12 +278,12 @@ columns:
     Description: "Connection to a sewerage system (True/False)"
     Farsi_description: "اتصال به سیستم فاضلاب (دارد/ندارد)"
 
-  - Name: "AC"
-    Farsi_Name: "کولر گازی"
+  - Name: "Evaporative AC"
+    Farsi_Name: "کولر آبی"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
-    Description: "Ownership of an air conditioning unit (True/False)"
-    Farsi_description: "مالکیت کولر گازی (دارد/ندارد)"
+    Description: "Ownership of an evaporative air conditioning unit (True/False)"
+    Farsi_description: "مالکیت کولر آبی (دارد/ندارد)"
 
   - Name: "Central AC"
     Farsi_Name: "کولر مرکزی"

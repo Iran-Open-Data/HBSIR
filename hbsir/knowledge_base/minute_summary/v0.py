@@ -99,7 +99,7 @@ def create_house_specifications_table(year: int) -> pd.DataFrame:
                 "Electricity",
                 "Natural_Gas",
                 "Sewerage",
-                "AC",
+                "Evaporative_AC",
                 "Central_AC",
                 "Water_Heater",
                 "Central_Heating",
