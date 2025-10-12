@@ -25,6 +25,9 @@ maintain = [
 notebook = [
   "bssir[notebook]",
 ]
+plot = [
+  "bssir[plot]",
+]
 
 [project.urls]
 Homepage = "https://github.com/Iran-Open-Data/HBSIR"
