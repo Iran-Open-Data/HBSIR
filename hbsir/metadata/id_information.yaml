@@ -164,6 +164,10 @@ County:
       origin: name
       mapping: county_name_translation
 
+    cbi_sample:
+      origin: name
+      mapping: cbi_sample
+
   name:
     # 0 0 X X
     #   + Markazi                           + مرکزی
@@ -450,7 +454,7 @@ County:
     1013: Nain                              # نایین
     1014: Najafabad                         # نجف آباد
     1015: Natanz                            # نطنز
-    1016: Shahinshahro Meymeh               # شاهین شهرومیمه
+    1016: Shahinshahr-o-Meymeh              # شاهین شهرومیمه
     1017: Mobarakeh                         # مبارکه
     1018: Aran-o-Bidgol                     # آران وبیدگل
     1019: Tiran-o-Korun                     # تیران وکرون
@@ -536,7 +540,7 @@ County:
     # 1 6 X X
     #    + Ilam                             + ایلام
     1601: Ilam                              # ایلام
-    1602: Darreh Shahr                      # دره شهر
+    1602: Darreh_Shahr                      # دره شهر
     1603: Dehloran                          # دهلران
     1604: Shirvan-o-Chardavol               # چرداول
     1605: Mehran                            # مهران
