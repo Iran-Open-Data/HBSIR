@@ -44,12 +44,12 @@ def calorie_based_equivalence_scale(table: pd.DataFrame) -> pd.DataFrame:
         .loc[:, "Calorie_Requirement"]
         .iloc[0]
     )
-    calorie_requirements
+
     return (
         table
         .join(create_calorie_requirement_table(), on=["Age", "Sex"])
         .groupby(["Year", "ID"])[["Calorie_Requirement"]].sum()
         .div(average_calorie_requirement)
-        .rename(columns={"Calorie_Requirement": "Calorie_Based_Equivalence_Scale_NNFTRI"})
+        .rename(columns={"Calorie_Requirement": "Adult_Equivalent_Scale_NNFTRI"})
         .reset_index()
     )

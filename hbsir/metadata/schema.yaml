@@ -359,7 +359,7 @@ Number_of_Members:
       - Childs
 
 
-Calorie_Based_Equivalence_Scale:
+Adult_Equivalent_Scale:
 
   table_list:
     members_properties
@@ -371,7 +371,7 @@ Calorie_Based_Equivalence_Scale:
     - apply_order:
       - Year
       - ID
-      - Calorie_Based_Equivalence_Scale_NNFTRI
+      - Adult_Equivalent_Scale_NNFTRI
 
 
 Equivalence_Scale:

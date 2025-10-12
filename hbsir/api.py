@@ -55,6 +55,7 @@ _Table = Literal[
     "Season",
     "Weight",
     "Number_of_Members",
+    "Adult_Equivalent_Scale",
     "Equivalence_Scale",
     "Original_Expenditures",
     "Expenditures",
