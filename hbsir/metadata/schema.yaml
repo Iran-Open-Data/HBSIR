@@ -388,6 +388,7 @@ Equivalence_Scale:
       - ID
       - Household
       - Per_Capita
+      - Family_Size
       - OECD
       - OECD_Modified
       - Square_Root
