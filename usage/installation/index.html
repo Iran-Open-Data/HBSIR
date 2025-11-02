@@ -3561,10 +3561,8 @@ about system settings or dependencies.</p>
 </div>
 </div>
 <p>After installation, you can verify that it works by running:</p>
-<div class="language-text highlight"><pre><span></span><code>```bash
-uv --version
-```
-</code></pre></div>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>uv<span class="w"> </span>--version
+</span></code></pre></div>
 <p>For more details, troubleshooting tips, or advanced options, visit the official
 <a href="https://docs.astral.sh/uv/getting-started/installation/"><code>uv</code> installation guide</a>.</p>
 <h2 id="setting-up-your-project-directory">🪄 Setting Up Your Project Directory</h2>
@@ -3591,7 +3589,7 @@ uv --version
 </ol>
 <h3 id="optional-add-notebook-support">🧮 Optional: Add Notebook Support</h3>
 <p>If you prefer using interactive notebooks (similar to Stata’s data browser or do-file interface), you can install one of these variants:</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Jupyter Lab</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Jupyter Lab</label><label for="__tabbed_2_2">VS Code Notebook</label><label for="__tabbed_2_3">Marimo</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>uv<span class="w"> </span>add<span class="w"> </span>hbsir<span class="o">[</span>notebook<span class="o">]</span>,<span class="w"> </span>jupyterlab
@@ -3600,18 +3598,12 @@ uv --version
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>uv<span class="w"> </span>run<span class="w"> </span>jupyter<span class="w"> </span>notebook
 </span></code></pre></div>
 </div>
+<div class="tabbed-block">
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>uv<span class="w"> </span>add<span class="w"> </span>hbsir<span class="o">[</span>notebook<span class="o">]</span>
+</span></code></pre></div>
+<p>Then simply create a new file with the .ipynb extension inside your project folder.
+When you open it in Visual Studio Code, the Python and Jupyter extensions will detect it automatically.</p>
 </div>
-</div>
-<p>=== VS Code Notebook</p>
-<div class="language-text highlight"><pre><span></span><code>```bash
-uv add hbsir[notebook]
-```
-
-Then simply create a new file with the .ipynb extension inside your project folder.
-When you open it in Visual Studio Code, the Python and Jupyter extensions will detect it automatically.
-</code></pre></div>
-<div class="tabbed-set tabbed-alternate" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Marimo</label></div>
-<div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>uv<span class="w"> </span>add<span class="w"> </span>hbsir,<span class="w"> </span>marimo
 </span></code></pre></div>
