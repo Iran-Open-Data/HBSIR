@@ -69,6 +69,9 @@ _Table = Literal[
     "Total_Income",
     "Members_Total_Income",
 ]
+_ExternalTable = Literal[
+    "CPI",
+]
 _Attribute = Literal["Urban_Rural", "Province", "County"]
 
 
@@ -166,7 +169,7 @@ def load_table(
 
 
 def load_external_data(
-    table_name: str,
+    table_name: _ExternalTable,
     data_source: Optional[_DataSource] = None,
     frequency: Optional[_Frequency] = None,
     separate_by: Optional[_SeparateBy] = None,
@@ -444,6 +447,7 @@ def setup(
         api.load_external_table("hbsir_counties")
     if years_list.intersection(set(range(1376, 1396))):
         api.load_external_table("hbsir_weights")
+
 
 def setup_config(
     mode: Literal['Standard', 'Colab'] = "Standard",
