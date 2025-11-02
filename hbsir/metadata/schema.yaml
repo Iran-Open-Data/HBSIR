@@ -398,9 +398,16 @@ food:
 
   instructions:
 
-    - add_year
-
     - dropna: ID
+
+    - apply_filter:
+        1363: null
+        1364: Commodity_Code not in [18888, 19993]
+        1365: Commodity_Code not in [18888]
+        1366: Commodity_Code not in [18888, 19993, 91112, 91124, 91142, 91171, 91197]
+        1367: null
+
+    - add_year
 
     - add_table_name
 
@@ -433,11 +440,15 @@ food:
         1370: {Kilos: Amount}
         1371: null
 
-    - apply_function: 
+    - apply_function:
         1369: hbsir.schema_functions.standard_tables.calculate_amount_before_1382
         1370: null
         1371: hbsir.schema_functions.standard_tables.calculate_amount_before_1382
         1383: hbsir.schema_functions.standard_tables.calculate_amount_after_1383
+
+    - apply_function:
+        1363: hbsir.schema_functions.standard_tables.add_duration_before_1368
+        1369: null
 
     - create_column:
         1363: null
@@ -460,17 +471,6 @@ food:
 
     - apply_pandas_function: >
         .assign(Price=self.table["Price"].replace(0, None))
-
-    - add_classification:
-        1363: {target: Commodity_Code, name: Duration}
-        1369: null
-
-    - apply_filter:
-        1363: null
-        1364: "Commodity_Code not in [18888, 19993]"
-        1365: "Commodity_Code not in [18888]"
-        1366: "Commodity_Code not in [18888, 19993, 91112, 91124, 91142, 91171, 91197]"
-        1367: null
 
     - apply_order:
         1363:
