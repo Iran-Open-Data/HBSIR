@@ -30,8 +30,12 @@ sci_classification_1363:
     '111':
       level: 3
       farsi_name: آرد و رشته
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 11_100, end: 11_200}
 
     #                            #### LEVEL 4 ####                            #
@@ -40,28 +44,50 @@ sci_classification_1363:
       farsi_name: آرد گندم
       code: 11_110
 
+    #                            #### LEVEL 4 ####                            #
+    '111_20':
+      level: 4
+      farsi_name: آرد جو
+      code: 11_120
+
+    #                            #### LEVEL 4 ####                            #
+    '111_31':
+      level: 4
+      farsi_name: آرد برنج
+      code: 11_131
+
     #                        ######## LEVEL 3 ########                        #
     '112':
       level: 3
       farsi_name: غلات
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration: 30
       code: {start: 11_200, end: 11_300}
 
     #                        ######## LEVEL 3 ########                        #
     '113':
       level: 3
       farsi_name: انواع نان
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 11_300, end: 11_400}
 
     #                        ######## LEVEL 3 ########                        #
     '114':
       level: 3
       farsi_name: بیسکویت، کیک و ویفر
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 11_400, end: 11_500}
 
     #                ################ LEVEL 2 ################                #
@@ -74,24 +100,36 @@ sci_classification_1363:
     '121-122':
       level: 3
       farsi_name: گوشت دام
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 12_100, end: 12_300}
 
     #                        ######## LEVEL 3 ########                        #
     '123':
       level: 3
       farsi_name: گوشت پرندگان
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 12_300, end: 12_400}
 
     #                        ######## LEVEL 3 ########                        #
     '124':
       level: 3
       farsi_name: گوشت حیوانات دریایی
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 12_400, end: 12_500}
 
     #                ################ LEVEL 2 ################                #
@@ -104,24 +142,36 @@ sci_classification_1363:
     '131':
       level: 3
       farsi_name: انواع شیر
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 13_100, end: 13_200}
 
     #                        ######## LEVEL 3 ########                        #
     '132-133':
       level: 3
       farsi_name: فرآورده‌های شیر
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 13_200, end: 13_400}
 
     #                        ######## LEVEL 3 ########                        #
     '134':
       level: 3
       farsi_name: تخم انواع پرندگان
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 13_400, end: 13_500}
 
     #                ################ LEVEL 2 ################                #
@@ -134,16 +184,20 @@ sci_classification_1363:
     '141':
       level: 3
       farsi_name: روغن‌ها و چربی‌های حیوانی
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration: 30
       code: {start: 14_100, end: 14_200}
 
     #                        ######## LEVEL 3 ########                        #
     '142':
       level: 3
       farsi_name: روغن‌های نباتی
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration: 30
       code: {start: 14_200, end: 14_300}
 
     #                ################ LEVEL 2 ################                #
@@ -156,56 +210,84 @@ sci_classification_1363:
     '151':
       level: 3
       farsi_name: میوه‌های درختی (به جز مرکبات)
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 15_100, end: 15_200}
 
     #                        ######## LEVEL 3 ########                        #
     '152':
       level: 3
       farsi_name: مرکبات
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 15_200, end: 15_300}
 
     #                        ######## LEVEL 3 ########                        #
     '153':
       level: 3
       farsi_name: میوه‌های جالیزی
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 15_300, end: 15_400}
 
     #                        ######## LEVEL 3 ########                        #
     '154':
       level: 3
       farsi_name: انواع سبزی‌های برگی
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 15_400, end: 15_500}
 
     #                        ######## LEVEL 3 ########                        #
     '155':
       level: 3
       farsi_name: انواع سبزی‌های بوته‌ای
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 15_500, end: 15_600}
 
     #                        ######## LEVEL 3 ########                        #
     '156':
       level: 3
       farsi_name: انواع سبزی‌های ریشه‌ای
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 15_600, end: 15_700}
 
     #                        ######## LEVEL 3 ########                        #
     '157':
       level: 3
       farsi_name: میوه‌ها و سبزی‌های آماده (برای مصرف در منزل)
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 15_700, end: 15_800}
 
     #                ################ LEVEL 2 ################                #
@@ -218,16 +300,22 @@ sci_classification_1363:
     '161-162':
       level: 3
       farsi_name: خشکبار و آجیل
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 16_100, end: 16_300}
 
     #                        ######## LEVEL 3 ########                        #
     '163':
       level: 3
       farsi_name: حبوب
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration: 30
       code: {start: 16_300, end: 16_400}
 
     #                ################ LEVEL 2 ################                #
@@ -240,24 +328,32 @@ sci_classification_1363:
     '171':
       level: 3
       farsi_name: قند و شکر
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration: 30
       code: {start: 17_100, end: 17_200}
 
     #                        ######## LEVEL 3 ########                        #
     '172-173':
       level: 3
       farsi_name: انواع شیرینی‌ها و مرباها
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 17_200, end: 17_400}
 
     #                        ######## LEVEL 3 ########                        #
     '174':
       level: 3
       farsi_name: چای، قهوه و کاکائو
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration: 30
       code: {start: 17_400, end: 17_500}
 
     #                ################ LEVEL 2 ################                #
@@ -270,16 +366,24 @@ sci_classification_1363:
     '181':
       level: 3
       farsi_name: انواع ادویه
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1364: 30
       code: {start: 18_100, end: 18_200}
 
     #                        ######## LEVEL 3 ########                        #
     '182':
       level: 3
       farsi_name: چاشنی‌ها و سایر ترکیبات خوراکی
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1364: 30
       code: {start: 18_200, end: 18_300}
 
     #                ################ LEVEL 2 ################                #
@@ -292,49 +396,74 @@ sci_classification_1363:
     '191':
       level: 3
       farsi_name: انواع نوشابه‌ها (برای مصرف در خانه)
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 19_100, end: 19_200}
 
     #                        ######## LEVEL 3 ########                        #
     '192-193':
       level: 3
       farsi_name: غذاهای آماده (برای مصرف در خانه)
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 19_200, end: 19_400}
 
     #                        ######## LEVEL 3 ########                        #
     '194':
       level: 3
       farsi_name: نوشابه‌های مصرف شده در خارج از منزل
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 19_400, end: 19_500}
 
     #                        ######## LEVEL 3 ########                        #
     '195':
       level: 3
       farsi_name: غذاهای آماده مصرف شده (در خارج از منزل)
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 19_500, end: 19_600}
 
     #                        ######## LEVEL 3 ########                        #
     '196':
       level: 3
       farsi_name: تنقلات مصرف شده در خارج از منزل
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 19_600, end: 19_700}
 
     #                        ######## LEVEL 3 ########                        #
     '197':
       level: 3
       farsi_name: دخانیات (مصرف شده در داخل و خارج از منزل)
-      duration:
+      rural_duration:
         1363: 1
+        1369: 30
+      urban_duration:
+        1363: 2
+        1369: 30
       code: {start: 19_700, end: 19_800}
+
 
     ################################# LEVEL 1 #################################
     '2':
@@ -386,7 +515,7 @@ sci_classification_1363:
 
 sci_classification_1383:
   defaults:
-    aspects: [farsi_name]
+    aspects: [title]
     levels: [1, 2, 3, 4]
 
   items:
@@ -6494,11 +6623,11 @@ Food_NonFood:
 
 Duration:
   defaults:
-    levels: [4]
-    aspects: [duration]
-    column_names: [Duration]
+    levels: [3]
+    aspects: [rural_duration, urban_duration]
+    column_names: [Rural_Duration, Urban_Duration]
   items:
-    1363: {{original_1363}}
+    1363: {{sci_classification_1363}}
 
 
 ###############################################################################
