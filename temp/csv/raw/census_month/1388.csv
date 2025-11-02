@@ -1,3 +1,0 @@
-Column,Missing_Count,Availability_Ratio,Data_Type,Unique_Values,Frequent_Values
-address,0,100.0,integer,37045,1290112003: 1; 2000272004: 1; 2000224005: 1
-MahMorajeh,0,100.0,integer,12,"4: 3,164; 3: 3,141; 8: 3,113"

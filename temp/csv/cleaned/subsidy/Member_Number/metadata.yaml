@@ -1,9 +1,0 @@
-1363:
-  column_code: DYCOL01
-  type: UInt8
-  replace: null
-1392:
-  column_code: DYCOL01
-  type: UInt8
-  replace:
-    323: 1

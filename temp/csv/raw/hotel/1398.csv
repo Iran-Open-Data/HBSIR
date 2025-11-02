@@ -1,5 +1,0 @@
-Column,Missing_Count,Availability_Ratio,Data_Type,Unique_Values,Frequent_Values
-Address,0,100.0,integer,11453,10101011417: 17; 10907107923: 17; 11002123620: 15
-DYCOL01,0,100.0,integer,40,"111133: 4,158; 111124: 2,976; 111143: 2,622"
-DYCOL02,0,100.0,integer,6,"1: 29,174; 5: 293; 7: 212"
-DYCOL03,0,100.0,integer,249,"100000: 3,739; 200000: 2,780; 150000: 2,651"

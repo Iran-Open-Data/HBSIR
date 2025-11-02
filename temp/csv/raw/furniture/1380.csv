@@ -1,5 +1,0 @@
-Column,Missing_Count,Availability_Ratio,Data_Type,Unique_Values,Frequent_Values
-ADDRESS,0,100.0,integer,26417,102083067: 34; 24013033: 28; 15022015: 26
-COL1,0,100.0,integer,60,"45166: 24,825; 45111: 21,982; 45133: 21,805"
-COL3,0,100.0,integer,8,"1: 177,345; 6: 3,528; 2: 171"
-COL4,0,100.0,integer,930,"2000: 13,753; 1000: 12,181; 3000: 12,176"
