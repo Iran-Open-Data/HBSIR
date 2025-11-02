@@ -33,8 +33,25 @@ plot = [
 Homepage = "https://github.com/Iran-Open-Data/HBSIR"
 Repository = "https://github.com/Iran-Open-Data/HBSIR"
 
+[tool.uv]
+package = true
+
+[tool.uv.workspace]
+members = [
+  ".",
+]
+
+[tool.uv.sources]
+hbsir = { workspace = true, editable = true }
+
+[dependency-groups]
+dev = [
+  "hbsir",
+  "ruff>=0.14.0",
+]
+
 [tool.setuptools.packages.find]
-where = ["."]
+where = ["src"]
 
 [tool.setuptools.package-data]
 hbsir = ["**/*.yaml", "**/*.csv"]
