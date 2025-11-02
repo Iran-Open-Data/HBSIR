@@ -1,42 +1,99 @@
-# Installation
+# 📦 Installation
 
-We recommend installing HBSIR in a virtual environment to avoid conflicts with other Python packages.
+`HBSIR` is a Python library published on PyPI, which means it can be installed
+in several ways and used in different workflows.
 
-## Setting Up a Virtual Environment
+In this tutorial, we’ll focus on using `uv` — a fast, all-in-one tool for
+managing Python environments and packages.
 
-1. Create a virtual environment
+`uv` makes it simple to install and organize Python projects without worrying
+about system settings or dependencies.
+
+## 🧰 Installing `uv`
+
+`uv` can be installed with a single command:
+
+=== "Windows"
+
+    ```powershell
+    powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+    ```
+
+=== "Linux and macOS"
 
     ```bash
-    python -m venv venv
+    curl -LsSf https://astral.sh/uv/install.sh | sh
     ```
 
-2. Activate the virtual environment
+After installation, you can verify that it works by running:
 
-    === "Windows"
-    
-        ```powershell
-        venv\Scripts\activate
-        ```
-    
-    === "Linux/macOS"
-    
-        ```bash
-        source venv/bin/activate
-        ```
-
-For more information go to the [venv documentation](https://docs.python.org/3/library/venv.html)
-or the [Real Python tutorial on virtual environments](https://realpython.com/python-virtual-environments-a-primer/).
-
-## Installing HBSIR 
-
-1. Install the latest stable version from PyPI
-
-    ```
-    pip install hbsir
+    ```bash
+    uv --version
     ```
 
-2. Alternatively, install the development version from GitHub
+For more details, troubleshooting tips, or advanced options, visit the official
+[`uv` installation guide](https://docs.astral.sh/uv/getting-started/installation/).
 
+## 🪄 Setting Up Your Project Directory
+
+Follow these steps to create your working folder and install `HBSIR` using `uv`.
+
+1. Create a new directory for your project and move into it:
+
+    ```bash
+    mkdir my-new-project
+    cd my-new-project
     ```
-    pip install git+https://github.com/Iran-Open-Data/HBSIR.git
+
+1. Initialize a Python environment inside this folder:
+
+    ```bash
+    uv init
+    ```
+
+    This command creates a lightweight virtual environment so that your project has its own isolated Python setup.
+
+1. Add `HBSIR` to your environment:
+
+    ```bash
+    uv add hbsir
+    ```
+
+    After this step, HBSIR is ready to use in Python scripts.
+
+### 🧮 Optional: Add Notebook Support
+
+If you prefer using interactive notebooks (similar to Stata’s data browser or do-file interface), you can install one of these variants:
+
+=== "Jupyter Lab"
+
+    ```bash
+    uv add hbsir[notebook], jupyterlab
+    ```
+
+    Start Jupyter with:Start Jupyter with:
+
+    ```bash
+    uv run jupyter notebook
+    ```
+
+=== VS Code Notebook
+
+    ```bash
+    uv add hbsir[notebook]
+    ```
+
+    Then simply create a new file with the .ipynb extension inside your project folder.
+    When you open it in Visual Studio Code, the Python and Jupyter extensions will detect it automatically.
+
+=== "Marimo"
+
+    ```bash
+    uv add hbsir, marimo
+    ```
+
+    Start Marimo with:
+
+    ```bash
+    uv run marimo edit
     ```
