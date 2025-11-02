@@ -1,6 +1,8 @@
 import pandas as pd
 from pandas.api.types import CategoricalDtype
 
+from ..api import api
+
 
 def number_of_members(table: pd.DataFrame) -> pd.DataFrame:
     return (
@@ -66,3 +68,16 @@ def calculate_amount_after_1383(table: pd.DataFrame) -> pd.DataFrame:
     filt = table["Amount"].isna() & table["Price"].gt(0)
     table["Amount"] = table["Amount"].mask(filt, table["Expenditure"]/ table["Price"])
     return table
+
+
+def add_duration_before_1368(table: pd.DataFrame) -> pd.DataFrame:
+    return (
+        table
+        .pipe(api.add_attribute, name="Urban_Rural")
+        .pipe(api.add_classification, name="Duration")
+        .assign(
+            Duration=lambda df:
+            df["Rural_Duration"]
+            .where(df["Urban_Rural"].eq("Rural"), df["Urban_Duration"])
+        )
+    )
