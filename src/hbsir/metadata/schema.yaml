@@ -394,6 +394,26 @@ Equivalence_Scale:
       - Square_Root
 
 
+Schoolig_Years:
+
+  table_list:
+    members_properties
+
+  instructions:
+    - apply_function: hbsir.schema_functions.schooling_years.calculate_schooling_years
+
+    - apply_order:
+      - Year
+      - ID
+      - Member_Number
+      - Degree_Worth_Years
+      - Max_Possible_Years
+      - Is_Accelerated
+      - Years_Accelerated
+      - Schooling_Years
+      - Conservative_Schooling_Years
+
+
 food:
 
   instructions:

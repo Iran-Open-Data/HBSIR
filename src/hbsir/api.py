@@ -57,6 +57,7 @@ _Table = Literal[
     "Number_of_Members",
     "Adult_Equivalent_Scale",
     "Equivalence_Scale",
+    "Schoolig_Years",
     "Original_Expenditures",
     "Expenditures",
     "Total_Expenditure",
@@ -80,7 +81,7 @@ def __get_optional_params(local_variables: dict) -> dict:
 
 
 def load_table(
-    table_name: _Table,
+    table_name: _Table | str,
     years: _Years = "last",
     form: Literal["normalized", "cleaned", "raw"] | None = None,
     *,
@@ -169,7 +170,7 @@ def load_table(
 
 
 def load_external_data(
-    table_name: _ExternalTable,
+    table_name: _ExternalTable | str,
     data_source: Optional[_DataSource] = None,
     frequency: Optional[_Frequency] = None,
     separate_by: Optional[_SeparateBy] = None,
