@@ -1,4 +1,4 @@
-# 📦 Installation
+# Installation
 
 `HBSIR` is a Python library published on PyPI, which means it can be installed
 in several ways and used in different workflows.
@@ -9,7 +9,7 @@ managing Python environments and packages.
 `uv` makes it simple to install and organize Python projects without worrying
 about system settings or dependencies.
 
-## 🧰 Installing `uv`
+## Installing `uv`
 
 `uv` can be installed with a single command:
 
@@ -27,14 +27,14 @@ about system settings or dependencies.
 
 After installation, you can verify that it works by running:
 
-    ```bash
-    uv --version
-    ```
+```bash
+uv --version
+```
 
 For more details, troubleshooting tips, or advanced options, visit the official
 [`uv` installation guide](https://docs.astral.sh/uv/getting-started/installation/).
 
-## 🪄 Setting Up Your Project Directory
+## Setting Up Project Directory
 
 Follow these steps to create your working folder and install `HBSIR` using `uv`.
 
@@ -61,7 +61,7 @@ Follow these steps to create your working folder and install `HBSIR` using `uv`.
 
     After this step, HBSIR is ready to use in Python scripts.
 
-### 🧮 Optional: Add Notebook Support
+### Optional: Notebook Support
 
 If you prefer using interactive notebooks (similar to Stata’s data browser or do-file interface), you can install one of these variants:
 
@@ -71,13 +71,13 @@ If you prefer using interactive notebooks (similar to Stata’s data browser or 
     uv add hbsir[notebook], jupyterlab
     ```
 
-    Start Jupyter with:Start Jupyter with:
+    Start Jupyter with:
 
     ```bash
     uv run jupyter notebook
     ```
 
-=== VS Code Notebook
+=== "VS Code Notebook"
 
     ```bash
     uv add hbsir[notebook]
