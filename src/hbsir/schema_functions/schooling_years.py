@@ -19,15 +19,15 @@ import numpy as np
 # Education level to typical years mapping
 # Represents the theoretical years of schooling each degree represents
 EDUCATION_MAPPING = {
-    "Primary": 6,  # 6 years of primary education
-    "Lower_Secondary": 9,  # 3 years after primary (6+3=9)
-    "Higher_Secondary": 12,  # 3 years after lower secondary (9+3=12)
-    "Pre_University": 12,  # Same as high school completion
-    "Short_Cycle_Tertiary": 14,  # 2 years after diploma (12+2=14)
-    "Bachelors": 16,  # 4 years after diploma (12+4=16)
-    "Masters": 18,  # 2 years after bachelor's (16+2=18)
-    "Doctoral": 22,  # 4 years after master's (18+4=22)
-    "Unofficial": 3,  # Non-formal education
+    "Primary": 6,                   # 6 years of primary education
+    "Lower_Secondary": 9,           # 3 years after primary (6+3=9)
+    "Higher_Secondary": 12,         # 3 years after lower secondary (9+3=12)
+    "Pre_University": 12,           # Same as high school completion
+    "Short_Cycle_Tertiary": 14,     # 2 years after diploma (12+2=14)
+    "Bachelors": 16,                # 4 years after diploma (12+4=16)
+    "Masters": 19,                  # 2 years after bachelor's (16+3=19)
+    "Doctoral": 24,                 # 4 years after master's (19+5=24)
+    "Unofficial": 3,                # Non-formal education
 }
 
 # Starting age for formal education
