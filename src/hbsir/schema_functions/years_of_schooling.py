@@ -8,8 +8,8 @@ It handles special cases like students, primary education, and accelerated learn
 Key Concepts:
 - Degree_Worth_Years: Theoretical years the degree represents
 - Max_Possible_Years: Maximum physically possible years given age (starting at 6)
-- Schooling_Years: Main calculation considering student status
-- Conservative_Schooling_Years: Age-constrained version for reality checks
+- Years_of_Schooling: Main calculation considering student status
+- Conservative_Years_of_Schooling: Age-constrained version for reality checks
 """
 
 import pandas as pd
@@ -34,7 +34,7 @@ EDUCATION_MAPPING = {
 MIN_AGE = 6
 
 
-def calculate_schooling_years(table: pd.DataFrame) -> pd.DataFrame:
+def calculate_years_of_schooling(table: pd.DataFrame) -> pd.DataFrame:
     """
     Calculate schooling years considering education levels, age, and student status.
 
@@ -77,21 +77,21 @@ def calculate_schooling_years(table: pd.DataFrame) -> pd.DataFrame:
             Max_Possible_Years=lambda df: (df["Age"] - MIN_AGE).clip(0),
 
             # Calculate schooling years with special cases
-            Schooling_Years=lambda df: _calculate_main_schooling_years(df),
+            Years_of_Schooling=lambda df: _calculate_main_years_of_schooling(df),
 
             # Analysis flags for data quality and acceleration
             Years_Accelerated=lambda df: 
-            df["Schooling_Years"].sub(df["Max_Possible_Years"]).clip(0),
+            df["Years_of_Schooling"].sub(df["Max_Possible_Years"]).clip(0),
             Is_Accelerated=lambda df: df["Years_Accelerated"].gt(0),
 
             # Conservative estimate respecting age constraints
-            Conservative_Schooling_Years=lambda df:
-            df[["Schooling_Years", "Max_Possible_Years"]].min(axis=1),
+            Conservative_Years_of_Schooling=lambda df:
+            df[["Years_of_Schooling", "Max_Possible_Years"]].min(axis=1),
         )
     )
 
 
-def _calculate_main_schooling_years(df):
+def _calculate_main_years_of_schooling(df):
     """
     Internal function to calculate main schooling years based on education rules.
 
