@@ -2,338 +2,338 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/api/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/api/add_attribute/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/api/add_classification/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/api/add_weight/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/api/calculate_add_decile/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/api/calculate_add_percentile/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/api/calculate_add_quantile/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/api/calculate_average_table/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/api/calculate_quantile/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/api/calculate_weighted_average/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/api/load_knowledge/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/api/load_table/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/api/setup/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/api/setup_config/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/data/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/data/README.fa/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/knowledge/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/knowledge/sci_results/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/census_month/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/cloth/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/communication/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/durable/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/education/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/employment_income/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/entertainment/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/food/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/furniture/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/home/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/hotel/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/house_specifications/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/household_information/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/investment/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/medical/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/members_properties/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/miscellaneous/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/old_agricultural_self_employed_income/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/old_non_agricultural_self_employed_income/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/old_other_income/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/old_rural_house_specifications/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/old_rural_private_employment_income/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/old_rural_public_employment_income/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/old_urban_house_specifications/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/old_urban_private_employment_income/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/old_urban_public_employment_income/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/other_income/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/self_employed_income/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/subsidy/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/tobacco/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/cleaned/transportation/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/census_month/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/cloth/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/communication/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/durable/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/education/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/employment_income/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/entertainment/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/food/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/furniture/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/home/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/hotel/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/house_specifications/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/household_information/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/investment/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/medical/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/members_properties/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/miscellaneous/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/old_agricultural_self_employed_income/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/old_non_agricultural_self_employed_income/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/old_other_income/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/old_rural_house_specifications/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/old_rural_private_employment_income/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/old_rural_public_employment_income/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/old_urban_house_specifications/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/old_urban_private_employment_income/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/old_urban_public_employment_income/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/other_income/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/self_employed_income/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/subsidy/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/tobacco/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tables/raw/transportation/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/tutorials/tehran_rents/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
     <url>
          <loc>https://iran-open-data.github.io/HBSIR/usage/installation/</loc>
-         <lastmod>2025-11-02</lastmod>
+         <lastmod>2025-11-16</lastmod>
     </url>
 </urlset>
