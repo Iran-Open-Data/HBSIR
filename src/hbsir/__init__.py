@@ -8,7 +8,6 @@ years. It also enables data enrichment, aggregation, analysis and
 visualization.
 
 """
-import importlib.metadata
 
 from .api import (
     load_table,
@@ -24,7 +23,7 @@ from .api import (
 from . import calculate
 
 
-__version__ = importlib.metadata.version("hbsir")
+__version__ = "0.6.5"
 
 __all__ = [
     "load_table",
