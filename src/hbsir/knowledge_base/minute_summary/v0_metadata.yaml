@@ -1,80 +1,99 @@
 columns:
-  - Name: "Year"
+  - Name: Year
     Farsi_Name: سال
-    Table_Name: "-"
-    Farsi_Table_Name: "-"
-    Description: Reference year for the data
-    Farsi_description: 
+    Table_Name: "--"
+    Farsi_Table_Name: "--"
+    Description: |
+      The reference year for the household survey data collection.
+      Represents the Persian calendar year in which the survey was
+      conducted across multiple seasons.
+    Farsi_Description: |
+      سال مرجع برای جمع‌آوری داده‌های آمارگیری خانوار. نشان‌دهنده
+      سال تقویم هجری شمسی است که آمارگیری در طی آن انجام شده است.
 
-  - Name: "ID"
+  - Name: ID
     Farsi_Name: شناسه‌ی خانوار
-    Table_Name: "-"
-    Farsi_Table_Name: "-"
-    Description: Household identifier
-    Farsi_description: 
+    Table_Name: "--"
+    Farsi_Table_Name: "--"
+    Description: |
+      Unique household identifier that links all records from the
+      same household across different survey components. This
+      identifier remains consistent within the same year and can
+      be used to join various household-level datasets.
+    Farsi_Description: |
+      شناسه یکتای خانوار که تمامی سوابق مربوط به یک خانوار را در
+      بخش‌های مختلف آمارگیری به هم مرتبط می‌کند. این شناسه در طول سال
+      ثابت می‌ماند و برای الحاق مجموعه‌داده‌های مختلف در سطح خانوار
+      قابل استفاده است.
 
   - Name: "Season Number"
     Farsi_Name: شماره فصل
     Table_Name: household_information
     Farsi_Table_Name: مشخصات پرسش‌نامه
-    Description: Numerical representation of reference season
-    Farsi_description: نمایش عددی فصل مرجع
+    Description: |
+      Numerical code (1-4) representing the survey season within
+      the reference year. Each season corresponding to a three-month
+      period: 1=Spring, 2=Summer, 3=Autumn, 4=Winter.
+    Farsi_Description: |
+      کد عددی (۴-۱) نشان‌دهنده فصل آمارگیری در سال مرجع. هر فصل متناظر
+      با یک دوره سه‌ماهه است: ۱=بهار، ۲=تابستان، ۳=پاییز، ۴=زمستان.
 
   - Name: "Season"
     Farsi_Name: نام فصل
     Table_Name: household_information
     Farsi_Table_Name: مشخصات پرسش‌نامه
-    Description: Categorical representation of survey season
-    Farsi_description: نام فصل مرجع
+    Description: |
+      Categorical name of the survey season (Spring, Summer, Autumn, Winter).
+    Farsi_Description: نام فصل مرجع آمارگیری.
 
   - Name: "Urban Rural Code"
     Farsi_Name: کد شهری - روستایی
-    Table_Name: "-"
-    Farsi_Table_Name: "-"
+    Table_Name: "--"
+    Farsi_Table_Name: "--"
     Description: کد وضعیت شهری و روستایی
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Urban Rural"
     Farsi_Name: شهری - روستایی
     Table_Name: "-"
     Farsi_Table_Name: "-"
     Description: نام وضعیت شهری و روستایی
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Province Code"
     Farsi_Name: کد استان
     Table_Name: "-"
     Farsi_Table_Name: "-"
     Description: کد استان
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Province"
     Farsi_Name: استان
     Table_Name: "-"
     Farsi_Table_Name: "-"
     Description: نام استان به انگلیسی
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "County Code"
     Farsi_Name: کد شهرستان
     Table_Name: "-"
     Farsi_Table_Name: "-"
     Description: کد شهرستان
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "County"
     Farsi_Name: شهرستان
     Table_Name: "-"
     Farsi_Table_Name: "-"
     Description: نام شهرستان به انگلیسی
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Weight"
     Farsi_Name: وزن آمارگیری
     Table_Name: household_information
     Farsi_Table_Name: مشخصات پرسش‌نامه
     Description: "Sampling weight for household survey data"
-    Farsi_description: "وزن نمونه‌گیری داده‌های طرح آمارگیری درآمد و هزینه‌ی خانوار"
+    Farsi_Description: "وزن نمونه‌گیری داده‌های طرح آمارگیری درآمد و هزینه‌ی خانوار"
 
   # - Name: "Dwelling Type"
   #   Farsi_Name: "نوع محل سکونت"
@@ -86,7 +105,7 @@ columns:
   #     1: Apartment Unit, 
   #     2: Non-Apartment Unit (e.g., villa, traditional house), 
   #     3: Other dwellings not covered by standard categories.
-  #   Farsi_description: |
+  #   Farsi_Description: |
   #     طبقه‌بندی نوع محل سکونت.
   #     مقادیر نگاشت‌شده :
   #     ۱: واحد آپارتمانی،
@@ -98,7 +117,7 @@ columns:
     Table_Name: house_specifications
     Farsi_Table_Name: مشخصات محل سکونت
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Structure Type"
     Farsi_Name: نوع بنای محل سکونت
@@ -108,406 +127,432 @@ columns:
       Classification of dwelling construction type. Entries labeled "Other" are dynamically replaced with 
       detailed material specifications from the `Structure_Main_Materials` field. Stored as categorical data 
       to optimize memory usage and analytical efficiency.
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "House Area"
     Farsi_Name: "مساحت خانه"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Total usable living area of the dwelling in square meters"
-    Farsi_description: "مساحت کل قابل استفاده واحد مسکونی بر حسب متر مربع"
+    Farsi_Description: "مساحت کل قابل استفاده واحد مسکونی بر حسب متر مربع"
 
   - Name: "Number of Rooms"
     Farsi_Name: "تعداد اتاق‌ها"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Total count of distinct rooms, excluding bathrooms and kitchens"
-    Farsi_description: "تعداد کل اتاق‌های مجزا بدون احتساب حمام و آشپزخانه"
+    Farsi_Description: "تعداد کل اتاق‌های مجزا بدون احتساب حمام و آشپزخانه"
 
-  - Name: "Bathroom"
+  - Name: "Has Bathroom"
     Farsi_Name: "حمام"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Presence of a dedicated bathroom facility (True/False)"
-    Farsi_description: "وجود حمام اختصاصی (دارد/ندارد)"
+    Farsi_Description: "وجود حمام اختصاصی (دارد/ندارد)"
 
-  - Name: "Kitchen"
+  - Name: "Has Kitchen"
     Farsi_Name: "آشپزخانه"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Presence of a dedicated cooking area (True/False)"
-    Farsi_description: "وجود فضای اختصاصی آشپزخانه (دارد/ندارد)"
+    Farsi_Description: "وجود فضای اختصاصی آشپزخانه (دارد/ندارد)"
 
-  - Name: "Car"
+  - Name: "Has Car"
     Farsi_Name: "خودرو"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Household owns at least one automobile (True/False)"
-    Farsi_description: "مالکیت حداقل یک خودرو توسط خانوار (دارد/ندارد)"
+    Farsi_Description: "مالکیت حداقل یک خودرو توسط خانوار (دارد/ندارد)"
 
-  - Name: "Motorcycle"
+  - Name: "Has Motorcycle"
     Farsi_Name: "موتورسیکلت"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Household owns at least one motorcycle (True/False)"
-    Farsi_description: "مالکیت حداقل یک موتورسیکلت توسط خانوار (دارد/ندارد)"
+    Farsi_Description: "مالکیت حداقل یک موتورسیکلت توسط خانوار (دارد/ندارد)"
 
-  - Name: "TV"
+  - Name: "Has TV"
     Farsi_Name: "تلویزیون"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Ownership of television (combines black-and-white and color TVs)"
-    Farsi_description: "مالکیت تلویزیون (ترکیب تلویزیون سیاه سفید و رنگی)"
+    Farsi_Description: "مالکیت تلویزیون (ترکیب تلویزیون سیاه سفید و رنگی)"
 
-  - Name: "PC"
+  - Name: "Has PC"
     Farsi_Name: "رایانه شخصی"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Household owns a personal computer (True/False)"
-    Farsi_description: "مالکیت رایانه شخصی توسط خانوار (دارد/ندارد)"
+    Farsi_Description: "مالکیت رایانه شخصی توسط خانوار (دارد/ندارد)"
 
-  - Name: "Internet"
+  - Name: "Has Internet"
     Farsi_Name: "اینترنت"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Household has internet access (True/False)"
-    Farsi_description: "دسترسی خانوار به اینترنت (دارد/ندارد)"
+    Farsi_Description: "دسترسی خانوار به اینترنت (دارد/ندارد)"
 
-  - Name: "Phone"
+  - Name: "Has Phone"
     Farsi_Name: "تلفن ثابت"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Presence of a landline telephone (True/False)"
-    Farsi_description: "وجود تلفن ثابت در محل سکونت (دارد/ندارد)"
+    Farsi_Description: "وجود تلفن ثابت در محل سکونت (دارد/ندارد)"
 
-  - Name: "Cellphone"
+  - Name: "Has Cellphone"
     Farsi_Name: "تلفن همراه"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Household owns at least one mobile phone (True/False)"
-    Farsi_description: "مالکیت حداقل یک تلفن همراه توسط خانوار (دارد/ندارد)"
+    Farsi_Description: "مالکیت حداقل یک تلفن همراه توسط خانوار (دارد/ندارد)"
 
-  - Name: "Refrigerator"
+  - Name: "Has Refrigerator"
     Farsi_Name: "یخچال"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Ownership of a refrigerator (True/False)"
-    Farsi_description: "مالکیت یخچال (دارد/ندارد)"
+    Farsi_Description: "مالکیت یخچال (دارد/ندارد)"
 
-  - Name: "Freezer"
+  - Name: "Has Freezer"
     Farsi_Name: "فریزر"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Ownership of a standalone freezer (True/False)"
-    Farsi_description: "مالکیت فریزر جداگانه (دارد/ندارد)"
+    Farsi_Description: "مالکیت فریزر جداگانه (دارد/ندارد)"
 
-  - Name: "Freezer Refrigerator"
+  - Name: "Has Freezer Refrigerator"
     Farsi_Name: "یخچال فریزر"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Ownership of a combined refrigerator-freezer unit (True/False)"
-    Farsi_description: "مالکیت یخچال فریزر ترکیبی (دارد/ندارد)"
+    Farsi_Description: "مالکیت یخچال فریزر ترکیبی (دارد/ندارد)"
 
-  - Name: "Oven"
+  - Name: "Has Oven"
     Farsi_Name: "فر"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Presence of a built-in or standalone oven (True/False)"
-    Farsi_description: "وجود فر توکار یا جداگانه (دارد/ندارد)"
+    Farsi_Description: "وجود فر توکار یا جداگانه (دارد/ندارد)"
 
-  - Name: "Vacuum Cleaner"
+  - Name: "Has Vacuum Cleaner"
     Farsi_Name: "جاروبرقی"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Household owns a vacuum cleaner (True/False)"
-    Farsi_description: "مالکیت جاروبرقی توسط خانوار (دارد/ندارد)"
+    Farsi_Description: "مالکیت جاروبرقی توسط خانوار (دارد/ندارد)"
 
-  - Name: "Washing Machine"
+  - Name: "Has Washing Machine"
     Farsi_Name: "ماشین لباسشویی"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Ownership of a washing machine (True/False)"
-    Farsi_description: "مالکیت ماشین لباسشویی (دارد/ندارد)"
+    Farsi_Description: "مالکیت ماشین لباسشویی (دارد/ندارد)"
 
-  - Name: "Sewing Machine"
+  - Name: "Has Sewing Machine"
     Farsi_Name: "چرخ خیاطی"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Household owns a sewing machine (True/False)"
-    Farsi_description: "مالکیت چرخ خیاطی توسط خانوار (دارد/ندارد)"
+    Farsi_Description: "مالکیت چرخ خیاطی توسط خانوار (دارد/ندارد)"
 
-  - Name: "Dishwasher"
+  - Name: "Has Dishwasher"
     Farsi_Name: "ماشین ظرفشویی"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Presence of a dishwasher (True/False)"
-    Farsi_description: "وجود ماشین ظرفشویی (دارد/ندارد)"
+    Farsi_Description: "وجود ماشین ظرفشویی (دارد/ندارد)"
 
-  - Name: "Microwave Oven"
+  - Name: "Has Microwave Oven"
     Farsi_Name: "مایکروفر"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Ownership of a microwave oven (True/False)"
-    Farsi_description: "مالکیت مایکروفر (دارد/ندارد)"
+    Farsi_Description: "مالکیت مایکروفر (دارد/ندارد)"
 
-  - Name: "Pipe Water"
+  - Name: "Has Pipe Water"
     Farsi_Name: "آب لوله‌کشی"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Access to piped water supply (True/False)"
-    Farsi_description: "دسترسی به آب لوله‌کشی (دارد/ندارد)"
+    Farsi_Description: "دسترسی به آب لوله‌کشی (دارد/ندارد)"
 
-  - Name: "Electricity"
+  - Name: "Has Electricity"
     Farsi_Name: "برق"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Access to electricity (True/False)"
-    Farsi_description: "دسترسی به برق (دارد/ندارد)"
+    Farsi_Description: "دسترسی به برق (دارد/ندارد)"
 
-  - Name: "Natural Gas"
+  - Name: "Has Natural Gas"
     Farsi_Name: "گاز طبیعی"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Access to natural gas infrastructure (True/False)"
-    Farsi_description: "دسترسی به شبکه گاز طبیعی (دارد/ندارد)"
+    Farsi_Description: "دسترسی به شبکه گاز طبیعی (دارد/ندارد)"
 
-  - Name: "Sewerage"
+  - Name: "Has Sewerage"
     Farsi_Name: "فاضلاب"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Connection to a sewerage system (True/False)"
-    Farsi_description: "اتصال به سیستم فاضلاب (دارد/ندارد)"
+    Farsi_Description: "اتصال به سیستم فاضلاب (دارد/ندارد)"
 
-  - Name: "Evaporative AC"
+  - Name: "Has Evaporative AC"
     Farsi_Name: "کولر آبی"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Ownership of an evaporative air conditioning unit (True/False)"
-    Farsi_description: "مالکیت کولر آبی (دارد/ندارد)"
+    Farsi_Description: "مالکیت کولر آبی (دارد/ندارد)"
 
-  - Name: "Central AC"
+  - Name: "Has Central AC"
     Farsi_Name: "کولر مرکزی"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Presence of central air conditioning (True/False)"
-    Farsi_description: "وجود سیستم کولر مرکزی (دارد/ندارد)"
+    Farsi_Description: "وجود سیستم کولر مرکزی (دارد/ندارد)"
 
-  - Name: "Water Heater"
+  - Name: "Has Water Heater"
     Farsi_Name: "آبگرمکن"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Ownership of a water heater (True/False)"
-    Farsi_description: "مالکیت آبگرمکن (دارد/ندارد)"
+    Farsi_Description: "مالکیت آبگرمکن (دارد/ندارد)"
 
-  - Name: "Central Heating"
+  - Name: "Has Central Heating"
     Farsi_Name: "سیستم گرمایش مرکزی"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Presence of a centralized heating system (True/False)"
-    Farsi_description: "وجود سیستم گرمایش مرکزی (دارد/ندارد)"
+    Farsi_Description: "وجود سیستم گرمایش مرکزی (دارد/ندارد)"
 
-  - Name: "Split AC"
+  - Name: "Has Split AC"
     Farsi_Name: "کولر اسپلیت"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Ownership of a split-type air conditioner (True/False)"
-    Farsi_description: "مالکیت کولر اسپلیت (دارد/ندارد)"
+    Farsi_Description: "مالکیت کولر اسپلیت (دارد/ندارد)"
 
   - Name: "Cooking Fuel"
     Farsi_Name: "سوخت پخت‌وپز"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Primary fuel type used for cooking (e.g., gas, electricity)"
-    Farsi_description: "نوع سوخت اصلی مورد استفاده برای پخت‌وپز (مانند گاز، برق)"
+    Farsi_Description: "نوع سوخت اصلی مورد استفاده برای پخت‌وپز (مانند گاز، برق)"
 
   - Name: "Heating Fuel"
     Farsi_Name: "سوخت گرمایش"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Primary fuel type used for heating (e.g., natural gas, gasoline)"
-    Farsi_description: "نوع سوخت اصلی مورد استفاده برای گرمایش (مانند گاز طبیعی، گازوئیل)"
+    Farsi_Description: "نوع سوخت اصلی مورد استفاده برای گرمایش (مانند گاز طبیعی، گازوئیل)"
 
   - Name: "Hotwater Fuel"
     Farsi_Name: "سوخت آب گرم"
     Table_Name: house_specifications
     Farsi_Table_Name: "مشخصات محل سکونت"
     Description: "Primary fuel type used for water heating (e.g., natural gas, coal)"
-    Farsi_description: "نوع سوخت اصلی مورد استفاده برای گرم کردن آب (مانند گاز طبیعی و ذغال)"
+    Farsi_Description: "نوع سوخت اصلی مورد استفاده برای گرم کردن آب (مانند گاز طبیعی و ذغال)"
 
   - Name: "Family Size"
     Farsi_Name: "اندازه خانواده"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Total number of individuals residing in the household"
-    Farsi_description: "تعداد کل افراد ساکن در خانوار"
+    Farsi_Description: "تعداد کل افراد ساکن در خانوار"
 
   - Name: "Number of Spouses"
     Farsi_Name: "تعداد همسران"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Count of legally recognized spouses in the household"
-    Farsi_description: "تعداد همسران قانونی در خانوار"
+    Farsi_Description: "تعداد همسران قانونی در خانوار"
 
   - Name: "Number of Childs"
     Farsi_Name: "تعداد فرزندان"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Total biological/adopted children under 18 residing in household"
-    Farsi_description: "تعداد کل فرزندان زیستی/فرزندخوانده زیر ۱۸ سال ساکن در خانوار"
+    Farsi_Description: "تعداد کل فرزندان زیستی/فرزندخوانده زیر ۱۸ سال ساکن در خانوار"
 
   - Name: "Number of Active Members"
     Farsi_Name: "تعداد اعضای فعال"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Members aged 15+ currently employed or seeking employment"
-    Farsi_description: "اعضای بالای ۱۵ سال شاغل یا جویای کار"
+    Farsi_Description: "اعضای بالای ۱۵ سال شاغل یا جویای کار"
 
   - Name: "Number of Literate Members"
     Farsi_Name: "تعداد باسوادان"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Members aged 6+ who can read/write basic texts"
-    Farsi_description: "اعضای بالای ۶ سال که توانایی خواندن/نوشتن متون ساده را دارند"
+    Farsi_Description: "اعضای بالای ۶ سال که توانایی خواندن/نوشتن متون ساده را دارند"
 
   - Name: "Number of Students"
     Farsi_Name: "تعداد دانش‌آموزان"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Members currently enrolled in formal education"
-    Farsi_description: "اعضای در حال تحصیل در نظام آموزشی رسمی"
+    Farsi_Description: "اعضای در حال تحصیل در نظام آموزشی رسمی"
 
   - Name: "OECD Equivalence Scale"
     Farsi_Name: "مقیاس معادل‌سازی OECD"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Standard equivalence scale: 1.0 for first adult, 0.7 for others ≥14, 0.5 for children <14"
-    Farsi_description: "مقیاس استاندارد: ۱.۰ برای بزرگسال اول، ۰.۷ برای سایرین ≥۱۴ سال، ۰.۵ برای کودکان <۱۴ سال"
+    Farsi_Description: "مقیاس استاندارد: ۱.۰ برای بزرگسال اول، ۰.۷ برای سایرین ≥۱۴ سال، ۰.۵ برای کودکان <۱۴ سال"
 
   - Name: "OECD Modified Equivalence Scale"
     Farsi_Name: "مقیاس معادل‌سازی اصلاح‌شده OECD"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Adjusted scale: 1.0 for first adult, 0.5 for others ≥14, 0.3 for children <14"
-    Farsi_description: "مقیاس اصلاح‌شده: ۱.۰ برای بزرگسال اول، ۰.۵ برای سایرین ≥۱۴ سال، ۰.۳ برای کودکان <۱۴ سال"
+    Farsi_Description: "مقیاس اصلاح‌شده: ۱.۰ برای بزرگسال اول، ۰.۵ برای سایرین ≥۱۴ سال، ۰.۳ برای کودکان <۱۴ سال"
 
   - Name: "Square Root Equivalence Scale"
     Farsi_Name: "مقیاس معادل‌سازی ریشه دوم"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Household size adjustment using √(total members)"
-    Farsi_description: "تنظیم اندازه خانوار با استفاده از جذر تعداد اعضا"
+    Farsi_Description: "تنظیم اندازه خانوار با استفاده از جذر تعداد اعضا"
 
   - Name: "Head Sex"
     Farsi_Name: "جنسیت سرپرست"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Biological sex of household head (Male/Female)"
-    Farsi_description: "جنسیت سرپرست خانوار (مرد/زن)"
+    Farsi_Description: "جنسیت سرپرست خانوار (مرد/زن)"
 
   - Name: "Head Age"
     Farsi_Name: "سن سرپرست"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Age in years of primary household decision-maker"
-    Farsi_description: "سن بر حسب سال برای تصمیم‌گیرنده اصلی خانوار"
+    Farsi_Description: "سن بر حسب سال برای تصمیم‌گیرنده اصلی خانوار"
 
   - Name: "Head Is Literate"
     Farsi_Name: "باسوادی سرپرست"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Literacy status of household head (True/False)"
-    Farsi_description: "وضعیت سواد سرپرست خانوار (دارد/ندارد)"
+    Farsi_Description: "وضعیت سواد سرپرست خانوار (دارد/ندارد)"
 
   - Name: "Head Is Student"
     Farsi_Name: "تحصیلات سرپرست"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Current student status of household head (True/False)"
-    Farsi_description: "وضعیت تحصیل فعلی سرپرست خانوار (دارد/ندارد)"
+    Farsi_Description: "وضعیت تحصیل فعلی سرپرست خانوار (دارد/ندارد)"
 
   - Name: "Head Education Level"
     Farsi_Name: "سطح تحصیلات سرپرست"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Highest completed education level (Primary/Secondary/University)"
-    Farsi_description: "بالاترین مقطع تحصیلی تکمیل‌شده (ابتدایی/متوسطه/دانشگاهی)"
+    Farsi_Description: "بالاترین مقطع تحصیلی تکمیل‌شده (ابتدایی/متوسطه/دانشگاهی)"
+
+  - Name: "Head Years of Schooling"
+    Farsi_Name: "تعداد سال‌های تحصیل سرپرست خانوار"
+    Table_Name: "members_properties"
+    Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
+    Description: |
+      Total number of years of formal education completed by the
+      household head. Calculated based on highest completed education
+      level and standard durations in the Iranian educational system.
+    Farsi_Description: |
+      تعداد کل سال‌های تحصیل رسمی تکمیل‌شده توسط سرپرست خانوار. بر
+      اساس بالاترین مقطع تحصیلی تکمیل‌شده و مدت استاندارد هر دوره
+      در نظام آموزشی ایران محاسبه می‌شود.
 
   - Name: "Head Marital Status"
     Farsi_Name: "وضعیت تأهل سرپرست"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Legal marital status (Single/Married/Divorced/Widowed)"
-    Farsi_description: "وضعیت قانونی تأهل (مجرد/متأهل/مطلقه/بیوه)"
+    Farsi_Description: "وضعیت قانونی تأهل (مجرد/متأهل/مطلقه/بیوه)"
 
   - Name: "Head Activity Status"
     Farsi_Name: "وضعیت فعالیت سرپرست"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Labor force participation (Employed/Unemployed/Inactive)"
-    Farsi_description: "مشارکت در نیروی کار (شاغل/بیکار/غیرفعال)"
+    Farsi_Description: "مشارکت در نیروی کار (شاغل/بیکار/غیرفعال)"
 
   - Name: "Spouse Sex"
     Farsi_Name: "جنسیت همسر"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Biological sex of primary spouse (Male/Female)"
-    Farsi_description: "جنسیت همسر (مرد/زن)"
+    Farsi_Description: "جنسیت همسر (مرد/زن)"
 
   - Name: "Spouse Age"
     Farsi_Name: "سن همسر"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Age in years of primary spouse"
-    Farsi_description: "سن بر حسب سال همسر"
+    Farsi_Description: "سن بر حسب سال همسر"
 
   - Name: "Spouse Is Literate"
     Farsi_Name: "باسوادی همسر"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Literacy status of primary spouse (True/False)"
-    Farsi_description: "وضعیت سواد همسر (دارد/ندارد)"
+    Farsi_Description: "وضعیت سواد همسر (دارد/ندارد)"
 
   - Name: "Spouse Is Student"
     Farsi_Name: "تحصیلات همسر"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Current student status of primary spouse (True/False)"
-    Farsi_description: "وضعیت تحصیل فعلی همسر (دارد/ندارد)"
+    Farsi_Description: "وضعیت تحصیل فعلی همسر (دارد/ندارد)"
 
   - Name: "Spouse Education Level"
     Farsi_Name: "سطح تحصیلات همسر"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Highest completed education level of spouse"
-    Farsi_description: "بالاترین مقطع تحصیلی تکمیل‌شده توسط همسر"
+    Farsi_Description: "بالاترین مقطع تحصیلی تکمیل‌شده توسط همسر"
+
+  - Name: "Spouse Years of Schooling"
+    Farsi_Name: "تعداد سال‌های تحصیل همسر"
+    Table_Name: "members_properties"
+    Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
+    Description: |
+      Total number of years of formal education completed by the
+      primary spouse. Calculated based on highest completed education
+      level and standard durations in the Iranian educational system.
+    Farsi_Description: |
+      تعداد کل سال‌های تحصیل رسمی تکمیل‌شده توسط همسر اصلی. بر
+      اساس بالاترین مقطع تحصیلی تکمیل‌شده و مدت استاندارد هر دوره
+      در نظام آموزشی ایران محاسبه می‌شود.
 
   - Name: "Spouse Marital Status"
     Farsi_Name: "وضعیت تأهل همسر"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Legal marital status of spouse"
-    Farsi_description: "وضعیت قانونی تأهل همسر"
+    Farsi_Description: "وضعیت قانونی تأهل همسر"
 
   - Name: "Spouse Activity Status"
     Farsi_Name: "وضعیت فعالیت همسر"
     Table_Name: members_properties
     Farsi_Table_Name: "خصوصیات اجتماعی خانوار"
     Description: "Labor force participation of spouse"
-    Farsi_description: "مشارکت همسر در نیروی کار"
+    Farsi_Description: "مشارکت همسر در نیروی کار"
 
   - Name: "Net Expenditure"
     Farsi_Name: هزینه خالص
     Table_Name: All Expenditure Tables
     Farsi_Table_Name: تمامی جداول مربوط به هزینه
     Description: Total household expenditure excluding income from second-hand goods sales
-    Farsi_description: جمع تمامی هزینه‌های خانوار منهای عایدی حاصل از فروش کالای دست دوم
+    Farsi_Description: جمع تمامی هزینه‌های خانوار منهای عایدی حاصل از فروش کالای دست دوم
 
   - Name: "Gross Expenditure"
     Farsi_Name: هزینه ناخالص
     Table_Name: All Expenditure Tables
     Farsi_Table_Name: تمامی جداول مربوط به هزینه
     Description: Total household expenditure
-    Farsi_description: جمع تمامی هزینه‌های خانوار
+    Farsi_Description: جمع تمامی هزینه‌های خانوار
 
   - Name: "Food and Non-Alcoholic Beverages"
     Farsi_Name: مواد خوراکی و نوشیدنی‌های غیر الکلی
@@ -516,7 +561,7 @@ columns:
     Description: |
       Expenditures on all food items and non-alcoholic beverages. Includes raw and processed food products.
       Categorized under COICOP division 01 (codes 01.0.0 to 02.0.0).
-    Farsi_description: |
+    Farsi_Description: |
       هزینه‌های مربوط به کلیه مواد خوراکی و نوشیدنی‌های غیرالکلی
 
   - Name: "Cereals and Cereal Products"
@@ -524,154 +569,154 @@ columns:
     Table_Name: food
     Farsi_Table_Name: هزینه‌های خوراکی
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Meat"
     Farsi_Name: گوشت
     Table_Name: food
     Farsi_Table_Name: هزینه‌های خوراکی
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Milk, Other Dairy Product Excluding Butter, and Eggs"
     Farsi_Name: شیر و فرآورده‌های آن (به جز کره) و تخم پرندگان
     Table_Name: food
     Farsi_Table_Name: هزینه‌های خوراکی
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Oils, Fats and Butter"
     Farsi_Name: روغن‌ها، چربی‌ها و کره
     Table_Name: food
     Farsi_Table_Name: هزینه‌های خوراکی
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Fruits and Nuts"
     Farsi_Name: میوه‌ها و خشکبار
     Table_Name: food
     Farsi_Table_Name: هزینه‌های خوراکی
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Vegetables and Pulses"
     Farsi_Name: سبزی‌ها و حبوبات
     Table_Name: food
     Farsi_Table_Name: هزینه‌های خوراکی
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Sugar, Confectionery and Desserts"
     Farsi_Name: قند و شکر، مرباها و شیرینی‌ها
     Table_Name: food
     Farsi_Table_Name: هزینه‌های خوراکی
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Spices, Condiments and Other Food Products"
     Farsi_Name: ادویه‌ها، چاشنی‌ها و سایر ترکیبات خوراکی
     Table_Name: food
     Farsi_Table_Name: هزینه‌های خوراکی
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Tea, Coffee and Cocoa Drinks"
     Farsi_Name: چای، قهوه و کاکائو
     Table_Name: food
     Farsi_Table_Name: هزینه‌های خوراکی
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Soft Drinks"
     Farsi_Name: نوشابه‌ها
     Table_Name: food
     Farsi_Table_Name: هزینه‌های خوراکی
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Alcoholic Beverages Tobacco and Norcotics"
     Farsi_Name: نوشیدنی‌های الکلی، تنباکو و مواد مخدر
     Table_Name: tobacco
     Farsi_Table_Name:
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Clothing and Footwear"
     Farsi_Name:  پوشاک و کفش
     Table_Name: cloth
     Farsi_Table_Name:
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Housing, Water, Electricity, Gas and Other Fuels"
     Farsi_Name: مسکن، آب، فاضلاب، سوخت و روشنایی
     Table_Name: home
     Farsi_Table_Name: هزینه‌های مسکن، آب، فاضلاب، سوخت و روشنایی
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Furnishings Household Equipment and Routine Household Maintenance"
     Farsi_Name: مبلمان، لوازم خانگی، و نگهداری معمول آن‌ها
     Table_Name: furniture
     Farsi_Table_Name:
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Health"
     Farsi_Name: بهداشت و درمان
     Table_Name: medical
     Farsi_Table_Name:
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Transport"
     Farsi_Name: حمل و نقل
     Table_Name: transportation
     Farsi_Table_Name:
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Information and Communication"
     Farsi_Name: اطلاعات و ارتباطات
     Table_Name: communication
     Farsi_Table_Name:
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Recreation and Culture"
     Farsi_Name: خدمات فرهنگی و تفریحات
     Table_Name: entertainment
     Farsi_Table_Name:
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Education Services"
     Farsi_Name: آموزش و تحصیل
     Table_Name: education
     Farsi_Table_Name:
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Restaurants and Accommodation Services"
     Farsi_Name: غذاهای آماده، هتل و رستوران
     Table_Name: hotel
     Farsi_Table_Name:
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Other Commodities"
     Farsi_Name: کالاها و خدمات متفرقه
     Table_Name: miscellaneous
     Farsi_Table_Name:
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "Transfer Payments"
     Farsi_Name: انتقالات
     Table_Name: miscellaneous
     Farsi_Table_Name:
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
 
   - Name: "Income"
@@ -679,14 +724,14 @@ columns:
     Table_Name: "-"
     Farsi_Table_Name: "-"
     Description: "Total household income"
-    Farsi_description: "مجموع درآمدهای خانوار"
+    Farsi_Description: "مجموع درآمدهای خانوار"
 
   - Name: "Active Income"
     Farsi_Name: "درآمد فعال"
     Table_Name: "-"
     Farsi_Table_Name: "-"
     Description: "Income from employment/self-employment activities"
-    Farsi_description: "درآمد حاصل از فعالیت‌های شغلی/خویش‌فرمایی"
+    Farsi_Description: "درآمد حاصل از فعالیت‌های شغلی/خویش‌فرمایی"
 
   # Employment Income Breakdown
   - Name: "Employment Income"
@@ -694,35 +739,35 @@ columns:
     Table_Name: "-"
     Farsi_Table_Name: "-"
     Description: "Total earnings from formal employment"
-    Farsi_description: "کل درآمدهای حاصل از اشتغال رسمی"
+    Farsi_Description: "کل درآمدهای حاصل از اشتغال رسمی"
 
   - Name: "Cash Employment Income"
     Farsi_Name: "درآمد نقدی از اشتغال حقوق‌بگیری"
     Table_Name: employment_income
     Farsi_Table_Name: "درآمد پولی از مشاغل مزدو حقوق بگیری"
     Description: "Monetary earnings from salaried jobs (wages, salaries, bonuses)"
-    Farsi_description: "درآمدهای پولی از مشاغل حقوق‌بگیری (دستمزد، حقوق، پاداش)"
+    Farsi_Description: "درآمدهای پولی از مشاغل حقوق‌بگیری (دستمزد، حقوق، پاداش)"
 
   - Name: "Cash Private"
     Farsi_Name: "درآمد نقدی بخش خصوصی"
     Table_Name: employment_income
     Farsi_Table_Name: "درآمد پولی از مشاغل مزدو حقوق بگیری" 
     Description: "Cash earnings from private sector employment"
-    Farsi_description: "درآمدهای نقدی حاصل از اشتغال در بخش خصوصی"
+    Farsi_Description: "درآمدهای نقدی حاصل از اشتغال در بخش خصوصی"
 
   - Name: "Cash Public"
     Farsi_Name: "درآمد نقدی بخش دولتی"
     Table_Name: employment_income
     Farsi_Table_Name: "درآمد پولی از مشاغل مزدو حقوق بگیری"
     Description: "Cash earnings from government sector employment"
-    Farsi_description: "درآمدهای نقدی حاصل از اشتغال در بخش دولتی"
+    Farsi_Description: "درآمدهای نقدی حاصل از اشتغال در بخش دولتی"
 
   - Name: "Cash Cooperative"
     Farsi_Name: "درآمد نقدی بخش تعاونی"
     Table_Name: employment_income
     Farsi_Table_Name: "درآمد پولی از مشاغل مزدو حقوق بگیری"
     Description: "Cash earnings from cooperative sector employment"
-    Farsi_description: "درآمدهای نقدی حاصل از اشتغال در بخش تعاونی"
+    Farsi_Description: "درآمدهای نقدی حاصل از اشتغال در بخش تعاونی"
 
   # Non-Cash Employment Components
   - Name: "NonCash Employment Income"
@@ -730,28 +775,28 @@ columns:
     Table_Name: Expenditures
     Farsi_Table_Name: "هزینه‌ها"
     Description: "Value of non-monetary employment benefits (health insurance, company cars)"
-    Farsi_description: "ارزش مزایای غیرنقدی شغلی (بیمه درمانی، خودروی شرکتی)"
+    Farsi_Description: "ارزش مزایای غیرنقدی شغلی (بیمه درمانی، خودروی شرکتی)"
 
   - Name: "NonCash Private"
     Farsi_Name: "مزایای غیرنقدی بخش خصوصی"
     Table_Name: Expenditures
     Farsi_Table_Name: "هزینه‌ها"
     Description: "Non-cash benefits from private sector employers"
-    Farsi_description: "مزایای غیرنقدی از کارفرمایان بخش خصوصی"
+    Farsi_Description: "مزایای غیرنقدی از کارفرمایان بخش خصوصی"
 
   - Name: "NonCash Public"
     Farsi_Name: "مزایای غیرنقدی بخش دولتی"
     Table_Name: Expenditures
     Farsi_Table_Name: "هزینه‌ها"
     Description: "Non-cash benefits from government sector employers"
-    Farsi_description: "مزایای غیرنقدی از کارفرمایان بخش دولتی"
+    Farsi_Description: "مزایای غیرنقدی از کارفرمایان بخش دولتی"
 
   - Name: "NonCash Cooperative"
     Farsi_Name: "مزایای غیرنقدی بخش تعاونی"
     Table_Name: Expenditures
     Farsi_Table_Name: "هزینه‌ها"
     Description: "Non-cash benefits from cooperative sector employers"
-    Farsi_description: "مزایای غیرنقدی از کارفرمایان بخش تعاونی"
+    Farsi_Description: "مزایای غیرنقدی از کارفرمایان بخش تعاونی"
 
   # Self-Employment Income
   - Name: "Self-Employed Income"
@@ -759,179 +804,382 @@ columns:
     Table_Name: "-"
     Farsi_Table_Name: "-"
     Description: "Income from non-salaried economic activities"
-    Farsi_description: "درآمد حاصل از فعالیت‌های اقتصادی غیرحقوق‌بگیری"
+    Farsi_Description: "درآمد حاصل از فعالیت‌های اقتصادی غیرحقوق‌بگیری"
 
   - Name: "Cash Self-Employed Income"
     Farsi_Name: "درآمد نقدی خوداشتغالی"
     Table_Name: self_employed_income
     Farsi_Table_Name: "درآمد پولی از مشاغل آزاد"
     Description: "Monetary income from self-employment ventures"
-    Farsi_description: "درآمدهای پولی حاصل از فعالیت‌های خوداشتغالی"
+    Farsi_Description: "درآمدهای پولی حاصل از فعالیت‌های خوداشتغالی"
 
   - Name: "Cash Agricultural"
     Farsi_Name: "درآمد نقدی کشاورزی"
     Table_Name: self_employed_income
     Farsi_Table_Name: "درآمد پولی از مشاغل آزاد"
     Description: "Cash income from agricultural self-employment"
-    Farsi_description: "درآمدهای نقدی حاصل از خوداشتغالی در بخش کشاورزی"
+    Farsi_Description: "درآمدهای نقدی حاصل از خوداشتغالی در بخش کشاورزی"
 
   - Name: "Cash NonAgricultural"
     Farsi_Name: "درآمد نقدی غیرکشاورزی"
     Table_Name: self_employed_income
     Farsi_Table_Name: "درآمد پولی از مشاغل آزاد"
     Description: "Cash income from non-agricultural self-employment"
-    Farsi_description: "درآمدهای نقدی حاصل از خوداشتغالی در بخش غیرکشاورزی"
+    Farsi_Description: "درآمدهای نقدی حاصل از خوداشتغالی در بخش غیرکشاورزی"
 
   - Name: "Cash Home Production"
     Farsi_Name: "درآمد نقدی تولید خانگی"
     Table_Name: other_income
     Farsi_Table_Name: "درآمدهای متفرقه"
     Description: "Cash value of goods produced for household use"
-    Farsi_description: "ارزش نقدی کالاهای تولیدشده برای مصرف خانگی"
+    Farsi_Description: "ارزش نقدی کالاهای تولیدشده برای مصرف خانگی"
 
   - Name: "NonCash Self-Employed Income"
     Farsi_Name: 
     Table_Name: All Expenditure Tables
     Farsi_Table_Name: تمامی جداول مربوط به هزینه
     Description: 
-    Farsi_description:  
+    Farsi_Description:  
 
   - Name: "NonCash Agricultural"
     Farsi_Name: 
     Table_Name: All Expenditure Tables
     Farsi_Table_Name: تمامی جداول مربوط به هزینه
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "NonCash NonAgricultural"
     Farsi_Name: 
     Table_Name: All Expenditure Tables
     Farsi_Table_Name: تمامی جداول مربوط به هزینه
     Description: 
-    Farsi_description: 
+    Farsi_Description: 
 
   - Name: "NonCash HomeProduction"
     Farsi_Name: "تولید خانگی غیرنقدی"
     Table_Name: Expenditures
     Farsi_Table_Name: "هزینه‌ها"
     Description: "Imputed value of non-monetary home production"
-    Farsi_description: "ارزش ضمنی تولیدات خانگی غیرنقدی"
+    Farsi_Description: "ارزش ضمنی تولیدات خانگی غیرنقدی"
 
   - Name: "Passive Income"
     Farsi_Name: "درآمد غیرفعال"
     Table_Name: "-"
     Farsi_Table_Name: "-"
     Description: "Income from rents, transfers, and capital gains"
-    Farsi_description: "درآمد حاصل از اجاره، انتقالات و سود سرمایه"
+    Farsi_Description: "درآمد حاصل از اجاره، انتقالات و سود سرمایه"
 
   - Name: "Rent"
     Farsi_Name: "درآمد اجاره"
     Table_Name: "-"
     Farsi_Table_Name: "-"
     Description: "Total rental income from properties"
-    Farsi_description: "کل درآمد حاصل از اجاره املاک"
+    Farsi_Description: "کل درآمد حاصل از اجاره املاک"
 
   - Name: "Cash Rent"
     Farsi_Name: "درآمد نقدی اجاره"
     Table_Name: other_income
     Farsi_Table_Name: "درآمدهای متفرقه"
     Description: "Monetary rental payments received"
-    Farsi_description: "پرداخت‌های نقدی اجاره دریافت شده"
+    Farsi_Description: "پرداخت‌های نقدی اجاره دریافت شده"
 
   - Name: "NonCash ImputedRent"
     Farsi_Name: مجموع اجاره‌ی ضمنی تملک و رهن
     Table_Name: home
     Farsi_Table_Name: هزینه‌های مسکن، آب، فاضلاب، سوخت و روشنایی
     Description: Imputed rent value for owned and mortgaged properties
-    Farsi_description: مجموع ارزش اجاره ضمنی برای املاک رهنی و تملکی
+    Farsi_Description: مجموع ارزش اجاره ضمنی برای املاک رهنی و تملکی
 
   - Name: "NonCash ImputedRent Mortgage"
     Farsi_Name: "اجاره ضمنی رهن"
     Table_Name: home
     Farsi_Table_Name: "هزینه‌های مسکن، آب، فاضلاب، سوخت و روشنایی"
     Description: "Imputed rent value for mortgaged properties"
-    Farsi_description: "ارزش اجاره ضمنی برای املاک رهنی"
+    Farsi_Description: "ارزش اجاره ضمنی برای املاک رهنی"
 
   - Name: "NonCash ImputedRent Ownership"
     Farsi_Name: "اجاره ضمنی مالکیت"
     Table_Name: home
     Farsi_Table_Name: "هزینه‌های مسکن، آب، فاضلاب، سوخت و روشنایی"
     Description: "Imputed rent value for owned properties"
-    Farsi_description: "ارزش اجاره ضمنی برای املاک تملکی"
+    Farsi_Description: "ارزش اجاره ضمنی برای املاک تملکی"
 
   - Name: "Aid and Transfer"
     Farsi_Name: "کمک و انتقالات"
     Table_Name: "-"
     Farsi_Table_Name: "-"
     Description: "Total received transfers and aid"
-    Farsi_description: "کل کمک‌ها و انتقالات دریافتی"
+    Farsi_Description: "کل کمک‌ها و انتقالات دریافتی"
 
   - Name: "Cash Aid and Transfer"
     Farsi_Name: "کمک و انتقالات نقدی"
     Table_Name: other_income
     Farsi_Table_Name: "درآمدهای متفرقه"
     Description: "Monetary aid/transfers (subsidies, remittances)"
-    Farsi_description: "کمک‌ها/انتقالات نقدی (یارانه‌ها، حواله‌ها)"
+    Farsi_Description: "کمک‌ها/انتقالات نقدی (یارانه‌ها، حواله‌ها)"
 
   - Name: "Cash Aid"
     Farsi_Name: "کمک نقدی"
     Table_Name: other_income
     Farsi_Table_Name: "درآمدهای متفرقه"
     Description: "Direct monetary assistance received from governmental or non-governmental organizations (e.g., emergency relief, cash grants)"
-    Farsi_description: "کمک‌های نقدی مستقیم دریافتی از سازمان‌های دولتی یا غیردولتی (مانند کمک‌های اضطراری، جوایز نقدی)"
+    Farsi_Description: "کمک‌های نقدی مستقیم دریافتی از سازمان‌های دولتی یا غیردولتی (مانند کمک‌های اضطراری، جوایز نقدی)"
 
   - Name: "Cash Subsidy"
     Farsi_Name: "یارانه نقدی"
     Table_Name: other_income
     Farsi_Table_Name: "درآمدهای متفرقه"
     Description: "Government cash subsidies received"
-    Farsi_description: "یارانه‌های نقدی دریافتی از دولت"
+    Farsi_Description: "یارانه‌های نقدی دریافتی از دولت"
 
   - Name: "Cash Transfer"
     Farsi_Name: "انتقالات نقدی"
     Table_Name: other_income
     Farsi_Table_Name: "درآمدهای متفرقه"
     Description: "Monetary transfers from individuals/organizations (e.g., remittances, gifts)"
-    Farsi_description: "انتقالات پولی از افراد/سازمان‌ها (مانند حواله‌ها، هدایای نقدی)"
+    Farsi_Description: "انتقالات پولی از افراد/سازمان‌ها (مانند حواله‌ها، هدایای نقدی)"
 
   - Name: "NonCash Aid and Transfer"
     Farsi_Name: "کمک و انتقالات غیرنقدی"
     Table_Name: All Expenditure Tables
     Farsi_Table_Name: تمامی جداول مربوط به هزینه
     Description: "Value of non-monetary assistance (food aid, clothing donations)"
-    Farsi_description: "ارزش کمک‌های غیرنقدی (کمک‌های غذایی، اهدای پوشاک)"
+    Farsi_Description: "ارزش کمک‌های غیرنقدی (کمک‌های غذایی، اهدای پوشاک)"
 
   - Name: "NonCash Donation"
     Farsi_Name: "اهدایی غیرنقدی"
     Table_Name: All Expenditure Tables
     Farsi_Table_Name: تمامی جداول مربوط به هزینه
     Description: "In-kind charitable contributions received"
-    Farsi_description: "کمک‌های خیریه غیرنقدی دریافتی"
+    Farsi_Description: "کمک‌های خیریه غیرنقدی دریافتی"
 
   - Name: "Other Passive Income"
     Farsi_Name: "سایر درآمدهای غیرفعال"
     Table_Name: "-"
     Farsi_Table_Name: "-"
     Description: "Miscellaneous passive income not elsewhere classified"
-    Farsi_description: "درآمدهای غیرفعال متفرقه که در جای دیگر طبقه‌بندی نشده‌اند"
+    Farsi_Description: "درآمدهای غیرفعال متفرقه که در جای دیگر طبقه‌بندی نشده‌اند"
 
   - Name: "Cash Other Passive Income"
     Farsi_Name: "سایر درآمدهای نقدی غیرفعال"
     Table_Name: other_income
     Farsi_Table_Name: "درآمدهای متفرقه"
     Description: "Miscellaneous monetary passive income (e.g., lottery winnings)"
-    Farsi_description: "درآمدهای نقدی غیرفعال متفرقه (مانند برنده‌های قرعه‌کشی)"
+    Farsi_Description: "درآمدهای نقدی غیرفعال متفرقه (مانند برنده‌های قرعه‌کشی)"
 
   - Name: "Cash Interest"
     Farsi_Name: "سود نقدی"
     Table_Name: other_income
     Farsi_Table_Name: "درآمدهای متفرقه"
     Description: "Interest income from savings accounts/bonds"
-    Farsi_description: "سود دریافتی از حساب‌های پس‌انداز یا اوراق قرضه"
+    Farsi_Description: "سود دریافتی از حساب‌های پس‌انداز یا اوراق قرضه"
 
   - Name: "Cash Retirement"
     Farsi_Name: "درآمد نقدی بازنشستگی"
     Table_Name: other_income
     Farsi_Table_Name: "درآمدهای متفرقه"
     Description: "Retirement pension payments received"
-    Farsi_description: "پرداخت‌های نقدی حقوق بازنشستگی"
+    Farsi_Description: "پرداخت‌های نقدی حقوق بازنشستگی"
+
+  - Name: "Income Decile OECD"
+    Farsi_Name: "دهک درآمدی بر اساس مقیاس معادل‌سازی OECD"
+    Table_Name: "household_information"
+    Farsi_Table_Name: "مشخصات پرسش‌نامه"
+    Description: |
+      Household income decile classification using OECD equivalence
+      scale and sampling weights. Households are ranked by equivalized
+      income and divided into household-weighted deciles (1=lowest).
+    Farsi_Description: |
+      طبقه‌بندی دهک‌های درآمدی خانوار با استفاده از مقیاس معادل‌سازی
+      OECD و وزن‌های نمونه‌گیری. خانوارها بر اساس درآمد معادل‌شده
+      رتبه‌بندی و به دهک‌های وزندار خانواری تقسیم می‌شوند (۱=کمترین).
+
+  - Name: "Income Decile OECD Modified"
+    Farsi_Name: "دهک درآمدی بر اساس مقیاس معادل‌سازی اصلاح‌شده OECD"
+    Table_Name: "household_information"
+    Farsi_Table_Name: "مشخصات پرسش‌نامه"
+    Description: |
+      Household income decile classification using modified OECD
+      equivalence scale and sampling weights. Ranks households by
+      equivalized income into household-weighted deciles.
+    Farsi_Description: |
+      طبقه‌بندی دهک‌های درآمدی خانوار با استفاده از مقیاس معادل‌سازی
+      اصلاح‌شده OECD و وزن‌های نمونه‌گیری. خانوارها بر اساس درآمد
+      معادل‌شده به دهک‌های وزندار خانواری رتبه‌بندی می‌شوند.
+
+  - Name: "Gross Expenditure Decile OECD"
+    Farsi_Name: "دهک هزینه ناخالص بر اساس مقیاس معادل‌سازی OECD"
+    Table_Name: "household_information"
+    Farsi_Table_Name: "مشخصات پرسش‌نامه"
+    Description: |
+      Household expenditure decile classification using OECD
+      equivalence scale and sampling weights. Households ranked by
+      equivalized expenditure into household-weighted deciles.
+    Farsi_Description: |
+      طبقه‌بندی دهک‌های هزینه خانوار با استفاده از مقیاس معادل‌سازی
+      OECD و وزن‌های نمونه‌گیری. خانوارها بر اساس هزینه معادل‌شده
+      به دهک‌های وزندار خانواری رتبه‌بندی می‌شوند.
+
+  - Name: "Gross Expenditure Decile OECD Modified"
+    Farsi_Name: "دهک هزینه ناخالص بر اساس مقیاس معادل‌سازی اصلاح‌شده OECD"
+    Table_Name: "household_information"
+    Farsi_Table_Name: "مشخصات پرسش‌نامه"
+    Description: |
+      Household expenditure decile classification using modified OECD
+      equivalence scale and sampling weights. Ranks households by
+      equivalized expenditure into household-weighted deciles.
+    Farsi_Description: |
+      طبقه‌بندی دهک‌های هزینه خانوار با استفاده از مقیاس معادل‌سازی
+      اصلاح‌شده OECD و وزن‌های نمونه‌گیری. خانوارها بر اساس هزینه
+      معادل‌شده به دهک‌های وزندار خانواری رتبه‌بندی می‌شوند.
+
+  - Name: "Head Employment Employment Status"
+    Farsi_Name: "وضعیت اشتغال سرپرست"
+    Table_Name: "employment_income"
+    Farsi_Table_Name: "درآمد پولی اعضای شاغل خانوار از مشاغل مزد و حقوق‌گیری"
+    Description: |
+      Employment status of household head in wage employment. Indicates
+      whether the head is currently employed, unemployed, or inactive
+      in the labor market for salaried positions.
+    Farsi_Description: |
+      وضعیت اشتغال سرپرست خانوار در کار مزدبگیری. نشان می‌دهد که سرپرست
+      در حال حاضر در مشاغل حقوق‌بگیری شاغل، بیکار یا غیرفعال در بازار
+      کار است.
+
+  - Name: "Head Employment Sector"
+    Farsi_Name: "بخش اشتغال سرپرست"
+    Table_Name: "employment_income"
+    Farsi_Table_Name: "درآمد پولی اعضای شاغل خانوار از مشاغل مزد و حقوق‌گیری"
+    Description: |
+      Economic sector of household head's wage employment. Classifies
+      workplace into private, public, or cooperative sectors based on
+      employer type and ownership structure.
+    Farsi_Description: |
+      بخش اقتصادی اشتغال مزدبگیری سرپرست خانوار. محل کار را بر اساس
+      نوع کارفرما و ساختار مالکیت به بخش‌های خصوصی، دولتی یا تعاونی
+      طبقه‌بندی می‌کند.
+
+  - Name: "Head Employment Occupation Code"
+    Farsi_Name: "کد شغل سرپرست"
+    Table_Name: "employment_income"
+    Farsi_Table_Name: "درآمد پولی اعضای شاغل خانوار از مشاغل مزد و حقوق‌گیری"
+    Description: |
+      4-digit occupation code for household head's primary wage job.
+      Follows the Iranian Standard Classification of Occupations (ISCO-
+      based).
+    Farsi_Description: |
+      کد ۴ رقمی شغل سرپرست خانوار در کار مزدبگیری اصلی. از طبقه‌بندی
+      استاندارد مشاغل ایران (مبتنی بر ISCO).
+
+  - Name: "Head Employment Industry Code"
+    Farsi_Name: "کد صنعت سرپرست"
+    Table_Name: "employment_income"
+    Farsi_Table_Name: "درآمد پولی اعضای شاغل خانوار از مشاغل مزد و حقوق‌گیری"
+    Description: |
+      5-digit industry code for economic activity of household head's
+      workplace. Based on the Iranian Standard Industrial Classification
+      (ISIC-based).
+    Farsi_Description: |
+      کد ۵ رقمی صنعت برای فعالیت اقتصادی محل کار سرپرست خانوار. بر
+      اساس طبقه‌بندی استاندارد صنایع ایران (مبتنی بر ISIC).
+
+  - Name: "Head Employment Days per Week"
+    Farsi_Name: "تعداد روزهای کاری سرپرست در هفته"
+    Table_Name: "employment_income"
+    Farsi_Table_Name: "درآمد پولی اعضای شاغل خانوار از مشاغل مزد و حقوق‌گیری"
+    Description: |
+      Number of days per week the household head works in wage
+      employment.
+    Farsi_Description: |
+      تعداد روزهای کاری سرپرست خانوار در هفته در کار مزدبگیری.
+
+  - Name: "Head Employment Hours per Day"
+    Farsi_Name: "تعداد ساعات کاری سرپرست در روز"
+    Table_Name: "employment_income"
+    Farsi_Table_Name: "درآمد پولی اعضای شاغل خانوار از مشاغل مزد و حقوق‌گیری"
+    Description: |
+      Average working hours per day for household head in wage job.
+    Farsi_Description: |
+      میانگین ساعات کاری سرپرست خانوار در روز در کار مزدبگیری.
+
+  - Name: "Head Employment Income"
+    Farsi_Name: "درآمد اشتغال سرپرست"
+    Table_Name: "employment_income"
+    Farsi_Table_Name: "درآمد پولی اعضای شاغل خانوار از مشاغل مزد و حقوق‌گیری"
+    Description: |
+      Annual net income of household head from wage employment.
+      Representing total net income from salaried work over the
+      past 12 months after all deductions.
+    Farsi_Description: |
+      درآمد خالص سالانه سرپرست خانوار از کار مزدبگیری.
+       نشان‌دهنده کل درآمد خالص از کار حقوق‌بگیری در ۱۲
+      ماه گذشته پس از تمام کسورات است.
+
+  - Name: "Head Self Employed Employment Status"
+    Farsi_Name: "وضعیت اشتغال سرپرست"
+    Table_Name: "self_employed_income"
+    Farsi_Table_Name: "درآمد پولی اعضای شاغل خانوار از مشاغل آزاد"
+    Description: |
+      Employment status of household head in self-employment. Indicates
+      whether the head is currently engaged in entrepreneurial or
+      independent professional activities.
+    Farsi_Description: |
+      وضعیت اشتغال سرپرست خانوار در کار آزاد. نشان می‌دهد که سرپرست
+      در حال حاضر در فعالیت‌های کارآفرینانه یا حرفه‌ای مستقل مشغول است.
+
+  - Name: "Head Self Employed Occupation Code"
+    Farsi_Name: "کد شغل سرپرست"
+    Table_Name: "self_employed_income"
+    Farsi_Table_Name: "درآمد پولی اعضای شاغل خانوار از مشاغل آزاد"
+    Description: |
+      4-digit occupation code for household head's primary self-
+      employment activity. Follows the Iranian Standard Classification
+      of Occupations (ISCO-based).
+    Farsi_Description: |
+      کد ۴ رقمی شغل سرپرست خانوار در فعالیت کار آزاد اصلی. از طبقه‌بندی
+      استاندارد مشاغل ایران (مبتنی بر ISCO).
+
+  - Name: "Head Self Employed Industry Code"
+    Farsi_Name: "کد صنعت سرپرست"
+    Table_Name: "self_employed_income"
+    Farsi_Table_Name: "درآمد پولی اعضای شاغل خانوار از مشاغل آزاد"
+    Description: |
+      5-digit industry code for economic activity of household head's
+      self-employment business. Based on the Iranian Standard Industrial
+      Classification (ISIC-based).
+    Farsi_Description: |
+      کد ۵ رقمی صنعت برای فعالیت اقتصادی کسب‌وکار کار آزاد سرپرست
+      خانوار. بر اساس طبقه‌بندی استاندارد صنایع ایران (مبتنی بر ISIC).
+
+  - Name: "Head Self Employed Days per Week"
+    Farsi_Name: "تعداد روزهای کاری سرپرست در هفته"
+    Table_Name: "self_employed_income"
+    Farsi_Table_Name: "درآمد پولی اعضای شاغل خانوار از مشاغل آزاد"
+    Description: |
+      Number of days per week the household head works in self-
+      employment activities.
+    Farsi_Description: |
+      تعداد روزهای کاری سرپرست خانوار در هفته در فعالیت‌های کار آزاد.
+
+  - Name: "Head Self Employed Hours per Day"
+    Farsi_Name: "تعداد ساعات کاری سرپرست در روز"
+    Table_Name: "self_employed_income"
+    Farsi_Table_Name: "درآمد پولی اعضای شاغل خانوار از مشاغل آزاد"
+    Description: |
+      Average working hours per day for household head in self-
+      employment.
+    Farsi_Description: |
+      میانگین ساعات کاری سرپرست خانوار در روز در کار آزاد.
+
+  - Name: "Head Self Employed Income"
+    Farsi_Name: "درآمد کار آزاد سرپرست"
+    Table_Name: "self_employed_income"
+    Farsi_Table_Name: "درآمد پولی اعضای شاغل خانوار از مشاغل آزاد"
+    Description: |
+      Annual net profit of household head from self-employment.
+      Representing total net income from entrepreneurial activities
+      over the past 12 months after business expenses.
+    Farsi_Description: |
+      سود خالص سالانه سرپرست خانوار از کار آزاد. نشان‌دهنده کل درآمد
+      خالص از فعالیت‌های کارآفرینانه در ۱۲ ماه گذشته پس از هزینه‌های
+      کسب‌وکار.

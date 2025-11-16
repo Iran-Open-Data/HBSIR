@@ -1,13 +1,46 @@
 from pathlib import Path
 import io
 from typing import Literal, Optional
-from zipfile import ZipFile, ZIP_LZMA
+from zipfile import ZipFile, ZIP_DEFLATED
 
 import pandas as pd
 from pandas.io.formats.style import Styler
 import yaml
 
 import hbsir
+
+SUB_VERSION = 3
+
+
+POSSESSIONS = [
+    "Bathroom",
+    "Kitchen",
+    "Car",
+    "Motorcycle",
+    "TV",
+    "PC",
+    "Internet",
+    "Phone",
+    "Cellphone",
+    "Refrigerator",
+    "Freezer",
+    "Freezer_Refrigerator",
+    "Oven",
+    "Vacuum_Cleaner",
+    "Washing_Machine",
+    "Sewing_Machine",
+    "Dishwasher",
+    "Microwave_Oven",
+    "Pipe_Water",
+    "Electricity",
+    "Natural_Gas",
+    "Sewerage",
+    "Evaporative_AC",
+    "Central_AC",
+    "Water_Heater",
+    "Central_Heating",
+    "Split_AC",
+]
 
 
 def create_household_information_part(year: int) -> pd.DataFrame:
@@ -69,6 +102,8 @@ def create_house_specifications_table(year: int) -> pd.DataFrame:
             .astype("category")
         )
         .assign(TV=lambda df: df["Black_and_White_TV"] | df["Color_TV"])
+        .astype({p: "Int8" for p in POSSESSIONS})
+        .rename(columns={p: f"Has_{p}" for p in POSSESSIONS})
         .loc[
             :,
             [
@@ -77,33 +112,9 @@ def create_house_specifications_table(year: int) -> pd.DataFrame:
                 "Structure_Type",
                 "House_Area",
                 "Number_of_Rooms",
-                "Bathroom",
-                "Kitchen",
-                "Car",
-                "Motorcycle",
-                "TV",
-                "PC",
-                "Internet",
-                "Phone",
-                "Cellphone",
-                "Refrigerator",
-                "Freezer",
-                "Freezer_Refrigerator",
-                "Oven",
-                "Vacuum_Cleaner",
-                "Washing_Machine",
-                "Sewing_Machine",
-                "Dishwasher",
-                "Microwave_Oven",
-                "Pipe_Water",
-                "Electricity",
-                "Natural_Gas",
-                "Sewerage",
-                "Evaporative_AC",
-                "Central_AC",
-                "Water_Heater",
-                "Central_Heating",
-                "Split_AC",
+            ] +
+            [f"Has_{p}" for p in POSSESSIONS] +
+            [
                 "Cooking_Fuel",
                 "Heating_Fuel",
                 "Hotwater_Fuel",
@@ -138,9 +149,16 @@ def create_member_property(year: int, relationship: Literal["Head", "Spouse"] = 
     return (
         hbsir.load_table("members_properties", years=year)
         .loc[lambda df: df["Relationship"].eq(relationship)]
+        .join(
+            hbsir.load_table("Years_of_Schooling", years=year)
+                .set_index(["Year", "ID"])["Years_of_Schooling"],
+            on=["Year", "ID"],
+            how="left",
+        )
         .sort_values("Age")
         .drop_duplicates("ID", keep="last")
         .set_index(["Year", "ID"])
+        .astype({"Is_Literate": "Int8", "Is_Student": "Int8"})
         .loc[
             :,
             [
@@ -149,6 +167,7 @@ def create_member_property(year: int, relationship: Literal["Head", "Spouse"] = 
                 "Is_Literate",
                 "Is_Student",
                 "Education_Level",
+                "Years_of_Schooling",
                 "Marital_Status",
                 "Activity_Status"
             ]
@@ -304,6 +323,111 @@ def create_level1_aggs(table: pd.DataFrame) -> pd.DataFrame:
     )
 
 
+def add_decile(
+    df: pd.DataFrame,
+    on_variable: str,
+    equivalence_scale: str,
+    groupby: Optional[list[str]] = None,
+) -> pd.DataFrame:
+    col_name = f"{on_variable}_Decile_{equivalence_scale}"
+    if groupby is not None:
+        if "Urban_Rural" in groupby:
+            col_name += "_UrbanRural"
+        if "Province" in groupby:
+            col_name += "_Province"
+    return (
+        df
+        .pipe(
+            hbsir.calculate.add_decile,
+            equivalence_scale=equivalence_scale,
+            on_variable=on_variable,
+            quantile_column_name=col_name,
+        )
+    )
+
+
+def create_deciles(year: int) -> pd.DataFrame:
+    return (
+        hbsir.load_table("household_information", years=year)
+        .pipe(add_decile, "Income", "OECD")
+        .pipe(add_decile, "Income", "OECD_Modified")
+        .pipe(add_decile, "Gross_Expenditure", "OECD")
+        .pipe(add_decile, "Gross_Expenditure", "OECD_Modified")
+        .set_index(["Year", "ID"])
+        .loc[:, lambda df: [c for c in df.columns if "Decile" in c]]
+    )
+
+
+def create_employment_job_data(
+    year: int, relationship: Literal["Head", "Spouse"] = "Head"
+) -> pd.DataFrame:
+    table = (
+        hbsir.load_table("members_properties", years=year)
+        .loc[lambda df: df["Relationship"].eq(relationship)]
+        .loc[:, ["Year", "ID", "Member_Number"]]
+        .join(
+            hbsir.load_table("employment_income", years=year)
+                .set_index(["Year", "ID", "Member_Number"]),
+            on=["Year", "ID", "Member_Number"],
+            how="inner",
+        )
+        .drop(columns="Member_Number")
+        .rename(
+            columns={
+                "Annual_Net_Income": "Income",
+                "Working_Day_per_Week": "Days_per_Week",
+                "Working_Hours_per_Day": "Hours_per_Day",
+            }
+        )
+        .assign(
+            Occupation_Code=lambda df: df["Occupation_Code"].astype(str).str.pad(4, "left", "0"),
+            Industry_Code=lambda df: df["Industry_Code"].astype(str).str.pad(5, "left", "0"),
+        )
+        .sort_values(["Year", "ID", "Income"])
+        .drop_duplicates(["Year", "ID"], keep="last")
+        .set_index(["Year", "ID"])
+        .loc[:, ["Employment_Status", "Sector", "Occupation_Code", "Industry_Code", "Days_per_Week", "Hours_per_Day", "Income"]]
+        .rename(columns=lambda n: f"{relationship}_Employment_{n}")
+    )
+    assert table.index.duplicated().sum() == 0
+    return table
+
+
+def create_self_employed_job_data(
+    year: int, relationship: Literal["Head", "Spouse"] = "Head"
+) -> pd.DataFrame:
+    table = (
+        hbsir.load_table("members_properties", years=year)
+        .loc[lambda df: df["Relationship"].eq(relationship)]
+        .loc[:, ["Year", "ID", "Member_Number"]]
+        .join(
+            hbsir.load_table("self_employed_income", years=year)
+                .set_index(["Year", "ID", "Member_Number"]),
+            on=["Year", "ID", "Member_Number"],
+            how="inner",
+        )
+        .drop(columns="Member_Number")
+        .rename(
+            columns={
+                "Profit": "Income",
+                "Working_Day_per_Week": "Days_per_Week",
+                "Working_Hours_per_Day": "Hours_per_Day",
+            }
+        )
+        .assign(
+            Occupation_Code=lambda df: df["Occupation_Code"].astype(str).str.pad(4, "left", "0"),
+            Industry_Code=lambda df: df["Industry_Code"].astype(str).str.pad(5, "left", "0"),
+        )
+        .sort_values(["Year", "ID", "Income"])
+        .drop_duplicates(["Year", "ID"], keep="last")
+        .set_index(["Year", "ID"])
+        .loc[:, ["Employment_Status", "Occupation_Code", "Industry_Code", "Days_per_Week", "Hours_per_Day", "Income"]]
+        .rename(columns=lambda n: f"{relationship}_Self_Employed_{n}")
+    )
+    assert table.index.duplicated().sum() == 0
+    return table
+
+
 def create_tables(year: int) -> list[pd.DataFrame]:
     income_table = create_income_table(year)
     income_level3_aggs = create_level3_aggs(income_table)
@@ -324,6 +448,9 @@ def create_tables(year: int) -> list[pd.DataFrame]:
         income_level3_aggs,
         income_level2_aggs,
         income_level1_aggs,
+        create_deciles(year),
+        create_employment_job_data(year),
+        create_self_employed_job_data(year),
     ]
     return tables
 
@@ -331,6 +458,7 @@ def create_tables(year: int) -> list[pd.DataFrame]:
 def create_summary_table(tables: list[pd.DataFrame], columns: Optional[list[str]] = None) -> pd.DataFrame:
     summary_table = (
         pd.concat(tables, axis="columns", join="outer")
+        .dropna(subset=["Weight"])
         .sort_index()
         .reset_index()
     )
@@ -443,6 +571,27 @@ def create_styled_table(tables: list[pd.DataFrame], columns: Optional[list[str]]
                 "border": "1px solid #4F6228",
             }
         )
+        .set_properties(
+            tables[13].columns,
+            **{
+                "background-color": "#F7C7AC",
+                "border": "1px solid #BE5014",
+            }
+        )
+        .set_properties(
+            tables[14].columns,
+            **{
+                "background-color": "#E49EDD",
+                "border": "1px solid #782170",
+            }
+        )
+        .set_properties(
+            tables[15].columns,
+            **{
+                "background-color": "#F2CEEF",
+                "border": "1px solid #D86DCD",
+            }
+        )
     )
 
     return styled_df
@@ -550,6 +699,27 @@ def create_styled_metadata(tables: list[pd.DataFrame], metadata: pd.DataFrame) -
                 "border": "1px solid #4F6228",
             }
         )
+        .set_properties(
+            pd.IndexSlice[metadata["Name"].isin(tables[13].columns), slice(None)], # type: ignore
+            **{
+                "background-color": "#F7C7AC",
+                "border": "1px solid #BE5014",
+            }
+        )
+        .set_properties(
+            pd.IndexSlice[metadata["Name"].isin(tables[14].columns), slice(None)], # type: ignore
+            **{
+                "background-color": "#E49EDD",
+                "border": "1px solid #782170",
+            }
+        )
+        .set_properties(
+            pd.IndexSlice[metadata["Name"].isin(tables[15].columns), slice(None)], # type: ignore
+            **{
+                "background-color": "#F2CEEF",
+                "border": "1px solid #D86DCD",
+            }
+        )
     )
 
     return styled_df
@@ -565,7 +735,7 @@ def write_excel(year: int) -> None:
         table.columns = table.columns.map(lambda n: n.replace("_", " "))
     styled_data = create_styled_table(tables, columns=columns)
     styled_metadata = create_styled_metadata(tables, metadata_table)
-    with pd.ExcelWriter(f"Minute_Summary_{year}_V.0.1.xlsx") as excel_writer:
+    with pd.ExcelWriter(f"Iran_HBS_Summary_{year}_V.0.{SUB_VERSION}.xlsx") as excel_writer:
         styled_data.to_excel(
             excel_writer,
             sheet_name="Data",
@@ -596,11 +766,11 @@ def write_csv(year: int) -> None:
         freeze_panes=(1, 0),
     )
     data_buffer = io.BytesIO()
-    summary_table.to_csv(data_buffer, index=False)
+    summary_table.to_csv(data_buffer, index=False, encoding="iso-8859-1")
     with ZipFile(
-        f"Minute_Summary_{year}_V.0.1.zip",
+        f"Iran_HBS_Summary_{year}_V.0.{SUB_VERSION}.zip",
         mode="w",
-        compression=ZIP_LZMA,
+        compression=ZIP_DEFLATED,
     ) as zip_file:
         zip_file.writestr("Metadata.xlsx", metadata_buffer.getvalue())
         zip_file.writestr("Data.csv", data_buffer.getvalue())
