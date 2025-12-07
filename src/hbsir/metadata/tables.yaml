@@ -1864,8 +1864,8 @@ INCOME_ITEMS:
       "x02": null
       "x03": null
       "x04": null
-      "x0000": '0'
-      "x000": '0'
+      "x0000": null
+      "x000": null
 
   income_employment_status: &income_employment_status
     new_name: Employment_Status
@@ -1890,13 +1890,13 @@ INCOME_ITEMS:
     type: category
     categories:
       1369:
-        '4': Employer
-        '5': Independent_Worker
-        '6': Family_Worker
-      1398:
         '1': Employer
         '2': Independent_Worker
         '3': Family_Worker
+      1391:
+        '4': Employer
+        '5': Independent_Worker
+        '6': Family_Worker
     replace:
       1396: null
       1397: {'1': null}
@@ -1905,7 +1905,7 @@ INCOME_ITEMS:
   income_industry_code: &income_industry_code
     new_name: Industry_Code
     type: UInt32
-    replace: {"x0000": 0, "x000": 0}
+    replace: {"x0000": null, "x000": null}
 
   income_sector: &income_sector
     new_name: "Sector"
@@ -2118,9 +2118,15 @@ self_employed_income:
     DYCOL03: *income_occupation_code
     DYCOL04: *income_industry_code
     DYCOL05: *income_employment_type
-    DYCOL06: *income_is_agricultural
-    DYCOL07: *income_working_hours_per_day
-    DYCOL08: *income_working_day_per_week
+    DYCOL06:
+      1383: *income_working_hours_per_day
+      1385: *income_is_agricultural
+    DYCOL07:
+      1383: *income_working_day_per_week
+      1385: *income_working_hours_per_day
+    DYCOL08:
+      1383: *income_is_agricultural
+      1385: *income_working_day_per_week
     DYCOL09: *income_wage_cost
     DYCOL10: *income_cost_of_sales
     DYCOL11: *income_other_operating_costs

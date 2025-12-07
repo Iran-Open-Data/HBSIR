@@ -6533,6 +6533,30 @@ sci_coicop_1383: &sci_coicop_1383
       farsi_name: انواع سوخت و روان‌ساز برای وسایل حمل و نقل شخصی
       code: {start: 72_200, end: 72_300}
 
+    '0722_11':
+      level: 5
+      title: Petrol
+      farsi_name: بنزین
+      code: 72_211
+
+    '0722_12':
+      level: 5
+      title: Diesel
+      farsi_name: گازوییل
+      code: 72_212
+
+    '0722_13':
+      level: 5
+      title: 
+      farsi_name: گاز مصرفی اتوموبیل
+      code: 72_213
+
+    '0722_14':
+      level: 5
+      title: 
+      farsi_name: انواع روغن موتور، روغن ترمز، واسکازین، ضد یخ، گریس و مکمل‌های سوختی
+      code: 72_214
+
 
     #                        ######## LEVEL 3 ########                        #
     '0723':
