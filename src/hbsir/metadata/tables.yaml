@@ -80,6 +80,7 @@ table_availability:
 default_settings:
   # error, drop, keep
   missings: error
+  encoding: utf8
 
 
 GLOBAL_ITEMS:
