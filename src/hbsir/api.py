@@ -57,7 +57,7 @@ _Table = Literal[
     "Number_of_Members",
     "Adult_Equivalent_Scale",
     "Equivalence_Scale",
-    "Schoolig_Years",
+    "Years_of_Schooling",
     "Original_Expenditures",
     "Expenditures",
     "Total_Expenditure",
