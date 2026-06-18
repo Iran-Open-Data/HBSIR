@@ -6535,25 +6535,29 @@ sci_coicop_1383: &sci_coicop_1383
 
     '0722_11':
       level: 5
+      label: petrol
       title: Petrol
       farsi_name: بنزین
       code: 72_211
 
     '0722_12':
       level: 5
+      label: diesel
       title: Diesel
       farsi_name: گازوییل
       code: 72_212
 
     '0722_13':
       level: 5
-      title: 
+      label: cng
+      title: CNG
       farsi_name: گاز مصرفی اتوموبیل
       code: 72_213
 
     '0722_14':
       level: 5
-      title: 
+      label: lubricants_coolants_and_other_functional_fluids
+      title: Lubricants, coolants, and other functional fluids
       farsi_name: انواع روغن موتور، روغن ترمز، واسکازین، ضد یخ، گریس و مکمل‌های سوختی
       code: 72_214
 
