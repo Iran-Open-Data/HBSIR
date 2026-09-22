@@ -202,3 +202,7 @@
   files:
     - name: data.rar
       original: https://amar.org.ir/Portals/0/Statistics/rawdata_hazinedaramad_1403-14040617123450.zip
+
+1404:
+  files:
+    - name: data.rar
