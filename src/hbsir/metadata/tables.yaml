@@ -42,6 +42,7 @@
 
 # The range of years during which the table is available
 table_availability:
+  weight:                                                         {start: 1404}
   household_information:                                          {start: 1387}
   members_properties:                                             {start: 1363}
   house_specifications:                                           {start: 1369}
@@ -98,6 +99,22 @@ GLOBAL_ITEMS:
 ###############################################################################
 ##                      - - -    General Tables   - - -                      ##
 ###############################################################################
+
+
+weight:
+
+  settings:
+    missings: drop
+
+  file_code:
+    1403: null
+    1404: "W[RU]*[0-9][0-9].csv"
+
+  columns:
+    ADDRESS: *global_address
+    WEIGHT:
+      new_name: Weight
+      type: unsigned
 
 
 household_information:

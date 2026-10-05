@@ -50,16 +50,19 @@ household_information:
     - apply_function:
         1387: hbsir.schema_functions.standard_tables.adjust_month
         1400: null
+        1404: hbsir.schema_functions.standard_tables.adjust_month
 
     - apply_function:
         1387: hbsir.schema_functions.standard_tables.create_season_number
         1396: null
+        1404: hbsir.schema_functions.standard_tables.create_season_number
 
     - apply_function: hbsir.schema_functions.standard_tables.season_name
 
     - apply_function:
         1387: hbsir.api.add_weight
         1396: null
+        1404: hbsir.api.add_weight
 
     - apply_order:
         1387:
@@ -895,6 +898,12 @@ investment:
           - Expenditure
           - Secondhand_Sale
 
+weight:
+
+  instructions:
+
+    - add_year
+
 
 Weight:
 
@@ -905,6 +914,8 @@ Weight:
       - external.hbsir_weights
     1396:
       - household_information
+    1404:
+      - weight
 
   instructions:
 
